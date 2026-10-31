@@ -21,6 +21,12 @@ def main():
         task('T-MACHINE-AFFINE','Transport the archived affine implementation to the Atlas representation','Completed by explicit bijection, action and composition agreement.','Axiom-audited bridge theorems.','Duodenary/Bridges/Machine.lean',['CORE'],'implementation_reconciliation',status='KERNEL_VERIFIED')
     if json.loads((ROOT/'registry/external/openai/RECONCILIATION.json').read_text())['status']=='RESOLVED':
         nodes['T-CATALOGUE-AUDIT']['status']='IMPLEMENTED';nodes['T-CATALOGUE-AUDIT']['verification_logs']=['registry/external/openai/RECONCILIATION.json'];nodes['T-CATALOGUE-AUDIT']['completion_evidence']='721 unique primary paths; CAT(0) parser regression corrected.'
+    publication=ROOT/'publications/releases/foundation-publication.json'
+    if publication.exists():
+        receipt=json.loads(publication.read_text())
+        if receipt.get('push_returncode')==0 and receipt.get('remote_sha_verified') is True:
+            nodes['T-RELEASE']['status']='RELEASED'
+            nodes['T-RELEASE']['verification_logs']=['publications/releases/foundation-publication.json']
     node('SOURCE-OAI-TOOLCHAIN','SOURCE','BLOCKED',required='Lean 4.34.1 is installed; external locked dependencies and a compatible guarded Comparator environment are still required. See VERIFIER_READINESS.json.')
     papers=json.loads((ROOT/'registry/external/openai/manuscripts.json').read_text())
     for paper in papers:

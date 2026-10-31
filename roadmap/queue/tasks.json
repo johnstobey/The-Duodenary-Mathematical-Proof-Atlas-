@@ -42,21 +42,6 @@
     ]
   },
   {
-    "id": "T-RELEASE",
-    "objective": "Publish the selected audited candidate",
-    "score": 77.0,
-    "runnable": true,
-    "prerequisites": [
-      "CORE",
-      "OWNER-DISCLOSURE"
-    ],
-    "next_action": "Run scoped checks, publish safe foundation, and compare remote SHA.",
-    "acceptance_test": "Explicit approval, license audit, current build and source-scope checks.",
-    "output_artifacts": [
-      "publications/RELEASE_RECORD.json"
-    ]
-  },
-  {
     "id": "T-DPA-008",
     "objective": "Goldbach conjecture: audit exact statement and proposed bridge",
     "score": 74.0,

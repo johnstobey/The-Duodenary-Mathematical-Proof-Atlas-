@@ -18,4 +18,7 @@ class EvidenceControls(unittest.TestCase):
         self.assertEqual(len({(x%6,x%2) for x in range(12)}),6)
         self.assertNotEqual(12%144,0)
         self.assertNotEqual(min(1,11),min(5,7))
+    def test_published_task_is_not_rescheduled(self):
+        graph={'nodes':[{'id':'release','type':'TASK','status':'RELEASED'}],'edges':[]}
+        self.assertEqual(load('roadmap').schedule(graph),[])
 if __name__=='__main__':unittest.main()

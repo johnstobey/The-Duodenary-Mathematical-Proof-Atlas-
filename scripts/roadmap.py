@@ -18,7 +18,7 @@ def schedule(graph):
         for n in ready:
             order.append(n);del todo[n]
         for p in todo.values():p.difference_update(ready)
-    done={'KERNEL_VERIFIED','IMPLEMENTED','SOURCE_CHECKED'}
+    done={'KERNEL_VERIFIED','IMPLEMENTED','SOURCE_CHECKED','RELEASED'}
     queue=[]
     for n in order:
         item=nodes[n]
