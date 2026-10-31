@@ -1,0 +1,10 @@
+{
+  "id": "DPA-FOUNDATION-0.1.0",
+  "theorems": 32,
+  "baseline": "f77c7e2",
+  "status": "VALIDATED_FOR_AUTHORIZED_PUSH",
+  "authorization": "Current owner DPA-BUILD-04, items 2\u20133 and 10",
+  "scope": "public-safe foundation; research portfolio remains open",
+  "excluded_manifest": "verification/disclosure-audits/EXCLUSIONS.json",
+  "reproduction": "verification/builds/build04-foundation/RUN.json"
+}

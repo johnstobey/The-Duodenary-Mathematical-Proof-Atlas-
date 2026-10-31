@@ -28,7 +28,7 @@ def main():
         b=git('cat-file','blob',oid);blobs.append(oid)
         for label,pattern in PATTERNS.items():
             if re.search(pattern,b):issues.append({'blob':oid,'issue':label})
-    report={'scan_status':'PASS_PATTERN_SCAN_ONLY' if not issues else 'FAILED','candidate_files_scanned':len(checked),'reachable_history_blobs_scanned':len(blobs),'issues':issues,'limitations':['Pattern matching is not a complete secrecy or personal-data audit.','All third-party rights and selected private-derived disclosures require owner review.','No approval, visibility change, public push, tag or release is performed.'],'publication_gate':'BLOCKED_PENDING_OWNER_DISCLOSURE_AND_LICENSE_DECISIONS'}
+    report={'scan_status':'PASS_PATTERN_SCAN_ONLY' if not issues else 'FAILED','candidate_files_scanned':len(checked),'reachable_history_blobs_scanned':len(blobs),'issues':issues,'limitations':['Pattern matching is not a complete secrecy or personal-data audit.','All third-party rights and selected private-derived disclosures require owner review.','No approval, visibility change, public push, tag or release is performed.'],'publication_gate':('AUTHORIZATION_RECORDED' if json.loads((ROOT/'registry/governance.json').read_text()).get('publication_approval') else 'BLOCKED_PENDING_OWNER_APPROVAL')}
     out=ROOT/'verification/disclosure-audits/SCAN.json';out.parent.mkdir(parents=True,exist_ok=True);out.write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2));return bool(issues)
 if __name__=='__main__':sys.exit(main())

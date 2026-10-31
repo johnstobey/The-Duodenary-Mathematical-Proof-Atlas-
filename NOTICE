@@ -1,0 +1,7 @@
+Duodenary Mathematical Proof Atlas
+New Atlas implementation and owner-supplied release documents: copyright 2026 project contributors, licensed under Apache-2.0.
+Human research direction and source materials: John Tobey.
+Agent implementation/formalization: OpenAI Codex, recorded in verification records.
+External OpenAI catalogue metadata: OpenAI, Apache-2.0; source pin and original license retained.
+Mathlib: leanprover-community, Apache-2.0, referenced as a locked dependency.
+No license grant is made for excluded private archives, external primary texts, musical scores, or other third-party material.

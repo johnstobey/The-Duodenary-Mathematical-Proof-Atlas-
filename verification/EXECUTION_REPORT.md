@@ -1,3 +1,5 @@
+> Historical DPA-BUILD-03 checkpoint at f77c7e2. Current DPA-BUILD-04 authorization and publication supersede its pending-release state; original findings are preserved below.
+
 # DPA-BUILD-03 execution checkpoint
 
 This is an executed, locally verified **partial** candidate, not certification that every contract obligation is complete. Publication and constitutional adoption have not occurred.

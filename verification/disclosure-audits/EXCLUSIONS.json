@@ -1,0 +1,41 @@
+[
+  {
+    "item": "duodenary_proof_atlas_AGENT_HANDOFF_20261031.zip",
+    "sha256": "25f60d2b2726696895bd20cc968eba93d33251dec1b529323d413f4d7b3eae1b",
+    "exclusion": "Raw source attachment retained privately: identifying personal material and/or extended third-party literary/score content; safe metadata and analytical derivatives are included.",
+    "retained": true,
+    "affects_math_release": false
+  },
+  {
+    "item": "ONTOLOGICAL ARTIFACTS.pdf",
+    "sha256": "630bed3608a2a39299613e24c7cc74e9b1e19d7fd7c30794e136f2a10e8e226e",
+    "exclusion": "Raw source attachment retained privately: identifying personal material and/or extended third-party literary/score content; safe metadata and analytical derivatives are included.",
+    "retained": true,
+    "affects_math_release": false
+  },
+  {
+    "item": "THE_GEOMETRIC_IMPERATIVE_REPORT.docx",
+    "sha256": "b2aadcb27c0b5199882b09e3a01a106cf93c0d904ff1d41c66ac1f32eb4f69e5",
+    "exclusion": "Raw source attachment retained privately: identifying personal material and/or extended third-party literary/score content; safe metadata and analytical derivatives are included.",
+    "retained": true,
+    "affects_math_release": false
+  },
+  {
+    "item": "alien-math-decoded-private- raw checkout and history bundles",
+    "exclusion": "Explicitly private archive; includes private research, source narratives and original histories. No public migration of raw code/history in foundation.",
+    "retained": true,
+    "affects_math_release": false
+  },
+  {
+    "item": "Machine/dual-ring-research raw research and embedded source assets",
+    "exclusion": "Mixed provenance and unlicensed third-party primary material; mathematical interfaces and verified comparisons may be released individually after per-file review.",
+    "retained": true,
+    "affects_math_release": false
+  },
+  {
+    "item": "Private full document extracts, original source inventories and raw model conversation records",
+    "exclusion": "Contain verbatim private/third-party material and identifying paths; public hashes, bounded analytical records and theorem provenance retained.",
+    "retained": true,
+    "affects_math_release": false
+  }
+]

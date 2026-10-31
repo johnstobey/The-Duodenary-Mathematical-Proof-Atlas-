@@ -1,0 +1,1596 @@
+{
+  "as_of": "2026-10-31",
+  "count": 42,
+  "caveat": "Screening registry; many non-Clay statements require authoritative original-paper locator and date verification. No claimed proofs.",
+  "entries": [
+    {
+      "id": "DPA-011",
+      "name": "Collatz conjecture",
+      "discipline": "Dynamical systems",
+      "exact_mathematical_statement": "For every n∈ℕ with n>0, iteration T(n)=n/2 if n even, (3n+1)/2 if n odd eventually reaches 1.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "12-state quotient of accelerated maps",
+      "required_mathematical_bridge": "12-state quotient of accelerated maps",
+      "missing_proof_obligations": [
+        "Establish a strictly descending well-founded invariant not lost under quotienting.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-013",
+      "name": "Perfect cuboid",
+      "discipline": "Diophantine geometry",
+      "exact_mathematical_statement": "Do positive integers a,b,c exist for which a²+b²,a²+c²,b²+c²,a²+b²+c² are all perfect squares?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "four-by-three quadratic compatibility",
+      "required_mathematical_bridge": "four-by-three quadratic compatibility",
+      "missing_proof_obligations": [
+        "Build obstruction via a finite parity and mod-12 covering combined with higher local data.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-016",
+      "name": "Graceful tree labeling",
+      "discipline": "Combinatorics",
+      "exact_mathematical_statement": "For every tree T with m edges, is there an injective f:V(T)→{0,…,m} such that {|f(u)−f(v)|:uv∈E(T)}={1,…,m}?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "cyclic edge-difference designs",
+      "required_mathematical_bridge": "cyclic edge-difference designs",
+      "missing_proof_obligations": [
+        "Prove an extendable C12-equivariant graceful labeling theorem for a new infinite tree family.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-018",
+      "name": "Union-closed sets conjecture",
+      "discipline": "Combinatorics",
+      "exact_mathematical_statement": "For every finite nonempty union-closed family F of distinct finite sets, some element belongs to at least |F|/2 members.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "finite lattice actions and orbit counting",
+      "required_mathematical_bridge": "finite lattice actions and orbit counting",
+      "missing_proof_obligations": [
+        "Establish orbit-weight inequality that is not already implied by known averaging methods.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-019",
+      "name": "Caccetta–Häggkvist",
+      "discipline": "Graph theory",
+      "exact_mathematical_statement": "Every directed graph on n vertices of minimum outdegree ≥r contains a directed cycle of length at most ⌈n/r⌉.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "cyclic walk and antipodal relation",
+      "required_mathematical_bridge": "cyclic walk and antipodal relation",
+      "missing_proof_obligations": [
+        "Construct a short-cycle witness from an invariant orbit decomposition.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-020",
+      "name": "Reconstruction conjecture",
+      "discipline": "Graph theory",
+      "exact_mathematical_statement": "Every finite simple graph with at least three vertices is determined up to isomorphism by its multiset of vertex-deleted subgraphs.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "reconstruction under C12 actions",
+      "required_mathematical_bridge": "reconstruction under C12 actions",
+      "missing_proof_obligations": [
+        "Prove reconstruction for a novel class of graphs with faithful C12 symmetry.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-038",
+      "name": "Rota basis conjecture",
+      "discipline": "Matroid theory",
+      "exact_mathematical_statement": "Given n disjoint bases of an n-rank matroid, can their elements be arranged in an n×n array with each row the given basis and each column also a basis?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "4×3 array transversal maps",
+      "required_mathematical_bridge": "4×3 array transversal maps",
+      "missing_proof_obligations": [
+        "Prove a new rank-12 restricted matroid class, then lift.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-039",
+      "name": "Alon–Tarsi Latin square conjecture",
+      "discipline": "Combinatorics",
+      "exact_mathematical_statement": "For every even n, the number of even Latin squares of order n differs from the number of odd Latin squares of order n.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "order-12 parity involutions",
+      "required_mathematical_bridge": "order-12 parity involutions",
+      "missing_proof_obligations": [
+        "Construct non-canceling orbit counts under an explicit C12 action.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-040",
+      "name": "Hadamard matrix conjecture",
+      "discipline": "Combinatorics",
+      "exact_mathematical_statement": "For every positive integer n, a Hadamard matrix of order 4n exists: H∈{−1,1}^{4n×4n} and HHᵀ=4nI.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "4×3 decompositions and Kronecker products",
+      "required_mathematical_bridge": "4×3 decompositions and Kronecker products",
+      "missing_proof_obligations": [
+        "Establish a new family of Hadamard designs from compatible C12 difference sets.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-041",
+      "name": "Lonely runner conjecture",
+      "discipline": "Diophantine approximation",
+      "exact_mathematical_statement": "For k runners with distinct nonzero integer speeds starting together on a unit circle, each runner at some time has distance at least 1/k from every other runner.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "circle translations and group quotients",
+      "required_mathematical_bridge": "circle translations and group quotients",
+      "missing_proof_obligations": [
+        "Establish an exact finite cyclic approximation with uniform lift to real time.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 87.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 4,
+        "incremental_formalization": 5,
+        "original_discovery": 4,
+        "cross_problem_leverage": 5,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "high",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-014",
+      "name": "Hadwiger conjecture",
+      "discipline": "Graph theory",
+      "exact_mathematical_statement": "For each integer t≥1, every graph with no K_t minor is (t−1)-colorable.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "C12-equivariant graph quotient",
+      "required_mathematical_bridge": "C12-equivariant graph quotient",
+      "missing_proof_obligations": [
+        "Prove chromatic bound is preserved by a specified minor-safe quotient.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-015",
+      "name": "Barnette conjecture",
+      "discipline": "Graph theory",
+      "exact_mathematical_statement": "Every 3-connected cubic bipartite planar graph has a Hamiltonian cycle.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/openai/math",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_requires_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/openai/math",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "4×3 cubic planar face incidence",
+      "required_mathematical_bridge": "4×3 cubic planar face incidence",
+      "missing_proof_obligations": [
+        "Construct a transformation preserving cubicity, planarity, bipartiteness and Hamiltonicity.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-021",
+      "name": "Sidon set extremal problem",
+      "discipline": "Additive combinatorics",
+      "exact_mathematical_statement": "Determine the sharp asymptotic maximum size F₂(n) of A⊆{1,…,n} such that a+b=c+d with a≤b,c≤d in A implies {a,b}={c,d}.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "partially_solved",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "difference-set orbit decompositions",
+      "required_mathematical_bridge": "difference-set orbit decompositions",
+      "missing_proof_obligations": [
+        "Obtain a new second-order bound via periodic packing.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-022",
+      "name": "Kakeya conjecture",
+      "discipline": "Harmonic analysis",
+      "exact_mathematical_statement": "Every Kakeya set in ℝⁿ has Hausdorff dimension n for n≥2.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "12-direction partitions, but continuous directional uniformity crucial",
+      "required_mathematical_bridge": "12-direction partitions, but continuous directional uniformity crucial",
+      "missing_proof_obligations": [
+        "Prove uniform estimates over all rotations, not only 12 directions.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-023",
+      "name": "Stein restriction conjecture",
+      "discipline": "Harmonic analysis",
+      "exact_mathematical_statement": "Determine sharp Lᵖ(ℝⁿ)→Lᵠ(S^{n−1}) boundedness of Fourier restriction at the conjectured exponents, in the standard sphere formulation.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "angular packet decompositions",
+      "required_mathematical_bridge": "angular packet decompositions",
+      "missing_proof_obligations": [
+        "Prove uniform angular decoupling estimates linking finite cyclic sectors to all directions.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-024",
+      "name": "Local smoothing conjecture",
+      "discipline": "Harmonic analysis",
+      "exact_mathematical_statement": "The conjectured sharp local-smoothing Sobolev gain for Fourier integral operators holds over the admissible Lᵖ exponent ranges in each dimension.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "sector-based microlocal decompositions",
+      "required_mathematical_bridge": "sector-based microlocal decompositions",
+      "missing_proof_obligations": [
+        "Verify exact endpoint and operator hypotheses of the announced auxiliary-PDE proof.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-025",
+      "name": "Exponential Time Hypothesis",
+      "discipline": "Complexity",
+      "exact_mathematical_statement": "There exists c>0 such that 3-SAT on n variables cannot be solved deterministically in time 2^{cn} poly(n).",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_disproof_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "12-state SAT gadgets",
+      "required_mathematical_bridge": "12-state SAT gadgets",
+      "missing_proof_obligations": [
+        "Verify algorithmic complexity and uniformity; build executable reduction tests.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-028",
+      "name": "Jacobian conjecture",
+      "discipline": "Algebraic geometry",
+      "exact_mathematical_statement": "Every polynomial F:ℂⁿ→ℂⁿ with det DF a nonzero constant has a polynomial inverse.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "finite cyclic gradings of polynomial maps",
+      "required_mathematical_bridge": "finite cyclic gradings of polynomial maps",
+      "missing_proof_obligations": [
+        "Prove invertibility for a new C12-graded family not covered by known cases.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-029",
+      "name": "Zariski cancellation problem in characteristic zero",
+      "discipline": "Algebraic geometry",
+      "exact_mathematical_statement": "For affine varieties X,Y over a characteristic-zero field, does X×𝔸¹≅Y×𝔸¹ imply X≅Y under explicitly stated restrictions?",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open_in_selected_classes",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "graded ring fixed points",
+      "required_mathematical_bridge": "graded ring fixed points",
+      "missing_proof_obligations": [
+        "Find an invariant detecting noncancellation in a selected class.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-035",
+      "name": "Invariant subspace problem for Hilbert spaces",
+      "discipline": "Operator theory",
+      "exact_mathematical_statement": "Does every bounded linear operator on a complex separable infinite-dimensional Hilbert space admit a nontrivial closed invariant subspace?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "finite cyclic commuting operator",
+      "required_mathematical_bridge": "finite cyclic commuting operator",
+      "missing_proof_obligations": [
+        "Show a nontrivial spectral idempotent exists under an explicit C12 covariance assumption.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-036",
+      "name": "Lehmer conjecture",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "There exists c>1 such that Mahler measure M(α)≥c for every nonzero algebraic integer α that is not a root of unity.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "cyclotomic factorization and 12th roots",
+      "required_mathematical_bridge": "cyclotomic factorization and 12th roots",
+      "missing_proof_obligations": [
+        "Prove a new lower bound on a family characterized by cyclotomic constraints.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-008",
+      "name": "Goldbach conjecture",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "Every even integer n>2 is a sum of two primes.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "residue classes modulo 12",
+      "required_mathematical_bridge": "residue classes modulo 12",
+      "missing_proof_obligations": [
+        "Show quantitative distribution estimates sufficient to lift admissible residue pairs to primes.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-009",
+      "name": "Twin prime conjecture",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "There exist infinitely many primes p such that p+2 is prime.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "units modulo 12 and prime-pair transitions",
+      "required_mathematical_bridge": "units modulo 12 and prime-pair transitions",
+      "missing_proof_obligations": [
+        "Prove unbounded prime-pair counts with a novel uniform sieve bound.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-010",
+      "name": "Legendre conjecture",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "For every integer n≥1, some prime p satisfies n²<p<(n+1)².",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "modular sieve over 12 residue classes",
+      "required_mathematical_bridge": "modular sieve over 12 residue classes",
+      "missing_proof_obligations": [
+        "Derive a prime-gap bound strong enough for quadratic intervals.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-012",
+      "name": "Odd perfect number existence",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "Does there exist an odd positive integer n with σ(n)=2n?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "divisor residues and involutions",
+      "required_mathematical_bridge": "divisor residues and involutions",
+      "missing_proof_obligations": [
+        "Derive a contradiction or infinite family via multiplicative divisor constraints.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-017",
+      "name": "Erdős–Faber–Lovász",
+      "discipline": "Combinatorics",
+      "exact_mathematical_statement": "For n cliques of order n with pairwise intersections of at most one vertex, the union has chromatic number at most n.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "solved",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "incidence designs for test formalizations",
+      "required_mathematical_bridge": "incidence designs for test formalizations",
+      "missing_proof_obligations": [
+        "Formalize a restricted incidence-coloring lemma, as theorem reconstruction.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-026",
+      "name": "Unique Games conjecture",
+      "discipline": "Complexity",
+      "exact_mathematical_statement": "For every ε,δ>0, there exists k such that distinguishing value≥1−ε from value≤δ for Unique Games with alphabet size k is NP-hard.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "cyclic alphabet constraints",
+      "required_mathematical_bridge": "cyclic alphabet constraints",
+      "missing_proof_obligations": [
+        "Identify a hardness-preserving cyclic-alphabet embedding with explicit completeness and soundness.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-027",
+      "name": "Quantum PCP conjecture",
+      "discipline": "Quantum complexity",
+      "exact_mathematical_statement": "There exists constant ε>0 for which approximating the ground energy of local Hamiltonians to additive ε times system size is QMA-hard.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "12-state local Hamiltonian tilings",
+      "required_mathematical_bridge": "12-state local Hamiltonian tilings",
+      "missing_proof_obligations": [
+        "Prove a gap-preserving reduction to periodic interactions.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-030",
+      "name": "Kaplansky zero divisor conjecture",
+      "discipline": "Algebra",
+      "exact_mathematical_statement": "For torsion-free group G and a field k, does k[G] have no nonzero zero divisors?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "group gradings and order-12 quotient",
+      "required_mathematical_bridge": "group gradings and order-12 quotient",
+      "missing_proof_obligations": [
+        "Find torsion-free examples with quotient C12 and prove a zero-divisor exclusion criterion.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-031",
+      "name": "Hilbert–Smith conjecture",
+      "discipline": "Topology",
+      "exact_mathematical_statement": "A locally compact group acting faithfully and continuously on a connected manifold must be a Lie group.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open_in_general",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "finite cyclic action approximations",
+      "required_mathematical_bridge": "finite cyclic action approximations",
+      "missing_proof_obligations": [
+        "Prove a new obstruction to p-adic effective actions via equivariant cohomology.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-032",
+      "name": "Novikov conjecture",
+      "discipline": "Topology",
+      "exact_mathematical_statement": "For every discrete group G, the higher signatures of closed oriented manifolds with reference maps to BG are oriented homotopy invariants.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open_in_general",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "C12-equivariant index maps",
+      "required_mathematical_bridge": "C12-equivariant index maps",
+      "missing_proof_obligations": [
+        "Prove rational assembly injectivity for a new class of cyclic extensions.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-033",
+      "name": "Baum–Connes conjecture with coefficients",
+      "discipline": "Operator algebras",
+      "exact_mathematical_statement": "For a second-countable locally compact group G and separable G-C*-algebra A, is the coefficient assembly map μ_{G,A} an isomorphism?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "false_in_full_generality",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "crossed products by C12",
+      "required_mathematical_bridge": "crossed products by C12",
+      "missing_proof_obligations": [
+        "Formalize assembly comparison for a restricted cyclic extension, not the false general statement.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-034",
+      "name": "Connes embedding problem",
+      "discipline": "Operator algebras",
+      "exact_mathematical_statement": "Does every separable type II₁ factor embed trace-preservingly into an ultrapower of the hyperfinite II₁ factor?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "disproved",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "finite dimensional moment matrix obstructions",
+      "required_mathematical_bridge": "finite dimensional moment matrix obstructions",
+      "missing_proof_obligations": [
+        "Formalize a finite moment-system obstruction or approximation lemma.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-037",
+      "name": "Schinzel hypothesis H",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "Every finite family of irreducible polynomials in ℤ[x] with positive leading coefficient and no fixed prime divisor takes simultaneous prime values for infinitely many positive integers.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "local obstruction wheel modulo 12",
+      "required_mathematical_bridge": "local obstruction wheel modulo 12",
+      "missing_proof_obligations": [
+        "Formalize local admissibility and show why it does not imply prime infinitude.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-042",
+      "name": "Erdős–Straus conjecture",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "For every integer n≥2, there exist positive integers x,y,z such that 4/n=1/x+1/y+1/z.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/google-deepmind/formal-conjectures",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "mod-12 residue cover",
+      "required_mathematical_bridge": "mod-12 residue cover",
+      "missing_proof_obligations": [
+        "Prove a complete residue-class parametrization with guaranteed positive witnesses.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "statement_needs_primary_problem_locator",
+      "research_priority_score": 70.0,
+      "component_scores": {
+        "significance": 4,
+        "structural_evidence": 2,
+        "incremental_formalization": 4,
+        "original_discovery": 4,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-001",
+      "name": "Riemann hypothesis",
+      "discipline": "Number theory",
+      "exact_mathematical_statement": "For every nontrivial zero ρ of ζ(s), Re(ρ)=1/2.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "spectral cyclic character decomposition",
+      "required_mathematical_bridge": "spectral cyclic character decomposition",
+      "missing_proof_obligations": [
+        "Construct a trace-compatible representation whose spectral criterion implies Re(ρ)=1/2.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-002",
+      "name": "P versus NP",
+      "discipline": "Complexity",
+      "exact_mathematical_statement": "P = NP? Equivalently, does every language decidable by a nondeterministic polynomial-time Turing machine have a deterministic polynomial-time decider?",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "cyclic finite gadgets and reductions",
+      "required_mathematical_bridge": "cyclic finite gadgets and reductions",
+      "missing_proof_obligations": [
+        "Prove a complexity-preserving reduction or lower bound; finite twelvefold symmetry alone is insufficient.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-003",
+      "name": "Birch and Swinnerton-Dyer",
+      "discipline": "Arithmetic geometry",
+      "exact_mathematical_statement": "For every elliptic curve E/ℚ, ord_{s=1} L(E,s)=rank E(ℚ).",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "12-torsion actions on elliptic curves",
+      "required_mathematical_bridge": "12-torsion actions on elliptic curves",
+      "missing_proof_obligations": [
+        "Prove compatibility of selected torsion actions with Selmer and L-series invariants.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-004",
+      "name": "Hodge conjecture",
+      "discipline": "Algebraic geometry",
+      "exact_mathematical_statement": "For smooth projective complex X, every rational cohomology class of type (p,p) is a rational linear combination of classes of algebraic cycles.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "equivariant cycle class maps",
+      "required_mathematical_bridge": "equivariant cycle class maps",
+      "missing_proof_obligations": [
+        "Construct a nontrivial C12-equivariant Hodge-to-cycle lifting criterion.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-005",
+      "name": "Navier–Stokes existence and smoothness",
+      "discipline": "PDE",
+      "exact_mathematical_statement": "For smooth divergence-free initial data in dimension 3, decide whether globally smooth solutions always exist or whether smooth data can yield finite-time breakdown, under Clay’s specified formulations.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_acceptance",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "cyclic spatial symmetry and invariant PDE subspaces",
+      "required_mathematical_bridge": "cyclic spatial symmetry and invariant PDE subspaces",
+      "missing_proof_obligations": [
+        "Prove a C12-equivariant flow reduction preserving all required PDE hypotheses and singularity criteria.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-006",
+      "name": "Yang–Mills existence and mass gap",
+      "discipline": "Mathematical physics",
+      "exact_mathematical_statement": "Construct a nontrivial quantum Yang–Mills theory on ℝ⁴ for a compact simple gauge group with a positive spectral mass gap.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "open",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "finite cyclic symmetry of gauge configurations",
+      "required_mathematical_bridge": "finite cyclic symmetry of gauge configurations",
+      "missing_proof_obligations": [
+        "Show covariance of observables and establish a positive mass-gap implication.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-007",
+      "name": "Poincaré conjecture",
+      "discipline": "Topology",
+      "exact_mathematical_statement": "Every closed simply connected 3-manifold is homeomorphic to the 3-sphere.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "solved",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "equivariant triangulations as formalization exercises",
+      "required_mathematical_bridge": "equivariant triangulations as formalization exercises",
+      "missing_proof_obligations": [
+        "Formalize a restricted equivariant 3-manifold lemma, not a new proof of Perelman.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    }
+  ]
+}

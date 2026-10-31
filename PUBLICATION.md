@@ -1,15 +1,9 @@
-# Publication gate
+# Publication authorization and release workflow
 
-Status: LOCAL REVIEW CANDIDATE. No public push, tag, release or visibility change is authorized by silence.
+DPA-BUILD-04 explicitly authorizes public publication of the audited foundation and successive verified mathematical increments. This authorization supersedes the earlier pending-publication state. The constitution remains proposed; publication is not adoption.
 
-The supplied EXECUTION_CONTRACT.md requires “release only owner-approved audited material”; its Stage 8 allows a push only after current-task authorization and disclosure gates. The owner requested controlled migration and proposed constitutional adoption, not automatic adoption. CONSTITUTION.md Article 23 also requires recorded owner approval for selected private-derived content. Originals remain outside the checkout.
+The current release includes the constitution, newly authored mathematics/code, proof and source records, 42 baseline problems, ten original frontier files, roadmap, analytical dossiers and documentation. Original sensitive/copyrighted attachments and private archive contents are excluded individually in verification/disclosure-audits/EXCLUSIONS.json. Derived mathematical metadata is retained with provenance.
 
-Before publication: approve the selected changed-file list, resolve licensing of new code and handoff-derived text, review third-party credits and source discrepancies, record constitutional adoption or retain the proposed status, and rerun source, proof, disclosure and README gates. Full primary-source dossier collation, missing frozen experiments and external proof reviews must remain prominently incomplete unless actually resolved. A source-only partial release needs an explicit statement of these limitations.
+New Atlas source and owner-supplied release documents use Apache-2.0; third-party notices and licenses remain controlling. There is no blanket relicensing of private source or external works.
 
-After explicit owner approval and passing the release gate, the single branch-publication instruction is:
-
-```sh
-git -C /workspace/The-Duodenary-Mathematical-Proof-Atlas- push -u origin atlas/bootstrap-constitution-and-registry
-```
-
-This instruction was not executed. A branch push is not a tagged release or independent mathematical acceptance.
+For each release: run scripts/reproduce.py, verify pinned source records, inspect source and disclosure scans, update the content manifest, commit, push the authorized branch without force, and compare remote SHA to local SHA. Record tag/branch publication only after success. Source-reported claims and incomplete dossier/experimental work remain marked incomplete.

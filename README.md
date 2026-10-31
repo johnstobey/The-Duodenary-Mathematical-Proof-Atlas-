@@ -1,6 +1,6 @@
 # Duodenary Mathematical Proof Atlas
 
-A locally verified mathematical research candidate for DPA-BUILD-03. The constitution is **proposed, not adopted**. This branch has not been publicly pushed or released.
+A reproducible mathematical research foundation published under DPA-BUILD-04. The constitution is **proposed, not adopted**. The latest successful remote publication is recorded separately from local verification.
 
 The freshly authored Lean library defines cyclic twelve-state operations, antipodal and reflection involutions, a 4×3 coordinate equivalence, seven undirected distances, the 48 affine permutations with composition and inverses, and a 144-state finite encoding. It distinguishes the product group from the cyclic group of order 144. A separate theorem gives positive natural-number witnesses for the Erdős–Straus equation when n is a positive multiple of three; it does not solve the full conjecture. Exact checked statements, source hashes and axioms appear in [the theorem registry](registry/theorems/theorems.json).
 
@@ -26,6 +26,6 @@ The committed manifest locks mathlib and its transitive Git dependencies. `lake 
 
 ## Research and release boundaries
 
-[The generated roadmap](roadmap/ROADMAP.md) sorts only REQUIRES edges and keeps discovery feedback separate. [The requirements matrix](REQUIREMENTS_MATRIX.md) honestly records missing original atomic wording. [Publication instructions](PUBLICATION.md) identify approval and licensing gates. No distribution license has been assigned to new code; third-party terms are documented separately.
+[The generated roadmap](roadmap/ROADMAP.md) sorts only REQUIRES edges and keeps discovery feedback separate. [The requirements matrix](REQUIREMENTS_MATRIX.md) honestly records missing original atomic wording. [Publication instructions](PUBLICATION.md) identify approval and licensing gates. New Atlas code uses Apache-2.0; third-party terms and individual source exclusions are documented separately.
 
 Read [AGENTS.md](AGENTS.md) before changing source or evidence. Original mistakes, counterexamples and historical statuses must remain reviewable.

@@ -1,0 +1,66 @@
+{
+  "G0": {
+    "status": "PASS",
+    "evidence": "Actual remote/main/initial HEAD and existing contents inspected."
+  },
+  "G1": {
+    "status": "PASS",
+    "evidence": "Ten private baseline files match handoff manifest."
+  },
+  "G2": {
+    "status": "BLOCKED",
+    "evidence": "No blanket private-source license or selected disclosure approval; no private code/history imported."
+  },
+  "G3": {
+    "status": "PASS_SUPPLIED_VERSIONS",
+    "evidence": "184-page PDF and owner-confirmed DOCX hashed and fully extracted; handoff edition discrepancy recorded."
+  },
+  "G4": {
+    "status": "PROPOSED",
+    "evidence": "Constitution placed unchanged; no adoption inferred."
+  },
+  "G5": {
+    "status": "PARTIAL",
+    "evidence": "Eleven dossiers and local revision records exist; primary collation and full semantic rewrites incomplete."
+  },
+  "G6": {
+    "status": "PASS_SCOPED_CORE",
+    "evidence": "32 kernel-checked theorems; source 48-processor equivalence unresolved."
+  },
+  "G7": {
+    "status": "PARTIAL",
+    "evidence": "Complete pinned accessible catalogue metadata indexed; 720/721 mismatch and external proof audit unresolved."
+  },
+  "G8": {
+    "status": "PARTIAL",
+    "evidence": "All 42 baseline records and seven Clay entries preserved; current official status fetch blocked."
+  },
+  "G9": {
+    "status": "PASS_HONEST_UNKNOWN",
+    "evidence": "Recognition chronology records unknown clip/date without fabrication."
+  },
+  "G10": {
+    "status": "PASS",
+    "evidence": "Typed DAG validated; deterministic scored queue and feedback-edge test pass."
+  },
+  "G11": {
+    "status": "BLOCKED",
+    "evidence": "Missing frozen inputs and verified model; zero primary scored trials."
+  },
+  "G12": {
+    "status": "PASS_SCOPED_VALIDATOR",
+    "evidence": "Typed claim/schema/status validators and manual README scope check; not an automatic truth checker."
+  },
+  "G13": {
+    "status": "PARTIAL",
+    "evidence": "Candidate/history pattern scan passes; owner licensing and selected disclosure review pending."
+  },
+  "G14": {
+    "status": "PASS_LOCAL",
+    "evidence": "Pinned build, theorem/axiom records, hashed Python lock, command logs and review manifest; fresh machine not independently verified."
+  },
+  "G15": {
+    "status": "LOCAL_COMMIT_ONLY",
+    "evidence": "Local candidate commit authorized by execution request; no remote publication approval or release claimed."
+  }
+}

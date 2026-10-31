@@ -1,12 +1,12 @@
 {
   "scan_status": "PASS_PATTERN_SCAN_ONLY",
-  "candidate_files_scanned": 212,
-  "reachable_history_blobs_scanned": 2,
+  "candidate_files_scanned": 236,
+  "reachable_history_blobs_scanned": 201,
   "issues": [],
   "limitations": [
     "Pattern matching is not a complete secrecy or personal-data audit.",
     "All third-party rights and selected private-derived disclosures require owner review.",
     "No approval, visibility change, public push, tag or release is performed."
   ],
-  "publication_gate": "BLOCKED_PENDING_OWNER_DISCLOSURE_AND_LICENSE_DECISIONS"
+  "publication_gate": "AUTHORIZATION_RECORDED"
 }

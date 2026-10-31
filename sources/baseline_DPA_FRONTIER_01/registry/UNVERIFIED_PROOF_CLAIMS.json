@@ -1,0 +1,240 @@
+{
+  "entries": [
+    {
+      "id": "DPA-015",
+      "name": "Barnette conjecture",
+      "discipline": "Graph theory",
+      "exact_mathematical_statement": "Every 3-connected cubic bipartite planar graph has a Hamiltonian cycle.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://github.com/openai/math",
+      "source_date": "source publication date not individually verified",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_requires_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://github.com/openai/math",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "4×3 cubic planar face incidence",
+      "required_mathematical_bridge": "4×3 cubic planar face incidence",
+      "missing_proof_obligations": [
+        "Construct a transformation preserving cubicity, planarity, bipartiteness and Hamiltonicity.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-022",
+      "name": "Kakeya conjecture",
+      "discipline": "Harmonic analysis",
+      "exact_mathematical_statement": "Every Kakeya set in ℝⁿ has Hausdorff dimension n for n≥2.",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "12-direction partitions, but continuous directional uniformity crucial",
+      "required_mathematical_bridge": "12-direction partitions, but continuous directional uniformity crucial",
+      "missing_proof_obligations": [
+        "Prove uniform estimates over all rotations, not only 12 directions.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-023",
+      "name": "Stein restriction conjecture",
+      "discipline": "Harmonic analysis",
+      "exact_mathematical_statement": "Determine sharp Lᵖ(ℝⁿ)→Lᵠ(S^{n−1}) boundedness of Fourier restriction at the conjectured exponents, in the standard sphere formulation.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "angular packet decompositions",
+      "required_mathematical_bridge": "angular packet decompositions",
+      "missing_proof_obligations": [
+        "Prove uniform angular decoupling estimates linking finite cyclic sectors to all directions.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-024",
+      "name": "Local smoothing conjecture",
+      "discipline": "Harmonic analysis",
+      "exact_mathematical_statement": "The conjectured sharp local-smoothing Sobolev gain for Fourier integral operators holds over the admissible Lᵖ exponent ranges in each dimension.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "sector-based microlocal decompositions",
+      "required_mathematical_bridge": "sector-based microlocal decompositions",
+      "missing_proof_obligations": [
+        "Verify exact endpoint and operator hypotheses of the announced auxiliary-PDE proof.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-025",
+      "name": "Exponential Time Hypothesis",
+      "discipline": "Complexity",
+      "exact_mathematical_statement": "There exists c>0 such that 3-SAT on n variables cannot be solved deterministically in time 2^{cn} poly(n).",
+      "statement_scope": "research formulation; comparison with original formal source pending",
+      "primary_source": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "source_date": "2026-10-26 (announcement)",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_disproof_pending_audit",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "candidate_twelvefold_relationship": "12-state SAT gadgets",
+      "required_mathematical_bridge": "12-state SAT gadgets",
+      "missing_proof_obligations": [
+        "Verify algorithmic complexity and uniformity; build executable reduction tests.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "announcement_verified_not_proof_audited",
+      "research_priority_score": 74.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 2,
+        "incremental_formalization": 3,
+        "original_discovery": 4,
+        "cross_problem_leverage": 4,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "medium",
+      "next_executable_action": "Formalize finite C12 invariant and test against explicit counterexamples",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-005",
+      "name": "Navier–Stokes existence and smoothness",
+      "discipline": "PDE",
+      "exact_mathematical_statement": "For smooth divergence-free initial data in dimension 3, decide whether globally smooth solutions always exist or whether smooth data can yield finite-time breakdown, under Clay’s specified formulations.",
+      "statement_scope": "precise concise formulation; consult official source for boundary cases",
+      "primary_source": "https://www.claymath.org/millennium-problems/",
+      "source_date": "2000-05-24 (Clay announcement); official formulation linked",
+      "status_as_of": "2026-10-31",
+      "current_mathematical_status": "claimed_solution_pending_acceptance",
+      "known_partial_results": "Not individually audited; source-specific literature audit required",
+      "proof_or_formalization_references": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "candidate_twelvefold_relationship": "cyclic spatial symmetry and invariant PDE subspaces",
+      "required_mathematical_bridge": "cyclic spatial symmetry and invariant PDE subspaces",
+      "missing_proof_obligations": [
+        "Prove a C12-equivariant flow reduction preserving all required PDE hypotheses and singularity criteria.",
+        "Formalize all definitions and nontrivial preservation lemmas; verify no hidden assumptions"
+      ],
+      "verification_method": "Lean 4 kernel check plus independent mathematical review; counterexample search before general theorem claims",
+      "confidence": "primary_status_verified",
+      "research_priority_score": 61.0,
+      "component_scores": {
+        "significance": 5,
+        "structural_evidence": 1,
+        "incremental_formalization": 2,
+        "original_discovery": 3,
+        "cross_problem_leverage": 3,
+        "verification_gap": 4,
+        "public_suitability": 5
+      },
+      "score_evidence": "heuristic screening based on documented mathematical type and bridge hypothesis; no experimental structural proof yet",
+      "research_priority": "exploratory",
+      "next_executable_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge",
+      "claimed_original_result": false
+    },
+    {
+      "id": "DPA-OPENAI-CATALOGUE",
+      "name": "OpenAI mathematical manuscript catalogue",
+      "source": "https://github.com/openai/math",
+      "status": "721 manuscripts / 373 families in fetched live README; snapshot rather than item-level enumeration",
+      "proof_audit": "not performed",
+      "next_executable_action": "Clone and parse CONTENTS.md, preprints/ and lean/ at pinned SHA"
+    }
+  ],
+  "policy": "announcement does not establish independently audited proof"
+}

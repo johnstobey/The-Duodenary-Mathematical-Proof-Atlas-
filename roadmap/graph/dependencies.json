@@ -14,7 +14,7 @@
     {
       "id": "OWNER-DISCLOSURE",
       "type": "SOURCE",
-      "status": "BLOCKED"
+      "status": "SOURCE_CHECKED"
     },
     {
       "id": "FROZEN-EXPERIMENT",
@@ -243,8 +243,8 @@
       "id": "T-RELEASE",
       "type": "TASK",
       "objective": "Publish the selected audited candidate",
-      "status": "BLOCKED",
-      "next_action": "Record owner adoption/licensing/disclosure decisions and rerun release gate.",
+      "status": "SPECIFIED",
+      "next_action": "Run scoped checks, publish safe foundation, and compare remote SHA.",
       "acceptance_test": "Explicit approval, license audit, current build and source-scope checks.",
       "prerequisites": [
         "OWNER-DISCLOSURE",
