@@ -1,0 +1,9 @@
+{
+  "related_dossiers": [
+    "phaedrus",
+    "aztec-calendar"
+  ],
+  "formal_core": "Duodenary/Core/Cyclic.lean",
+  "edge_type": "DOCUMENTED_IN",
+  "source_model_isomorphism_proved": false
+}

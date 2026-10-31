@@ -1,0 +1,34 @@
+{
+  "repository": "https://github.com/openai/math",
+  "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "fetched_at": "2026-10-31T10:01:50.347931+00:00",
+  "family_records": 373,
+  "manuscript_records": 720,
+  "unique_manuscript_paths": 720,
+  "formalization_sources": 176,
+  "tree_entries": 174524,
+  "tree_sha256": "6a8e293f7ec1b511894fb7ba62311cb581cbabe82b4d2e338a944292fe719a96",
+  "proof_builds_executed": 0,
+  "primary_metadata": [
+    {
+      "path": "README.md",
+      "sha256": "6cb7f0e387b67c051227c6ba27aca87ee82d9dd2530b6452b86b8681a2e2743a"
+    },
+    {
+      "path": "CONTENTS.md",
+      "sha256": "080badcb677fb80be0e695c21a8ec88bcb3a46dd3e3078ca10061e6b289be175"
+    },
+    {
+      "path": "history.md",
+      "sha256": "f065ee13679f380356359eb09242b93187efe1a864e92780ed5a8b5b23ed4484"
+    },
+    {
+      "path": "lean/formalization.yaml",
+      "sha256": "b8e7072ab9ac195a290110d78c3a3497608ce76ac5b67d307685f38408299b39"
+    },
+    {
+      "path": "lean/README.md",
+      "sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b"
+    }
+  ]
+}

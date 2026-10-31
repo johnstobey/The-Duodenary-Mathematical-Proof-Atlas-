@@ -1,0 +1,127 @@
+[
+  {
+    "path": "ARCHITECTURE.md",
+    "bytes": 2121,
+    "sha256": "cca6eb1108cd12cd86e1a67285ee9882064864b8d25a0c40d36b80bd4fcefe70"
+  },
+  {
+    "path": "ARTIFACT_REGISTRY.md",
+    "bytes": 913,
+    "sha256": "0a86026005c2588eb2bf3930da1674a07666a7fc2cd98319bdf532300cec848d"
+  },
+  {
+    "path": "CONSTITUTION.md",
+    "bytes": 10331,
+    "sha256": "0f71b96d3141b71eb41e29cc4d717dc75130032043e9690b68c06ecbb6555b1f"
+  },
+  {
+    "path": "DISCOVERY_RECORD.md",
+    "bytes": 1457,
+    "sha256": "72289ce47d55e72d77248ac9757934c2591ee81052cf061005fbe321cd4aa507"
+  },
+  {
+    "path": "EXECUTION_CONTRACT.md",
+    "bytes": 7300,
+    "sha256": "3e756bdd537bc8c226d9e908d59eac9f6bf03f90aa3d0a3e0f58438fb08f1d65"
+  },
+  {
+    "path": "GEOMETRIC_IMPERATIVE_EXTRACTION.md",
+    "bytes": 2610,
+    "sha256": "547ae899854056f5f693db597af6547eb3a6e582dae37e10cf22affa07c1d689"
+  },
+  {
+    "path": "ONTOLOGICAL_DOSSIER_STANDARD.md",
+    "bytes": 4264,
+    "sha256": "e93e08aa4f70507425251f16dac8aa9b9481f7b87cb38c3315b7ebc01545ec17"
+  },
+  {
+    "path": "README_HANDOFF.md",
+    "bytes": 1877,
+    "sha256": "b086da2fbef14f811768edf519d411078ec7e1b116d4481fbe3d9d628585549b"
+  },
+  {
+    "path": "REQUIREMENTS_MATRIX.md",
+    "bytes": 3082,
+    "sha256": "289abf7e187c1c7e1234aedefc836a2be43a40b8e92127d20453d760c267956a"
+  },
+  {
+    "path": "ROADMAP_METHOD.md",
+    "bytes": 3660,
+    "sha256": "e1b4e53620db7236d541e51098df9f8dc2c740e5ff0988a8ba6e485e0b0aa1e7"
+  },
+  {
+    "path": "SCHEMAS.md",
+    "bytes": 949,
+    "sha256": "3217b9bfe0642331baca55675331b2895e5f1d7b4dd5c5a30b67ab950709758a"
+  },
+  {
+    "path": "SOURCE_INVENTORY.md",
+    "bytes": 1614,
+    "sha256": "5831d6c1e9c5837555a043cbd0e4472524824d2fa171e20afebe8d824bd63800"
+  },
+  {
+    "path": "VALIDATION.md",
+    "bytes": 1806,
+    "sha256": "542436bb48b82a8d419626a23137a995101a303e2763693980774169bbd7f4c0"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/formalization/INITIAL_THREE_SPECIFICATIONS.md",
+    "bytes": 974,
+    "sha256": "f165471c7032d5f6779b38e1bb51050c075cda931a13aa362aa7cc0a9b0cd8cb"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/registry/FORMALIZATION_OPPORTUNITIES.json",
+    "bytes": 23004,
+    "sha256": "d6fc8236a4a4b70a660555285b98d26fd5156d5f3fa401a0a7b2b5e1f2f5fdfd"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/registry/OPEN_PROBLEMS.json",
+    "bytes": 89470,
+    "sha256": "ab2d39fc87a0a7341222a540f3b4b8b7e773673f0a51dfddf81c13225c9e7b4f"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/registry/PROBLEM_DEPENDENCY_GRAPH.json",
+    "bytes": 6649,
+    "sha256": "36af46b2ffc9e91f1816ee7098827113fe69f485e27b15297887d72fdceec706"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/registry/STRUCTURAL_DISCOVERY_CANDIDATES.json",
+    "bytes": 18696,
+    "sha256": "51a0ddb23e3f4aa4dbdb3b10df26acd02f55fbad1b608a9f6b33810d86ed6077"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/registry/UNVERIFIED_PROOF_CLAIMS.json",
+    "bytes": 13653,
+    "sha256": "555d4e63fab40e9755021a36347746ef04c26a613321a0569cbe8e471a095405"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/research/DISCOVERY_ORIGIN_CHRONOLOGY.md",
+    "bytes": 1814,
+    "sha256": "2ccc9babaa35c278df75d2c50df81d8989c56f3d5faf9e468669de23afbefe4a"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/research/FRONTIER_OPPORTUNITY_REPORT.md",
+    "bytes": 12793,
+    "sha256": "8249950ce0217b0819b91d5ef5a0e02e704a3055eda187d897b6f51535fe9f2b"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/research/institutions/CLAY_RECOGNITION_AND_ACCESS_ANALYSIS.md",
+    "bytes": 2177,
+    "sha256": "e0bfbccb17a8442581fb357743a0ddc458061680d14f292fcd953a9affbbc808"
+  },
+  {
+    "path": "baseline_DPA_FRONTIER_01/verification/REGISTRY_SOURCE_AUDIT.md",
+    "bytes": 2203,
+    "sha256": "07c69f51215da1f8eff45c64a42e8bfa5a24be9f0d3719ce50f4b47d0b10c716"
+  },
+  {
+    "path": "schemas/claim.schema.json",
+    "bytes": 1221,
+    "sha256": "d61bb6ea34e53540fb7167addb699d861bd0a3487acb6c8ea1965bb724ea2fbf"
+  },
+  {
+    "path": "schemas/task.schema.json",
+    "bytes": 975,
+    "sha256": "8d89169a3f0f670ff5f7b7f2f41cb42f9053def065b9753d3cdd016d89cbf10c"
+  }
+]

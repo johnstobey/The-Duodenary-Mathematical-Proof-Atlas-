@@ -1,0 +1,501 @@
+{
+  "entries": [
+    {
+      "id": "DPA-011",
+      "problem": "Collatz conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Establish a strictly descending well-founded invariant not lost under quotienting.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-013",
+      "problem": "Perfect cuboid",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Build obstruction via a finite parity and mod-12 covering combined with higher local data.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-016",
+      "problem": "Graceful tree labeling",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove an extendable C12-equivariant graceful labeling theorem for a new infinite tree family.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-018",
+      "problem": "Union-closed sets conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Establish orbit-weight inequality that is not already implied by known averaging methods.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-019",
+      "problem": "Caccetta–Häggkvist",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Construct a short-cycle witness from an invariant orbit decomposition.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-020",
+      "problem": "Reconstruction conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove reconstruction for a novel class of graphs with faithful C12 symmetry.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-038",
+      "problem": "Rota basis conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove a new rank-12 restricted matroid class, then lift.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-039",
+      "problem": "Alon–Tarsi Latin square conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Construct non-canceling orbit counts under an explicit C12 action.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-040",
+      "problem": "Hadamard matrix conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Establish a new family of Hadamard designs from compatible C12 difference sets.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-041",
+      "problem": "Lonely runner conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Establish an exact finite cyclic approximation with uniform lift to real time.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-014",
+      "problem": "Hadwiger conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove chromatic bound is preserved by a specified minor-safe quotient.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-015",
+      "problem": "Barnette conjecture",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://github.com/openai/math",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Construct a transformation preserving cubicity, planarity, bipartiteness and Hamiltonicity.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-021",
+      "problem": "Sidon set extremal problem",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Obtain a new second-order bound via periodic packing.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-022",
+      "problem": "Kakeya conjecture",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove uniform estimates over all rotations, not only 12 directions.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-023",
+      "problem": "Stein restriction conjecture",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove uniform angular decoupling estimates linking finite cyclic sectors to all directions.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-024",
+      "problem": "Local smoothing conjecture",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Verify exact endpoint and operator hypotheses of the announced auxiliary-PDE proof.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-025",
+      "problem": "Exponential Time Hypothesis",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Verify algorithmic complexity and uniformity; build executable reduction tests.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-028",
+      "problem": "Jacobian conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove invertibility for a new C12-graded family not covered by known cases.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-029",
+      "problem": "Zariski cancellation problem in characteristic zero",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Find an invariant detecting noncancellation in a selected class.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-035",
+      "problem": "Invariant subspace problem for Hilbert spaces",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Show a nontrivial spectral idempotent exists under an explicit C12 covariance assumption.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-036",
+      "problem": "Lehmer conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove a new lower bound on a family characterized by cyclotomic constraints.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-008",
+      "problem": "Goldbach conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Show quantitative distribution estimates sufficient to lift admissible residue pairs to primes.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-009",
+      "problem": "Twin prime conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove unbounded prime-pair counts with a novel uniform sieve bound.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-010",
+      "problem": "Legendre conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Derive a prime-gap bound strong enough for quadratic intervals.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-012",
+      "problem": "Odd perfect number existence",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Derive a contradiction or infinite family via multiplicative divisor constraints.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-017",
+      "problem": "Erdős–Faber–Lovász",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Formalize a restricted incidence-coloring lemma, as theorem reconstruction.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-026",
+      "problem": "Unique Games conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Identify a hardness-preserving cyclic-alphabet embedding with explicit completeness and soundness.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-027",
+      "problem": "Quantum PCP conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove a gap-preserving reduction to periodic interactions.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-030",
+      "problem": "Kaplansky zero divisor conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Find torsion-free examples with quotient C12 and prove a zero-divisor exclusion criterion.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-031",
+      "problem": "Hilbert–Smith conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove a new obstruction to p-adic effective actions via equivariant cohomology.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-032",
+      "problem": "Novikov conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove rational assembly injectivity for a new class of cyclic extensions.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-033",
+      "problem": "Baum–Connes conjecture with coefficients",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Formalize assembly comparison for a restricted cyclic extension, not the false general statement.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-034",
+      "problem": "Connes embedding problem",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Formalize a finite moment-system obstruction or approximation lemma.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-037",
+      "problem": "Schinzel hypothesis H",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Formalize local admissibility and show why it does not imply prime infinitude.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-042",
+      "problem": "Erdős–Straus conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://github.com/google-deepmind/formal-conjectures",
+        "https://github.com/leanprover-community/mathlib4"
+      ],
+      "missing_lemma": "Prove a complete residue-class parametrization with guaranteed positive witnesses.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Formalize finite C12 invariant and test against explicit counterexamples"
+    },
+    {
+      "id": "DPA-001",
+      "problem": "Riemann hypothesis",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Construct a trace-compatible representation whose spectral criterion implies Re(ρ)=1/2.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    },
+    {
+      "id": "DPA-002",
+      "problem": "P versus NP",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Prove a complexity-preserving reduction or lower bound; finite twelvefold symmetry alone is insufficient.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    },
+    {
+      "id": "DPA-003",
+      "problem": "Birch and Swinnerton-Dyer",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Prove compatibility of selected torsion actions with Selmer and L-series invariants.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    },
+    {
+      "id": "DPA-004",
+      "problem": "Hodge conjecture",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Construct a nontrivial C12-equivariant Hodge-to-cycle lifting criterion.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    },
+    {
+      "id": "DPA-005",
+      "problem": "Navier–Stokes existence and smoothness",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Prove a C12-equivariant flow reduction preserving all required PDE hypotheses and singularity criteria.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    },
+    {
+      "id": "DPA-006",
+      "problem": "Yang–Mills existence and mass gap",
+      "scope": "structural sublemma",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Show covariance of observables and establish a positive mass-gap implication.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    },
+    {
+      "id": "DPA-007",
+      "problem": "Poincaré conjecture",
+      "scope": "audit or theorem reconstruction",
+      "existing_reference": [
+        "https://www.claymath.org/millennium-problems/"
+      ],
+      "missing_lemma": "Formalize a restricted equivariant 3-manifold lemma, not a new proof of Perelman.",
+      "lean_status": "not compiled; no claim of novel theorem",
+      "next_action": "Retrieve the official full problem-description PDF and fix exact scope before attempting bridge"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+name = "duodenary_proof_atlas"
+version = "0.1.0"
+defaultTargets = ["Duodenary"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "4bbdccd9c5f862bf90ff12f0a9e2c8be032b9a84"
+
+[[lean_lib]]
+name = "Duodenary"

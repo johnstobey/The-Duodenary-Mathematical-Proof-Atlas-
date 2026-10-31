@@ -1,0 +1,382 @@
+{
+  "entries": [
+    {
+      "id": "DPA-011",
+      "structure": "12-state quotient of accelerated maps",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Establish a strictly descending well-founded invariant not lost under quotienting.",
+      "cross_problem_clusters": "Dynamical systems"
+    },
+    {
+      "id": "DPA-013",
+      "structure": "four-by-three quadratic compatibility",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Build obstruction via a finite parity and mod-12 covering combined with higher local data.",
+      "cross_problem_clusters": "Diophantine geometry"
+    },
+    {
+      "id": "DPA-016",
+      "structure": "cyclic edge-difference designs",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove an extendable C12-equivariant graceful labeling theorem for a new infinite tree family.",
+      "cross_problem_clusters": "Combinatorics"
+    },
+    {
+      "id": "DPA-018",
+      "structure": "finite lattice actions and orbit counting",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Establish orbit-weight inequality that is not already implied by known averaging methods.",
+      "cross_problem_clusters": "Combinatorics"
+    },
+    {
+      "id": "DPA-019",
+      "structure": "cyclic walk and antipodal relation",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Construct a short-cycle witness from an invariant orbit decomposition.",
+      "cross_problem_clusters": "Graph theory"
+    },
+    {
+      "id": "DPA-020",
+      "structure": "reconstruction under C12 actions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove reconstruction for a novel class of graphs with faithful C12 symmetry.",
+      "cross_problem_clusters": "Graph theory"
+    },
+    {
+      "id": "DPA-038",
+      "structure": "4×3 array transversal maps",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a new rank-12 restricted matroid class, then lift.",
+      "cross_problem_clusters": "Matroid theory"
+    },
+    {
+      "id": "DPA-039",
+      "structure": "order-12 parity involutions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Construct non-canceling orbit counts under an explicit C12 action.",
+      "cross_problem_clusters": "Combinatorics"
+    },
+    {
+      "id": "DPA-040",
+      "structure": "4×3 decompositions and Kronecker products",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Establish a new family of Hadamard designs from compatible C12 difference sets.",
+      "cross_problem_clusters": "Combinatorics"
+    },
+    {
+      "id": "DPA-041",
+      "structure": "circle translations and group quotients",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Establish an exact finite cyclic approximation with uniform lift to real time.",
+      "cross_problem_clusters": "Diophantine approximation"
+    },
+    {
+      "id": "DPA-014",
+      "structure": "C12-equivariant graph quotient",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove chromatic bound is preserved by a specified minor-safe quotient.",
+      "cross_problem_clusters": "Graph theory"
+    },
+    {
+      "id": "DPA-015",
+      "structure": "4×3 cubic planar face incidence",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Construct a transformation preserving cubicity, planarity, bipartiteness and Hamiltonicity.",
+      "cross_problem_clusters": "Graph theory"
+    },
+    {
+      "id": "DPA-021",
+      "structure": "difference-set orbit decompositions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Obtain a new second-order bound via periodic packing.",
+      "cross_problem_clusters": "Additive combinatorics"
+    },
+    {
+      "id": "DPA-022",
+      "structure": "12-direction partitions, but continuous directional uniformity crucial",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove uniform estimates over all rotations, not only 12 directions.",
+      "cross_problem_clusters": "Harmonic analysis"
+    },
+    {
+      "id": "DPA-023",
+      "structure": "angular packet decompositions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove uniform angular decoupling estimates linking finite cyclic sectors to all directions.",
+      "cross_problem_clusters": "Harmonic analysis"
+    },
+    {
+      "id": "DPA-024",
+      "structure": "sector-based microlocal decompositions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Verify exact endpoint and operator hypotheses of the announced auxiliary-PDE proof.",
+      "cross_problem_clusters": "Harmonic analysis"
+    },
+    {
+      "id": "DPA-025",
+      "structure": "12-state SAT gadgets",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Verify algorithmic complexity and uniformity; build executable reduction tests.",
+      "cross_problem_clusters": "Complexity"
+    },
+    {
+      "id": "DPA-028",
+      "structure": "finite cyclic gradings of polynomial maps",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove invertibility for a new C12-graded family not covered by known cases.",
+      "cross_problem_clusters": "Algebraic geometry"
+    },
+    {
+      "id": "DPA-029",
+      "structure": "graded ring fixed points",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Find an invariant detecting noncancellation in a selected class.",
+      "cross_problem_clusters": "Algebraic geometry"
+    },
+    {
+      "id": "DPA-035",
+      "structure": "finite cyclic commuting operator",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Show a nontrivial spectral idempotent exists under an explicit C12 covariance assumption.",
+      "cross_problem_clusters": "Operator theory"
+    },
+    {
+      "id": "DPA-036",
+      "structure": "cyclotomic factorization and 12th roots",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a new lower bound on a family characterized by cyclotomic constraints.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-008",
+      "structure": "residue classes modulo 12",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Show quantitative distribution estimates sufficient to lift admissible residue pairs to primes.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-009",
+      "structure": "units modulo 12 and prime-pair transitions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove unbounded prime-pair counts with a novel uniform sieve bound.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-010",
+      "structure": "modular sieve over 12 residue classes",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Derive a prime-gap bound strong enough for quadratic intervals.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-012",
+      "structure": "divisor residues and involutions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Derive a contradiction or infinite family via multiplicative divisor constraints.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-017",
+      "structure": "incidence designs for test formalizations",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Formalize a restricted incidence-coloring lemma, as theorem reconstruction.",
+      "cross_problem_clusters": "Combinatorics"
+    },
+    {
+      "id": "DPA-026",
+      "structure": "cyclic alphabet constraints",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Identify a hardness-preserving cyclic-alphabet embedding with explicit completeness and soundness.",
+      "cross_problem_clusters": "Complexity"
+    },
+    {
+      "id": "DPA-027",
+      "structure": "12-state local Hamiltonian tilings",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a gap-preserving reduction to periodic interactions.",
+      "cross_problem_clusters": "Quantum complexity"
+    },
+    {
+      "id": "DPA-030",
+      "structure": "group gradings and order-12 quotient",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Find torsion-free examples with quotient C12 and prove a zero-divisor exclusion criterion.",
+      "cross_problem_clusters": "Algebra"
+    },
+    {
+      "id": "DPA-031",
+      "structure": "finite cyclic action approximations",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a new obstruction to p-adic effective actions via equivariant cohomology.",
+      "cross_problem_clusters": "Topology"
+    },
+    {
+      "id": "DPA-032",
+      "structure": "C12-equivariant index maps",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove rational assembly injectivity for a new class of cyclic extensions.",
+      "cross_problem_clusters": "Topology"
+    },
+    {
+      "id": "DPA-033",
+      "structure": "crossed products by C12",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Formalize assembly comparison for a restricted cyclic extension, not the false general statement.",
+      "cross_problem_clusters": "Operator algebras"
+    },
+    {
+      "id": "DPA-034",
+      "structure": "finite dimensional moment matrix obstructions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Formalize a finite moment-system obstruction or approximation lemma.",
+      "cross_problem_clusters": "Operator algebras"
+    },
+    {
+      "id": "DPA-037",
+      "structure": "local obstruction wheel modulo 12",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Formalize local admissibility and show why it does not imply prime infinitude.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-042",
+      "structure": "mod-12 residue cover",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a complete residue-class parametrization with guaranteed positive witnesses.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-001",
+      "structure": "spectral cyclic character decomposition",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Construct a trace-compatible representation whose spectral criterion implies Re(ρ)=1/2.",
+      "cross_problem_clusters": "Number theory"
+    },
+    {
+      "id": "DPA-002",
+      "structure": "cyclic finite gadgets and reductions",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a complexity-preserving reduction or lower bound; finite twelvefold symmetry alone is insufficient.",
+      "cross_problem_clusters": "Complexity"
+    },
+    {
+      "id": "DPA-003",
+      "structure": "12-torsion actions on elliptic curves",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove compatibility of selected torsion actions with Selmer and L-series invariants.",
+      "cross_problem_clusters": "Arithmetic geometry"
+    },
+    {
+      "id": "DPA-004",
+      "structure": "equivariant cycle class maps",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Construct a nontrivial C12-equivariant Hodge-to-cycle lifting criterion.",
+      "cross_problem_clusters": "Algebraic geometry"
+    },
+    {
+      "id": "DPA-005",
+      "structure": "cyclic spatial symmetry and invariant PDE subspaces",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Prove a C12-equivariant flow reduction preserving all required PDE hypotheses and singularity criteria.",
+      "cross_problem_clusters": "PDE"
+    },
+    {
+      "id": "DPA-006",
+      "structure": "finite cyclic symmetry of gauge configurations",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Show covariance of observables and establish a positive mass-gap implication.",
+      "cross_problem_clusters": "Mathematical physics"
+    },
+    {
+      "id": "DPA-007",
+      "structure": "equivariant triangulations as formalization exercises",
+      "domain": "problem-specific structure (to be defined)",
+      "codomain": "C12-action or invariant quotient (to be defined)",
+      "map_status": "hypothesized, not constructed",
+      "preservation_obligation": "Formalize a restricted equivariant 3-manifold lemma, not a new proof of Perelman.",
+      "cross_problem_clusters": "Topology"
+    }
+  ]
+}

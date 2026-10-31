@@ -1,0 +1,432 @@
+[
+  {
+    "id": "DPA-011",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-013",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-016",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-018",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-019",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-020",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-009",
+        "title": "Function-field reconstruction from Milnor K-theory and Galois data"
+      },
+      {
+        "family": "OAI-122",
+        "title": "Quantitative trace-reconstruction bounds with a uniform decoder"
+      },
+      {
+        "family": "OAI-229",
+        "title": "Exact three- and four-state reconstruction thresholds and four-state tree capacity"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-038",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-039",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-040",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-041",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-014",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-015",
+    "baseline_status_preserved": "claimed_solution_requires_audit",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-180",
+        "title": "Barnette\u2019s Hamiltonian-cycle conjecture"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-021",
+    "baseline_status_preserved": "partially_solved",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-022",
+    "baseline_status_preserved": "claimed_solution_pending_audit",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-074",
+        "title": "Kakeya in three and four dimensions"
+      },
+      {
+        "family": "OAI-079",
+        "title": "Local smoothing for the Euclidean wave equation"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-023",
+    "baseline_status_preserved": "claimed_solution_pending_audit",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-077",
+        "title": "Fourier restriction for positively curved surfaces"
+      },
+      {
+        "family": "OAI-079",
+        "title": "Local smoothing for the Euclidean wave equation"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-024",
+    "baseline_status_preserved": "claimed_solution_pending_audit",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-079",
+        "title": "Local smoothing for the Euclidean wave equation"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-025",
+    "baseline_status_preserved": "claimed_disproof_pending_audit",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-378",
+        "title": "Disproof of the Exponential Time Hypothesis"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-028",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-029",
+    "baseline_status_preserved": "open_in_selected_classes",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-035",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-036",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-008",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-013",
+        "title": "Ostmann\u2019s inverse Goldbach conjecture"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-009",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-010",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-012",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-017",
+    "baseline_status_preserved": "solved",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-026",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-102",
+        "title": "The Unique Games Conjecture and optimal approximation thresholds"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-027",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-030",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-031",
+    "baseline_status_preserved": "open_in_general",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-304",
+        "title": "The Hilbert\u2013Smith conjecture in every dimension"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-032",
+    "baseline_status_preserved": "open_in_general",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-033",
+    "baseline_status_preserved": "false_in_full_generality",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-285",
+        "title": "Counterexamples to Baum\u2013Connes and Kadison\u2013Kaplansky"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-034",
+    "baseline_status_preserved": "disproved",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-037",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-042",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-001",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-003",
+        "title": "The quasi-Riemann hypothesis"
+      },
+      {
+        "family": "OAI-345",
+        "title": "Infinitely many closed geodesics on Riemannian spheres and closed three-manifolds"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-002",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-003",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-002",
+        "title": "The full BSD formula from low Selmer corank"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-004",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-032",
+        "title": "The rational Hodge conjecture for CM abelian varieties"
+      },
+      {
+        "family": "OAI-054",
+        "title": "Irrational cubic fourfolds with Hodge-theoretic and categorical K3 associations"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-005",
+    "baseline_status_preserved": "claimed_solution_pending_acceptance",
+    "candidate_catalogue_links": [
+      {
+        "family": "OAI-376",
+        "title": "Universal computation in forced Navier\u2013Stokes flows"
+      }
+    ],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-006",
+    "baseline_status_preserved": "open",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  },
+  {
+    "id": "DPA-007",
+    "baseline_status_preserved": "solved",
+    "candidate_catalogue_links": [],
+    "match_method": "explicit keyword matching; not exact-statement deduplication",
+    "review_status": "REQUIRES_STATEMENT_AUDIT",
+    "promotion": false
+  }
+]

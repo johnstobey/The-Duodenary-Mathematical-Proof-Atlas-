@@ -1,0 +1,101 @@
+[
+  {
+    "id": "phaedrus",
+    "name": "Plato, Phaedrus",
+    "pages": [
+      1,
+      19
+    ],
+    "dossier": "artifacts/ontological/phaedrus/DOSSIER.md"
+  },
+  {
+    "id": "book-of-the-dead",
+    "name": "Egyptian Book of the Dead",
+    "pages": [
+      20,
+      39
+    ],
+    "dossier": "artifacts/ontological/book-of-the-dead/DOSSIER.md"
+  },
+  {
+    "id": "iliad",
+    "name": "Homer, Iliad",
+    "pages": [
+      39,
+      58
+    ],
+    "dossier": "artifacts/ontological/iliad/DOSSIER.md"
+  },
+  {
+    "id": "odyssey",
+    "name": "Homer, Odyssey",
+    "pages": [
+      58,
+      77
+    ],
+    "dossier": "artifacts/ontological/odyssey/DOSSIER.md"
+  },
+  {
+    "id": "gruppen",
+    "name": "Karlheinz Stockhausen, Gruppen",
+    "pages": [
+      77,
+      96
+    ],
+    "dossier": "artifacts/ontological/gruppen/DOSSIER.md"
+  },
+  {
+    "id": "synergetics",
+    "name": "R. Buckminster Fuller, Synergetics",
+    "pages": [
+      96,
+      115
+    ],
+    "dossier": "artifacts/ontological/synergetics/DOSSIER.md"
+  },
+  {
+    "id": "bartok-lendvai",
+    "name": "Bartók / Lendvai analysis",
+    "pages": [
+      115,
+      134
+    ],
+    "dossier": "artifacts/ontological/bartok-lendvai/DOSSIER.md"
+  },
+  {
+    "id": "eclipse",
+    "name": "Perry, Eclipse",
+    "pages": [
+      134,
+      154
+    ],
+    "dossier": "artifacts/ontological/eclipse/DOSSIER.md"
+  },
+  {
+    "id": "alice",
+    "name": "Lewis Carroll, Alice’s Adventures in Wonderland",
+    "pages": [
+      163,
+      184
+    ],
+    "dossier": "artifacts/ontological/alice/DOSSIER.md"
+  },
+  {
+    "id": "pyramid",
+    "name": "Great Pyramid / square-pyramid comparison",
+    "pages": [
+      null,
+      null
+    ],
+    "dossier": "artifacts/ontological/pyramid/DOSSIER.md"
+  },
+  {
+    "id": "aztec-calendar",
+    "name": "Mexica calendrical systems / Sun Stone",
+    "pages": [
+      null,
+      null
+    ],
+    "dossier": "artifacts/ontological/aztec-calendar/DOSSIER.md"
+  }
+]

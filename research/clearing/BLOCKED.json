@@ -1,0 +1,19 @@
+{
+  "status": "BLOCKED",
+  "planned_primary_trials": 84,
+  "executed_scored_primary_trials": 0,
+  "C0_C3_frozen_inputs": null,
+  "P1_P5_perturbations": null,
+  "R0_R2_recovery_definitions": null,
+  "seven_frozen_benchmarks": null,
+  "verified_model_digest": null,
+  "source": "handoff Article 13 and EXECUTION_CONTRACT.md Stage 6",
+  "second_agent_smoke": "reported qwen3:4b smoke; not independently rerun and not a scored primary trial",
+  "missing": [
+    "original Zcode frozen experiment directory",
+    "exact induction/recovery/perturbation files",
+    "raw runs and scorers",
+    "verified local model"
+  ],
+  "next_action": "Acquire original frozen manifest and verify checksums before executing any scored trials."
+}

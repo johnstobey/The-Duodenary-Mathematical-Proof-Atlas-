@@ -1,0 +1,675 @@
+[
+  {
+    "id": "T-AZTEC-MAP",
+    "objective": "Formalize the image bound for a cyclic 260-to-12 homomorphism",
+    "score": 80.0,
+    "runnable": true,
+    "prerequisites": [
+      "CORE"
+    ],
+    "next_action": "Prove image cardinality divides gcd(260,12)=4.",
+    "acceptance_test": "Pinned kernel build with exact homomorphism hypotheses.",
+    "output_artifacts": [
+      "Duodenary/Acausal/Calendar.lean"
+    ]
+  },
+  {
+    "id": "T-PROCESSORS",
+    "objective": "Reconcile the source-defined 48 processors with the affine action",
+    "score": 80.0,
+    "runnable": true,
+    "prerequisites": [
+      "CORE"
+    ],
+    "next_action": "Acquire exact operator definitions and compute a labeled operation table.",
+    "acceptance_test": "Explicit bijection and preservation proof or saved counterexample.",
+    "output_artifacts": [
+      "formalization/PROCESSOR_COMPARISON.md"
+    ]
+  },
+  {
+    "id": "T-CATALOGUE-AUDIT",
+    "objective": "Resolve primary catalogue headline and manuscript-map count mismatch",
+    "score": 77.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Compare all preprint README status records and versions at pinned HEAD.",
+    "acceptance_test": "Explain every current/withdrawn/revised entry and count it once.",
+    "output_artifacts": [
+      "registry/external/openai/RECONCILIATION.json"
+    ]
+  },
+  {
+    "id": "T-PHAEDRUS-COLLATION",
+    "objective": "Collate a source-native dossier against primary Greek and an identified edition",
+    "score": 77.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Check 244a\u2013245a, 247a and 265a\u2013266b with exact source text.",
+    "acceptance_test": "Each claimed count has edition, locator and rival reading.",
+    "output_artifacts": [
+      "artifacts/ontological/phaedrus/SOURCE.md"
+    ]
+  },
+  {
+    "id": "T-DPA-008",
+    "objective": "Goldbach conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-008.json"
+    ]
+  },
+  {
+    "id": "T-DPA-009",
+    "objective": "Twin prime conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-009.json"
+    ]
+  },
+  {
+    "id": "T-DPA-010",
+    "objective": "Legendre conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-010.json"
+    ]
+  },
+  {
+    "id": "T-DPA-011",
+    "objective": "Collatz conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-011.json"
+    ]
+  },
+  {
+    "id": "T-DPA-012",
+    "objective": "Odd perfect number existence: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-012.json"
+    ]
+  },
+  {
+    "id": "T-DPA-013",
+    "objective": "Perfect cuboid: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-013.json"
+    ]
+  },
+  {
+    "id": "T-DPA-014",
+    "objective": "Hadwiger conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-014.json"
+    ]
+  },
+  {
+    "id": "T-DPA-015",
+    "objective": "Barnette conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-015.json"
+    ]
+  },
+  {
+    "id": "T-DPA-016",
+    "objective": "Graceful tree labeling: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-016.json"
+    ]
+  },
+  {
+    "id": "T-DPA-017",
+    "objective": "Erd\u0151s\u2013Faber\u2013Lov\u00e1sz: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-017.json"
+    ]
+  },
+  {
+    "id": "T-DPA-018",
+    "objective": "Union-closed sets conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-018.json"
+    ]
+  },
+  {
+    "id": "T-DPA-019",
+    "objective": "Caccetta\u2013H\u00e4ggkvist: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-019.json"
+    ]
+  },
+  {
+    "id": "T-DPA-020",
+    "objective": "Reconstruction conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-020.json"
+    ]
+  },
+  {
+    "id": "T-DPA-021",
+    "objective": "Sidon set extremal problem: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-021.json"
+    ]
+  },
+  {
+    "id": "T-DPA-022",
+    "objective": "Kakeya conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-022.json"
+    ]
+  },
+  {
+    "id": "T-DPA-023",
+    "objective": "Stein restriction conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-023.json"
+    ]
+  },
+  {
+    "id": "T-DPA-024",
+    "objective": "Local smoothing conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-024.json"
+    ]
+  },
+  {
+    "id": "T-DPA-025",
+    "objective": "Exponential Time Hypothesis: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-025.json"
+    ]
+  },
+  {
+    "id": "T-DPA-026",
+    "objective": "Unique Games conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-026.json"
+    ]
+  },
+  {
+    "id": "T-DPA-027",
+    "objective": "Quantum PCP conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-027.json"
+    ]
+  },
+  {
+    "id": "T-DPA-028",
+    "objective": "Jacobian conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-028.json"
+    ]
+  },
+  {
+    "id": "T-DPA-029",
+    "objective": "Zariski cancellation problem in characteristic zero: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-029.json"
+    ]
+  },
+  {
+    "id": "T-DPA-030",
+    "objective": "Kaplansky zero divisor conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-030.json"
+    ]
+  },
+  {
+    "id": "T-DPA-031",
+    "objective": "Hilbert\u2013Smith conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-031.json"
+    ]
+  },
+  {
+    "id": "T-DPA-032",
+    "objective": "Novikov conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-032.json"
+    ]
+  },
+  {
+    "id": "T-DPA-033",
+    "objective": "Baum\u2013Connes conjecture with coefficients: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-033.json"
+    ]
+  },
+  {
+    "id": "T-DPA-034",
+    "objective": "Connes embedding problem: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-034.json"
+    ]
+  },
+  {
+    "id": "T-DPA-035",
+    "objective": "Invariant subspace problem for Hilbert spaces: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-035.json"
+    ]
+  },
+  {
+    "id": "T-DPA-036",
+    "objective": "Lehmer conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-036.json"
+    ]
+  },
+  {
+    "id": "T-DPA-037",
+    "objective": "Schinzel hypothesis H: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-037.json"
+    ]
+  },
+  {
+    "id": "T-DPA-038",
+    "objective": "Rota basis conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-038.json"
+    ]
+  },
+  {
+    "id": "T-DPA-039",
+    "objective": "Alon\u2013Tarsi Latin square conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-039.json"
+    ]
+  },
+  {
+    "id": "T-DPA-040",
+    "objective": "Hadamard matrix conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-040.json"
+    ]
+  },
+  {
+    "id": "T-DPA-041",
+    "objective": "Lonely runner conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-041.json"
+    ]
+  },
+  {
+    "id": "T-DPA-042",
+    "objective": "Erd\u0151s\u2013Straus conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": true,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-042.json"
+    ]
+  },
+  {
+    "id": "T-CLEARING",
+    "objective": "Execute the 84-trial frozen experimental protocol",
+    "score": 77.0,
+    "runnable": false,
+    "prerequisites": [
+      "FROZEN-EXPERIMENT"
+    ],
+    "next_action": "Recover original frozen definitions and verified model digest.",
+    "acceptance_test": "Raw outputs and predetermined scorers for all trial cells.",
+    "output_artifacts": [
+      "research/clearing/results.json"
+    ]
+  },
+  {
+    "id": "T-RELEASE",
+    "objective": "Publish the selected audited candidate",
+    "score": 77.0,
+    "runnable": false,
+    "prerequisites": [
+      "CORE",
+      "OWNER-DISCLOSURE"
+    ],
+    "next_action": "Record owner adoption/licensing/disclosure decisions and rerun release gate.",
+    "acceptance_test": "Explicit approval, license audit, current build and source-scope checks.",
+    "output_artifacts": [
+      "publications/RELEASE_RECORD.json"
+    ]
+  },
+  {
+    "id": "T-DPA-001",
+    "objective": "Riemann hypothesis: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-001.json"
+    ]
+  },
+  {
+    "id": "T-DPA-002",
+    "objective": "P versus NP: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-002.json"
+    ]
+  },
+  {
+    "id": "T-DPA-003",
+    "objective": "Birch and Swinnerton-Dyer: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-003.json"
+    ]
+  },
+  {
+    "id": "T-DPA-004",
+    "objective": "Hodge conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-004.json"
+    ]
+  },
+  {
+    "id": "T-DPA-005",
+    "objective": "Navier\u2013Stokes existence and smoothness: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-005.json"
+    ]
+  },
+  {
+    "id": "T-DPA-006",
+    "objective": "Yang\u2013Mills existence and mass gap: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-006.json"
+    ]
+  },
+  {
+    "id": "T-DPA-007",
+    "objective": "Poincar\u00e9 conjecture: audit exact statement and proposed bridge",
+    "score": 74.0,
+    "runnable": false,
+    "prerequisites": [
+      "SOURCE-HANDOFF"
+    ],
+    "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+    "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+    "output_artifacts": [
+      "registry/problems/DPA-007.json"
+    ]
+  }
+]

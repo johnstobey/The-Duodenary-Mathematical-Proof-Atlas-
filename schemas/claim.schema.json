@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Premise-bounded Claim",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "major_premise",
+    "minor_premise",
+    "inference",
+    "conclusion",
+    "verification_status",
+    "source_locators"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "major_premise": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "minor_premise": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "inference": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "conclusion": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "validator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "verification_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_locators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

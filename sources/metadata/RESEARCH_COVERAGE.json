@@ -1,0 +1,47 @@
+[
+  {
+    "repository": "Alien-math-decoded-2",
+    "head": "8bf5efd1c0d6dfc752d9c7399ec80b509b1ad46e",
+    "tracked_files_hashed": 324,
+    "lexical_theorem_declarations": 20963,
+    "semantic_reading": "focused review of setup, governing docs, current mathematical scope and experiment evidence; complete file bytes inventoried",
+    "private_source_code_imported": false,
+    "license_present": false
+  },
+  {
+    "repository": "Machine",
+    "head": "02ae2011eac3aa3327f58fcd234481e8cae54a13",
+    "tracked_files_hashed": 18273,
+    "lexical_theorem_declarations": 1433,
+    "semantic_reading": "focused review of setup, governing docs, current mathematical scope and experiment evidence; complete file bytes inventoried",
+    "private_source_code_imported": false,
+    "license_present": false
+  },
+  {
+    "repository": "Recursiverse-Suite",
+    "head": "41fbde6681613a58e12c1cb0b6bfae7d0c488198",
+    "tracked_files_hashed": 387,
+    "lexical_theorem_declarations": 0,
+    "semantic_reading": "focused review of setup, governing docs, current mathematical scope and experiment evidence; complete file bytes inventoried",
+    "private_source_code_imported": false,
+    "license_present": false
+  },
+  {
+    "repository": "alien-math-decoded-private-",
+    "head": "b75381ce7dc7b940f057a5fc155371d7d346c8ad",
+    "tracked_files_hashed": 3122,
+    "lexical_theorem_declarations": 64611,
+    "semantic_reading": "focused review of setup, governing docs, current mathematical scope and experiment evidence; complete file bytes inventoried",
+    "private_source_code_imported": false,
+    "license_present": false
+  },
+  {
+    "repository": "z12z-Memory-Module",
+    "head": "02b05f51caa97ff1108d711a30748c09a455a5dd",
+    "tracked_files_hashed": 32,
+    "lexical_theorem_declarations": 0,
+    "semantic_reading": "focused review of setup, governing docs, current mathematical scope and experiment evidence; complete file bytes inventoried",
+    "private_source_code_imported": false,
+    "license_present": true
+  }
+]

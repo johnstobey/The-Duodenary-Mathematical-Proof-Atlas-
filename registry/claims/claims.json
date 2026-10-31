@@ -1,0 +1,97 @@
+[
+  {
+    "id": "CL-001",
+    "type": "computationally checked finite result",
+    "major_premise": "C12 is the residue set modulo 12.",
+    "minor_premise": "Define opposite(x)=x+6.",
+    "inference": "Evaluate all twelve inputs.",
+    "conclusion": "Opposite is a fixed-point-free involution on C12.",
+    "validator": "scripts/finite_checks.py",
+    "verification_status": "COMPUTATION_TESTED",
+    "source_locators": [
+      "Duodenary/Core/Cyclic.lean"
+    ],
+    "provenance": {
+      "actor": "Codex agent",
+      "role": "new formalization and source-bounded analysis",
+      "date": "2026-10-31",
+      "owner_source_role": "supplied research and constraints"
+    }
+  },
+  {
+    "id": "CL-002",
+    "type": "ontological interpretation",
+    "major_premise": "Acausal structural correspondence requires specified preserved relations.",
+    "minor_premise": "The attached report proposes a shared twelvefold architecture.",
+    "inference": "Separate the report interpretation from a mathematical map.",
+    "conclusion": "The proposed ontology remains an interpretation; no artifact isomorphism follows from shared counts.",
+    "validator": "artifacts/ontological/COMPARATIVE_SYNTHESIS.md",
+    "verification_status": "SOURCE_CHECKED",
+    "source_locators": [
+      "ONTOLOGICAL ARTIFACTS.pdf pp.1–19"
+    ],
+    "provenance": {
+      "actor": "Codex agent",
+      "role": "new formalization and source-bounded analysis",
+      "date": "2026-10-31",
+      "owner_source_role": "supplied research and constraints"
+    }
+  },
+  {
+    "id": "CL-003",
+    "type": "computationally checked finite result",
+    "major_premise": "Coordinates use absolute zodiac degrees with Sagittarius starting at 240 and Pisces at 330.",
+    "minor_premise": "Source gives 19 degrees 32 minutes Sagittarius and 3 degrees 47 minutes Pisces.",
+    "inference": "Subtract exact rational coordinates modulo 360.",
+    "conclusion": "Forward angular difference is 74.25 degrees; source 93.25-degree derivation is not reproduced.",
+    "validator": "scripts/finite_checks.py",
+    "verification_status": "COMPUTATION_TESTED",
+    "source_locators": [
+      "Supplied Geometric Imperative DOCX §IV and §VI"
+    ],
+    "provenance": {
+      "actor": "Codex agent",
+      "role": "new formalization and source-bounded analysis",
+      "date": "2026-10-31",
+      "owner_source_role": "supplied research and constraints"
+    }
+  },
+  {
+    "id": "CL-004",
+    "type": "research hypothesis",
+    "major_premise": "Finite obstructions may provide restricted necessary conditions.",
+    "minor_premise": "A mod-12 quotient forgets unbounded integer state.",
+    "inference": "Test counterexamples before proposing proof transport.",
+    "conclusion": "A finite cyclic model alone does not establish Collatz termination.",
+    "validator": "verification/negative-controls/finite-results.json",
+    "verification_status": "COMPUTATION_TESTED",
+    "source_locators": [
+      "registry/problems/frontier.json#DPA-011"
+    ],
+    "provenance": {
+      "actor": "Codex agent",
+      "role": "new formalization and source-bounded analysis",
+      "date": "2026-10-31",
+      "owner_source_role": "supplied research and constraints"
+    }
+  },
+  {
+    "id": "CL-005",
+    "type": "mathematical definition",
+    "major_premise": "Define the affine action by x mapped to a*x+b.",
+    "minor_premise": "a is one of 1,5,7,11 modulo 12.",
+    "inference": "Count slope/translation pairs and compare induced functions.",
+    "conclusion": "There are 48 distinct affine permutations; this does not identify a separate source-defined 48-processor architecture.",
+    "validator": "scripts/finite_checks.py",
+    "verification_status": "COMPUTATION_TESTED",
+    "source_locators": [
+      "Duodenary/Core/Cyclic.lean"
+    ],
+    "provenance": {
+      "actor": "Codex agent",
+      "role": "new formalization and source-bounded analysis",
+      "date": "2026-10-31",
+      "owner_source_role": "supplied research and constraints"
+    }
+  }
+]

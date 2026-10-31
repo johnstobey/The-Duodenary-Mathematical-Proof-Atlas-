@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_file": "atlas-lean-build.log",
+    "sha256": "8a42a13b05d94a3da7336398c9fc866f6164c80a4ef3247f3d35241419f20a95",
+    "evidence_retained_privately": true,
+    "initial_observation": "Concurrent builds sharing dependency outputs caused two temporary output-file races.",
+    "correction": "Reuse completed dependency outputs and rebuild affected targets.",
+    "actor": "Codex agent",
+    "dependent_scope": "new Atlas proof/dependency build",
+    "final_evidence": "verification/builds/atlas-axioms.log"
+  },
+  {
+    "evidence_file": "atlas-lean-build-2.log",
+    "sha256": "6cd42cb61de2d8c0feea813a3a471bc4476aed03a583918eee88f0199772396f",
+    "evidence_retained_privately": true,
+    "initial_observation": "New decode144 definition required explicit Nat-to-C12 coercions; finite checks exceeded default reduction depth.",
+    "correction": "Add explicit casts and a bounded larger reduction/heartbeat budget; re-run kernel build.",
+    "actor": "Codex agent",
+    "dependent_scope": "new Atlas proof/dependency build",
+    "final_evidence": "verification/builds/atlas-axioms.log"
+  },
+  {
+    "evidence_file": "atlas-lean-build-3.log",
+    "sha256": "87263dc721963df390a51196cfd1955fd80b8f7f29e3a5b41eccd333f76d92e4",
+    "evidence_retained_privately": true,
+    "initial_observation": "Initial successful 30-theorem core.",
+    "correction": "Add CRT operation-preservation statements; current registry records 32 audited theorems.",
+    "actor": "Codex agent",
+    "dependent_scope": "new Atlas proof/dependency build",
+    "final_evidence": "verification/builds/atlas-axioms.log"
+  }
+]

@@ -1,0 +1,2056 @@
+{
+  "edge_direction": "dependent REQUIRES prerequisite",
+  "nodes": [
+    {
+      "id": "SOURCE-HANDOFF",
+      "type": "SOURCE",
+      "status": "SOURCE_CHECKED"
+    },
+    {
+      "id": "CORE",
+      "type": "OBJECT",
+      "status": "KERNEL_VERIFIED"
+    },
+    {
+      "id": "OWNER-DISCLOSURE",
+      "type": "SOURCE",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "FROZEN-EXPERIMENT",
+      "type": "SOURCE",
+      "status": "BLOCKED"
+    },
+    {
+      "id": "T-PROCESSORS",
+      "type": "TASK",
+      "objective": "Reconcile the source-defined 48 processors with the affine action",
+      "status": "SPECIFIED",
+      "next_action": "Acquire exact operator definitions and compute a labeled operation table.",
+      "acceptance_test": "Explicit bijection and preservation proof or saved counterexample.",
+      "prerequisites": [
+        "CORE"
+      ],
+      "output_artifacts": [
+        "formalization/PROCESSOR_COMPARISON.md"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "CORE"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 5,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Explicit bijection and preservation proof or saved counterexample.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-ES-LIFT",
+      "type": "TASK",
+      "objective": "Connect the checked rational unit-fraction identity to a natural-number residue certificate",
+      "status": "KERNEL_VERIFIED",
+      "next_action": "Prove positivity and denominator coercions for n=3k with k>0.",
+      "acceptance_test": "Lean theorem with positive natural witnesses for every k>0.",
+      "prerequisites": [
+        "CORE"
+      ],
+      "output_artifacts": [
+        "Duodenary/Problems/UnitFractions.lean"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [
+        "verification/builds/atlas-axioms.log"
+      ],
+      "inputs": [
+        "CORE"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 5,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Lean theorem with positive natural witnesses for every k>0.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-AZTEC-MAP",
+      "type": "TASK",
+      "objective": "Formalize the image bound for a cyclic 260-to-12 homomorphism",
+      "status": "SPECIFIED",
+      "next_action": "Prove image cardinality divides gcd(260,12)=4.",
+      "acceptance_test": "Pinned kernel build with exact homomorphism hypotheses.",
+      "prerequisites": [
+        "CORE"
+      ],
+      "output_artifacts": [
+        "Duodenary/Acausal/Calendar.lean"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "CORE"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 5,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Pinned kernel build with exact homomorphism hypotheses.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-CATALOGUE-AUDIT",
+      "type": "TASK",
+      "objective": "Resolve primary catalogue headline and manuscript-map count mismatch",
+      "status": "SPECIFIED",
+      "next_action": "Compare all preprint README status records and versions at pinned HEAD.",
+      "acceptance_test": "Explain every current/withdrawn/revised entry and count it once.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/external/openai/RECONCILIATION.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 4,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Explain every current/withdrawn/revised entry and count it once.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-PHAEDRUS-COLLATION",
+      "type": "TASK",
+      "objective": "Collate a source-native dossier against primary Greek and an identified edition",
+      "status": "SPECIFIED",
+      "next_action": "Check 244a\u2013245a, 247a and 265a\u2013266b with exact source text.",
+      "acceptance_test": "Each claimed count has edition, locator and rival reading.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "artifacts/ontological/phaedrus/SOURCE.md"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 4,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Each claimed count has edition, locator and rival reading.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-CLEARING",
+      "type": "TASK",
+      "objective": "Execute the 84-trial frozen experimental protocol",
+      "status": "BLOCKED",
+      "next_action": "Recover original frozen definitions and verified model digest.",
+      "acceptance_test": "Raw outputs and predetermined scorers for all trial cells.",
+      "prerequisites": [
+        "FROZEN-EXPERIMENT"
+      ],
+      "output_artifacts": [
+        "research/clearing/results.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "FROZEN-EXPERIMENT"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 4,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Raw outputs and predetermined scorers for all trial cells.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-RELEASE",
+      "type": "TASK",
+      "objective": "Publish the selected audited candidate",
+      "status": "BLOCKED",
+      "next_action": "Record owner adoption/licensing/disclosure decisions and rerun release gate.",
+      "acceptance_test": "Explicit approval, license audit, current build and source-scope checks.",
+      "prerequisites": [
+        "OWNER-DISCLOSURE",
+        "CORE"
+      ],
+      "output_artifacts": [
+        "publications/RELEASE_RECORD.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "OWNER-DISCLOSURE",
+        "CORE"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 4,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Explicit approval, license audit, current build and source-scope checks.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-011",
+      "type": "TASK",
+      "objective": "Collatz conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-011.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-013",
+      "type": "TASK",
+      "objective": "Perfect cuboid: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-013.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-016",
+      "type": "TASK",
+      "objective": "Graceful tree labeling: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-016.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-018",
+      "type": "TASK",
+      "objective": "Union-closed sets conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-018.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-019",
+      "type": "TASK",
+      "objective": "Caccetta\u2013H\u00e4ggkvist: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-019.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-020",
+      "type": "TASK",
+      "objective": "Reconstruction conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-020.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-038",
+      "type": "TASK",
+      "objective": "Rota basis conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-038.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-039",
+      "type": "TASK",
+      "objective": "Alon\u2013Tarsi Latin square conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-039.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-040",
+      "type": "TASK",
+      "objective": "Hadamard matrix conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-040.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-041",
+      "type": "TASK",
+      "objective": "Lonely runner conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-041.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-014",
+      "type": "TASK",
+      "objective": "Hadwiger conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-014.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-015",
+      "type": "TASK",
+      "objective": "Barnette conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-015.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-021",
+      "type": "TASK",
+      "objective": "Sidon set extremal problem: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-021.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-022",
+      "type": "TASK",
+      "objective": "Kakeya conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-022.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-023",
+      "type": "TASK",
+      "objective": "Stein restriction conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-023.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-024",
+      "type": "TASK",
+      "objective": "Local smoothing conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-024.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-025",
+      "type": "TASK",
+      "objective": "Exponential Time Hypothesis: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-025.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-028",
+      "type": "TASK",
+      "objective": "Jacobian conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-028.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-029",
+      "type": "TASK",
+      "objective": "Zariski cancellation problem in characteristic zero: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-029.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-035",
+      "type": "TASK",
+      "objective": "Invariant subspace problem for Hilbert spaces: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-035.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-036",
+      "type": "TASK",
+      "objective": "Lehmer conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-036.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-008",
+      "type": "TASK",
+      "objective": "Goldbach conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-008.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-009",
+      "type": "TASK",
+      "objective": "Twin prime conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-009.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-010",
+      "type": "TASK",
+      "objective": "Legendre conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-010.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-012",
+      "type": "TASK",
+      "objective": "Odd perfect number existence: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-012.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-017",
+      "type": "TASK",
+      "objective": "Erd\u0151s\u2013Faber\u2013Lov\u00e1sz: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-017.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-026",
+      "type": "TASK",
+      "objective": "Unique Games conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-026.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-027",
+      "type": "TASK",
+      "objective": "Quantum PCP conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-027.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-030",
+      "type": "TASK",
+      "objective": "Kaplansky zero divisor conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-030.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-031",
+      "type": "TASK",
+      "objective": "Hilbert\u2013Smith conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-031.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-032",
+      "type": "TASK",
+      "objective": "Novikov conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-032.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-033",
+      "type": "TASK",
+      "objective": "Baum\u2013Connes conjecture with coefficients: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-033.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-034",
+      "type": "TASK",
+      "objective": "Connes embedding problem: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-034.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-037",
+      "type": "TASK",
+      "objective": "Schinzel hypothesis H: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-037.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-042",
+      "type": "TASK",
+      "objective": "Erd\u0151s\u2013Straus conjecture: audit exact statement and proposed bridge",
+      "status": "SPECIFIED",
+      "next_action": "Pin one exact primary statement or formal conjecture identifier; compare hypotheses to the preserved baseline before attempting its proposed bridge.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-042.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-001",
+      "type": "TASK",
+      "objective": "Riemann hypothesis: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-001.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-002",
+      "type": "TASK",
+      "objective": "P versus NP: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-002.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-003",
+      "type": "TASK",
+      "objective": "Birch and Swinnerton-Dyer: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-003.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-004",
+      "type": "TASK",
+      "objective": "Hodge conjecture: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-004.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-005",
+      "type": "TASK",
+      "objective": "Navier\u2013Stokes existence and smoothness: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-005.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-006",
+      "type": "TASK",
+      "objective": "Yang\u2013Mills existence and mass gap: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-006.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    },
+    {
+      "id": "T-DPA-007",
+      "type": "TASK",
+      "objective": "Poincar\u00e9 conjecture: audit exact statement and proposed bridge",
+      "status": "BLOCKED",
+      "next_action": "After approved network changes apply, retrieve official Clay statement and status; retain independent proof claims separately.",
+      "acceptance_test": "Exact primary locator and explicit bridge or negative result.",
+      "prerequisites": [
+        "SOURCE-HANDOFF"
+      ],
+      "output_artifacts": [
+        "registry/problems/DPA-007.json"
+      ],
+      "source_locators": [
+        "sources/metadata/HANDOFF_MANIFEST.json#EXECUTION_CONTRACT.md"
+      ],
+      "verification_logs": [],
+      "inputs": [
+        "SOURCE-HANDOFF"
+      ],
+      "owner_agent": "owner / next implementing agent",
+      "scores": {
+        "significance": 4,
+        "bridge": 4,
+        "tractability": 3,
+        "discovery": 3,
+        "leverage": 4,
+        "verification": 5,
+        "publication": 2
+      },
+      "score_evidence": "Triage judgment: explicit source and known finite prerequisites; no probability of success claimed.",
+      "estimated_cost": "one focused proof/source audit",
+      "IP_risk": "review required for private-derived disclosure",
+      "verification_method": "Exact primary locator and explicit bridge or negative result.",
+      "downstream_unlocks": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "T-PROCESSORS",
+      "to": "CORE",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-ES-LIFT",
+      "to": "CORE",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-AZTEC-MAP",
+      "to": "CORE",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-CATALOGUE-AUDIT",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-PHAEDRUS-COLLATION",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-CLEARING",
+      "to": "FROZEN-EXPERIMENT",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-RELEASE",
+      "to": "OWNER-DISCLOSURE",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-RELEASE",
+      "to": "CORE",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-011",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-013",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-016",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-018",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-019",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-020",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-038",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-039",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-040",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-041",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-014",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-015",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-021",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-022",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-023",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-024",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-025",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-028",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-029",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-035",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-036",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-008",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-009",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-010",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-012",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-017",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-026",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-027",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-030",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-031",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-032",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-033",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-034",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-037",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-042",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-001",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-002",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-003",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-004",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-005",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-006",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-DPA-007",
+      "to": "SOURCE-HANDOFF",
+      "type": "REQUIRES"
+    },
+    {
+      "from": "T-AZTEC-MAP",
+      "to": "T-PROCESSORS",
+      "type": "GENERATES"
+    },
+    {
+      "from": "T-PROCESSORS",
+      "to": "T-AZTEC-MAP",
+      "type": "GENERATES"
+    }
+  ],
+  "priority_method": "ROADMAP_METHOD.md supplied handoff; scores are explicit local triage judgments"
+}

@@ -1,0 +1,6 @@
+{
+  "commit": "4bbdccd9c5f862bf90ff12f0a9e2c8be032b9a84",
+  "toolchain": "leanprover/lean4:v4.14.0",
+  "status": "LOCKED_DEPENDENCY",
+  "current_upstream_head_checked": false
+}

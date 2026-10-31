@@ -1,0 +1,7 @@
+{
+  "causal_passages_detected": 143,
+  "private_ledger_sha256": "244d652e9a6f13d6aeb8d28e8d8530c12be3af991db619d4d4e8fcb91ef7b0d6",
+  "full_semantic_passage_rewrites_completed": false,
+  "dossier_thesis_revisions": 11,
+  "limitation": "Automatic editorial proposals do not count as completed paragraph-by-paragraph source reconstruction."
+}

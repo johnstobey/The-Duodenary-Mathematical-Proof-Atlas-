@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proof Task",
+  "type": "object",
+  "required": [
+    "id",
+    "objective",
+    "status",
+    "next_action",
+    "acceptance_test",
+    "prerequisites",
+    "output_artifacts"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "next_action": {
+      "type": "string"
+    },
+    "acceptance_test": {
+      "type": "string"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "output_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_locators": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification_logs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

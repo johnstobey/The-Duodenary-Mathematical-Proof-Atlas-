@@ -1,0 +1,56 @@
+{
+  "preservation": "all ten originals retained byte-for-byte in private handoff staging; no original overwritten",
+  "manifest": [
+    {
+      "path": "baseline_DPA_FRONTIER_01/formalization/INITIAL_THREE_SPECIFICATIONS.md",
+      "bytes": 974,
+      "sha256": "f165471c7032d5f6779b38e1bb51050c075cda931a13aa362aa7cc0a9b0cd8cb"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/registry/FORMALIZATION_OPPORTUNITIES.json",
+      "bytes": 23004,
+      "sha256": "d6fc8236a4a4b70a660555285b98d26fd5156d5f3fa401a0a7b2b5e1f2f5fdfd"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/registry/OPEN_PROBLEMS.json",
+      "bytes": 89470,
+      "sha256": "ab2d39fc87a0a7341222a540f3b4b8b7e773673f0a51dfddf81c13225c9e7b4f"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/registry/PROBLEM_DEPENDENCY_GRAPH.json",
+      "bytes": 6649,
+      "sha256": "36af46b2ffc9e91f1816ee7098827113fe69f485e27b15297887d72fdceec706"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/registry/STRUCTURAL_DISCOVERY_CANDIDATES.json",
+      "bytes": 18696,
+      "sha256": "51a0ddb23e3f4aa4dbdb3b10df26acd02f55fbad1b608a9f6b33810d86ed6077"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/registry/UNVERIFIED_PROOF_CLAIMS.json",
+      "bytes": 13653,
+      "sha256": "555d4e63fab40e9755021a36347746ef04c26a613321a0569cbe8e471a095405"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/research/DISCOVERY_ORIGIN_CHRONOLOGY.md",
+      "bytes": 1814,
+      "sha256": "2ccc9babaa35c278df75d2c50df81d8989c56f3d5faf9e468669de23afbefe4a"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/research/FRONTIER_OPPORTUNITY_REPORT.md",
+      "bytes": 12793,
+      "sha256": "8249950ce0217b0819b91d5ef5a0e02e704a3055eda187d897b6f51535fe9f2b"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/research/institutions/CLAY_RECOGNITION_AND_ACCESS_ANALYSIS.md",
+      "bytes": 2177,
+      "sha256": "e0bfbccb17a8442581fb357743a0ddc458061680d14f292fcd953a9affbbc808"
+    },
+    {
+      "path": "baseline_DPA_FRONTIER_01/verification/REGISTRY_SOURCE_AUDIT.md",
+      "bytes": 2203,
+      "sha256": "07c69f51215da1f8eff45c64a42e8bfa5a24be9f0d3719ce50f4b47d0b10c716"
+    }
+  ],
+  "disclosure": "normalized derivatives are local review candidates; no public release approval recorded"
+}

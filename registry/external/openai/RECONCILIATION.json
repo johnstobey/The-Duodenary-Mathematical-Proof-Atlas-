@@ -1,0 +1,11 @@
+{
+  "status": "PARTIAL",
+  "families_indexed": 373,
+  "manuscript_map_links": 720,
+  "publisher_headline": 721,
+  "all_preprint_pdf_tree_paths": 778,
+  "formalization_manifest_sources": 176,
+  "explanation": "Versions/support PDFs are separate tree entries; current headline discrepancy not yet explained.",
+  "exact_statement_deduplication_complete": false,
+  "publisher_proof_claims_independently_validated": false
+}

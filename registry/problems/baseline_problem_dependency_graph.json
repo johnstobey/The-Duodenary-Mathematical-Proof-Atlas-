@@ -1,0 +1,290 @@
+{
+  "nodes": [
+    {
+      "id": "DPA-011",
+      "name": "Collatz conjecture"
+    },
+    {
+      "id": "DPA-013",
+      "name": "Perfect cuboid"
+    },
+    {
+      "id": "DPA-016",
+      "name": "Graceful tree labeling"
+    },
+    {
+      "id": "DPA-018",
+      "name": "Union-closed sets conjecture"
+    },
+    {
+      "id": "DPA-019",
+      "name": "Caccetta–Häggkvist"
+    },
+    {
+      "id": "DPA-020",
+      "name": "Reconstruction conjecture"
+    },
+    {
+      "id": "DPA-038",
+      "name": "Rota basis conjecture"
+    },
+    {
+      "id": "DPA-039",
+      "name": "Alon–Tarsi Latin square conjecture"
+    },
+    {
+      "id": "DPA-040",
+      "name": "Hadamard matrix conjecture"
+    },
+    {
+      "id": "DPA-041",
+      "name": "Lonely runner conjecture"
+    },
+    {
+      "id": "DPA-014",
+      "name": "Hadwiger conjecture"
+    },
+    {
+      "id": "DPA-015",
+      "name": "Barnette conjecture"
+    },
+    {
+      "id": "DPA-021",
+      "name": "Sidon set extremal problem"
+    },
+    {
+      "id": "DPA-022",
+      "name": "Kakeya conjecture"
+    },
+    {
+      "id": "DPA-023",
+      "name": "Stein restriction conjecture"
+    },
+    {
+      "id": "DPA-024",
+      "name": "Local smoothing conjecture"
+    },
+    {
+      "id": "DPA-025",
+      "name": "Exponential Time Hypothesis"
+    },
+    {
+      "id": "DPA-028",
+      "name": "Jacobian conjecture"
+    },
+    {
+      "id": "DPA-029",
+      "name": "Zariski cancellation problem in characteristic zero"
+    },
+    {
+      "id": "DPA-035",
+      "name": "Invariant subspace problem for Hilbert spaces"
+    },
+    {
+      "id": "DPA-036",
+      "name": "Lehmer conjecture"
+    },
+    {
+      "id": "DPA-008",
+      "name": "Goldbach conjecture"
+    },
+    {
+      "id": "DPA-009",
+      "name": "Twin prime conjecture"
+    },
+    {
+      "id": "DPA-010",
+      "name": "Legendre conjecture"
+    },
+    {
+      "id": "DPA-012",
+      "name": "Odd perfect number existence"
+    },
+    {
+      "id": "DPA-017",
+      "name": "Erdős–Faber–Lovász"
+    },
+    {
+      "id": "DPA-026",
+      "name": "Unique Games conjecture"
+    },
+    {
+      "id": "DPA-027",
+      "name": "Quantum PCP conjecture"
+    },
+    {
+      "id": "DPA-030",
+      "name": "Kaplansky zero divisor conjecture"
+    },
+    {
+      "id": "DPA-031",
+      "name": "Hilbert–Smith conjecture"
+    },
+    {
+      "id": "DPA-032",
+      "name": "Novikov conjecture"
+    },
+    {
+      "id": "DPA-033",
+      "name": "Baum–Connes conjecture with coefficients"
+    },
+    {
+      "id": "DPA-034",
+      "name": "Connes embedding problem"
+    },
+    {
+      "id": "DPA-037",
+      "name": "Schinzel hypothesis H"
+    },
+    {
+      "id": "DPA-042",
+      "name": "Erdős–Straus conjecture"
+    },
+    {
+      "id": "DPA-001",
+      "name": "Riemann hypothesis"
+    },
+    {
+      "id": "DPA-002",
+      "name": "P versus NP"
+    },
+    {
+      "id": "DPA-003",
+      "name": "Birch and Swinnerton-Dyer"
+    },
+    {
+      "id": "DPA-004",
+      "name": "Hodge conjecture"
+    },
+    {
+      "id": "DPA-005",
+      "name": "Navier–Stokes existence and smoothness"
+    },
+    {
+      "id": "DPA-006",
+      "name": "Yang–Mills existence and mass gap"
+    },
+    {
+      "id": "DPA-007",
+      "name": "Poincaré conjecture"
+    }
+  ],
+  "edges": [
+    {
+      "from": "DPA-016",
+      "to": "DPA-018",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-018",
+      "to": "DPA-039",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-039",
+      "to": "DPA-040",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-040",
+      "to": "DPA-017",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-019",
+      "to": "DPA-020",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-020",
+      "to": "DPA-014",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-014",
+      "to": "DPA-015",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-022",
+      "to": "DPA-023",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-023",
+      "to": "DPA-024",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-025",
+      "to": "DPA-026",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-026",
+      "to": "DPA-002",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-028",
+      "to": "DPA-029",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-029",
+      "to": "DPA-004",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-036",
+      "to": "DPA-008",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-008",
+      "to": "DPA-009",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-009",
+      "to": "DPA-010",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-010",
+      "to": "DPA-012",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-012",
+      "to": "DPA-037",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-037",
+      "to": "DPA-042",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-042",
+      "to": "DPA-001",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-031",
+      "to": "DPA-032",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-032",
+      "to": "DPA-007",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    },
+    {
+      "from": "DPA-033",
+      "to": "DPA-034",
+      "relation": "shared disciplinary foundation only; NOT a proof implication"
+    }
+  ],
+  "caveat": "proposed shared foundations, not established logical dependencies"
+}

@@ -1,0 +1,5 @@
+# Comparative synthesis
+
+The PDF’s combined synthesis occupies pp.154–163 and precedes its Alice chapter. The supplied source has nine principal dossiers plus this synthesis; chapter boundaries sometimes share a page. The nine are report chapters, not nine independently verified structures.
+The recurring Greek opening, collection/division, cicadas/Muses and pharmakon narratives create a template-dependence risk. In particular the Egyptian assessors passage (p.33) and Odyssey axes passage (p.67) need primary correction. Similarity between model-generated secondary chapters cannot be counted as independent evidence from nine works.
+Acausal structural comparisons remain legitimate mathematical questions. Their validity requires source-native sets and operation-preserving maps. Cardinality controls: 6×2 is not a cyclic CRT decomposition because gcd(6,2)=2; 4×3 is because gcd(4,3)=1. The Mexica 13/20 construction usefully resists forced base-12 identification. Exact finite algebra does not establish the broader ontology.
