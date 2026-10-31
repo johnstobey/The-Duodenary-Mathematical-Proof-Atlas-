@@ -52,7 +52,7 @@
       "sha256": "07c69f51215da1f8eff45c64a42e8bfa5a24be9f0d3719ce50f4b47d0b10c716"
     }
   ],
-  "disclosure": "normalized derivatives are local review candidates; no public release approval recorded",
+  "disclosure": "Public-safe baseline and analytical derivatives authorized by DPA-BUILD-04; first foundation pushed successfully at 6eda02e.",
   "build04_publication": {
     "all_ten_original_files_included": true,
     "path": "sources/baseline_DPA_FRONTIER_01",

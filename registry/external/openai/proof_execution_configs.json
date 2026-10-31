@@ -1,0 +1,4707 @@
+[
+  {
+    "comparator_config": "ComparatorChallenges/AbhyankarSathaye.json",
+    "declaration": "OAI.AbhyankarSathaye.exists_noncoordinate_polynomial",
+    "file": "OAI/AlgebraicGeometry/AbhyankarSathaye/Counterexample.lean",
+    "config_sha256": "c7e954153e064582ebcbaf85deacc29f933dca1c7188e90a6a78eb17b929148f",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.AbhyankarSathaye",
+      "solution_module": "OAI.AlgebraicGeometry.AbhyankarSathaye.Counterexample",
+      "theorem_names": [
+        "OAI.AbhyankarSathaye.exists_noncoordinate_polynomial"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/AmplitudeDamping.json",
+    "declaration": "OAI.GAD.main",
+    "file": "OAI/InformationTheory/AmplitudeDamping/Main.lean",
+    "config_sha256": "d5fd3b206d67df3786b22e25c25e9a7364ea70ee02a6d2d8b478b76e9ef7d70b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.AmplitudeDamping",
+      "solution_module": "OAI.InformationTheory.AmplitudeDamping.Main",
+      "theorem_names": [
+        "OAI.GAD.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ArnoldCounterexample.json",
+    "declaration": "OAI.ArnoldCounterexample.main",
+    "file": "OAI/Geometry/Arnold/Main.lean",
+    "config_sha256": "6136c4b54dcc695ef9fe66f678206e2e6f94be96b97ac0ba922ad3aeedbd52cd",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ArnoldCounterexample",
+      "solution_module": "OAI.Geometry.Arnold.Main",
+      "theorem_names": [
+        "OAI.ArnoldCounterexample.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ArtinCAT0.json",
+    "declaration": "OAI.ArtinCAT0.main",
+    "file": "OAI/GroupTheory/ArtinCAT0/Main.lean",
+    "config_sha256": "e1e3bb3ab560118c4297fb32b60f6b712c07c9437e03009024feb11f25d0d2ff",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ArtinCAT0",
+      "solution_module": "OAI.GroupTheory.ArtinCAT0.Main",
+      "theorem_names": [
+        "OAI.ArtinCAT0.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/AsymptoticallyMinimalLittlewood.json",
+    "declaration": "OAI.AsymptoticallyMinimalLittlewood.main",
+    "file": "OAI/Analysis/Littlewood/Main.lean",
+    "config_sha256": "0021e2cbecb32bf46c0ee9955f4241e518447f3019717304f2df794126331906",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.AsymptoticallyMinimalLittlewood",
+      "solution_module": "OAI.Analysis.Littlewood.Main",
+      "theorem_names": [
+        "OAI.AsymptoticallyMinimalLittlewood.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/AuslanderReiten.json",
+    "declaration": "OAI.ArExplicit.Statement.main",
+    "file": "OAI/Algebra/AuslanderReiten/All.lean",
+    "config_sha256": "c449639de0d62ab7d444f20d65524c9e6b1ab3a7fbb4bf0501c4cbe0018b4b9d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.AuslanderReiten",
+      "solution_module": "OAI.Algebra.AuslanderReiten.All",
+      "theorem_names": [
+        "OAI.ArExplicit.Statement.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BackwardIntertwiners.json",
+    "declaration": "OAI.BackwardIntertwiners.direct_algebra_corollary",
+    "file": "OAI/Analysis/BackwardIntertwiners/AlgebraCorollary.lean",
+    "config_sha256": "02f60773a490f1f12b81b2b0a66cc34ade1ba3aeaa237f2d4a67613797278973",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BackwardIntertwiners",
+      "solution_module": "OAI.Analysis.BackwardIntertwiners.AlgebraCorollary",
+      "theorem_names": [
+        "OAI.BackwardIntertwiners.direct_algebra_corollary"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BassTrace.json",
+    "declaration": "OAI.BassTrace.RightProjective.bassTraceModules_vanishing_and_support",
+    "file": "OAI/RingTheory/BassTrace/Main.lean",
+    "config_sha256": "c539654a4313c8174c966e8bfe7db6aaad145975fb41107dce7afcecaf3a537a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BassTrace",
+      "solution_module": "OAI.RingTheory.BassTrace.Main",
+      "theorem_names": [
+        "OAI.BassTrace.RightProjective.bassTraceModules_vanishing_and_support"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BiholderTransport.json",
+    "declaration": "OAI.WeakMTWTransport.uniform_biHolder_transport",
+    "file": "OAI/Analysis/BiholderTransport/Main.lean",
+    "config_sha256": "7c9eb6cfa8ef73414fd72772596c4289850e13af37fe0d2204e9823af97737f8",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BiholderTransport",
+      "solution_module": "OAI.Analysis.BiholderTransport.Main",
+      "theorem_names": [
+        "OAI.WeakMTWTransport.uniform_biHolder_transport"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BinPackingGap.json",
+    "declaration": "OAI.BinPackingGap.main_results",
+    "file": "OAI/Computability/BinPacking/Main.lean",
+    "config_sha256": "761527acf4ff186a6765baf5b3f30d7542f75b88865168de59e25e7c360ba941",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BinPackingGap",
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "solution_module": "OAI.Computability.BinPacking.Main",
+      "theorem_names": [
+        "OAI.BinPackingGap.main_results"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BinaryMatching.json",
+    "declaration": "OAI.BinaryMatching.deterministic_approximate_counting",
+    "file": "OAI/Computability/MatchingCount/BinarySolve.lean",
+    "config_sha256": "9ec0cd858949e16333ae9d64e68c2a25a1d1f03b59c6af0c90cc79731f2e9c9a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BinaryMatching",
+      "solution_module": "OAI.Computability.MatchingCount.BinarySolve",
+      "theorem_names": [
+        "OAI.BinaryMatching.deterministic_approximate_counting"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BinarySweep.json",
+    "declaration": "OAI.binary_sweep_contraction_and_mixing",
+    "file": "OAI/Probability/BinarySweep/Main.lean",
+    "config_sha256": "25effc8adb0ada050f97be853249026cf6a5a97b603d99992ad27835d5b23e22",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BinarySweep",
+      "solution_module": "OAI.Probability.BinarySweep.Main",
+      "theorem_names": [
+        "OAI.binary_sweep_contraction_and_mixing"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BipartiteCrossing.json",
+    "declaration": "OAI.Zarankiewicz.mainTarget_proof",
+    "file": "OAI/Combinatorics/Crossing/Main.lean",
+    "config_sha256": "805fa1d52cc07581d9951ad6d927c123c933f5c75fc4a2a6b08f5096a555625c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BipartiteCrossing",
+      "solution_module": "OAI.Combinatorics.Crossing.Main",
+      "theorem_names": [
+        "OAI.Zarankiewicz.mainTarget_proof"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BorsukNine.json",
+    "declaration": "OAI.BorsukNine.main_theorem",
+    "file": "OAI/Geometry/Borsuk/Counterexample.lean",
+    "config_sha256": "166280fe4f1677ef284ff142354470b9fb18b030ce8ff5632d9790c8aa5e4f43",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BorsukNine",
+      "solution_module": "OAI.Geometry.Borsuk.Main",
+      "theorem_names": [
+        "OAI.BorsukNine.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BoundedRecovery.json",
+    "declaration": "OAI.BoundedRecovery.bounded_recovery",
+    "file": "OAI/Analysis/ModularRecovery/Recovery.lean",
+    "config_sha256": "bf415d887efe5963971791efc7b454bfd48c1fed5bad363b8d21b99c2a11f6f9",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BoundedRecovery",
+      "solution_module": "OAI.Analysis.ModularRecovery.Main",
+      "theorem_names": [
+        "OAI.BoundedRecovery.bounded_recovery"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BoundedTreePotentials.json",
+    "declaration": "OAI.BoundedTreePotentials.TreeCalculus.main_counterexample",
+    "file": "OAI/Analysis/TreePotential/Main.lean",
+    "config_sha256": "fb79b609796648a1e4fb13dc0a1580919452b540c15182b291cb990227becb71",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BoundedTreePotentials",
+      "solution_module": "OAI.Analysis.TreePotential.Main",
+      "theorem_names": [
+        "OAI.BoundedTreePotentials.TreeCalculus.main_counterexample"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BoundedTreewidthL1.json",
+    "declaration": "OAI.BoundedTreewidthL1.main_theorem",
+    "file": "OAI/Combinatorics/TreewidthL1/Main.lean",
+    "config_sha256": "ec313e68d93286dff543b0d46755de4b6ca3de772978bfe476a8cae08ca5256b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BoundedTreewidthL1",
+      "solution_module": "OAI.Combinatorics.TreewidthL1.Main",
+      "theorem_names": [
+        "OAI.BoundedTreewidthL1.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Brennan.json",
+    "declaration": "OAI.Brennan.main_theorem",
+    "file": "OAI/Analysis/IntegralMeans/Main.lean",
+    "config_sha256": "1973310cc46409cf180cd7811611407a727175932ce26ea6bc9b6dcb4dd6b553",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Brennan",
+      "solution_module": "OAI.Analysis.IntegralMeans.Main",
+      "theorem_names": [
+        "OAI.Brennan.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/BrennanSharp.json",
+    "declaration": "OAI.Brennan.Sharp.sharp_endpoints",
+    "file": "OAI/Analysis/IntegralMeans/SharpEndpoints.lean",
+    "config_sha256": "5e28f46588ce17e2f573caee303ba6f49d89eddfe438ccf2b344cdda15165187",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.BrennanSharp",
+      "solution_module": "OAI.Analysis.IntegralMeans.SharpEndpoints",
+      "theorem_names": [
+        "OAI.Brennan.Sharp.sharp_endpoints"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/C0Absorption.json",
+    "declaration": "OAI.C0Absorption.main_result",
+    "file": "OAI/Analysis/C0Absorption/Main.lean",
+    "config_sha256": "874bc8d2370ec332fd743314e45b56bd530df1a962e6df4003b7fd98f4531555",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.C0Absorption",
+      "solution_module": "OAI.Analysis.C0Absorption.Main",
+      "theorem_names": [
+        "OAI.C0Absorption.main_result"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CHObstruction.json",
+    "declaration": "OAI.CHObstruction.main",
+    "file": "OAI/ModelTheory/Categoricity/Main.lean",
+    "config_sha256": "95484776acae3d7176ec20898817a23910dff1282e064fac9c74a68f1beac4f9",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CHObstruction",
+      "solution_module": "OAI.ModelTheory.Categoricity.Main",
+      "theorem_names": [
+        "OAI.CHObstruction.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CartierChartCompactnessSupport.json",
+    "declaration": "OAI.CartierSections.isCompact_closedChartFieldRetraction_cone",
+    "file": "OAI/AlgebraicGeometry/CartierSections/ChartCompactness.lean",
+    "config_sha256": "242cadf7dd3f4675b1db7043075221e2044ddc7786837ed97971138a31b62c0f",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CartierChartCompactnessSupport",
+      "solution_module": "OAI.AlgebraicGeometry.CartierSections.ChartCompactness",
+      "theorem_names": [
+        "OAI.CartierSections.isCompact_closedChartFieldRetraction_cone"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CharacterCriterion.json",
+    "declaration": "OAI.KirchbergRordam.character_criterion",
+    "file": "OAI/Analysis/CharacterCriterion/Main.lean",
+    "config_sha256": "747bbe2975f953d0b5cab3007d6236031a75f82ce32a8d952d06fcc7eac170e5",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CharacterCriterion",
+      "solution_module": "OAI.Analysis.CharacterCriterion.Main",
+      "theorem_names": [
+        "OAI.KirchbergRordam.character_criterion"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CharacterVarietiesAllSeamsSupport.json",
+    "declaration": "OAI.IntegralCharacterVarieties.SurfacePresentation.Diagram.producedMarkedValues_allSeams",
+    "file": "OAI/AlgebraicGeometry/CharacterVarieties/Seams/ProducedSolution.lean",
+    "config_sha256": "c6bc7eb2e8d770e64482e642a8a6f25f020d73a0df5927a0b6b03b835798fe8b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CharacterVarietiesAllSeamsSupport",
+      "solution_module": "OAI.AlgebraicGeometry.CharacterVarieties.Seams.ProducedSolution",
+      "theorem_names": [
+        "OAI.IntegralCharacterVarieties.SurfacePresentation.Diagram.producedMarkedValues_allSeams"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ChoicelessPolynomialTime.json",
+    "declaration": "OAI.CPTSeparation.main",
+    "file": "OAI/ModelTheory/Choiceless/Separation.lean",
+    "config_sha256": "6b7b0c476948208fa58011497df3ddcfb0d3ff08b7299141949da3240a21cf7a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ChoicelessPolynomialTime",
+      "solution_module": "OAI.ModelTheory.Choiceless.Separation",
+      "theorem_names": [
+        "OAI.CPTSeparation.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CirculantHadamard.json",
+    "declaration": "OAI.CirculantHadamard.exists_iff_order_one_or_four",
+    "file": "OAI/LinearAlgebra/CirculantHadamard/Main.lean",
+    "config_sha256": "c1fe62023b2b218840c7389b00a97473b48f3a59ab1af453f0dd4558b9e6b4b1",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CirculantHadamard",
+      "solution_module": "OAI.LinearAlgebra.CirculantHadamard.Main",
+      "theorem_names": [
+        "OAI.CirculantHadamard.exists_iff_order_one_or_four"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ClassicalON.json",
+    "declaration": "OAI.ClassicalON.main",
+    "file": "OAI/Probability/ClassicalON/Main.lean",
+    "config_sha256": "47cb3623915c8cfcc35099fabd0c44173afa72b706eb0526c4b8d3855e789252",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ClassicalON",
+      "solution_module": "OAI.Probability.ClassicalON.Main",
+      "theorem_names": [
+        "OAI.ClassicalON.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CliqueFreeLog.json",
+    "declaration": "OAI.CliqueFreeLog.logarithmic_independence_bound",
+    "file": "OAI/Combinatorics/CliqueFree/Main.lean",
+    "config_sha256": "ddfe72ae1b6d99817f05dd1b91ff8e178717abeecff667e08781df60c1faf56d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CliqueFreeLog",
+      "solution_module": "OAI.Combinatorics.CliqueFree.Main",
+      "theorem_names": [
+        "OAI.CliqueFreeLog.logarithmic_independence_bound"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CommonBasesFPRAS.json",
+    "declaration": "OAI.common_bases_fpras",
+    "file": "OAI/Combinatorics/MatroidCounting/CommonBases.lean",
+    "config_sha256": "b4d68930a3d2d6b026c00c72104ffa7276b7691ab36569a1ee060a20f2ddd667",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CommonBasesFPRAS",
+      "solution_module": "OAI.Combinatorics.MatroidCounting.CommonBases",
+      "theorem_names": [
+        "OAI.common_bases_fpras"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CommutingDerivations.json",
+    "declaration": "OAI.AbhyankarSathaye.CommutingDerivations.commuting_derivations_with_ordinary_extras",
+    "file": "OAI/AlgebraicGeometry/CommutingDerivations/OrdinaryExtraMain.lean",
+    "config_sha256": "627ee35337cc015e1afa71282d815b9acb0f9facc91b8e15b59e3f1a25be6bb7",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CommutingDerivations",
+      "solution_module": "OAI.AlgebraicGeometry.CommutingDerivations.OrdinaryExtraMain",
+      "theorem_names": [
+        "OAI.AbhyankarSathaye.CommutingDerivations.commuting_derivations_with_ordinary_extras"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CompactBanach.json",
+    "declaration": "OAI.CompactBanach.main",
+    "file": "OAI/Geometry/DoublingHilbert/CompactBanach.lean",
+    "config_sha256": "0b2f496d1bc30fbae51e69373f7b09817d4c0cca5f99e4df1921bf394cae990c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CompactBanach",
+      "solution_module": "OAI.Geometry.DoublingHilbert.CompactBanach",
+      "theorem_names": [
+        "OAI.CompactBanach.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CompleteCrossing.json",
+    "declaration": "OAI.Paper170.complete_graph_crossing_number",
+    "file": "OAI/Combinatorics/CompleteCrossing/Main.lean",
+    "config_sha256": "6b2a2b034a4d860278e99d6c36fcdc0b0fcf60a4baae508c0b45d4a7807cc570",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CompleteCrossing",
+      "solution_module": "OAI.Combinatorics.CompleteCrossing.Main",
+      "theorem_names": [
+        "OAI.Paper170.complete_graph_crossing_number"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CompleteCrouzeix.json",
+    "declaration": "OAI.CompleteCrouzeix.main",
+    "file": "OAI/Analysis/NumericalRange/Main.lean",
+    "config_sha256": "458866285eca662c7e35786aef3332e44d4d46edee29a4c0c09a8a67a46fa22c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CompleteCrouzeix",
+      "solution_module": "OAI.Analysis.NumericalRange.Main",
+      "theorem_names": [
+        "OAI.CompleteCrouzeix.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ComplexCancellation.json",
+    "declaration": "OAI.ComplexCancellation.main",
+    "file": "OAI/Algebra/AffineCancellation/Main.lean",
+    "config_sha256": "d6387837a006e069413a5529bd5ce1e1bf8a1f4dc959fe40a4f8dba5ccab3465",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ComplexCancellation",
+      "solution_module": "OAI.Algebra.AffineCancellation.Main",
+      "theorem_names": [
+        "OAI.ComplexCancellation.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Conductivity.json",
+    "declaration": "OAI.ScalarConductivity.main_nonuniqueness",
+    "file": "OAI/Analysis/Conductivity/Main.lean",
+    "config_sha256": "ca6115f52ab9f5eb5a082efa9cc3a31173e611b29be32421af9631ab49033af0",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Conductivity",
+      "solution_module": "OAI.Analysis.Conductivity.Main",
+      "theorem_names": [
+        "OAI.ScalarConductivity.main_nonuniqueness"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ConjugatePoints.json",
+    "declaration": "OAI.ThreeManifold.main_theorem",
+    "file": "OAI/Geometry/ConjugatePoints/ThreeManifold.lean",
+    "config_sha256": "41325189d075c70c053c8b662eeedad5ecad3458306386227918354ddd20f663",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ConjugatePoints",
+      "solution_module": "OAI.Geometry.ConjugatePoints.ThreeManifold",
+      "theorem_names": [
+        "OAI.ThreeManifold.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ContinuumTransition.json",
+    "declaration": "OAI.ContinuumTemperature.main_theorem",
+    "file": "OAI/Probability/ContinuumTransition/Main.lean",
+    "config_sha256": "8ec375365e428188d10ee25955a2c0eca28200f949839b0a8356d5542127e8d8",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ContinuumTransition",
+      "solution_module": "OAI.Probability.ContinuumTransition.Main",
+      "theorem_names": [
+        "OAI.ContinuumTemperature.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CoordinateSweeps.json",
+    "declaration": "OAI.CoordinateSweeps.conditional_main",
+    "file": "OAI/Probability/CoordinateSweeps/Main.lean",
+    "config_sha256": "84dbb774ba106569f6e05834ae5a43e5b04050f1e0bb1ebb8dd324b6bd8fc332",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CoordinateSweeps",
+      "solution_module": "OAI.Probability.CoordinateSweeps.Main",
+      "theorem_names": [
+        "OAI.CoordinateSweeps.conditional_main",
+        "OAI.CoordinateSweeps.all_grid_moment"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Cotype.json",
+    "declaration": "OAI.Cotype.mainTarget_proved",
+    "file": "OAI/Analysis/Cotype/Main.lean",
+    "config_sha256": "b60c097ef466c4a8a57d8ba03e0768a209add7edf723fc9a5fc275df48548d12",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Cotype",
+      "solution_module": "OAI.Analysis.Cotype.Main",
+      "theorem_names": [
+        "OAI.Cotype.mainTarget_proved"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CoulombIonization.json",
+    "declaration": "OAI.CoulombAtom.generalized_ionization",
+    "file": "OAI/Analysis/CoulombIonization/Main.lean",
+    "config_sha256": "18cb9e193da1c2a874a734c9bd181e440a2e0614cf2699b4ff81ca724df98789",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CoulombIonization",
+      "solution_module": "OAI.Analysis.CoulombIonization.Main",
+      "theorem_names": [
+        "OAI.CoulombAtom.generalized_ionization"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CourtadeKumar.json",
+    "declaration": "OAI.LeanBlast.CourtadeKumar.courtadeKumarAndAttainment",
+    "file": "OAI/InformationTheory/BooleanNoise/Main.lean",
+    "config_sha256": "b7095cca718b8b49c9f60e94442f8c3583a5cec13ac6c612dbd47a431fdcac32",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CourtadeKumar",
+      "solution_module": "OAI.InformationTheory.BooleanNoise.Main",
+      "theorem_names": [
+        "OAI.LeanBlast.CourtadeKumar.courtadeKumarAndAttainment"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CriticalSK.json",
+    "declaration": "OAI.CriticalSK.covariance_and_linear_tests",
+    "file": "OAI/MathematicalPhysics/CriticalSK/Rayleigh.lean",
+    "config_sha256": "3164b158fbba980bda240f2d512b8480efd678b64662e13e6955ec16782003b3",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CriticalSK",
+      "solution_module": "OAI.MathematicalPhysics.CriticalSK.Main",
+      "theorem_names": [
+        "OAI.CriticalSK.realized_equilibrium_initial_states",
+        "OAI.CriticalSK.covariance_and_linear_tests",
+        "OAI.CriticalSK.critical_mixing_lower_bounds"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CriticalSKMixing.json",
+    "declaration": "OAI.CriticalSK.critical_mixing_bounds",
+    "file": "OAI/MathematicalPhysics/CriticalMixing/Main.lean",
+    "config_sha256": "b87c7aec463827b9a2b5998ff22deb78b6af2dfd0b026e4eb26e574c3fdad466",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CriticalSKMixing",
+      "solution_module": "OAI.MathematicalPhysics.CriticalMixing.Main",
+      "theorem_names": [
+        "OAI.CriticalSK.critical_mixing_bounds"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CriticalZ3.json",
+    "declaration": "OAI.CriticalZ3.critical_no_infinite",
+    "file": "OAI/Probability/CriticalZ3/Main.lean",
+    "config_sha256": "ab3de20c993f7c3823a26577052b8bf950e310841e990ea604a4bdaa83b85e4c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CriticalZ3",
+      "solution_module": "OAI.Probability.CriticalZ3.Main",
+      "theorem_names": [
+        "OAI.CriticalZ3.critical_no_infinite"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/CycleDecomposition.json",
+    "declaration": "OAI.ErdosGallai.erdos_gallai",
+    "file": "OAI/Combinatorics/CycleDecomposition/Main.lean",
+    "config_sha256": "f89705dba6bfbf27113cae83ae8000946bd6276b2afae4b19e28fa528dfb32d0",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.CycleDecomposition",
+      "solution_module": "OAI.Combinatorics.CycleDecomposition.Main",
+      "theorem_names": [
+        "OAI.ErdosGallai.erdos_gallai"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DaugavetModuli.json",
+    "declaration": "OAI.ExactModuli.exact_example",
+    "file": "OAI/Analysis/Daugavet/Main.lean",
+    "config_sha256": "351b9e76846a012f194810e1d39366e5a6d5156496dc83a76a429c5890269bff",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DaugavetModuli",
+      "solution_module": "OAI.Analysis.Daugavet.Main",
+      "theorem_names": [
+        "OAI.ExactModuli.exact_main",
+        "OAI.ExactModuli.kadets_werner_existence",
+        "OAI.ExactModuli.exact_example"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DegreeRigidity.json",
+    "declaration": "OAI.TuringRigidity.ManuscriptMain.rigidity",
+    "file": "OAI/Computability/DegreeRigidity/Main.lean",
+    "config_sha256": "8aea98b8c9d06631764ee739802c2783a4333b106c0b8f8e33153bf01ddaf7dc",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DegreeRigidity",
+      "solution_module": "OAI.Computability.DegreeRigidity.Main",
+      "theorem_names": [
+        "OAI.TuringRigidity.ManuscriptMain.rigidity"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DeligneDrinfeld.json",
+    "declaration": "OAI.DeligneDrinfeld.main",
+    "file": "OAI/Algebra/Drinfeld/Completion.lean",
+    "config_sha256": "2fe02807b46eaab9e0f45f313f474d0d7448bcbee361cd2f9604ebd83d6bc8ba",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DeligneDrinfeld",
+      "solution_module": "OAI.Algebra.Drinfeld.Completion",
+      "theorem_names": [
+        "OAI.DeligneDrinfeld.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DepthThree.json",
+    "declaration": "OAI.DepthThreeLowerBound.exists_polynomial_time_language_depth_three_lower_bound",
+    "file": "OAI/Computability/DepthThree/Main.lean",
+    "config_sha256": "0b9ecec5cb9b079bf8f6b301604938a9b74758f6abeff6dd985e160c89f578b3",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DepthThree",
+      "solution_module": "OAI.Computability.DepthThree.Main",
+      "theorem_names": [
+        "OAI.DepthThreeLowerBound.exists_polynomial_time_language_depth_three_lower_bound"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DiamondDistortion.json",
+    "declaration": "OAI.DiamondDistortion.headline_all_pairs",
+    "file": "OAI/Analysis/DiamondDistortion/Descent.lean",
+    "config_sha256": "d2ec9360f04c9f4efb69885db8aa9976fa488763403a585029a32f5ffb20515d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DiamondDistortion",
+      "solution_module": "OAI.Analysis.DiamondDistortion.Descent",
+      "theorem_names": [
+        "OAI.DiamondDistortion.headline_all_pairs"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DirectCrouzeix.json",
+    "declaration": "OAI.DirectCrouzeix.complete_crouzeix",
+    "file": "OAI/Analysis/DirectCrouzeix/CompleteBound.lean",
+    "config_sha256": "26346f0920c9862517f30c4c3a016a5aea03913cca5c151dd1a26eee3e7a9f82",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DirectCrouzeix",
+      "solution_module": "OAI.Analysis.DirectCrouzeix.Main",
+      "theorem_names": [
+        "OAI.DirectCrouzeix.complete_crouzeix",
+        "OAI.DirectCrouzeix.uniform_sharpness"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DirectionalBallisticity.json",
+    "declaration": "OAI.DirectionalTransience.directional_transience_implies_ballisticity",
+    "file": "OAI/Probability/Ballisticity/Main.lean",
+    "config_sha256": "50701da9c416997d906243fafa42c6d937a64b2e1d7cb77d06da23383db5eaef",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DirectionalBallisticity",
+      "solution_module": "OAI.Probability.Ballisticity.Main",
+      "theorem_names": [
+        "OAI.DirectionalTransience.directional_transience_implies_ballisticity"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DirichletSevenEighths.json",
+    "declaration": "OAI.DirichletCharacter.LFunction_ne_zero_of_seven_eighths_lt_re",
+    "file": "OAI/NumberTheory/DirichletL/Nonvanishing.lean",
+    "config_sha256": "cfc8d85d49ec5f180e75990d95c59c45f9bd5b9f453a101308870b9c4df9e1d9",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DirichletSevenEighths",
+      "solution_module": "OAI.NumberTheory.DirichletL.Nonvanishing",
+      "theorem_names": [
+        "OAI.DirichletCharacter.LFunction_ne_zero_of_seven_eighths_lt_re"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DixmierAllDiscrete.json",
+    "declaration": "OAI.Dixmier.current_main_theorem",
+    "file": "OAI/Analysis/Unitarizability/AllDiscrete.lean",
+    "config_sha256": "8072f74263ac840a87fd90ce9756c7d308ce67af731bae36ef577f0a16156aa8",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DixmierAllDiscrete",
+      "solution_module": "OAI.Analysis.Unitarizability.AllDiscrete",
+      "theorem_names": [
+        "OAI.Dixmier.current_main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/DoublingHilbert.json",
+    "declaration": "OAI.DoublingHilbert.main",
+    "file": "OAI/Geometry/DoublingHilbert/Main.lean",
+    "config_sha256": "b50d494bf6538adafb584efcaf9ccc4702de49d47800ed95784e62cb112e16c6",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.DoublingHilbert",
+      "solution_module": "OAI.Geometry.DoublingHilbert.Main",
+      "theorem_names": [
+        "OAI.DoublingHilbert.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/EgyptianFractions.json",
+    "declaration": "OAI.Problem337.main_double_log_order",
+    "file": "OAI/NumberTheory/EgyptianFractions/Main.lean",
+    "config_sha256": "e437463f549509b9f7915877a19a54ec1d17d961fee02ce83d5cc3cf1a5fcf36",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.EgyptianFractions",
+      "solution_module": "OAI.NumberTheory.EgyptianFractions.Main",
+      "theorem_names": [
+        "OAI.Problem337.egyptian_length_is_minimum",
+        "OAI.Problem337.main_double_log_order",
+        "OAI.Problem337.one_expansions_finite_and_bounded",
+        "OAI.Problem337.counting_double_log_order",
+        "OAI.Problem337.exact_marker_padding",
+        "OAI.Problem337.every_exact_marker_occurs",
+        "OAI.Problem337.quantitative_marked_length",
+        "OAI.Problem337.missing_denominator_semantics",
+        "OAI.Problem337.prescribed_denominator_corollary"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/EgyptianFractions.json",
+    "declaration": "OAI.Problem337.counting_double_log_order",
+    "file": "OAI/NumberTheory/EgyptianFractions/Main.lean",
+    "config_sha256": "e437463f549509b9f7915877a19a54ec1d17d961fee02ce83d5cc3cf1a5fcf36",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.EgyptianFractions",
+      "solution_module": "OAI.NumberTheory.EgyptianFractions.Main",
+      "theorem_names": [
+        "OAI.Problem337.egyptian_length_is_minimum",
+        "OAI.Problem337.main_double_log_order",
+        "OAI.Problem337.one_expansions_finite_and_bounded",
+        "OAI.Problem337.counting_double_log_order",
+        "OAI.Problem337.exact_marker_padding",
+        "OAI.Problem337.every_exact_marker_occurs",
+        "OAI.Problem337.quantitative_marked_length",
+        "OAI.Problem337.missing_denominator_semantics",
+        "OAI.Problem337.prescribed_denominator_corollary"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/EgyptianFractions.json",
+    "declaration": "OAI.Problem337.prescribed_denominator_corollary",
+    "file": "OAI/NumberTheory/EgyptianFractions/Main.lean",
+    "config_sha256": "e437463f549509b9f7915877a19a54ec1d17d961fee02ce83d5cc3cf1a5fcf36",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.EgyptianFractions",
+      "solution_module": "OAI.NumberTheory.EgyptianFractions.Main",
+      "theorem_names": [
+        "OAI.Problem337.egyptian_length_is_minimum",
+        "OAI.Problem337.main_double_log_order",
+        "OAI.Problem337.one_expansions_finite_and_bounded",
+        "OAI.Problem337.counting_double_log_order",
+        "OAI.Problem337.exact_marker_padding",
+        "OAI.Problem337.every_exact_marker_occurs",
+        "OAI.Problem337.quantitative_marked_length",
+        "OAI.Problem337.missing_denominator_semantics",
+        "OAI.Problem337.prescribed_denominator_corollary"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/EntangledGames.json",
+    "declaration": "OAI.ThresholdParallelRepetition.threshold_parallel_repetition",
+    "file": "OAI/Probability/EntangledGames/Main.lean",
+    "config_sha256": "cb52a10bf682ae1e2bb84d645be13e4c18c0539b8e0b847b565a217e06d51054",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.EntangledGames",
+      "solution_module": "OAI.Probability.EntangledGames.Main",
+      "theorem_names": [
+        "OAI.ThresholdParallelRepetition.threshold_parallel_repetition"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/EuclideanFiveColor.json",
+    "declaration": "OAI.EuclideanFiveColor.no_proper_five_coloring",
+    "file": "OAI/Geometry/PlaneColoring/Five.lean",
+    "config_sha256": "66c30d536e762614362714ec3d930569dd7df248d1f4a11c8c5bffcf65ba6604",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.EuclideanFiveColor",
+      "solution_module": "OAI.Geometry.PlaneColoring.Five",
+      "theorem_names": [
+        "OAI.EuclideanFiveColor.no_proper_five_coloring"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/EuclideanRamsey.json",
+    "declaration": "OAI.EuclideanRamsey.classification",
+    "file": "OAI/Combinatorics/EuclideanRamsey/Main.lean",
+    "config_sha256": "2d7a4422593f70e170f5fc41c87e33f8afae5ad3cf795000c09181d9fad76872",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.EuclideanRamsey",
+      "solution_module": "OAI.Combinatorics.EuclideanRamsey.Main",
+      "theorem_names": [
+        "OAI.EuclideanRamsey.classification"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ExactFourier.json",
+    "declaration": "OAI.ExactFourier.main_theorem",
+    "file": "OAI/Computability/FourierCircuit/Main.lean",
+    "config_sha256": "5c80971062c12f3ec364ae482fbd1e0d954c81c36437f3faa0b2c56562d1892c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ExactFourier",
+      "solution_module": "OAI.Computability.FourierCircuit.Main",
+      "theorem_names": [
+        "OAI.ExactFourier.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/FactorGeneration.json",
+    "declaration": "OAI.Generator.single_generation_of_II1_separable_predual",
+    "file": "OAI/Analysis/FactorGeneration/Main.lean",
+    "config_sha256": "4088aa35a7a507a148ff9ca928421bc372bd765c0b0e41c6cf1a0888fc11ef10",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.FactorGeneration",
+      "solution_module": "OAI.Analysis.FactorGeneration.Main",
+      "theorem_names": [
+        "OAI.Generator.single_generation_of_II1_separable_predual"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/FinitisticAsymmetry.json",
+    "declaration": "OAI.LittleFinitistic.extreme_left_right_asymmetry",
+    "file": "OAI/Algebra/FinitisticAsymmetry/Main.lean",
+    "config_sha256": "9a3eaf61ff768857a0ddc1562650b6391c78c38a51c15406f6b0b55a01e80141",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.FinitisticAsymmetry",
+      "solution_module": "OAI.Algebra.FinitisticAsymmetry.Main",
+      "theorem_names": [
+        "OAI.LittleFinitistic.extreme_left_right_asymmetry"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ForestSpace.json",
+    "declaration": "OAI.ForestSpace.main_theorem",
+    "file": "OAI/Analysis/ForestSpace/Main.lean",
+    "config_sha256": "9345c725bcf2e13e62935384639956e9c7fbab03250e652f81810f261d01aa3d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ForestSpace",
+      "solution_module": "OAI.Analysis.ForestSpace.Main",
+      "theorem_names": [
+        "OAI.ForestSpace.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/FoulkesHowe.json",
+    "declaration": "OAI.Problem346.canonical_foulkes_howe_surjective",
+    "file": "OAI/RepresentationTheory/FoulkesHowe/Stabilization.lean",
+    "config_sha256": "88d413f643d799a7663353e0ade1d0bb7572a5752e8414fb2ec117244005ff64",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.FoulkesHowe",
+      "solution_module": "OAI.RepresentationTheory.FoulkesHowe.Stabilization",
+      "theorem_names": [
+        "OAI.Problem346.canonical_foulkes_howe_surjective"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/FourierLLogL.json",
+    "declaration": "OAI.FourierLLogL.paperMain",
+    "file": "OAI/Analysis/FourierLLogL/PaperMain.lean",
+    "config_sha256": "90decc246eb0e69baa220415dd12eefdf7f38511a011751bfe216745211e4600",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.FourierLLogL",
+      "solution_module": "OAI.Analysis.FourierLLogL.PaperMain",
+      "theorem_names": [
+        "OAI.FourierLLogL.paperMain"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/FreeIsing.json",
+    "declaration": "OAI.Problem367.free_ising_factor_iff_threshold",
+    "file": "OAI/Probability/FreeIsing/Main.lean",
+    "config_sha256": "a5933f8c91891b9411b209f8f1bf17b2ed15a8c3dd9e3fea72f60f24b7545f6a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.FreeIsing",
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "solution_module": "OAI.Probability.FreeIsing.Main",
+      "theorem_names": [
+        "OAI.Problem367.free_ising_factor_iff_threshold"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GaussianMoat.json",
+    "declaration": "OAI.GaussianMoat.fullMain",
+    "file": "OAI/NumberTheory/GaussianMoat/Main.lean",
+    "config_sha256": "b4a9fccc8f9ed173e7647456a587459e2dd10ff3b2a4f68ed7ed94b85ff2e143",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GaussianMoat",
+      "solution_module": "OAI.NumberTheory.GaussianMoat.Main",
+      "theorem_names": [
+        "OAI.GaussianMoat.fullMain"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GaussianPropeller.json",
+    "declaration": "OAI.GaussianPropeller.all_partitions",
+    "file": "OAI/Probability/GaussianPropeller/Main.lean",
+    "config_sha256": "8a26e668bd42299e8699ae3d25a31c1b4831ce782a618383347e4e879f116d63",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GaussianPropeller",
+      "solution_module": "OAI.Probability.GaussianPropeller.Main",
+      "theorem_names": [
+        "OAI.GaussianPropeller.all_partitions"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GaussianReplacement.json",
+    "declaration": "OAI.CurrentProjection.hybridBlockMain",
+    "file": "OAI/Probability/GaussianReplacement/Hybrid.lean",
+    "config_sha256": "70df646c99002e72d45e482740c7edbcdbe9b325aff4defbef69d035cec460e4",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GaussianReplacement",
+      "solution_module": "OAI.Probability.GaussianReplacement.FiberEquality",
+      "theorem_names": [
+        "OAI.CurrentProjection.mixedMomentMain",
+        "OAI.CurrentProjection.actualRowMain",
+        "OAI.CurrentProjection.actualRowRefinement",
+        "OAI.CurrentProjection.actualRowSourceMain",
+        "OAI.CurrentProjection.actualRowSourceRefinement",
+        "OAI.CurrentProjection.criticalComparisonMain",
+        "OAI.CurrentProjection.oneLevelComparisonMain",
+        "OAI.CurrentProjection.twoLabelComparisonMain",
+        "OAI.CurrentProjection.hybridBlockMain",
+        "OAI.CurrentProjection.fiberTwoPointMain",
+        "OAI.CurrentProjection.fiberBlockMain"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GaussianReplacement.json",
+    "declaration": "OAI.CurrentProjection.fiberBlockMain",
+    "file": "OAI/Probability/GaussianReplacement/FiberBlock.lean",
+    "config_sha256": "70df646c99002e72d45e482740c7edbcdbe9b325aff4defbef69d035cec460e4",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GaussianReplacement",
+      "solution_module": "OAI.Probability.GaussianReplacement.FiberEquality",
+      "theorem_names": [
+        "OAI.CurrentProjection.mixedMomentMain",
+        "OAI.CurrentProjection.actualRowMain",
+        "OAI.CurrentProjection.actualRowRefinement",
+        "OAI.CurrentProjection.actualRowSourceMain",
+        "OAI.CurrentProjection.actualRowSourceRefinement",
+        "OAI.CurrentProjection.criticalComparisonMain",
+        "OAI.CurrentProjection.oneLevelComparisonMain",
+        "OAI.CurrentProjection.twoLabelComparisonMain",
+        "OAI.CurrentProjection.hybridBlockMain",
+        "OAI.CurrentProjection.fiberTwoPointMain",
+        "OAI.CurrentProjection.fiberBlockMain"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GotsmanLinial.json",
+    "declaration": "OAI.LeanBlast.GotsmanLinial.gotsmanLinialStatement",
+    "file": "OAI/Combinatorics/GotsmanLinial/Main.lean",
+    "config_sha256": "984badd50d1b08ce2b0133740550f4207b64bc3ebf2a4c4cf249402c70dc8b59",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GotsmanLinial",
+      "solution_module": "OAI.Combinatorics.GotsmanLinial.Main",
+      "theorem_names": [
+        "OAI.LeanBlast.GotsmanLinial.gotsmanLinialStatement"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GrahamSpherical.json",
+    "declaration": "OAI.GrahamSpherical.full_main",
+    "file": "OAI/Combinatorics/SphericalRamsey/Main.lean",
+    "config_sha256": "585ed05f1d4cf2b416ac615acd50d80d5837ad107ccafedc6d318b7113cedaf6",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GrahamSpherical",
+      "solution_module": "OAI.Combinatorics.SphericalRamsey.Main",
+      "theorem_names": [
+        "OAI.GrahamSpherical.full_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GrothendieckElementaryExpansion.json",
+    "declaration": "OAI.Grothendieck.elementary_expansion",
+    "file": "OAI/CategoryTheory/Globular/ElementaryExpansion.lean",
+    "config_sha256": "9b43d4f3bce820f9f013a6078de44c83085d2feaedf3065aba6b665e71f509a2",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GrothendieckElementaryExpansion",
+      "solution_module": "OAI.CategoryTheory.Globular.Main",
+      "theorem_names": [
+        "OAI.Grothendieck.elementary_expansion"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/GroupRingDeterminant.json",
+    "declaration": "OAI.GroupRingDeterminant.main",
+    "file": "OAI/Analysis/GroupDeterminants/Main.lean",
+    "config_sha256": "18793264972faa50d5b4ea87daeda86a1b18259a9ca807460048d2f3390a31d2",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.GroupRingDeterminant",
+      "solution_module": "OAI.Analysis.GroupDeterminants.Main",
+      "theorem_names": [
+        "OAI.GroupRingDeterminant.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HadwigerCounterexample.json",
+    "declaration": "OAI.HadwigerCounterexample.not_hadwiger_conjecture",
+    "file": "OAI/Combinatorics/HadwigerCounterexample/Main.lean",
+    "config_sha256": "eeb332aaf7383820ab97fe251832cfc7a0e3aa5cbf4b2f16a48010704b32d273",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HadwigerCounterexample",
+      "solution_module": "OAI.Combinatorics.HadwigerCounterexample.Main",
+      "theorem_names": [
+        "OAI.HadwigerCounterexample.exists_counterexamples",
+        "OAI.HadwigerCounterexample.not_hadwiger_conjecture"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HarmonicArtin.json",
+    "declaration": "OAI.HarmonicArtin.salvetti_cover_contractible",
+    "file": "OAI/Topology/ArtinGroups/Realizations/SalvettiCoverContractible.lean",
+    "config_sha256": "7c21d952d095ea40268c7b8f7170ad1c244b68803495b10faa6e0d8634630a74",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HarmonicArtin",
+      "solution_module": "OAI.Topology.ArtinGroups.Main",
+      "theorem_names": [
+        "OAI.HarmonicArtin.salvetti_cover_contractible"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HarmonicGrowth.json",
+    "declaration": "OAI.HarmonicCounterexample.main",
+    "file": "OAI/Geometry/HarmonicGrowth/Main.lean",
+    "config_sha256": "5f390cbc0c9f2fe3dd7fc51bd86d3add956b8435140fe3a6b1b6d4d46887ffa9",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HarmonicGrowth",
+      "solution_module": "OAI.Geometry.HarmonicGrowth.Main",
+      "theorem_names": [
+        "OAI.HarmonicCounterexample.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HeckeSevenEighths.json",
+    "declaration": "OAI.SevenEighths.HeckeFamily.LFunction_ne_zero_of_seven_eighths_lt_re",
+    "file": "OAI/NumberTheory/DirichletL/Hecke/Nonvanishing.lean",
+    "config_sha256": "04eb947847df3c1717bdb660f70a74600d0991490bb67d52cbcf0b3186e0bd5e",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HeckeSevenEighths",
+      "solution_module": "OAI.NumberTheory.DirichletL.Hecke.Nonvanishing",
+      "theorem_names": [
+        "OAI.SevenEighths.HeckeFamily.LFunction_ne_zero_of_seven_eighths_lt_re"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HenonEmden.json",
+    "declaration": "OAI.HenonLaneEmden.main_nonexistence",
+    "file": "OAI/Analysis/HenonEmden/Main.lean",
+    "config_sha256": "c56ebe52117b7c2c119e85cb4442d5c71df3c5c774d52e3d7d528c862e533578",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HenonEmden",
+      "solution_module": "OAI.Analysis.HenonEmden.Main",
+      "theorem_names": [
+        "OAI.HenonLaneEmden.main_nonexistence"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HodgeConjectureCMAbelianVarieties/main.json",
+    "declaration": "HodgeCM.hodge_conjecture_for_cm_abelian_varieties",
+    "file": "ComparatorChallenges/HodgeConjectureCMAbelianVarieties/Solution.lean",
+    "config_sha256": null,
+    "configuration": null,
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HoneycombBridgeMassSupport.json",
+    "declaration": "OAI.CriticalHoneycomb.finiteBridgeMassEstimate",
+    "file": "OAI/Combinatorics/HoneycombChords/BridgeMass.lean",
+    "config_sha256": "86229e94c32c59a51f0923e55216f08983de1b1d545e8e2a235c35b51b63cbfc",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HoneycombBridgeMassSupport",
+      "solution_module": "OAI.Combinatorics.HoneycombChords.BridgeMass",
+      "theorem_names": [
+        "OAI.CriticalHoneycomb.finiteBridgeMassEstimate"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HyperbolicCones.json",
+    "declaration": "OAI.Paper256.main_result",
+    "file": "OAI/Analysis/HyperbolicCones/Main.lean",
+    "config_sha256": "954a11b27fce69c9b1e70daa002eefe7f8182fb477629cacf4aa6460e2dced8d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HyperbolicCones",
+      "solution_module": "OAI.Analysis.HyperbolicCones.Main",
+      "theorem_names": [
+        "OAI.Paper256.main_result"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/HyperbolicObstruction.json",
+    "declaration": "OAI.HyperbolicObstruction.main",
+    "file": "OAI/Geometry/HyperbolicGroups/Main.lean",
+    "config_sha256": "6aa9d01af2d443e2c3e0819ffefa45a81bc80a3825f636da0445365a17b351cc",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.HyperbolicObstruction",
+      "solution_module": "OAI.Geometry.HyperbolicGroups.Main",
+      "theorem_names": [
+        "OAI.HyperbolicObstruction.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/IndependentProducts.json",
+    "declaration": "OAI.IndependentProducts.main_general",
+    "file": "OAI/Analysis/ProductSpaces/WeakNullity.lean",
+    "config_sha256": "311a2588782b51d5324e1029b1550b069f58630d7008868ea979b0fb8fab9610",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.IndependentProducts",
+      "solution_module": "OAI.Analysis.ProductSpaces.Main",
+      "theorem_names": [
+        "OAI.IndependentProducts.main_general",
+        "OAI.IndependentProducts.main_exponential",
+        "OAI.IndependentProducts.main_gaussian_24",
+        "OAI.IndependentProducts.main_gaussian_12"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/IndependentProducts.json",
+    "declaration": "OAI.IndependentProducts.main_exponential",
+    "file": "OAI/Analysis/ProductSpaces/Main.lean",
+    "config_sha256": "311a2588782b51d5324e1029b1550b069f58630d7008868ea979b0fb8fab9610",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.IndependentProducts",
+      "solution_module": "OAI.Analysis.ProductSpaces.Main",
+      "theorem_names": [
+        "OAI.IndependentProducts.main_general",
+        "OAI.IndependentProducts.main_exponential",
+        "OAI.IndependentProducts.main_gaussian_24",
+        "OAI.IndependentProducts.main_gaussian_12"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/IndependentSets.json",
+    "declaration": "OAI.LargeIndependentSets.mainTheoremReal",
+    "file": "OAI/Combinatorics/IndependentSets/Main.lean",
+    "config_sha256": "ea6e46cb22c96e1967fa236586dad49343179d32fda982e01af8902c3e0c6803",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.IndependentSets",
+      "solution_module": "OAI.Combinatorics.IndependentSets.Main",
+      "theorem_names": [
+        "OAI.LargeIndependentSets.mainTheoremReal"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/InfiniteMatroid.json",
+    "declaration": "OAI.InfiniteMatroidCounterexample.main",
+    "file": "OAI/Combinatorics/InfiniteMatroid/Main.lean",
+    "config_sha256": "8d56594400ee353792bc7153086072fc05762cc5cafd4d9cc7e48db525e13b82",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.InfiniteMatroid",
+      "solution_module": "OAI.Combinatorics.InfiniteMatroid.Main",
+      "theorem_names": [
+        "OAI.InfiniteMatroidCounterexample.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/IsometricImmersion.json",
+    "declaration": "OAI.SmoothLocal.Geometry.exists_local_metric_without_local_immersion",
+    "file": "OAI/Geometry/IsometricImmersion/Main.lean",
+    "config_sha256": "51a377beae00c13be5c32c04dd2ce153eec24a3789fa7851475c852eb59ed646",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.IsometricImmersion",
+      "solution_module": "OAI.Geometry.IsometricImmersion.Main",
+      "theorem_names": [
+        "OAI.SmoothLocal.Geometry.exists_local_metric_without_local_immersion"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Jacobsthal.json",
+    "declaration": "OAI.Erdos970.Erdos970Final.erdos_970_quadratic",
+    "file": "OAI/NumberTheory/Jacobsthal/Conclusions/QuadraticBound.lean",
+    "config_sha256": "cc762a7b2dd0da4f2bb8140e32d26c2ca13f22a8c3cdf5ee1050820b7c892d69",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Jacobsthal",
+      "solution_module": "OAI.NumberTheory.Jacobsthal.Main",
+      "theorem_names": [
+        "OAI.Erdos970.Erdos970Final.erdos_970_quadratic"
+      ],
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/KMedianRecovery.json",
+    "declaration": "OAI.MetricKMedianRecovery.global_application",
+    "file": "OAI/Combinatorics/KMedianRecovery/Main.lean",
+    "config_sha256": "eacbc735d57be5f395f3721fe60d756291e85a12da83070af6a436fe1d4bb89b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.KMedianRecovery",
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "solution_module": "OAI.Combinatorics.KMedianRecovery.Main",
+      "theorem_names": [
+        "OAI.MetricKMedianRecovery.global_application"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/KahlerSplitting.json",
+    "declaration": "OAI.UniversalCoverSplitting.main",
+    "file": "OAI/Geometry/KahlerSplitting/Main.lean",
+    "config_sha256": "2fc5188b55f267ee3b5ad418c58506cc180ee67dec646a6a6cb4693b483649e5",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.KahlerSplitting",
+      "solution_module": "OAI.Geometry.KahlerSplitting.Main",
+      "theorem_names": [
+        "OAI.UniversalCoverSplitting.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/KaplanskyFinitelyPresented.json",
+    "declaration": "OAI.KaplanskyCounterexample.finitelyPresented_counterexample",
+    "file": "OAI/RingTheory/DirectFiniteness/FinitelyPresented.lean",
+    "config_sha256": "abb9081593480bf6cb2b2b4a76905ef0c14796470562285c36e9366fdf7a1c8c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.KaplanskyFinitelyPresented",
+      "solution_module": "OAI.RingTheory.DirectFiniteness.FinitelyPresented",
+      "theorem_names": [
+        "OAI.KaplanskyCounterexample.finitelyPresented_counterexample"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/KaplanskyQuasitrace.json",
+    "declaration": "OAI.Kaplansky.kaplansky_quasitrace_counterexample",
+    "file": "OAI/Analysis/Kaplansky/Main.lean",
+    "config_sha256": "e0eeb8758e6ac605038ed26b0ce7ff86f9e52efcc6fb08e17eccc15ba316f3ac",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.KaplanskyQuasitrace",
+      "solution_module": "OAI.Analysis.Kaplansky.Main",
+      "theorem_names": [
+        "OAI.Kaplansky.kaplansky_quasitrace_counterexample"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LocalSmoothing.json",
+    "declaration": "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+    "file": "OAI/Analysis/Fourier/LocalSmoothing/Comparator.lean",
+    "config_sha256": "73392b548f23dd8b1b0b459fae548212b58aab280fdcd0120d06f856c18daa91",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LocalSmoothing",
+      "solution_module": "OAI.Analysis.Fourier.LocalSmoothing.Comparator",
+      "theorem_names": [
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LocalSmoothing.json",
+    "declaration": "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+    "file": "OAI/Analysis/Fourier/LocalSmoothing/Comparator.lean",
+    "config_sha256": "73392b548f23dd8b1b0b459fae548212b58aab280fdcd0120d06f856c18daa91",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LocalSmoothing",
+      "solution_module": "OAI.Analysis.Fourier.LocalSmoothing.Comparator",
+      "theorem_names": [
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LocalSmoothing.json",
+    "declaration": "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+    "file": "OAI/Analysis/Fourier/LocalSmoothing/Comparator.lean",
+    "config_sha256": "73392b548f23dd8b1b0b459fae548212b58aab280fdcd0120d06f856c18daa91",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LocalSmoothing",
+      "solution_module": "OAI.Analysis.Fourier.LocalSmoothing.Comparator",
+      "theorem_names": [
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LocalSmoothing.json",
+    "declaration": "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+    "file": "OAI/Analysis/Fourier/LocalSmoothing/Comparator.lean",
+    "config_sha256": "73392b548f23dd8b1b0b459fae548212b58aab280fdcd0120d06f856c18daa91",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LocalSmoothing",
+      "solution_module": "OAI.Analysis.Fourier.LocalSmoothing.Comparator",
+      "theorem_names": [
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LocalSmoothing.json",
+    "declaration": "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+    "file": "OAI/Analysis/Fourier/LocalSmoothing/Comparator.lean",
+    "config_sha256": "73392b548f23dd8b1b0b459fae548212b58aab280fdcd0120d06f856c18daa91",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LocalSmoothing",
+      "solution_module": "OAI.Analysis.Fourier.LocalSmoothing.Comparator",
+      "theorem_names": [
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LocalSmoothing.json",
+    "declaration": "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square",
+    "file": "OAI/Analysis/Fourier/LocalSmoothing/Comparator.lean",
+    "config_sha256": "73392b548f23dd8b1b0b459fae548212b58aab280fdcd0120d06f856c18daa91",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LocalSmoothing",
+      "solution_module": "OAI.Analysis.Fourier.LocalSmoothing.Comparator",
+      "theorem_names": [
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.euclidean_local_smoothing",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.bochner_riesz",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.spherical_restriction",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya_maximal",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.kakeya",
+        "OAI.Analysis.Fourier.LocalSmoothing.Comparator.stein_square"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Laughlin.json",
+    "declaration": "OAI.Laughlin.mainTarget_proved",
+    "file": "OAI/Analysis/Laughlin/Main.lean",
+    "config_sha256": "f67e3a3b21e27fe89fb328240e56f94bd703867dcf3bae8e0136b1907f0b2f9b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Laughlin",
+      "solution_module": "OAI.Analysis.Laughlin.Main",
+      "theorem_names": [
+        "OAI.Laughlin.mainTarget_proved"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LiebThirring.json",
+    "declaration": "OAI.SharpLiebThirring.sharp_lieb_thirring",
+    "file": "OAI/Analysis/LiebThirring/Main.lean",
+    "config_sha256": "f268c47258b1afc0c96bffe7b35757b86657050ebaf9a6c3c67f4e7a9f38955a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LiebThirring",
+      "solution_module": "OAI.Analysis.LiebThirring.Main",
+      "theorem_names": [
+        "OAI.SharpLiebThirring.sharp_lieb_thirring"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LipschitzEquivalence.json",
+    "declaration": "OAI.LipschitzCounterexample.main",
+    "file": "OAI/Analysis/LipschitzEquivalence/Main.lean",
+    "config_sha256": "0cf9f13307f002f69b6de183508c5f30faefac4593c3b73d1c445bea5b7f3566",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LipschitzEquivalence",
+      "solution_module": "OAI.Analysis.LipschitzEquivalence.Main",
+      "theorem_names": [
+        "OAI.LipschitzCounterexample.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LittleFinitistic.json",
+    "declaration": "OAI.LittleFinitistic.Main.exists_counterexample",
+    "file": "OAI/Algebra/Finitistic/Main.lean",
+    "config_sha256": "14ac61824b748c4a332fd1a6ddf0dd71531f5dfdd39025d69d695023fbd207ce",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LittleFinitistic",
+      "solution_module": "OAI.Algebra.Finitistic.Main",
+      "theorem_names": [
+        "OAI.LittleFinitistic.Main.exists_counterexample"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LogBrunnMinkowski.json",
+    "declaration": "OAI.LogBrunnMinkowski.main",
+    "file": "OAI/Geometry/LogVolume/BrunnMinkowski.lean",
+    "config_sha256": "cd0b805962b00e0e15fb8e336de830480de26d86a4d9abeebe1af07a6aec0ccd",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LogBrunnMinkowski",
+      "solution_module": "OAI.Geometry.LogVolume.BrunnMinkowski",
+      "theorem_names": [
+        "OAI.LogBrunnMinkowski.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LogConcaveQuery.json",
+    "declaration": "OAI.LogConcaveSampling.exact_source_main",
+    "file": "OAI/Probability/LogConcave/Main.lean",
+    "config_sha256": "5a0e43007406bf58e647ffa64a7aa89ec8c37c68535ad6193723ccf0aa6620e7",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LogConcaveQuery",
+      "solution_module": "OAI.Probability.LogConcave.Main",
+      "theorem_names": [
+        "OAI.LogConcaveSampling.exact_source_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/LogspaceEquality.json",
+    "declaration": "OAI.ExactDerandomization.exact_logarithmic_space_derandomization",
+    "file": "OAI/Computability/Logspace/Equality.lean",
+    "config_sha256": "cd4e0be28ca12d5022a531e87876654e99f43752c8561d1e6b88c97cf5046ce0",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.LogspaceEquality",
+      "solution_module": "OAI.Computability.Logspace.Equality",
+      "theorem_names": [
+        "OAI.ExactDerandomization.exact_logarithmic_space_derandomization"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MahlerConjecture.json",
+    "declaration": "OAI.SymmetricMahler.symmetric_mahler",
+    "file": "OAI/Analysis/Mahler/MainTheorem.lean",
+    "config_sha256": "fdf11d50fc36b5ae3d13aeea074aa6e40071c6bacd8de44fc399ac9ac9251959",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MahlerConjecture",
+      "solution_module": "OAI.Analysis.Mahler.MainTheorem",
+      "theorem_names": [
+        "OAI.SymmetricMahler.symmetric_mahler"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MarkovType.json",
+    "declaration": "OAI.MarkovSuperreflexivity.hasNontrivialMarkovType_iff_hasEquivalentUCNorm",
+    "file": "OAI/Analysis/MarkovType/Main.lean",
+    "config_sha256": "74bc3d73b1cc70fd9f5a41cca42da521fb217f775d722b176d6ebb130382306f",
+    "configuration": {
+      "solution_module": "OAI.Analysis.MarkovType.Main",
+      "challenge_module": "ComparatorChallenges.MarkovType",
+      "theorem_names": [
+        "OAI.MarkovSuperreflexivity.hasNontrivialMarkovType_iff_hasEquivalentUCNorm"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MatchingEntropy.json",
+    "declaration": "OAI.MatchingEntropy.entropy_main",
+    "file": "OAI/Combinatorics/PerfectMatching/Main.lean",
+    "config_sha256": "f080baefbec0105edaf37ecc5e2e937b78cb13a9d745dc997bda193c4696e2ee",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MatchingEntropy",
+      "solution_module": "OAI.Combinatorics.PerfectMatching.Main",
+      "theorem_names": [
+        "OAI.MatchingEntropy.entropy_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MatrixFields.json",
+    "declaration": "OAI.MatrixAllFields.MatrixMultiplication.AllFieldMain.omega_lt_source_constant",
+    "file": "OAI/LinearAlgebra/MatrixFields/Conclusions/AllFieldsBound.lean",
+    "config_sha256": "7982a57ecaab76e22ab14d62e1145f30e98672ae690101ff96f78bb2a311a72d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MatrixFields",
+      "solution_module": "OAI.LinearAlgebra.MatrixFields.Main",
+      "theorem_names": [
+        "OAI.MatrixAllFields.MatrixMultiplication.AllFieldMain.omega_lt_source_constant"
+      ],
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MatrixMultiplication.json",
+    "declaration": "OAI.MatrixMultiplication.complex_omega_le_nine_quarters",
+    "file": "OAI/LinearAlgebra/MatrixMultiplication/Main.lean",
+    "config_sha256": "95a2e1557bef8931bdaa3da5c0ae969e5991f53199798b512d69e907f8a81288",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MatrixMultiplication",
+      "solution_module": "OAI.LinearAlgebra.MatrixMultiplication.Main",
+      "theorem_names": [
+        "OAI.MatrixMultiplication.complex_omega_le_nine_quarters",
+        "OAI.MatrixMultiplication.complex_alpha_gt_93_div_200",
+        "OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MatrixMultiplication.json",
+    "declaration": "OAI.MatrixMultiplication.complex_alpha_gt_93_div_200",
+    "file": "OAI/LinearAlgebra/MatrixMultiplication/Main.lean",
+    "config_sha256": "95a2e1557bef8931bdaa3da5c0ae969e5991f53199798b512d69e907f8a81288",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MatrixMultiplication",
+      "solution_module": "OAI.LinearAlgebra.MatrixMultiplication.Main",
+      "theorem_names": [
+        "OAI.MatrixMultiplication.complex_omega_le_nine_quarters",
+        "OAI.MatrixMultiplication.complex_alpha_gt_93_div_200",
+        "OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MatrixMultiplication.json",
+    "declaration": "OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250",
+    "file": "OAI/LinearAlgebra/MatrixMultiplication/Main.lean",
+    "config_sha256": "95a2e1557bef8931bdaa3da5c0ae969e5991f53199798b512d69e907f8a81288",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MatrixMultiplication",
+      "solution_module": "OAI.LinearAlgebra.MatrixMultiplication.Main",
+      "theorem_names": [
+        "OAI.MatrixMultiplication.complex_omega_le_nine_quarters",
+        "OAI.MatrixMultiplication.complex_alpha_gt_93_div_200",
+        "OAI.MatrixMultiplication.complex_rectangular_omega_lt_523_div_250"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MatrixRemoval.json",
+    "declaration": "OAI.Problem348.no_polynomial_removal_bound",
+    "file": "OAI/Combinatorics/MatrixRemoval/Main.lean",
+    "config_sha256": "f746b2a374277d201eea7f901128a4833c7b637d1a8d17f33d0835a6fbfe5430",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MatrixRemoval",
+      "solution_module": "OAI.Combinatorics.MatrixRemoval.Main",
+      "theorem_names": [
+        "OAI.Problem348.no_polynomial_removal_bound"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MaximalSeshadriConstants.json",
+    "declaration": "OAI.MaximalSeshadri.Geometry.maximalSeshadriConstants",
+    "file": "OAI/AlgebraicGeometry/Seshadri/Main.lean",
+    "config_sha256": "49ea15b1052388a4a31fe7458ccb1e664eb482d1097e3c55b0428a3006d91c9d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MaximalSeshadriConstants",
+      "solution_module": "OAI.AlgebraicGeometry.Seshadri.Main",
+      "theorem_names": [
+        "OAI.MaximalSeshadri.Geometry.maximalSeshadriConstants"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MemoryPrecision.json",
+    "declaration": "OAI.MemoryPrecision.main",
+    "file": "OAI/Probability/MemoryPrecision/Main.lean",
+    "config_sha256": "e54ef71fe8f4bc47ab2cbac30494e28505eb4c41ace0ddb6bd70698a486b64bc",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MemoryPrecision",
+      "solution_module": "OAI.Probability.MemoryPrecision.Main",
+      "theorem_names": [
+        "OAI.MemoryPrecision.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MetricEntropyDuality.json",
+    "declaration": "OAI.MetricEntropyDuality.exists_entropy_duality_counterexample_with_covers",
+    "file": "OAI/Analysis/MetricEntropy/Main.lean",
+    "config_sha256": "7b95c9c86fdd3dab7640e14a4f56f29873de2e6571caff62ad52a3b9314d964a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MetricEntropyDuality",
+      "solution_module": "OAI.Analysis.MetricEntropy.Main",
+      "theorem_names": [
+        "OAI.MetricEntropyDuality.exists_entropy_duality_counterexample_with_covers"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/MidpointLenses.json",
+    "declaration": "OAI.SegmentLenses.midpoint_lens_main",
+    "file": "OAI/Analysis/SegmentLenses/Main.lean",
+    "config_sha256": "107feac50a26e221d39e856b630fb7810c4d02b1f2356d49607680c13f97719c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.MidpointLenses",
+      "solution_module": "OAI.Analysis.SegmentLenses.Main",
+      "theorem_names": [
+        "OAI.SegmentLenses.midpoint_lens_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Nagata.json",
+    "declaration": "OAI.Nagata.nagata_conjecture",
+    "file": "OAI/AlgebraicGeometry/PlaneCurves/Nagata.lean",
+    "config_sha256": "7b6dd9709dea0e6e72c35b1de0aaa3d5b91d13da5edb73bb7c21d0b98ef3395e",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Nagata",
+      "solution_module": "OAI.AlgebraicGeometry.PlaneCurves.Nagata",
+      "theorem_names": [
+        "OAI.Nagata.Workers.W30.exists_positive_degree_equation_of_homogeneous_cycle",
+        "OAI.Nagata.nagata_conjecture",
+        "OAI.Nagata.nagata_conjecture_coordinates"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/OddKaplansky.json",
+    "declaration": "OAI.OddKaplansky.main_theorem",
+    "file": "OAI/Algebra/OddKaplansky/Main.lean",
+    "config_sha256": "aec211304ad49f15d11ae58b8017e71a0990c5be785b33412d641a43f977df65",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.OddKaplansky",
+      "solution_module": "OAI.Algebra.OddKaplansky.Main",
+      "theorem_names": [
+        "OAI.OddKaplansky.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/OneTapeSpace.json",
+    "declaration": "OAI.Fifths.Single.capped",
+    "file": "OAI/Computability/SpaceSimulation/Main.lean",
+    "config_sha256": "b5f9be3f8393148089887b527cfc44f0a55d15e8db95888376e23360b026ec2d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.OneTapeSpace",
+      "solution_module": "OAI.Computability.SpaceSimulation.Main",
+      "theorem_names": [
+        "OAI.Fifths.Single.capped",
+        "OAI.Fifths.Single.unknown"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/OneTapeSpace.json",
+    "declaration": "OAI.Fifths.Single.unknown",
+    "file": "OAI/Computability/SpaceSimulation/Main.lean",
+    "config_sha256": "b5f9be3f8393148089887b527cfc44f0a55d15e8db95888376e23360b026ec2d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.OneTapeSpace",
+      "solution_module": "OAI.Computability.SpaceSimulation.Main",
+      "theorem_names": [
+        "OAI.Fifths.Single.capped",
+        "OAI.Fifths.Single.unknown"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/OneWayLiveness.json",
+    "declaration": "OAI.OneWayLiveness.main_theorem",
+    "file": "OAI/Combinatorics/Automata/Main.lean",
+    "config_sha256": "95a0d569553ffdf31bb09170b31bde4a91763743e228a8df80b05805b5ed9aee",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.OneWayLiveness",
+      "solution_module": "OAI.Combinatorics.Automata.Main",
+      "theorem_names": [
+        "OAI.OneWayLiveness.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/OptimalMaxCut.json",
+    "declaration": "OAI.OptimalMaxCut.main",
+    "file": "OAI/Computability/MaxCut/Main.lean",
+    "config_sha256": "4f644dcb199a2442b84d6bf808beecbceb2cf4162cc53eb136119314fbe1578f",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.OptimalMaxCut",
+      "solution_module": "OAI.Computability.MaxCut.Main",
+      "theorem_names": [
+        "OAI.OptimalMaxCut.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PartitionPrinciple.json",
+    "declaration": "OAI.PartitionPilot.Forcing.TransitiveGround.exists_model_partitionPrinciple_without_choice",
+    "file": "OAI/SetTheory/PartitionPrinciple/Models/Separation.lean",
+    "config_sha256": "b397ff9f33531c0eb896a3fbda9431057789716b54beca87884716cf28bcdbe5",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PartitionPrinciple",
+      "solution_module": "OAI.SetTheory.PartitionPrinciple.Main",
+      "theorem_names": [
+        "OAI.PartitionPilot.Forcing.TransitiveGround.exists_model_partitionPrinciple_without_choice"
+      ],
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PerfectCompleteness.json",
+    "declaration": "OAI.PerfectCompleteness.Theorem11.exists_reduction",
+    "file": "OAI/Computability/PerfectCompleteness/Theorem11.lean",
+    "config_sha256": "76c8b8409b50e0718945eb1d45c842412024de1257a8a8122ed5019c75631ef1",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PerfectCompleteness",
+      "solution_module": "OAI.Computability.PerfectCompleteness.Main",
+      "theorem_names": [
+        "OAI.PerfectCompleteness.Theorem11.exists_reduction"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PeriodicTilingThree.json",
+    "declaration": "OAI.PeriodicTilingThree.periodic_tiling_counterexample_and_minimality",
+    "file": "OAI/Geometry/PeriodicTiling/Counterexample.lean",
+    "config_sha256": "e87378eda65c42e0ecdf457306ef3f79db0ee94dbfe99f890ba1b351a64ce147",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PeriodicTilingThree",
+      "solution_module": "OAI.Geometry.PeriodicTiling.Main",
+      "theorem_names": [
+        "OAI.PeriodicTilingThree.periodic_tiling_counterexample_and_minimality"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PettyProjectionVolume.json",
+    "declaration": "OAI.PettyProjection.petty_projection_volume",
+    "file": "OAI/Geometry/ProjectionBodies/Main.lean",
+    "config_sha256": "ae1ee5160f9bd4ba896faa928b8cab668cf983bd4bb3b0dd1874806a0334ae4b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PettyProjectionVolume",
+      "solution_module": "OAI.Geometry.ProjectionBodies.Main",
+      "theorem_names": [
+        "OAI.PettyProjection.petty_projection_volume"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PinchedKahler.json",
+    "declaration": "OAI.PinchedHartogs.main_theorem",
+    "file": "OAI/Geometry/Kahler/Main.lean",
+    "config_sha256": "9d6298ec1b435c84e4f180e31510243a4ad012e7d4140f2a70025f72c6b12c8a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PinchedKahler",
+      "solution_module": "OAI.Geometry.Kahler.Main",
+      "theorem_names": [
+        "OAI.PinchedHartogs.main_theorem",
+        "OAI.PinchedHartogs.controlled_potential",
+        "OAI.PinchedHartogs.metric_transfer"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PinnedDistances.json",
+    "declaration": "OAI.WeakPinned.main",
+    "file": "OAI/Geometry/PinnedDistances/Main.lean",
+    "config_sha256": "563f10bb8bc44e82342037189cbcd53eaa3bf420dd89c2e2b8f03e915fd52d83",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PinnedDistances",
+      "solution_module": "OAI.Geometry.PinnedDistances.Main",
+      "theorem_names": [
+        "OAI.WeakPinned.main"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PlanarFalconer.json",
+    "declaration": "OAI.PlanarFalconer.mainTarget_proved",
+    "file": "OAI/MeasureTheory/Falconer/Main.lean",
+    "config_sha256": "ec5ce2eff6e388e9ed8fd365da800c942794248a754691c47184fbd13dc37ea1",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PlanarFalconer",
+      "solution_module": "OAI.MeasureTheory.Falconer.Main",
+      "theorem_names": [
+        "OAI.PlanarFalconer.mainTarget_proved"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PlanarFirstPassage.json",
+    "declaration": "OAI.PlanarFPP.manuscriptMain",
+    "file": "OAI/Probability/FirstPassage/BoundaryCurve.lean",
+    "config_sha256": "1171ec43edeecf996dcc2fa843e5d0034dc530fa83811ea96c010c7f627cabdf",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PlanarFirstPassage",
+      "solution_module": "OAI.Probability.FirstPassage.BoundaryCurve",
+      "theorem_names": [
+        "OAI.PlanarFPP.manuscriptMain"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PlanarL1.json",
+    "declaration": "OAI.PlanarL1.planar_graph_metrics_embed_L1",
+    "file": "OAI/Combinatorics/PlanarL1/Embedding.lean",
+    "config_sha256": "0043ad85e76dc9e2472f49d8a3d6c189093effa9e83170ae60c6c28f677349ce",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PlanarL1",
+      "solution_module": "OAI.Combinatorics.PlanarL1.Embedding",
+      "theorem_names": [
+        "OAI.PlanarL1.planar_graph_metrics_embed_L1"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PlaneColoring.json",
+    "declaration": "OAI.Problem160.properColoring_seven",
+    "file": "OAI/Geometry/PlaneColoring/Seven.lean",
+    "config_sha256": "4c422e33d0405983061eccb667a68817b999f953761f05e60aaaaa6caf0c0b4f",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PlaneColoring",
+      "solution_module": "OAI.Geometry.PlaneColoring.Main",
+      "theorem_names": [
+        "OAI.Problem160.properColoring_seven"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PosteriorReplicas.json",
+    "declaration": "OAI.PosteriorReplicas.source_main",
+    "file": "OAI/Probability/PosteriorReplicas/Main.lean",
+    "config_sha256": "aa8e4892d4f48c971b6caa742d4362a572fae3ab72bc8fe13a6359424965ff93",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PosteriorReplicas",
+      "solution_module": "OAI.Probability.PosteriorReplicas.Main",
+      "theorem_names": [
+        "OAI.PosteriorReplicas.source_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/PowerFreeValues.json",
+    "declaration": "OAI.QuarticPowerFree.allDegrees",
+    "file": "OAI/NumberTheory/PowerFree/Main.lean",
+    "config_sha256": "d47857339c42028297f4f800bb4ad35d38ba3a9949b9e6542189f9dd7f8fac2d",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.PowerFreeValues",
+      "solution_module": "OAI.NumberTheory.PowerFree.Main",
+      "theorem_names": [
+        "OAI.QuarticPowerFree.allDegrees"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ProjectionCounterexample.json",
+    "declaration": "OAI.ProjectionCounterexample.universal_simplex_upper_bound_false",
+    "file": "OAI/Geometry/ProjectionBody/Counterexample.lean",
+    "config_sha256": "f743e8d6c9a8a1d8ccb627457ab0c6ef59bd97e1b0034b4dfae2a9cc9939466b",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ProjectionCounterexample",
+      "solution_module": "OAI.Geometry.ProjectionBody.Counterexample",
+      "theorem_names": [
+        "OAI.ProjectionCounterexample.universal_simplex_upper_bound_false"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ProjectionMoments.json",
+    "declaration": "OAI.ProjectionMoments.main",
+    "file": "OAI/Probability/ProjectionMoments/Main.lean",
+    "config_sha256": "53a72ad6fdb527dcf9bd3ccaa0e5eceb72577a648b4ec537e0adebd3c4b5fed8",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ProjectionMoments",
+      "solution_module": "OAI.Probability.ProjectionMoments.Main",
+      "theorem_names": [
+        "OAI.ProjectionMoments.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ProjectionVolume.json",
+    "declaration": "OAI.Paper092.product_counterexample",
+    "file": "OAI/Geometry/ProjectionVolume/ProductCounterexample.lean",
+    "config_sha256": "c107f1d32562841448146ac9b5af3d4f24a2bdf20ebfe85ac82d92280185c6c9",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ProjectionVolume",
+      "solution_module": "OAI.Geometry.ProjectionVolume.ProductCounterexample",
+      "theorem_names": [
+        "OAI.Paper092.product_counterexample"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/QACParity.json",
+    "declaration": "OAI.QAC.parity_lower_bound",
+    "file": "OAI/InformationTheory/QuantumCircuit/Parity.lean",
+    "config_sha256": "249565edb570aeb09c2f923b9c6170427c531e02ce78f98bc98f464dffd51a5c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.QACParity",
+      "solution_module": "OAI.InformationTheory.QuantumCircuit.Parity",
+      "theorem_names": [
+        "OAI.QAC.parity_lower_bound"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/QuadricBundles.json",
+    "declaration": "OAI.QuadricCounterexample.main_theorem",
+    "file": "OAI/Geometry/QuadricBundles/Main.lean",
+    "config_sha256": "e8dd5512653fec19023cca766e782d657b3ec6dca33347b87fb1620a49ffa64f",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.QuadricBundles",
+      "solution_module": "OAI.Geometry.QuadricBundles.Main",
+      "theorem_names": [
+        "OAI.QuadricCounterexample.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/QuantitativeVanDerWaerden.json",
+    "declaration": "OAI.QuantitativeVanDerWaerden.uniform_lower_bound",
+    "file": "OAI/Combinatorics/ProgressionColoring/Main.lean",
+    "config_sha256": "0fcea93df537b8451e08f27d23231cb1b05b515afee53c5d1d8b33dfcfd814fa",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.QuantitativeVanDerWaerden",
+      "solution_module": "OAI.Combinatorics.ProgressionColoring.Main",
+      "theorem_names": [
+        "OAI.QuantitativeVanDerWaerden.uniform_lower_bound"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/QuasiRiemannHypothesis.json",
+    "declaration": "OAI.riemannZeta_ne_zero_of_seven_eighths_lt_re",
+    "file": "OAI/NumberTheory/DirichletL/Nonvanishing.lean",
+    "config_sha256": "46ebb7edc11f69536210f502b4bcbd36bbaf3f0872c16748b6c8ce43991bf320",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.QuasiRiemannHypothesis",
+      "solution_module": "OAI.NumberTheory.DirichletL.Nonvanishing",
+      "theorem_names": [
+        "OAI.riemannZeta_ne_zero_of_seven_eighths_lt_re"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/QuinticLienard.json",
+    "declaration": "OAI.QuinticLienard.main",
+    "file": "OAI/Analysis/LienardCycles/Main.lean",
+    "config_sha256": "52e78108c45ce22cf96adafd9826f378ad61b6e222891b5dbade39ab1e805d95",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.QuinticLienard",
+      "solution_module": "OAI.Analysis.LienardCycles.Main",
+      "theorem_names": [
+        "OAI.QuinticLienard.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RadialTransition.json",
+    "declaration": "OAI.RadialTransition.main",
+    "file": "OAI/Probability/RadialTransition/Main.lean",
+    "config_sha256": "42edad6787773f71f917cc6e43b4eca05dc25488c6f82f611d1c61115a60a399",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RadialTransition",
+      "solution_module": "OAI.Probability.RadialTransition.Main",
+      "theorem_names": [
+        "OAI.RadialTransition.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RandomizedMeanPayoff.json",
+    "declaration": "OAI.randomized_quasipolynomial_mean_payoff",
+    "file": "OAI/Computability/RandomMean/Main.lean",
+    "config_sha256": "ff6f8b5b31fa7ee7fc125d6d652ceb947eff43a808b187dd6f8d3d5dc68f36b4",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RandomizedMeanPayoff",
+      "solution_module": "OAI.Computability.RandomMean.Main",
+      "theorem_names": [
+        "OAI.randomized_quasipolynomial_mean_payoff"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RationalHitting.json",
+    "declaration": "OAI.RationalHitting.main",
+    "file": "OAI/Computability/RationalHitting/Main.lean",
+    "config_sha256": "2b135eaf875cd6c699fd8dd9b9b8073f11da8ef767c581fd2e1b65d15d250dee",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RationalHitting",
+      "solution_module": "OAI.Computability.RationalHitting.Main",
+      "theorem_names": [
+        "OAI.RationalHitting.main"
+      ],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RecursivePotentials.json",
+    "declaration": "OAI.ComparatorModel.RecursivePotentials.main",
+    "file": "OAI/Analysis/RecursivePotentials/Challenge.lean",
+    "config_sha256": "c098b3e0380fbfed29d8cef38720f7c6ff58848b3035802c53e40bc2f5896d22",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RecursivePotentials",
+      "solution_module": "OAI.Analysis.RecursivePotentials.Challenge",
+      "theorem_names": [
+        "OAI.ComparatorModel.RecursivePotentials.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ReflexiveFixedPoints.json",
+    "declaration": "OAI.ReflexiveFixedPoints.exists_fixedPoint_of_canonicallyReflexive",
+    "file": "OAI/Analysis/Nonexpansive/Main.lean",
+    "config_sha256": "9f178244093f7f2f109a6421da773b4f655512b030a965aca11257626c840537",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ReflexiveFixedPoints",
+      "solution_module": "OAI.Analysis.Nonexpansive.Main",
+      "theorem_names": [
+        "OAI.ReflexiveFixedPoints.exists_fixedPoint_of_canonicallyReflexive"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RegularParity.json",
+    "declaration": "OAI.QAC.parity_lower_bound_polynomial_size",
+    "file": "OAI/InformationTheory/QuantumCircuit/Main.lean",
+    "config_sha256": "d1eaa46d6c9c8189b4d236bbbf0aee584991cac425b3ff63308944f059602d51",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RegularParity",
+      "solution_module": "OAI.InformationTheory.QuantumCircuit.Main",
+      "theorem_names": [
+        "OAI.QAC.parity_lower_bound_polynomial_size"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RieszQuantitative.json",
+    "declaration": "OAI.RieszRectifiability.quantitative_higher_codimension_riesz_rectifiability",
+    "file": "OAI/Analysis/RieszRectifiability/Uniformity/Rectifiability.lean",
+    "config_sha256": "4656a5812cc764159634e8f191bf4e98abf20ebb130bcb31187a2c5a4623939c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RieszQuantitative",
+      "solution_module": "OAI.Analysis.RieszRectifiability.Main",
+      "theorem_names": [
+        "OAI.RieszRectifiability.quantitative_higher_codimension_riesz_rectifiability"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RyserCovering.json",
+    "declaration": "OAI.RyserCoveringCounterexample.exists_prime_eventually_counterexampleRank",
+    "file": "OAI/Combinatorics/Ryser/Construction/Main.lean",
+    "config_sha256": "496544b0aed472d462671c4902146331b0f0e4a4067ea1ba72a7a992f68d2864",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RyserCovering",
+      "solution_module": "OAI.Combinatorics.Ryser.Construction.Main",
+      "theorem_names": [
+        "OAI.RyserCoveringCounterexample.exists_prime_eventually_counterexampleRank"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/RyserOddExtensions.json",
+    "declaration": "OAI.RyserOdd.eventualOddFailures_and_infinite",
+    "file": "OAI/Combinatorics/Ryser/OddExtensions.lean",
+    "config_sha256": "9333c823e95c9871e99e380ac379430f564dd6a030854ea62019057d4e8a2ce4",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.RyserOddExtensions",
+      "solution_module": "OAI.Combinatorics.Ryser.OddExtensions",
+      "theorem_names": [
+        "OAI.RyserOdd.eventualOddFailures_and_infinite"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Saxl.json",
+    "declaration": "OAI.Saxl.saxl_conjecture",
+    "file": "OAI/RepresentationTheory/Saxl/Main.lean",
+    "config_sha256": "20c77d628ecc9ed20e3eea8bb033bcd7fedd02c42449e02f2a0573187b33a770",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Saxl",
+      "solution_module": "OAI.RepresentationTheory.Saxl.Main",
+      "theorem_names": [
+        "OAI.Saxl.saxl_conjecture"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SecondKahnKalai.json",
+    "declaration": "OAI.LeanBlast.SecondKahnKalai.secondKahnKalaiBounds",
+    "file": "OAI/Combinatorics/GraphThreshold/Main.lean",
+    "config_sha256": "7810510e76f4d7908d0c199ad104e02f4bd1dac404267a8aaf9fcd2a314a0001",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SecondKahnKalai",
+      "solution_module": "OAI.Combinatorics.GraphThreshold.Main",
+      "theorem_names": [
+        "OAI.LeanBlast.SecondKahnKalai.secondKahnKalaiBounds"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SelfSimilar.json",
+    "declaration": "OAI.EntropyRateDimension.entropy_rate_dimension",
+    "file": "OAI/MeasureTheory/SelfSimilar/Main.lean",
+    "config_sha256": "5352e95649d1dd075b7a7951db9bf72c85dbbe386c258f655ed1c01365490d61",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SelfSimilar",
+      "solution_module": "OAI.MeasureTheory.SelfSimilar.Main",
+      "theorem_names": [
+        "OAI.EntropyRateDimension.entropy_rate_dimension"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SensitivitySeparation.json",
+    "declaration": "OAI.Paper320.quantitative_separation",
+    "file": "OAI/Combinatorics/Sensitivity/Separation.lean",
+    "config_sha256": "d5ab43d4dc9111caf9c679c50d7127ee73f6aa1f831f8cc689a1de761fc99897",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SensitivitySeparation",
+      "solution_module": "OAI.Combinatorics.Sensitivity.Separation",
+      "theorem_names": [
+        "OAI.Paper320.quantitative_separation"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SeymourSecondNeighborhood.json",
+    "declaration": "OAI.SeymourSecondNeighborhood.exists_goodVertex",
+    "file": "OAI/Combinatorics/SecondNeighborhood/Main.lean",
+    "config_sha256": "e2496b399005d74e7ae3a1467f3286120b706abe519e42d87880ca1679935778",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SeymourSecondNeighborhood",
+      "solution_module": "OAI.Combinatorics.SecondNeighborhood.Main",
+      "theorem_names": [
+        "OAI.SeymourSecondNeighborhood.exists_goodVertex"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SiegelZeros.json",
+    "declaration": "OAI.SiegelZeros.WeightedTorusJets.exists_absolute_real_zero_gap",
+    "file": "OAI/NumberTheory/SiegelZeros/Conclusions/Theorem.lean",
+    "config_sha256": "620696740156c4503f27ac17760adf1b638f621ad81ab4cde7a0f8df32c4b643",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SiegelZeros",
+      "solution_module": "OAI.NumberTheory.SiegelZeros.Main",
+      "theorem_names": [
+        "OAI.SiegelZeros.WeightedTorusJets.exists_absolute_real_zero_gap",
+        "OAI.SiegelZeros.WeightedTorusJets.dirichletRealZeroBound_proof"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SignedFiniteBand.json",
+    "declaration": "OAI.SignedDisk.CenteredDiskEndpoint.main_signed_finite_band",
+    "file": "OAI/Analysis/SignedDisk/Main.lean",
+    "config_sha256": "7b103eb07fd637dcfb02923cd4df2e83b88200253e742b746629b1539d6fcec0",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SignedFiniteBand",
+      "solution_module": "OAI.Analysis.SignedDisk.Main",
+      "theorem_names": [
+        "OAI.SignedDisk.CenteredDiskEndpoint.main_signed_finite_band"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SimpleAmenable.json",
+    "declaration": "OAI.SimpleAmenable.main",
+    "file": "OAI/GroupTheory/SimpleAmenable/Main.lean",
+    "config_sha256": "c4b67c051efad791f2536fc945b52ad911a49799be063abf8681a20b8684eb59",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SimpleAmenable",
+      "solution_module": "OAI.GroupTheory.SimpleAmenable.Main",
+      "theorem_names": [
+        "OAI.SimpleAmenable.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SingleFold.json",
+    "declaration": "OAI.SingleFold.main",
+    "file": "OAI/NumberTheory/SingleFold/Main.lean",
+    "config_sha256": "c3bebcda69363690d5cf9df87f157ac35de09b7a2bd7304158059e2c366a680c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SingleFold",
+      "solution_module": "OAI.NumberTheory.SingleFold.Main",
+      "theorem_names": [
+        "OAI.SingleFold.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SingleLatticeCovering.json",
+    "declaration": "OAI.SingleLatticeCovering.single_lattice_covering",
+    "file": "OAI/Geometry/LatticeCovering/Main.lean",
+    "config_sha256": "a0d1f9444b4c21bd5edca089b48144df91cc8edb556eb522947e22abe2f7c798",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SingleLatticeCovering",
+      "solution_module": "OAI.Geometry.LatticeCovering.Main",
+      "theorem_names": [
+        "OAI.SingleLatticeCovering.single_lattice_covering"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SingletonLoopMatching.json",
+    "declaration": "OAI.LoopMatching.fullEndpoint",
+    "file": "OAI/Computability/LoopMatching/Main.lean",
+    "config_sha256": "99893f2e245ea894af1af8adb5a883f5e647cb8a44f2c71d0eb3990d2ad9c3c3",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SingletonLoopMatching",
+      "solution_module": "OAI.Computability.LoopMatching.Endpoint",
+      "theorem_names": [
+        "OAI.LoopMatching.fullEndpoint"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SmoothYau.json",
+    "declaration": "OAI.YauCounterexamples.sphere_three",
+    "file": "OAI/Geometry/SmoothYau/SphereMetric/ThreeSphere.lean",
+    "config_sha256": "b6246f14dd1dae3521a1292e98348a86b7dcf1e2bb17e5df5b9410f6d37f007c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SmoothYau",
+      "solution_module": "OAI.Geometry.SmoothYau.Main",
+      "theorem_names": [
+        "OAI.YauCounterexamples.sphere_three",
+        "OAI.YauCounterexamples.sphere_two_torus_two"
+      ],
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SmoothYau.json",
+    "declaration": "OAI.YauCounterexamples.sphere_two_torus_two",
+    "file": "OAI/Geometry/SmoothYau/ProductMetric/SphereProduct.lean",
+    "config_sha256": "b6246f14dd1dae3521a1292e98348a86b7dcf1e2bb17e5df5b9410f6d37f007c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SmoothYau",
+      "solution_module": "OAI.Geometry.SmoothYau.Main",
+      "theorem_names": [
+        "OAI.YauCounterexamples.sphere_three",
+        "OAI.YauCounterexamples.sphere_two_torus_two"
+      ],
+      "definition_names": [],
+      "enable_nanoda": false,
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ]
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/StableCoordinateFour.json",
+    "declaration": "OAI.StableCoordinate.principal_package",
+    "file": "OAI/AlgebraicGeometry/StableCoordinate/Principal.lean",
+    "config_sha256": "bcbeb10eb23938131e989ae41926998752b66660a24659b04dc4a0f8ded11cfd",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.StableCoordinateFour",
+      "solution_module": "OAI.AlgebraicGeometry.StableCoordinate.Principal",
+      "theorem_names": [
+        "OAI.StableCoordinate.principal_package"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SteinitzBergstrom.json",
+    "declaration": "OAI.EuclideanSteinitzBergstrom.main",
+    "file": "OAI/Analysis/Steinitz/Main.lean",
+    "config_sha256": "a1ddb4bf687734bb38468666b4b1b8d3194d974614786e85cfc5b4aa77532195",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SteinitzBergstrom",
+      "solution_module": "OAI.Analysis.Steinitz.Main",
+      "theorem_names": [
+        "OAI.EuclideanSteinitzBergstrom.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/StrictMeans.json",
+    "declaration": "OAI.StrictInverseFirstPower.main",
+    "file": "OAI/Analysis/StrictMeans/Main.lean",
+    "config_sha256": "58a197ec633d9c0ff4bbccacdea7901d40a41640d4f76028a61fe57d2f8f608c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.StrictMeans",
+      "solution_module": "OAI.Analysis.StrictMeans.Main",
+      "theorem_names": [
+        "OAI.StrictInverseFirstPower.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/StrongThinTree.json",
+    "declaration": "OAI.StrongThinTree.strongThinTree",
+    "file": "OAI/Combinatorics/ThinTrees/Main.lean",
+    "config_sha256": "c53fcd5c5352e0bda675135dfaa473672c27017d70a7f34df494634b5f3d30e7",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.StrongThinTree",
+      "solution_module": "OAI.Combinatorics.ThinTrees.Main",
+      "theorem_names": [
+        "OAI.StrongThinTree.strongThinTree"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/StructuralCrouzeix.json",
+    "declaration": "OAI.StructuralCrouzeixReference.challenge",
+    "file": "OAI/Analysis/StructuralCrouzeix/Endpoint.lean",
+    "config_sha256": "bb8e7bf4a71d8064a57ea0099e299caa456fdea7d2fac8f73d74845bb163b4ba",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.StructuralCrouzeix",
+      "solution_module": "OAI.Analysis.StructuralCrouzeix.Endpoint",
+      "theorem_names": [
+        "OAI.StructuralCrouzeixReference.challenge"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SubexponentialSAT.json",
+    "declaration": "OAI.Algorithms.SubexponentialSAT.SqrtLogSpace.exact_count_and_sat",
+    "file": "OAI/Algorithms/SubexponentialSAT/SqrtLogSpace/Final.lean",
+    "config_sha256": "debbfdc9c01104d2369be80da5180978275106df8b685f693fba7ce7da7c5b19",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SubexponentialSAT",
+      "solution_module": "OAI.Algorithms.SubexponentialSAT.Main",
+      "theorem_names": [
+        "OAI.Algorithms.SubexponentialSAT.SqrtLogSpace.exact_count_and_sat"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SubpolynomialLp.json",
+    "declaration": "OAI.SubpolynomialLp.source_main",
+    "file": "OAI/Analysis/LpDimension/Main.lean",
+    "config_sha256": "96bc7424afc0ccea23dba75c6cb5b44e69df6dc8db9b664c18e4ca62ee1190d8",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SubpolynomialLp",
+      "solution_module": "OAI.Analysis.LpDimension.Main",
+      "theorem_names": [
+        "OAI.SubpolynomialLp.source_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SubsphereCurrent.json",
+    "declaration": "OAI.SubsphereCurrent.full_current_main_scope",
+    "file": "OAI/Probability/Subsphere/Main.lean",
+    "config_sha256": "9fdd2387a3fa37dbc56b915de3510d79dedcc273d79b5d9a18170b1ba1285393",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SubsphereCurrent",
+      "solution_module": "OAI.Probability.Subsphere.Main",
+      "theorem_names": [
+        "OAI.SubsphereCurrent.full_current_main_scope"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Superstring.json",
+    "declaration": "OAI.Superstring.main",
+    "file": "OAI/Computability/Superstring/Main.lean",
+    "config_sha256": "e298a74e985c5ee46968c6c232061292bcf89ef6e93dd6a1a222b94db357c87a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Superstring",
+      "solution_module": "OAI.Computability.Superstring.Main",
+      "theorem_names": [
+        "OAI.Superstring.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SurfaceConeCandidateSupport.json",
+    "declaration": "OAI.SmallCM.candidate_ring_properties",
+    "file": "OAI/AlgebraicGeometry/SurfaceCones/CandidateRing.lean",
+    "config_sha256": "dce1e6a3d800cb5b61ab13b7dd5cd76566960b963678f1dd238f922fcc4801f1",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SurfaceConeCandidateSupport",
+      "solution_module": "OAI.AlgebraicGeometry.SurfaceCones.CandidateRing",
+      "theorem_names": [
+        "OAI.SmallCM.candidate_ring_properties"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SymmetricDomains.json",
+    "declaration": "OAI.Release061.main",
+    "file": "OAI/Analysis/SymmetricDomains/Main.lean",
+    "config_sha256": "1acb77b2abcbf8d8889a0ae36f2c9c09a3a86922181de832a38d67e315e2ec06",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SymmetricDomains",
+      "solution_module": "OAI.Analysis.SymmetricDomains.Main",
+      "theorem_names": [
+        "OAI.Release061.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SymmetricMahlerEquality.json",
+    "declaration": "OAI.SymmetricMahler.symmetric_mahler_equality",
+    "file": "OAI/Analysis/Mahler/Classification.lean",
+    "config_sha256": "2e878c2ae80cd8ce362374b38f26731d256c27125aa4cfb970d883b0df05038a",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SymmetricMahlerEquality",
+      "solution_imports": [
+        "OAI.Analysis.Mahler.Classification"
+      ],
+      "solution_module": "OAI.Analysis.Mahler.Classification",
+      "theorem_names": [
+        "OAI.SymmetricMahler.symmetric_mahler_equality"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/SymmetricPolar.json",
+    "declaration": "OAI.SymmetricPolar.symmetric_polar_main",
+    "file": "OAI/Geometry/PolarProducts/Main.lean",
+    "config_sha256": "0665fbaed509ae1465a32ed1f1548988b1416b15a93f1c8eec10cdc633b06e95",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.SymmetricPolar",
+      "solution_module": "OAI.Geometry.PolarProducts.Main",
+      "theorem_names": [
+        "OAI.SymmetricPolar.symmetric_polar_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/Tachikawa.json",
+    "declaration": "OAI.Tachikawa.main_theorem",
+    "file": "OAI/RingTheory/Tachikawa/Counterexample.lean",
+    "config_sha256": "340bcee5916a2527401f17c08107aa5d76a8bca8297505000e1fbe22a4a4cdcb",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.Tachikawa",
+      "solution_module": "OAI.RingTheory.Tachikawa.Counterexample",
+      "theorem_names": [
+        "OAI.Tachikawa.main_theorem"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TalagrandDiscreteConvexity.json",
+    "declaration": "OAI.TalagrandDiscreteConvexity.talagrand_discrete_convexity",
+    "file": "OAI/Combinatorics/DiscreteConvexity/Main.lean",
+    "config_sha256": "536989b4c18777d436d1e3518a1c18e1ebe6eb2dbac72b7dc56777de4fc7c476",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TalagrandDiscreteConvexity",
+      "solution_module": "OAI.Combinatorics.DiscreteConvexity.Main",
+      "theorem_names": [
+        "OAI.TalagrandDiscreteConvexity.talagrand_discrete_convexity"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TalagrandExpectationThreshold.json",
+    "declaration": "OAI.TalagrandThreshold.talagrand_expectation_threshold_equivalence",
+    "file": "OAI/Combinatorics/ExpectationThreshold/Main.lean",
+    "config_sha256": "1d0cc306d5b9c8c67fa2e00b00c0d27909791ae302b1e73d9c3c18915caa2b41",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TalagrandExpectationThreshold",
+      "solution_module": "OAI.Combinatorics.ExpectationThreshold.Main",
+      "theorem_names": [
+        "OAI.TalagrandThreshold.talagrand_expectation_threshold_equivalence"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TamingCompatibility.json",
+    "declaration": "OAI.TamingCompatibility.taming_implies_compatibility",
+    "file": "OAI/Geometry/TamingCompatibility/Main.lean",
+    "config_sha256": "8ffca9a67983439a64f9675f881e66400167d1d0715da95cf595cc76ec6aa31e",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TamingCompatibility",
+      "solution_module": "OAI.Geometry.TamingCompatibility.Main",
+      "theorem_names": [
+        "OAI.TamingCompatibility.taming_implies_compatibility"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ThompsonNonamenability.json",
+    "declaration": "OAI.ThompsonNonamenability.thompson_F_nonamenable_composition",
+    "file": "OAI/GroupTheory/Thompson/Main.lean",
+    "config_sha256": "5e8f9248dde00437950209958b428878b0a05a2428974a4f086d2094f4e206b4",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ThompsonNonamenability",
+      "solution_module": "OAI.GroupTheory.Thompson.Main",
+      "theorem_names": [
+        "OAI.ThompsonNonamenability.thompson_F_nonamenable_composition"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ThorpRouting.json",
+    "declaration": "OAI.ThorpNine.main",
+    "file": "OAI/Probability/ThorpRouting/Main.lean",
+    "config_sha256": "9bc7a4353097aab7a6385c2dcc36b8252b5e25e94caa35d07535579ddb7ec032",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ThorpRouting",
+      "solution_module": "OAI.Probability.ThorpRouting.Main",
+      "theorem_names": [
+        "OAI.ThorpNine.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/ThorpWeightedCompatibility.json",
+    "declaration": "OAI.ThorpCompatibility.weightedCompatibility_main",
+    "file": "OAI/Probability/ThorpCompatibility/Main.lean",
+    "config_sha256": "2eaaae47369fc7f1f0981778763d8cb9234f492542599b5d8b35f99c4a5267a8",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.ThorpWeightedCompatibility",
+      "solution_module": "OAI.Probability.ThorpCompatibility.Main",
+      "theorem_names": [
+        "OAI.ThorpCompatibility.weightedCompatibility_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TingleySphereIsometry.json",
+    "declaration": "OAI.Tingley.tingley_sphere_isometry_full",
+    "file": "OAI/Analysis/SphereIsometry/Extension.lean",
+    "config_sha256": "7e50ce0afaab04e002f1d5cba129579b6a079c966238487d9329eb8fd325a12f",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TingleySphereIsometry",
+      "solution_module": "OAI.Analysis.SphereIsometry.Main",
+      "theorem_names": [
+        "OAI.Tingley.tingley_sphere_isometry_full"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TorsionFreeHyperbolic.json",
+    "declaration": "OAI.Release075.main",
+    "file": "OAI/GroupTheory/Hyperbolic/Main.lean",
+    "config_sha256": "e4178f580015efa3669582be5289097579b93a8d342122fcae71ccad8e5a3a74",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TorsionFreeHyperbolic",
+      "solution_module": "OAI.GroupTheory.Hyperbolic.Main",
+      "theorem_names": [
+        "OAI.Release075.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TorsionFreeZeroDivisors.json",
+    "declaration": "OAI.TorsionFreeZeroDivisors.main",
+    "file": "OAI/Algebra/GroupRing/Main.lean",
+    "config_sha256": "2b4e32790076384bd9c492bfdb032d0d9d6027bb98d4a6c728ebe3a5fe862f12",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TorsionFreeZeroDivisors",
+      "solution_module": "OAI.Algebra.GroupRing.Main",
+      "theorem_names": [
+        "OAI.TorsionFreeZeroDivisors.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TraceIdealTransportSupport.json",
+    "declaration": "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_finIdeal",
+    "file": "OAI/Analysis/TraceCone/IdealTransport.lean",
+    "config_sha256": "0d717e97d8b472826a27af8c44a68da8bc92261020684c08aae97265c9fe3173",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TraceIdealTransportSupport",
+      "solution_module": "OAI.Analysis.TraceCone.IdealTransport",
+      "theorem_names": [
+        "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_finIdeal",
+        "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_zeroIdeal",
+        "OAI.TraceConeClassification.closed_ideal_weight_exists",
+        "OAI.TraceConeClassification.ExtendedTrace.zero_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.star_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.smul_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.add_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteSquareSet_left",
+        "OAI.TraceConeClassification.ExtendedTrace.isClosed_finiteIdeal",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteIdeal_left",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteIdeal_right",
+        "OAI.TraceConeClassification.ExtendedTrace.lowerSemicontinuous_supportWeight",
+        "OAI.TraceConeClassification.ClosedIdeal.weight_idempotent",
+        "OAI.TraceConeClassification.ClosedIdeal.finiteIdeal_weight",
+        "OAI.TraceConeClassification.ClosedIdeal.le_iff_add_weight",
+        "OAI.TraceConeClassification.ExtendedTrace.idempotent_eq_weight",
+        "OAI.TraceConeClassification.closedIdealEquivOfAdditive_weight"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": true
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TraceIdealTransportSupport.json",
+    "declaration": "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_zeroIdeal",
+    "file": "OAI/Analysis/TraceCone/IdealTransport.lean",
+    "config_sha256": "0d717e97d8b472826a27af8c44a68da8bc92261020684c08aae97265c9fe3173",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TraceIdealTransportSupport",
+      "solution_module": "OAI.Analysis.TraceCone.IdealTransport",
+      "theorem_names": [
+        "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_finIdeal",
+        "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_zeroIdeal",
+        "OAI.TraceConeClassification.closed_ideal_weight_exists",
+        "OAI.TraceConeClassification.ExtendedTrace.zero_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.star_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.smul_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.add_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteSquareSet_left",
+        "OAI.TraceConeClassification.ExtendedTrace.isClosed_finiteIdeal",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteIdeal_left",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteIdeal_right",
+        "OAI.TraceConeClassification.ExtendedTrace.lowerSemicontinuous_supportWeight",
+        "OAI.TraceConeClassification.ClosedIdeal.weight_idempotent",
+        "OAI.TraceConeClassification.ClosedIdeal.finiteIdeal_weight",
+        "OAI.TraceConeClassification.ClosedIdeal.le_iff_add_weight",
+        "OAI.TraceConeClassification.ExtendedTrace.idempotent_eq_weight",
+        "OAI.TraceConeClassification.closedIdealEquivOfAdditive_weight"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": true
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TraceIdealTransportSupport.json",
+    "declaration": "OAI.TraceConeClassification.closed_ideal_weight_exists",
+    "file": "OAI/Analysis/TraceCone/FiniteIdeal.lean",
+    "config_sha256": "0d717e97d8b472826a27af8c44a68da8bc92261020684c08aae97265c9fe3173",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TraceIdealTransportSupport",
+      "solution_module": "OAI.Analysis.TraceCone.IdealTransport",
+      "theorem_names": [
+        "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_finIdeal",
+        "OAI.TraceConeClassification.TraceConeEquiv.idealOrderIso_zeroIdeal",
+        "OAI.TraceConeClassification.closed_ideal_weight_exists",
+        "OAI.TraceConeClassification.ExtendedTrace.zero_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.star_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.smul_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.add_mem_finiteSquareSet",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteSquareSet_left",
+        "OAI.TraceConeClassification.ExtendedTrace.isClosed_finiteIdeal",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteIdeal_left",
+        "OAI.TraceConeClassification.ExtendedTrace.mul_mem_finiteIdeal_right",
+        "OAI.TraceConeClassification.ExtendedTrace.lowerSemicontinuous_supportWeight",
+        "OAI.TraceConeClassification.ClosedIdeal.weight_idempotent",
+        "OAI.TraceConeClassification.ClosedIdeal.finiteIdeal_weight",
+        "OAI.TraceConeClassification.ClosedIdeal.le_iff_add_weight",
+        "OAI.TraceConeClassification.ExtendedTrace.idempotent_eq_weight",
+        "OAI.TraceConeClassification.closedIdealEquivOfAdditive_weight"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": true
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TriangularHilbert.json",
+    "declaration": "OAI.TriangularHilbert.main_estimate",
+    "file": "OAI/Analysis/TriangularHilbert/Main.lean",
+    "config_sha256": "79a0bdc2c1be0ea4f51012679983d60b9e3fe72781293a49063e4e7a5c9a3dad",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TriangularHilbert",
+      "solution_module": "OAI.Analysis.TriangularHilbert.Main",
+      "theorem_names": [
+        "OAI.TriangularHilbert.main_estimate"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TwoWayComplementation.json",
+    "declaration": "OAI.TwoWayComplementation.complementation_lower_bound_finite",
+    "file": "OAI/Combinatorics/TwoWayAutomata/Main.lean",
+    "config_sha256": "7fdd20593d6cdd2cd8a7f8a2a0eba06671c587af4b5f4d26dadeb86a43d21bba",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TwoWayComplementation",
+      "solution_module": "OAI.Combinatorics.TwoWayAutomata.Main",
+      "theorem_names": [
+        "OAI.TwoWayComplementation.complementation_lower_bound_finite"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/TwoWayDeterminization.json",
+    "declaration": "OAI.TwoWayComplementation.explicit_family_main",
+    "file": "OAI/Combinatorics/TwoWayAutomata/ExplicitFamily.lean",
+    "config_sha256": "62f3ac9f098b29dfd67339d10f3191be28efa9dd5c1042c89c089b737861ca0c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.TwoWayDeterminization",
+      "solution_module": "OAI.Combinatorics.TwoWayAutomata.ExplicitFamily",
+      "theorem_names": [
+        "OAI.TwoWayComplementation.explicit_family_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/UniformFourier.json",
+    "declaration": "OAI.PowerSaving.transform_main",
+    "file": "OAI/Computability/FourierTransform/Main.lean",
+    "config_sha256": "757bd302c164fa79741d846ac3c3c17de8bb12cf63ecfa9df64864745e0b4eb2",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.UniformFourier",
+      "solution_module": "OAI.Computability.FourierTransform.Main",
+      "theorem_names": [
+        "OAI.PowerSaving.transform_main",
+        "OAI.PowerSaving.convolution_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/UniformFourier.json",
+    "declaration": "OAI.PowerSaving.convolution_main",
+    "file": "OAI/Computability/FourierTransform/Main.lean",
+    "config_sha256": "757bd302c164fa79741d846ac3c3c17de8bb12cf63ecfa9df64864745e0b4eb2",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.UniformFourier",
+      "solution_module": "OAI.Computability.FourierTransform.Main",
+      "theorem_names": [
+        "OAI.PowerSaving.transform_main",
+        "OAI.PowerSaving.convolution_main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/UniformGamma.json",
+    "declaration": "OAI.ComparatorModel.CurrentMain.main",
+    "file": "OAI/Analysis/TracialSplitting/Challenge.lean",
+    "config_sha256": "5c71c58d5f6529f2ded692c06b7ec44622a532e74bba484c011b09d78981da0c",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.UniformGamma",
+      "solution_module": "OAI.Analysis.TracialSplitting.Challenge",
+      "theorem_names": [
+        "OAI.ComparatorModel.CurrentMain.main"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/UniformSparsestCut.json",
+    "declaration": "OAI.UniformSparsestCut.mainGap",
+    "file": "OAI/Combinatorics/SparsestCut/Main.lean",
+    "config_sha256": "5901cd9c1d96b4e4a42660db2dd4476f224b5e9cafa17e304cec6f58dc5618e3",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.UniformSparsestCut",
+      "solution_module": "OAI.Combinatorics.SparsestCut.Main",
+      "theorem_names": [
+        "OAI.UniformSparsestCut.mainGap"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/UniqueGamesTheorem.json",
+    "declaration": "OAI.UniqueGamesTheorem.theorem11",
+    "file": "OAI/Computability/UniqueGames/Theorem.lean",
+    "config_sha256": "bff621deccd4007c2b213201d4d97938b095ed0411cfd5fed3f66a65d4358050",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.UniqueGamesTheorem",
+      "solution_module": "OAI.Computability.UniqueGames.Main",
+      "theorem_names": [
+        "OAI.UniqueGamesTheorem.theorem11"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/UniversalFInfinity.json",
+    "declaration": "OAI.UniversalFInfinity.universal_group_of_type_FInfinity",
+    "file": "OAI/GroupTheory/UniversalGroup/Main.lean",
+    "config_sha256": "d8fc6fa827b3b92c54a1b8c2ff66b436f9a5297ab825414ea43b5b1e2cd06abf",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.UniversalFInfinity",
+      "solution_module": "OAI.GroupTheory.UniversalGroup.Main",
+      "theorem_names": [
+        "OAI.UniversalFInfinity.universal_group_of_type_FInfinity"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/VertexCover.json",
+    "declaration": "OAI.VertexCover.every_fixed_factor_below_two",
+    "file": "OAI/Computability/VertexCover/Main.lean",
+    "config_sha256": "d8dc74e3b1871d939862817f39e6f9517c52d2f8b3321cb6e85a624e0c838b41",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.VertexCover",
+      "solution_module": "OAI.Computability.VertexCover.Main",
+      "theorem_names": [
+        "OAI.VertexCover.explicit_cover_gap",
+        "OAI.VertexCover.every_fixed_factor_below_two"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/VlasovMaxwell.json",
+    "declaration": "OAI.RVM.global_classical_solution",
+    "file": "OAI/Analysis/VlasovMaxwell/Main.lean",
+    "config_sha256": "423df2cf9e072e1dc4bcdc848b1c37cb9a3b684109075c2122ea3f1825445a32",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.VlasovMaxwell",
+      "solution_module": "OAI.Analysis.VlasovMaxwell.Main",
+      "theorem_names": [
+        "OAI.RVM.global_classical_solution"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/WeakHessian.json",
+    "declaration": "OAI.WeakHessian.every_geodesic",
+    "file": "OAI/Geometry/WeakHessian/Main.lean",
+    "config_sha256": "b607cbd5629f15bedb82b3c5326deb0c6d73bbbdafbe8073470828db96f3e250",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.WeakHessian",
+      "solution_module": "OAI.Geometry.WeakHessian.Main",
+      "theorem_names": [
+        "OAI.WeakHessian.every_geodesic"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/WeakMTWGlobalSupport.json",
+    "declaration": "OAI.WeakMTWGlobalSupport.current_main_convexity",
+    "file": "OAI/Geometry/WeakMTW/Convexity.lean",
+    "config_sha256": "deb8a523598d086b146fe7908bfa641c4654f9f1c20e58b84036b1e4ee334385",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.WeakMTWGlobalSupport",
+      "solution_module": "OAI.Geometry.WeakMTW.Main",
+      "theorem_names": [
+        "OAI.WeakMTWGlobalSupport.current_main_convexity"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  },
+  {
+    "comparator_config": "ComparatorChallenges/YauCounterexample.json",
+    "declaration": "OAI.Yau.Target.yau_nodal_set_upper_bound_counterexample",
+    "file": "OAI/Geometry/NodalSets/Main.lean",
+    "config_sha256": "4b91fa995c8cd5efd1b1bead66c86a24b7928164a83a6c8a1f4fde0a7efe53b6",
+    "configuration": {
+      "challenge_module": "ComparatorChallenges.YauCounterexample",
+      "solution_module": "OAI.Geometry.NodalSets.Main",
+      "theorem_names": [
+        "OAI.Yau.Target.yau_nodal_set_upper_bound_counterexample"
+      ],
+      "definition_names": [],
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "enable_nanoda": false
+    },
+    "verification_status": "CONFIGURATION_ACQUIRED_NOT_EXECUTED",
+    "requires_toolchain": "leanprover/lean4:v4.34.1"
+  }
+]

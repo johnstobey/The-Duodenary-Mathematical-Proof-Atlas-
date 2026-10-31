@@ -3963,7 +3963,8 @@
     "title": "Sharp Cartan–Hadamard isoperimetry and rigidity",
     "catalogue_claim": "Proves generalized Cartan–Hadamard isoperimetry in every dimension: in a complete simply connected manifold with sectional curvature at most <i>κ</i> ≤ 0, every finite-volume finite-perimeter set satisfies the sharp comparison with the equal-volume model ball. Bounded positive-volume equality regions for <i>κ</i> = 0 are Euclidean balls. Also proves sharp Euclidean filling bounds for compactly supported integral <i>n</i>-cycles, <i>n</i> ≥ 2, in arbitrary proper CAT$`(0)`$ spaces. ([Lean](lean/docs/337.md))",
     "manuscript_paths": [
-      "preprints/Generalized-Cartan-Hadamard-isoperimetry-and-Euclidean-equality-rigidity-September-23-2026/paper.pdf"
+      "preprints/Generalized-Cartan-Hadamard-isoperimetry-and-Euclidean-equality-rigidity-September-23-2026/paper.pdf",
+      "preprints/Sharp-integral-fillings-in-CAT(0)-spaces-September-23-2026/paper.pdf"
     ],
     "status": "SOURCE_REPORTED",
     "commit": "4eaee87548250b2682affda7d05d947c05554bae",

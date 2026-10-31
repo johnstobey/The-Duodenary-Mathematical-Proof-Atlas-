@@ -1,0 +1,892 @@
+{
+  "timestamp_utc": "2026-10-31T11:49:48.761726+00:00",
+  "baseline_revision": "8bf5efd1c0d6dfc752d9c7399ec80b509b1ad46e",
+  "toolchain": "Lake version 5.0.0-410fab7 (Lean version 4.14.0)",
+  "baseline_atom_count": 77,
+  "records": [
+    {
+      "path": "lean/Complexity/UnaryCodec.lean",
+      "sha256": "9b9c061f6864026be173698e30452bec1015b3032b944aedac07c79e8452845b",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/UnaryCodec.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/UnaryCodec.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 8,
+      "audited_theorems": 8,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/UnaryCodec.log",
+      "log_sha256": "b0abd3c58cf87c012c91ea6c806d0d243bad617e31b782568c70df53508d8acf"
+    },
+    {
+      "path": "lean/Complexity/CNFSyntax.lean",
+      "sha256": "6e7c6397e3581201da5bb4e81e1b89657d5063e7e89a118b228afe09b6592676",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/CNFSyntax.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/CNFSyntax.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 17,
+      "audited_theorems": 17,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CNFSyntax.log",
+      "log_sha256": "461e6fc10f34f0968c9029057d7ed856aadf2ea7a4672ef70dd854eedebd3cc8"
+    },
+    {
+      "path": "lean/Complexity/FormulaCodec.lean",
+      "sha256": "e2a5524c6671f18f7774d34b2f0273fad37584f08f39762765f62b5e32fa66c7",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/FormulaCodec.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/FormulaCodec.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 20,
+      "audited_theorems": 20,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/FormulaCodec.log",
+      "log_sha256": "11fc05ae71ba155c89cc671fb61fb7bdca539538889b4562811e64d4dbb86a01"
+    },
+    {
+      "path": "lean/Reconstruction/PatchGluing.lean",
+      "sha256": "6ebd4fb5b621dd584842624de54c816b35eddb272b807650ad016f1b98d5e6d0",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/PatchGluing.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/PatchGluing.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 19,
+      "audited_theorems": 19,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/PatchGluing.log",
+      "log_sha256": "a6e667ff5884f56db981c7ee635afb51245b693acff69c727688328ec873e0c1"
+    },
+    {
+      "path": "lean/CipherWorkedExample.lean",
+      "sha256": "a6c86bd516307c37623f069bd18a05fc08c8def8eb1f8bc9c0757470d648bcf0",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/CipherWorkedExample.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/CipherWorkedExample.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 4,
+      "audited_theorems": 4,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CipherWorkedExample.log",
+      "log_sha256": "a4d24d43018016a03952eef48477275e4305eeee5f8ebfbd323be77ab779b5cc"
+    },
+    {
+      "path": "lean/Codex/BranchChecker.lean",
+      "sha256": "3e44295c0f58b3d51d69636ef2666a175efdbab4299a350370f2723a0ee99078",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/BranchChecker.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/BranchChecker.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 2,
+      "audited_theorems": 2,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/BranchChecker.log",
+      "log_sha256": "e1c4a78c2d171030749a22bf6438fda8bcc26e6a03b81da72e72657498469772"
+    },
+    {
+      "path": "lean/Codex/CipherCoordinates.lean",
+      "sha256": "bdab079c3ffa06cfa557c6b1771f6df7e8f86f90cfa4101dc01dcc89ac153c1a",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/CipherCoordinates.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/CipherCoordinates.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 5,
+      "audited_theorems": 5,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CipherCoordinates.log",
+      "log_sha256": "19812c2fbc8a764572498520787628765a304ccdd9cf1fdbb1cf502f647bae39"
+    },
+    {
+      "path": "lean/Codex/CrossDomain.lean",
+      "sha256": "fa0fa22b9e08b98467fb2b6841ae4e0ca46b35c5a8801a5fdad5c032db137178",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/CrossDomain.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/CrossDomain.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 9,
+      "audited_theorems": 9,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CrossDomain.log",
+      "log_sha256": "773d0aeac16b769ddba29873b0d10e0e51a94b3963fcb6e70d932cc8f3c6ea24"
+    },
+    {
+      "path": "lean/Codex/NativeBridge.lean",
+      "sha256": "cb8761697293740b54c30515b34c81ccd2f790cbbcfd00b360b936b8d1d27b16",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/NativeBridge.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/NativeBridge.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 7,
+      "audited_theorems": 7,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/NativeBridge.log",
+      "log_sha256": "8aa5534dccf4ff415defd5d9ca5f37677039d9d8c7512dfb3f2014a881cec3ef"
+    },
+    {
+      "path": "lean/Codex/NativeCycles.lean",
+      "sha256": "9d817ee88129e563a8e450d275dbe99988b5235d97a8eafaae94bdaf730d2051",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/NativeCycles.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/NativeCycles.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 7,
+      "audited_theorems": 7,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/NativeCycles.log",
+      "log_sha256": "bb9c61a7f69d840059d119a3db29812f2b36e5247e0c3da5fc543220c655fdb3"
+    },
+    {
+      "path": "lean/Codex/Relations.lean",
+      "sha256": "c964d770bb368f831d28aa75365b4fb99b964b5b87fa50a961e19437d9235f37",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/Relations.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/Relations.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 8,
+      "audited_theorems": 8,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/Relations.log",
+      "log_sha256": "38d09e6d5e369ce5ae4606124c16e364a432cbc2cd88012b4ba8b49c7f9602d9"
+    },
+    {
+      "path": "lean/Codex/Semantics.lean",
+      "sha256": "0c849fcb3fd573738a03842d19fb377d51ab51413b268e93ad8527d80bd25674",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/Semantics.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Codex/Semantics.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 2,
+      "audited_theorems": 2,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/Semantics.log",
+      "log_sha256": "4c2f2d41481ea2b30156595334e49d2dffd0aa1628eaa8f03559b3a3b28dcb63"
+    },
+    {
+      "path": "lean/CodexBridgeFixtures.lean",
+      "sha256": "8abc33a5c5dbd284c817e496a912dd170902248bd0ad9bad2c4332d65825bbc5",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexBridgeFixtures.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexBridgeFixtures.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 69,
+      "audited_theorems": 69,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CodexBridgeFixtures.log",
+      "log_sha256": "b37a698e1677514ccfdcabb522414edb64a252c869629abcff5f84ce81099b0e"
+    },
+    {
+      "path": "lean/CodexNative.lean",
+      "sha256": "f157f5fd80145aa8b25f56eed67abfca72e7255479838b5e2fa28a50abf3d163",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexNative.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexNative.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 18,
+      "audited_theorems": 18,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CodexNative.log",
+      "log_sha256": "aac962feba7a4df5679035e761cc395c86896ea4a317f62e088a2b444690effc"
+    },
+    {
+      "path": "lean/CodexPatches.lean",
+      "sha256": "591907e5b8fcf0b0d1378d8275a0c49648970da93f2894c2e3e2fa20ff9399fe",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexPatches.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexPatches.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 30,
+      "audited_theorems": 30,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CodexPatches.log",
+      "log_sha256": "3a275c5950fc76689edc9d1585ed39cfe872ec0d1dc3891404aedaff03ee42d4"
+    },
+    {
+      "path": "lean/CodexPilot.lean",
+      "sha256": "f6961345699b64afb8d6598cfdd732165f2e9fdd22e6e6bd8a6048a42383e02b",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexPilot.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexPilot.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 3,
+      "audited_theorems": 3,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CodexPilot.log",
+      "log_sha256": "efb752478599596d9dce9c4f63e07a3d037207e7067af00f6559a23a83b308a2"
+    },
+    {
+      "path": "lean/CodexRelationFixtures.lean",
+      "sha256": "cb7a52554d3cee1e195b24d01baee1a68089c28cb93ab09d041a6c9f72d2fe5f",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexRelationFixtures.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/CodexRelationFixtures.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 10,
+      "audited_theorems": 10,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CodexRelationFixtures.log",
+      "log_sha256": "75562f61af8eff6c1c496556d8ccf786ac0f3a59b3be2d11cbac743c62db8c67"
+    },
+    {
+      "path": "lean/Complexity/CostComposition.lean",
+      "sha256": "339e5e6d140b9ee74a0a302d88e5403ea94c0db3a6beecacf3ac016a516a3523",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/CostComposition.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/CostComposition.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 5,
+      "audited_theorems": 5,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CostComposition.log",
+      "log_sha256": "6c4b18593e940fd6fd2fad51d0152a91ae4429ce79dd97fdbf67b4ef93371df4"
+    },
+    {
+      "path": "lean/Complexity/PeriodicSimulation.lean",
+      "sha256": "e4fb6330e2e7e46ec57c3123393f7688e75170603005a565ddeea6697da297f6",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/PeriodicSimulation.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Complexity/PeriodicSimulation.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 5,
+      "audited_theorems": 5,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/PeriodicSimulation.log",
+      "log_sha256": "c5599422f994779dc2219bfd69fd96c41426821f19ab40b2528e527e8e4a6190"
+    },
+    {
+      "path": "lean/NativeProofExamples.lean",
+      "sha256": "6e74b63c9dbe38c14837cd19a12746b026810969b9d50de48fb633c7ca3116a9",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/NativeProofExamples.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/NativeProofExamples.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 27,
+      "audited_theorems": 27,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/NativeProofExamples.log",
+      "log_sha256": "8dc3e67ac4200ea45e076eb2b65d09362d2c0bb10bd8ee9229d81e90c1b427aa"
+    },
+    {
+      "path": "lean/Recognition/CourseCoordinates.lean",
+      "sha256": "ff59baf6b28d3c0b251f8c7f9037d7eafd6514b37d0c3d43ae54499528032f6d",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/CourseCoordinates.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/CourseCoordinates.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 25,
+      "audited_theorems": 25,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CourseCoordinates.log",
+      "log_sha256": "82736ff8f80bede78a0d8cadc7b6898a2234dacb743170a50cd7b4d571c9444e"
+    },
+    {
+      "path": "lean/Recognition/CourseReflectionLayers.lean",
+      "sha256": "dd6eeae886b16b5d443b7e46f4a1f25043fb3fe1dc79f11dc48ec9494d9045c0",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/CourseReflectionLayers.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/CourseReflectionLayers.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 10,
+      "audited_theorems": 10,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/CourseReflectionLayers.log",
+      "log_sha256": "f74d75e7f979ad5d77e878f1af1143294da3d54c15cb2e14994fd587ec06c25c"
+    },
+    {
+      "path": "lean/Recognition/ProtocolEndpoints.lean",
+      "sha256": "4ee5d22b29437dc9554288c463629183b8a8aa6fc0ac2218657b5e60aebaec74",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/ProtocolEndpoints.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/ProtocolEndpoints.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 3,
+      "audited_theorems": 3,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/ProtocolEndpoints.log",
+      "log_sha256": "889691241f917ac33227c4e8ef9756b6de4defcb7de8bf95065a5411cae54188"
+    },
+    {
+      "path": "lean/Recognition/ResolutionStep.lean",
+      "sha256": "2a12e71531202a80d7ea949702725b87ada12ac6265aea312cd56877ea125b27",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/ResolutionStep.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/ResolutionStep.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 8,
+      "audited_theorems": 8,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/ResolutionStep.log",
+      "log_sha256": "4556b266fc193ee9ef0cd8685284a77fa145d9990e494b6a0b4c4e187ffdade8"
+    },
+    {
+      "path": "lean/Recognition/UnateRecognition.lean",
+      "sha256": "2feb39809015bffc9567b07882c0eb25e4560312c28892e1423bdcc40a53fbcc",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/UnateRecognition.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Recognition/UnateRecognition.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 11,
+      "audited_theorems": 11,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/UnateRecognition.log",
+      "log_sha256": "27617e0804bf54504fd565bab55dc8d9683dc12e3ca4c9d41bbbff333c10e431"
+    },
+    {
+      "path": "lean/Reconstruction/FrameCocycle.lean",
+      "sha256": "d4da335e0860a9ff34025d035e8d44af8f1e4a5695d89cc6b2f476c5501bc172",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/FrameCocycle.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/FrameCocycle.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 6,
+      "audited_theorems": 6,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/FrameCocycle.log",
+      "log_sha256": "0a3cfe4efc772a67b09694c98443ae759cfb4bff0915c6b7472e6495be80a62b"
+    },
+    {
+      "path": "lean/Reconstruction/InfiniteInterleaving.lean",
+      "sha256": "890af67aa12aebc55c25579356369613c51ae666c7884b1a154b688bebf5255a",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/InfiniteInterleaving.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/InfiniteInterleaving.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 7,
+      "audited_theorems": 7,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/InfiniteInterleaving.log",
+      "log_sha256": "56920b70eab8c041216b2749b85128bb03ab9b1746cbef508b8975f4e530d7b9"
+    },
+    {
+      "path": "lean/Reconstruction/LocalGlobalBoundary.lean",
+      "sha256": "2f08a30e99caf27bf192154df9755173abfb725326c3995a7b7636eff99855bf",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/LocalGlobalBoundary.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/LocalGlobalBoundary.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 5,
+      "audited_theorems": 5,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/LocalGlobalBoundary.log",
+      "log_sha256": "d16115237900f179e5a2e253f4ecb83902612040b0757724b9402ce9c9593b3d"
+    },
+    {
+      "path": "lean/Reconstruction/ObservationDynamics.lean",
+      "sha256": "896768e3bb98dec5b02eb06707d031ad7e640a9f44eff8e984e4762d04deecff",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/ObservationDynamics.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/Reconstruction/ObservationDynamics.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 15,
+      "audited_theorems": 15,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/ObservationDynamics.log",
+      "log_sha256": "1fd33513425379b59b47510df1a6354ad0f343c7525fa028b1a9f782fc508d32"
+    },
+    {
+      "path": "lean/SourceModel/ConstraintCore.lean",
+      "sha256": "3cc8aa4db8ee61ac0213b146f5a2b72a7529fb3830153a2535a230c757c3d688",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/SourceModel/ConstraintCore.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/SourceModel/ConstraintCore.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 13,
+      "audited_theorems": 13,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/ConstraintCore.log",
+      "log_sha256": "135b22c7d0505b2fd7ce708506fa8916f76172c2b4a4a3201d7bb210d6e27f0c"
+    },
+    {
+      "path": "lean/SourceModel/ConstraintEncoding.lean",
+      "sha256": "cc2d3cd3d856db793a44df16c262602d91ccfcc12777cb1656f55f1f2aac397a",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/SourceModel/ConstraintEncoding.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/SourceModel/ConstraintEncoding.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 15,
+      "audited_theorems": 15,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/ConstraintEncoding.log",
+      "log_sha256": "bcb05de86612f637eeb6a29e1f8c41e4b5f9e6198689de30cb20722188ca2105"
+    },
+    {
+      "path": "lean/SourceModel/InformationBounds.lean",
+      "sha256": "079bd9a7ddd6835946fa95924a3b2996ff1bfee9793408c9225c1d12ff63cc24",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/SourceModel/InformationBounds.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/SourceModel/InformationBounds.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 4,
+      "audited_theorems": 4,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/InformationBounds.log",
+      "log_sha256": "bc2cf93d65951ded559d0f056db7519eacbaa05b615be2242a06a04c2bf19f86"
+    },
+    {
+      "path": "lean/TobeyMachineDemo.lean",
+      "sha256": "ae8f2fed063a91bfc50d386d4dfc4bdd11dd77f91c7be35278abf702a9ed50d8",
+      "command": [
+        "lake",
+        "env",
+        "lean",
+        "--root=/workspace/.setup/build04/machine-recheck/lean",
+        "-o",
+        "/workspace/.setup/build04/machine-recheck/lean/TobeyMachineDemo.olean",
+        "/workspace/.setup/build04/machine-recheck/lean/TobeyMachineDemo.lean"
+      ],
+      "cwd": "/workspace/Alien-math-decoded-2",
+      "exit_code": 0,
+      "expected_theorems": 11,
+      "audited_theorems": 11,
+      "complete_audit": true,
+      "standard_axioms_only": true,
+      "passed": true,
+      "log": "evidence/D18/TobeyMachineDemo.log",
+      "log_sha256": "fee54e336c71aebc02e4e18a4a516c902b2f56373abe9383c26c56de7ab9dc10"
+    }
+  ],
+  "functional": [
+    {
+      "script": "algorithms/check_cnf_codec.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_cnf_codec.log",
+      "sha256": "73d0cefebac4607d1b3957da2292d35fbfb913c13023f47c287c3b5c0efeb846",
+      "log_sha256": "0d1197fc49d7b5ea3b627ca10e21d8788877215f6e52fe498af26b6bc7eeb3cc"
+    },
+    {
+      "script": "results/complexity/check_orbit_obstruction.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_orbit_obstruction.log",
+      "sha256": "995bdf5df6dbe63fb3382c981b441bd6a39b4d363b7a4894c39f563347171b60",
+      "log_sha256": "f5a107dc2240930fb8ae67d134bd415266891148a0846e3e97e0206469d641f3"
+    },
+    {
+      "script": "algorithms/check_recognition_sat.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_recognition_sat.log",
+      "sha256": "e67349f59fa78f592d8aa41d97e76431ecc5d5d5da168fc7d3b04d3e1fc63bb1",
+      "log_sha256": "3db038180099d9af7ca0f576145d270955500a5c28c6c4470bae48b7fe5e1014"
+    },
+    {
+      "script": "algorithms/check_structural_resolution.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_structural_resolution.log",
+      "sha256": "8c60da5e51ad0629cdcce167d966d9ca3d419b12c934509d7ccd1e2dd00ac884",
+      "log_sha256": "97e4727e65563999d92a2af74c8c23caf1d03faeb0e494de7b2e480d6b9e725e"
+    },
+    {
+      "script": "algorithms/check_course_machine.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_course_machine.log",
+      "sha256": "3381f4f98a5c5c5fe1caf010412711b6619d496c89fcd5cea4e84ca45cb7cb01",
+      "log_sha256": "801ca893a1469a458cdbe2112b499d444c7c45a44e28ddf4d05ea04944be3a7a"
+    },
+    {
+      "script": "algorithms/build_course_machine.py",
+      "exit_code": 0,
+      "log": "evidence/D18/build_course_machine.log",
+      "sha256": "89eda2d0d08226cb177740e465f3367fbcae2bb3ddd0894f11c2072b9e0e59fb",
+      "log_sha256": "f0e8c9e174269cd46f56a860b936aa126eed9fb9a76f646aebc9317e2b926c15"
+    },
+    {
+      "script": "algorithms/check_jigsaw_recovery.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_jigsaw_recovery.log",
+      "sha256": "c8518b13cf0ac343a363d249e6a0c04286bd8ba10ed02665afafed0e60cc6381",
+      "log_sha256": "fd5b76a180b131f98e4ad135f5fd2dbeffc130b4d91aff654479d083e38af1d5"
+    },
+    {
+      "script": "algorithms/build_reflection_layers.py",
+      "exit_code": 0,
+      "log": "evidence/D18/build_reflection_layers.log",
+      "sha256": "083acdbd95df59cdabd825da6f2dbb3e0f5c14b6b0de71b787d458fe3c284b88",
+      "log_sha256": "c33f3b00de3b316fdf2490468636098d14e47c66d28e84d8cc6df7092cebe4b3"
+    },
+    {
+      "script": "codex/engine/check_pipeline.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_pipeline.log",
+      "sha256": "0d8b629c6c25de5e685ee1d5c548537f9e89b415fb570e619c4b01076b16cd2a",
+      "log_sha256": "00038db883a641b4ffa236b850375ae603759b5742ddad5463f7df554ac4e4f9"
+    },
+    {
+      "script": "codex/engine/check_patches.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_patches.log",
+      "sha256": "e64a4a00219e1e14e9288e9499a17a07d59c8339c13e217e27f09b977be2f581",
+      "log_sha256": "fb3c4a9cada732a36effc1da86917988054a1a02cf5afe302d5e38b14688d2f2"
+    },
+    {
+      "script": "codex/engine/check_patch_kernel.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_patch_kernel.log",
+      "sha256": "296acfceaac409eb165e90c8df4c34e3b935deb32b55b0f98400790770820169",
+      "log_sha256": "fc1564f2734d0c50cdd9a65d2ff30f7a2bea2a10d69f62f8146d7e39e983d3b6"
+    },
+    {
+      "script": "codex/engine/check_relations.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_relations.log",
+      "sha256": "97a434c3a2fd58c6223161a021a76f0b14df60a3d64882fabe2ca538da2d3679",
+      "log_sha256": "e7e3b59524fb755006e8db7ea72ed0fdabb75a079d8753eda732471a2c24f438"
+    },
+    {
+      "script": "codex/engine/check_compiler.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_compiler.log",
+      "sha256": "e1816759c393dcdae0c8024710e71235519df2916d05ae4297f2590ac0a68f9c",
+      "log_sha256": "b47ada5a04f064ef80757052049d323b2b0d4d8e11703da766f2811fa1c628ae"
+    },
+    {
+      "script": "codex/engine/check_native.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_native.log",
+      "sha256": "06bda232ea1ea5135951330145f3e160c38b3a55b72282679e045e6e2b927d91",
+      "log_sha256": "b9aff29bb8af94cbaf07a57d5e99834bd36fea748f57373553c2204f49ad1d04"
+    },
+    {
+      "script": "codex/engine/check_bridge.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_bridge.log",
+      "sha256": "9fe5da6c9e5efaebba28e3f42dc56cde9fffd8309bc92aad769a49eb82dbeedb",
+      "log_sha256": "01bf14b72d706f6163137e970e80b305af1125a71eb0e11c527648f8e182756f"
+    },
+    {
+      "script": "codex/engine/check_bridge_cli.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_bridge_cli.log",
+      "sha256": "d67ed5be0c5557ce3680858661609fcb2fdbc026eac42b6788b655fce120e70b",
+      "log_sha256": "434aedf4e101cb3947238cef94e8b6f5dd42e87074f1f531248a297deca13dc2"
+    },
+    {
+      "script": "codex/engine/cipher_matrix.py",
+      "exit_code": 0,
+      "log": "evidence/D18/cipher_matrix.log",
+      "sha256": "8839cbb74d9324bca0d810d95eb81415dffe86888a3fc88c254f2e3d23d80fac",
+      "log_sha256": "40cfb451838f8223c1576d28159993741a7b02b6c6e0d0f5bfb986eea1050567"
+    },
+    {
+      "script": "codex/engine/check_course_governance.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_course_governance.log",
+      "sha256": "4da5bc817612860f7bc0519d08ab9205ab4556d0bc4b02e1a8c3034a2eb6b56c",
+      "log_sha256": "08b783a7d783b0fa487bfb1bdc74605856e329c8115568ea501c41492832ad92"
+    },
+    {
+      "script": "codex/engine/check_machine.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_machine.log",
+      "sha256": "5491d0531c682d3a3123e1c723ca639de3fc7fdad96bf268420dfd279ba4b7db",
+      "log_sha256": "f5be6e217c178f5268ca106c65b52c4afcb71cb74de93f1c2320e915ae5fe344"
+    },
+    {
+      "script": "codex/engine/check_native_proof.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_native_proof.log",
+      "sha256": "3f8fbe3a987b63a5bd0664fad0740eb8fc51982368665780eeedb35617a96636",
+      "log_sha256": "e028ec566e917d6f95c61216fa1905fc14ebba74bb11b44863172e1769fb7f1a"
+    },
+    {
+      "script": "codex/engine/check_build.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_build.log",
+      "sha256": "99b954d17cb16780e771321fffe346b649b43c5e88d530035e243d3fb799e095",
+      "log_sha256": "a4834833d61dadd3861bf9497ea110ba38df3646483b52ced5cd9027a9158ba5"
+    },
+    {
+      "script": "codex/engine/check_cross_domain.py",
+      "exit_code": 0,
+      "log": "evidence/D18/check_cross_domain.log",
+      "sha256": "cb6a9f844d16e25b54a17077862307c3082d81bca3081df9da22934e131bda3e",
+      "log_sha256": "15641d21c44c5ffc90d2b626acd007243bcb77fc22aa41bdf8210555aff85a7c"
+    }
+  ],
+  "total_audited_theorems": 408,
+  "passed": true
+}

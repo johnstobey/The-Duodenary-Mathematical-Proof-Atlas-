@@ -1,0 +1,39 @@
+{
+  "task": "T-AZTEC-MAP",
+  "status": "KERNEL_VERIFIED",
+  "expected_theorems": [
+    "Duodenary.calendar_image_annihilated",
+    "Duodenary.calendar_image_card_bound",
+    "Duodenary.calendar_no_surjective_hom"
+  ],
+  "checks": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "Duodenary.Acausal.Calendar"
+      ],
+      "started_at": "2026-10-31T12:00:33.947387+00:00",
+      "returncode": 0,
+      "log": "command-0.log",
+      "sha256": "3d71177e7d13f1b0f504f39696a278683d959e2c6753c8c85624cc9a5184a3eb"
+    },
+    {
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "scripts/audit_lean.py",
+        "--check"
+      ],
+      "started_at": "2026-10-31T12:00:34.581137+00:00",
+      "returncode": 0,
+      "log": "command-1.log",
+      "sha256": "37e47d97a483c95165db6c7d42e32910252b6bae0808af5a356eac794f023506"
+    }
+  ],
+  "statement_records": [
+    "DPA-THM-034",
+    "DPA-THM-036",
+    "DPA-THM-037"
+  ],
+  "publication": "candidate until an actual successful push is recorded"
+}

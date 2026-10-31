@@ -24,12 +24,12 @@
     "evidence": "Eleven dossiers and local revision records exist; primary collation and full semantic rewrites incomplete."
   },
   "G6": {
-    "status": "PASS_SCOPED_CORE",
-    "evidence": "32 kernel-checked theorems; source 48-processor equivalence unresolved."
+    "status": "PASS_104_SCOPED_DECLARATIONS",
+    "evidence": "Current theorem registry, preserved original IDs, source hashes and full axiom audit."
   },
   "G7": {
-    "status": "PARTIAL",
-    "evidence": "Complete pinned accessible catalogue metadata indexed; 720/721 mismatch and external proof audit unresolved."
+    "status": "PASS_ACCESSIBLE_METADATA_EXTERNAL_PROOFS_PENDING",
+    "evidence": "721 exact primary paths, 373 families, 751 README records, 176 formalization sources and 208 configurations. No external comparator proof validation claimed."
   },
   "G8": {
     "status": "PARTIAL",
@@ -60,7 +60,7 @@
     "evidence": "Pinned build, theorem/axiom records, hashed Python lock, command logs and review manifest; fresh machine not independently verified."
   },
   "G15": {
-    "status": "AUTHORIZED_PUBLIC_SAFE_RELEASE",
-    "evidence": "DPA-BUILD-04 owner instruction authorizes selected safe foundation; exclusions enumerated and source licensing documented; actual remote result recorded separately."
+    "status": "FOUNDATION_PUBLISHED_SUCCESSIVE_INCREMENT_AUTHORIZED",
+    "evidence": "6eda02e was pushed/read back on main and research branch; tag dpa-v0.1.0 pushed. Later increment success requires its own remote receipt."
   }
 }

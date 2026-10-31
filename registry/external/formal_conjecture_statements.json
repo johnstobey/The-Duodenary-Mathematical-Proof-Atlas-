@@ -1,0 +1,77 @@
+[
+  {
+    "baseline_problem": "DPA-008",
+    "repository": "https://github.com/google-deepmind/formal-conjectures",
+    "commit": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+    "path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+    "sha256": "f2819b1f12acbd165840b1069d094ed89b2a106578be7cc2a4839162dcceb562",
+    "license": "Apache-2.0 software; source references may have separate content terms",
+    "declarations": [
+      {
+        "source_category": "open",
+        "name": "goldbach",
+        "exact_statement": "theorem goldbach :\n    \u2200 n : \u2115, 2 < n \u2192 Even n \u2192 \u2203 p q, Prime p \u2227 Prime q \u2227 n = p + q",
+        "proof_body": "sorry (statement registry, not a proof)",
+        "kernel_verified_here": false
+      },
+      {
+        "source_category": "solved",
+        "name": "ternaryGoldbach",
+        "exact_statement": "theorem ternaryGoldbach (n : \u2115) (hn : 5 < n) (hn_odd : Odd n) :\n    \u2203 p q r, Nat.Prime p \u2227 Nat.Prime q \u2227 Nat.Prime r \u2227 n = p + q + r",
+        "proof_body": "sorry (statement registry, not a proof)",
+        "kernel_verified_here": false
+      }
+    ],
+    "source_kind": "Modern formal statement registry; original historical problem-source audit remains distinct."
+  },
+  {
+    "baseline_problem": "DPA-011",
+    "repository": "https://github.com/google-deepmind/formal-conjectures",
+    "commit": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+    "path": "FormalConjectures/Wikipedia/CollatzConjecture.lean",
+    "sha256": "2b95a1e3c230d810703bd3151d6a7aa8544844b38c47466bd05c76fdeecedc1c",
+    "license": "Apache-2.0 software; source references may have separate content terms",
+    "declarations": [
+      {
+        "source_category": "open",
+        "name": "collatz_conjecture",
+        "exact_statement": "theorem collatz_conjecture (n : \u2115) (hn : n > 0) : \u2203 m, collatzStep^[m] n = 1",
+        "proof_body": "sorry (statement registry, not a proof)",
+        "kernel_verified_here": false
+      }
+    ],
+    "source_kind": "Modern formal statement registry; original historical problem-source audit remains distinct."
+  },
+  {
+    "baseline_problem": "DPA-010",
+    "repository": "https://github.com/google-deepmind/formal-conjectures",
+    "commit": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+    "path": "FormalConjectures/Wikipedia/LegendreConjecture.lean",
+    "sha256": "b1494b4453a4338405b8b363e3b487f1d3fe3ad7edf6dec733fed5df9c4c4f95",
+    "license": "Apache-2.0 software; source references may have separate content terms",
+    "declarations": [
+      {
+        "source_category": "open",
+        "name": "legendre_conjecture",
+        "exact_statement": "theorem legendre_conjecture :\n    \u2200 n \u2265 1, \u2203 p \u2208 Set.Ioo (n ^ 2) ((n + 1) ^ 2), Nat.Prime p",
+        "proof_body": "sorry (statement registry, not a proof)",
+        "kernel_verified_here": false
+      },
+      {
+        "source_category": "solved",
+        "name": "bounded_gap_legendre",
+        "exact_statement": "theorem bounded_gap_legendre\n    (H : \u2203 c > 0, \u2200\u1da0 n in atTop, (n + 1).nth Nat.Prime - n.nth Nat.Prime <\n      (n.nth Nat.Prime : \u211d) ^ (1 / (2 : \u211d) - c)) :\n    \u2200\u1da0 n in atTop, \u2203 p \u2208 Set.Ioo (n ^ 2) ((n + 1) ^ 2), Nat.Prime p",
+        "proof_body": "sorry (statement registry, not a proof)",
+        "kernel_verified_here": false
+      },
+      {
+        "source_category": "solved",
+        "name": "legendre_conjecture.ferreira_large_n",
+        "exact_statement": "theorem legendre_conjecture.ferreira_large_n :\n    \u2200\u1da0 n in atTop, \u2203 p \u2208 Set.Ioo (n ^ 2) ((n + 1) ^ 2), Nat.Prime p",
+        "proof_body": "sorry (statement registry, not a proof)",
+        "kernel_verified_here": false
+      }
+    ],
+    "source_kind": "Modern formal statement registry; original historical problem-source audit remains distinct."
+  }
+]

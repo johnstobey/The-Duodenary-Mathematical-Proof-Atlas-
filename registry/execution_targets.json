@@ -1,0 +1,35 @@
+{
+  "T-AZTEC-MAP": {
+    "module": "Duodenary.Acausal.Calendar",
+    "expected_theorems": [
+      "Duodenary.calendar_image_annihilated",
+      "Duodenary.calendar_image_card_bound",
+      "Duodenary.calendar_no_surjective_hom"
+    ]
+  },
+  "T-MACHINE-AFFINE": {
+    "module": "Duodenary.Bridges.Machine",
+    "expected_theorems": [
+      "Duodenary.machine_bridge_injective",
+      "Duodenary.machine_bridge_surjective",
+      "Duodenary.machine_composition_agrees",
+      "Duodenary.affine_metric_classification"
+    ]
+  },
+  "T-COLLATZ-QUOTIENT": {
+    "module": "Duodenary.Problems.QuotientObstruction",
+    "expected_theorems": [
+      "Duodenary.accelerated_collatz_quotient_counterexample",
+      "Duodenary.affine_twelve_iterates",
+      "Duodenary.affine_slope_five_has_four_cycle"
+    ]
+  },
+  "T-ES-LIFT": {
+    "module": "Duodenary.Problems.UnitFractions",
+    "expected_theorems": [
+      "Duodenary.multiple_three_certificate",
+      "Duodenary.even_certificate",
+      "Duodenary.two_mod_three_certificate"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "primary_repository": "https://github.com/PerseusDL/canonical-greekLit",
+  "commit": "a6eb0cc3e6f6e382934a2c8b33577d2fb4371e00",
+  "path": "data/tlg0059/tlg012/tlg0059.tlg012.perseus-grc2.xml",
+  "sha256": "15eb5b0c09bc32f39c1aca7e60e6d80a98c12c6b9a59f68e28b2f3061a476756",
+  "edition": "John Burnet, Platonis Opera, vol.2, Oxford Clarendon Press, 1910; Perseus transcription release 1996",
+  "raw_xml_redistributed": false,
+  "checks": [
+    {
+      "locator": "265b",
+      "section_sha256": "d3ddc7a910243c04efdb51ff37737b573c6b8dfaaf7f4f50e9d532733addf62a",
+      "checked_lexemes": [
+        "τεττάρων",
+        "τέτταρα",
+        "Ἀπόλλωνος",
+        "Διονύσου",
+        "Μουσῶν",
+        "Ἔρωτος"
+      ],
+      "finding": "The dialogue explicitly distinguishes four divine forms of madness; this source count does not prove a cyclic action.",
+      "validation": "Primary Greek lexical/locator collation; interpretive translation summarized separately.",
+      "ontological_isomorphism_proved": false
+    },
+    {
+      "locator": "247a",
+      "section_sha256": "debbc9649565d38e7f853ced105834ec620fe1d7c9c4f5e0e29c77b7e308422d",
+      "checked_lexemes": [
+        "Ἑστία",
+        "δώδεκα",
+        "ἕνδεκα"
+      ],
+      "finding": "Hestia remains, while the passage distinguishes the twelve and eleven divisions; an algebraic fixed-point interpretation requires its own map.",
+      "validation": "Primary Greek lexical/locator collation; interpretive translation summarized separately.",
+      "ontological_isomorphism_proved": false
+    },
+    {
+      "locator": "265d",
+      "section_sha256": "2b43e3dc8c15af8287805d126fc4e187435be91c87b8ec6fc6ccd53fa596d9de",
+      "checked_lexemes": [
+        "μίαν",
+        "ἰδέαν"
+      ],
+      "finding": "Collection is described as bringing scattered things under one form.",
+      "validation": "Primary Greek lexical/locator collation; interpretive translation summarized separately.",
+      "ontological_isomorphism_proved": false
+    },
+    {
+      "locator": "265e",
+      "section_sha256": "5f7da19cd2ac6bfbf4146dfc9c27619747c1e718e745acbed8a0ea49499b4896",
+      "checked_lexemes": [
+        "κατʼ",
+        "εἴδη",
+        "διατέμνειν"
+      ],
+      "finding": "Division is described at natural joints; no explicit modular addition table is supplied.",
+      "validation": "Primary Greek lexical/locator collation; interpretive translation summarized separately.",
+      "ontological_isomorphism_proved": false
+    },
+    {
+      "locator": "274e",
+      "section_sha256": "e0b567f5f81f3e0fe923a6e52a95ab89cf19c677a5781a12d22a7d408b345e9d",
+      "checked_lexemes": [
+        "γράμμασιν",
+        "φάρμακον"
+      ],
+      "finding": "The writing/memory account is present in Plato.",
+      "validation": "Primary Greek lexical/locator collation; interpretive translation summarized separately.",
+      "ontological_isomorphism_proved": false
+    },
+    {
+      "locator": "275a",
+      "section_sha256": "e8f8ae59537257f12b8f957114f09002cb170abbd037fa081b89889ca461a60e",
+      "checked_lexemes": [
+        "μνήμης",
+        "ὑπομνήσεως",
+        "φάρμακον"
+      ],
+      "finding": "The memory/reminder distinction is in the Greek primary text; its repetition in an Egyptian secondary chapter is not independent Egyptian evidence.",
+      "validation": "Primary Greek lexical/locator collation; interpretive translation summarized separately.",
+      "ontological_isomorphism_proved": false
+    }
+  ],
+  "remaining": [
+    "full three-speech segmentation audit",
+    "Greek variant/edition comparison",
+    "an explicit source-native operation table supporting any isomorphism"
+  ]
+}

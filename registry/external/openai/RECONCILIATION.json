@@ -1,11 +1,21 @@
 {
-  "status": "PARTIAL",
-  "families_indexed": 373,
-  "manuscript_map_links": 720,
+  "status": "RESOLVED",
+  "commit": "4eaee87548250b2682affda7d05d947c05554bae",
+  "families": 373,
+  "manuscripts": 721,
+  "unique_pdf_identifiers": 721,
   "publisher_headline": 721,
-  "all_preprint_pdf_tree_paths": 778,
+  "previous_parser_count": 720,
+  "previously_omitted_primary_identifier": "preprints/Sharp-integral-fillings-in-CAT(0)-spaces-September-23-2026/paper.pdf",
+  "cause": "The BUILD-03 regex excluded right parentheses in Markdown destinations; CAT(0) is part of this exact primary path.",
+  "primary_blob": "e1d0fabcd46913047c006531d56ef1b0d12d7076",
+  "primary_readmes_acquired": 751,
   "formalization_manifest_sources": 176,
-  "explanation": "Versions/support PDFs are separate tree entries; current headline discrepancy not yet explained.",
-  "exact_statement_deduplication_complete": false,
-  "publisher_proof_claims_independently_validated": false
+  "formal_main_results": 208,
+  "proof_status_counts": {
+    "PROOF_SOURCE_AVAILABLE_UNAUDITED": 720,
+    "MANUSCRIPT_AVAILABLE_PROOF_NOT_PARSED": 1
+  },
+  "all_proofs_complete_or_validated": false,
+  "exact_statement_deduplication_complete": false
 }

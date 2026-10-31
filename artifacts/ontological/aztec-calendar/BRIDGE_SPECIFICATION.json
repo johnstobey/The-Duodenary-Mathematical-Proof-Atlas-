@@ -1,0 +1,15 @@
+{
+  "artifact": "aztec-calendar",
+  "domain": "source-native states/events defined by the cited edition; not yet exhaustively labeled",
+  "codomain": "ZMod 260 and ZMod 365 calendar cycles",
+  "map": null,
+  "map_status": "NOT_CONSTRUCTED_FROM_PRIMARY_SOURCE",
+  "required_preservation": [
+    "source order/relations",
+    "specified generating operations",
+    "inverse if isomorphism claimed"
+  ],
+  "negative_control": "No surjective additive map from ZMod260 to C12; now proved in Duodenary/Acausal/Calendar.lean",
+  "formal_evidence": "Duodenary/Acausal/Calendar.lean",
+  "next_atomic_action": "Verify the cultural state-transition interpretation against an identified primary calendar source."
+}

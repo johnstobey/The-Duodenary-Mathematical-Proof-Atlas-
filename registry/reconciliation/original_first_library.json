@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/johnstobey/alien-math-decoded",
+  "commit": "4b43b1f88617fd06f4d85c4577e4bc6978d94993",
+  "access_status": "ACQUIRED_WITH_EXISTING_AUTHENTICATION",
+  "named_theorems": 25,
+  "records": [
+    {
+      "path": "AlienMath/F2_12_closure.lean",
+      "sha256": "3d251f0e0654baaacd4f1314f3b1c5f7db4d67b086394a9ed71394d38530b8f1",
+      "theorems": [
+        "level1_count_is_12",
+        "unique_maximal_character",
+        "level_structure_bounded",
+        "level1_eigenspace_dim",
+        "level12_eigenspace_dim",
+        "F2_12_level_closure"
+      ],
+      "uses_native_decide": true,
+      "native_evaluation_status": "Not admissible under Atlas standard-axiom-only proof promotion; source is preserved."
+    },
+    {
+      "path": "AlienMath/UGCRingBridge.lean",
+      "sha256": "75daddbc6ac7205809c6da096d7557d30b08cb2aa33c9c63b30b61e94d4e5ff7",
+      "theorems": [
+        "ring_closure_z12",
+        "station_11_nonzero",
+        "station_11_successor_is_zero",
+        "fold_identity",
+        "harmonic_accumulation_closes",
+        "ugc_harmonic_mod12",
+        "ugc_level_architecture_closes",
+        "corpus_count_station_11",
+        "corpus_count_factored",
+        "compute_time_closes_z144",
+        "compute_time_factored",
+        "corpus_372_factor",
+        "corpus_300_factor",
+        "z144_zero_divisor",
+        "z144_neither_factor_is_zero_a",
+        "z144_neither_factor_is_zero_b"
+      ],
+      "uses_native_decide": false,
+      "native_evaluation_status": "Requires separate scoped build/audit before promotion."
+    },
+    {
+      "path": "AlienMath/Z144Resolution.lean",
+      "sha256": "48ab9021bfa67c6db47b14764939e71bebcfdf2183df8e500792b3ea9e75b4cf",
+      "theorems": [
+        "ring_resolvent_closes_to_zero",
+        "closure_at_144",
+        "approach_station"
+      ],
+      "uses_native_decide": false,
+      "native_evaluation_status": "Requires separate scoped build/audit before promotion."
+    }
+  ],
+  "historical_count_vs_current_catalogue": "Original source records 719/372 as source parameters; current pinned catalogue is 721/373. Arithmetic equalities about constants do not establish current empirical counts.",
+  "correction_to_build03": "Repository was absent from selected checkouts, but current read-only remote test succeeded; it is now inventoried.",
+  "missing_historical_checkpoint": "No exact 121-theorem / 16078-comparison source identified in the acquired current tree."
+}

@@ -1,0 +1,15 @@
+{
+  "artifact": "book-of-the-dead",
+  "domain": "source-native states/events defined by the cited edition; not yet exhaustively labeled",
+  "codomain": "an explicitly labeled C12 model, only if native states and actions justify it",
+  "map": null,
+  "map_status": "NOT_CONSTRUCTED_FROM_PRIMARY_SOURCE",
+  "required_preservation": [
+    "source order/relations",
+    "specified generating operations",
+    "inverse if isomorphism claimed"
+  ],
+  "negative_control": "Reject shared counts as a substitute for an operation-preserving bijection.",
+  "formal_evidence": "Duodenary/Core/Cyclic.lean",
+  "next_atomic_action": "Acquire/check the exact native operation or passage before choosing a labeling."
+}

@@ -9,5 +9,9 @@
   "source_native_primary_audit": "BLOCKED",
   "ontological_status": "INTERPRETATION",
   "source_excerpt_policy": "short analytical quotation only; full originals private",
-  "released": false
+  "released": true,
+  "publication": {
+    "foundation_commit": "6eda02e2591d377a2ad0d98f97d422672933a427",
+    "scope": "Analytical dossier with explicit incomplete source/formal obligations; no artifact isomorphism or ontology certified."
+  }
 }

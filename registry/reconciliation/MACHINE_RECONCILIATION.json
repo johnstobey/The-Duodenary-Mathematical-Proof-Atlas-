@@ -1,0 +1,30 @@
+{
+  "reported_prior_theorem_count": 121,
+  "reported_differential_comparisons": 16078,
+  "exact_reported_checkpoint_identified": false,
+  "available_archive_unique_theorems": 53,
+  "duplicate_archive_versions": 4,
+  "verified_reuse": "Four source modules reused after recorded compatibility corrections; explicit bijective affine/action/composition bridge and distance agreement proved.",
+  "larger_research_library_expected_theorems": 408,
+  "historical_408_status": "archived source-reported success; current recheck recorded separately",
+  "semantic_deduplication": "The archive repeats three earlier modules byte-for-byte (45 declarations duplicated); unique kernel 19+17+9+8=53. Mathematical overlaps with the Atlas are represented by checked bridge theorems, not counted as novel results.",
+  "distinctness": "Ring-law wrappers, product metrics, source representation and affine group law declarations remain separately named. Existing foundation IDs are preserved.",
+  "proof_bridge": "Duodenary/Bridges/Machine.lean",
+  "missing_evidence": [
+    "The exact source/log identifying 121 Lean theorems and 16,078 comparisons is not in the accessible matched records. These historical counts are not replaced by newly padded runs."
+  ],
+  "current_recheck_summary": "verification/builds/machine-recheck.json",
+  "current_recheck": {
+    "audited_theorems": 408,
+    "compiled_source_modules": 33,
+    "functional_checks_passed": 22,
+    "runner_exit_status": 0,
+    "evidence": "verification/builds/machine-recheck.json"
+  },
+  "compatibility_repairs": [
+    "Retained original source checkouts unchanged; all output in private staging.",
+    "Provided existing Rust/elan tool-path aliases required by archived scripts.",
+    "Built imported Relations before a dependent worked example.",
+    "Recovered the exact archived spiral ZIP and course source text at their recorded historical paths; did not invent replacement inputs."
+  ]
+}

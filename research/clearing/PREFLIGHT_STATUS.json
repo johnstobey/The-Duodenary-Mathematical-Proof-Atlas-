@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python3",
+    "scripts/clearing_preflight.py"
+  ],
+  "expected_exit_code": 2,
+  "status": "BLOCKED_MISSING_ORIGINAL_FROZEN_INPUTS",
+  "executed_primary_trials": 0,
+  "preflight_implemented": true,
+  "notes": "Original course/spiral archives were recovered for Machine tests. They do not replace the missing frozen Clearing trial design."
+}

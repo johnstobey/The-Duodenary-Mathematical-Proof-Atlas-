@@ -1,0 +1,39 @@
+{
+  "task": "T-COLLATZ-QUOTIENT",
+  "status": "KERNEL_VERIFIED",
+  "expected_theorems": [
+    "Duodenary.accelerated_collatz_quotient_counterexample",
+    "Duodenary.affine_twelve_iterates",
+    "Duodenary.affine_slope_five_has_four_cycle"
+  ],
+  "checks": [
+    {
+      "command": [
+        "lake",
+        "build",
+        "Duodenary.Problems.QuotientObstruction"
+      ],
+      "started_at": "2026-10-31T12:00:21.098278+00:00",
+      "returncode": 0,
+      "log": "command-0.log",
+      "sha256": "3d71177e7d13f1b0f504f39696a278683d959e2c6753c8c85624cc9a5184a3eb"
+    },
+    {
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "scripts/audit_lean.py",
+        "--check"
+      ],
+      "started_at": "2026-10-31T12:00:21.780369+00:00",
+      "returncode": 0,
+      "log": "command-1.log",
+      "sha256": "37e47d97a483c95165db6c7d42e32910252b6bae0808af5a356eac794f023506"
+    }
+  ],
+  "statement_records": [
+    "DPA-THM-102",
+    "DPA-THM-103",
+    "DPA-THM-104"
+  ],
+  "publication": "candidate until an actual successful push is recorded"
+}

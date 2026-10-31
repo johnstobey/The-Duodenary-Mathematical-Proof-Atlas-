@@ -1,0 +1,1744 @@
+{
+  "source_sha256": "b2aadcb27c0b5199882b09e3a01a106cf93c0d904ff1d41c66ac1f32eb4f69e5",
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 2,
+      "sha256": "4c20ba3de6bb67e694e4966a2c113c2aa047d97cbbdd557748656c397f16f6b9",
+      "characters": 24,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 3,
+      "sha256": "4599b3f70494b84d3620304d6c1a6bcf00df0c3da5ebacab23629d4d9e6b88cb",
+      "characters": 92,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 4,
+      "sha256": "0cc2a0465de7bf2f8b593a277e9827f953ecd673d91b93e30ef3461fc1be5341",
+      "characters": 23,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 5,
+      "sha256": "afddde14e72cc180e5c15096b1dc3162d4d20a7271b8afb55b3fbf9df95ba017",
+      "characters": 13,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 6,
+      "sha256": "05507626aa75d3d1706eaf347a48742dd66b803f70d986d6bb1dc265c554a78c",
+      "characters": 397,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 7,
+      "sha256": "509b51caa965a3a724c1c11c7bb8003624f550eb121659010c17f4f579ec0337",
+      "characters": 72,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 8,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 9,
+      "sha256": "1651811eee0420df53d1d77afed27346ede3e58c8b8a2ad79a04d5c0284dc70b",
+      "characters": 20,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 10,
+      "sha256": "3f5017e00833442ac0c137955518c91bbeb3b0481254a2623b2386e1be375f77",
+      "characters": 778,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 11,
+      "sha256": "359248e12cbf49daddd70f0d11b2b68bb1c5269064bc4075985b03981ecedd70",
+      "characters": 628,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 12,
+      "sha256": "698428f14f22c4e21083ce9bdb9886ce984f35ebbde1b967f3dc70c1a2907740",
+      "characters": 675,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 13,
+      "sha256": "f609ed056dfc975bc917e2d9cdd2c54d01940a3ef7456b0b706826bd48add355",
+      "characters": 783,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 14,
+      "sha256": "07ce1cd1523610240f1b7efb65fb53077dbefd71099de8fbd479651f3d30abb4",
+      "characters": 723,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 15,
+      "sha256": "ed747545a6958fcabdd68468c29f997599f84934e6bd15a8305209a9dc246e2c",
+      "characters": 780,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 16,
+      "sha256": "156ebfa85dc5a969437cfb7f660c1ff6de27e5d21cf7135cbee3ea9f1686de0d",
+      "characters": 680,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 17,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 18,
+      "sha256": "251b73ae8a47295f8b061b3c6853b046797f1401f67bbeb56a1443ae9ed0b2dc",
+      "characters": 61,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 19,
+      "sha256": "591190ba90b9708deadcfa0193edc70aa3f3ffb6aafbf36f95d8a304a763082e",
+      "characters": 783,
+      "audit_flags": [
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 20,
+      "sha256": "41aaed959c72b297401268ecdb36fc4d3db6b77600a792f49f5ca5362697119b",
+      "characters": 714,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 21,
+      "sha256": "124b5085faf5f741c0cbeb51c6ccfdaf61735a897a425205adb226f2ad3b9e5a",
+      "characters": 1072,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 22,
+      "sha256": "707008b9fde7de73e27d342b8891f5b5172b88896e72af23df21b99f091c4c39",
+      "characters": 603,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 23,
+      "sha256": "cc5f98dd0efe0e8fce23cf0dfc5f2d9829caed886b00663657d72e6a9aa7235f",
+      "characters": 25,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 24,
+      "sha256": "a22952e1df2f7c408d92f492ad32d681b9bf8b5a9ba1aa1c3d6c2320951ba03d",
+      "characters": 584,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 25,
+      "sha256": "013ba352e449a351e7bb988ef63c33044a1416b99ec3d4e4eddc2afe348c5c3e",
+      "characters": 631,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 26,
+      "sha256": "0539f79ec4a444b83660542f7e0f7a869c9878a7f7c898c5f64d31c0f89dcf0a",
+      "characters": 929,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 27,
+      "sha256": "737e1589de06cdd811199826f2b992af9979a1c916da398d9f0d8c52f12f21a3",
+      "characters": 673,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 28,
+      "sha256": "33ab399b50db4b3d5ce50ff0c3731a48ecf8cd7d9054547eea14b7def24b3e90",
+      "characters": 846,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 29,
+      "sha256": "c428dfd152cd1c4550d1396c6aee11736af11817fc664630d5508400061efed0",
+      "characters": 580,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 30,
+      "sha256": "8438d166802c4cdac19ba690a780b603abaa4a45c27bdbc522469b871c264369",
+      "characters": 23,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 31,
+      "sha256": "602999372ac0fc917002f53a5cf8517a695f0fd0f56d4b54a0d75a743d5f2783",
+      "characters": 630,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 32,
+      "sha256": "70ec7d92a102158d7bb476f91724276ec036667b9d3d82602ad8d5d2d9190364",
+      "characters": 609,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 33,
+      "sha256": "5852bd887d760275ae340a9caaa59b2fbfc75bf5ea754b4696539959929bb7c0",
+      "characters": 682,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 34,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 35,
+      "sha256": "adb7cc5c8ea455b26e92d3de79f3acddcde33b4a719cedc21454f7b27ea85d13",
+      "characters": 66,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 36,
+      "sha256": "6ee56eeeeb2892f352adb0fb1a867823a8696c6ee1e4f52435f0b752b3af6115",
+      "characters": 658,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 37,
+      "sha256": "d7fb7a3a3cddc62463cd3a7036f5d258506098a35334381e10de8942ab805d8c",
+      "characters": 805,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 38,
+      "sha256": "48452faec1f9406e26dd95a6856f16d7f74332c8f9deb09cd0f9c95861763d1b",
+      "characters": 773,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 39,
+      "sha256": "99de5d9b7ecb704a8d3923b300d8f5c130ed1ac3241ad1a316274f4cf633d0e5",
+      "characters": 38,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 40,
+      "sha256": "02ec09f8a8eab19dc8afa9530458200f150373ad4d57b410a692140aad6cb1f3",
+      "characters": 589,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 41,
+      "sha256": "4917333a82d0023d446280b9736f8493c88fc605c034ffa5b704c0f3f5b24e14",
+      "characters": 667,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 42,
+      "sha256": "8a498fd4e472534cef4f515340b6951e66dc8db3e82b62c1be44343e67d45715",
+      "characters": 648,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 43,
+      "sha256": "c5544688010aed4f1d06a994b155b78a528c922a2ce64df27e82f935862f6cd8",
+      "characters": 811,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 44,
+      "sha256": "719766bfa96266e632dbf09dfa7ceeef6ea40f3c398fecb9ade7949d89faf431",
+      "characters": 609,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 45,
+      "sha256": "37b48e0e2705ffb1bb5c40c2e3934c71824da9ad313e47ecfbe3da085b249a9a",
+      "characters": 868,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 46,
+      "sha256": "740264f7ad079749513a5f49a244b16b1897e227c5520ac91502e623c9613a85",
+      "characters": 39,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 47,
+      "sha256": "47023efa4606e48e7c13160833870ab4a7ca86b5e71fe797334e79f99911e24b",
+      "characters": 599,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 48,
+      "sha256": "d89a017b314fcc8eb4ac33fceae3ff21e208d1123dccd325ae826540a623b037",
+      "characters": 580,
+      "audit_flags": [
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 49,
+      "sha256": "22c05518b7b49aa629fa8aa3393d25e8b933feb153edcc835fc07b272193af71",
+      "characters": 694,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 50,
+      "sha256": "c5cd384abded5df895818b379e8eed94964bd8e0990d282907f54f7b609eb856",
+      "characters": 823,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 51,
+      "sha256": "a2ad40fb3fa7afdd158e029f87893d60348c277f99983a75dc9e1df72ac6cc33",
+      "characters": 745,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 52,
+      "sha256": "65df5023fd536690d340f8477416cc2ae474442f3f5a1c1ffe2892cc9042fd38",
+      "characters": 797,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 53,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 54,
+      "sha256": "ec9b746c7b8361d0f1f5406e06ab452ffead0d1ab632a6d0ed88fca7b0e17330",
+      "characters": 56,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 55,
+      "sha256": "2ea8781ca12ad52818cd2d62bc5abdab5bab864e3c6a917f724029360a3854de",
+      "characters": 496,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 56,
+      "sha256": "b0ce5820d5d7b4e597dd4b477cf3689c78eacf9cf618fadfbc3fd5e5816fcc52",
+      "characters": 425,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 57,
+      "sha256": "085511ec90052879fe46443a54ae1837d689edd2a2ed2d41c590bdccf59a17d9",
+      "characters": 666,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 58,
+      "sha256": "e72b859d18a6e2814f9b5976eca1430dcaa2e6966cb0e9abcbf4d4cc82fd9fad",
+      "characters": 612,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 59,
+      "sha256": "7fb329495c842b30fbfd7544955c4eafe8048986d793b8694fd6139bb28b7907",
+      "characters": 540,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 60,
+      "sha256": "7362250bf4de7c5b01aeb0abd0fbf2e0853e2d4547406e08e185e2247fbd721e",
+      "characters": 27,
+      "audit_flags": [
+        "probability_or_sampling_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 61,
+      "sha256": "5b7a6b884a90b42b08e937af8cda758a0fda333fa94fde03010a6a46ef8b502e",
+      "characters": 456,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 62,
+      "sha256": "cc4156578fb2b4b544732c98208892e865ae45ae641cfa06bf68bc90b0394163",
+      "characters": 725,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 63,
+      "sha256": "f9c9bb00fa7d6156c549fccea99f0e97acd97efbfd324ba45ca1b4c3166f769b",
+      "characters": 515,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 64,
+      "sha256": "d4037f3c5c922cf56eb4b22c9b8bce2e23ddadf44b2346d83500274828af7069",
+      "characters": 463,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 65,
+      "sha256": "9b88e836a01c7348956150129b88ba3a2dbad9e9713b2199728ba5d140dbdaa5",
+      "characters": 426,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 66,
+      "sha256": "5bcebe47d8c9ba99bd6561822197df46077b16cddbd15ed6212d38faee8b79db",
+      "characters": 449,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 67,
+      "sha256": "e3f20f6a1839e4f03186d6776e312c4f057815af84fb57165cf78548f1afff19",
+      "characters": 664,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 68,
+      "sha256": "2682e83a75001f7c98f9b404500c1b4e575a2d6d3379c3b06d71ba0ea47bdbfd",
+      "characters": 24,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 69,
+      "sha256": "b4983a3cea707c4cebaa96b52b0768fc17b69e9979a6b4c36c6c4ee196a51c89",
+      "characters": 500,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 70,
+      "sha256": "99e58a005584c130829d24173d85114d417a5aad3c711905b9f9cffcc09e5214",
+      "characters": 569,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 71,
+      "sha256": "bee63b6f9d959fcd27839eb1b75fe18a52cb6355afea1a68f0a847b859c348e7",
+      "characters": 802,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 72,
+      "sha256": "0f7c7f11d10b122c7b90d198092a3ec33fb88469d64ec0e1fa8bffe2b5c18f25",
+      "characters": 663,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 73,
+      "sha256": "7f45fab8b226d149f4d02e764eec03643e1f225be142defb5066e4c62bba064a",
+      "characters": 926,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 74,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 75,
+      "sha256": "bc53b9c45f2ad6b26175e1380b9c554c90975732d4c7ca3081d28a21b5ffc4c3",
+      "characters": 53,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 76,
+      "sha256": "63f6f316c7bd2ac371f870c433d0023e12c04f6bebc9ecdd89b1fcf663905bab",
+      "characters": 307,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 77,
+      "sha256": "a2c5c3506daa274cc10a179ba3ea1efaaa878168d164cfc676f46c4037c60b4e",
+      "characters": 821,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 78,
+      "sha256": "f366ddd9208b2041c14baae08896c95e2662c30b9f92e639db5caf8430ba218b",
+      "characters": 912,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 79,
+      "sha256": "fe722e8e5f7998d67c4c8516507fa7e1d0f8f7ef4ac6b1158ffd1f1fe51e3411",
+      "characters": 387,
+      "audit_flags": [
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 80,
+      "sha256": "33a366bfd429e988f18635f7b2424f4007e795b1add570ba2eb53578e5d44d45",
+      "characters": 23,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 81,
+      "sha256": "434534de8db5346ce19863d113fc1abbf3f7f0208aa711f073538f067756c894",
+      "characters": 209,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 82,
+      "sha256": "795f6b219aab157805008db05c273dcc149ed31aa796dc68e485107eb2c9f031",
+      "characters": 547,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 83,
+      "sha256": "bf8bcc6ba5b27c19e273c62ae0a7ab996f5a8f70de720cf03ed539c5fd77dce0",
+      "characters": 714,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 84,
+      "sha256": "42412b04816ba7b400d08d9c18a96b3822e7cfa729f6e663a74eca68d7062b81",
+      "characters": 654,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 85,
+      "sha256": "b6a7f05871f772cc8370ec7c1afb7f05a62b9cda43f00ce5e497d4d294f6f946",
+      "characters": 727,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 86,
+      "sha256": "c5d36cded6814816272eaa109f9cdfea50749329741ec06700ea4fa5f5a3854f",
+      "characters": 18,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 87,
+      "sha256": "8dd38ec70bda2d1663ed969dd9d34bb873ca6f451b366f0575f381e2ed14791e",
+      "characters": 306,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 88,
+      "sha256": "54e3d1e0efb25dc2d5652e7a05e68f37773a7ffa4b1b24fe7c4ed512893bd7d5",
+      "characters": 238,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 89,
+      "sha256": "48902d5c5668a8810491230394f9bd2d4cbfe7f3cb371dbf9224988486a7dbaf",
+      "characters": 247,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 90,
+      "sha256": "8b711a1d1f8b45015f07d0d3b854b351402aedf56b5b1a0ebdd7a937fe331dd3",
+      "characters": 379,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 91,
+      "sha256": "d9de4f925f016562796044b59b3c87996df85a3fda01a8cb198abe759ce159bc",
+      "characters": 711,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 92,
+      "sha256": "8f1f159146343f908ba58796737e3374d1862c0628e3da30647c4c5ae4c8a842",
+      "characters": 368,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 93,
+      "sha256": "7c5b273903f1d4b3347feafe5fcae64b87381a8e15b6ea363e3f5048dba4a9e0",
+      "characters": 414,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 94,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 95,
+      "sha256": "0ec15c14bb624debd3cef90461d9dd5efb4e0e8d4c443791120bd75240ee3be8",
+      "characters": 52,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 96,
+      "sha256": "b6fbd23ccc09102ea0f8c7db44f4224cc7ca37c65ac24b58d462c6aea08ef455",
+      "characters": 509,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 97,
+      "sha256": "c176ee802a395cadc11e09304e2c9806e678ce7b94b6a6a3e58de925632aaab3",
+      "characters": 762,
+      "audit_flags": [
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 98,
+      "sha256": "264070631f8f23ad41661304410333ed4ab937e4972cafd460688412ab5ed3f9",
+      "characters": 671,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 99,
+      "sha256": "58bec1538a1abeffb4a353e95e2b2c82568bda53de7ca0ab930278d805724227",
+      "characters": 32,
+      "audit_flags": [
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 100,
+      "sha256": "0eb7916cf189095ed06a8d4169013f30fd45415d6bc748027b9fcb323d807b0a",
+      "characters": 568,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 101,
+      "sha256": "1822456c6ade31444b7b52501e9af12cc7d68d0436affad0c5a60f59876ae596",
+      "characters": 520,
+      "audit_flags": [
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 102,
+      "sha256": "806de89d77fac54a9307ffc3411d893d921c0daac2c8622b849a039cae769541",
+      "characters": 452,
+      "audit_flags": [
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 103,
+      "sha256": "c9091d9d9faebe1e2cfa5e356f6bd6dbb7648f4b077834404d0312a5a14be96c",
+      "characters": 632,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 104,
+      "sha256": "ba4299a8b66e48f0c15f62296c067273389efbcd78d8253462292b4b0dd386a2",
+      "characters": 23,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 105,
+      "sha256": "4caf2b1d5f79d8ec951732bffdef20a06bff8a4df01127a97de3c62ac88a4192",
+      "characters": 401,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 106,
+      "sha256": "84fce4e70af15add990c631f6dd9d1d0e71edeec370ccd64c0643daa2ee786d1",
+      "characters": 499,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 107,
+      "sha256": "5fd28dea27ca362b09c129ddb3371b4cb97868406c636c74a70e778577ca3859",
+      "characters": 593,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 108,
+      "sha256": "7b31d3922e005ae472e32fce323376164e6fb0d2727074f321b394a3e0a3cf68",
+      "characters": 604,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 109,
+      "sha256": "64fb156eb7e904df472c848c4fc36a1d9a089fb5c7979d8e44b07e496077eb5c",
+      "characters": 17,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 110,
+      "sha256": "bd330be8ff303a07b9768da6880c467be2d8e78e555b5bc49bf6eb30b574f349",
+      "characters": 403,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 111,
+      "sha256": "673c53589016d9c8be3e2e27092d82b6fe8a7ec16c923a308d7e89319bfa694f",
+      "characters": 344,
+      "audit_flags": [
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 112,
+      "sha256": "238b1098e9b1a12ac68dff8b1e74cfce292c120dc42c80e57554a5a09f7dffd3",
+      "characters": 719,
+      "audit_flags": [
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 113,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 114,
+      "sha256": "a9d975f95d1614f28a88fcd4740601039870c1d8fc367485c34a595c1134974b",
+      "characters": 65,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 115,
+      "sha256": "7e471212d9ad7e882d1166d66697a1dc7373169097f7571aaeeaa52e45fae6e0",
+      "characters": 664,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 116,
+      "sha256": "0a87d3879a931abc3a9c7d57950bd081be0820cdc8d07e59bb7abf4a81cf9eff",
+      "characters": 713,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 117,
+      "sha256": "0de3b440526468a9deeed5f6b89713f465cf830d1f978795d5455304576dd388",
+      "characters": 697,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 118,
+      "sha256": "d870520c30f693793603a18e7006e9f13733e8bb6f316958da041565e5d793b7",
+      "characters": 28,
+      "audit_flags": [
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 119,
+      "sha256": "1d796e9d4ed03fd9f0efab0fdb0090dde30537c55c47840909188dd8f686d708",
+      "characters": 535,
+      "audit_flags": [
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 120,
+      "sha256": "d906d86adade80a931f39142191e63513bd9d2d4a4b942500d9d2a16dd4a5445",
+      "characters": 805,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 121,
+      "sha256": "f38b784b8c95133e847202668ab55b4aa458cd5952d7e13061cf22c7f01243ac",
+      "characters": 461,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 122,
+      "sha256": "a4edfab0a8a9a44fa69f030466f0f4a281017e74370b0f6524813f0a4ed91a2c",
+      "characters": 28,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 123,
+      "sha256": "c2e4b9449fc2837457f37b675144058d260811428fd68f10142dc3c16b2ace03",
+      "characters": 388,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 124,
+      "sha256": "3732be59f991c5dcaf6654682fe48b7e1e545a02f5f7438a8e8b7354a421c0b0",
+      "characters": 655,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 125,
+      "sha256": "60439ffa2f99019f90d2fdec80d4c2fd48ac42fdf794d8547fc30af58f8ebb84",
+      "characters": 718,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 126,
+      "sha256": "cb7a2876aed7e33a6ddd6819f1cad694c2fe7940faa198c8e718816bf8d32528",
+      "characters": 19,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 127,
+      "sha256": "511e9d6cde1f823c5a740ff9d360b119c6b07b34045143deec763b86ecbde7e9",
+      "characters": 441,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 128,
+      "sha256": "dcf89960dc30bd0d9f0eb33f5b20ac74eb800abc97b59728c3e6c824aceb3e6d",
+      "characters": 601,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 129,
+      "sha256": "0510f09b0319af555ff40794539dad7d16c7fa4e5f47f421e33ee6b826b38768",
+      "characters": 608,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 130,
+      "sha256": "8a64a8fd61be44c2f7a1d503385c0089f51d429fac6491bf1ba368604a020dbb",
+      "characters": 572,
+      "audit_flags": [
+        "ontological_or_consciousness_interpretation",
+        "private_identifying_content"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 131,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 132,
+      "sha256": "d5cdc0eb55a2f9a47e20047707da20958e12b647b092cfcfe83f0c3d5cd31365",
+      "characters": 42,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 133,
+      "sha256": "c596b823cc085ba294df237d078c466444e938a39a7be204f26a6ecfcf67e715",
+      "characters": 746,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 134,
+      "sha256": "9f8baba5392f7d87c32372f7e69208619110355bc72d84c51594d65c2922f612",
+      "characters": 848,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 135,
+      "sha256": "356852b0df978db503c39d325ca77238ffb972b1f629fe0bc140d4aa4fd26731",
+      "characters": 697,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 136,
+      "sha256": "e983673c2194a3a1d9c05e898edc75cb2558705ceb848aa82a8e701a3cbb622a",
+      "characters": 869,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 137,
+      "sha256": "60c7278768f7d8f1c6214364c479e60551ef58223f1f7785cd66ef7f0bf43b16",
+      "characters": 796,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 138,
+      "sha256": "08413a06175bf4fe042759abb7b0c12b55c97e8a0aeff469ca139b03106a7c7d",
+      "characters": 798,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 139,
+      "sha256": "bfa7d6ec55509b44e2daaf56d773dee89ce8c5db731e09007fe2e6026ac8f4b8",
+      "characters": 746,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "mathematical_geometry_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 140,
+      "sha256": "f1ff2e5c1c8a6d19068e3200546e361228a633b3a09987ccb122001a809e3be6",
+      "characters": 690,
+      "audit_flags": [
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 141,
+      "sha256": "3cc99d7fd5115e89c50a0b2fb79f4b55939b56db2bde198058e1b982f4e40633",
+      "characters": 424,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "temporal_claim",
+        "ontological_or_consciousness_interpretation",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 142,
+      "sha256": "94cbc4a9fd6de6aee61216dc27b53c3c797d02bc009025decefc90533d680dfe",
+      "characters": 619,
+      "audit_flags": [
+        "probability_or_sampling_claim",
+        "ontological_or_consciousness_interpretation"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 143,
+      "sha256": "2062b4a25949e9d47b6fe2a93c956d37c8fe163207bdd7a5f4b0cc30ac173ad2",
+      "characters": 663,
+      "audit_flags": [
+        "temporal_claim",
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 144,
+      "sha256": "52ac15363c9f506f4104dfc5281d33a6414e669c12c31678ace6a839ca160da9",
+      "characters": 22,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 145,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 146,
+      "sha256": "fa6b8c27530f827fa187d1aa5ff4841fe925a48886e2c843414f4358d64f8396",
+      "characters": 15,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 147,
+      "sha256": "eb29a93e14c696b18bb43ab974f0b8413b91fcc61a988833f1ec0df6a8632a6f",
+      "characters": 200,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 148,
+      "sha256": "fdc9806ec460edec9396c579f9d6631c64d189a5c8bd9a85a38759f3a601e03a",
+      "characters": 78,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 149,
+      "sha256": "e47ba175b4b83559a6a79aaf5f0e1f5c55601b31c43245aa68a9520b340663f9",
+      "characters": 63,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 150,
+      "sha256": "765dcca60ff55c874f2b52b4ca78cebcebb2fc1b9e58b0de2fb4d6a953951922",
+      "characters": 129,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 151,
+      "sha256": "54c2854116becea9ed791537df122b8ada4f3260f761633a57b478034bbf1730",
+      "characters": 105,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 152,
+      "sha256": "eef3f4ceb6a2b04e2e85175b5949c06d58d9d36d59a32bc0af89deb610f37df5",
+      "characters": 97,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 153,
+      "sha256": "3b5109273c66eeea6f1df05b1dfb53acda90ab01a492be88c4f10a50440acd60",
+      "characters": 140,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 154,
+      "sha256": "64c421d93a77639f7384d3a0f46d052e319c49844629cc1ce51813684c3fb6f0",
+      "characters": 137,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 155,
+      "sha256": "a31a87b25f1857b943cd1351afab9b3764790934aeafe36357d120f893fe710f",
+      "characters": 143,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 156,
+      "sha256": "fcb4b7d79830e9d6dc46825130e5c02f546bcf559934b05e43ee15dffeb00e76",
+      "characters": 94,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 157,
+      "sha256": "a4dae91435ff12a23ff977b3bbb802f3751efc885a9fbcaa356096be86435f31",
+      "characters": 116,
+      "audit_flags": [
+        "mathematical_geometry_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 158,
+      "sha256": "5b63461d87baa48ce2f540c225db9a4d56da88fec1788758ed4042bca4ab85cf",
+      "characters": 56,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 159,
+      "sha256": "30cdd3229c0604841318c50eb0ee7654c8ed4061a4792daa08050f0fe38cf1a1",
+      "characters": 117,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 160,
+      "sha256": "d2c13e2b4324f935cea489f397a27ee72be05a59a8ec22bfd481c9a9ac8add4a",
+      "characters": 85,
+      "audit_flags": [
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 161,
+      "sha256": "2fd988ea91319aacfe0bcbb4f5eb6a8d5be8974e018f5ffefa47ba4fbfbec753",
+      "characters": 75,
+      "audit_flags": [
+        "temporal_claim",
+        "empirical_or_observation_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 162,
+      "sha256": "8a864a5db99e5dc54999c853c5e5147ee71e1363195a4e7ffaebf6abbde61027",
+      "characters": 99,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 163,
+      "sha256": "3c3378b8a22cf270f7cea1a794dbb41c5eca84006a3d803b3aa8741bcbffde46",
+      "characters": 64,
+      "audit_flags": [
+        "temporal_claim"
+      ],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 164,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "characters": 0,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    },
+    {
+      "paragraph": 165,
+      "sha256": "1d35516eea0dd4a4f5655617478016c27d79b5c9bd1b92399906c4a720eb046f",
+      "characters": 17,
+      "audit_flags": [],
+      "classification_status": "LEXICAL_TRIAGE_NOT_PROOF",
+      "original_text_publicly_reproduced": false
+    }
+  ],
+  "verified_arithmetic_record": "verification/negative-controls/finite-results.json",
+  "unresolved": [
+    "independence and selection model",
+    "raw datasets and estimators for h, C and rho_a",
+    "original observation and receipt metadata",
+    "exact event-time reconciliation"
+  ],
+  "privacy_policy": "Original paragraph bytes remain private; flags and hashes preserve audit linkage."
+}

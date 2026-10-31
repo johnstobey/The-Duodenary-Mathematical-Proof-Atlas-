@@ -1,0 +1,27 @@
+{
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "toolchain_installed": true,
+  "toolchain_compiler_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "project_mathlib_pin": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "external_locked_dependencies": 42,
+  "comparator_documentation_commit": "865edc14486c3388e9225daa971da8e157488c3e",
+  "comparator_documentation_source": "https://github.com/leanprover/comparator/blob/865edc14486c3388e9225daa971da8e157488c3e/README.md",
+  "full_comparator_executions": 0,
+  "documented_guard_probe": {
+    "command": [
+      "systemd-run",
+      "--user",
+      "--pipe",
+      "--property=RestrictAddressFamilies=~AF_UNIX",
+      "true"
+    ],
+    "exit_code": 1,
+    "failure": "No user session bus/runtime; documented guarded invocation is unavailable in this instance."
+  },
+  "remaining": [
+    "Prepare compatible Comparator, lean4export and landrun in an environment supporting the documented guarded execution.",
+    "Restore the external locked dependencies; do not reuse Atlas 4.14 oleans with external 4.34.1.",
+    "Run each of 208 exact configurations and record statement/axiom validation."
+  ],
+  "all_external_claims_verified": false
+}

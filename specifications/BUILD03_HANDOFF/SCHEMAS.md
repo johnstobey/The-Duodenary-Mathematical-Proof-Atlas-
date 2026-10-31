@@ -1,0 +1,4 @@
+# Shared machine-readable data contracts
+All IDs stable, UTF-8 JSON, SHA256 of primary-source artifacts where available, ISO-8601 timestamps with time zones or explicit uncertainty. Required claim data: type, major_premise, minor_premise, inference, conclusion, validator, verification_status, source_locators, provenance. Required proof data: exact Lean name, theorem statement, source, dependencies, hash, Lean toolchain, compiled_on, command, returncode, log. Required tasks: id, objective, inputs, prereqs, next_action, acceptance_test, artifact_path, status, downstream_unlocks. All absent values are null (never fabricated). Use JSON Schema files in `schemas/`.
+
+Status vocabularies: SOURCE_REPORTED, CLAIMED, SOURCE_CHECKED, COMPUTATION_TESTED, FORMALLY_PROVED, REFUTED, DISPUTED, BLOCKED, EXPERIMENT_PLANNED, EXPERIMENT_EXECUTED, RELEASED. Keep mathematical proof status separate from historical/source credibility and from ontology status.

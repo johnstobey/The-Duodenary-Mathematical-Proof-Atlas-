@@ -28,5 +28,41 @@
     "actor": "Codex agent",
     "dependent_scope": "new Atlas proof/dependency build",
     "final_evidence": "verification/builds/atlas-axioms.log"
+  },
+  {
+    "evidence_file": "import-build.log",
+    "sha256": "3c400ce7140cfd611c3c7c015078aaa5b0159460d24827f69a0f3fe0a97ab99e",
+    "evidence_retained_privately": true,
+    "initial_observation": "Source archive explicitly uncompiled; import Lean lacked Fin negation/natural casts.",
+    "correction": "See current proof source, import provenance and successful axiom audit.",
+    "actor": "Codex agent",
+    "final_evidence": "verification/builds/atlas-axioms.log"
+  },
+  {
+    "evidence_file": "import-build-2.log",
+    "sha256": "b08f4a041087500cd11dee49416e042fb00cd4327a31218226e58a202f33f0f3",
+    "evidence_retained_privately": true,
+    "initial_observation": "Archive finite inductive/record types had no Fintype derivations; one untyped lambda inferred the wrong domain.",
+    "correction": "See current proof source, import provenance and successful axiom audit.",
+    "actor": "Codex agent",
+    "final_evidence": "verification/builds/atlas-axioms.log"
+  },
+  {
+    "evidence_file": "import-build-3.log",
+    "sha256": "2f64b09e8b5cdfcde2c390c84bf06f5d24129fa271be508924b62a5d375628e4",
+    "evidence_retained_privately": true,
+    "initial_observation": "A simplifier reduced a conjunct to True; the old rfl proof was replaced with True.intro.",
+    "correction": "See current proof source, import provenance and successful axiom audit.",
+    "actor": "Codex agent",
+    "final_evidence": "verification/builds/atlas-axioms.log"
+  },
+  {
+    "evidence_file": "new-results-build.log",
+    "sha256": "f3fc4c9ddf792bded1d25717f09e3db34bfbb2fe62495b210ebd0a3d4c7b1803",
+    "evidence_retained_privately": true,
+    "initial_observation": "First new proof attempt needed explicit linarith import and explicit finite ZMod numeral reductions.",
+    "correction": "See current proof source, import provenance and successful axiom audit.",
+    "actor": "Codex agent",
+    "final_evidence": "verification/builds/atlas-axioms.log"
   }
 ]

@@ -1,0 +1,15 @@
+{
+  "id": "DPA-FOUNDATION-0.1.0",
+  "commit": "6eda02e2591d377a2ad0d98f97d422672933a427",
+  "remote": "https://github.com/johnstobey/The-Duodenary-Mathematical-Proof-Atlas-",
+  "branches": [
+    "main",
+    "atlas/bootstrap-constitution-and-registry"
+  ],
+  "tag": "dpa-v0.1.0",
+  "push_returncode": 0,
+  "remote_sha_verified": true,
+  "tag_push_returncode": 0,
+  "theorems": 32,
+  "constitution_adopted": false
+}

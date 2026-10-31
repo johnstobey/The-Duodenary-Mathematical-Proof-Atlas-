@@ -1,22 +1,15 @@
 [
   {
-    "item": "duodenary_proof_atlas_AGENT_HANDOFF_20261031.zip",
-    "sha256": "25f60d2b2726696895bd20cc968eba93d33251dec1b529323d413f4d7b3eae1b",
-    "exclusion": "Raw source attachment retained privately: identifying personal material and/or extended third-party literary/score content; safe metadata and analytical derivatives are included.",
-    "retained": true,
-    "affects_math_release": false
-  },
-  {
     "item": "ONTOLOGICAL ARTIFACTS.pdf",
     "sha256": "630bed3608a2a39299613e24c7cc74e9b1e19d7fd7c30794e136f2a10e8e226e",
-    "exclusion": "Raw source attachment retained privately: identifying personal material and/or extended third-party literary/score content; safe metadata and analytical derivatives are included.",
+    "exclusion": "Whole original remains a private input under the source-preservation contract; the authorized release selects public-safe dossiers and short evidence references. The report also contains extended third-party literary/modern music interpretation whose complete redistribution was not separately cleared. Full source remains preserved; every public-safe analytical dossier is included.",
     "retained": true,
     "affects_math_release": false
   },
   {
     "item": "THE_GEOMETRIC_IMPERATIVE_REPORT.docx",
     "sha256": "b2aadcb27c0b5199882b09e3a01a106cf93c0d904ff1d41c66ac1f32eb4f69e5",
-    "exclusion": "Raw source attachment retained privately: identifying personal material and/or extended third-party literary/score content; safe metadata and analytical derivatives are included.",
+    "exclusion": "Raw private input contains a street address, identifying family/observer details and unverified personal event records. Hashes and redacted analytical/arithmetical records are published.",
     "retained": true,
     "affects_math_release": false
   },

@@ -1,3 +1,4 @@
+import Mathlib.Tactic.Linarith
 import Mathlib.Data.Rat.Defs
 import Mathlib.Tactic.FieldSimp
 import Mathlib.Tactic.Ring
@@ -25,4 +26,28 @@ theorem multiple_three_certificate (k : Nat) (hk : 0 < k) :
   refine ⟨k, 4*k, 12*k, hk, by omega, by omega, ?_⟩
   have hq : (0 : ℚ) < (k : ℚ) := by exact_mod_cast hk
   simpa only [Nat.cast_mul, Nat.cast_ofNat] using unit_fraction_multiple_three (k : ℚ) hq
+
+/-- A second infinite family; repeated denominators are allowed in the conjecture. -/
+theorem even_certificate (k : Nat) (hk : 0 < k) :
+    ThreeUnitFractions (2*k) := by
+  refine ⟨k, 2*k, 2*k, hk, by omega, by omega, ?_⟩
+  have hq : (k : ℚ) ≠ 0 := by exact_mod_cast (Nat.ne_of_gt hk)
+  simp only [Nat.cast_mul, Nat.cast_ofNat]
+  field_simp
+  ring
+
+/-- A third infinite family, covering every natural n congruent to 2 modulo 3. -/
+theorem two_mod_three_certificate (k : Nat) :
+    ThreeUnitFractions (3*k+2) := by
+  refine ⟨k+1, (3*k+2)*(k+1), 3*k+2, by omega,
+    Nat.mul_pos (by omega) (by omega), by omega, ?_⟩
+  have h1 : (k : ℚ) + 1 ≠ 0 := by
+    have h : (0 : ℚ) ≤ (k : ℚ) := Nat.cast_nonneg k
+    linarith
+  have h2 : 3*(k : ℚ)+2 ≠ 0 := by
+    have h : (0 : ℚ) ≤ (k : ℚ) := Nat.cast_nonneg k
+    linarith
+  simp only [Nat.cast_mul, Nat.cast_add, Nat.cast_ofNat, Nat.cast_one]
+  field_simp
+  ring
 end Duodenary

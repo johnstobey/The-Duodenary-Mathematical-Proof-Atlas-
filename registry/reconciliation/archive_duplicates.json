@@ -1,0 +1,42 @@
+[
+  {
+    "archive_path": "formal/Operation_Dewey_Lean_Kernel/AffineGroup.lean",
+    "sha256": "a92b05200e7f7beb49a86d809e6337753d369623a149fb9b8b28b0baf8a45d08",
+    "named_theorems": 17
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Lean_Kernel/Mod144Space.lean",
+    "sha256": "d2d83465947d061fb62c3418d4292146a30cadff689e223250cfb5372b496f33",
+    "named_theorems": 9
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Lean_Kernel/ZkRingCore.lean",
+    "sha256": "93e55b993177eabc895585745388330aebde9f341ae951e62f691d47f19a0032",
+    "named_theorems": 19
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Master_Synthesis/AffineGroup.lean",
+    "sha256": "a92b05200e7f7beb49a86d809e6337753d369623a149fb9b8b28b0baf8a45d08",
+    "named_theorems": 17
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Master_Synthesis/DistanceSubgroup.lean",
+    "sha256": "f1464b7b6a198c087b57e117ef2f3e80190d3c4c620ad40eac26f4e9b1183b19",
+    "named_theorems": 8
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Master_Synthesis/Mod144Space.lean",
+    "sha256": "d2d83465947d061fb62c3418d4292146a30cadff689e223250cfb5372b496f33",
+    "named_theorems": 9
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Master_Synthesis/ZkRingCore.lean",
+    "sha256": "93e55b993177eabc895585745388330aebde9f341ae951e62f691d47f19a0032",
+    "named_theorems": 19
+  },
+  {
+    "archive_path": "formal/Operation_Dewey_Master_Synthesis/lakefile.lean",
+    "sha256": "5e1e754221d9d2239829190740045a0a3ee8fbf2839813115f1608fab467338f",
+    "named_theorems": 0
+  }
+]

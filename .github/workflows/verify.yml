@@ -1,0 +1,36 @@
+name: Atlas proof and evidence verification
+on:
+  push:
+    branches: [main, atlas/bootstrap-constitution-and-registry]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  atlas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install hash-locked validator dependencies
+        run: python -m pip install --require-hashes -r requirements.lock
+      - uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          build: true
+          test: false
+          lint: false
+          use-mathlib-cache: true
+      - name: Verify source integrity and the saved research queue
+        run: |
+          python scripts/source_integrity.py
+          python scripts/roadmap.py --check
+      - name: Reproduce proof and evidence checks
+        run: python scripts/reproduce.py --out .lake/ci-verification
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: atlas-verification
+          path: .lake/ci-verification

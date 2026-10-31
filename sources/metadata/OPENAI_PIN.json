@@ -3,8 +3,8 @@
   "commit": "4eaee87548250b2682affda7d05d947c05554bae",
   "fetched_at": "2026-10-31T10:01:50.347931+00:00",
   "family_records": 373,
-  "manuscript_records": 720,
-  "unique_manuscript_paths": 720,
+  "manuscript_records": 721,
+  "unique_manuscript_paths": 721,
   "formalization_sources": 176,
   "tree_entries": 174524,
   "tree_sha256": "6a8e293f7ec1b511894fb7ba62311cb581cbabe82b4d2e338a944292fe719a96",
@@ -30,5 +30,8 @@
       "path": "lean/README.md",
       "sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b"
     }
-  ]
+  ],
+  "primary_readmes_acquired": 751,
+  "formal_main_results": 208,
+  "count_discrepancy": "resolved by primary identifier containing parentheses"
 }

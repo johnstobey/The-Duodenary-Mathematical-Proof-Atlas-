@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "lean-build",
+      "command": [
+        "lake",
+        "build"
+      ],
+      "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+      "started_at": "2026-10-31T12:08:16.976520+00:00",
+      "completed_at": "2026-10-31T12:08:17.638285+00:00",
+      "returncode": 0,
+      "log": "lean-build.log",
+      "log_sha256": "6e3510b43a86896faf089cd724bf31cae89e2dabb71e884393bedad8ad1fee9f"
+    },
+    {
+      "name": "axiom-audit",
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "scripts/audit_lean.py",
+        "--check"
+      ],
+      "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+      "started_at": "2026-10-31T12:08:17.639137+00:00",
+      "completed_at": "2026-10-31T12:08:29.472312+00:00",
+      "returncode": 0,
+      "log": "axiom-audit.log",
+      "log_sha256": "37e47d97a483c95165db6c7d42e32910252b6bae0808af5a356eac794f023506"
+    },
+    {
+      "name": "finite-controls",
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "scripts/finite_checks.py",
+        "--check"
+      ],
+      "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+      "started_at": "2026-10-31T12:08:29.472409+00:00",
+      "completed_at": "2026-10-31T12:08:29.512011+00:00",
+      "returncode": 0,
+      "log": "finite-controls.log",
+      "log_sha256": "b297f3aa3aac6aa08a0b27e14e1cf6b21a50c5d4e2b26cde0118f1e5e056095f"
+    },
+    {
+      "name": "evidence-tests",
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+      "started_at": "2026-10-31T12:08:29.512126+00:00",
+      "completed_at": "2026-10-31T12:08:29.708407+00:00",
+      "returncode": 0,
+      "log": "evidence-tests.log",
+      "log_sha256": "b8a8b03e7cfb1c76ef9fd64ce921ba01658c389166c973f987c81043533ef874"
+    },
+    {
+      "name": "schema-status",
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "scripts/validate.py"
+      ],
+      "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+      "started_at": "2026-10-31T12:08:29.708507+00:00",
+      "completed_at": "2026-10-31T12:08:31.734242+00:00",
+      "returncode": 0,
+      "log": "schema-status.log",
+      "log_sha256": "5fb3197988b07d9145a6fe3516101c5630e7a3c7d557e215e493a107427120f3"
+    },
+    {
+      "name": "roadmap",
+      "command": [
+        "/workspace/.setup/atlas-python/bin/python3",
+        "scripts/roadmap.py",
+        "--check"
+      ],
+      "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+      "started_at": "2026-10-31T12:08:31.734345+00:00",
+      "completed_at": "2026-10-31T12:08:31.785426+00:00",
+      "returncode": 0,
+      "log": "roadmap.log",
+      "log_sha256": "0fa4f1831dbc280ef4760d58d9402bdab517f6656aede7485a6346818c74c029"
+    }
+  ],
+  "scope": "local candidate validation, not external manuscript proof review or publication"
+}

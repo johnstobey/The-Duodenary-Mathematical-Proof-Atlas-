@@ -50,7 +50,28 @@
       "claimed_original_result": false
     },
     "formal_status": "NOT_FORMALIZED",
-    "requires_primary_audit": true
+    "requires_primary_audit": true,
+    "formal_statement_sources": [
+      {
+        "baseline_problem": "DPA-011",
+        "repository": "https://github.com/google-deepmind/formal-conjectures",
+        "commit": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "path": "FormalConjectures/Wikipedia/CollatzConjecture.lean",
+        "sha256": "2b95a1e3c230d810703bd3151d6a7aa8544844b38c47466bd05c76fdeecedc1c",
+        "license": "Apache-2.0 software; source references may have separate content terms",
+        "declarations": [
+          {
+            "source_category": "open",
+            "name": "collatz_conjecture",
+            "exact_statement": "theorem collatz_conjecture (n : ℕ) (hn : n > 0) : ∃ m, collatzStep^[m] n = 1",
+            "proof_body": "sorry (statement registry, not a proof)",
+            "kernel_verified_here": false
+          }
+        ],
+        "source_kind": "Modern formal statement registry; original historical problem-source audit remains distinct."
+      }
+    ],
+    "variant_note": "The baseline uses an accelerated odd Collatz step, while the pinned registry uses 3n+1. Their literal transition definitions differ; no automatic exact-statement deduplication."
   },
   {
     "id": "DPA-013",
@@ -1163,7 +1184,35 @@
       "claimed_original_result": false
     },
     "formal_status": "NOT_FORMALIZED",
-    "requires_primary_audit": true
+    "requires_primary_audit": true,
+    "formal_statement_sources": [
+      {
+        "baseline_problem": "DPA-008",
+        "repository": "https://github.com/google-deepmind/formal-conjectures",
+        "commit": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+        "sha256": "f2819b1f12acbd165840b1069d094ed89b2a106578be7cc2a4839162dcceb562",
+        "license": "Apache-2.0 software; source references may have separate content terms",
+        "declarations": [
+          {
+            "source_category": "open",
+            "name": "goldbach",
+            "exact_statement": "theorem goldbach :\n    ∀ n : ℕ, 2 < n → Even n → ∃ p q, Prime p ∧ Prime q ∧ n = p + q",
+            "proof_body": "sorry (statement registry, not a proof)",
+            "kernel_verified_here": false
+          },
+          {
+            "source_category": "solved",
+            "name": "ternaryGoldbach",
+            "exact_statement": "theorem ternaryGoldbach (n : ℕ) (hn : 5 < n) (hn_odd : Odd n) :\n    ∃ p q r, Nat.Prime p ∧ Nat.Prime q ∧ Nat.Prime r ∧ n = p + q + r",
+            "proof_body": "sorry (statement registry, not a proof)",
+            "kernel_verified_here": false
+          }
+        ],
+        "source_kind": "Modern formal statement registry; original historical problem-source audit remains distinct."
+      }
+    ],
+    "variant_note": "Compare quantified domains and source hypotheses before transporting claims."
   },
   {
     "id": "DPA-009",
@@ -1269,7 +1318,42 @@
       "claimed_original_result": false
     },
     "formal_status": "NOT_FORMALIZED",
-    "requires_primary_audit": true
+    "requires_primary_audit": true,
+    "formal_statement_sources": [
+      {
+        "baseline_problem": "DPA-010",
+        "repository": "https://github.com/google-deepmind/formal-conjectures",
+        "commit": "b6939a3a0d89e5f999fa8c6483a6ef646c1e2923",
+        "path": "FormalConjectures/Wikipedia/LegendreConjecture.lean",
+        "sha256": "b1494b4453a4338405b8b363e3b487f1d3fe3ad7edf6dec733fed5df9c4c4f95",
+        "license": "Apache-2.0 software; source references may have separate content terms",
+        "declarations": [
+          {
+            "source_category": "open",
+            "name": "legendre_conjecture",
+            "exact_statement": "theorem legendre_conjecture :\n    ∀ n ≥ 1, ∃ p ∈ Set.Ioo (n ^ 2) ((n + 1) ^ 2), Nat.Prime p",
+            "proof_body": "sorry (statement registry, not a proof)",
+            "kernel_verified_here": false
+          },
+          {
+            "source_category": "solved",
+            "name": "bounded_gap_legendre",
+            "exact_statement": "theorem bounded_gap_legendre\n    (H : ∃ c > 0, ∀ᶠ n in atTop, (n + 1).nth Nat.Prime - n.nth Nat.Prime <\n      (n.nth Nat.Prime : ℝ) ^ (1 / (2 : ℝ) - c)) :\n    ∀ᶠ n in atTop, ∃ p ∈ Set.Ioo (n ^ 2) ((n + 1) ^ 2), Nat.Prime p",
+            "proof_body": "sorry (statement registry, not a proof)",
+            "kernel_verified_here": false
+          },
+          {
+            "source_category": "solved",
+            "name": "legendre_conjecture.ferreira_large_n",
+            "exact_statement": "theorem legendre_conjecture.ferreira_large_n :\n    ∀ᶠ n in atTop, ∃ p ∈ Set.Ioo (n ^ 2) ((n + 1) ^ 2), Nat.Prime p",
+            "proof_body": "sorry (statement registry, not a proof)",
+            "kernel_verified_here": false
+          }
+        ],
+        "source_kind": "Modern formal statement registry; original historical problem-source audit remains distinct."
+      }
+    ],
+    "variant_note": "Compare quantified domains and source hypotheses before transporting claims."
   },
   {
     "id": "DPA-012",

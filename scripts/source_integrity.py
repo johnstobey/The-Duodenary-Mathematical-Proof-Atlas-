@@ -13,5 +13,11 @@ def main():
     handoff=json.loads((ROOT/'sources/metadata/HANDOFF_MANIFEST.json').read_text())
     original=next(r for r in handoff if r['path']=='CONSTITUTION.md')
     assert hashlib.sha256((ROOT/'CONSTITUTION.md').read_bytes()).hexdigest()==original['sha256']
-    print('PASS: ten exact original frontier files and unchanged proposed constitution')
+    for row in json.loads((ROOT/'registry/reconciliation/machine_imports.json').read_text()):
+        assert hashlib.sha256((ROOT/row['destination']).read_bytes()).hexdigest()==row['destination_sha256']
+    for row in handoff:
+        candidate=ROOT/'specifications/BUILD03_HANDOFF'/row['path']
+        if row['path'].endswith('.md') and '/' not in row['path']:
+            assert hashlib.sha256(candidate.read_bytes()).hexdigest()==row['sha256'],candidate
+    print('PASS: preserved handoff, imported source hashes, ten exact original frontier files and unchanged proposed constitution')
 if __name__=='__main__':main()

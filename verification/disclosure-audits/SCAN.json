@@ -1,7 +1,7 @@
 {
   "scan_status": "PASS_PATTERN_SCAN_ONLY",
-  "candidate_files_scanned": 236,
-  "reachable_history_blobs_scanned": 201,
+  "candidate_files_scanned": 306,
+  "reachable_history_blobs_scanned": 235,
   "issues": [],
   "limitations": [
     "Pattern matching is not a complete secrecy or personal-data audit.",

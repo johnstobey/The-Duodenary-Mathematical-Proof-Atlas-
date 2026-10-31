@@ -1,0 +1,13 @@
+{
+  "id": "DPA-MATHEMATICS-0.2.0",
+  "status": "VERIFIED_PUBLICATION_CANDIDATE",
+  "theorem_declarations": 104,
+  "foundation": 32,
+  "reused_machine": 53,
+  "further_atlas_declarations": 19,
+  "scope": "Proof reuse and transport, calendar obstruction, unit fractions, quotient/affine dynamics, primary-source and catalogue execution tooling.",
+  "novelty_claim": false,
+  "baseline_release_commit": "6eda02e2591d377a2ad0d98f97d422672933a427",
+  "release_execution_report": "verification/BUILD04_REPORT.md",
+  "remote_success": "Recorded after an actual successful push, not inferred from this candidate record."
+}

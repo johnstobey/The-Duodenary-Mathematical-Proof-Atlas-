@@ -1,0 +1,4 @@
+# Initial artifact registry and dossier assignments
+Source original PDF must be read in full and section boundaries verified. Primary dossiers: `phaedrus`, `book-of-the-dead`, `iliad`, `odyssey`, `gruppen`, `synergetics`, `bartok-lendvai`, `eclipse`, `alice`. Additional: `pyramid` (Jan 7 memo plus source geometry), `aztec-calendar` (Sun Stone distinct from the Tonalpohualli and Xiuhpohualli) and any additional sections found. Combined cross-artifact synthesis separate.
+
+Mapping is not automatic: register the *native* decomposition; only then calculate structural comparisons. Each artifact has source-specific risk (an ancient calendrical periodicity should not be rewritten to fit twelve). Maintain checks for historical/philological sources, mathematical operations, and ontological interpretation distinctly. Do not lift long copyrighted passages or restricted music source material into public release.

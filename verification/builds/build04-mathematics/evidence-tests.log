@@ -1,0 +1,13 @@
+test_foundation_theorem_ids_survive_extension (test_catalogue_and_execution.CatalogueAndExecution.test_foundation_theorem_ids_survive_extension) ... ok
+test_missing_clearing_inputs_cannot_be_scored (test_catalogue_and_execution.CatalogueAndExecution.test_missing_clearing_inputs_cannot_be_scored) ... ok
+test_primary_catalogue_and_source_ids_are_unique (test_catalogue_and_execution.CatalogueAndExecution.test_primary_catalogue_and_source_ids_are_unique) ... ok
+test_real_primary_identifier_with_parentheses_is_preserved (test_catalogue_and_execution.CatalogueAndExecution.test_real_primary_identifier_with_parentheses_is_preserved) ... ok
+test_cycle_rejected_and_feedback_allowed (test_evidence_controls.EvidenceControls.test_cycle_rejected_and_feedback_allowed) ... ok
+test_missing_validator_rejected (test_evidence_controls.EvidenceControls.test_missing_validator_rejected) ... ok
+test_ontology_cannot_be_promoted (test_evidence_controls.EvidenceControls.test_ontology_cannot_be_promoted) ... ok
+test_wrong_crt_and_nonisomorphism_controls (test_evidence_controls.EvidenceControls.test_wrong_crt_and_nonisomorphism_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.122s
+
+OK
