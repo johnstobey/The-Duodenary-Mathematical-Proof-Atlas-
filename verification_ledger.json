@@ -1,0 +1,8 @@
+{
+  "fixed_points": 6,
+  "attractor_cycles": 23,
+  "scalar_outputs": 72,
+  "total_states": 144,
+  "masks_closed": 64,
+  "mask_pairs": 4096
+}
