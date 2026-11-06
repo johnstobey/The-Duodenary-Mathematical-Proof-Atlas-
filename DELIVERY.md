@@ -106,3 +106,18 @@ python3 --version
 /workspace/cprx-runtime/toolchain/lean-4.14.0-linux/bin/lake --version
 git ls-remote origin refs/heads/main
 ```
+
+## Successful branch publication receipt
+
+Executed `git push origin HEAD:refs/heads/atlas-workbench-01` — exit **0**.
+Published implementation commit: `7c130b60fce7efac9efc46b650801725c87c1f35`.
+Executed `git ls-remote origin refs/heads/main refs/heads/atlas-workbench-01` — exit **0**.
+The remote main ref remains `9f2f4c4421831bcb9ca3da7199a4d3bb0a0f3b8c`.
+No merge was performed and no main ref was pushed. This follow-up commit adds
+publication evidence only; the same branch-only push command publishes it.
+
+`git diff --cached --check` reported inherited source whitespace (exit 2);
+`git show --format= --check HEAD` reproduced it (exit 2). The complete report is
+`verification/atlas-workbench-01-delivery/source-whitespace.stdout`.
+Protected source bytes were preserved rather than normalized. This formatting
+observation does not change the canonical hash or the green execution gates.

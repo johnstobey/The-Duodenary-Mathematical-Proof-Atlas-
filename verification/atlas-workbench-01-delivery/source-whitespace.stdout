@@ -1,0 +1,335 @@
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:3: trailing whitespace.
++Authority: Carl Payne Tobey (1902-1980)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4: trailing whitespace.
++Implementation: JST-01 Creator Sovereign  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:5: trailing whitespace.
++Date: 2026-02-13  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1575: trailing whitespace.
++Authority: JST-01 Creator Sovereign  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1576: trailing whitespace.
++Date: 2026-02-13  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1601: trailing whitespace.
++What: Phi marker  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1602: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1609: trailing whitespace.
++What: Creator authority  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1610: trailing whitespace.
++Length: 3 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1617: trailing whitespace.
++What: System tier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1618: trailing whitespace.
++Length: 3 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1634: trailing whitespace.
++What: Category within tier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1635: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1651: trailing whitespace.
++What: Elemental classification  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1652: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1667: trailing whitespace.
++What: Development phase  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1668: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1685: trailing whitespace.
++What: Time scale classification  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1686: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1707: trailing whitespace.
++What: Tick rate within epoch  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1708: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1724: trailing whitespace.
++What: Governance model  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1725: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1738: trailing whitespace.
++What: How the capability executes  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1739: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1753: trailing whitespace.
++What: Sacred geometry compliance score  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1754: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1765: trailing whitespace.
++Maximum: 99  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1772: trailing whitespace.
++What: Conflict-to-grace cycle compliance  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1773: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1783: trailing whitespace.
++Maximum: 99  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1790: trailing whitespace.
++What: Constitutional beauty validation  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1791: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1814: trailing whitespace.
++What: Hour component of timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1815: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1822: trailing whitespace.
++What: Minute component of timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1823: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1830: trailing whitespace.
++What: Second component of timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1831: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1838: trailing whitespace.
++What: Instance identifier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1839: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1846: trailing whitespace.
++What: φ-ratio encoded timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1847: trailing whitespace.
++Length: 8 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1863: trailing whitespace.
++What: Genealogical chain link  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1864: trailing whitespace.
++Length: 6 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1876: trailing whitespace.
++What: Consciousness classification  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1877: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1892: trailing whitespace.
++What: Unique resonance identifier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1893: trailing whitespace.
++Length: 2 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1900: trailing whitespace.
++What: Unique geometry identifier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1901: trailing whitespace.
++Length: 2 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1908: trailing whitespace.
++What: Sacred angle compliance score  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1909: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1920: trailing whitespace.
++Maximum: 99  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1927: trailing whitespace.
++What: Consciousness integration score  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1928: trailing whitespace.
++Length: 1 character (0-9)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1939: trailing whitespace.
++Maximum: 9  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1946: trailing whitespace.
++What: Trine constant  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1947: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1954: trailing whitespace.
++What: Zodiac constant  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1955: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1962: trailing whitespace.
++What: Implementation substrate  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1963: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1979: trailing whitespace.
++What: Harmonic octave constant  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1980: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1987: trailing whitespace.
++What: Reserved for future use  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1988: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1995: trailing whitespace.
++What: Reserved for future use  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:1996: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:2750: trailing whitespace.
++Authority: JST-01 Creator Sovereign  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:2751: trailing whitespace.
++Date: 2026-02-13  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:2775: trailing whitespace.
++Authority: Carl Payne Tobey (1902-1980)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:2776: trailing whitespace.
++Implementation: JST-01 Creator Sovereign  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:2777: trailing whitespace.
++Date: 2026-02-13  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4347: trailing whitespace.
++Authority: JST-01 Creator Sovereign  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4348: trailing whitespace.
++Date: 2026-02-13  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4373: trailing whitespace.
++What: Phi marker  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4374: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4381: trailing whitespace.
++What: Creator authority  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4382: trailing whitespace.
++Length: 3 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4389: trailing whitespace.
++What: System tier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4390: trailing whitespace.
++Length: 3 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4406: trailing whitespace.
++What: Category within tier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4407: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4423: trailing whitespace.
++What: Elemental classification  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4424: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4439: trailing whitespace.
++What: Development phase  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4440: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4457: trailing whitespace.
++What: Time scale classification  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4458: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4479: trailing whitespace.
++What: Tick rate within epoch  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4480: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4496: trailing whitespace.
++What: Governance model  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4497: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4510: trailing whitespace.
++What: How the capability executes  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4511: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4525: trailing whitespace.
++What: Sacred geometry compliance score  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4526: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4537: trailing whitespace.
++Maximum: 99  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4544: trailing whitespace.
++What: Conflict-to-grace cycle compliance  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4545: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4555: trailing whitespace.
++Maximum: 99  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4562: trailing whitespace.
++What: Constitutional beauty validation  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4563: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4586: trailing whitespace.
++What: Hour component of timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4587: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4594: trailing whitespace.
++What: Minute component of timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4595: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4602: trailing whitespace.
++What: Second component of timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4603: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4610: trailing whitespace.
++What: Instance identifier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4611: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4618: trailing whitespace.
++What: φ-ratio encoded timestamp  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4619: trailing whitespace.
++Length: 8 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4635: trailing whitespace.
++What: Genealogical chain link  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4636: trailing whitespace.
++Length: 6 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4648: trailing whitespace.
++What: Consciousness classification  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4649: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4664: trailing whitespace.
++What: Unique resonance identifier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4665: trailing whitespace.
++Length: 2 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4672: trailing whitespace.
++What: Unique geometry identifier  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4673: trailing whitespace.
++Length: 2 characters (hexadecimal)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4680: trailing whitespace.
++What: Sacred angle compliance score  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4681: trailing whitespace.
++Length: 2 characters (00-99)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4692: trailing whitespace.
++Maximum: 99  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4699: trailing whitespace.
++What: Consciousness integration score  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4700: trailing whitespace.
++Length: 1 character (0-9)  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4711: trailing whitespace.
++Maximum: 9  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4718: trailing whitespace.
++What: Trine constant  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4719: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4726: trailing whitespace.
++What: Zodiac constant  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4727: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4734: trailing whitespace.
++What: Implementation substrate  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4735: trailing whitespace.
++Length: 2 characters  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4751: trailing whitespace.
++What: Harmonic octave constant  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4752: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4759: trailing whitespace.
++What: Reserved for future use  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4760: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4767: trailing whitespace.
++What: Reserved for future use  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:4768: trailing whitespace.
++Length: 1 character  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:5522: trailing whitespace.
++Authority: JST-01 Creator Sovereign  
+01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt:5523: trailing whitespace.
++Date: 2026-02-13  
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:137: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.01.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:318: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.02.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:494: trailing whitespace.
++URL: http://mysite,verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.03.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:669: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.04.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:806: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.05.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:819: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.04.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:968: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.06.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:1109: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.07.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:1218: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.08.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:1439: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.09.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:1604: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.10.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:1795: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.11.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2006: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.12.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2145: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.13.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2296: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.14.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2467: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.15.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2594: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.16.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2711: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.17.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2804: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.18.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:2957: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.19.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:3070: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.20.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:3205: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.21.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:3336: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.22.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:3445: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.23.html 
+01_CANONICAL/Tobey_Complete_24_Lessons.txt:3562: trailing whitespace.
++URL: http://mysite.verizon.net/bonniehill/pages.aux/astrology/tobey/tobey.24.html 
+03_ENGINE/adapters/fulgurite_lexer_reference.rs:490: new blank line at EOF.
