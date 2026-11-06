@@ -1,0 +1,177 @@
+[
+  {
+    "id": "SC-00",
+    "title": "Source custody and reversible extraction",
+    "kind": "source",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for source custody and reversible extraction. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 0
+  },
+  {
+    "id": "SC-01",
+    "title": "English container recognition",
+    "kind": "english",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for english container recognition. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 1
+  },
+  {
+    "id": "SC-02",
+    "title": "Dewey law and capability tier",
+    "kind": "dewey",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for dewey law and capability tier. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 2
+  },
+  {
+    "id": "SC-03",
+    "title": "BB admission and quarantine",
+    "kind": "bb",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for bb admission and quarantine. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 3
+  },
+  {
+    "id": "SC-04",
+    "title": "Fulgurite lexical physics",
+    "kind": "fulgurite",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for fulgurite lexical physics. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 4
+  },
+  {
+    "id": "SC-05",
+    "title": "Z/12Z core geometry",
+    "kind": "ring",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for z/12z core geometry. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 5
+  },
+  {
+    "id": "SC-06",
+    "title": "Four elemental triangles",
+    "kind": "elements",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for four elemental triangles. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 6
+  },
+  {
+    "id": "SC-07",
+    "title": "Three modal squares",
+    "kind": "modalities",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for three modal squares. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 7
+  },
+  {
+    "id": "SC-08",
+    "title": "Seven angular aspect classes",
+    "kind": "aspects",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for seven angular aspect classes. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 8
+  },
+  {
+    "id": "SC-09",
+    "title": "Antipodal opposition channels",
+    "kind": "opposition",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for antipodal opposition channels. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 9
+  },
+  {
+    "id": "SC-10",
+    "title": "Mirror and inverse",
+    "kind": "reflection",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for mirror and inverse. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 10
+  },
+  {
+    "id": "SC-11",
+    "title": "Harmonic Aegis five-weight prototype",
+    "kind": "aegis",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for harmonic aegis five-weight prototype. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 11
+  },
+  {
+    "id": "SC-12",
+    "title": "Seven-aspect Aegis gap",
+    "kind": "aegis",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for seven-aspect aegis gap. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 12
+  },
+  {
+    "id": "SC-13",
+    "title": "144-field coordinate space",
+    "kind": "lattice",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for 144-field coordinate space. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 13
+  },
+  {
+    "id": "SC-14",
+    "title": "Lattice coupling obligation",
+    "kind": "lattice",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for lattice coupling obligation. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 14
+  },
+  {
+    "id": "SC-15",
+    "title": "Recursive Lattice Seal",
+    "kind": "seal",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for recursive lattice seal. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 15
+  },
+  {
+    "id": "SC-16",
+    "title": "Flame / immune / BB gating",
+    "kind": "seal",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for flame / immune / bb gating. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 16
+  },
+  {
+    "id": "SC-17",
+    "title": "Memory lattice persistence",
+    "kind": "memory",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for memory lattice persistence. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 17
+  },
+  {
+    "id": "SC-18",
+    "title": "ATP and circulation",
+    "kind": "atp",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for atp and circulation. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 18
+  },
+  {
+    "id": "SC-19",
+    "title": "Phase Clock and scheduling",
+    "kind": "clock",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for phase clock and scheduling. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 19
+  },
+  {
+    "id": "SC-20",
+    "title": "Dewey-to-Fulgurite bridge",
+    "kind": "bridge",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for dewey-to-fulgurite bridge. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 20
+  },
+  {
+    "id": "SC-21",
+    "title": "Temple / SpecterOS",
+    "kind": "runtime",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for temple / specteros. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 21
+  },
+  {
+    "id": "SC-22",
+    "title": "Two-ring Air/Water / Fire/Earth",
+    "kind": "controller",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for two-ring air/water / fire/earth. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 22
+  },
+  {
+    "id": "SC-23",
+    "title": "Verification provenance and receipt",
+    "kind": "verifier",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for verification provenance and receipt. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 23
+  },
+  {
+    "id": "SC-24",
+    "title": "Emergent visual reconstruction and Raven",
+    "kind": "raven",
+    "description": "Inspect source definitions, relevant algorithms, evidence and execution status for emergent visual reconstruction and raven. Display motion only where the mathematical operator is explicitly defined.",
+    "scroll_index": 24
+  }
+]

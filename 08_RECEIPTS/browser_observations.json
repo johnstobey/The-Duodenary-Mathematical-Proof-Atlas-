@@ -1,0 +1,44 @@
+[
+  {
+    "test": "lattice_addresses",
+    "cases": 144
+  },
+  {
+    "test": "directed_arcs",
+    "cases": 84
+  },
+  {
+    "test": "25_scenes_forward_and_reverse",
+    "snapshots": [
+      "Scene 1: (1 + 0) mod 12 = 1",
+      "Scene 2: (1 + 5) mod 12 = 6",
+      "Scene 3: (2 + 3) mod 12 = 5",
+      "Scene 4: (3 + 1) mod 12 = 4",
+      "Scene 5: (3 + 6) mod 12 = 9",
+      "Scene 6: (4 + 4) mod 12 = 8",
+      "Scene 7: (5 + 2) mod 12 = 7",
+      "Scene 8: (6 + 0) mod 12 = 6",
+      "Scene 9: (6 + 5) mod 12 = 11",
+      "Scene 10: (7 + 3) mod 12 = 10",
+      "Scene 11: (8 + 1) mod 12 = 9",
+      "Scene 12: (8 + 6) mod 12 = 2",
+      "Scene 13: (9 + 4) mod 12 = 1",
+      "Scene 14: (10 + 2) mod 12 = 0",
+      "Scene 15: (11 + 0) mod 12 = 11",
+      "Scene 16: (11 + 5) mod 12 = 4",
+      "Scene 17: (0 + 3) mod 12 = 3",
+      "Scene 18: (1 + 1) mod 12 = 2",
+      "Scene 19: (1 + 6) mod 12 = 7",
+      "Scene 20: (2 + 4) mod 12 = 6",
+      "Scene 21: (3 + 2) mod 12 = 5",
+      "Scene 22: (4 + 0) mod 12 = 4",
+      "Scene 23: (4 + 5) mod 12 = 9",
+      "Scene 24: (5 + 3) mod 12 = 8",
+      "Scene 25: (6 + 1) mod 12 = 7"
+    ]
+  },
+  {
+    "test": "canonical_record_rendering",
+    "cases": 157
+  }
+]

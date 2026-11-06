@@ -1,0 +1,5 @@
+ATLAS-WORKBENCH-01 obligation 3: browser harness transport amendment only. Managed Chromium blocks file URLs; use an ephemeral local HTTP server. All nonlocal HTTP requests are aborted. No assertions, expected values, canonical files or acceptance predicates changed. Previous harness and failure logs retained. This is not acceptance of a failing application.
+
+Obligation 3 harness API correction: SVGPoint in this Chromium has no toJSON method. Read the same x/y fields directly. All mathematical length/endpoint assertions and tolerances unchanged; previous harness retained. Obligation 1: fix actual 320px overflow by wrapping long hashes and constraining form controls; no overflow-hiding workaround.
+
+Obligation 3 harness ordering correction: test initial Tab/skip navigation before programmatically scrolling to SC-12. Chromium starts sequential keyboard navigation at the scrolled anchor; scrolling to top alone does not reset that anchor. Identical skip-link assertions retained, moved to genuine initial-navigation context. Mobile width and all layout assertions already passed run 04. No application behavior was changed to force focus or hide a defect.

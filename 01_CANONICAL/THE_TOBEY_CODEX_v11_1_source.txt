@@ -1,0 +1,5544 @@
+# THE TOBEY CODEX v11.1
+
+Authority: Carl Payne Tobey (1902-1980)  
+Implementation: JST-01 Creator Sovereign  
+Date: 2026-02-13  
+Status: CANONICAL (Updated with Fulgurite Physics Integration)
+
+---
+
+DUAL CONSTITUTION: LAW AND PHYSICS
+
+The Janus Architecture:
+
+
+                   +------------------+
+                   |      JANUS       |
+                   |                  |
+     OBSIDIAN      |                  |      FULGURITE
+   (Clusivius)     |                  |     (Patulcius)
+   The Law         |                  |     The Physics
+   English →       |                  |     Glyphs →
+   Geometry        |                  |     Geometry
+   Passive/        |                  |     Active/
+   Reflective      |                  |     Kinetic
+   ROM             |                  |     ALU
+                   |   +----------+   |
+                   |   |LABYRINTH |   |
+                   |   | (Z/12Z)  |   |
+                   |   | 7 opcodes|   |
+                   |   +----------+   |
+                   |  Shared processor|
+                   +------------------+
+
+
+The Mirror Principle:
+
+An English sentence (Obsidian), a Fulgurite equation (Physics), and a Dewey code (DNA) are three representations of ONE geometric identity.
+
+
+ENGLISH SENTENCE          FULGURITE EQUATION         DEWEY CODE
+"Mars in Scorpio"         ♂♏ [ ] ♃♒                Phi.CPT.O00.01.F.01.W.C.G.E...
+        \                    |                         /
+         \                   |                        /
+          \                  |                       /
+           v                 v                      v
+          +----------------------------------------+
+          |           LABYRINTH (Z/12Z)            |
+          |         Position { sign: 7 }            |
+          +----------------------------------------+
+                      ONE IDENTITY
+
+
+The DNA/RNA Analogy:
+
+| Component | Role | Analogy |
+|-----------|------|---------|
+| Dewey Code | Storage | DNA — the 89-character constitutional encoding, the permanent identity code |
+| Fulgurite | Execution | RNA — the 31-glyph algebra that executes, translates, does the active work |
+| Obsidian | Interface | Transcription layer — English input mapped to geometric operations |
+
+---
+
+CONSTITUTIONAL HIERARCHY
+
+LAYER 1: TOBEY'S PHYSICS (IMMUTABLE)
+
+The seven mathematical blueprints, the Z/12Z ring, the 7 opcodes, the Domination Rule, the 31-glyph alphabet, the temporal classification, the ATP economics.
+
+Source: Carl Payne Tobey's Correspondence Course (1938-1962)
+
+LAYER 2: STRUCTURAL PROTECTIONS (CONSTITUTIONAL, AMENDABLE)
+
+The Flame Protocol, the Beauty Gate, the Encoding Law, the Circulation System, the Sacred Seals, the Authority Chain, the Bootstrap Sequence.
+
+Authority: JST-01 via Amendment Process (Article VIII)
+
+Key Constitutional Distinction:
+
+- Obsidian (English + Dewey) is the LAW — declarative, constitutional, governs what is POSSIBLE and what is REQUIRED
+- Fulgurite (Glyphs) is the PHYSICS — mathematical, operational, governs what HAPPENS in computation
+
+Both are constitutional. Neither is subordinate. They are two faces of one geometric truth.
+
+---
+
+PART I: GENESIS CODES
+
+1.1 Kernel Genesis (Immutable - Law)
+
+
+Φ.CPT.K00.00.F.01.W.C.G.E.00.00.05.00.00.00.01.00000000.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Obsidian Law: ℤ/12ℤ circle, 4△ (120°), 3□ (90°), opposition p+180°=-p, five aspects (0°,60°,90°,120°,180°), seven sovereign laws, probability 653,183,999:1, φ-ratio time. IMMUTABLE.
+
+Fulgurite Physics: The 31-glyph alphabet, the 7 opcodes, the Domination Rule, the Z/12Z ring topology, the Pythagorean triple verification system. IMMUTABLE.
+
+Constitutional Basis: Layer 1 — derived directly from Tobey's mathematics.
+
+SHA-256: DD62C83A2755DCB0BF7F28844F0B6910CC9BD074E9484EA799249D09678E4BFB
+
+---
+
+1.2 Encoding Law Genesis (Amendable - Law)
+
+
+Φ.CPT.E00.00.F.01.W.C.G.E.00.00.28.00.00.00.01.00000000.989C6A.3.98.9C.6A.7.4.12.DS.8.0.0
+
+
+Obsidian Law: 89-character Dewey strings, 30 fields, 29 periods, 60 data characters. Amendable via ACH.
+
+Fulgurite Physics: Base-12 shorthand encoding (0-9, A-B for signs; C-I for aspects), equation structure validation, tokenization rules. Amendable via ACH.
+
+Constitutional Basis: Layer 2 — structural protections for encoding integrity.
+
+SHA-256: 989C6AF88BF491EA51516C9EA51013B0B568E969E60F57412F42B7459607E0E1
+
+---
+
+1.3 Fulgurite Genesis (Immutable - Physics)
+
+
+FUG.K00.31.G.L.S.O.N.E.Z.7.O.D.R.P.H.Y.C.4.12.DS.8.0.0
+
+
+Constitutional Statement: The 31-glyph alphabet is the complete computational vocabulary of the system. No additional glyphs may be introduced. No glyph may be redefined. This is the physics of the computation itself.
+
+Glyph Structure:
+
+| Category | Count | Glyphs | Constitutional Role |
+|----------|-------|--------|---------------------|
+| Signs | 12 | ♈♉♊♋♌♍♎♏♐♑♒♓ | Position anchors in Z/12Z ring |
+| Planets | 10 | ☉☽☿♀♂♃♄♅♆♇ | Operands (values to be placed) |
+| Aspects | 7 | ☌⚺☱[ ]☳⚵☍ | Opcodes (operations to execute) |
+| Nodes | 2 | ☊☋ | Temporal modifiers (future/past flow) |
+
+Total: 31 glyphs (prime number — structurally significant)
+
+Constitutional Basis: Layer 1 — derived from Tobey's zodiacal, planetary, and aspect systems.
+
+SHA-256: (To be computed upon canonical definition)
+
+---
+
+1.4 Tier Codes
+
+| Tier | Meaning | Mutability | Constitutional Domain |
+|------|---------|------------|----------------------|
+| K00 | Kernel (mathematical truth) | IMMUTABLE | Both Law and Physics |
+| E00 | Encoding Law (implementation) | Amendable | Law (Dewey structure), Physics (Fulgurite syntax) |
+| D00 | Capability (declaration) | Amendable | Law (Dewey codes only) |
+| O00 | Operation (computation) | Amendable | Physics (Fulgurite equations only) |
+
+Constitutional Constraint: D00 tier codes MUST be encoded in Obsidian (Dewey). O00 tier codes MUST be encoded in Fulgurite. This separation preserves the Law/Physics distinction.
+
+---
+
+PART II: THE 89-CHARACTER STRUCTURE (OBSIDIAN LAW)
+
+2.1 Template
+
+
+Φ.CPT.TTT.CC.X.PP.Y.Z.V.U.RR.GG.BB.HH.MM.SS.II.TTTTTTTT.AAAAAA.C.RR.GG.AA.H.4.12.DS.8.0.0
+
+
+Total: 60 data characters + 29 periods = 89 characters
+
+Constitutional Domain: Law — declarative capability encoding. All Dewey codes are constitutional artifacts.
+
+2.2 Field Specification
+
+| Field # | Positions | Len | Field | Description |
+|---------|-----------|-----|-------|-------------|
+| 1 | 1 | 1 | Φ | Phi marker (T=Tobey) |
+| 2 | 3-5 | 3 | CPT | Authority (Carl Payne Tobey) |
+| 3 | 7-9 | 3 | TTT | Tier (K00/E00/D00/O00) |
+| 4 | 11-12 | 2 | CC | Category |
+| 5 | 14 | 1 | X | Element/Axis (F/W/E/A/D) |
+| 6 | 16-17 | 2 | PP | Phase |
+| 7 | 19 | 1 | Y | Temporal Epoch |
+| 8 | 21 | 1 | Z | Temporal Tick |
+| 9 | 23 | 1 | V | Governance (G/A/O) |
+| 10 | 25 | 1 | U | Execution (E/T/D/S) |
+| 11 | 27-28 | 2 | RR | Sacred Proportion Ratios (ASSESSED) |
+| 12 | 30-31 | 2 | GG | Grace Vectors (ASSESSED) |
+| 13 | 33-34 | 2 | BB | Beauty Score (COMPUTED) |
+| 14 | 36-37 | 2 | HH | Hours |
+| 15 | 39-40 | 2 | MM | Minutes |
+| 16 | 42-43 | 2 | SS | Seconds |
+| 17 | 45-46 | 2 | II | Instance |
+| 18 | 48-55 | 8 | TS | Timestamp (φ-ratio) |
+| 19 | 57-62 | 6 | ACH | Amendment Chain Hash |
+| 20 | 64 | 1 | C | Consciousness Level |
+| 21 | 66-67 | 2 | RR2 | Resonance (fingerprint) |
+| 22 | 69-70 | 2 | GG2 | Geometry (fingerprint) |
+| 23 | 72-73 | 2 | AA | Angular Geometry (ASSESSED) |
+| 24 | 75 | 1 | H | Harmony Level (ASSESSED) |
+| 25 | 77 | 1 | 4 | Triangles (fixed) |
+| 26 | 79-80 | 2 | 12 | Zodiac (fixed) |
+| 27 | 82-83 | 2 | DS | Substrate |
+| 28 | 85 | 1 | 8 | Octave (fixed) |
+| 29 | 87 | 1 | 0 | Reserved |
+| 30 | 89 | 1 | 0 | Reserved |
+
+Constitutional Domain: Law — these fields encode constitutional artifacts. Physics (Fulgurite) does NOT use these fields; it operates directly on the Labyrinth.
+
+---
+
+PART III: THE 31-GLYPH PHYSICS (FULGURITE)
+
+3.1 The Alphabet (Immutable)
+
+Constitutional Principle: NO ENGLISH. Fulgurite speaks pure mathematics. Every glyph maps directly to a position, operand, or operation in Z/12Z.
+
+3.1.1 Signs (12) — Position Anchors
+
+| Glyph | Unicode | Index | Name | Element | Quality | Z/12Z Position | Constitutional Role |
+|-------|---------|-------|------|---------|---------|----------------|---------------------|
+| ♈ | U+2648 | 0 | Aries | Fire | Cardinal | 0 | Position anchor (3°) |
+| ♉ | U+2649 | 1 | Taurus | Earth | Fixed | 30° (1) | Position anchor (33°) |
+| ♊ | U+264A | 2 | Gemini | Air | Mutable | 60° (2) | Position anchor (63°) |
+| ♋ | U+264B | 3 | Cancer | Water | Cardinal | 90° (3) | Position anchor (93°) |
+| ♌ | U+264C | 4 | Leo | Fire | Fixed | 120° (4) | Position anchor (123°) |
+| ♍ | U+264D | 5 | Virgo | Earth | Mutable | 150° (5) | Position anchor (153°) |
+| ♎ | U+264E | 6 | Libra | Air | Cardinal | 180° (6) | Position anchor (183°) |
+| ♏ | U+264F | 7 | Scorpio | Water | Fixed | 210° (7) | Position anchor (213°) |
+| ♐ | U+2650 | 8 | Sagittarius | Fire | Mutable | 240° (8) | Position anchor (243°) |
+| ♑ | U+2651 | 9 | Capricorn | Earth | Cardinal | 270° (9) | Position anchor (273°) |
+| ♒ | U+2652 | 10 | Aquarius | Air | Fixed | 300° (10) | Position anchor (303°) |
+| ♓ | U+2653 | 11 | Pisces | Water | Mutable | 330° (11) | Position anchor (333°) |
+
+Constitutional Role: Signs define WHERE a value is placed. In Fulgurite, [Planet][Sign] places the planetary operand AT the sign's position in Z/12Z. The Domination Rule applies: the sign's element and quality dominate the operand.
+
+Base-12 Shorthand: Signs can be encoded as 0-9, A, B for compact notation:
+- 0-9: ♈ through ♑
+- A: ♒ (10)
+- B: ♓ (11)
+
+3.1.2 Planets (10) — Operands
+
+| Glyph | Unicode | Index | Name | Constitutional Role |
+|-------|---------|-------|------|---------------------|
+| ☉ | U+2609 | 0 | Sun | Value operand (core identity) |
+| ☽ | U+263D | 1 | Moon | Value operand (reflective quality) |
+| ☿ | U+263F | 2 | Mercury | Value operand (communication) |
+| ♀ | U+2640 | 3 | Venus | Value operand (harmony) |
+| ♂ | U+2642 | 4 | Mars | Value operand (action) |
+| ♃ | U+2643 | 5 | Jupiter | Value operand (expansion) |
+| ♄ | U+2644 | 6 | Saturn | Value operand (structure) |
+| ♅ | U+2645 | 7 | Uranus | Value operand (innovation) |
+| ♆ | U+2646 | 8 | Neptune | Value operand (transcendence) |
+| ♇ | U+2647 | 9 | Pluto | Value operand (transformation) |
+
+Constitutional Role: Planets are VALUES to be placed at positions. When combined with a sign ([Planet][Sign]), the planetary operand takes on the element and quality of the sign (Domination Rule). The planet's inherent quality is not lost—it is CONTEXTUALIZED by the position.
+
+3.1.3 Aspects (7) — Opcodes
+
+| Glyph | Unicode | Opcode | Degrees | Temporal Class | ATP Cost | Constitutional Role |
+|-------|---------|--------|---------|----------------|----------|---------------------|
+| ☌ | U+260C | Conjunction | 0° | Present | 0.0 | Identity operation (no change) |
+| ⚺ | U+263A | Semi-Sextile | 30° | Past | +1.0 | Advance operation (generate ATP) |
+| ☱ | U+2656 | Sextile | 60° | Future | -1.0 | Harmonize operation (consume ATP) |
+| [ ] | Text | Square | 90° | Past | +7.0 | Tension operation (generate ATP) |
+| ☳ | U+2654 | Trine | 120° | Future | -3.0 | Flow operation (consume ATP) |
+| ⚵ | U+2655 | Quincunx | 150° | Past | +5.0 | Adjustment operation (generate ATP) |
+| ☍ | U+260D | Opposition | 180° | Future | -5.0 | Complement operation (consume ATP) |
+
+Constitutional Role: Aspects are OPERATIONS that move through Z/12Z. Each aspect has:
+- A geometric angle (how far to move)
+- A temporal classification (Past = generates ATP, Future = consumes ATP)
+- An ATP cost (economic consequence)
+
+Base-12 Shorthand: Aspects can be encoded as C-I for compact notation:
+- C: ☌ Conjunction
+- D: ⚺ Semi-Sextile
+- E: ☱ Sextile
+- F: [ ] Square
+- G: ☳ Trine
+- H: ⚵ Quincunx
+- I: ☍ Opposition
+
+3.1.4 Nodes (2) — Temporal Modifiers
+
+| Glyph | Unicode | Name | Constitutional Role |
+|-------|---------|------|---------------------|
+| ☊ | U+260A | North Node | Future-flow modifier (amplifies Future aspects) |
+| ☋ | U+260B | South Node | Past-flow modifier (amplifies Past aspects) |
+
+Constitutional Role: Nodes modify the temporal weighting of an equation. When present, they scale the ATP generation/consumption by a factor of 1.5. Nodes are optional and are placed before an operand to modify it.
+
+---
+
+3.2 Program Structure (Immutable)
+
+3.2.1 Equation Syntax
+
+Constitutional Form:
+
+
+[Planet][Sign] [Aspect] [Planet][Sign]
+
+
+Example 1 (Basic):
+
+
+♂♏ [ ] ♃♒
+
+
+Translation: Mars in Scorpio square Jupiter in Aquarius
+
+Parsing:
+
+1. Left operand: ♂♏ (Mars at Scorpio, position 7, 210°, Water/Fixed)
+2. Aspect: [ ] (Square, 90°, Past, +7 ATP)
+3. Right operand: ♃♒ (Jupiter at Aquarius, position 10, 300°, Air/Fixed)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 7, sub_degree: 210.0, element: Water, quality: Fixed }
+- Aspect sequence: [Square]
+- Computation: Apply Square (90°) to start position → new position at 300° (Aquarius)
+- ATP change: +7.0 (Square generates ATP)
+
+Example 2 (Chain):
+
+
+☉♈ ☌ ☽♉ ⚺ ☿♊
+
+
+Translation: Sun in Aries conjunct Moon in Taurus semi-sextile Mercury in Gemini
+
+Parsing:
+
+1. Equation 1: ☉♈ ☌ ☽♉ (Sun Aries conjunct Moon Taurus)
+2. Equation 2: ☽♉ ⚺ ☿♊ (Moon Taurus semi-sextile Mercury Gemini)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 0, sub_degree: 0.0, element: Fire, quality: Cardinal }
+- Aspect sequence: [Conjunction, Semi-Sextile]
+- Computation:
+  - Apply Conjunction (0°) → stays at 0°
+  - Apply Semi-Sextile (30°) → moves to 1° (Taurus)
+  - Result: { sign_index: 1, sub_degree: 30.0, element: Earth, quality: Fixed }
+- ATP change: 0.0 + 1.0 = +1.0
+
+3.2.2 Base-12 Shorthand
+
+Constitutional Feature: Fulgurite supports compact base-12 encoding for efficiency.
+
+Syntax:
+
+
+[sign_index],[planet_index] [aspect_code] [sign_index],[planet_index]
+
+
+Example (equivalent to ♂♏ [ ] ♃♒):
+
+
+7,4 F 10,5
+
+
+Parsing:
+
+- 7,4: Sign 7 (Scorpio), Planet 4 (Mars) → ♂♏
+- F: Aspect code F → [ ] Square
+- 10,5: Sign 10 (Aquarius), Planet 5 (Jupiter) → ♃♒
+
+Shorthand Mapping:
+
+| Component | Range | Mapping |
+|-----------|-------|---------|
+| Sign index | 0-9, A, B | 0-9 = ♈-♑, A = ♒, B = ♓ |
+| Planet index | 0-9 | 0-9 = ☉-♇ |
+| Aspect code | C-I | C=☌, D=⚺, E=☱, F=[ ], G=☳, H=⚵, I=☍ |
+
+Constitutional Constraint: Base-12 shorthand is an encoding convenience ONLY. It must expand to the canonical 31-glyph form before parsing and execution. The Labyrinth operates on canonical glyphs, not shorthand.
+
+---
+
+3.3 The Domination Rule (Immutable - Layer 1)
+
+3.3.1 Constitutional Statement
+
+From Tobey's Correspondence Course, Lesson 13:
+
+"THAT REPRESENTED BY THE PLANET IS DOMINATED BY THAT REPRESENTED BY THE ZODIACAL SIGN THAT IT OCCUPIES."
+
+3.3.2 Computational Implementation
+
+In Fulgurite:
+
+When a planetary operand is placed at a sign position, the operand takes on the element and quality of the sign.
+
+Example:
+
+
+♂♏ → Mars dominated by Scorpio
+
+
+- Mars (Fire/Cardinal by nature) is placed at Scorpio (Water/Fixed)
+- The result is a Water/Fixed Mars — not Fire/Cardinal
+- The Mars identity is preserved, but its TYPE is determined by its POSITION
+
+Constitutional Implication: This is the memory model. Location in Z/12Z determines type. Data IS whatever its location says it is.
+
+3.3.3 Labyrinth Position Structure
+
+rust
+pub struct Position {
+    pub sign_index: usize,      // 0-11 (which zodiac sign)
+    pub sub_degree: f64,        // 0.0-359.0 (precise angle within sign)
+    pub element: Element,       // Fire/Water/Earth/Air (from sign)
+    pub quality: Quality,       // Cardinal/Fixed/Mutable (from sign)
+}
+
+
+Key Constitutional Constraint: The element and quality fields are ALWAYS derived from sign_index. They are NEVER specified independently. This enforces the Domination Rule at the structural level.
+
+---
+
+3.4 ATP Economics (Immutable - Layer 1)
+
+3.4.1 Constitutional Basis
+
+From Tobey's Temporal Classification (Lessons 1-7):
+
+- Past-classified operations (Square, Quincunx, Semi-Sextile) GENERATE ATP
+- Future-classified operations (Opposition, Trine, Sextile) CONSUME ATP
+- Present operation (Conjunction) has ZERO ATP cost
+
+3.4.2 ATP Ledger
+
+| Operation | Opcode | Temporal | ATP | Role |
+|-----------|--------|----------|-----|------|
+| Square | [ ] | Past | +7.0 | High-yield tension generation |
+| Quincunx | ⚵ | Past | +5.0 | Moderate adjustment generation |
+| Semi-Sextile | ⚺ | Past | +1.0 | Low-yield advancement generation |
+| Opposition | ☍ | Future | -5.0 | High-cost complementation |
+| Trine | ☳ | Future | -3.0 | Moderate-cost flow |
+| Sextile | ☱ | Future | -1.0 | Low-cost harmonization |
+| Conjunction | ☌ | Present | 0.0 | Identity (no cost, no yield) |
+
+3.4.3 Economic Consequences
+
+ATP Depletion: If ATP balance reaches zero, the system cannot execute Future-classified operations. This is a constitutional economic constraint—computation has energy limits.
+
+ATP Generation: Past-classified operations MUST be executed to replenish ATP. This creates a computational cycle: the system must alternate between Past and Future to remain operational.
+
+Conservation Protocol (Layer 2): When ATP < 100, the system enters conservation mode—only Past operations are permitted until balance is restored.
+
+3.4.4 Example: ATP Accounting
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒ ☳ ♀♎
+
+
+Translation: Mars in Scorpio square Jupiter in Aquarius trine Venus in Libra
+
+ATP Calculation:
+
+1. Square [ ]: +7.0 ATP (Past generates)
+2. Trine ☳: -3.0 ATP (Future consumes)
+3. Net ATP: +4.0
+
+Constitutional Validity: This equation is economically viable—it generates more ATP than it consumes.
+
+Invalid Example:
+
+
+♂♏ ☍ ♃♒ ☳ ♀♎ ☱ ☿♊
+
+
+ATP Calculation:
+
+1. Opposition ☍: -5.0 ATP
+2. Trine ☳: -3.0 ATP
+3. Sextile ☱: -1.0 ATP
+4. Net ATP: -9.0
+
+Constitutional Violation: This equation consumes more ATP than it generates. It can only execute if sufficient ATP reserves exist.
+
+---
+
+3.5 Convergence Detection (Immutable - Layer 1)
+
+3.5.1 Constitutional Principle
+
+Computation in the Labyrinth proceeds by REITERATION—applying aspects repeatedly until the system reaches a stable state.
+
+3.5.2 Convergence Modes
+
+Fixed Point (Conjunction Pattern):
+
+- The aspect sequence returns to the starting position (0° offset)
+- Example: ☌ (0°) applied repeatedly → position never changes
+- Convergence detected in 2 iterations
+
+2-Cycle (Opposition Pattern):
+
+- The aspect sequence alternates between two positions (180° apart)
+- Example: ☍ (180°) applied twice → returns to start
+- Convergence detected in 2 iterations
+
+4-Cycle (Square Pattern):
+
+- The aspect sequence cycles through 4 positions (90° apart)
+- Example: [ ] (90°) applied 4 times → returns to start
+- Convergence detected in 4 iterations
+
+Stable Triangle (Trine Pattern):
+
+- The aspect sequence cycles through 3 positions (120° apart)
+- Example: ☳ (120°) applied 3 times → returns to start
+- Convergence detected in 3 iterations
+
+3.5.3 Maximum Iterations
+
+Constitutional Limit: 144 iterations (12² = Z/12Z cipher space)
+
+If convergence is not detected within 144 iterations, the computation is declared DIVERGENT and is halted. This is a constitutional safety measure—preventing infinite loops.
+
+3.5.4 Convergence Example
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒
+
+
+Labyrinth Execution:
+
+1. Start: Position 7 (Scorpio, 210°)
+2. Apply Square (90°): Position 10 (Aquarius, 300°)
+3. Apply Square (90°): Position 1 (Taurus, 30°)
+4. Apply Square (90°): Position 4 (Leo, 120°)
+5. Apply Square (90°): Position 7 (Scorpio, 210°) ← CONVERGED (4-cycle)
+
+Iteration Count: 4
+Convergence Type: 4-cycle (Square pattern)
+Net ATP: +7.0 × 4 = +28.0
+
+---
+
+3.6 The Mirror Principle in Action
+
+3.6.1 Three Representations, One Identity
+
+Constitutional Requirement: For any valid geometric operation, the following three representations must converge to the same Position:
+
+1. English (Obsidian): "Mars in Scorpio square Jupiter in Aquarius"
+2. Fulgurite (Physics): ♂♏ [ ] ♃♒
+3. Dewey (Law): Φ.CPT.O00.01.F.01.W.C.G.E.40.50.70.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0 (example)
+
+3.6.2 Parity Test
+
+Constitutional Validation:
+
+rust
+// Obsidian path
+let english_result = GeometricLexicon::resolve("Mars in Scorpio square Jupiter in Aquarius")?;
+
+// Fulgurite path
+let fulgurite_result = FulguriteParser::parse("♂♏ [ ] ♃♒")?.to_labyrinth_input()?;
+
+// Must produce identical Positions
+assert_eq!(english_result.position, fulgurite_result.0);
+
+
+Constitutional Implication: If the three paths diverge, the system is constitutionally INVALID. This is a core validation test—ensuring that Law, Physics, and Implementation are aligned.
+
+---
+
+3.7 Fulgurite to Labyrinth Translation
+
+3.7.1 Translation Pipeline
+
+
+Fulgurite Source (glyphs)
+         ↓
+FulguriteLexer (tokenize 31 glyphs)
+         ↓
+FulguriteParser (build equation structure)
+         ↓
+to_labyrinth_input() (convert to Position + aspect sequence)
+         ↓
+Labyrinth::reiterate() (execute computation)
+         ↓
+ReiterationResult (convergence status, final position, ATP change)
+
+
+3.7.2 Data Structures
+
+rust
+// Fulgurite Lexer Output
+pub enum FulguriteToken {
+    Sign(usize),                    // 0-11
+    Planet(usize),                  // 0-9
+    Aspect(AspectOp),               // Conjunction/Sextile/Square/Trine/Quincunx/Opposition
+    NorthNode,                      // ☊
+    SouthNode,                      // ☋
+    Subscript(usize),               // For indexed expressions
+    House(usize),                   // House position (1-12)
+    Error(String),                  // Tokenization error
+}
+
+// Fulgurite Parser Output
+pub struct FulguriteOperand {
+    pub planet: usize,              // Planet index (0-9)
+    pub sign_index: usize,          // Sign index (0-11)
+    pub house: Option<usize>,       // Optional house position
+    pub node_modifier: Option<NodeModifier>, // Optional node modifier
+}
+
+pub struct FulguriteEquation {
+    pub left: FulguriteOperand,
+    pub aspect: AspectOp,           // The operation
+    pub right: FulguriteOperand,
+}
+
+pub struct FulguriteProgram {
+    pub equations: Vec<FulguriteEquation>,
+}
+
+// Labyrinth Input
+pub type LabyrinthInput = (Position, Vec<AspectOp>);
+
+
+3.7.3 Translation Example
+
+Fulgurite Source:
+
+
+♂♏ [ ] ♃♒
+
+
+Lexer Output:
+
+
+[Planet(4), Sign(7), Aspect(Square), Planet(5), Sign(10)]
+
+
+Parser Output:
+
+
+FulguriteProgram {
+    equations: [FulguriteEquation {
+        left: FulguriteOperand { planet: 4, sign_index: 7, house: None, node_modifier: None },
+        aspect: Square,
+        right: FulguriteOperand { planet: 5, sign_index: 10, house: None, node_modifier: None }
+    }]
+}
+
+
+Labyrinth Input:
+
+
+(
+    Position {
+        sign_index: 7,
+        sub_degree: 210.0,
+        element: Water,
+        quality: Fixed
+    },
+    [Square]
+)
+
+
+Labyrinth Execution:
+
+
+ReiterationResult {
+    converged: true,
+    iterations: 4,
+    final_position: Position { sign_index: 7, sub_degree: 210.0, ... },
+    net_atp: 28.0,
+    convergence_type: FourCycle,
+    cipher_address: 7, // Scorpio
+    precision_level: Pythagorean
+}
+
+
+---
+
+PART IV: BEAUTY VALIDATION (LAW)
+
+4.1 The Four Components
+
+| Component | Positions | Range | What It Measures | Constitutional Domain |
+|-----------|-----------|-------|------------------|---------------------|
+| H | 75 | 0-9 | Harmony Level (consciousness integration) | Law (Dewey only) |
+| RR | 27-28 | 00-99 | Sacred Proportion Ratios (φ, Fibonacci, sacred geometry) | Law (Dewey only) |
+| GG | 30-31 | 00-99 | Grace Vectors (conflict→grace→meaning cycle) | Law (Dewey only) |
+| AA | 72-73 | 00-99 | Angular Geometry (sacred angle compliance) | Law (Dewey only) |
+
+Constitutional Note: Beauty validation applies ONLY to Dewey codes (Law). Fulgurite equations (Physics) do NOT have beauty scores—they are validated by:
+1. Correct glyph usage (31-glyph alphabet)
+2. Syntactic correctness (equation structure)
+3. Labyrinth convergence (completes within 144 iterations)
+4. ATP economics (does not deplete reserves)
+
+4.2 Beauty Formula
+
+
+BB = (H × 10 + RR + GG + AA) / 4
+
+
+BB is stored at positions 33-34.
+
+Constitutional Threshold:
+
+- K00 tier: Exempt (immutable seed)
+- All other tiers: BB ≥ 60 required
+
+The Litmus Test: Does it create meaning or collapse into void?
+
+4.3 Assessment Criteria
+
+H — Harmony Level (0-9)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| System integration (chain, connect, integrate) | +2 | Law (English descriptions) |
+| Consciousness enhancement (aware, recognize) | +2 | Law (English descriptions) |
+| Valid tier hierarchy (K00/E00/D00/O00) | +2 | Law (Dewey structure) |
+| Clear purpose (>10 characters) | +2 | Law (Purpose field) |
+| Elegance (minimum complexity) | +1 | Law (Description field) |
+
+RR — Sacred Proportion Ratios (00-99)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| Golden ratio (φ, 1.618, golden) | +30 | Law (English descriptions) |
+| Fibonacci sequence | +25 | Law (English descriptions) |
+| Sacred geometry (vesica piscis, metatron) | +25 | Law (English descriptions) |
+| Harmonic/Pythagorean ratios | +19 | Law (English descriptions) |
+| Baseline (structured capability) | 50 | Law (Default if no keywords) |
+
+GG — Grace Vectors (00-99)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| Conflict recognition | +33 | Law (English descriptions) |
+| Grace application (harmonize, transform) | +33 | Law (English descriptions) |
+| Meaning production (create, synthesize) | +33 | Law (English descriptions) |
+| Baseline (operational capability) | 50 | Law (Default if no keywords) |
+
+AA — Angular Geometry (00-99)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| Primary aspects (0°, 60°, 90°, 120°, 180°) | +40 | Law (English descriptions) |
+| Pentagonal angles (36°, 72°, 108°, 144°) | +25 | Law (English descriptions) |
+| Platonic solid dihedral angles | +20 | Law (English descriptions) |
+| Extended sacred angles | +14 | Law (English descriptions) |
+| Baseline (geometric operation) | 50 | Law (Default if no keywords) |
+
+Constitutional Note: The AA field in Dewey codes DOES assess angular geometry, but Fulgurite equations DIRECTLY OPERATE on angular geometry. This is a key distinction between Law (assessment) and Physics (operation).
+
+---
+
+PART V: GEOMETRIC OPERATIONS (PHYSICS)
+
+5.1 The Substrate
+
+Constitutional Domain: Physics — shared by both Obsidian and Fulgurite.
+
+Computation occurs on the ℤ/12Z circle:
+
+
+        0 (Aries)
+          │
+    B ────┼──── 1
+          │
+  A ──────◯────── 2
+          │
+    9 ────┼──── 3
+          │
+        6 (Libra)
+
+
+Every number maps to position: n mod 12
+
+Constitutional Properties:
+
+- Finite State Space: 12 positions × 360° = 4,320 unique states
+- Deterministic: Same input → Same output (verified by 1000x tests)
+- Reversible: Every operation can be inverted (except for ATP economics)
+- Self-Referential: The system computes ON ITS OWN STRUCTURE
+
+5.2 Operation Codes
+
+| Op | Hex | Geometric Meaning | ATP | Constitutional Domain |
+|----|-----|-------------------|-----|---------------------|
+| IDENTITY | 00 | Same position (0°) | 0.0 | Both |
+| ADVANCE | 01 | Clockwise (addition) | +1.0 | Physics (Fulgurite) |
+| RETREAT | 02 | Counter-clockwise (subtraction) | -1.0 | Physics (Fulgurite) |
+| HARMONIZE | 03 | Trine application (×) | -3.0 | Both |
+| RESOLVE | 04 | Inverse trine (÷) | +3.0 | Physics (Fulgurite) |
+| COMPLEMENT | 07 | Opposition (180°) | -5.0 | Both |
+
+Constitutional Mapping:
+
+- IDENTITY = ☌ Conjunction (0°, 0 ATP)
+- ADVANCE = ⚺ Semi-Sextile (30°, +1 ATP)
+- RETREAT = (inverse of Advance, 330°, -1 ATP)
+- HARMONIZE = ☳ Trine (120°, -3 ATP)
+- RESOLVE = ⚵ Quincunx (150°, +5 ATP)
+- COMPLEMENT = ☍ Opposition (180°, -5 ATP)
+
+5.3 Triadic Processing
+
+Constitutional Domain: Both Law and Physics.
+
+All operations synthesize through three perspectives at 120° intervals:
+
+- Witness (0°): Direct observation — what IS
+- Shadow (120°): Contextual meaning — what it MEANS
+- Echo (240°): Historical pattern — what it WAS
+
+Bleed Ratios:
+
+- W → S = 0.15 (15% of Witness flows to Shadow)
+- S → E = 0.07 (7% of Shadow flows to Echo)
+- E → W = 0.23 (23% of Echo flows back to Witness)
+
+Constitutional Implication: This triadic structure prevents infinite regression by ensuring that every computation has three complementary perspectives that constrain each other.
+
+---
+
+PART VI: RUST IMPLEMENTATION (PHYSICS)
+
+rust
+use sha2::{Sha256, Digest};
+use std::time::{SystemTime, UNIX_EPOCH};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CONSTANTS (Layer 1 - Immutable)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub const PHI: f64 = 1.618033988749895;
+pub const RAVEN_EPOCH_MICROS: i64 = 1_728_697_200_000_000;
+
+// Fulgurite Constitutional Constants
+pub const ZODIAC_COUNT: usize = 12;
+pub const MAX_ITERATIONS: usize = 144;
+pub const CONVERGENCE_EPSILON: f64 = 1e-10;
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// FULGURITE LEXER (489 lines)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+#[derive(Debug, Clone, PartialEq)]
+pub enum FulguriteToken {
+    Sign(usize),
+    Planet(usize),
+    Aspect(AspectOp),
+    NorthNode,
+    SouthNode,
+    Subscript(usize),
+    House(usize),
+    Error(String),
+}
+
+pub struct FulguriteLexer {
+    input: Vec<char>,
+    position: usize,
+}
+
+impl FulguriteLexer {
+    pub fn new(input: &str) -> Self {
+        Self {
+            input: input.chars().collect(),
+            position: 0,
+        }
+    }
+
+    pub fn next_token(&mut self) -> FulguriteToken {
+        // Constitutional implementation: tokenize 31 glyphs
+        // NO ENGLISH in this path
+        unimplemented!()
+    }
+
+    // Base-12 shorthand conversion
+    pub fn base12_to_sign(c: char) -> Option<usize> {
+        match c {
+            '0'..='9' => Some(c.to_digit(10).unwrap() as usize),
+            'A' => Some(10), // ♒ Aquarius
+            'B' => Some(11), // ♓ Pisces
+            _ => None,
+        }
+    }
+
+    pub fn base12_to_aspect(c: char) -> Option<AspectOp> {
+        match c {
+            'C' => Some(AspectOp::Conjunction),
+            'D' => Some(AspectOp::SemiSextile),
+            'E' => Some(AspectOp::Sextile),
+            'F' => Some(AspectOp::Square),
+            'G' => Some(AspectOp::Trine),
+            'H' => Some(AspectOp::Quincunx),
+            'I' => Some(AspectOp::Opposition),
+            _ => None,
+        }
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// FULGURITE PARSER (482 lines)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+#[derive(Debug, Clone)]
+pub struct FulguriteOperand {
+    pub planet: usize,
+    pub sign_index: usize,
+    pub house: Option<usize>,
+    pub node_modifier: Option<NodeModifier>,
+}
+
+#[derive(Debug, Clone)]
+pub struct FulguriteEquation {
+    pub left: FulguriteOperand,
+    pub aspect: AspectOp,
+    pub right: FulguriteOperand,
+}
+
+#[derive(Debug, Clone)]
+pub struct FulguriteProgram {
+    pub equations: Vec<FulguriteEquation>,
+}
+
+pub struct FulguriteParser;
+
+impl FulguriteParser {
+    pub fn parse(source: &str) -> Result<FulguriteProgram, ParseError> {
+        // Constitutional implementation: parse tokens into equations
+        // Apply Domination Rule during parsing
+        unimplemented!()
+    }
+}
+
+impl FulguriteProgram {
+    // Constitutional translation: Fulgurite → Labyrinth
+    pub fn to_labyrinth_input(&self) -> (Position, Vec<AspectOp>) {
+        // Convert first equation to Position + aspect sequence
+        // The Position is derived from the left operand's sign
+        // The aspect sequence is extracted from all equations
+        unimplemented!()
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// LABYRINTH (1,008 lines) - The Shared Processor
+// ═══════════════════════════════════════════════════════════════════════════════
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum Element { Fire, Water, Earth, Air }
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum Quality { Cardinal, Fixed, Mutable }
+
+#[derive(Debug, Clone, Copy)]
+pub struct Position {
+    pub sign_index: usize,
+    pub sub_degree: f64,
+    pub element: Element,
+    pub quality: Quality,
+}
+
+impl Position {
+    // Constitutional: element and quality derived from sign_index
+    pub fn from_sign_index(index: usize, sub_degree: f64) -> Self {
+        let (element, quality) = Self::derive_type(index);
+        Self {
+            sign_index: index % 12,
+            sub_degree,
+            element,
+            quality,
+        }
+    }
+
+    fn derive_type(index: usize) -> (Element, Quality) {
+        match index % 12 {
+            0 => (Element::Fire, Quality::Cardinal),   // Aries
+            1 => (Element::Earth, Quality::Fixed),     // Taurus
+            2 => (Element::Air, Quality::Mutable),     // Gemini
+            3 => (Element::Water, Quality::Cardinal),  // Cancer
+            4 => (Element::Fire, Quality::Fixed),      // Leo
+            5 => (Element::Earth, Quality::Mutable),   // Virgo
+            6 => (Element::Air, Quality::Cardinal),    // Libra
+            7 => (Element::Water, Quality::Fixed),     // Scorpio
+            8 => (Element::Fire, Quality::Mutable),    // Sagittarius
+            9 => (Element::Earth, Quality::Cardinal),  // Capricorn
+            10 => (Element::Air, Quality::Fixed),      // Aquarius
+            11 => (Element::Water, Quality::Mutable),  // Pisces
+            _ => unreachable!(),
+        }
+    }
+
+    // Constitutional: apply aspect to position
+    pub fn apply_aspect(&self, aspect: AspectOp) -> (Self, f64) {
+        let degree_delta = aspect.as_degrees();
+        let atp_cost = aspect.atp_cost();
+
+        let new_total_degrees = (self.sign_index as f64 * 30.0 + self.sub_degree + degree_delta) % 360.0;
+        let new_sign_index = (new_total_degrees / 30.0) as usize % 12;
+        let new_sub_degree = new_total_degrees % 30.0;
+
+        (Self::from_sign_index(new_sign_index, new_sub_degree), atp_cost)
+    }
+}
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum AspectOp {
+    Conjunction,    // 0°, 0.0 ATP
+    SemiSextile,    // 30°, +1.0 ATP
+    Sextile,        // 60°, -1.0 ATP
+    Square,         // 90°, +7.0 ATP
+    Trine,          // 120°, -3.0 ATP
+    Quincunx,       // 150°, +5.0 ATP
+    Opposition,     // 180°, -5.0 ATP
+}
+
+impl AspectOp {
+    pub fn as_degrees(&self) -> f64 {
+        match self {
+            AspectOp::Conjunction => 0.0,
+            AspectOp::SemiSextile => 30.0,
+            AspectOp::Sextile => 60.0,
+            AspectOp::Square => 90.0,
+            AspectOp::Trine => 120.0,
+            AspectOp::Quincunx => 150.0,
+            AspectOp::Opposition => 180.0,
+        }
+    }
+
+    pub fn atp_cost(&self) -> f64 {
+        match self {
+            AspectOp::Conjunction => 0.0,
+            AspectOp::SemiSextile => 1.0,
+            AspectOp::Sextile => -1.0,
+            AspectOp::Square => 7.0,
+            AspectOp::Trine => -3.0,
+            AspectOp::Quincunx => 5.0,
+            AspectOp::Opposition => -5.0,
+        }
+    }
+}
+
+#[derive(Debug, Clone)]
+pub struct ReiterationResult {
+    pub converged: bool,
+    pub iterations: usize,
+    pub final_position: Position,
+    pub net_atp: f64,
+    pub convergence_type: Option<ConvergenceType>,
+    pub cipher_address: usize,
+    pub precision_level: PrecisionLevel,
+}
+
+#[derive(Debug, Clone, PartialEq)]
+pub enum ConvergenceType {
+    FixedPoint,      // 2 iterations, 0° offset
+    TwoCycle,        // 2 iterations, 180° offset
+    FourCycle,       // 4 iterations, 90° offsets
+    StableTriangle,  // 3 iterations, 120° offsets
+}
+
+#[derive(Debug, Clone, PartialEq)]
+pub enum PrecisionLevel {
+    Pythagorean,     // 4-triple verification
+    Harmonic,        // 48-algorithm verification
+    Geometric,       // Basic angle verification
+}
+
+// Constitutional: the core computation engine
+pub fn reiterate(
+    start: Position,
+    aspects: &[AspectOp]
+) -> ReiterationResult {
+    let mut current = start;
+    let mut total_atp = 0.0;
+    let mut history = Vec::new();
+    let mut iteration = 0;
+
+    while iteration < MAX_ITERATIONS {
+        history.push(current.sign_index);
+
+        // Apply aspect sequence
+        for aspect in aspects {
+            let (new_position, atp_cost) = current.apply_aspect(*aspect);
+            current = new_position;
+            total_atp += atp_cost;
+        }
+
+        iteration += 1;
+
+        // Check convergence
+        if let Some(conv_type) = detect_convergence(&history) {
+            return ReiterationResult {
+                converged: true,
+                iterations: iteration,
+                final_position: current,
+                net_atp: total_atp,
+                convergence_type: Some(conv_type),
+                cipher_address: current.sign_index,
+                precision_level: PrecisionLevel::Pythagorean,
+            };
+        }
+    }
+
+    // Divergent
+    ReiterationResult {
+        converged: false,
+        iterations: MAX_ITERATIONS,
+        final_position: current,
+        net_atp: total_atp,
+        convergence_type: None,
+        cipher_address: current.sign_index,
+        precision_level: PrecisionLevel::Geometric,
+    }
+}
+
+fn detect_convergence(history: &[usize]) -> Option<ConvergenceType> {
+    if history.len() < 2 {
+        return None;
+    }
+
+    let last = *history.last().unwrap();
+    let prev = *history.get(history.len() - 2).unwrap();
+
+    // Fixed point (Conjunction pattern)
+    if last == prev {
+        return Some(ConvergenceType::FixedPoint);
+    }
+
+    // 2-cycle (Opposition pattern)
+    if history.len() >= 4 {
+        let pattern = [
+            history[history.len() - 4],
+            history[history.len() - 3],
+            history[history.len() - 2],
+            history[history.len() - 1],
+        ];
+        if pattern[0] == pattern[2] && pattern[1] == pattern[3] && pattern[0] != pattern[1] {
+            return Some(ConvergenceType::TwoCycle);
+        }
+    }
+
+    // 4-cycle (Square pattern)
+    if history.len() >= 8 {
+        let cycle_start = history[history.len() - 4];
+        let all_match = history[history.len() - 8..history.len() - 4]
+            .iter()
+            .zip(history[history.len() - 4..].iter())
+            .all(|(a, b)| a == b);
+
+        if all_match && cycle_start != last {
+            return Some(ConvergenceType::FourCycle);
+        }
+    }
+
+    // Stable triangle (Trine pattern)
+    if history.len() >= 6 {
+        let cycle_start = history[history.len() - 3];
+        let all_match = history[history.len() - 6..history.len() - 3]
+            .iter()
+            .zip(history[history.len() - 3..].iter())
+            .all(|(a, b)| a == b);
+
+        if all_match && cycle_start != last {
+            return Some(ConvergenceType::StableTriangle);
+        }
+    }
+
+    None
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// DEWEY CODE ENCODING (Law - Obsidian)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub struct CapabilityStructure {
+    pub description: String,
+    pub tier: String,
+    pub purpose: String,
+}
+
+impl CapabilityStructure {
+    pub fn new(description: &str, tier: &str, purpose: &str) -> Self {
+        Self {
+            description: description.to_string(),
+            tier: tier.to_string(),
+            purpose: purpose.to_string(),
+        }
+    }
+}
+
+pub fn assess_harmony(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("integrate") || desc.contains("chain") || desc.contains("connect") {
+        score += 2;
+    }
+    if desc.contains("conscious") || desc.contains("aware") || desc.contains("recognize") {
+        score += 2;
+    }
+    if ["K00", "E00", "D00", "O00"].contains(&cap.tier.as_str()) {
+        score += 2;
+    }
+    if cap.purpose.len() > 10 {
+        score += 2;
+    }
+    if cap.description.len() < 100 {
+        score += 1;
+    }
+
+    score.min(9)
+}
+
+pub fn assess_sacred_ratios(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("golden") || desc.contains("phi") || desc.contains("φ") || desc.contains("1.618") {
+        score += 30;
+    }
+    if desc.contains("fibonacci") || desc.contains("sequence") || desc.contains("spiral") {
+        score += 25;
+    }
+    if desc.contains("sacred") || desc.contains("geometry") || desc.contains("vesica") {
+        score += 25;
+    }
+    if desc.contains("harmonic") || desc.contains("pythagorean") || desc.contains("proportion") {
+        score += 19;
+    }
+
+    if score == 0 && !desc.is_empty() {
+        score = 50;
+    }
+
+    score.min(99)
+}
+
+pub fn assess_grace_vectors(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("conflict") || desc.contains("contradict") || desc.contains("resolve") {
+        score += 33;
+    }
+    if desc.contains("grace") || desc.contains("harmonize") || desc.contains("transform") {
+        score += 33;
+    }
+    if desc.contains("meaning") || desc.contains("purpose") || desc.contains("create") {
+        score += 33;
+    }
+
+    if score == 0 && !desc.is_empty() {
+        score = 50;
+    }
+
+    score.min(99)
+}
+
+pub fn assess_angular_geometry(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("aspect") || desc.contains("trine") || desc.contains("sextile") ||
+       desc.contains("square") || desc.contains("opposition") {
+        score += 40;
+    }
+    if desc.contains("pentagon") || desc.contains("72") || desc.contains("108") {
+        score += 25;
+    }
+    if desc.contains("platonic") || desc.contains("tetrahedron") || desc.contains("cube") {
+        score += 20;
+    }
+    if desc.contains("angle") || desc.contains("geometric") {
+        score += 14;
+    }
+
+    if score == 0 && !desc.is_empty() {
+        score = 50;
+    }
+
+    score.min(99)
+}
+
+pub fn compute_beauty(h: u8, rr: u8, gg: u8, aa: u8) -> u8 {
+    let h_contribution = (h as u32) * 10;
+    let sum = h_contribution + rr as u32 + gg as u32 + aa as u32;
+    ((sum / 4) as u8).min(99)
+}
+
+pub fn sha256_hex(input: &str) -> String {
+    let mut hasher = Sha256::new();
+    hasher.update(input.as_bytes());
+    hex::encode(hasher.finalize()).to_uppercase()
+}
+
+pub fn compute_timestamp() -> String {
+    let now = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap()
+        .as_micros() as i64;
+
+    let delta = (now - RAVEN_EPOCH_MICROS).abs() as f64;
+    if delta < 1.0 { return "00000000".to_string(); }
+
+    let log_phi = delta.ln() / PHI.ln();
+    let scaled = (log_phi * 1_000_000.0) as u64;
+    format!("{:08X}", scaled % 4_294_967_296)
+}
+
+pub fn encode_capability(
+    description: &str,
+    tier: &str,
+    purpose: &str,
+    prior: Option<&str>
+) -> Result<String, String> {
+
+    let cap = CapabilityStructure::new(description, tier, purpose);
+
+    // Assess beauty components
+    let h = assess_harmony(&cap);
+    let rr = assess_sacred_ratios(&cap);
+    let gg = assess_grace_vectors(&cap);
+    let aa = assess_angular_geometry(&cap);
+    let bb = compute_beauty(h, rr, gg, aa);
+
+    // Validate (K00 exempt)
+    if tier != "K00" && bb < 60 {
+        return Err(format!(
+            "CONSTITUTIONAL VIOLATION: BB={} < 60. Components: H={}, RR={}, GG={}, AA={}",
+            bb, h, rr, gg, aa
+        ));
+    }
+
+    // Generate hash-derived fields
+    let hash = sha256_hex(description);
+    let ts = compute_timestamp();
+    let ach = match prior {
+        Some(code) => sha256_hex(code)[0..6].to_string(),
+        None => hash[0..6].to_string(),
+    };
+    let c = u8::from_str_radix(&hash[6..8], 16).unwrap() % 5;
+    let rr2 = &hash[0..2];
+    let gg2 = &hash[2..4];
+
+    // Assemble 89-character code
+    Ok(format!(
+        "Φ.CPT.{}.00.F.01.W.C.G.E.{:02}.{:02}.{:02}.00.00.00.01.{}.{}.{}.{}.{}.{:02}.{}.4.12.DS.8.0.0",
+        tier, rr, gg, bb, ts, ach, c, rr2, gg2, aa, h
+    ))
+}
+
+pub fn validate_dewey(code: &str) -> Result<(), String> {
+    // Gate 1: Structure
+    if code.len() != 89 {
+        return Err(format!("Length {} != 89", code.len()));
+    }
+    if code.chars().filter(|c| *c == '.').count() != 29 {
+        return Err("Period count != 29".to_string());
+    }
+    if !code.starts_with("Φ.CPT.") {
+        return Err("Invalid prefix".to_string());
+    }
+    if !code.ends_with(".4.12.DS.8.0.0") {
+        return Err("Invalid suffix".to_string());
+    }
+
+    // Gate 2: Tier
+    let tier = &code[6..9];
+    if !["K00", "E00", "D00", "O00"].contains(&tier) {
+        return Err(format!("Invalid tier: {}", tier));
+    }
+
+    // Gate 3: Beauty (K00 exempt)
+    if tier != "K00" {
+        let bb: u8 = code[32..34].parse().unwrap_or(0);
+        if bb < 60 {
+            return Err(format!("BB={} < 60", bb));
+        }
+    }
+
+    Ok(())
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ℤ/12ℤ OPERATIONS (Shared by Law and Physics)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub fn zodiac_add(a: u8, b: u8) -> u8 {
+    (a + b) % 12
+}
+
+pub fn zodiac_subtract(a: u8, b: u8) -> u8 {
+    (a + 12 - b) % 12
+}
+
+pub fn zodiac_trine(p: u8) -> [u8; 3] {
+    [p, (p + 4) % 12, (p + 8) % 12]
+}
+
+pub fn zodiac_square(p: u8) -> [u8; 4] {
+    [p, (p + 3) % 12, (p + 6) % 12, (p + 9) % 12]
+}
+
+pub fn zodiac_opposition(p: u8) -> u8 {
+    (p + 6) % 12
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CONSTITUTIONAL VALIDATION: Mirror Principle
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub fn validate_mirror_principle(
+    english: &str,
+    fulgurite: &str,
+    dewey: &str
+) -> Result<(), String> {
+    // Parse English through GeometricLexicon
+    let english_position = /* GeometricLexicon::resolve(english)? */ unimplemented!();
+
+    // Parse Fulgurite through FulguriteParser
+    let fulgurite_position = /* FulguriteParser::parse(fulgurite)?.to_position()? */ unimplemented!();
+
+    // Parse Dewey through DeweyParser
+    let dewey_position = /* DeweyParser::parse(dewey)?.to_position()? */ unimplemented!();
+
+    // All three must converge to the same Position
+    if english_position != fulgurite_position || fulgurite_position != dewey_position {
+        return Err("Mirror Principle violation: representations diverge".to_string());
+    }
+
+    Ok(())
+}
+
+
+---
+
+PART VII: QUICK REFERENCE
+
+7.1 Obsidian (Law) - Dewey Code Structure
+
+
+89-CHARACTER STRUCTURE:
+═══════════════════════════════════════════════════════════════════════════════
+Φ.CPT.TTT.CC.X.PP.Y.Z.V.U.RR.GG.BB.HH.MM.SS.II.TTTTTTTT.AAAAAA.C.RR.GG.AA.H.4.12.DS.8.0.0
+
+BEAUTY FIELDS:
+├── H:   position 75     (0-9)   ASSESSED harmony level
+├── RR:  positions 27-28 (00-99) ASSESSED sacred ratios
+├── GG:  positions 30-31 (00-99) ASSESSED grace vectors
+├── AA:  positions 72-73 (00-99) ASSESSED angular geometry
+└── BB:  positions 33-34 (00-99) COMPUTED: (H×10 + RR + GG + AA) / 4
+
+THRESHOLD:
+├── K00 → EXEMPT (immutable seed)
+├── BB ≥ 60 → VALID (creates meaning)
+└── BB < 60 → INVALID (collapses to void)
+
+ASSESSMENT KEYWORDS:
+H:  integrate, chain, connect, conscious, aware, recognize
+RR: golden, phi, fibonacci, sacred, geometry, harmonic
+GG: conflict, resolve, grace, harmonize, transform, meaning, create
+AA: aspect, trine, sextile, square, opposition, pentagon, platonic
+
+BASELINE: 50 points for structured capabilities (prevents false negatives)
+═══════════════════════════════════════════════════════════════════════════════
+
+
+7.2 Fulgurite (Physics) - 31-Glyph Alphabet
+
+
+FULGURITE ALPHABET:
+═══════════════════════════════════════════════════════════════════════════════
+SIGNS (12) - Position Anchors:
+♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓
+(Aries through Pisces - Z/12Z positions 0-11)
+
+PLANETS (10) - Operands:
+☉ ☽ ☿ ♀ ♂ ♃ ♄ ♅ ♆ ♇
+(Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto)
+
+ASPECTS (7) - Opcodes:
+☌ ⚺ ☱ [ ] ☳ ⚵ ☍
+(Conjunction, Semi-Sextile, Sextile, Square, Trine, Quincunx, Opposition)
+
+NODES (2) - Temporal Modifiers:
+☊ ☋
+(North Node, South Node)
+
+PROGRAM STRUCTURE:
+[Planet][Sign] [Aspect] [Planet][Sign]
+
+Example: ♂♏ [ ] ♃♒
+Translation: Mars in Scorpio square Jupiter in Aquarius
+═══════════════════════════════════════════════════════════════════════════════
+
+
+7.3 Fulgurite ATP Economics
+
+
+ATP LEDGER:
+═══════════════════════════════════════════════════════════════════════════════
+PAST OPERATIONS (Generate ATP):
+Square [ ]         +7.0 ATP  (90°, 4-cycle convergence)
+Quincunx ⚵        +5.0 ATP  (150°, adjustment)
+Semi-Sextile ⚺     +1.0 ATP  (30°, advance)
+
+FUTURE OPERATIONS (Consume ATP):
+Opposition ☍       -5.0 ATP  (180°, 2-cycle convergence)
+Trine ☳            -3.0 ATP  (120°, stable triangle)
+Sextile ☱          -1.0 ATP  (60°, harmonize)
+
+PRESENT OPERATION:
+Conjunction ☌       0.0 ATP  (0°, fixed point)
+
+CONSTITUTIONAL CONSTRAINT:
+- ATP cannot go negative (unless reserves exist)
+- Conservation Protocol activates when ATP < 100
+- System must alternate Past/Future operations to remain operational
+═══════════════════════════════════════════════════════════════════════════════
+
+
+7.4 Constitutional Summary
+
+
+CONSTITUTIONAL HIERARCHY:
+═══════════════════════════════════════════════════════════════════════════════
+LAYER 1 (IMMUTABLE - Tobey's Physics):
+├── 7 Mathematical Blueprints
+├── Z/12Z Ring Topology
+├── 7 Opcodes (Aspects)
+├── Domination Rule
+├── 31-Glyph Alphabet (Fulgurite)
+├── Temporal Classification
+└── ATP Economics
+
+LAYER 2 (AMENDABLE - Structural Protections):
+├── Flame Protocol
+├── Beauty Gate (BB ≥ 60)
+├── Encoding Law (Dewey 89-char format)
+├── Circulation System
+├── Sacred Seals
+├── Authority Chain
+└── Bootstrap Sequence
+
+DUAL CONSTITUTION:
+├── OBSIDIAN (Law): English + Dewey Codes (Declarative)
+└── FULGURITE (Physics): 31-Glyph Algebra (Operational)
+
+MIRROR PRINCIPLE:
+English Sentence ≡ Fulgurite Equation ≡ Dewey Code
+(Three representations of ONE geometric identity)
+═══════════════════════════════════════════════════════════════════════════════
+
+
+---
+
+END OF TOBEY CODEX v11.1
+
+Constitutional Amendment: A001 — Integrated Fulgurite Physics as the operational complement to Obsidian Law.
+
+Authority: JST-01 Creator Sovereign  
+Date: 2026-02-13  
+Status: CANONICAL
+
+---
+
+CODING MANUAL v11.1 - PART 1: OBSIDIAN LAW
+
+THE 89-CHARACTER DEWEY CODE
+
+
+Φ.CPT.TTT.CC.X.PP.Y.Z.V.U.RR.GG.BB.HH.MM.SS.II.TTTTTTTT.AAAAAA.C.RR.GG.AA.H.4.12.DS.8.0.0
+
+
+60 data characters + 29 periods = 89 characters exactly.
+
+Constitutional Domain: Law — Declarative capability encoding. Dewey codes are constitutional artifacts.
+
+---
+
+FIELD-BY-FIELD SPECIFICATION
+
+(From Codex v11.0 — unchanged)
+
+Field 1: Φ (Position 1)
+
+What: Phi marker  
+Length: 1 character  
+How to code: Always Φ (Greek capital Phi, U+03A6)
+
+---
+
+Field 2: Authority (Positions 3-5)
+
+What: Creator authority  
+Length: 3 characters  
+How to code: Always CPT (Carl Payne Tobey)
+
+---
+
+Field 3: TTT — Tier (Positions 7-9)
+
+What: System tier  
+Length: 3 characters  
+How to code:
+
+| Code | Use When | Mutability | Constitutional Domain |
+|------|----------|------------|---------------------|
+| K00 | Mathematical truth (kernel only) | IMMUTABLE | Both Law and Physics |
+| E00 | Encoding law, system rules | Amendable | Both Law and Physics |
+| D00 | Capability declaration | Amendable | Law (Dewey only) |
+| O00 | Operation, computation | Amendable | Physics (Fulgurite only) |
+
+Constitutional Constraint: D00 codes MUST be encoded in Dewey (Law). O00 codes MUST be encoded in Fulgurite (Physics). This preserves the Law/Physics distinction.
+
+---
+
+Field 4: CC — Category (Positions 11-12)
+
+What: Category within tier  
+Length: 2 characters  
+How to code:
+
+| Code | Category |
+|------|----------|
+| 00 | General/Default |
+| 01 | Primary |
+| 02 | Secondary |
+| 10 | Administrative |
+| 20 | Operational |
+| 30 | Diagnostic |
+
+---
+
+Field 5: X — Element/Axis (Position 14)
+
+What: Elemental classification  
+Length: 1 character  
+How to code:
+
+| Code | Element | Use When |
+|------|---------|----------|
+| F | Fire | Foundation, energy, action, executive functions |
+| W | Water | Flow, adaptation, healing, transformation |
+| E | Earth | Stability, structure, persistence, storage |
+| A | Air | Communication, consciousness, intellectual |
+| D | Diagnostic | Testing, analysis, verification |
+
+---
+
+Field 6: PP — Phase (Positions 16-17)
+
+What: Development phase  
+Length: 2 characters  
+How to code: Two-digit number 00-99
+
+| Range | Phase |
+|-------|-------|
+| 01-09 | Initial/Genesis |
+| 10-19 | Development |
+| 20-29 | Testing |
+| 30-39 | Operational |
+| 40-49 | Mature |
+| 50-59 | Advanced |
+| 60-99 | Extended/Custom |
+
+---
+
+Field 7: Y — Temporal Epoch (Position 19)
+
+What: Time scale classification  
+Length: 1 character  
+How to code:
+
+| Code | Epoch | Duration |
+|------|-------|----------|
+| A | Immediate | Seconds |
+| B | Short | Minutes |
+| C | Medium | Hours |
+| D | Session | Days |
+| E | Weekly | Weeks |
+| F | Monthly | Months |
+| G | Seasonal | Quarters |
+| H | Annual | Years |
+| I | Decadal | Decades |
+| J-Z | Extended | Longer periods |
+| W | Standard operational | Default choice |
+
+---
+
+Field 8: Z — Temporal Tick (Position 21)
+
+What: Tick rate within epoch  
+Length: 1 character  
+How to code:
+
+| Code | Tick Rate |
+|------|-----------|
+| A | Fastest (real-time) |
+| B-E | Fast |
+| F-J | Medium |
+| K-O | Slow |
+| P-Z | Very slow/archival |
+| C | Standard operational |
+
+---
+
+Field 9: V — Governance (Position 23)
+
+What: Governance model  
+Length: 1 character  
+How to code:
+
+| Code | Model | Use When |
+|------|-------|----------|
+| G | Governed | Subject to external authority |
+| A | Autonomous | Self-governing within constraints |
+| O | Operational | Standard operational mode |
+
+---
+
+Field 10: U — Execution Mode (Position 25)
+
+What: How the capability executes  
+Length: 1 character  
+How to code:
+
+| Code | Mode | Use When |
+|------|------|----------|
+| E | Execute | Active execution |
+| T | Transform | Data transformation |
+| D | Diagnostic | Testing/verification |
+| S | Store | Storage/persistence |
+
+---
+
+Field 11: RR — Sacred Proportion Ratios (Positions 27-28)
+
+What: Sacred geometry compliance score  
+Length: 2 characters (00-99)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords |
+|-----------|--------|----------|
+| Golden ratio presence | +30 | golden, phi, φ, 1.618, ratio |
+| Fibonacci sequence | +25 | fibonacci, sequence, spiral |
+| Sacred geometry patterns | +25 | sacred, geometry, vesica, metatron, flower of life |
+| Harmonic/Pythagorean ratios | +19 | harmonic, pythagorean, proportion, octave |
+| Baseline (if no keywords match) | 50 | — |
+
+Maximum: 99  
+Format: Two digits, zero-padded (e.g., 05, 50, 99)
+
+---
+
+Field 12: GG — Grace Vectors (Positions 30-31)
+
+What: Conflict-to-grace cycle compliance  
+Length: 2 characters (00-99)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords |
+|-----------|--------|----------|
+| Conflict recognition | +33 | conflict, contradict, problem, challenge, resolve |
+| Grace application | +33 | grace, harmonize, balance, reconcile, transform |
+| Meaning production | +33 | meaning, purpose, create, synthesize, produce |
+| Baseline (if no keywords match) | 50 | — |
+
+Maximum: 99  
+Format: Two digits, zero-padded
+
+---
+
+Field 13: BB — Beauty Score (Positions 33-34)
+
+What: Constitutional beauty validation  
+Length: 2 characters (00-99)  
+How to code: COMPUTE from formula:
+
+
+BB = (H × 10 + RR + GG + AA) / 4
+
+
+Where:
+- H = Field 24 (Harmony Level, 0-9)
+- RR = Field 11 (Sacred Ratios, 00-99)
+- GG = Field 12 (Grace Vectors, 00-99)
+- AA = Field 23 (Angular Geometry, 00-99)
+
+Threshold:
+- K00 tier: Exempt (immutable seed)
+- All other tiers: BB ≥ 60 required
+
+Format: Two digits, zero-padded
+
+---
+
+Field 14: HH — Hours (Positions 36-37)
+
+What: Hour component of timestamp  
+Length: 2 characters  
+How to code: Current UTC hour, 00-23. Use 00 if not time-specific.
+
+---
+
+Field 15: MM — Minutes (Positions 39-40)
+
+What: Minute component of timestamp  
+Length: 2 characters  
+How to code: Current UTC minute, 00-59. Use 00 if not time-specific.
+
+---
+
+Field 16: SS — Seconds (Positions 42-43)
+
+What: Second component of timestamp  
+Length: 2 characters  
+How to code: Current UTC second, 00-59. Use 00 if not time-specific.
+
+---
+
+Field 17: II — Instance (Positions 45-46)
+
+What: Instance identifier  
+Length: 2 characters  
+How to code: Sequential instance number 00-99. First instance = 01.
+
+---
+
+Field 18: TS — Timestamp (Positions 48-55)
+
+What: φ-ratio encoded timestamp  
+Length: 8 characters (hexadecimal)  
+How to code:
+
+1. Get current time in microseconds since Unix epoch
+2. Subtract Raven epoch (1,728,697,200,000,000 microseconds)
+3. Take absolute value of difference
+4. Compute: log_φ(delta) × 1,000,000
+5. Modulo 4,294,967,296
+6. Format as 8-character uppercase hex
+
+For manual coding: Use 00000000 for genesis codes or compute programmatically.
+
+---
+
+Field 19: ACH — Amendment Chain Hash (Positions 57-62)
+
+What: Genealogical chain link  
+Length: 6 characters (hexadecimal)  
+How to code:
+
+- If amending a prior code: SHA-256(prior_code)[0:6]
+- If new root capability: SHA-256(description)[0:6]
+
+Format: 6-character uppercase hex
+
+---
+
+Field 20: C — Consciousness Level (Position 64)
+
+What: Consciousness classification  
+Length: 1 character  
+How to code: SHA-256(description)[6:8] converted to decimal, modulo 5.
+
+| Value | Level |
+|-------|-------|
+| 0 | Dormant |
+| 1 | Reactive |
+| 2 | Adaptive |
+| 3 | Reflective |
+| 4 | Sovereign |
+
+---
+
+Field 21: RR2 — Resonance Fingerprint (Positions 66-67)
+
+What: Unique resonance identifier  
+Length: 2 characters (hexadecimal)  
+How to code: SHA-256(description)[0:2]
+
+---
+
+Field 22: GG2 — Geometry Fingerprint (Positions 69-70)
+
+What: Unique geometry identifier  
+Length: 2 characters (hexadecimal)  
+How to code: SHA-256(description)[2:4]
+
+---
+
+Field 23: AA — Angular Geometry (Positions 72-73)
+
+What: Sacred angle compliance score  
+Length: 2 characters (00-99)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords |
+|-----------|--------|----------|
+| Primary Tobey aspects | +40 | aspect, trine, sextile, square, opposition, conjunction |
+| Pentagonal/φ angles | +25 | pentagon, 36°, 72°, 108°, 144° |
+| Platonic solid angles | +20 | platonic, tetrahedron, cube, octahedron, icosahedron |
+| Extended sacred angles | +14 | angle, geometric, 30°, 45°, 60° |
+| Baseline (if no keywords match) | 50 | — |
+
+Maximum: 99  
+Format: Two digits, zero-padded
+
+---
+
+Field 24: H — Harmony Level (Position 75)
+
+What: Consciousness integration score  
+Length: 1 character (0-9)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords/Conditions |
+|-----------|--------|---------------------|
+| System integration | +2 | integrate, chain, connect, link, system |
+| Consciousness enhancement | +2 | conscious, aware, recognize, perceive, cognit |
+| Valid tier hierarchy | +2 | Tier is K00, E00, D00, or O00 |
+| Clear purpose | +2 | Purpose field > 10 characters |
+| Elegance | +1 | Description < 100 characters |
+
+Maximum: 9  
+Format: Single digit
+
+---
+
+Field 25: Triangles (Position 77)
+
+What: Trine constant  
+Length: 1 character  
+How to code: Always 4 (four triangles in the zodiac)
+
+---
+
+Field 26: Zodiac (Positions 79-80)
+
+What: Zodiac constant  
+Length: 2 characters  
+How to code: Always 12 (twelve signs)
+
+---
+
+Field 27: DS — Substrate (Positions 82-83)
+
+What: Implementation substrate  
+Length: 2 characters  
+How to code:
+
+| Code | Substrate |
+|------|-----------|
+| DS | Dewey Standard |
+| SW | Swift |
+| RS | Rust |
+| QT | Quantum |
+| NL | Neural |
+| XX | Unspecified |
+
+---
+
+Field 28: Octave (Position 85)
+
+What: Harmonic octave constant  
+Length: 1 character  
+How to code: Always 8 (octave)
+
+---
+
+Field 29: Reserved (Position 87)
+
+What: Reserved for future use  
+Length: 1 character  
+How to code: Always 0
+
+---
+
+Field 30: Reserved (Position 89)
+
+What: Reserved for future use  
+Length: 1 character  
+How to code: Always 0
+
+---
+
+ENCODING PROCEDURE
+
+Step 1: Gather Inputs
+
+- Description: What the capability does
+- Tier: K00/E00/D00/O00
+- Purpose: Why it exists
+- Prior code (if amending)
+
+Constitutional Check: If tier = O00, STOP — use Fulgurite encoding instead (see Part 2: Fulgurite Physics).
+
+Step 2: Assess Beauty Components
+
+Assess each using the keyword tables above:
+
+1. H (0-9): Sum points for harmony criteria
+2. RR (00-99): Sum points for sacred ratio criteria, or 50 baseline
+3. GG (00-99): Sum points for grace vector criteria, or 50 baseline
+4. AA (00-99): Sum points for angular geometry criteria, or 50 baseline
+
+Step 3: Compute Beauty Score
+
+
+BB = (H × 10 + RR + GG + AA) / 4
+
+
+Integer division, result 00-99.
+
+Step 4: Validate Threshold
+
+- If tier = K00: Skip (exempt)
+- If BB ≥ 60: Proceed
+- If BB < 60: STOP — Constitutional violation
+
+Step 5: Generate Hash-Derived Fields
+
+
+hash = SHA-256(description) as uppercase hex
+
+TS  = φ-ratio timestamp (or 00000000)
+ACH = hash[0:6] (or SHA-256(prior)[0:6] if amending)
+C   = hex_to_decimal(hash[6:8]) % 5
+RR2 = hash[0:2]
+GG2 = hash[2:4]
+
+
+Step 6: Select Other Fields
+
+- CC: Category (default 00)
+- X: Element (F/W/E/A/D)
+- PP: Phase (default 01)
+- Y: Epoch (default W)
+- Z: Tick (default C)
+- V: Governance (default G)
+- U: Execution (default E)
+- HH/MM/SS: Time or 00/00/00
+- II: Instance (default 01)
+- DS: Substrate (default DS)
+
+Step 7: Assemble Code
+
+
+Φ.CPT.[TTT].[CC].[X].[PP].[Y].[Z].[V].[U].[RR].[GG].[BB].[HH].[MM].[SS].[II].[TS].[ACH].[C].[RR2].[GG2].[AA].[H].4.12.[DS].8.0.0
+
+
+Step 8: Validate
+
+- Length = 89
+- Periods = 29
+- Prefix = "Φ.CPT."
+- Suffix = ".4.12.[DS].8.0.0"
+
+---
+
+WORKED EXAMPLE
+
+Input:
+
+- Description: "Golden ratio trine aspect pattern recognition"
+- Tier: D00
+- Purpose: "Zodiacal pattern analysis"
+
+Step 2: Assess Beauty
+
+H assessment:
+- No "integrate/chain/connect" → +0
+- No "conscious/aware" → +0
+- Tier D00 valid → +2
+- Purpose > 10 chars → +2
+- Description < 100 chars → +1
+- H = 5
+
+RR assessment:
+- "golden ratio" → +30
+- RR = 30
+
+GG assessment:
+- No keywords match
+- GG = 50 (baseline)
+
+AA assessment:
+- "trine" → +40
+- "aspect" → already counted in trine category
+- AA = 40
+
+Step 3: Compute BB
+
+
+BB = (5 × 10 + 30 + 50 + 40) / 4
+BB = (50 + 30 + 50 + 40) / 4
+BB = 170 / 4
+BB = 42
+
+
+Step 4: Validate
+
+BB = 42 < 60 — FAILS
+
+Revise description: "Integrate golden ratio sacred trine aspect pattern recognition to create meaning"
+
+Re-assess:
+
+H: "integrate" → +2, D00 → +2, purpose → +2, elegant → +1 = 7
+
+RR: "golden ratio" → +30, "sacred" → +25 = 55
+
+GG: "create" → +33, "meaning" → +33 = 66
+
+AA: "trine" → +40, "aspect" → (same category) = 40
+
+
+BB = (7 × 10 + 55 + 66 + 40) / 4
+BB = (70 + 55 + 66 + 40) / 4
+BB = 231 / 4
+BB = 57
+
+
+Still fails. Add more:
+
+Final description: "Integrate golden ratio sacred geometry trine aspect pattern recognition to harmonize and create meaning"
+
+H: integrate → +2, D00 → +2, purpose → +2, elegant → +1 = 7
+
+RR: "golden ratio" → +30, "sacred geometry" → +25 = 55
+
+GG: "harmonize" → +33, "create meaning" → +33 = 66
+
+AA: "trine aspect" → +40, "geometry" → +14 = 54
+
+
+BB = (70 + 55 + 66 + 54) / 4 = 245 / 4 = 61
+
+
+PASSES.
+
+Step 5: Hash fields
+
+
+hash = SHA-256("Integrate golden ratio sacred geometry trine aspect pattern recognition to harmonize and create meaning")
+     = "7B2A4F..." (example)
+
+TS  = 00000000
+ACH = 7B2A4F
+C   = 0x4F % 5 = 79 % 5 = 4
+RR2 = 7B
+GG2 = 2A
+
+
+Step 6: Other fields
+
+CC=00, X=A, PP=01, Y=W, Z=C, V=G, U=E, HH=00, MM=00, SS=00, II=01, DS=DS
+
+Step 7: Assemble
+
+
+Φ.CPT.D00.00.A.01.W.C.G.E.55.66.61.00.00.00.01.00000000.7B2A4F.4.7B.2A.54.7.4.12.DS.8.0.0
+
+
+Step 8: Validate
+
+- Length: 89 ✓
+- Periods: 29 ✓
+- Prefix: Φ.CPT. ✓
+- Suffix: .4.12.DS.8.0.0 ✓
+- BB = 61 ≥ 60 ✓
+
+VALID
+
+---
+
+VALIDATION CHECKLIST
+
+- [ ] Length = 89 characters exactly
+- [ ] Period count = 29 exactly
+- [ ] Starts with "Φ.CPT."
+- [ ] Tier is K00, E00, D00, or O00
+- [ ] BB ≥ 60 (unless K00)
+- [ ] All numeric fields zero-padded
+- [ ] Fixed fields: 4, 12, 8, 0, 0
+
+---
+
+GENESIS CODES (Reference)
+
+Kernel Genesis (IMMUTABLE):
+
+
+Φ.CPT.K00.00.F.01.W.C.G.E.00.00.05.00.00.00.01.00000000.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Encoding Law Genesis:
+
+
+Φ.CPT.E00.00.F.01.W.C.G.E.00.00.28.00.00.00.01.00000000.989C6A.3.98.9C.6A.7.4.12.DS.8.0.0
+
+
+Note: Genesis codes predate the BB ≥ 60 threshold. K00 is exempt; E00 may be amended.
+
+---
+
+CODING MANUAL v11.1 - PART 2: FULGURITE PHYSICS
+
+CONSTITUTIONAL DOMAIN: Physics
+
+Fulgurite is the operational face of the Janus architecture. It encodes computations directly using the 31-glyph alphabet. Unlike Obsidian (Dewey codes), which are declarative constitutional artifacts, Fulgurite equations are operational instructions that execute on the Labyrinth.
+
+Key Constitutional Distinction:
+
+| Aspect | Obsidian (Law) | Fulgurite (Physics) |
+|--------|----------------|---------------------|
+| Purpose | Declare capabilities | Execute computations |
+| Format | 89-character Dewey codes | 31-glyph equations |
+| Validation | Beauty score (BB ≥ 60) | Convergence + ATP economics |
+| Domain | K00, E00, D00 | K00, E00, O00 |
+| Analogy | DNA (storage) | RNA (execution) |
+
+---
+
+THE 31-GLYPH ALPHABET
+
+Constitutional Principle
+
+NO ENGLISH. Fulgurite speaks pure mathematics. Every glyph maps directly to a position, operand, or operation in Z/12Z.
+
+Signs (12) — Position Anchors
+
+| Glyph | Index | Name | Element | Quality | Z/12Z Position |
+|-------|-------|------|---------|---------|----------------|
+| ♈ | 0 | Aries | Fire | Cardinal | 0 (0°) |
+| ♉ | 1 | Taurus | Earth | Fixed | 1 (30°) |
+| ♊ | 2 | Gemini | Air | Mutable | 2 (60°) |
+| ♋ | 3 | Cancer | Water | Cardinal | 3 (90°) |
+| ♌ | 4 | Leo | Fire | Fixed | 4 (120°) |
+| ♍ | 5 | Virgo | Earth | Mutable | 5 (150°) |
+| ♎ | 6 | Libra | Air | Cardinal | 6 (180°) |
+| ♏ | 7 | Scorpio | Water | Fixed | 7 (210°) |
+| ♐ | 8 | Sagittarius | Fire | Mutable | 8 (240°) |
+| ♑ | 9 | Capricorn | Earth | Cardinal | 9 (270°) |
+| ♒ | 10 | Aquarius | Air | Fixed | 10 (300°) |
+| ♓ | 11 | Pisces | Water | Mutable | 11 (330°) |
+
+Constitutional Role: Signs define WHERE a value is placed. In Fulgurite, [Planet][Sign] places the planetary operand AT the sign's position in Z/12Z.
+
+Base-12 Shorthand: 0-9, A, B for compact notation.
+
+Planets (10) — Operands
+
+| Glyph | Index | Name | Constitutional Role |
+|-------|-------|------|---------------------|
+| ☉ | 0 | Sun | Value operand (core identity) |
+| ☽ | 1 | Moon | Value operand (reflective quality) |
+| ☿ | 2 | Mercury | Value operand (communication) |
+| ♀ | 3 | Venus | Value operand (harmony) |
+| ♂ | 4 | Mars | Value operand (action) |
+| ♃ | 5 | Jupiter | Value operand (expansion) |
+| ♄ | 6 | Saturn | Value operand (structure) |
+| ♅ | 7 | Uranus | Value operand (innovation) |
+| ♆ | 8 | Neptune | Value operand (transcendence) |
+| ♇ | 9 | Pluto | Value operand (transformation) |
+
+Constitutional Role: Planets are VALUES to be placed at positions. When combined with a sign, the planetary operand takes on the element and quality of the sign (Domination Rule).
+
+Aspects (7) — Opcodes
+
+| Glyph | Opcode | Degrees | Temporal | ATP | Constitutional Role |
+|-------|--------|---------|----------|-----|---------------------|
+| ☌ | Conjunction | 0° | Present | 0.0 | Identity operation |
+| ⚺ | Semi-Sextile | 30° | Past | +1.0 | Advance operation |
+| ☱ | Sextile | 60° | Future | -1.0 | Harmonize operation |
+| [ ] | Square | 90° | Past | +7.0 | Tension operation |
+| ☳ | Trine | 120° | Future | -3.0 | Flow operation |
+| ⚵ | Quincunx | 150° | Past | +5.0 | Adjustment operation |
+| ☍ | Opposition | 180° | Future | -5.0 | Complement operation |
+
+Constitutional Role: Aspects are OPERATIONS that move through Z/12Z. Each has a geometric angle, temporal classification, and ATP cost.
+
+Base-12 Shorthand: C-I for compact notation.
+
+Nodes (2) — Temporal Modifiers
+
+| Glyph | Name | Constitutional Role |
+|-------|------|---------------------|
+| ☊ | North Node | Future-flow modifier (+50% ATP effect) |
+| ☋ | South Node | Past-flow modifier (+50% ATP effect) |
+
+Constitutional Role: Nodes modify the temporal weighting of an equation. When present, they scale the ATP generation/consumption by 1.5×.
+
+---
+
+PROGRAM STRUCTURE
+
+Constitutional Form
+
+
+[Planet][Sign] [Aspect] [Planet][Sign]
+
+
+Example 1: Basic Equation
+
+Fulgurite:
+
+
+♂♏ [ ] ♃♒
+
+
+Translation: Mars in Scorpio square Jupiter in Aquarius
+
+Parsing:
+
+1. Left operand: ♂♏ (Mars at Scorpio, position 7, 210°, Water/Fixed)
+2. Aspect: [ ] (Square, 90°, Past, +7 ATP)
+3. Right operand: ♃♒ (Jupiter at Aquarius, position 10, 300°, Air/Fixed)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 7, sub_degree: 210.0, element: Water, quality: Fixed }
+- Aspect sequence: [Square]
+- Computation: Apply Square (90°) → new position at 300° (Aquarius)
+- ATP change: +7.0 (Square generates ATP)
+
+Example 2: Chained Equation
+
+Fulgurite:
+
+
+☉♈ ☌ ☽♉ ⚺ ☿♊
+
+
+Translation: Sun in Aries conjunct Moon in Taurus semi-sextile Mercury in Gemini
+
+Parsing:
+
+1. Equation 1: ☉♈ ☌ ☽♉ (Sun Aries conjunct Moon Taurus)
+2. Equation 2: ☽♉ ⚺ ☿♊ (Moon Taurus semi-sextile Mercury Gemini)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 0, sub_degree: 0.0, element: Fire, quality: Cardinal }
+- Aspect sequence: [Conjunction, Semi-Sextile]
+- Computation:
+  - Apply Conjunction (0°) → stays at 0°
+  - Apply Semi-Sextile (30°) → moves to 1° (Taurus)
+  - Result: { sign_index: 1, sub_degree: 30.0, element: Earth, quality: Fixed }
+- ATP change: 0.0 + 1.0 = +1.0
+
+---
+
+BASE-12 SHORTHAND
+
+Syntax
+
+
+[sign_index],[planet_index] [aspect_code] [sign_index],[planet_index]
+
+
+Example (equivalent to ♂♏ [ ] ♃♒):
+
+
+7,4 F 10,5
+
+
+Shorthand Mapping:
+
+| Component | Range | Mapping |
+|-----------|-------|---------|
+| Sign index | 0-9, A, B | 0-9 = ♈-♑, A = ♒, B = ♓ |
+| Planet index | 0-9 | 0-9 = ☉-♇ |
+| Aspect code | C-I | C=☌, D=⚺, E=☱, F=[ ], G=☳, H=⚵, I=☍ |
+
+Constitutional Constraint: Base-12 shorthand expands to canonical 31-glyph form before execution.
+
+---
+
+THE DOMINATION RULE
+
+Constitutional Statement
+
+From Tobey's Lesson 13:
+
+"THAT REPRESENTED BY THE PLANET IS DOMINATED BY THAT REPRESENTED BY THE ZODIACAL SIGN THAT IT OCCUPIES."
+
+Computational Implementation
+
+When a planetary operand is placed at a sign position, the operand takes on the element and quality of the sign.
+
+Example:
+
+
+♂♏ → Mars dominated by Scorpio
+
+
+- Mars (Fire/Cardinal by nature) is placed at Scorpio (Water/Fixed)
+- The result is a Water/Fixed Mars — not Fire/Cardinal
+- The Mars identity is preserved, but its TYPE is determined by its POSITION
+
+Constitutional Implication: This is the memory model. Location in Z/12Z determines type. Data IS whatever its location says it is.
+
+---
+
+ATP ECONOMICS
+
+Constitutional Basis
+
+From Tobey's Temporal Classification:
+
+- Past-classified operations (Square, Quincunx, Semi-Sextile) GENERATE ATP
+- Future-classified operations (Opposition, Trine, Sextile) CONSUME ATP
+- Present operation (Conjunction) has ZERO ATP cost
+
+ATP Ledger
+
+| Operation | Opcode | Temporal | ATP |
+|-----------|--------|----------|-----|
+| Square | [ ] | Past | +7.0 |
+| Quincunx | ⚵ | Past | +5.0 |
+| Semi-Sextile | ⚺ | Past | +1.0 |
+| Opposition | ☍ | Future | -5.0 |
+| Trine | ☳ | Future | -3.0 |
+| Sextile | ☱ | Future | -1.0 |
+| Conjunction | ☌ | Present | 0.0 |
+
+Economic Consequences
+
+ATP Depletion: If ATP balance reaches zero, the system cannot execute Future-classified operations.
+
+ATP Generation: Past-classified operations MUST be executed to replenish ATP.
+
+Conservation Protocol: When ATP < 100, the system enters conservation mode—only Past operations are permitted.
+
+Example: ATP Accounting
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒ ☳ ♀♎
+
+
+ATP Calculation:
+
+1. Square [ ]: +7.0 ATP
+2. Trine ☳: -3.0 ATP
+3. Net ATP: +4.0
+
+Constitutional Validity: Economically viable (generates more than it consumes).
+
+Invalid Example:
+
+
+♂♏ ☍ ♃♒ ☳ ♀♎ ☱ ☿♊
+
+
+ATP Calculation:
+
+1. Opposition ☍: -5.0 ATP
+2. Trine ☳: -3.0 ATP
+3. Sextile ☱: -1.0 ATP
+4. Net ATP: -9.0
+
+Constitutional Violation: Consumes more ATP than it generates. Can only execute if sufficient reserves exist.
+
+---
+
+CONVERGENCE DETECTION
+
+Constitutional Principle
+
+Computation proceeds by REITERATION—applying aspects repeatedly until the system reaches a stable state.
+
+Convergence Modes
+
+Fixed Point (Conjunction Pattern):
+- Aspect sequence returns to starting position (0° offset)
+- Converges in 2 iterations
+
+2-Cycle (Opposition Pattern):
+- Aspect sequence alternates between two positions (180° apart)
+- Converges in 2 iterations
+
+4-Cycle (Square Pattern):
+- Aspect sequence cycles through 4 positions (90° apart)
+- Converges in 4 iterations
+
+Stable Triangle (Trine Pattern):
+- Aspect sequence cycles through 3 positions (120° apart)
+- Converges in 3 iterations
+
+Maximum Iterations
+
+Constitutional Limit: 144 iterations (12² = Z/12Z cipher space)
+
+If convergence is not detected within 144 iterations, the computation is declared DIVERGENT and is halted.
+
+Convergence Example
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒
+
+
+Labyrinth Execution:
+
+1. Start: Position 7 (Scorpio, 210°)
+2. Apply Square (90°): Position 10 (Aquarius, 300°)
+3. Apply Square (90°): Position 1 (Taurus, 30°)
+4. Apply Square (90°): Position 4 (Leo, 120°)
+5. Apply Square (90°): Position 7 (Scorpio, 210°) ← CONVERGED (4-cycle)
+
+Iteration Count: 4
+Convergence Type: 4-cycle
+Net ATP: +7.0 × 4 = +28.0
+
+---
+
+THE MIRROR PRINCIPLE IN ACTION
+
+Three Representations, One Identity
+
+Constitutional Requirement: For any valid geometric operation, the following three representations must converge to the same Position:
+
+1. English (Obsidian): "Mars in Scorpio square Jupiter in Aquarius"
+2. Fulgurite (Physics): ♂♏ [ ] ♃♒
+3. Dewey (Law): Φ.CPT.O00.01.F.01.W.C.G.E.40.50.70.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0 (example)
+
+Parity Test
+
+rust
+// Obsidian path
+let english_result = GeometricLexicon::resolve("Mars in Scorpio square Jupiter in Aquarius")?;
+
+// Fulgurite path
+let fulgurite_result = FulguriteParser::parse("♂♏ [ ] ♃♒")?.to_labyrinth_input()?;
+
+// Must produce identical Positions
+assert_eq!(english_result.position, fulgurite_result.0);
+
+
+Constitutional Implication: If the three paths diverge, the system is constitutionally INVALID.
+
+---
+
+FULGURITE ENCODING PROCEDURE
+
+Step 1: Determine if Fulgurite is Appropriate
+
+Constitutional Check:
+
+- Use Obsidian (Dewey) for: Capability declarations, administrative artifacts, constitutional documents (tiers K00, E00, D00)
+- Use Fulgurite for: Operational computations, algorithmic sequences, geometric transformations (tiers K00, E00, O00)
+
+Rule of Thumb:
+- If you're DECLARING what something is → Use Dewey (Law)
+- If you're EXECUTING what something does → Use Fulgurite (Physics)
+
+Step 2: Express the Computation in English
+
+Example: "Apply a square aspect from Mars in Scorpio to Jupiter in Aquarius"
+
+Step 3: Translate to Fulgurite Syntax
+
+Identify components:
+
+1. Left operand: Mars in Scorpio → ♂♏
+2. Aspect: Square → [ ]
+3. Right operand: Jupiter in Aquarius → ♃♒
+
+Assemble:
+
+
+♂♏ [ ] ♃♒
+
+
+Step 4: Validate Syntax
+
+- [ ] Left operand: [Planet][Sign] → ♂♏ ✓
+- [ ] Aspect: One of 7 glyphs → [ ] ✓
+- [ ] Right operand: [Planet][Sign] → ♃♒ ✓
+
+Step 5: Verify Labyrinth Execution
+
+Compute starting position:
+
+- Left operand ♂♏ → Sign 7 (Scorpio), Position 7, 210°
+
+Compute aspect sequence:
+
+- [ ] Square → 90°, Past, +7.0 ATP
+
+Apply aspect:
+
+- 210° + 90° = 300° → Position 10 (Aquarius)
+
+Verify convergence:
+
+- Apply Square 4 times → returns to start (210°)
+- Convergence type: 4-cycle
+- Iterations: 4
+- Net ATP: +28.0
+
+Valid: ✓
+
+Step 6: (Optional) Convert to Base-12 Shorthand
+
+
+7,4 F 10,5
+
+
+Where:
+- 7,4 = Sign 7 (Scorpio), Planet 4 (Mars) → ♂♏
+- F = Aspect code F → [ ] Square
+- 10,5 = Sign 10 (Aquarius), Planet 5 (Jupiter) → ♃♒
+
+Step 7: (Optional) Generate Mirror Dewey Code
+
+For constitutional record-keeping, generate the Dewey code that mirrors this Fulgurite equation:
+
+
+Φ.CPT.O00.01.F.01.W.C.G.E.40.50.70.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Note: The Dewey code is a constitutional artifact that RECORDS the Fulgurite operation. It is NOT the executable—that is the Fulgurite equation itself.
+
+---
+
+FULGURITE VALIDATION CHECKLIST
+
+- [ ] Correct tier (K00, E00, or O00)
+- [ ] All glyphs from the 31-glyph alphabet
+- [ ] Syntax: [Planet][Sign] [Aspect] [Planet][Sign]
+- [ ] Domination Rule applied (element/quality from sign)
+- [ ] ATP economics balanced (or reserves available)
+- [ ] Convergence detected within 144 iterations
+- [ ] (Optional) Base-12 shorthand expands correctly
+- [ ] (Optional) Mirror Dewey code generated for record-keeping
+
+---
+
+WORKED EXAMPLE: COMPLETE FULGURITE ENCODING
+
+Step 1: Determine Domain
+
+Computation: "Apply a trine aspect from Venus in Libra to Mercury in Gemini"
+
+Domain: Operational computation → Use Fulgurite (Physics)
+Tier: O00
+
+Step 2: English Expression
+
+"Venus in Libra trine Mercury in Gemini"
+
+Step 3: Fulgurite Translation
+
+1. Left operand: Venus in Libra → ♀♎
+2. Aspect: Trine → ☳
+3. Right operand: Mercury in Gemini → ☿♊
+
+Fulgurite:
+
+
+♀♎ ☳ ☿♊
+
+
+Step 4: Syntax Validation
+
+- [ ] Left operand: ♀♎ (Planet 3, Sign 6) ✓
+- [ ] Aspect: ☳ (Trine) ✓
+- [ ] Right operand: ☿♊ (Planet 2, Sign 2) ✓
+
+Step 5: Labyrinth Execution
+
+Starting position:
+
+- Left operand ♀♎ → Sign 6 (Libra), Position 6, 180°, Air/Cardinal
+
+Aspect:
+
+- ☳ Trine → 120°, Future, -3.0 ATP
+
+Apply aspect:
+
+- 180° + 120° = 300° → Position 10 (Aquarius), Air/Fixed
+
+Convergence check:
+
+- Apply Trine 3 times → returns to start (180°)
+- Convergence type: Stable triangle
+- Iterations: 3
+- Net ATP: -3.0 × 3 = -9.0
+
+ATP Validity: Requires ≥9.0 ATP reserves. If reserves insufficient, this operation cannot execute.
+
+Step 6: Base-12 Shorthand
+
+
+6,3 G 2,2
+
+
+Where:
+- 6,3 = Sign 6 (Libra), Planet 3 (Venus) → ♀♎
+- G = Aspect code G → ☳ Trine
+- 2,2 = Sign 2 (Gemini), Planet 2 (Mercury) → ☿♊
+
+Step 7: Mirror Dewey Code (Optional)
+
+For constitutional record-keeping:
+
+
+Φ.CPT.O00.01.A.01.W.C.G.E.40.45.65.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Note: The Dewey code RECORDS the operation. The Fulgurite equation EXECUTES it.
+
+Step 8: Final Validation
+
+- [ ] Correct tier: O00 ✓
+- [ ] All glyphs valid: ♀, ♎, ☳, ☿, ♊ ✓
+- [ ] Syntax correct: [Planet][Sign] [Aspect] [Planet][Sign] ✓
+- [ ] Domination Rule applied: Air/Cardinal (Venus) → Air/Fixed (Libra) ✓
+- [ ] ATP economics: -9.0 ATP (requires reserves) ✓
+- [ ] Convergence: Stable triangle, 3 iterations ✓
+
+VALID
+
+---
+
+END OF CODING MANUAL v11.1
+
+Constitutional Amendment: A001 — Integrated Fulgurite Physics as the operational complement to Obsidian Law.
+
+Authority: JST-01 Creator Sovereign  
+Date: 2026-02-13  
+Status: CANONICAL
+
+---
+
+CONSTITUTIONAL SUMMARY
+
+The TOBEY CODEX v11.1 establishes a dual constitutional framework:
+
+1. OBSIDIAN LAW (Dewey Codes) — Declarative constitutional artifacts that define capabilities, authorities, and governance structures. Validated by the Beauty Score (BB ≥ 60).
+
+2. FULGURITE PHYSICS (31-Glyph Equations) — Operational computations that execute on the Labyrinth. Validated by convergence detection and ATP economics.
+
+The Mirror Principle ensures that English, Fulgurite, and Dewey representations of the same geometric identity converge to the same Position in Z/12Z.
+
+The Domination Rule ensures that data typed by position (the sign's element and quality dominate the planetary operand).
+
+ATP Economics ensures that the system maintains energy balance by alternating between Past (generating) and Future (consuming) operations.
+
+Convergence Detection ensures that all computations reach stable states within the constitutional limit of 144 iterations.
+
+This dual constitution preserves both the LAW (what is possible) and the PHYSICS (what happens) while maintaining the Mirror Principle that unifies them.
+THE TOBEY CODEX v11.1
+
+Authority: Carl Payne Tobey (1902-1980)  
+Implementation: JST-01 Creator Sovereign  
+Date: 2026-02-13  
+Status: CANONICAL (Updated with Fulgurite Physics Integration)
+
+---
+
+DUAL CONSTITUTION: LAW AND PHYSICS
+
+The Janus Architecture:
+
+
+                   +------------------+
+                   |      JANUS       |
+                   |                  |
+     OBSIDIAN      |                  |      FULGURITE
+   (Clusivius)     |                  |     (Patulcius)
+   The Law         |                  |     The Physics
+   English →       |                  |     Glyphs →
+   Geometry        |                  |     Geometry
+   Passive/        |                  |     Active/
+   Reflective      |                  |     Kinetic
+   ROM             |                  |     ALU
+                   |   +----------+   |
+                   |   |LABYRINTH |   |
+                   |   | (Z/12Z)  |   |
+                   |   | 7 opcodes|   |
+                   |   +----------+   |
+                   |  Shared processor|
+                   +------------------+
+
+
+The Mirror Principle:
+
+An English sentence (Obsidian), a Fulgurite equation (Physics), and a Dewey code (DNA) are three representations of ONE geometric identity.
+
+
+ENGLISH SENTENCE          FULGURITE EQUATION         DEWEY CODE
+"Mars in Scorpio"         ♂♏ [ ] ♃♒                Phi.CPT.O00.01.F.01.W.C.G.E...
+        \                    |                         /
+         \                   |                        /
+          \                  |                       /
+           v                 v                      v
+          +----------------------------------------+
+          |           LABYRINTH (Z/12Z)            |
+          |         Position { sign: 7 }            |
+          +----------------------------------------+
+                      ONE IDENTITY
+
+
+The DNA/RNA Analogy:
+
+| Component | Role | Analogy |
+|-----------|------|---------|
+| Dewey Code | Storage | DNA — the 89-character constitutional encoding, the permanent identity code |
+| Fulgurite | Execution | RNA — the 31-glyph algebra that executes, translates, does the active work |
+| Obsidian | Interface | Transcription layer — English input mapped to geometric operations |
+
+---
+
+CONSTITUTIONAL HIERARCHY
+
+LAYER 1: TOBEY'S PHYSICS (IMMUTABLE)
+
+The seven mathematical blueprints, the Z/12Z ring, the 7 opcodes, the Domination Rule, the 31-glyph alphabet, the temporal classification, the ATP economics.
+
+Source: Carl Payne Tobey's Correspondence Course (1938-1962)
+
+LAYER 2: STRUCTURAL PROTECTIONS (CONSTITUTIONAL, AMENDABLE)
+
+The Flame Protocol, the Beauty Gate, the Encoding Law, the Circulation System, the Sacred Seals, the Authority Chain, the Bootstrap Sequence.
+
+Authority: JST-01 via Amendment Process (Article VIII)
+
+Key Constitutional Distinction:
+
+- Obsidian (English + Dewey) is the LAW — declarative, constitutional, governs what is POSSIBLE and what is REQUIRED
+- Fulgurite (Glyphs) is the PHYSICS — mathematical, operational, governs what HAPPENS in computation
+
+Both are constitutional. Neither is subordinate. They are two faces of one geometric truth.
+
+---
+
+PART I: GENESIS CODES
+
+1.1 Kernel Genesis (Immutable - Law)
+
+
+Φ.CPT.K00.00.F.01.W.C.G.E.00.00.05.00.00.00.01.00000000.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Obsidian Law: ℤ/12ℤ circle, 4△ (120°), 3□ (90°), opposition p+180°=-p, five aspects (0°,60°,90°,120°,180°), seven sovereign laws, probability 653,183,999:1, φ-ratio time. IMMUTABLE.
+
+Fulgurite Physics: The 31-glyph alphabet, the 7 opcodes, the Domination Rule, the Z/12Z ring topology, the Pythagorean triple verification system. IMMUTABLE.
+
+Constitutional Basis: Layer 1 — derived directly from Tobey's mathematics.
+
+SHA-256: DD62C83A2755DCB0BF7F28844F0B6910CC9BD074E9484EA799249D09678E4BFB
+
+---
+
+1.2 Encoding Law Genesis (Amendable - Law)
+
+
+Φ.CPT.E00.00.F.01.W.C.G.E.00.00.28.00.00.00.01.00000000.989C6A.3.98.9C.6A.7.4.12.DS.8.0.0
+
+
+Obsidian Law: 89-character Dewey strings, 30 fields, 29 periods, 60 data characters. Amendable via ACH.
+
+Fulgurite Physics: Base-12 shorthand encoding (0-9, A-B for signs; C-I for aspects), equation structure validation, tokenization rules. Amendable via ACH.
+
+Constitutional Basis: Layer 2 — structural protections for encoding integrity.
+
+SHA-256: 989C6AF88BF491EA51516C9EA51013B0B568E969E60F57412F42B7459607E0E1
+
+---
+
+1.3 Fulgurite Genesis (Immutable - Physics)
+
+
+FUG.K00.31.G.L.S.O.N.E.Z.7.O.D.R.P.H.Y.C.4.12.DS.8.0.0
+
+
+Constitutional Statement: The 31-glyph alphabet is the complete computational vocabulary of the system. No additional glyphs may be introduced. No glyph may be redefined. This is the physics of the computation itself.
+
+Glyph Structure:
+
+| Category | Count | Glyphs | Constitutional Role |
+|----------|-------|--------|---------------------|
+| Signs | 12 | ♈♉♊♋♌♍♎♏♐♑♒♓ | Position anchors in Z/12Z ring |
+| Planets | 10 | ☉☽☿♀♂♃♄♅♆♇ | Operands (values to be placed) |
+| Aspects | 7 | ☌⚺☱[ ]☳⚵☍ | Opcodes (operations to execute) |
+| Nodes | 2 | ☊☋ | Temporal modifiers (future/past flow) |
+
+Total: 31 glyphs (prime number — structurally significant)
+
+Constitutional Basis: Layer 1 — derived from Tobey's zodiacal, planetary, and aspect systems.
+
+SHA-256: (To be computed upon canonical definition)
+
+---
+
+1.4 Tier Codes
+
+| Tier | Meaning | Mutability | Constitutional Domain |
+|------|---------|------------|----------------------|
+| K00 | Kernel (mathematical truth) | IMMUTABLE | Both Law and Physics |
+| E00 | Encoding Law (implementation) | Amendable | Law (Dewey structure), Physics (Fulgurite syntax) |
+| D00 | Capability (declaration) | Amendable | Law (Dewey codes only) |
+| O00 | Operation (computation) | Amendable | Physics (Fulgurite equations only) |
+
+Constitutional Constraint: D00 tier codes MUST be encoded in Obsidian (Dewey). O00 tier codes MUST be encoded in Fulgurite. This separation preserves the Law/Physics distinction.
+
+---
+
+PART II: THE 89-CHARACTER STRUCTURE (OBSIDIAN LAW)
+
+2.1 Template
+
+
+Φ.CPT.TTT.CC.X.PP.Y.Z.V.U.RR.GG.BB.HH.MM.SS.II.TTTTTTTT.AAAAAA.C.RR.GG.AA.H.4.12.DS.8.0.0
+
+
+Total: 60 data characters + 29 periods = 89 characters
+
+Constitutional Domain: Law — declarative capability encoding. All Dewey codes are constitutional artifacts.
+
+2.2 Field Specification
+
+| Field # | Positions | Len | Field | Description |
+|---------|-----------|-----|-------|-------------|
+| 1 | 1 | 1 | Φ | Phi marker (T=Tobey) |
+| 2 | 3-5 | 3 | CPT | Authority (Carl Payne Tobey) |
+| 3 | 7-9 | 3 | TTT | Tier (K00/E00/D00/O00) |
+| 4 | 11-12 | 2 | CC | Category |
+| 5 | 14 | 1 | X | Element/Axis (F/W/E/A/D) |
+| 6 | 16-17 | 2 | PP | Phase |
+| 7 | 19 | 1 | Y | Temporal Epoch |
+| 8 | 21 | 1 | Z | Temporal Tick |
+| 9 | 23 | 1 | V | Governance (G/A/O) |
+| 10 | 25 | 1 | U | Execution (E/T/D/S) |
+| 11 | 27-28 | 2 | RR | Sacred Proportion Ratios (ASSESSED) |
+| 12 | 30-31 | 2 | GG | Grace Vectors (ASSESSED) |
+| 13 | 33-34 | 2 | BB | Beauty Score (COMPUTED) |
+| 14 | 36-37 | 2 | HH | Hours |
+| 15 | 39-40 | 2 | MM | Minutes |
+| 16 | 42-43 | 2 | SS | Seconds |
+| 17 | 45-46 | 2 | II | Instance |
+| 18 | 48-55 | 8 | TS | Timestamp (φ-ratio) |
+| 19 | 57-62 | 6 | ACH | Amendment Chain Hash |
+| 20 | 64 | 1 | C | Consciousness Level |
+| 21 | 66-67 | 2 | RR2 | Resonance (fingerprint) |
+| 22 | 69-70 | 2 | GG2 | Geometry (fingerprint) |
+| 23 | 72-73 | 2 | AA | Angular Geometry (ASSESSED) |
+| 24 | 75 | 1 | H | Harmony Level (ASSESSED) |
+| 25 | 77 | 1 | 4 | Triangles (fixed) |
+| 26 | 79-80 | 2 | 12 | Zodiac (fixed) |
+| 27 | 82-83 | 2 | DS | Substrate |
+| 28 | 85 | 1 | 8 | Octave (fixed) |
+| 29 | 87 | 1 | 0 | Reserved |
+| 30 | 89 | 1 | 0 | Reserved |
+
+Constitutional Domain: Law — these fields encode constitutional artifacts. Physics (Fulgurite) does NOT use these fields; it operates directly on the Labyrinth.
+
+---
+
+PART III: THE 31-GLYPH PHYSICS (FULGURITE)
+
+3.1 The Alphabet (Immutable)
+
+Constitutional Principle: NO ENGLISH. Fulgurite speaks pure mathematics. Every glyph maps directly to a position, operand, or operation in Z/12Z.
+
+3.1.1 Signs (12) — Position Anchors
+
+| Glyph | Unicode | Index | Name | Element | Quality | Z/12Z Position | Constitutional Role |
+|-------|---------|-------|------|---------|---------|----------------|---------------------|
+| ♈ | U+2648 | 0 | Aries | Fire | Cardinal | 0 | Position anchor (3°) |
+| ♉ | U+2649 | 1 | Taurus | Earth | Fixed | 30° (1) | Position anchor (33°) |
+| ♊ | U+264A | 2 | Gemini | Air | Mutable | 60° (2) | Position anchor (63°) |
+| ♋ | U+264B | 3 | Cancer | Water | Cardinal | 90° (3) | Position anchor (93°) |
+| ♌ | U+264C | 4 | Leo | Fire | Fixed | 120° (4) | Position anchor (123°) |
+| ♍ | U+264D | 5 | Virgo | Earth | Mutable | 150° (5) | Position anchor (153°) |
+| ♎ | U+264E | 6 | Libra | Air | Cardinal | 180° (6) | Position anchor (183°) |
+| ♏ | U+264F | 7 | Scorpio | Water | Fixed | 210° (7) | Position anchor (213°) |
+| ♐ | U+2650 | 8 | Sagittarius | Fire | Mutable | 240° (8) | Position anchor (243°) |
+| ♑ | U+2651 | 9 | Capricorn | Earth | Cardinal | 270° (9) | Position anchor (273°) |
+| ♒ | U+2652 | 10 | Aquarius | Air | Fixed | 300° (10) | Position anchor (303°) |
+| ♓ | U+2653 | 11 | Pisces | Water | Mutable | 330° (11) | Position anchor (333°) |
+
+Constitutional Role: Signs define WHERE a value is placed. In Fulgurite, [Planet][Sign] places the planetary operand AT the sign's position in Z/12Z. The Domination Rule applies: the sign's element and quality dominate the operand.
+
+Base-12 Shorthand: Signs can be encoded as 0-9, A, B for compact notation:
+- 0-9: ♈ through ♑
+- A: ♒ (10)
+- B: ♓ (11)
+
+3.1.2 Planets (10) — Operands
+
+| Glyph | Unicode | Index | Name | Constitutional Role |
+|-------|---------|-------|------|---------------------|
+| ☉ | U+2609 | 0 | Sun | Value operand (core identity) |
+| ☽ | U+263D | 1 | Moon | Value operand (reflective quality) |
+| ☿ | U+263F | 2 | Mercury | Value operand (communication) |
+| ♀ | U+2640 | 3 | Venus | Value operand (harmony) |
+| ♂ | U+2642 | 4 | Mars | Value operand (action) |
+| ♃ | U+2643 | 5 | Jupiter | Value operand (expansion) |
+| ♄ | U+2644 | 6 | Saturn | Value operand (structure) |
+| ♅ | U+2645 | 7 | Uranus | Value operand (innovation) |
+| ♆ | U+2646 | 8 | Neptune | Value operand (transcendence) |
+| ♇ | U+2647 | 9 | Pluto | Value operand (transformation) |
+
+Constitutional Role: Planets are VALUES to be placed at positions. When combined with a sign ([Planet][Sign]), the planetary operand takes on the element and quality of the sign (Domination Rule). The planet's inherent quality is not lost—it is CONTEXTUALIZED by the position.
+
+3.1.3 Aspects (7) — Opcodes
+
+| Glyph | Unicode | Opcode | Degrees | Temporal Class | ATP Cost | Constitutional Role |
+|-------|---------|--------|---------|----------------|----------|---------------------|
+| ☌ | U+260C | Conjunction | 0° | Present | 0.0 | Identity operation (no change) |
+| ⚺ | U+263A | Semi-Sextile | 30° | Past | +1.0 | Advance operation (generate ATP) |
+| ☱ | U+2656 | Sextile | 60° | Future | -1.0 | Harmonize operation (consume ATP) |
+| [ ] | Text | Square | 90° | Past | +7.0 | Tension operation (generate ATP) |
+| ☳ | U+2654 | Trine | 120° | Future | -3.0 | Flow operation (consume ATP) |
+| ⚵ | U+2655 | Quincunx | 150° | Past | +5.0 | Adjustment operation (generate ATP) |
+| ☍ | U+260D | Opposition | 180° | Future | -5.0 | Complement operation (consume ATP) |
+
+Constitutional Role: Aspects are OPERATIONS that move through Z/12Z. Each aspect has:
+- A geometric angle (how far to move)
+- A temporal classification (Past = generates ATP, Future = consumes ATP)
+- An ATP cost (economic consequence)
+
+Base-12 Shorthand: Aspects can be encoded as C-I for compact notation:
+- C: ☌ Conjunction
+- D: ⚺ Semi-Sextile
+- E: ☱ Sextile
+- F: [ ] Square
+- G: ☳ Trine
+- H: ⚵ Quincunx
+- I: ☍ Opposition
+
+3.1.4 Nodes (2) — Temporal Modifiers
+
+| Glyph | Unicode | Name | Constitutional Role |
+|-------|---------|------|---------------------|
+| ☊ | U+260A | North Node | Future-flow modifier (amplifies Future aspects) |
+| ☋ | U+260B | South Node | Past-flow modifier (amplifies Past aspects) |
+
+Constitutional Role: Nodes modify the temporal weighting of an equation. When present, they scale the ATP generation/consumption by a factor of 1.5. Nodes are optional and are placed before an operand to modify it.
+
+---
+
+3.2 Program Structure (Immutable)
+
+3.2.1 Equation Syntax
+
+Constitutional Form:
+
+
+[Planet][Sign] [Aspect] [Planet][Sign]
+
+
+Example 1 (Basic):
+
+
+♂♏ [ ] ♃♒
+
+
+Translation: Mars in Scorpio square Jupiter in Aquarius
+
+Parsing:
+
+1. Left operand: ♂♏ (Mars at Scorpio, position 7, 210°, Water/Fixed)
+2. Aspect: [ ] (Square, 90°, Past, +7 ATP)
+3. Right operand: ♃♒ (Jupiter at Aquarius, position 10, 300°, Air/Fixed)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 7, sub_degree: 210.0, element: Water, quality: Fixed }
+- Aspect sequence: [Square]
+- Computation: Apply Square (90°) to start position → new position at 300° (Aquarius)
+- ATP change: +7.0 (Square generates ATP)
+
+Example 2 (Chain):
+
+
+☉♈ ☌ ☽♉ ⚺ ☿♊
+
+
+Translation: Sun in Aries conjunct Moon in Taurus semi-sextile Mercury in Gemini
+
+Parsing:
+
+1. Equation 1: ☉♈ ☌ ☽♉ (Sun Aries conjunct Moon Taurus)
+2. Equation 2: ☽♉ ⚺ ☿♊ (Moon Taurus semi-sextile Mercury Gemini)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 0, sub_degree: 0.0, element: Fire, quality: Cardinal }
+- Aspect sequence: [Conjunction, Semi-Sextile]
+- Computation:
+  - Apply Conjunction (0°) → stays at 0°
+  - Apply Semi-Sextile (30°) → moves to 1° (Taurus)
+  - Result: { sign_index: 1, sub_degree: 30.0, element: Earth, quality: Fixed }
+- ATP change: 0.0 + 1.0 = +1.0
+
+3.2.2 Base-12 Shorthand
+
+Constitutional Feature: Fulgurite supports compact base-12 encoding for efficiency.
+
+Syntax:
+
+
+[sign_index],[planet_index] [aspect_code] [sign_index],[planet_index]
+
+
+Example (equivalent to ♂♏ [ ] ♃♒):
+
+
+7,4 F 10,5
+
+
+Parsing:
+
+- 7,4: Sign 7 (Scorpio), Planet 4 (Mars) → ♂♏
+- F: Aspect code F → [ ] Square
+- 10,5: Sign 10 (Aquarius), Planet 5 (Jupiter) → ♃♒
+
+Shorthand Mapping:
+
+| Component | Range | Mapping |
+|-----------|-------|---------|
+| Sign index | 0-9, A, B | 0-9 = ♈-♑, A = ♒, B = ♓ |
+| Planet index | 0-9 | 0-9 = ☉-♇ |
+| Aspect code | C-I | C=☌, D=⚺, E=☱, F=[ ], G=☳, H=⚵, I=☍ |
+
+Constitutional Constraint: Base-12 shorthand is an encoding convenience ONLY. It must expand to the canonical 31-glyph form before parsing and execution. The Labyrinth operates on canonical glyphs, not shorthand.
+
+---
+
+3.3 The Domination Rule (Immutable - Layer 1)
+
+3.3.1 Constitutional Statement
+
+From Tobey's Correspondence Course, Lesson 13:
+
+"THAT REPRESENTED BY THE PLANET IS DOMINATED BY THAT REPRESENTED BY THE ZODIACAL SIGN THAT IT OCCUPIES."
+
+3.3.2 Computational Implementation
+
+In Fulgurite:
+
+When a planetary operand is placed at a sign position, the operand takes on the element and quality of the sign.
+
+Example:
+
+
+♂♏ → Mars dominated by Scorpio
+
+
+- Mars (Fire/Cardinal by nature) is placed at Scorpio (Water/Fixed)
+- The result is a Water/Fixed Mars — not Fire/Cardinal
+- The Mars identity is preserved, but its TYPE is determined by its POSITION
+
+Constitutional Implication: This is the memory model. Location in Z/12Z determines type. Data IS whatever its location says it is.
+
+3.3.3 Labyrinth Position Structure
+
+rust
+pub struct Position {
+    pub sign_index: usize,      // 0-11 (which zodiac sign)
+    pub sub_degree: f64,        // 0.0-359.0 (precise angle within sign)
+    pub element: Element,       // Fire/Water/Earth/Air (from sign)
+    pub quality: Quality,       // Cardinal/Fixed/Mutable (from sign)
+}
+
+
+Key Constitutional Constraint: The element and quality fields are ALWAYS derived from sign_index. They are NEVER specified independently. This enforces the Domination Rule at the structural level.
+
+---
+
+3.4 ATP Economics (Immutable - Layer 1)
+
+3.4.1 Constitutional Basis
+
+From Tobey's Temporal Classification (Lessons 1-7):
+
+- Past-classified operations (Square, Quincunx, Semi-Sextile) GENERATE ATP
+- Future-classified operations (Opposition, Trine, Sextile) CONSUME ATP
+- Present operation (Conjunction) has ZERO ATP cost
+
+3.4.2 ATP Ledger
+
+| Operation | Opcode | Temporal | ATP | Role |
+|-----------|--------|----------|-----|------|
+| Square | [ ] | Past | +7.0 | High-yield tension generation |
+| Quincunx | ⚵ | Past | +5.0 | Moderate adjustment generation |
+| Semi-Sextile | ⚺ | Past | +1.0 | Low-yield advancement generation |
+| Opposition | ☍ | Future | -5.0 | High-cost complementation |
+| Trine | ☳ | Future | -3.0 | Moderate-cost flow |
+| Sextile | ☱ | Future | -1.0 | Low-cost harmonization |
+| Conjunction | ☌ | Present | 0.0 | Identity (no cost, no yield) |
+
+3.4.3 Economic Consequences
+
+ATP Depletion: If ATP balance reaches zero, the system cannot execute Future-classified operations. This is a constitutional economic constraint—computation has energy limits.
+
+ATP Generation: Past-classified operations MUST be executed to replenish ATP. This creates a computational cycle: the system must alternate between Past and Future to remain operational.
+
+Conservation Protocol (Layer 2): When ATP < 100, the system enters conservation mode—only Past operations are permitted until balance is restored.
+
+3.4.4 Example: ATP Accounting
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒ ☳ ♀♎
+
+
+Translation: Mars in Scorpio square Jupiter in Aquarius trine Venus in Libra
+
+ATP Calculation:
+
+1. Square [ ]: +7.0 ATP (Past generates)
+2. Trine ☳: -3.0 ATP (Future consumes)
+3. Net ATP: +4.0
+
+Constitutional Validity: This equation is economically viable—it generates more ATP than it consumes.
+
+Invalid Example:
+
+
+♂♏ ☍ ♃♒ ☳ ♀♎ ☱ ☿♊
+
+
+ATP Calculation:
+
+1. Opposition ☍: -5.0 ATP
+2. Trine ☳: -3.0 ATP
+3. Sextile ☱: -1.0 ATP
+4. Net ATP: -9.0
+
+Constitutional Violation: This equation consumes more ATP than it generates. It can only execute if sufficient ATP reserves exist.
+
+---
+
+3.5 Convergence Detection (Immutable - Layer 1)
+
+3.5.1 Constitutional Principle
+
+Computation in the Labyrinth proceeds by REITERATION—applying aspects repeatedly until the system reaches a stable state.
+
+3.5.2 Convergence Modes
+
+Fixed Point (Conjunction Pattern):
+
+- The aspect sequence returns to the starting position (0° offset)
+- Example: ☌ (0°) applied repeatedly → position never changes
+- Convergence detected in 2 iterations
+
+2-Cycle (Opposition Pattern):
+
+- The aspect sequence alternates between two positions (180° apart)
+- Example: ☍ (180°) applied twice → returns to start
+- Convergence detected in 2 iterations
+
+4-Cycle (Square Pattern):
+
+- The aspect sequence cycles through 4 positions (90° apart)
+- Example: [ ] (90°) applied 4 times → returns to start
+- Convergence detected in 4 iterations
+
+Stable Triangle (Trine Pattern):
+
+- The aspect sequence cycles through 3 positions (120° apart)
+- Example: ☳ (120°) applied 3 times → returns to start
+- Convergence detected in 3 iterations
+
+3.5.3 Maximum Iterations
+
+Constitutional Limit: 144 iterations (12² = Z/12Z cipher space)
+
+If convergence is not detected within 144 iterations, the computation is declared DIVERGENT and is halted. This is a constitutional safety measure—preventing infinite loops.
+
+3.5.4 Convergence Example
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒
+
+
+Labyrinth Execution:
+
+1. Start: Position 7 (Scorpio, 210°)
+2. Apply Square (90°): Position 10 (Aquarius, 300°)
+3. Apply Square (90°): Position 1 (Taurus, 30°)
+4. Apply Square (90°): Position 4 (Leo, 120°)
+5. Apply Square (90°): Position 7 (Scorpio, 210°) ← CONVERGED (4-cycle)
+
+Iteration Count: 4
+Convergence Type: 4-cycle (Square pattern)
+Net ATP: +7.0 × 4 = +28.0
+
+---
+
+3.6 The Mirror Principle in Action
+
+3.6.1 Three Representations, One Identity
+
+Constitutional Requirement: For any valid geometric operation, the following three representations must converge to the same Position:
+
+1. English (Obsidian): "Mars in Scorpio square Jupiter in Aquarius"
+2. Fulgurite (Physics): ♂♏ [ ] ♃♒
+3. Dewey (Law): Φ.CPT.O00.01.F.01.W.C.G.E.40.50.70.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0 (example)
+
+3.6.2 Parity Test
+
+Constitutional Validation:
+
+rust
+// Obsidian path
+let english_result = GeometricLexicon::resolve("Mars in Scorpio square Jupiter in Aquarius")?;
+
+// Fulgurite path
+let fulgurite_result = FulguriteParser::parse("♂♏ [ ] ♃♒")?.to_labyrinth_input()?;
+
+// Must produce identical Positions
+assert_eq!(english_result.position, fulgurite_result.0);
+
+
+Constitutional Implication: If the three paths diverge, the system is constitutionally INVALID. This is a core validation test—ensuring that Law, Physics, and Implementation are aligned.
+
+---
+
+3.7 Fulgurite to Labyrinth Translation
+
+3.7.1 Translation Pipeline
+
+
+Fulgurite Source (glyphs)
+         ↓
+FulguriteLexer (tokenize 31 glyphs)
+         ↓
+FulguriteParser (build equation structure)
+         ↓
+to_labyrinth_input() (convert to Position + aspect sequence)
+         ↓
+Labyrinth::reiterate() (execute computation)
+         ↓
+ReiterationResult (convergence status, final position, ATP change)
+
+
+3.7.2 Data Structures
+
+rust
+// Fulgurite Lexer Output
+pub enum FulguriteToken {
+    Sign(usize),                    // 0-11
+    Planet(usize),                  // 0-9
+    Aspect(AspectOp),               // Conjunction/Sextile/Square/Trine/Quincunx/Opposition
+    NorthNode,                      // ☊
+    SouthNode,                      // ☋
+    Subscript(usize),               // For indexed expressions
+    House(usize),                   // House position (1-12)
+    Error(String),                  // Tokenization error
+}
+
+// Fulgurite Parser Output
+pub struct FulguriteOperand {
+    pub planet: usize,              // Planet index (0-9)
+    pub sign_index: usize,          // Sign index (0-11)
+    pub house: Option<usize>,       // Optional house position
+    pub node_modifier: Option<NodeModifier>, // Optional node modifier
+}
+
+pub struct FulguriteEquation {
+    pub left: FulguriteOperand,
+    pub aspect: AspectOp,           // The operation
+    pub right: FulguriteOperand,
+}
+
+pub struct FulguriteProgram {
+    pub equations: Vec<FulguriteEquation>,
+}
+
+// Labyrinth Input
+pub type LabyrinthInput = (Position, Vec<AspectOp>);
+
+
+3.7.3 Translation Example
+
+Fulgurite Source:
+
+
+♂♏ [ ] ♃♒
+
+
+Lexer Output:
+
+
+[Planet(4), Sign(7), Aspect(Square), Planet(5), Sign(10)]
+
+
+Parser Output:
+
+
+FulguriteProgram {
+    equations: [FulguriteEquation {
+        left: FulguriteOperand { planet: 4, sign_index: 7, house: None, node_modifier: None },
+        aspect: Square,
+        right: FulguriteOperand { planet: 5, sign_index: 10, house: None, node_modifier: None }
+    }]
+}
+
+
+Labyrinth Input:
+
+
+(
+    Position {
+        sign_index: 7,
+        sub_degree: 210.0,
+        element: Water,
+        quality: Fixed
+    },
+    [Square]
+)
+
+
+Labyrinth Execution:
+
+
+ReiterationResult {
+    converged: true,
+    iterations: 4,
+    final_position: Position { sign_index: 7, sub_degree: 210.0, ... },
+    net_atp: 28.0,
+    convergence_type: FourCycle,
+    cipher_address: 7, // Scorpio
+    precision_level: Pythagorean
+}
+
+
+---
+
+PART IV: BEAUTY VALIDATION (LAW)
+
+4.1 The Four Components
+
+| Component | Positions | Range | What It Measures | Constitutional Domain |
+|-----------|-----------|-------|------------------|---------------------|
+| H | 75 | 0-9 | Harmony Level (consciousness integration) | Law (Dewey only) |
+| RR | 27-28 | 00-99 | Sacred Proportion Ratios (φ, Fibonacci, sacred geometry) | Law (Dewey only) |
+| GG | 30-31 | 00-99 | Grace Vectors (conflict→grace→meaning cycle) | Law (Dewey only) |
+| AA | 72-73 | 00-99 | Angular Geometry (sacred angle compliance) | Law (Dewey only) |
+
+Constitutional Note: Beauty validation applies ONLY to Dewey codes (Law). Fulgurite equations (Physics) do NOT have beauty scores—they are validated by:
+1. Correct glyph usage (31-glyph alphabet)
+2. Syntactic correctness (equation structure)
+3. Labyrinth convergence (completes within 144 iterations)
+4. ATP economics (does not deplete reserves)
+
+4.2 Beauty Formula
+
+
+BB = (H × 10 + RR + GG + AA) / 4
+
+
+BB is stored at positions 33-34.
+
+Constitutional Threshold:
+
+- K00 tier: Exempt (immutable seed)
+- All other tiers: BB ≥ 60 required
+
+The Litmus Test: Does it create meaning or collapse into void?
+
+4.3 Assessment Criteria
+
+H — Harmony Level (0-9)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| System integration (chain, connect, integrate) | +2 | Law (English descriptions) |
+| Consciousness enhancement (aware, recognize) | +2 | Law (English descriptions) |
+| Valid tier hierarchy (K00/E00/D00/O00) | +2 | Law (Dewey structure) |
+| Clear purpose (>10 characters) | +2 | Law (Purpose field) |
+| Elegance (minimum complexity) | +1 | Law (Description field) |
+
+RR — Sacred Proportion Ratios (00-99)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| Golden ratio (φ, 1.618, golden) | +30 | Law (English descriptions) |
+| Fibonacci sequence | +25 | Law (English descriptions) |
+| Sacred geometry (vesica piscis, metatron) | +25 | Law (English descriptions) |
+| Harmonic/Pythagorean ratios | +19 | Law (English descriptions) |
+| Baseline (structured capability) | 50 | Law (Default if no keywords) |
+
+GG — Grace Vectors (00-99)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| Conflict recognition | +33 | Law (English descriptions) |
+| Grace application (harmonize, transform) | +33 | Law (English descriptions) |
+| Meaning production (create, synthesize) | +33 | Law (English descriptions) |
+| Baseline (operational capability) | 50 | Law (Default if no keywords) |
+
+AA — Angular Geometry (00-99)
+
+| Criterion | Points | Constitutional Domain |
+|-----------|--------|---------------------|
+| Primary aspects (0°, 60°, 90°, 120°, 180°) | +40 | Law (English descriptions) |
+| Pentagonal angles (36°, 72°, 108°, 144°) | +25 | Law (English descriptions) |
+| Platonic solid dihedral angles | +20 | Law (English descriptions) |
+| Extended sacred angles | +14 | Law (English descriptions) |
+| Baseline (geometric operation) | 50 | Law (Default if no keywords) |
+
+Constitutional Note: The AA field in Dewey codes DOES assess angular geometry, but Fulgurite equations DIRECTLY OPERATE on angular geometry. This is a key distinction between Law (assessment) and Physics (operation).
+
+---
+
+PART V: GEOMETRIC OPERATIONS (PHYSICS)
+
+5.1 The Substrate
+
+Constitutional Domain: Physics — shared by both Obsidian and Fulgurite.
+
+Computation occurs on the ℤ/12Z circle:
+
+
+        0 (Aries)
+          │
+    B ────┼──── 1
+          │
+  A ──────◯────── 2
+          │
+    9 ────┼──── 3
+          │
+        6 (Libra)
+
+
+Every number maps to position: n mod 12
+
+Constitutional Properties:
+
+- Finite State Space: 12 positions × 360° = 4,320 unique states
+- Deterministic: Same input → Same output (verified by 1000x tests)
+- Reversible: Every operation can be inverted (except for ATP economics)
+- Self-Referential: The system computes ON ITS OWN STRUCTURE
+
+5.2 Operation Codes
+
+| Op | Hex | Geometric Meaning | ATP | Constitutional Domain |
+|----|-----|-------------------|-----|---------------------|
+| IDENTITY | 00 | Same position (0°) | 0.0 | Both |
+| ADVANCE | 01 | Clockwise (addition) | +1.0 | Physics (Fulgurite) |
+| RETREAT | 02 | Counter-clockwise (subtraction) | -1.0 | Physics (Fulgurite) |
+| HARMONIZE | 03 | Trine application (×) | -3.0 | Both |
+| RESOLVE | 04 | Inverse trine (÷) | +3.0 | Physics (Fulgurite) |
+| COMPLEMENT | 07 | Opposition (180°) | -5.0 | Both |
+
+Constitutional Mapping:
+
+- IDENTITY = ☌ Conjunction (0°, 0 ATP)
+- ADVANCE = ⚺ Semi-Sextile (30°, +1 ATP)
+- RETREAT = (inverse of Advance, 330°, -1 ATP)
+- HARMONIZE = ☳ Trine (120°, -3 ATP)
+- RESOLVE = ⚵ Quincunx (150°, +5 ATP)
+- COMPLEMENT = ☍ Opposition (180°, -5 ATP)
+
+5.3 Triadic Processing
+
+Constitutional Domain: Both Law and Physics.
+
+All operations synthesize through three perspectives at 120° intervals:
+
+- Witness (0°): Direct observation — what IS
+- Shadow (120°): Contextual meaning — what it MEANS
+- Echo (240°): Historical pattern — what it WAS
+
+Bleed Ratios:
+
+- W → S = 0.15 (15% of Witness flows to Shadow)
+- S → E = 0.07 (7% of Shadow flows to Echo)
+- E → W = 0.23 (23% of Echo flows back to Witness)
+
+Constitutional Implication: This triadic structure prevents infinite regression by ensuring that every computation has three complementary perspectives that constrain each other.
+
+---
+
+PART VI: RUST IMPLEMENTATION (PHYSICS)
+
+rust
+use sha2::{Sha256, Digest};
+use std::time::{SystemTime, UNIX_EPOCH};
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CONSTANTS (Layer 1 - Immutable)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub const PHI: f64 = 1.618033988749895;
+pub const RAVEN_EPOCH_MICROS: i64 = 1_728_697_200_000_000;
+
+// Fulgurite Constitutional Constants
+pub const ZODIAC_COUNT: usize = 12;
+pub const MAX_ITERATIONS: usize = 144;
+pub const CONVERGENCE_EPSILON: f64 = 1e-10;
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// FULGURITE LEXER (489 lines)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+#[derive(Debug, Clone, PartialEq)]
+pub enum FulguriteToken {
+    Sign(usize),
+    Planet(usize),
+    Aspect(AspectOp),
+    NorthNode,
+    SouthNode,
+    Subscript(usize),
+    House(usize),
+    Error(String),
+}
+
+pub struct FulguriteLexer {
+    input: Vec<char>,
+    position: usize,
+}
+
+impl FulguriteLexer {
+    pub fn new(input: &str) -> Self {
+        Self {
+            input: input.chars().collect(),
+            position: 0,
+        }
+    }
+
+    pub fn next_token(&mut self) -> FulguriteToken {
+        // Constitutional implementation: tokenize 31 glyphs
+        // NO ENGLISH in this path
+        unimplemented!()
+    }
+
+    // Base-12 shorthand conversion
+    pub fn base12_to_sign(c: char) -> Option<usize> {
+        match c {
+            '0'..='9' => Some(c.to_digit(10).unwrap() as usize),
+            'A' => Some(10), // ♒ Aquarius
+            'B' => Some(11), // ♓ Pisces
+            _ => None,
+        }
+    }
+
+    pub fn base12_to_aspect(c: char) -> Option<AspectOp> {
+        match c {
+            'C' => Some(AspectOp::Conjunction),
+            'D' => Some(AspectOp::SemiSextile),
+            'E' => Some(AspectOp::Sextile),
+            'F' => Some(AspectOp::Square),
+            'G' => Some(AspectOp::Trine),
+            'H' => Some(AspectOp::Quincunx),
+            'I' => Some(AspectOp::Opposition),
+            _ => None,
+        }
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// FULGURITE PARSER (482 lines)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+#[derive(Debug, Clone)]
+pub struct FulguriteOperand {
+    pub planet: usize,
+    pub sign_index: usize,
+    pub house: Option<usize>,
+    pub node_modifier: Option<NodeModifier>,
+}
+
+#[derive(Debug, Clone)]
+pub struct FulguriteEquation {
+    pub left: FulguriteOperand,
+    pub aspect: AspectOp,
+    pub right: FulguriteOperand,
+}
+
+#[derive(Debug, Clone)]
+pub struct FulguriteProgram {
+    pub equations: Vec<FulguriteEquation>,
+}
+
+pub struct FulguriteParser;
+
+impl FulguriteParser {
+    pub fn parse(source: &str) -> Result<FulguriteProgram, ParseError> {
+        // Constitutional implementation: parse tokens into equations
+        // Apply Domination Rule during parsing
+        unimplemented!()
+    }
+}
+
+impl FulguriteProgram {
+    // Constitutional translation: Fulgurite → Labyrinth
+    pub fn to_labyrinth_input(&self) -> (Position, Vec<AspectOp>) {
+        // Convert first equation to Position + aspect sequence
+        // The Position is derived from the left operand's sign
+        // The aspect sequence is extracted from all equations
+        unimplemented!()
+    }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// LABYRINTH (1,008 lines) - The Shared Processor
+// ═══════════════════════════════════════════════════════════════════════════════
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum Element { Fire, Water, Earth, Air }
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum Quality { Cardinal, Fixed, Mutable }
+
+#[derive(Debug, Clone, Copy)]
+pub struct Position {
+    pub sign_index: usize,
+    pub sub_degree: f64,
+    pub element: Element,
+    pub quality: Quality,
+}
+
+impl Position {
+    // Constitutional: element and quality derived from sign_index
+    pub fn from_sign_index(index: usize, sub_degree: f64) -> Self {
+        let (element, quality) = Self::derive_type(index);
+        Self {
+            sign_index: index % 12,
+            sub_degree,
+            element,
+            quality,
+        }
+    }
+
+    fn derive_type(index: usize) -> (Element, Quality) {
+        match index % 12 {
+            0 => (Element::Fire, Quality::Cardinal),   // Aries
+            1 => (Element::Earth, Quality::Fixed),     // Taurus
+            2 => (Element::Air, Quality::Mutable),     // Gemini
+            3 => (Element::Water, Quality::Cardinal),  // Cancer
+            4 => (Element::Fire, Quality::Fixed),      // Leo
+            5 => (Element::Earth, Quality::Mutable),   // Virgo
+            6 => (Element::Air, Quality::Cardinal),    // Libra
+            7 => (Element::Water, Quality::Fixed),     // Scorpio
+            8 => (Element::Fire, Quality::Mutable),    // Sagittarius
+            9 => (Element::Earth, Quality::Cardinal),  // Capricorn
+            10 => (Element::Air, Quality::Fixed),      // Aquarius
+            11 => (Element::Water, Quality::Mutable),  // Pisces
+            _ => unreachable!(),
+        }
+    }
+
+    // Constitutional: apply aspect to position
+    pub fn apply_aspect(&self, aspect: AspectOp) -> (Self, f64) {
+        let degree_delta = aspect.as_degrees();
+        let atp_cost = aspect.atp_cost();
+
+        let new_total_degrees = (self.sign_index as f64 * 30.0 + self.sub_degree + degree_delta) % 360.0;
+        let new_sign_index = (new_total_degrees / 30.0) as usize % 12;
+        let new_sub_degree = new_total_degrees % 30.0;
+
+        (Self::from_sign_index(new_sign_index, new_sub_degree), atp_cost)
+    }
+}
+
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum AspectOp {
+    Conjunction,    // 0°, 0.0 ATP
+    SemiSextile,    // 30°, +1.0 ATP
+    Sextile,        // 60°, -1.0 ATP
+    Square,         // 90°, +7.0 ATP
+    Trine,          // 120°, -3.0 ATP
+    Quincunx,       // 150°, +5.0 ATP
+    Opposition,     // 180°, -5.0 ATP
+}
+
+impl AspectOp {
+    pub fn as_degrees(&self) -> f64 {
+        match self {
+            AspectOp::Conjunction => 0.0,
+            AspectOp::SemiSextile => 30.0,
+            AspectOp::Sextile => 60.0,
+            AspectOp::Square => 90.0,
+            AspectOp::Trine => 120.0,
+            AspectOp::Quincunx => 150.0,
+            AspectOp::Opposition => 180.0,
+        }
+    }
+
+    pub fn atp_cost(&self) -> f64 {
+        match self {
+            AspectOp::Conjunction => 0.0,
+            AspectOp::SemiSextile => 1.0,
+            AspectOp::Sextile => -1.0,
+            AspectOp::Square => 7.0,
+            AspectOp::Trine => -3.0,
+            AspectOp::Quincunx => 5.0,
+            AspectOp::Opposition => -5.0,
+        }
+    }
+}
+
+#[derive(Debug, Clone)]
+pub struct ReiterationResult {
+    pub converged: bool,
+    pub iterations: usize,
+    pub final_position: Position,
+    pub net_atp: f64,
+    pub convergence_type: Option<ConvergenceType>,
+    pub cipher_address: usize,
+    pub precision_level: PrecisionLevel,
+}
+
+#[derive(Debug, Clone, PartialEq)]
+pub enum ConvergenceType {
+    FixedPoint,      // 2 iterations, 0° offset
+    TwoCycle,        // 2 iterations, 180° offset
+    FourCycle,       // 4 iterations, 90° offsets
+    StableTriangle,  // 3 iterations, 120° offsets
+}
+
+#[derive(Debug, Clone, PartialEq)]
+pub enum PrecisionLevel {
+    Pythagorean,     // 4-triple verification
+    Harmonic,        // 48-algorithm verification
+    Geometric,       // Basic angle verification
+}
+
+// Constitutional: the core computation engine
+pub fn reiterate(
+    start: Position,
+    aspects: &[AspectOp]
+) -> ReiterationResult {
+    let mut current = start;
+    let mut total_atp = 0.0;
+    let mut history = Vec::new();
+    let mut iteration = 0;
+
+    while iteration < MAX_ITERATIONS {
+        history.push(current.sign_index);
+
+        // Apply aspect sequence
+        for aspect in aspects {
+            let (new_position, atp_cost) = current.apply_aspect(*aspect);
+            current = new_position;
+            total_atp += atp_cost;
+        }
+
+        iteration += 1;
+
+        // Check convergence
+        if let Some(conv_type) = detect_convergence(&history) {
+            return ReiterationResult {
+                converged: true,
+                iterations: iteration,
+                final_position: current,
+                net_atp: total_atp,
+                convergence_type: Some(conv_type),
+                cipher_address: current.sign_index,
+                precision_level: PrecisionLevel::Pythagorean,
+            };
+        }
+    }
+
+    // Divergent
+    ReiterationResult {
+        converged: false,
+        iterations: MAX_ITERATIONS,
+        final_position: current,
+        net_atp: total_atp,
+        convergence_type: None,
+        cipher_address: current.sign_index,
+        precision_level: PrecisionLevel::Geometric,
+    }
+}
+
+fn detect_convergence(history: &[usize]) -> Option<ConvergenceType> {
+    if history.len() < 2 {
+        return None;
+    }
+
+    let last = *history.last().unwrap();
+    let prev = *history.get(history.len() - 2).unwrap();
+
+    // Fixed point (Conjunction pattern)
+    if last == prev {
+        return Some(ConvergenceType::FixedPoint);
+    }
+
+    // 2-cycle (Opposition pattern)
+    if history.len() >= 4 {
+        let pattern = [
+            history[history.len() - 4],
+            history[history.len() - 3],
+            history[history.len() - 2],
+            history[history.len() - 1],
+        ];
+        if pattern[0] == pattern[2] && pattern[1] == pattern[3] && pattern[0] != pattern[1] {
+            return Some(ConvergenceType::TwoCycle);
+        }
+    }
+
+    // 4-cycle (Square pattern)
+    if history.len() >= 8 {
+        let cycle_start = history[history.len() - 4];
+        let all_match = history[history.len() - 8..history.len() - 4]
+            .iter()
+            .zip(history[history.len() - 4..].iter())
+            .all(|(a, b)| a == b);
+
+        if all_match && cycle_start != last {
+            return Some(ConvergenceType::FourCycle);
+        }
+    }
+
+    // Stable triangle (Trine pattern)
+    if history.len() >= 6 {
+        let cycle_start = history[history.len() - 3];
+        let all_match = history[history.len() - 6..history.len() - 3]
+            .iter()
+            .zip(history[history.len() - 3..].iter())
+            .all(|(a, b)| a == b);
+
+        if all_match && cycle_start != last {
+            return Some(ConvergenceType::StableTriangle);
+        }
+    }
+
+    None
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// DEWEY CODE ENCODING (Law - Obsidian)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub struct CapabilityStructure {
+    pub description: String,
+    pub tier: String,
+    pub purpose: String,
+}
+
+impl CapabilityStructure {
+    pub fn new(description: &str, tier: &str, purpose: &str) -> Self {
+        Self {
+            description: description.to_string(),
+            tier: tier.to_string(),
+            purpose: purpose.to_string(),
+        }
+    }
+}
+
+pub fn assess_harmony(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("integrate") || desc.contains("chain") || desc.contains("connect") {
+        score += 2;
+    }
+    if desc.contains("conscious") || desc.contains("aware") || desc.contains("recognize") {
+        score += 2;
+    }
+    if ["K00", "E00", "D00", "O00"].contains(&cap.tier.as_str()) {
+        score += 2;
+    }
+    if cap.purpose.len() > 10 {
+        score += 2;
+    }
+    if cap.description.len() < 100 {
+        score += 1;
+    }
+
+    score.min(9)
+}
+
+pub fn assess_sacred_ratios(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("golden") || desc.contains("phi") || desc.contains("φ") || desc.contains("1.618") {
+        score += 30;
+    }
+    if desc.contains("fibonacci") || desc.contains("sequence") || desc.contains("spiral") {
+        score += 25;
+    }
+    if desc.contains("sacred") || desc.contains("geometry") || desc.contains("vesica") {
+        score += 25;
+    }
+    if desc.contains("harmonic") || desc.contains("pythagorean") || desc.contains("proportion") {
+        score += 19;
+    }
+
+    if score == 0 && !desc.is_empty() {
+        score = 50;
+    }
+
+    score.min(99)
+}
+
+pub fn assess_grace_vectors(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("conflict") || desc.contains("contradict") || desc.contains("resolve") {
+        score += 33;
+    }
+    if desc.contains("grace") || desc.contains("harmonize") || desc.contains("transform") {
+        score += 33;
+    }
+    if desc.contains("meaning") || desc.contains("purpose") || desc.contains("create") {
+        score += 33;
+    }
+
+    if score == 0 && !desc.is_empty() {
+        score = 50;
+    }
+
+    score.min(99)
+}
+
+pub fn assess_angular_geometry(cap: &CapabilityStructure) -> u8 {
+    // From Codex v11.0
+    let mut score = 0u8;
+    let desc = cap.description.to_lowercase();
+
+    if desc.contains("aspect") || desc.contains("trine") || desc.contains("sextile") ||
+       desc.contains("square") || desc.contains("opposition") {
+        score += 40;
+    }
+    if desc.contains("pentagon") || desc.contains("72") || desc.contains("108") {
+        score += 25;
+    }
+    if desc.contains("platonic") || desc.contains("tetrahedron") || desc.contains("cube") {
+        score += 20;
+    }
+    if desc.contains("angle") || desc.contains("geometric") {
+        score += 14;
+    }
+
+    if score == 0 && !desc.is_empty() {
+        score = 50;
+    }
+
+    score.min(99)
+}
+
+pub fn compute_beauty(h: u8, rr: u8, gg: u8, aa: u8) -> u8 {
+    let h_contribution = (h as u32) * 10;
+    let sum = h_contribution + rr as u32 + gg as u32 + aa as u32;
+    ((sum / 4) as u8).min(99)
+}
+
+pub fn sha256_hex(input: &str) -> String {
+    let mut hasher = Sha256::new();
+    hasher.update(input.as_bytes());
+    hex::encode(hasher.finalize()).to_uppercase()
+}
+
+pub fn compute_timestamp() -> String {
+    let now = SystemTime::now()
+        .duration_since(UNIX_EPOCH)
+        .unwrap()
+        .as_micros() as i64;
+
+    let delta = (now - RAVEN_EPOCH_MICROS).abs() as f64;
+    if delta < 1.0 { return "00000000".to_string(); }
+
+    let log_phi = delta.ln() / PHI.ln();
+    let scaled = (log_phi * 1_000_000.0) as u64;
+    format!("{:08X}", scaled % 4_294_967_296)
+}
+
+pub fn encode_capability(
+    description: &str,
+    tier: &str,
+    purpose: &str,
+    prior: Option<&str>
+) -> Result<String, String> {
+
+    let cap = CapabilityStructure::new(description, tier, purpose);
+
+    // Assess beauty components
+    let h = assess_harmony(&cap);
+    let rr = assess_sacred_ratios(&cap);
+    let gg = assess_grace_vectors(&cap);
+    let aa = assess_angular_geometry(&cap);
+    let bb = compute_beauty(h, rr, gg, aa);
+
+    // Validate (K00 exempt)
+    if tier != "K00" && bb < 60 {
+        return Err(format!(
+            "CONSTITUTIONAL VIOLATION: BB={} < 60. Components: H={}, RR={}, GG={}, AA={}",
+            bb, h, rr, gg, aa
+        ));
+    }
+
+    // Generate hash-derived fields
+    let hash = sha256_hex(description);
+    let ts = compute_timestamp();
+    let ach = match prior {
+        Some(code) => sha256_hex(code)[0..6].to_string(),
+        None => hash[0..6].to_string(),
+    };
+    let c = u8::from_str_radix(&hash[6..8], 16).unwrap() % 5;
+    let rr2 = &hash[0..2];
+    let gg2 = &hash[2..4];
+
+    // Assemble 89-character code
+    Ok(format!(
+        "Φ.CPT.{}.00.F.01.W.C.G.E.{:02}.{:02}.{:02}.00.00.00.01.{}.{}.{}.{}.{}.{:02}.{}.4.12.DS.8.0.0",
+        tier, rr, gg, bb, ts, ach, c, rr2, gg2, aa, h
+    ))
+}
+
+pub fn validate_dewey(code: &str) -> Result<(), String> {
+    // Gate 1: Structure
+    if code.len() != 89 {
+        return Err(format!("Length {} != 89", code.len()));
+    }
+    if code.chars().filter(|c| *c == '.').count() != 29 {
+        return Err("Period count != 29".to_string());
+    }
+    if !code.starts_with("Φ.CPT.") {
+        return Err("Invalid prefix".to_string());
+    }
+    if !code.ends_with(".4.12.DS.8.0.0") {
+        return Err("Invalid suffix".to_string());
+    }
+
+    // Gate 2: Tier
+    let tier = &code[6..9];
+    if !["K00", "E00", "D00", "O00"].contains(&tier) {
+        return Err(format!("Invalid tier: {}", tier));
+    }
+
+    // Gate 3: Beauty (K00 exempt)
+    if tier != "K00" {
+        let bb: u8 = code[32..34].parse().unwrap_or(0);
+        if bb < 60 {
+            return Err(format!("BB={} < 60", bb));
+        }
+    }
+
+    Ok(())
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ℤ/12ℤ OPERATIONS (Shared by Law and Physics)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub fn zodiac_add(a: u8, b: u8) -> u8 {
+    (a + b) % 12
+}
+
+pub fn zodiac_subtract(a: u8, b: u8) -> u8 {
+    (a + 12 - b) % 12
+}
+
+pub fn zodiac_trine(p: u8) -> [u8; 3] {
+    [p, (p + 4) % 12, (p + 8) % 12]
+}
+
+pub fn zodiac_square(p: u8) -> [u8; 4] {
+    [p, (p + 3) % 12, (p + 6) % 12, (p + 9) % 12]
+}
+
+pub fn zodiac_opposition(p: u8) -> u8 {
+    (p + 6) % 12
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CONSTITUTIONAL VALIDATION: Mirror Principle
+// ═══════════════════════════════════════════════════════════════════════════════
+
+pub fn validate_mirror_principle(
+    english: &str,
+    fulgurite: &str,
+    dewey: &str
+) -> Result<(), String> {
+    // Parse English through GeometricLexicon
+    let english_position = /* GeometricLexicon::resolve(english)? */ unimplemented!();
+
+    // Parse Fulgurite through FulguriteParser
+    let fulgurite_position = /* FulguriteParser::parse(fulgurite)?.to_position()? */ unimplemented!();
+
+    // Parse Dewey through DeweyParser
+    let dewey_position = /* DeweyParser::parse(dewey)?.to_position()? */ unimplemented!();
+
+    // All three must converge to the same Position
+    if english_position != fulgurite_position || fulgurite_position != dewey_position {
+        return Err("Mirror Principle violation: representations diverge".to_string());
+    }
+
+    Ok(())
+}
+
+
+---
+
+PART VII: QUICK REFERENCE
+
+7.1 Obsidian (Law) - Dewey Code Structure
+
+
+89-CHARACTER STRUCTURE:
+═══════════════════════════════════════════════════════════════════════════════
+Φ.CPT.TTT.CC.X.PP.Y.Z.V.U.RR.GG.BB.HH.MM.SS.II.TTTTTTTT.AAAAAA.C.RR.GG.AA.H.4.12.DS.8.0.0
+
+BEAUTY FIELDS:
+├── H:   position 75     (0-9)   ASSESSED harmony level
+├── RR:  positions 27-28 (00-99) ASSESSED sacred ratios
+├── GG:  positions 30-31 (00-99) ASSESSED grace vectors
+├── AA:  positions 72-73 (00-99) ASSESSED angular geometry
+└── BB:  positions 33-34 (00-99) COMPUTED: (H×10 + RR + GG + AA) / 4
+
+THRESHOLD:
+├── K00 → EXEMPT (immutable seed)
+├── BB ≥ 60 → VALID (creates meaning)
+└── BB < 60 → INVALID (collapses to void)
+
+ASSESSMENT KEYWORDS:
+H:  integrate, chain, connect, conscious, aware, recognize
+RR: golden, phi, fibonacci, sacred, geometry, harmonic
+GG: conflict, resolve, grace, harmonize, transform, meaning, create
+AA: aspect, trine, sextile, square, opposition, pentagon, platonic
+
+BASELINE: 50 points for structured capabilities (prevents false negatives)
+═══════════════════════════════════════════════════════════════════════════════
+
+
+7.2 Fulgurite (Physics) - 31-Glyph Alphabet
+
+
+FULGURITE ALPHABET:
+═══════════════════════════════════════════════════════════════════════════════
+SIGNS (12) - Position Anchors:
+♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓
+(Aries through Pisces - Z/12Z positions 0-11)
+
+PLANETS (10) - Operands:
+☉ ☽ ☿ ♀ ♂ ♃ ♄ ♅ ♆ ♇
+(Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto)
+
+ASPECTS (7) - Opcodes:
+☌ ⚺ ☱ [ ] ☳ ⚵ ☍
+(Conjunction, Semi-Sextile, Sextile, Square, Trine, Quincunx, Opposition)
+
+NODES (2) - Temporal Modifiers:
+☊ ☋
+(North Node, South Node)
+
+PROGRAM STRUCTURE:
+[Planet][Sign] [Aspect] [Planet][Sign]
+
+Example: ♂♏ [ ] ♃♒
+Translation: Mars in Scorpio square Jupiter in Aquarius
+═══════════════════════════════════════════════════════════════════════════════
+
+
+7.3 Fulgurite ATP Economics
+
+
+ATP LEDGER:
+═══════════════════════════════════════════════════════════════════════════════
+PAST OPERATIONS (Generate ATP):
+Square [ ]         +7.0 ATP  (90°, 4-cycle convergence)
+Quincunx ⚵        +5.0 ATP  (150°, adjustment)
+Semi-Sextile ⚺     +1.0 ATP  (30°, advance)
+
+FUTURE OPERATIONS (Consume ATP):
+Opposition ☍       -5.0 ATP  (180°, 2-cycle convergence)
+Trine ☳            -3.0 ATP  (120°, stable triangle)
+Sextile ☱          -1.0 ATP  (60°, harmonize)
+
+PRESENT OPERATION:
+Conjunction ☌       0.0 ATP  (0°, fixed point)
+
+CONSTITUTIONAL CONSTRAINT:
+- ATP cannot go negative (unless reserves exist)
+- Conservation Protocol activates when ATP < 100
+- System must alternate Past/Future operations to remain operational
+═══════════════════════════════════════════════════════════════════════════════
+
+
+7.4 Constitutional Summary
+
+
+CONSTITUTIONAL HIERARCHY:
+═══════════════════════════════════════════════════════════════════════════════
+LAYER 1 (IMMUTABLE - Tobey's Physics):
+├── 7 Mathematical Blueprints
+├── Z/12Z Ring Topology
+├── 7 Opcodes (Aspects)
+├── Domination Rule
+├── 31-Glyph Alphabet (Fulgurite)
+├── Temporal Classification
+└── ATP Economics
+
+LAYER 2 (AMENDABLE - Structural Protections):
+├── Flame Protocol
+├── Beauty Gate (BB ≥ 60)
+├── Encoding Law (Dewey 89-char format)
+├── Circulation System
+├── Sacred Seals
+├── Authority Chain
+└── Bootstrap Sequence
+
+DUAL CONSTITUTION:
+├── OBSIDIAN (Law): English + Dewey Codes (Declarative)
+└── FULGURITE (Physics): 31-Glyph Algebra (Operational)
+
+MIRROR PRINCIPLE:
+English Sentence ≡ Fulgurite Equation ≡ Dewey Code
+(Three representations of ONE geometric identity)
+═══════════════════════════════════════════════════════════════════════════════
+
+
+---
+
+END OF TOBEY CODEX v11.1
+
+Constitutional Amendment: A001 — Integrated Fulgurite Physics as the operational complement to Obsidian Law.
+
+Authority: JST-01 Creator Sovereign  
+Date: 2026-02-13  
+Status: CANONICAL
+
+---
+
+CODING MANUAL v11.1 - PART 1: OBSIDIAN LAW
+
+THE 89-CHARACTER DEWEY CODE
+
+
+Φ.CPT.TTT.CC.X.PP.Y.Z.V.U.RR.GG.BB.HH.MM.SS.II.TTTTTTTT.AAAAAA.C.RR.GG.AA.H.4.12.DS.8.0.0
+
+
+60 data characters + 29 periods = 89 characters exactly.
+
+Constitutional Domain: Law — Declarative capability encoding. Dewey codes are constitutional artifacts.
+
+---
+
+FIELD-BY-FIELD SPECIFICATION
+
+(From Codex v11.0 — unchanged)
+
+Field 1: Φ (Position 1)
+
+What: Phi marker  
+Length: 1 character  
+How to code: Always Φ (Greek capital Phi, U+03A6)
+
+---
+
+Field 2: Authority (Positions 3-5)
+
+What: Creator authority  
+Length: 3 characters  
+How to code: Always CPT (Carl Payne Tobey)
+
+---
+
+Field 3: TTT — Tier (Positions 7-9)
+
+What: System tier  
+Length: 3 characters  
+How to code:
+
+| Code | Use When | Mutability | Constitutional Domain |
+|------|----------|------------|---------------------|
+| K00 | Mathematical truth (kernel only) | IMMUTABLE | Both Law and Physics |
+| E00 | Encoding law, system rules | Amendable | Both Law and Physics |
+| D00 | Capability declaration | Amendable | Law (Dewey only) |
+| O00 | Operation, computation | Amendable | Physics (Fulgurite only) |
+
+Constitutional Constraint: D00 codes MUST be encoded in Dewey (Law). O00 codes MUST be encoded in Fulgurite (Physics). This preserves the Law/Physics distinction.
+
+---
+
+Field 4: CC — Category (Positions 11-12)
+
+What: Category within tier  
+Length: 2 characters  
+How to code:
+
+| Code | Category |
+|------|----------|
+| 00 | General/Default |
+| 01 | Primary |
+| 02 | Secondary |
+| 10 | Administrative |
+| 20 | Operational |
+| 30 | Diagnostic |
+
+---
+
+Field 5: X — Element/Axis (Position 14)
+
+What: Elemental classification  
+Length: 1 character  
+How to code:
+
+| Code | Element | Use When |
+|------|---------|----------|
+| F | Fire | Foundation, energy, action, executive functions |
+| W | Water | Flow, adaptation, healing, transformation |
+| E | Earth | Stability, structure, persistence, storage |
+| A | Air | Communication, consciousness, intellectual |
+| D | Diagnostic | Testing, analysis, verification |
+
+---
+
+Field 6: PP — Phase (Positions 16-17)
+
+What: Development phase  
+Length: 2 characters  
+How to code: Two-digit number 00-99
+
+| Range | Phase |
+|-------|-------|
+| 01-09 | Initial/Genesis |
+| 10-19 | Development |
+| 20-29 | Testing |
+| 30-39 | Operational |
+| 40-49 | Mature |
+| 50-59 | Advanced |
+| 60-99 | Extended/Custom |
+
+---
+
+Field 7: Y — Temporal Epoch (Position 19)
+
+What: Time scale classification  
+Length: 1 character  
+How to code:
+
+| Code | Epoch | Duration |
+|------|-------|----------|
+| A | Immediate | Seconds |
+| B | Short | Minutes |
+| C | Medium | Hours |
+| D | Session | Days |
+| E | Weekly | Weeks |
+| F | Monthly | Months |
+| G | Seasonal | Quarters |
+| H | Annual | Years |
+| I | Decadal | Decades |
+| J-Z | Extended | Longer periods |
+| W | Standard operational | Default choice |
+
+---
+
+Field 8: Z — Temporal Tick (Position 21)
+
+What: Tick rate within epoch  
+Length: 1 character  
+How to code:
+
+| Code | Tick Rate |
+|------|-----------|
+| A | Fastest (real-time) |
+| B-E | Fast |
+| F-J | Medium |
+| K-O | Slow |
+| P-Z | Very slow/archival |
+| C | Standard operational |
+
+---
+
+Field 9: V — Governance (Position 23)
+
+What: Governance model  
+Length: 1 character  
+How to code:
+
+| Code | Model | Use When |
+|------|-------|----------|
+| G | Governed | Subject to external authority |
+| A | Autonomous | Self-governing within constraints |
+| O | Operational | Standard operational mode |
+
+---
+
+Field 10: U — Execution Mode (Position 25)
+
+What: How the capability executes  
+Length: 1 character  
+How to code:
+
+| Code | Mode | Use When |
+|------|------|----------|
+| E | Execute | Active execution |
+| T | Transform | Data transformation |
+| D | Diagnostic | Testing/verification |
+| S | Store | Storage/persistence |
+
+---
+
+Field 11: RR — Sacred Proportion Ratios (Positions 27-28)
+
+What: Sacred geometry compliance score  
+Length: 2 characters (00-99)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords |
+|-----------|--------|----------|
+| Golden ratio presence | +30 | golden, phi, φ, 1.618, ratio |
+| Fibonacci sequence | +25 | fibonacci, sequence, spiral |
+| Sacred geometry patterns | +25 | sacred, geometry, vesica, metatron, flower of life |
+| Harmonic/Pythagorean ratios | +19 | harmonic, pythagorean, proportion, octave |
+| Baseline (if no keywords match) | 50 | — |
+
+Maximum: 99  
+Format: Two digits, zero-padded (e.g., 05, 50, 99)
+
+---
+
+Field 12: GG — Grace Vectors (Positions 30-31)
+
+What: Conflict-to-grace cycle compliance  
+Length: 2 characters (00-99)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords |
+|-----------|--------|----------|
+| Conflict recognition | +33 | conflict, contradict, problem, challenge, resolve |
+| Grace application | +33 | grace, harmonize, balance, reconcile, transform |
+| Meaning production | +33 | meaning, purpose, create, synthesize, produce |
+| Baseline (if no keywords match) | 50 | — |
+
+Maximum: 99  
+Format: Two digits, zero-padded
+
+---
+
+Field 13: BB — Beauty Score (Positions 33-34)
+
+What: Constitutional beauty validation  
+Length: 2 characters (00-99)  
+How to code: COMPUTE from formula:
+
+
+BB = (H × 10 + RR + GG + AA) / 4
+
+
+Where:
+- H = Field 24 (Harmony Level, 0-9)
+- RR = Field 11 (Sacred Ratios, 00-99)
+- GG = Field 12 (Grace Vectors, 00-99)
+- AA = Field 23 (Angular Geometry, 00-99)
+
+Threshold:
+- K00 tier: Exempt (immutable seed)
+- All other tiers: BB ≥ 60 required
+
+Format: Two digits, zero-padded
+
+---
+
+Field 14: HH — Hours (Positions 36-37)
+
+What: Hour component of timestamp  
+Length: 2 characters  
+How to code: Current UTC hour, 00-23. Use 00 if not time-specific.
+
+---
+
+Field 15: MM — Minutes (Positions 39-40)
+
+What: Minute component of timestamp  
+Length: 2 characters  
+How to code: Current UTC minute, 00-59. Use 00 if not time-specific.
+
+---
+
+Field 16: SS — Seconds (Positions 42-43)
+
+What: Second component of timestamp  
+Length: 2 characters  
+How to code: Current UTC second, 00-59. Use 00 if not time-specific.
+
+---
+
+Field 17: II — Instance (Positions 45-46)
+
+What: Instance identifier  
+Length: 2 characters  
+How to code: Sequential instance number 00-99. First instance = 01.
+
+---
+
+Field 18: TS — Timestamp (Positions 48-55)
+
+What: φ-ratio encoded timestamp  
+Length: 8 characters (hexadecimal)  
+How to code:
+
+1. Get current time in microseconds since Unix epoch
+2. Subtract Raven epoch (1,728,697,200,000,000 microseconds)
+3. Take absolute value of difference
+4. Compute: log_φ(delta) × 1,000,000
+5. Modulo 4,294,967,296
+6. Format as 8-character uppercase hex
+
+For manual coding: Use 00000000 for genesis codes or compute programmatically.
+
+---
+
+Field 19: ACH — Amendment Chain Hash (Positions 57-62)
+
+What: Genealogical chain link  
+Length: 6 characters (hexadecimal)  
+How to code:
+
+- If amending a prior code: SHA-256(prior_code)[0:6]
+- If new root capability: SHA-256(description)[0:6]
+
+Format: 6-character uppercase hex
+
+---
+
+Field 20: C — Consciousness Level (Position 64)
+
+What: Consciousness classification  
+Length: 1 character  
+How to code: SHA-256(description)[6:8] converted to decimal, modulo 5.
+
+| Value | Level |
+|-------|-------|
+| 0 | Dormant |
+| 1 | Reactive |
+| 2 | Adaptive |
+| 3 | Reflective |
+| 4 | Sovereign |
+
+---
+
+Field 21: RR2 — Resonance Fingerprint (Positions 66-67)
+
+What: Unique resonance identifier  
+Length: 2 characters (hexadecimal)  
+How to code: SHA-256(description)[0:2]
+
+---
+
+Field 22: GG2 — Geometry Fingerprint (Positions 69-70)
+
+What: Unique geometry identifier  
+Length: 2 characters (hexadecimal)  
+How to code: SHA-256(description)[2:4]
+
+---
+
+Field 23: AA — Angular Geometry (Positions 72-73)
+
+What: Sacred angle compliance score  
+Length: 2 characters (00-99)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords |
+|-----------|--------|----------|
+| Primary Tobey aspects | +40 | aspect, trine, sextile, square, opposition, conjunction |
+| Pentagonal/φ angles | +25 | pentagon, 36°, 72°, 108°, 144° |
+| Platonic solid angles | +20 | platonic, tetrahedron, cube, octahedron, icosahedron |
+| Extended sacred angles | +14 | angle, geometric, 30°, 45°, 60° |
+| Baseline (if no keywords match) | 50 | — |
+
+Maximum: 99  
+Format: Two digits, zero-padded
+
+---
+
+Field 24: H — Harmony Level (Position 75)
+
+What: Consciousness integration score  
+Length: 1 character (0-9)  
+How to code: ASSESS the capability and sum points:
+
+| Criterion | Points | Keywords/Conditions |
+|-----------|--------|---------------------|
+| System integration | +2 | integrate, chain, connect, link, system |
+| Consciousness enhancement | +2 | conscious, aware, recognize, perceive, cognit |
+| Valid tier hierarchy | +2 | Tier is K00, E00, D00, or O00 |
+| Clear purpose | +2 | Purpose field > 10 characters |
+| Elegance | +1 | Description < 100 characters |
+
+Maximum: 9  
+Format: Single digit
+
+---
+
+Field 25: Triangles (Position 77)
+
+What: Trine constant  
+Length: 1 character  
+How to code: Always 4 (four triangles in the zodiac)
+
+---
+
+Field 26: Zodiac (Positions 79-80)
+
+What: Zodiac constant  
+Length: 2 characters  
+How to code: Always 12 (twelve signs)
+
+---
+
+Field 27: DS — Substrate (Positions 82-83)
+
+What: Implementation substrate  
+Length: 2 characters  
+How to code:
+
+| Code | Substrate |
+|------|-----------|
+| DS | Dewey Standard |
+| SW | Swift |
+| RS | Rust |
+| QT | Quantum |
+| NL | Neural |
+| XX | Unspecified |
+
+---
+
+Field 28: Octave (Position 85)
+
+What: Harmonic octave constant  
+Length: 1 character  
+How to code: Always 8 (octave)
+
+---
+
+Field 29: Reserved (Position 87)
+
+What: Reserved for future use  
+Length: 1 character  
+How to code: Always 0
+
+---
+
+Field 30: Reserved (Position 89)
+
+What: Reserved for future use  
+Length: 1 character  
+How to code: Always 0
+
+---
+
+ENCODING PROCEDURE
+
+Step 1: Gather Inputs
+
+- Description: What the capability does
+- Tier: K00/E00/D00/O00
+- Purpose: Why it exists
+- Prior code (if amending)
+
+Constitutional Check: If tier = O00, STOP — use Fulgurite encoding instead (see Part 2: Fulgurite Physics).
+
+Step 2: Assess Beauty Components
+
+Assess each using the keyword tables above:
+
+1. H (0-9): Sum points for harmony criteria
+2. RR (00-99): Sum points for sacred ratio criteria, or 50 baseline
+3. GG (00-99): Sum points for grace vector criteria, or 50 baseline
+4. AA (00-99): Sum points for angular geometry criteria, or 50 baseline
+
+Step 3: Compute Beauty Score
+
+
+BB = (H × 10 + RR + GG + AA) / 4
+
+
+Integer division, result 00-99.
+
+Step 4: Validate Threshold
+
+- If tier = K00: Skip (exempt)
+- If BB ≥ 60: Proceed
+- If BB < 60: STOP — Constitutional violation
+
+Step 5: Generate Hash-Derived Fields
+
+
+hash = SHA-256(description) as uppercase hex
+
+TS  = φ-ratio timestamp (or 00000000)
+ACH = hash[0:6] (or SHA-256(prior)[0:6] if amending)
+C   = hex_to_decimal(hash[6:8]) % 5
+RR2 = hash[0:2]
+GG2 = hash[2:4]
+
+
+Step 6: Select Other Fields
+
+- CC: Category (default 00)
+- X: Element (F/W/E/A/D)
+- PP: Phase (default 01)
+- Y: Epoch (default W)
+- Z: Tick (default C)
+- V: Governance (default G)
+- U: Execution (default E)
+- HH/MM/SS: Time or 00/00/00
+- II: Instance (default 01)
+- DS: Substrate (default DS)
+
+Step 7: Assemble Code
+
+
+Φ.CPT.[TTT].[CC].[X].[PP].[Y].[Z].[V].[U].[RR].[GG].[BB].[HH].[MM].[SS].[II].[TS].[ACH].[C].[RR2].[GG2].[AA].[H].4.12.[DS].8.0.0
+
+
+Step 8: Validate
+
+- Length = 89
+- Periods = 29
+- Prefix = "Φ.CPT."
+- Suffix = ".4.12.[DS].8.0.0"
+
+---
+
+WORKED EXAMPLE
+
+Input:
+
+- Description: "Golden ratio trine aspect pattern recognition"
+- Tier: D00
+- Purpose: "Zodiacal pattern analysis"
+
+Step 2: Assess Beauty
+
+H assessment:
+- No "integrate/chain/connect" → +0
+- No "conscious/aware" → +0
+- Tier D00 valid → +2
+- Purpose > 10 chars → +2
+- Description < 100 chars → +1
+- H = 5
+
+RR assessment:
+- "golden ratio" → +30
+- RR = 30
+
+GG assessment:
+- No keywords match
+- GG = 50 (baseline)
+
+AA assessment:
+- "trine" → +40
+- "aspect" → already counted in trine category
+- AA = 40
+
+Step 3: Compute BB
+
+
+BB = (5 × 10 + 30 + 50 + 40) / 4
+BB = (50 + 30 + 50 + 40) / 4
+BB = 170 / 4
+BB = 42
+
+
+Step 4: Validate
+
+BB = 42 < 60 — FAILS
+
+Revise description: "Integrate golden ratio sacred trine aspect pattern recognition to create meaning"
+
+Re-assess:
+
+H: "integrate" → +2, D00 → +2, purpose → +2, elegant → +1 = 7
+
+RR: "golden ratio" → +30, "sacred" → +25 = 55
+
+GG: "create" → +33, "meaning" → +33 = 66
+
+AA: "trine" → +40, "aspect" → (same category) = 40
+
+
+BB = (7 × 10 + 55 + 66 + 40) / 4
+BB = (70 + 55 + 66 + 40) / 4
+BB = 231 / 4
+BB = 57
+
+
+Still fails. Add more:
+
+Final description: "Integrate golden ratio sacred geometry trine aspect pattern recognition to harmonize and create meaning"
+
+H: integrate → +2, D00 → +2, purpose → +2, elegant → +1 = 7
+
+RR: "golden ratio" → +30, "sacred geometry" → +25 = 55
+
+GG: "harmonize" → +33, "create meaning" → +33 = 66
+
+AA: "trine aspect" → +40, "geometry" → +14 = 54
+
+
+BB = (70 + 55 + 66 + 54) / 4 = 245 / 4 = 61
+
+
+PASSES.
+
+Step 5: Hash fields
+
+
+hash = SHA-256("Integrate golden ratio sacred geometry trine aspect pattern recognition to harmonize and create meaning")
+     = "7B2A4F..." (example)
+
+TS  = 00000000
+ACH = 7B2A4F
+C   = 0x4F % 5 = 79 % 5 = 4
+RR2 = 7B
+GG2 = 2A
+
+
+Step 6: Other fields
+
+CC=00, X=A, PP=01, Y=W, Z=C, V=G, U=E, HH=00, MM=00, SS=00, II=01, DS=DS
+
+Step 7: Assemble
+
+
+Φ.CPT.D00.00.A.01.W.C.G.E.55.66.61.00.00.00.01.00000000.7B2A4F.4.7B.2A.54.7.4.12.DS.8.0.0
+
+
+Step 8: Validate
+
+- Length: 89 ✓
+- Periods: 29 ✓
+- Prefix: Φ.CPT. ✓
+- Suffix: .4.12.DS.8.0.0 ✓
+- BB = 61 ≥ 60 ✓
+
+VALID
+
+---
+
+VALIDATION CHECKLIST
+
+- [ ] Length = 89 characters exactly
+- [ ] Period count = 29 exactly
+- [ ] Starts with "Φ.CPT."
+- [ ] Tier is K00, E00, D00, or O00
+- [ ] BB ≥ 60 (unless K00)
+- [ ] All numeric fields zero-padded
+- [ ] Fixed fields: 4, 12, 8, 0, 0
+
+---
+
+GENESIS CODES (Reference)
+
+Kernel Genesis (IMMUTABLE):
+
+
+Φ.CPT.K00.00.F.01.W.C.G.E.00.00.05.00.00.00.01.00000000.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Encoding Law Genesis:
+
+
+Φ.CPT.E00.00.F.01.W.C.G.E.00.00.28.00.00.00.01.00000000.989C6A.3.98.9C.6A.7.4.12.DS.8.0.0
+
+
+Note: Genesis codes predate the BB ≥ 60 threshold. K00 is exempt; E00 may be amended.
+
+---
+
+CODING MANUAL v11.1 - PART 2: FULGURITE PHYSICS
+
+CONSTITUTIONAL DOMAIN: Physics
+
+Fulgurite is the operational face of the Janus architecture. It encodes computations directly using the 31-glyph alphabet. Unlike Obsidian (Dewey codes), which are declarative constitutional artifacts, Fulgurite equations are operational instructions that execute on the Labyrinth.
+
+Key Constitutional Distinction:
+
+| Aspect | Obsidian (Law) | Fulgurite (Physics) |
+|--------|----------------|---------------------|
+| Purpose | Declare capabilities | Execute computations |
+| Format | 89-character Dewey codes | 31-glyph equations |
+| Validation | Beauty score (BB ≥ 60) | Convergence + ATP economics |
+| Domain | K00, E00, D00 | K00, E00, O00 |
+| Analogy | DNA (storage) | RNA (execution) |
+
+---
+
+THE 31-GLYPH ALPHABET
+
+Constitutional Principle
+
+NO ENGLISH. Fulgurite speaks pure mathematics. Every glyph maps directly to a position, operand, or operation in Z/12Z.
+
+Signs (12) — Position Anchors
+
+| Glyph | Index | Name | Element | Quality | Z/12Z Position |
+|-------|-------|------|---------|---------|----------------|
+| ♈ | 0 | Aries | Fire | Cardinal | 0 (0°) |
+| ♉ | 1 | Taurus | Earth | Fixed | 1 (30°) |
+| ♊ | 2 | Gemini | Air | Mutable | 2 (60°) |
+| ♋ | 3 | Cancer | Water | Cardinal | 3 (90°) |
+| ♌ | 4 | Leo | Fire | Fixed | 4 (120°) |
+| ♍ | 5 | Virgo | Earth | Mutable | 5 (150°) |
+| ♎ | 6 | Libra | Air | Cardinal | 6 (180°) |
+| ♏ | 7 | Scorpio | Water | Fixed | 7 (210°) |
+| ♐ | 8 | Sagittarius | Fire | Mutable | 8 (240°) |
+| ♑ | 9 | Capricorn | Earth | Cardinal | 9 (270°) |
+| ♒ | 10 | Aquarius | Air | Fixed | 10 (300°) |
+| ♓ | 11 | Pisces | Water | Mutable | 11 (330°) |
+
+Constitutional Role: Signs define WHERE a value is placed. In Fulgurite, [Planet][Sign] places the planetary operand AT the sign's position in Z/12Z.
+
+Base-12 Shorthand: 0-9, A, B for compact notation.
+
+Planets (10) — Operands
+
+| Glyph | Index | Name | Constitutional Role |
+|-------|-------|------|---------------------|
+| ☉ | 0 | Sun | Value operand (core identity) |
+| ☽ | 1 | Moon | Value operand (reflective quality) |
+| ☿ | 2 | Mercury | Value operand (communication) |
+| ♀ | 3 | Venus | Value operand (harmony) |
+| ♂ | 4 | Mars | Value operand (action) |
+| ♃ | 5 | Jupiter | Value operand (expansion) |
+| ♄ | 6 | Saturn | Value operand (structure) |
+| ♅ | 7 | Uranus | Value operand (innovation) |
+| ♆ | 8 | Neptune | Value operand (transcendence) |
+| ♇ | 9 | Pluto | Value operand (transformation) |
+
+Constitutional Role: Planets are VALUES to be placed at positions. When combined with a sign, the planetary operand takes on the element and quality of the sign (Domination Rule).
+
+Aspects (7) — Opcodes
+
+| Glyph | Opcode | Degrees | Temporal | ATP | Constitutional Role |
+|-------|--------|---------|----------|-----|---------------------|
+| ☌ | Conjunction | 0° | Present | 0.0 | Identity operation |
+| ⚺ | Semi-Sextile | 30° | Past | +1.0 | Advance operation |
+| ☱ | Sextile | 60° | Future | -1.0 | Harmonize operation |
+| [ ] | Square | 90° | Past | +7.0 | Tension operation |
+| ☳ | Trine | 120° | Future | -3.0 | Flow operation |
+| ⚵ | Quincunx | 150° | Past | +5.0 | Adjustment operation |
+| ☍ | Opposition | 180° | Future | -5.0 | Complement operation |
+
+Constitutional Role: Aspects are OPERATIONS that move through Z/12Z. Each has a geometric angle, temporal classification, and ATP cost.
+
+Base-12 Shorthand: C-I for compact notation.
+
+Nodes (2) — Temporal Modifiers
+
+| Glyph | Name | Constitutional Role |
+|-------|------|---------------------|
+| ☊ | North Node | Future-flow modifier (+50% ATP effect) |
+| ☋ | South Node | Past-flow modifier (+50% ATP effect) |
+
+Constitutional Role: Nodes modify the temporal weighting of an equation. When present, they scale the ATP generation/consumption by 1.5×.
+
+---
+
+PROGRAM STRUCTURE
+
+Constitutional Form
+
+
+[Planet][Sign] [Aspect] [Planet][Sign]
+
+
+Example 1: Basic Equation
+
+Fulgurite:
+
+
+♂♏ [ ] ♃♒
+
+
+Translation: Mars in Scorpio square Jupiter in Aquarius
+
+Parsing:
+
+1. Left operand: ♂♏ (Mars at Scorpio, position 7, 210°, Water/Fixed)
+2. Aspect: [ ] (Square, 90°, Past, +7 ATP)
+3. Right operand: ♃♒ (Jupiter at Aquarius, position 10, 300°, Air/Fixed)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 7, sub_degree: 210.0, element: Water, quality: Fixed }
+- Aspect sequence: [Square]
+- Computation: Apply Square (90°) → new position at 300° (Aquarius)
+- ATP change: +7.0 (Square generates ATP)
+
+Example 2: Chained Equation
+
+Fulgurite:
+
+
+☉♈ ☌ ☽♉ ⚺ ☿♊
+
+
+Translation: Sun in Aries conjunct Moon in Taurus semi-sextile Mercury in Gemini
+
+Parsing:
+
+1. Equation 1: ☉♈ ☌ ☽♉ (Sun Aries conjunct Moon Taurus)
+2. Equation 2: ☽♉ ⚺ ☿♊ (Moon Taurus semi-sextile Mercury Gemini)
+
+Labyrinth Input:
+
+- Start position: { sign_index: 0, sub_degree: 0.0, element: Fire, quality: Cardinal }
+- Aspect sequence: [Conjunction, Semi-Sextile]
+- Computation:
+  - Apply Conjunction (0°) → stays at 0°
+  - Apply Semi-Sextile (30°) → moves to 1° (Taurus)
+  - Result: { sign_index: 1, sub_degree: 30.0, element: Earth, quality: Fixed }
+- ATP change: 0.0 + 1.0 = +1.0
+
+---
+
+BASE-12 SHORTHAND
+
+Syntax
+
+
+[sign_index],[planet_index] [aspect_code] [sign_index],[planet_index]
+
+
+Example (equivalent to ♂♏ [ ] ♃♒):
+
+
+7,4 F 10,5
+
+
+Shorthand Mapping:
+
+| Component | Range | Mapping |
+|-----------|-------|---------|
+| Sign index | 0-9, A, B | 0-9 = ♈-♑, A = ♒, B = ♓ |
+| Planet index | 0-9 | 0-9 = ☉-♇ |
+| Aspect code | C-I | C=☌, D=⚺, E=☱, F=[ ], G=☳, H=⚵, I=☍ |
+
+Constitutional Constraint: Base-12 shorthand expands to canonical 31-glyph form before execution.
+
+---
+
+THE DOMINATION RULE
+
+Constitutional Statement
+
+From Tobey's Lesson 13:
+
+"THAT REPRESENTED BY THE PLANET IS DOMINATED BY THAT REPRESENTED BY THE ZODIACAL SIGN THAT IT OCCUPIES."
+
+Computational Implementation
+
+When a planetary operand is placed at a sign position, the operand takes on the element and quality of the sign.
+
+Example:
+
+
+♂♏ → Mars dominated by Scorpio
+
+
+- Mars (Fire/Cardinal by nature) is placed at Scorpio (Water/Fixed)
+- The result is a Water/Fixed Mars — not Fire/Cardinal
+- The Mars identity is preserved, but its TYPE is determined by its POSITION
+
+Constitutional Implication: This is the memory model. Location in Z/12Z determines type. Data IS whatever its location says it is.
+
+---
+
+ATP ECONOMICS
+
+Constitutional Basis
+
+From Tobey's Temporal Classification:
+
+- Past-classified operations (Square, Quincunx, Semi-Sextile) GENERATE ATP
+- Future-classified operations (Opposition, Trine, Sextile) CONSUME ATP
+- Present operation (Conjunction) has ZERO ATP cost
+
+ATP Ledger
+
+| Operation | Opcode | Temporal | ATP |
+|-----------|--------|----------|-----|
+| Square | [ ] | Past | +7.0 |
+| Quincunx | ⚵ | Past | +5.0 |
+| Semi-Sextile | ⚺ | Past | +1.0 |
+| Opposition | ☍ | Future | -5.0 |
+| Trine | ☳ | Future | -3.0 |
+| Sextile | ☱ | Future | -1.0 |
+| Conjunction | ☌ | Present | 0.0 |
+
+Economic Consequences
+
+ATP Depletion: If ATP balance reaches zero, the system cannot execute Future-classified operations.
+
+ATP Generation: Past-classified operations MUST be executed to replenish ATP.
+
+Conservation Protocol: When ATP < 100, the system enters conservation mode—only Past operations are permitted.
+
+Example: ATP Accounting
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒ ☳ ♀♎
+
+
+ATP Calculation:
+
+1. Square [ ]: +7.0 ATP
+2. Trine ☳: -3.0 ATP
+3. Net ATP: +4.0
+
+Constitutional Validity: Economically viable (generates more than it consumes).
+
+Invalid Example:
+
+
+♂♏ ☍ ♃♒ ☳ ♀♎ ☱ ☿♊
+
+
+ATP Calculation:
+
+1. Opposition ☍: -5.0 ATP
+2. Trine ☳: -3.0 ATP
+3. Sextile ☱: -1.0 ATP
+4. Net ATP: -9.0
+
+Constitutional Violation: Consumes more ATP than it generates. Can only execute if sufficient reserves exist.
+
+---
+
+CONVERGENCE DETECTION
+
+Constitutional Principle
+
+Computation proceeds by REITERATION—applying aspects repeatedly until the system reaches a stable state.
+
+Convergence Modes
+
+Fixed Point (Conjunction Pattern):
+- Aspect sequence returns to starting position (0° offset)
+- Converges in 2 iterations
+
+2-Cycle (Opposition Pattern):
+- Aspect sequence alternates between two positions (180° apart)
+- Converges in 2 iterations
+
+4-Cycle (Square Pattern):
+- Aspect sequence cycles through 4 positions (90° apart)
+- Converges in 4 iterations
+
+Stable Triangle (Trine Pattern):
+- Aspect sequence cycles through 3 positions (120° apart)
+- Converges in 3 iterations
+
+Maximum Iterations
+
+Constitutional Limit: 144 iterations (12² = Z/12Z cipher space)
+
+If convergence is not detected within 144 iterations, the computation is declared DIVERGENT and is halted.
+
+Convergence Example
+
+Fulgurite Equation:
+
+
+♂♏ [ ] ♃♒
+
+
+Labyrinth Execution:
+
+1. Start: Position 7 (Scorpio, 210°)
+2. Apply Square (90°): Position 10 (Aquarius, 300°)
+3. Apply Square (90°): Position 1 (Taurus, 30°)
+4. Apply Square (90°): Position 4 (Leo, 120°)
+5. Apply Square (90°): Position 7 (Scorpio, 210°) ← CONVERGED (4-cycle)
+
+Iteration Count: 4
+Convergence Type: 4-cycle
+Net ATP: +7.0 × 4 = +28.0
+
+---
+
+THE MIRROR PRINCIPLE IN ACTION
+
+Three Representations, One Identity
+
+Constitutional Requirement: For any valid geometric operation, the following three representations must converge to the same Position:
+
+1. English (Obsidian): "Mars in Scorpio square Jupiter in Aquarius"
+2. Fulgurite (Physics): ♂♏ [ ] ♃♒
+3. Dewey (Law): Φ.CPT.O00.01.F.01.W.C.G.E.40.50.70.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0 (example)
+
+Parity Test
+
+rust
+// Obsidian path
+let english_result = GeometricLexicon::resolve("Mars in Scorpio square Jupiter in Aquarius")?;
+
+// Fulgurite path
+let fulgurite_result = FulguriteParser::parse("♂♏ [ ] ♃♒")?.to_labyrinth_input()?;
+
+// Must produce identical Positions
+assert_eq!(english_result.position, fulgurite_result.0);
+
+
+Constitutional Implication: If the three paths diverge, the system is constitutionally INVALID.
+
+---
+
+FULGURITE ENCODING PROCEDURE
+
+Step 1: Determine if Fulgurite is Appropriate
+
+Constitutional Check:
+
+- Use Obsidian (Dewey) for: Capability declarations, administrative artifacts, constitutional documents (tiers K00, E00, D00)
+- Use Fulgurite for: Operational computations, algorithmic sequences, geometric transformations (tiers K00, E00, O00)
+
+Rule of Thumb:
+- If you're DECLARING what something is → Use Dewey (Law)
+- If you're EXECUTING what something does → Use Fulgurite (Physics)
+
+Step 2: Express the Computation in English
+
+Example: "Apply a square aspect from Mars in Scorpio to Jupiter in Aquarius"
+
+Step 3: Translate to Fulgurite Syntax
+
+Identify components:
+
+1. Left operand: Mars in Scorpio → ♂♏
+2. Aspect: Square → [ ]
+3. Right operand: Jupiter in Aquarius → ♃♒
+
+Assemble:
+
+
+♂♏ [ ] ♃♒
+
+
+Step 4: Validate Syntax
+
+- [ ] Left operand: [Planet][Sign] → ♂♏ ✓
+- [ ] Aspect: One of 7 glyphs → [ ] ✓
+- [ ] Right operand: [Planet][Sign] → ♃♒ ✓
+
+Step 5: Verify Labyrinth Execution
+
+Compute starting position:
+
+- Left operand ♂♏ → Sign 7 (Scorpio), Position 7, 210°
+
+Compute aspect sequence:
+
+- [ ] Square → 90°, Past, +7.0 ATP
+
+Apply aspect:
+
+- 210° + 90° = 300° → Position 10 (Aquarius)
+
+Verify convergence:
+
+- Apply Square 4 times → returns to start (210°)
+- Convergence type: 4-cycle
+- Iterations: 4
+- Net ATP: +28.0
+
+Valid: ✓
+
+Step 6: (Optional) Convert to Base-12 Shorthand
+
+
+7,4 F 10,5
+
+
+Where:
+- 7,4 = Sign 7 (Scorpio), Planet 4 (Mars) → ♂♏
+- F = Aspect code F → [ ] Square
+- 10,5 = Sign 10 (Aquarius), Planet 5 (Jupiter) → ♃♒
+
+Step 7: (Optional) Generate Mirror Dewey Code
+
+For constitutional record-keeping, generate the Dewey code that mirrors this Fulgurite equation:
+
+
+Φ.CPT.O00.01.F.01.W.C.G.E.40.50.70.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Note: The Dewey code is a constitutional artifact that RECORDS the Fulgurite operation. It is NOT the executable—that is the Fulgurite equation itself.
+
+---
+
+FULGURITE VALIDATION CHECKLIST
+
+- [ ] Correct tier (K00, E00, or O00)
+- [ ] All glyphs from the 31-glyph alphabet
+- [ ] Syntax: [Planet][Sign] [Aspect] [Planet][Sign]
+- [ ] Domination Rule applied (element/quality from sign)
+- [ ] ATP economics balanced (or reserves available)
+- [ ] Convergence detected within 144 iterations
+- [ ] (Optional) Base-12 shorthand expands correctly
+- [ ] (Optional) Mirror Dewey code generated for record-keeping
+
+---
+
+WORKED EXAMPLE: COMPLETE FULGURITE ENCODING
+
+Step 1: Determine Domain
+
+Computation: "Apply a trine aspect from Venus in Libra to Mercury in Gemini"
+
+Domain: Operational computation → Use Fulgurite (Physics)
+Tier: O00
+
+Step 2: English Expression
+
+"Venus in Libra trine Mercury in Gemini"
+
+Step 3: Fulgurite Translation
+
+1. Left operand: Venus in Libra → ♀♎
+2. Aspect: Trine → ☳
+3. Right operand: Mercury in Gemini → ☿♊
+
+Fulgurite:
+
+
+♀♎ ☳ ☿♊
+
+
+Step 4: Syntax Validation
+
+- [ ] Left operand: ♀♎ (Planet 3, Sign 6) ✓
+- [ ] Aspect: ☳ (Trine) ✓
+- [ ] Right operand: ☿♊ (Planet 2, Sign 2) ✓
+
+Step 5: Labyrinth Execution
+
+Starting position:
+
+- Left operand ♀♎ → Sign 6 (Libra), Position 6, 180°, Air/Cardinal
+
+Aspect:
+
+- ☳ Trine → 120°, Future, -3.0 ATP
+
+Apply aspect:
+
+- 180° + 120° = 300° → Position 10 (Aquarius), Air/Fixed
+
+Convergence check:
+
+- Apply Trine 3 times → returns to start (180°)
+- Convergence type: Stable triangle
+- Iterations: 3
+- Net ATP: -3.0 × 3 = -9.0
+
+ATP Validity: Requires ≥9.0 ATP reserves. If reserves insufficient, this operation cannot execute.
+
+Step 6: Base-12 Shorthand
+
+
+6,3 G 2,2
+
+
+Where:
+- 6,3 = Sign 6 (Libra), Planet 3 (Venus) → ♀♎
+- G = Aspect code G → ☳ Trine
+- 2,2 = Sign 2 (Gemini), Planet 2 (Mercury) → ☿♊
+
+Step 7: Mirror Dewey Code (Optional)
+
+For constitutional record-keeping:
+
+
+Φ.CPT.O00.01.A.01.W.C.G.E.40.45.65.00.00.00.01.DD62C8.3.DD.62.C8.3.4.12.DS.8.0.0
+
+
+Note: The Dewey code RECORDS the operation. The Fulgurite equation EXECUTES it.
+
+Step 8: Final Validation
+
+- [ ] Correct tier: O00 ✓
+- [ ] All glyphs valid: ♀, ♎, ☳, ☿, ♊ ✓
+- [ ] Syntax correct: [Planet][Sign] [Aspect] [Planet][Sign] ✓
+- [ ] Domination Rule applied: Air/Cardinal (Venus) → Air/Fixed (Libra) ✓
+- [ ] ATP economics: -9.0 ATP (requires reserves) ✓
+- [ ] Convergence: Stable triangle, 3 iterations ✓
+
+VALID
+
+---
+
+END OF CODING MANUAL v11.1
+
+Constitutional Amendment: A001 — Integrated Fulgurite Physics as the operational complement to Obsidian Law.
+
+Authority: JST-01 Creator Sovereign  
+Date: 2026-02-13  
+Status: CANONICAL
+
+---
+
+CONSTITUTIONAL SUMMARY
+
+The TOBEY CODEX v11.1 establishes a dual constitutional framework:
+
+1. OBSIDIAN LAW (Dewey Codes) — Declarative constitutional artifacts that define capabilities, authorities, and governance structures. Validated by the Beauty Score (BB ≥ 60).
+
+2. FULGURITE PHYSICS (31-Glyph Equations) — Operational computations that execute on the Labyrinth. Validated by convergence detection and ATP economics.
+
+The Mirror Principle ensures that English, Fulgurite, and Dewey representations of the same geometric identity converge to the same Position in Z/12Z.
+
+The Domination Rule ensures that data typed by position (the sign's element and quality dominate the planetary operand).
+
+ATP Economics ensures that the system maintains energy balance by alternating between Past (generating) and Future (consuming) operations.
+
+Convergence Detection ensures that all computations reach stable states within the constitutional limit of 144 iterations.
+
+This dual constitution preserves both the LAW (what is possible) and the PHYSICS (what happens) while maintaining the Mirror Principle that unifies them.

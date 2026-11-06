@@ -1,0 +1,11 @@
+{
+  "objective_id": "ATLAS-WORKBENCH-01",
+  "original_manifest_files_verified": 80,
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "checkpoint_copied_verbatim": true,
+  "browser_exit_code": 0,
+  "original_receipts_preserved_verbatim": true,
+  "lock_file_preserved_verbatim": true,
+  "public_main_before_delivery": "9f2f4c4421831bcb9ca3da7199a4d3bb0a0f3b8c",
+  "branch_push_dry_run_exit_code": 0
+}

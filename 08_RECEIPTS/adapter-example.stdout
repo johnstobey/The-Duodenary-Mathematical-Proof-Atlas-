@@ -1,0 +1,8 @@
+{
+  "algorithm_id": "ALG-001",
+  "before": 0,
+  "delta": 3,
+  "after": 3,
+  "angle_degrees": 90,
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc"
+}

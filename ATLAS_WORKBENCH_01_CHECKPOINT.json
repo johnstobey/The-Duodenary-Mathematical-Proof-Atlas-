@@ -1,0 +1,12 @@
+{
+  "objective_id": "ATLAS-WORKBENCH-01",
+  "local_commit": "e7f9fe9",
+  "bundle": "/workspace/ATLAS_WORKBENCH_01.git.bundle",
+  "bundle_sha256": "d3a73bb13050eb695b047c03792c9ac37774a4547e2bfadaf03e030a27d76417",
+  "local_project": "/workspace/alien-math-decoded-private-/projects/atlas-workbench-01",
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "tests": "8 browser tests, 4 adapter tests, 333 original engine assertions green",
+  "publication": "BLOCKED_AUTHENTICATION",
+  "push_stderr": "fatal: could not read Username for 'https://github.com': No such device or address\n",
+  "next_operation": "Restore configured repository authentication, fetch current main, integrate without force, push local commit."
+}

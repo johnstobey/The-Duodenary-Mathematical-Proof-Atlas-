@@ -1,0 +1,405 @@
+{
+  "objective_id": "ATLAS-WORKBENCH-01",
+  "files": [
+    {
+      "path": "00_AGENT_START/START_HERE.md",
+      "bytes": 3291,
+      "sha256": "42aaec8c84e93294b45ef08c28d4adfd6eb59738125bd77d0a453b53379b5a24"
+    },
+    {
+      "path": "01_CANONICAL/157_ALGORITHMS_LOCKED.jsonl",
+      "bytes": 327038,
+      "sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc"
+    },
+    {
+      "path": "01_CANONICAL/CANONICAL_LOCK.json",
+      "bytes": 52042,
+      "sha256": "3fedd65ba308adb106898a635c09da74d0d45e05e817f5a7616c2e9c5973393c"
+    },
+    {
+      "path": "01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt",
+      "bytes": 169734,
+      "sha256": "08551512d06251519f27f8d338828d0bccb4913804438dbcc30eb0f060801da6"
+    },
+    {
+      "path": "01_CANONICAL/Tobey_Complete_24_Lessons.txt",
+      "bytes": 843476,
+      "sha256": "eaac613205a82a02cda3b338413c6d3d47b8102226bde5129f16125202baf860"
+    },
+    {
+      "path": "01_CANONICAL/sacred_seal_index.json",
+      "bytes": 7094,
+      "sha256": "c6eee3eb02319810d29e8f588916c791c345048a936e36465cec3efd3e312906"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_01.jpg",
+      "bytes": 163433,
+      "sha256": "b2d64694f1c633e5c78e777b1debdbe3806d0339d3368e2189a002d55c411eea"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_02.jpg",
+      "bytes": 99635,
+      "sha256": "ec49eca310f4276e1a969423be15547f598235b4ae388482851b1c8acfa5b0d0"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_03.jpg",
+      "bytes": 99882,
+      "sha256": "2ed3dd9201c27d4247c9c88444a24ac33f27832a26d39f73d90e1495028ce4ee"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_04.jpg",
+      "bytes": 90461,
+      "sha256": "36121740af44d02df4b1c22090e2519de862409d855dbf06d32f46490ee93b7c"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_05.jpg",
+      "bytes": 94930,
+      "sha256": "45eb292233e3139383fe85a8158fd40a4418a70a55a3cddfb42b42b5793bcbc9"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_06.jpg",
+      "bytes": 43760,
+      "sha256": "2abca94b43cc938148e755ccae0045f5b5fed85f6b73195657a504d43e911e49"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_07.jpg",
+      "bytes": 65163,
+      "sha256": "89c89bf4aa4c7b20fed285c7ef946f6e21498fe354b2f85a99128073805806a2"
+    },
+    {
+      "path": "02_ATLAS/assets/plate_08.jpg",
+      "bytes": 157334,
+      "sha256": "b525369a44db4fe8fb85a23e1cb20cbd302dd138d89a3cb28576ba98bde58486"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_01.jpg",
+      "bytes": 89665,
+      "sha256": "c58a9ae3c70d19a707e17ed41cc080a4ab0a46053b5ed8ae1a74efde4000db05"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_02.jpg",
+      "bytes": 103873,
+      "sha256": "574da10e4d1bebd5a3afd45cfa342537004011a69048d20d1cdce1662cc6a39e"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_03.jpg",
+      "bytes": 95949,
+      "sha256": "8c0c5ce93e293e9d1735c159c2e0ae18c6394a33c9727925b03f0769b1d16069"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_04.jpg",
+      "bytes": 82750,
+      "sha256": "f0509a3ff946cdc99b1d5992797eb96ef206c0fd24a5c4113148c79c048fa059"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_05.jpg",
+      "bytes": 128195,
+      "sha256": "aeb2e65fe0e431f701e2f6d475721e82181d25771a008388b32a25799b5d2bd9"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_06.jpg",
+      "bytes": 102186,
+      "sha256": "baba589bf19adf4269390162171f4ff1e9cd44b8e3c9c7959f3d330ed8b2e80c"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_07.jpg",
+      "bytes": 121133,
+      "sha256": "181306103f72d8c9e9a63f6729adb9ac9a406517faaf3011f077c0100488a7d6"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_08.jpg",
+      "bytes": 106267,
+      "sha256": "765643482a502114c687ff75bfccf2dd85296e12ce24db896f4e4f5e4a62c4f9"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_09.jpg",
+      "bytes": 71990,
+      "sha256": "0d90a03b26d04d2abcaddf4a13b2b148e63fedaa104662e89e8109797d8a5296"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_10.jpg",
+      "bytes": 57918,
+      "sha256": "1d29dfb7e385daa7bab598bc144e261a810b4dd512d985bfea79c6f258b03e45"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_11.jpg",
+      "bytes": 63543,
+      "sha256": "ecc90ef205b8343ad3016ab3921c9fbc5e94f15457205ca874ba059cab442781"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_12.jpg",
+      "bytes": 44810,
+      "sha256": "3e249633d6f666d25f33db64c99cb053107a9df5740b721f88da7d3edd96c74d"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_13.jpg",
+      "bytes": 107156,
+      "sha256": "075c169a02a3ce347037b8175ddc8b6c6b521d4f3d9f5ee43ba509af23a226a8"
+    },
+    {
+      "path": "02_ATLAS/assets/seal_14.jpg",
+      "bytes": 44589,
+      "sha256": "c125a631067b76e44f1068eda88cab995fef77840b9e130c0098bf4ebcbf24cb"
+    },
+    {
+      "path": "02_ATLAS/index.html",
+      "bytes": 2927686,
+      "sha256": "c715398cbfb3548ab32132ca8fd571015b4d9b622d3c0e4bdce919749052411a"
+    },
+    {
+      "path": "02_ATLAS/scenes.json",
+      "bytes": 8135,
+      "sha256": "3b9ca15aa0e78097cbadb66ff0bbc6e25081cc9c03aeff2ab53fa8f8d1dc7c56"
+    },
+    {
+      "path": "03_ENGINE/adapters/BINDING.json",
+      "bytes": 387,
+      "sha256": "40e3be8beebd5586d9c8aa85c026e3885ef77b056c3b449d03ff8988f781b529"
+    },
+    {
+      "path": "03_ENGINE/adapters/README.md",
+      "bytes": 1066,
+      "sha256": "aab1a0585ca06b0b2be4d44288484f9d81caa6bb0281e51b12ac7d9925fc259b"
+    },
+    {
+      "path": "03_ENGINE/adapters/fulgurite.py",
+      "bytes": 1648,
+      "sha256": "7a4d13d405f7ea9668af092c1ca2b4ce40485a1d86bb97dbb56a15ae19e1ea94"
+    },
+    {
+      "path": "03_ENGINE/adapters/fulgurite_lexer_reference.rs",
+      "bytes": 13882,
+      "sha256": "012d91caf48efc7a67f2cc4f0f40907df74a009df6ed2ab1b33b8cdcd74e8bee"
+    },
+    {
+      "path": "03_ENGINE/finite_engine.py",
+      "bytes": 2009,
+      "sha256": "3721b3dc79695ce2d61e5b584b42cd19a890713aa238456d9f6fc6e8ecf3927d"
+    },
+    {
+      "path": "03_ENGINE/launch_workbench.sh",
+      "bytes": 117,
+      "sha256": "b401eb5eb81b51108ffb84e1db9d6e440f33cb303510618df22469df802e53c3"
+    },
+    {
+      "path": "03_ENGINE/ring_84_finite_transitions.json",
+      "bytes": 11143,
+      "sha256": "0b49cc3c24ae87143edbc329bfc89dde98a53d14f47765d4e9b1dfd08e68294a"
+    },
+    {
+      "path": "03_ENGINE/serve_atlas.py",
+      "bytes": 457,
+      "sha256": "d6a5cfb921b7ff022297673bd8f58ffe26cd8b058c7c02c5dbf31bb0759c29e5"
+    },
+    {
+      "path": "04_TESTS/test_adapter.py",
+      "bytes": 1277,
+      "sha256": "1933ed49feb62d93ccb6ab67e1daab80c10e029e0d80ca9788212b3ec3699052"
+    },
+    {
+      "path": "04_TESTS/test_browser.py",
+      "bytes": 7867,
+      "sha256": "408e65d1d6a3f62f1bd1509257f6619cea5e0973cd83390ef48db87b703b7115"
+    },
+    {
+      "path": "04_TESTS/test_engine.py",
+      "bytes": 1470,
+      "sha256": "6022b5c6bdf3171819aff614f3d733713beddb2a4cff3fbd78189f5f61a0ad1d"
+    },
+    {
+      "path": "04_TESTS/verify_canonical.py",
+      "bytes": 2444,
+      "sha256": "f523cffba92e0488fd6a8a38f2e7f3542b2316a422ced5fdcd912ce7a58f919f"
+    },
+    {
+      "path": "05_RESEARCH/Illustrated_Research_Roadmap.md",
+      "bytes": 30779,
+      "sha256": "48eb2131552a17d64cad37d5b3a50cb35231c4f80ab1de2bff0e944e8fac7424"
+    },
+    {
+      "path": "06_CONTRACT/ATLAS_WORKBENCH_01_DELIVERY_SCOPE.md",
+      "bytes": 1451,
+      "sha256": "cf5520fdb4162f6d131c2326d97405959217ded7dff42880461b1859336c950b"
+    },
+    {
+      "path": "06_CONTRACT/IMPLEMENTATION_CONTRACT.md",
+      "bytes": 5212,
+      "sha256": "fffee406b835ef71ee7d2f533ee299599093016fe39f6ee359b53263aed4ca16"
+    },
+    {
+      "path": "06_CONTRACT/WORKBENCH_DEPENDENCIES.json",
+      "bytes": 644,
+      "sha256": "16735697ec5fb5d1bd132a33cc98cdd97004133d040a1ecbfd188e066d1e6d66"
+    },
+    {
+      "path": "07_BB_SEPARATE/BB_LEXICAL_DEFECT_CLOSED.md",
+      "bytes": 1135,
+      "sha256": "0532af177cdda641527e6deafc09948058f809d8ce4b7b3000b025da64b91794"
+    },
+    {
+      "path": "07_BB_SEPARATE/Historical_Raven_BB_Evidence.txt",
+      "bytes": 4207,
+      "sha256": "1569e7340bf8e03eea6e63b5b41081c3e1e325c15298dcbdfff57a4afd7af4dd"
+    },
+    {
+      "path": "08_RECEIPTS/COMMAND_RECEIPTS.jsonl",
+      "bytes": 5029,
+      "sha256": "a99547bfcab12ee8311f7e16a537c07621d74cd46d4c5a642e4a2b6ec3f46e7a"
+    },
+    {
+      "path": "08_RECEIPTS/FAILURE_LEDGER.md",
+      "bytes": 753,
+      "sha256": "f735150187385437c6a73ab84c013c8a787ce5459d4029f5e8584d3e82eafa9a"
+    },
+    {
+      "path": "08_RECEIPTS/LEDGER_CHECKPOINT.sha256",
+      "bytes": 65,
+      "sha256": "b542c392962369e6cd50dc32da373e65f3d8c8e2188b99c1d213a9ed1337ecad"
+    },
+    {
+      "path": "08_RECEIPTS/SOURCE_PRESERVATION.json",
+      "bytes": 5562,
+      "sha256": "204eaf34596413245d08762519bbfaacf6a588c080987d85c7fe02831acf3c38"
+    },
+    {
+      "path": "08_RECEIPTS/TRANSPORT_AMENDMENT.md",
+      "bytes": 1165,
+      "sha256": "b792e91714ca24b535c5b5afc2e1983976daba2f15ded15c528eb3c1f043d5d5"
+    },
+    {
+      "path": "08_RECEIPTS/adapter-example.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/adapter-example.stdout",
+      "bytes": 188,
+      "sha256": "01cb4266d3b42968157d9bfa1c43d10fbe18c0775bf2aa696d495ad28b328726"
+    },
+    {
+      "path": "08_RECEIPTS/adapter-final.stderr",
+      "bytes": 408,
+      "sha256": "ada225b1fab8e2d3aa0d5c83a12a7296bb6aad9daf2e907925d19066e4f00d40"
+    },
+    {
+      "path": "08_RECEIPTS/adapter-final.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-01.stderr",
+      "bytes": 6111,
+      "sha256": "aa2e4eb834ae9818ba72439980450accef6bfbf0767958c8cc833d8c15744905"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-01.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-02.stderr",
+      "bytes": 21905,
+      "sha256": "c82f4aa96ae170960cf57f1b2e529ae226483ae633f7fe31469fa4b3bacdeebf"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-02.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-03.stderr",
+      "bytes": 4391,
+      "sha256": "5c1bea527cda0507e3cfe6abda855cf2d03fe812fad0a80ec8daa5e94473fe40"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-03.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-04.stderr",
+      "bytes": 2404,
+      "sha256": "8757ca4f4dfbd65e8fb823336d1b5cb6d1f5dbd1518c34deb1e16217a634ad3e"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-04.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-05.stderr",
+      "bytes": 1431,
+      "sha256": "3bfc2a21d3cc081556fea24461186cbc222bf85e348f259d103ade3880c08f59"
+    },
+    {
+      "path": "08_RECEIPTS/browser-run-05.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/browser_observations.json",
+      "bytes": 1208,
+      "sha256": "067fb5a66e42cbe7a596af4dda3038ca88df1990a99e28b7b8f2cbc384f0b88a"
+    },
+    {
+      "path": "08_RECEIPTS/canonical-final.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/canonical-final.stdout",
+      "bytes": 301,
+      "sha256": "c63a9cf987fe39968220df88e29369d84cfe2d6ae071b2c70e80ef269b33eb2d"
+    },
+    {
+      "path": "08_RECEIPTS/desktop.png",
+      "bytes": 174472,
+      "sha256": "b0f0bce5865fce1a28aaf3eb304081c632ac0756fb397a9a238d61e75959ffc7"
+    },
+    {
+      "path": "08_RECEIPTS/engine-final.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "08_RECEIPTS/engine-final.stdout",
+      "bytes": 74,
+      "sha256": "b0f3d78b1f10ddd8bcb90c497b742fd43eeafeb3980adb9ba821293424a13406"
+    },
+    {
+      "path": "08_RECEIPTS/mobile.png",
+      "bytes": 49513,
+      "sha256": "4f168bb0f0fe1157858a0c10bc8ceecc9bc1dae61fb529cd971773aa7de72bdd"
+    },
+    {
+      "path": "08_RECEIPTS/test_browser.harness-v3.py",
+      "bytes": 7910,
+      "sha256": "966d3a833896947cdcfdc434808c74bb616cea83f11b362ee32c42b5768bf2e6"
+    },
+    {
+      "path": "08_RECEIPTS/test_browser.transport-v1.py",
+      "bytes": 7396,
+      "sha256": "5e342cfd9b60bf31d3cc3cedd5f60f2ba7b6093242a7c47e8a6c3a981533d659"
+    },
+    {
+      "path": "08_RECEIPTS/test_browser.transport-v2.py",
+      "bytes": 7885,
+      "sha256": "7c94bb087e9ee026795b9b58276f0127f6b355bf268a908d4e8469144d5d0bd9"
+    },
+    {
+      "path": "PACKAGE_SHA256_MANIFEST.json",
+      "bytes": 4290,
+      "sha256": "efa5adf9afa7f2b688325cf94195de62df90b7ef10f3f794f069a45784cd9b2c"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 983,
+      "sha256": "16af07cf7c7d07641780863452e3d4bafaa4b3d9483970bd79f0d2159d6191da"
+    },
+    {
+      "path": "WORKBENCH_README.md",
+      "bytes": 3007,
+      "sha256": "caa6af551356a9048947d09cc81bda06863afa8198541d93cd57f7b6218a8970"
+    }
+  ]
+}

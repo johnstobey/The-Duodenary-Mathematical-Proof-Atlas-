@@ -1,0 +1,30 @@
+{
+  "objective_id": "ATLAS-WORKBENCH-01",
+  "termination": "INTEGRATION",
+  "meaning": "Execution criteria green and unchanged lock; submitted for independent integration verification. Execution agent does not grant engineering PASS.",
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "canonical_verifier": "PASS",
+  "canonical_register_count": 157,
+  "original_engine_assertions": 333,
+  "browser_tests": 8,
+  "browser_tests_passed": 8,
+  "browser_coverage": {
+    "scenes_each_direction": 25,
+    "directed_angular_cases": 84,
+    "lattice_addresses": 144,
+    "canonical_records": 157,
+    "raven_plates": 8,
+    "seal_images": 14
+  },
+  "adapter_tests": 4,
+  "adapter_supported_angular_cases": 84,
+  "adapter_invalid_endpoint_cases": 924,
+  "source_files_byte_compared": 32,
+  "preserved_failed_browser_runs": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "ledger_checkpoint": "6f2cbc15c0acc50010f3f3bef34c89aaf98f12f90606d529be6bdf3e4f70f450"
+}

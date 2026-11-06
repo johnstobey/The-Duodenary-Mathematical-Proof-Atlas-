@@ -1,0 +1,33 @@
+test_144_cells_and_keyboard (__main__.AtlasBrowser.test_144_cells_and_keyboard) ... 127.0.0.1 - - [06/Nov/2026 05:39:15] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_84_angular_traces (__main__.AtlasBrowser.test_84_angular_traces) ... 127.0.0.1 - - [06/Nov/2026 05:39:17] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_animated_scroll_reversal (__main__.AtlasBrowser.test_animated_scroll_reversal) ... 127.0.0.1 - - [06/Nov/2026 05:39:19] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_every_scene_reversible (__main__.AtlasBrowser.test_every_scene_reversible) ... 127.0.0.1 - - [06/Nov/2026 05:39:19] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_mobile_accessible_reduced_motion (__main__.AtlasBrowser.test_mobile_accessible_reduced_motion) ... 127.0.0.1 - - [06/Nov/2026 05:39:23] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+FAIL
+test_navigation_and_assets (__main__.AtlasBrowser.test_navigation_and_assets) ... 127.0.0.1 - - [06/Nov/2026 05:39:24] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_operators_undo_redo (__main__.AtlasBrowser.test_operators_undo_redo) ... 127.0.0.1 - - [06/Nov/2026 05:39:25] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_registry_sources_copy (__main__.AtlasBrowser.test_registry_sources_copy) ... 127.0.0.1 - - [06/Nov/2026 05:39:26] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+
+======================================================================
+FAIL: test_mobile_accessible_reduced_motion (__main__.AtlasBrowser.test_mobile_accessible_reduced_motion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/atlas-workbench/Tobey_Raven_Canonical_Handoff_v5/04_TESTS/test_browser.py", line 66, in test_mobile_accessible_reduced_motion
+    self.page.evaluate('window.scrollTo(0,0)');self.page.keyboard.press('Tab');self.assertEqual(self.page.locator(':focus').inner_text(),'Skip to workbench');self.page.keyboard.press('Enter');self.assertEqual(self.page.locator(':focus').get_attribute('id'),'math')
+                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'Scene source SC-12' != 'Skip to workbench'
+- Scene source SC-12
++ Skip to workbench
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 20.631s
+
+FAILED (failures=1)

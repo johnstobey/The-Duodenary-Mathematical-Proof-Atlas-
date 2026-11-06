@@ -1,0 +1,10 @@
+{
+  "objective": "ATLAS-WORKBENCH-01",
+  "obligation": 2,
+  "canonical_id": "ALG-001",
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "adapter": "fulgurite.py",
+  "reference_sha256": "012d91caf48efc7a67f2cc4f0f40907df74a009df6ed2ab1b33b8cdcd74e8bee",
+  "scope": "Sun-sign/aspect/Sun-sign exact finite projection",
+  "source_preserved": true
+}

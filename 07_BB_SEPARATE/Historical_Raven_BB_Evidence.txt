@@ -1,0 +1,71 @@
+RAVEN / TOBEY BB -- HISTORICAL RECONSTRUCTION AND CORRECTION RECEIPT
+November 5, 2026; forensic snapshot; no historical code was overwritten.
+
+EXECUTIVE ANSWER
+Yes, all 157 previously issued D00 Dewey codes are affected as BB quality
+certifications. Their mathematical source texts and individual 89-character
+strings remain preserved. Their BB >= 60 values were computed from newly
+constructed generic descriptions. This verifies only the chosen description
+words, not structural correctness or runtime admission.
+
+HISTORICAL RAVEN-ASSOCIATED CONVERSATIONS (Gpt-5 messages, not GPT-4o)
+1) 2025-09-11 20:19:06 UTC; conversation "Obsidian manual audit";
+message dc8fe193-ee6b-4c98-b5af-ebe8ce49ed25:
+   H=Harmony, RR=Ratio, GG=Grace vector, AA=Angular geometry,
+   BB=constitutional-compliance metric. Call for a complete Aesthetic Legend,
+   validated fields and rejection or quarantine of invalid encoding.
+   Earlier 35-character Dewey v3 dialect, not the later 89-character v11.1.
+2) 2025-09-30 21:36:42 UTC; conversation "Compare Celestial AI and Obsidian";
+message b486ff39-0533-4ab7-816f-9b9eacdf92b2:
+   Describes RR/GG/AA/BB as a harmonic checksum/integrity stamp, with BB >=60.
+   Terminology in this discussion varies (resonance, governance, aesthetic),
+   so this must be versioned, not silently merged with v11.1.
+3) 2025-10-01, conversation "Obsidian agent setup":
+   Assistant explicitly recommends enforcement at recursion engine level,
+   not only within each cipher.
+4) 2025-10-02 09:45:12 UTC; conversation "Compare Celestial AI and Obsidian";
+message 80f7993c-97e3-42d9-8da8-dfa9166d2d09:
+   BB is characterized as a checksum and liveness/convergence criterion.
+   These are source CLAIMS about design, not proof the corresponding code ran.
+
+CODEX v11.1 (supplied): H (0-9) harmony, RR (0-99) sacred proportion,
+GG (0-99) grace, AA (0-99) angular geometry.
+BB=floor((10*H+RR+GG+AA)/4) capped at 99. D00 BB >=60, K00 exempt.
+D00 declarations are not O00 execution; Fulgurite geometry and ATP checks
+have separate verification responsibilities. BB cannot replace those checks.
+
+EXECUTED FORENSIC CHECK (Raven_BB_Integrity_Audit.py)
+- 157 / 157 strings preserve the 89-codepoint / 30-field format and recalculate
+  exactly to their originally constructed descriptions.
+- Their generated BB score distribution is 127 at 61, 27 at 69, three at 67.
+- All 157 scores CHANGE if the identical v11.1 scoring function is instead
+  applied to the unchanged ORIGINAL English source containers.
+- Only 1 of the 157 original-text rescoring experiments reaches BB >=60.
+  This comparison measures wording sensitivity and is NOT an authorized
+  change of the original BB formula or retroactive replacement scoring.
+- 78 algorithms have abstract mathematical type signatures, not runnable laws.
+- No structural BB certificate is currently attached to any of the 157 codes.
+- Six deliberately corrupted inputs were rejected by the NEW independent
+  frozen-source/code/math audit: malformed prefix; altered BB; altered text;
+  altered original English; altered math; altered source provenance.
+
+WHAT WAS FIXED, AND WHAT WAS NOT
+Implemented a reproducible, independently frozen validation layer in
+Raven_BB_Integrity_Audit.py, with full source/mathematics hashes and a frozen
+manifest. It detects modification and blocks unsupported assertions of runtime
+acceptance, without rewriting the original 157 codes or the v11.1 definitions.
+The remaining true BB admission correction requires reconstructing exact
+machine-defined structural predicates, implementing/running the relevant
+Fulgurite and Labyrinth checks, and proving the controller actually enforces
+the complete chain. Those tests are not represented as completed.
+
+CAUTION: the original Codex Rust validate_dewey uses code.len() and byte
+slicing with a Unicode Phi, so its 89-character rule is not safely implemented.
+Independent character-aware parsing is required before deployment.
+
+FROZEN MANIFEST ROOT SHA256:
+05bd15f6257bb644d74a1b5d88ca3d94f4f6ac745a2e401fb91baee70dd94d48
+
+DOWNLOAD WORKAROUND
+This plain text file is designed to be opened or copied without PDF or ZIP.
+The research roadmap also exists as RAVEN_RESEARCH_REPORT.txt (30.8 KB).

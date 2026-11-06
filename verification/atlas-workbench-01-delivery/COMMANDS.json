@@ -1,0 +1,80 @@
+[
+  {
+    "name": "canonical",
+    "argv": [
+      "python3",
+      "04_TESTS/verify_canonical.py"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 0,
+    "stdout": "canonical.stdout",
+    "stderr": "canonical.stderr"
+  },
+  {
+    "name": "engine",
+    "argv": [
+      "python3",
+      "04_TESTS/test_engine.py"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 0,
+    "stdout": "engine.stdout",
+    "stderr": "engine.stderr"
+  },
+  {
+    "name": "adapter",
+    "argv": [
+      "python3",
+      "04_TESTS/test_adapter.py"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 0,
+    "stdout": "adapter.stdout",
+    "stderr": "adapter.stderr"
+  },
+  {
+    "name": "atlas-validate",
+    "argv": [
+      "python3",
+      "scripts/validate.py"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 0,
+    "stdout": "atlas-validate.stdout",
+    "stderr": "atlas-validate.stderr"
+  },
+  {
+    "name": "atlas-finite",
+    "argv": [
+      "python3",
+      "scripts/finite_checks.py"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 0,
+    "stdout": "atlas-finite.stdout",
+    "stderr": "atlas-finite.stderr"
+  },
+  {
+    "name": "atlas-roadmap",
+    "argv": [
+      "python3",
+      "scripts/roadmap.py",
+      "--check"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 0,
+    "stdout": "atlas-roadmap.stdout",
+    "stderr": "atlas-roadmap.stderr"
+  },
+  {
+    "name": "atlas-lean",
+    "argv": [
+      "lake",
+      "build"
+    ],
+    "cwd": "/workspace/The-Duodenary-Mathematical-Proof-Atlas-",
+    "exit_code": 1,
+    "stdout": "atlas-lean.stdout",
+    "stderr": "atlas-lean.stderr"
+  }
+]

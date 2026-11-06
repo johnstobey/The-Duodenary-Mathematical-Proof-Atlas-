@@ -1,0 +1,956 @@
+{
+  "schema": "tobey-canonical-lock-v5",
+  "canonical_register_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "records": 157,
+  "namespaces": {
+    "ALG": 40,
+    "PRISM": 48,
+    "HAEGIS": 48,
+    "RECOVERY_LEDGER": 21
+  },
+  "policy": "NO_ALGORITHM_REISSUANCE_OR_LEXICAL_BB_RESCORING",
+  "record_digests": {
+    "ALG-001": {
+      "register": "ALG",
+      "source_sha256": "219f54b647f2f107417ef08cef5734025c7a2f4923133fe0783ba39db7b1cce5",
+      "mathematics_sha256": "8531b4dd716bee452837e5d67d6cd9c9051f6cfca0dadb55c6874d7c500aef8c",
+      "dewey_sha256": "42c3736c1539b38e0372a8885be0ceb9d7b040e368078d99adc3d9735be4aad0"
+    },
+    "ALG-002": {
+      "register": "ALG",
+      "source_sha256": "b0d1db3156c78ba13af6e8053cb21b51337102f165eae968909a95f5e16a13b2",
+      "mathematics_sha256": "c4a83277907da8aaeaa022dd38744cc5b05b027c5f56189f45b5f3c60cbab3c8",
+      "dewey_sha256": "cda8d2432f33eac3851ba0e42a5aa4ca058c1381d013d0221828a0dcfbe2c3de"
+    },
+    "ALG-003": {
+      "register": "ALG",
+      "source_sha256": "f25144039b664249cc8e0e606feee78056cc8177b228de122c70c603e48021ad",
+      "mathematics_sha256": "cec96342c72490ec8f7da846250e8c429ea09df910391035e03b589b81d33024",
+      "dewey_sha256": "c1ad6a033210d3a99bc0364b1ffbf546645c7b1d5a213e06e90156808ce23dba"
+    },
+    "ALG-004": {
+      "register": "ALG",
+      "source_sha256": "bd89f148ad6c47291fce7b002de687f3a8788205dae5fff92a0caef6adcc0ae0",
+      "mathematics_sha256": "07a4e17dd2f6d43791b632b1eac2c5574e1dbc552502ff5e104eff2e8086f741",
+      "dewey_sha256": "c225dc038e66d519a8bebfd73ea2bc378a7fd49f21162e16b7d729573e3b1707"
+    },
+    "ALG-005": {
+      "register": "ALG",
+      "source_sha256": "1db35d5e5567c55f9175a90e14e22aca85d4b596959ca632e1e9de41a077eefa",
+      "mathematics_sha256": "1b713556dc19e33f57b7ecda6458322a768051273d40e3a86899b3e6ff52ff0b",
+      "dewey_sha256": "b628f9c38893399d7398e923b8e6969dcce0fb79e96d73106fe59a1fe2a0a22c"
+    },
+    "ALG-006": {
+      "register": "ALG",
+      "source_sha256": "caf3ba4c8b149cac6eff00e847b4b7fc659d1834cea585da8533f30069fcf9e3",
+      "mathematics_sha256": "afb7d40a62f4cc33c8351f1f50fc1b3c6d34cbc7eb070b8491d8d03704a52bf4",
+      "dewey_sha256": "a0aff977f1d25a918087d318d964275be1c7144a69a953536ea0768bc3c0c183"
+    },
+    "ALG-007": {
+      "register": "ALG",
+      "source_sha256": "50d778d739db9b6e1b9bdf6b961a375f1278b7913ea20e590f5b04d88d35a623",
+      "mathematics_sha256": "31603c19b4e4cbb83cc12a4e9fdcc9a1377aefb4e4c4e2fde94605e200776b60",
+      "dewey_sha256": "181329d47eb52853ea8b0cd39df348b1c260e1839ae106adb97a0073ad6dfa0d"
+    },
+    "ALG-008": {
+      "register": "ALG",
+      "source_sha256": "eb891c4011b568bbc5a2ea8f3176683859657d94ca169c4ec74ab87a3df3cf97",
+      "mathematics_sha256": "fa26481fa4548f11ec23a3f751816e0eae48b5c851e0be1e0ee5963b4f1558e6",
+      "dewey_sha256": "d134fc742f3b35c4f1251af8d51dd01eb21dd906c2ba247d9d242da544046f4d"
+    },
+    "ALG-009": {
+      "register": "ALG",
+      "source_sha256": "48f16af45195a2d7a5e27969c0f099cede1fc063baca37a3ec8c4072d33a900d",
+      "mathematics_sha256": "5e3ddad70560c9ad3b50b59d0ed51b33b69c7cf9e97a312f8997678d1d22efa5",
+      "dewey_sha256": "e48953534a37622007247ce7b1e3356498e525f4560da937954f4c0f591ced26"
+    },
+    "ALG-010": {
+      "register": "ALG",
+      "source_sha256": "ff14599c8ef21964defd9330a11b036ec6119fe5754a78f86681ae6d474507e3",
+      "mathematics_sha256": "f6efb4575bb9eca058fa0ee2e5affb8d03b1770d7fcea033f99f5b7fbac9a4aa",
+      "dewey_sha256": "59754d1b3fc9fe892a4c6ec81da549103e7061b5da2069aab538a6f035539b68"
+    },
+    "ALG-011": {
+      "register": "ALG",
+      "source_sha256": "2355b0a1b418dfc58aed9cf0a04a576ec995b51f7fa83d9655570e06116df5d1",
+      "mathematics_sha256": "bd9eea1e21748290d194d9cdf0e439bc030f3a39a442c59584ce494132ec355f",
+      "dewey_sha256": "5bda5c1e6e37a0539f1b5be7e4909976e33e050d1066433b33d83830b4bc6575"
+    },
+    "ALG-012": {
+      "register": "ALG",
+      "source_sha256": "2e2f7381744cacea5d43fc4d5405f50c3d840c71563f9351c9542c75a8ee6f40",
+      "mathematics_sha256": "8163e31d02a03c8305c5f229134395b103306329d2ea9f8129ae032df061a75f",
+      "dewey_sha256": "3ec7f0d977a27242abddd863b87350bc40290af42f6bab0278d265e4585edabe"
+    },
+    "ALG-013": {
+      "register": "ALG",
+      "source_sha256": "b40a33d032d7b0c5f70e747541ec5a58d1c38b0b18dff23dc68ee53598d028d3",
+      "mathematics_sha256": "0a543a9a6e07350c5fc9070417e800fc1b2e5df8cc01a596150f1f93d4d303e5",
+      "dewey_sha256": "b38ebbbbc5924efe0c20e3ed8e2f5ca0a01d6f711bd5187a75ad3ba477d95b99"
+    },
+    "ALG-014": {
+      "register": "ALG",
+      "source_sha256": "99439cd74de284efb3f1ea16e35ccc4820d15fc3512c534b8990dc83d48162ff",
+      "mathematics_sha256": "c2eb7a3f5f357027a506d7df96b66d45eea4d7cccc06df761c2b36b805c7f021",
+      "dewey_sha256": "4c8387b66db2c6422f0e8290ba569c7849192cdfc716c794c2d2addcdcfbc714"
+    },
+    "ALG-015": {
+      "register": "ALG",
+      "source_sha256": "710bb04e04f8018a66903b165d7f20f096434ed9473c0d6955b22bbe5624f39d",
+      "mathematics_sha256": "fb5e4aeb4b52be9b3e01657e09a39930a435a68fd10cf27ea0900da9397a0435",
+      "dewey_sha256": "40d0c788232b7c08748283d55740cda90fffbb251b39f0827954f21c763e925a"
+    },
+    "ALG-016": {
+      "register": "ALG",
+      "source_sha256": "38d301c3c253d390cb5c9d4be98e57b3ea4ccbeac004d25fbffe5453eaaf8b0e",
+      "mathematics_sha256": "ab1c22f2e0ed7ca7ca1975792d1242e88d6ba2ed5594630582ed50f5daffc873",
+      "dewey_sha256": "132b3b9bc8d7cd5e5bb0e417d196201ea29d094b45b4ebd396de311c28cac329"
+    },
+    "ALG-017": {
+      "register": "ALG",
+      "source_sha256": "d67a2dc51033a95a7a20773c6d94a2716cc8beeab815f77511eab334df3233b3",
+      "mathematics_sha256": "6e384ac33a376de8e24d854fa3b83acd59b0b123c5bcfb83bf217f296191cd7b",
+      "dewey_sha256": "018a386a5ac86803f87ccddd88bd5f8116810feca04329882fb303eee4224863"
+    },
+    "ALG-018": {
+      "register": "ALG",
+      "source_sha256": "0628c17e1c681650e6a4a823dbde423c4571d835363df8ea907489dbbe980e72",
+      "mathematics_sha256": "cc61661ffa4e84c3e33f978e93b6c40e0b9b0b987326153f2d73b898e8a3caf6",
+      "dewey_sha256": "0c63fe588ad81506fdc3b77c802228c7f0c1c593ea148d96ec57fd37e836091a"
+    },
+    "ALG-019": {
+      "register": "ALG",
+      "source_sha256": "24a7395f7301f7a87265a9f334789f48d21f2f12bad8d67cf3691790d6749371",
+      "mathematics_sha256": "168800c34fb1dd3de7a7186f7a4a982fda7889cb3f367cc80c17aec58dac9970",
+      "dewey_sha256": "55634f85534421c338095da745b0d976fe3096de017f6bcad67b56e6d6c8437f"
+    },
+    "ALG-020": {
+      "register": "ALG",
+      "source_sha256": "268412b8f97e927dd82ccce0504641df9c0bd1eef7f04e5b9f0b594c37be8a2f",
+      "mathematics_sha256": "3a5a265988fc2c3a432ff6980e12521123925e175b45abdb77026784721050d6",
+      "dewey_sha256": "cee792831e19e5cb1998adee5cb6d07c5d480b4e097e2bfa33f7ade3629afb72"
+    },
+    "ALG-021": {
+      "register": "ALG",
+      "source_sha256": "d62a98ad1a46b5a51d948cde1eaa84cd7202cc31843af3bf7e4d86fb3ab6e712",
+      "mathematics_sha256": "d3407c90edded9b9ddc6e20cbee726ca18934182021413798e572d9c30ea2e6c",
+      "dewey_sha256": "8d4fff687a783e5a03156bdfd83540b560b3177ee15064cda6870378ad388dd4"
+    },
+    "ALG-022": {
+      "register": "ALG",
+      "source_sha256": "dd9263203a58d22608f3ae314cb2947a28c7cb1c431cec6875153433fa94e338",
+      "mathematics_sha256": "61dfaaa2f60c814f1833d3bf028fbf06ac7d21cb10169ebc0fa685925e1bd54f",
+      "dewey_sha256": "65bfe71aa8dd9d27de772500fb6f8a69a9728de02df0532500f37e36eecf6f97"
+    },
+    "ALG-023": {
+      "register": "ALG",
+      "source_sha256": "fdc98dbf8d1a63dbf66db7d1686bf5d427554f1753701be48bf0f0c6ef3013cb",
+      "mathematics_sha256": "87298e59ad8c6f0bfb40f91e56ee0379e90df8dff1d23fa35e02c105aa2d6270",
+      "dewey_sha256": "286ef88972321507fb948a39b33019fd9d04cfc981d830f50af39cf2a9283656"
+    },
+    "ALG-024": {
+      "register": "ALG",
+      "source_sha256": "9dbf444ccfd8d15aa41a62cd3af39cbbc78e00dd4d7994e1b2e68188e135659e",
+      "mathematics_sha256": "03f5cf12abc2a68683bbdc83ea6f6c60d7fd53ba66ab582247543010033b2527",
+      "dewey_sha256": "5d6f31ecec337013f990d01439f6cd3879080da26b8ecdc4e0b8cc51ceb2593e"
+    },
+    "ALG-025": {
+      "register": "ALG",
+      "source_sha256": "78f8e798feac9fd213a5247e61e8dc252422b2cad066616f62508b6b92efcc84",
+      "mathematics_sha256": "60f9438482735db33215ea4baa188f90dad3c1cdac9532bae38164511facdfa1",
+      "dewey_sha256": "93da6e1884d45045b83c347d8cf6038aacdf02d9763f53881b699a737bd083f1"
+    },
+    "ALG-026": {
+      "register": "ALG",
+      "source_sha256": "16688ba4c96333c2e232897c56f8cc14de7be70bb4456414c1546d5e4838c680",
+      "mathematics_sha256": "d140f83c5dadc288e590441b18f6e4c5835f85c0502028c2239d9a1e9e874dd0",
+      "dewey_sha256": "458f81e0b509a882a5b03dd19b56a1f69e537aba854795e31a43813daf31f1d9"
+    },
+    "ALG-027": {
+      "register": "ALG",
+      "source_sha256": "af861bc7a4dd41abfd09e81ea6aab1aacc69113bb968c01bd2c53bf400e937c7",
+      "mathematics_sha256": "643923181891138f2748b948e4173b9c5e1b1f6fcfd7565a20b9d78958dad468",
+      "dewey_sha256": "294d5873c87d54e25282b3b899ea164ef52a83f9c78e33cad99d5a04525f1ff8"
+    },
+    "ALG-028": {
+      "register": "ALG",
+      "source_sha256": "6223fce4a8399f7656f54ce61d03d033e2797ff910c4511ab9681b3fb78fcaa1",
+      "mathematics_sha256": "241f9ef6552b6685052228e6243402f5db061d79264069de594591e566772872",
+      "dewey_sha256": "2a03c43222f0a891b6aed74fca57173c8ed4f300df86bbc68cc1be53b5d0049f"
+    },
+    "ALG-029": {
+      "register": "ALG",
+      "source_sha256": "90dff93199102fb076c526f814e0f59b0dae4836c54146e7c0a12e3bd7da754d",
+      "mathematics_sha256": "f9d5419f70c2fa49c7c0224dcdd79a0da58d95bfd51fedf06f7ee1b5c815d4d0",
+      "dewey_sha256": "1c22f6f30945da664c4de5ae668b2f836ae95c004d812d53ca08b44df97a0606"
+    },
+    "ALG-030": {
+      "register": "ALG",
+      "source_sha256": "c38df286e1b66f8ba128f028ea5e471c0f7d23262c975083ad7c7d1b0f50f945",
+      "mathematics_sha256": "708f13d9f5d013d5caa3a4e2e1bcbf2f404b3a7ccb98930f28d56e06be53b211",
+      "dewey_sha256": "b4fb0b9c81b2bb11ed36a99f24ac54f77d3f06098c12d9cd6ef97dd948bd10f6"
+    },
+    "ALG-031": {
+      "register": "ALG",
+      "source_sha256": "969bb733edd8083ca440ebcb1247d552e0a972a29a9e41120efa38ca1a6234dc",
+      "mathematics_sha256": "f480dddb1f05a34a96e62171540c9b9808897b2761d402dd1153c89ccad7af7a",
+      "dewey_sha256": "1838daf620cbbe42fd49ecb64c271062af20c2d803f4a20f6986d071f48f4cde"
+    },
+    "ALG-032": {
+      "register": "ALG",
+      "source_sha256": "41f8aa763c668a4cbf5528f80769ff6ecd26356cca037bdd02f7ca494162ce1a",
+      "mathematics_sha256": "95bbcd685e56c2bcd384d553e8f165207ea1fa00bfb4df1592b67adcd7a128a8",
+      "dewey_sha256": "8e157d19449591264196212683a847cfcf4df8e418b83f214044d6f9067c2e8d"
+    },
+    "ALG-033": {
+      "register": "ALG",
+      "source_sha256": "0e811a66667802c8282228fc3e3b7c201959ccda0a656e07a75dab86e27f1dc9",
+      "mathematics_sha256": "d6e42d6974c80735181f7f7f74e67912fbf0948065c0d1a18bc9f407b47c4c1c",
+      "dewey_sha256": "a99c48ca68ed7fb8846d8a606066bddf3442b1d006a46b54da77da8e076b57b2"
+    },
+    "ALG-034": {
+      "register": "ALG",
+      "source_sha256": "dbb833edcc3194673cf5b297305d6cd31c36bc92346cef24fbdd0ca34a61606c",
+      "mathematics_sha256": "343cdc81794e38792c44970bf04952f20677d920190af3628b61a9098e5df196",
+      "dewey_sha256": "920743d15802750648827b025ddd0f6f6379ab6f504165def270ad808270b2d1"
+    },
+    "ALG-035": {
+      "register": "ALG",
+      "source_sha256": "923ddb20a3a5cf0fafc54a01f855b6427daa50e0468a3809bcd3dae299f325b0",
+      "mathematics_sha256": "2b7b59d6a71b7ab638871880bbb311509fbebd24016aa96395cc47ea16c97acb",
+      "dewey_sha256": "d234fc2c4a1ce48b199ccfb4db5496d8372c7ce1ec42d1e1226a2510885d802b"
+    },
+    "ALG-036": {
+      "register": "ALG",
+      "source_sha256": "c8aadcf63559a473e9235ceca46ae0241908acbee8338517b7930f15c0028077",
+      "mathematics_sha256": "fbb931ad1448a74bc4e9903b1605cdae4b79d1ceff61690552172e3096c9e536",
+      "dewey_sha256": "4b8f5e20e0abce485a014ac0c9fd38d605aff0d6c2e07ca4d5f039f07584af5f"
+    },
+    "ALG-037": {
+      "register": "ALG",
+      "source_sha256": "235f8e0e9a9eef29132d18a91f1568fc0249f4663907b741cce98e64800f2a8d",
+      "mathematics_sha256": "cc690746ddf3f1d288b4f476fa90ee74c045a4ea99c14a1ede32216d6e1858a3",
+      "dewey_sha256": "233d4f5aaff6e930f3b4cdb002f758580a819f20719bc560bda00233040ed9ab"
+    },
+    "ALG-038": {
+      "register": "ALG",
+      "source_sha256": "3c510bfb60c051eecf1802729113c9c01ff6792c5348260eea4d36576c41282e",
+      "mathematics_sha256": "638dc765d851e1069436afdf9ff47868f953067e07634454f1b08cffbb5f1d66",
+      "dewey_sha256": "89b5ad180f18943af2563eb85aadb6280e9f747ad1b8da00ceec7d235ffb2e35"
+    },
+    "ALG-039": {
+      "register": "ALG",
+      "source_sha256": "e4f95abee35588120c71f0038c34cea7bd3f381af958d9abd1e668999c647190",
+      "mathematics_sha256": "90bdb533cb67b9750fd6ad4f8c582a06d5a36545ffc09561705ef48cad0b74bb",
+      "dewey_sha256": "26555b7c1acc69ed5288ac05e98ab7ac3383a47e732b432c4a4b025c0d8c4b63"
+    },
+    "ALG-040": {
+      "register": "ALG",
+      "source_sha256": "9f06cea95ac9952c88c70357c603c6bb5898536f5b82e9859570eff03c3c6201",
+      "mathematics_sha256": "4b0cc11e68c171bc24abf4d14505dc1cba40386fb26cafab016985c78f0a5a9f",
+      "dewey_sha256": "28ff2da4373a127846fa12a61cbcdd5420796d654d1c9d77762ae371cd0082ab"
+    },
+    "H001": {
+      "register": "HAEGIS",
+      "source_sha256": "32090dd09457825f6c815fe2cc468ce7ecd695932e1ec4ac0fe5a39e06a33723",
+      "mathematics_sha256": "014f3b53994aeef6e0bb489a39eae88867ae028d5ec3be31ea95c4ee6540f4fd",
+      "dewey_sha256": "887799ae9118042a40d34a197e667359c79162967146dfbc9a73155d10125325"
+    },
+    "H002": {
+      "register": "HAEGIS",
+      "source_sha256": "9b9bf71d782c7049d83f6a43b9a7438cbbca823f4cceb67e135fec02232066d9",
+      "mathematics_sha256": "fc6b5516c69cb8992b1f8a4fc1b35ef183d8ba2e2ee165a5e92b78cf433d09ac",
+      "dewey_sha256": "8f59b44cc6a7be95ebadd514e0a5a0ffa6ac05616fd4f7304bcc485275c42dd8"
+    },
+    "H003": {
+      "register": "HAEGIS",
+      "source_sha256": "42fe13b93667e6fd8c62177867f5e5e1f7c6aefeed59854d790f5233f6903c4f",
+      "mathematics_sha256": "dd7fd44a8ab341b7b4d6192e7d80f325b3ccbcf9d2b6ec288f6955c94c79b801",
+      "dewey_sha256": "9408d04fb081e270b67cb5a60c63a9226610480106ff62fb960c285210fad669"
+    },
+    "H004": {
+      "register": "HAEGIS",
+      "source_sha256": "e356f99b1801f6ba972439e0b05768bd0227c99f92e7b39b1f4975598dbcad2c",
+      "mathematics_sha256": "9c65ce65b0eeb9f906786201c6e754f3c954bfac74a9681f56696b71d043744b",
+      "dewey_sha256": "95b1a6a94e8ed5351aaafe5e79c032db736626e760cc09f13e4d4c2a6880f87d"
+    },
+    "H005": {
+      "register": "HAEGIS",
+      "source_sha256": "8fd538f43f23937028a2ae819810085787064bebdb9f325884e6d26029f1e1f5",
+      "mathematics_sha256": "297f9efee15cef1931a8696c6032cc7a49bbaf864d82b520767008147a4a39ff",
+      "dewey_sha256": "f6bbbeee124c8ead0e1f8e95952d1f8bec1e6fa46d21b1beab65efb35fc948e7"
+    },
+    "H006": {
+      "register": "HAEGIS",
+      "source_sha256": "30ad3cec06c30b4ee3633718bef3e5c1e9e35684cb6c6e8df6f5ca98b9ff231b",
+      "mathematics_sha256": "5ff165ad2a82761dccf7165cf180c5eca73ad651a4ae4570389145d57f8d6928",
+      "dewey_sha256": "38869bd380627a93cf69e99ed37ef0b19f67af9145b218a0d02cca46837b6800"
+    },
+    "H007": {
+      "register": "HAEGIS",
+      "source_sha256": "be51a8036ac7da66f1cbbf87525fd367a5b4d667c943aa079da176dc133b02cb",
+      "mathematics_sha256": "3338ddb9a9dcb07ae9a51f1a396cb923313211a4bfcde2f890edea85648a7dd2",
+      "dewey_sha256": "6a05eb054623ef14dec66f0e908d3ef861c1134d0c5fc3d8707e181e69b2c1fc"
+    },
+    "H008": {
+      "register": "HAEGIS",
+      "source_sha256": "9e6ac33f9a6f7bc4a7217fb5e3fa8b597562d33c64f8fab8b69e77c44c20260e",
+      "mathematics_sha256": "cb925750b1335fab6fd2aa21ff165d90dbd55aba5788a4c4bc6b085670960ced",
+      "dewey_sha256": "f532563944590f5066f61b7a9ec190471ea7cfbeed27132d2e3aa2dc731cc197"
+    },
+    "H009": {
+      "register": "HAEGIS",
+      "source_sha256": "e3d915302935b4bd3de05c9403d82ab7ee6600fe4a37de859004617b76bbbb06",
+      "mathematics_sha256": "66627c4feb2c35811924348ddddac693c6fde4bccc40719a24088e104e67350a",
+      "dewey_sha256": "0d6e4639b1edd5d87accdbae22529692185a955f64ec2f592a386d8d90f45539"
+    },
+    "H010": {
+      "register": "HAEGIS",
+      "source_sha256": "7044992e8e112231bce6a6e96111ed0200f82dc99ce93992bc1aa83efafb7513",
+      "mathematics_sha256": "d82dfa19109873108a3879405bf04d1edcfc28f5ffa627df056b867979e2117e",
+      "dewey_sha256": "6c99215ea562ec3324b34d2fedf6c5f83d2d505dcf080e4b23bc4b0448b2c709"
+    },
+    "H011": {
+      "register": "HAEGIS",
+      "source_sha256": "eda88a8b1e1498cefbdc4f60e291aa8c39c715911f00014c7dcf4684093eb8e6",
+      "mathematics_sha256": "4fa29153dbc54722569c3a9c73c52c7dd207aa77f915acacc297ae8716cdf3ba",
+      "dewey_sha256": "ba7a3bab5079403e3b754d86fded92e54b7bd760eb2d1e68927ca1a569fa91a1"
+    },
+    "H012": {
+      "register": "HAEGIS",
+      "source_sha256": "d198655693f9fe86dd9afd15ef972431bc5846b3ef4d14e7cfcbe72984948b6f",
+      "mathematics_sha256": "4a86a6c7f3ccafc225811ae9370756047707b96f91cd09fd53657777f21920bb",
+      "dewey_sha256": "9d0f468ec506d3da12cf5ff737570cc101a50475155cba291016d5a503a5ebf2"
+    },
+    "H013": {
+      "register": "HAEGIS",
+      "source_sha256": "7ba6898f53f5b3e31ded63e10e96a764a992fd5d22e9f58a6e70db2e4dbf826b",
+      "mathematics_sha256": "61aae2c24392704aa2674d81da0bf5073f0898edcfa255104d63be2d111943f3",
+      "dewey_sha256": "0149559f41fd98e75dac9313753ea4acac560480662ddbeee661e02b3a7a4f82"
+    },
+    "H014": {
+      "register": "HAEGIS",
+      "source_sha256": "937075b45e29f6cfa131e516de07723d20e256d4f6c510094125944d4c662ab1",
+      "mathematics_sha256": "a6ff10c3f779c027d0ff06c0ddafdd17a08b0a4dc0df2bf58e57313f1d4a7865",
+      "dewey_sha256": "2e324f46955343843c2f30a42c7b309bfbe7278c3a3554b609b31fab85afe99c"
+    },
+    "H015": {
+      "register": "HAEGIS",
+      "source_sha256": "b7af10b5935c1dc5abc8f5710da90badb64ac3834569d8ab9eae2a2a06d0a2d8",
+      "mathematics_sha256": "be41618a384f224359b076c3f104096339a9e0671f2e96e9c54ba2750041d1f0",
+      "dewey_sha256": "8ec70997850330d68c012306ef2a85c61708574293c8160e1c96a2f948071909"
+    },
+    "H016": {
+      "register": "HAEGIS",
+      "source_sha256": "c1e8148c228c72def884e9a901459c059c0c1b31cecdb6b000db6b2a9c07c43a",
+      "mathematics_sha256": "ea9458bacb4b5263beee23fd459e8edaf436bd6b32d6b35a653eea6d7a53347a",
+      "dewey_sha256": "dfb3a6bc06f99cf7d99c5f68e0a5d8b9e71094f393b1e3621051915be09680c7"
+    },
+    "H017": {
+      "register": "HAEGIS",
+      "source_sha256": "88426e93a5f9a588903a1ed96c8aac4608682eae03ad6f723cf60a28f12e9f9b",
+      "mathematics_sha256": "4cb90a945eccf47d7a4c197bb7ce4f46bd2187d38e54d3affec03f8bb40d750f",
+      "dewey_sha256": "294ac442647ea8b238390e882c9280d316e372186a89b452fa020863b51229cb"
+    },
+    "H018": {
+      "register": "HAEGIS",
+      "source_sha256": "b959b57df116c51cd3add0f909a49e843417804af702221e141873083fdacba2",
+      "mathematics_sha256": "47af61e626be11b679364753611709c23fad8799110dca756dfd2bc55bc714b1",
+      "dewey_sha256": "72de7954c4cd4c910bd0fbae80daf60540e731ff40e3f774f0cd5befc8b46a85"
+    },
+    "H019": {
+      "register": "HAEGIS",
+      "source_sha256": "4b3247328d83e43eae14b43e2767ff34cf91453db16a3afa9af96734a9408b71",
+      "mathematics_sha256": "484cebc6e73241a2c7c1cc550197fd35d48aa0ba72b1a2fa96928dfc1cd7faf3",
+      "dewey_sha256": "f265cd03d23a8b5a189992116f63e1ed21cd51f11037ba86748c5612b1a42644"
+    },
+    "H020": {
+      "register": "HAEGIS",
+      "source_sha256": "36e6fd4c5769108ebd81d9e645c9ab60cb225474dcc771b78e451f5e520d0b92",
+      "mathematics_sha256": "d87a71255cea0bd0635d1ad09a2540afe52ba54e4f97cffde9f9317dd42d39ed",
+      "dewey_sha256": "7509151faa240425c59dccfd9ffcd766e9e018fb6fb9a6e5be1faababd38e587"
+    },
+    "H021": {
+      "register": "HAEGIS",
+      "source_sha256": "93daf9f2de5a64e5ad635f863c82627caf4f9df399c34925fb9c55ecea679c51",
+      "mathematics_sha256": "a68b12a2e3e92167b763f679760ffd418d265081cb41dfe35ce67ce33990bc85",
+      "dewey_sha256": "8b8892bd886720951e8966211e9f522715f194b3a1a53409ab34553c563b3fbf"
+    },
+    "H022": {
+      "register": "HAEGIS",
+      "source_sha256": "26d3e9a8aa32f5748d410cf292eb7e47950031efe64796720e5c5cffc773536d",
+      "mathematics_sha256": "6f114bd109b97bbbbab59c02616e13ca93df1f1276d83a12a0b99553a0bc1d70",
+      "dewey_sha256": "6cd08901b5a9605d3893aa33521ee3ddf70bbc0d8b098eb6b448a606ec872e84"
+    },
+    "H023": {
+      "register": "HAEGIS",
+      "source_sha256": "dd5428218858f3f5d7e44157dbe31a38cbfd53004a6bf7d3accad120c6f98143",
+      "mathematics_sha256": "3df3d972e332acf7e90ffe61cda34010cc50346b7fe9d29aab524a2014eaf025",
+      "dewey_sha256": "4c5cded39dccfa80287591affecb7aa32e767cddf2fbaa47b7bd1ac2faa78e1f"
+    },
+    "H024": {
+      "register": "HAEGIS",
+      "source_sha256": "e2809ed410b823eeaad5503b07a78726fe8b539558be51d6cc78b0d4da05f93d",
+      "mathematics_sha256": "a08ddc8e00d64f144f9ff30df65af4637ed9279c7ed3cb87af362d75b90fac7d",
+      "dewey_sha256": "efcfd758abc8a78641f009d65cb9151ab262b5b0df4017588ce7ceb4755682f7"
+    },
+    "H025": {
+      "register": "HAEGIS",
+      "source_sha256": "b81ca5d7b6d75145448fa6358b5714ff4f3c0657647b91af8dc95d73cf47645e",
+      "mathematics_sha256": "17d360edc97e4e40b36f5f51ecf8aed98b2588abccb6a21df1cad3cfd7885681",
+      "dewey_sha256": "1f0a8ab108377b514824367af3021763712d2d45e016279a23f792f9e0028b76"
+    },
+    "H026": {
+      "register": "HAEGIS",
+      "source_sha256": "34c69d9aa695a1143ad4323403eb71b74bd4084ebbae35800c98ceb0d8d8ae4f",
+      "mathematics_sha256": "6457531355155367afbbe99af3b2d53a25a9de7ec9823dd97c55346cdbb00d13",
+      "dewey_sha256": "21d3edce9fb1c6b3d32af0b5003c37af0191906bc568d29e34869a6b2b1c89ff"
+    },
+    "H027": {
+      "register": "HAEGIS",
+      "source_sha256": "2e3daff429fa978b25eb1f37e8ee0e8e12bf5a2fe9f6981aa4354755687e15fe",
+      "mathematics_sha256": "20cd23418bd767583a195ec7b89aa9bb5775267abbb5aae8e00589c84095cd42",
+      "dewey_sha256": "4e76aa41bebbd8968263ada2629f15503f2d8ee2943fef18dfa3aa07390b4d17"
+    },
+    "H028": {
+      "register": "HAEGIS",
+      "source_sha256": "1f4cdc92e3f8e89230a6d63bdd5017bb6c5e08c2d9da9f26c3b8b2b3c80d4f64",
+      "mathematics_sha256": "bfd86a7aee0052db8cc5f9dfb4e15bf132bbefa8c3c575a2500227d950e2f33c",
+      "dewey_sha256": "7f05232c4d9033bcbf6fbbc69d95ca55e196f4c8769092660f0da9945990e0a3"
+    },
+    "H029": {
+      "register": "HAEGIS",
+      "source_sha256": "4f6dcbce0dd4fbbb410d2c3bcf08903526dfb4bd333eb431bc59ad7a21e533bb",
+      "mathematics_sha256": "116a0aaa5bdfb6c5e68422519843664af2806bdb47b1928056ba95b96fa86f15",
+      "dewey_sha256": "2775a1a294e0a0a1997428c55d79c4b627fe5738ad90fa62c211cd6c91abd305"
+    },
+    "H030": {
+      "register": "HAEGIS",
+      "source_sha256": "a0eda21834f9fd16f34496f40d685426676a4942f92088b133537a9a336a8d5e",
+      "mathematics_sha256": "265bf7995246e987ad2acd3dbeb75c978bd14e2fc6df2009f6609bee20d92693",
+      "dewey_sha256": "ced4c2de8903c4dc562c2f08b11146082e57a01bcc04fb8d6cfd54abbf3cfb2b"
+    },
+    "H031": {
+      "register": "HAEGIS",
+      "source_sha256": "7d94be3016c70fc6aee3a3b221aa6bfb1674f78c0ca44a52b84284607eaf801d",
+      "mathematics_sha256": "704909ff70dbb9840941eb2ebf71e15ec13fdf28faf84f4652f3e2b75bbb9735",
+      "dewey_sha256": "1d1d121309184f4242bb2952ec4f7f7867c2abdbe6688bc97243eb7cdd76511d"
+    },
+    "H032": {
+      "register": "HAEGIS",
+      "source_sha256": "1582ea1bd159ee03ef9a7c90260f3a8ecabd0de6b495e3b7761ba4c8b1da3d3c",
+      "mathematics_sha256": "d124da40f82d13cbf561070509e0e632716c1340473961f617d01f7800353bb9",
+      "dewey_sha256": "debbb94f628189d519dd81e3f298a50449d8ee1a8d727e635568e37fc6f1b6d3"
+    },
+    "H033": {
+      "register": "HAEGIS",
+      "source_sha256": "b39ae71319bb42bd4156e9d05253f56ccf009eb975095db2315af53d0b6bba82",
+      "mathematics_sha256": "1a9fdd42b4b151dd2ec93fb955736fb0aebeba3c95bcc0a3bcc830a416a960fd",
+      "dewey_sha256": "fcd0650bacd84781f780eb144dcc913df8e5c6e66255639823fc472c32fa2120"
+    },
+    "H034": {
+      "register": "HAEGIS",
+      "source_sha256": "c29e48f75cec2b16e2199b9743fa304c5284bbc6e994036c3ec0b1d127d27091",
+      "mathematics_sha256": "505535fa7bdff3480157fef333812b7d6ce9f4b63db472efb21ee5e780e884d8",
+      "dewey_sha256": "ca0c81c821f7b852b59191af7b8dc43b3d0a8810a66149e7a28e536bcbbeecb4"
+    },
+    "H035": {
+      "register": "HAEGIS",
+      "source_sha256": "36388bb4e75ea700b6af7be3ba8747368c86a7a3ea3e971d9844acba92abe62e",
+      "mathematics_sha256": "b254b5cc2697094c2e40ecb0c6837fe8d2d6a436a85487343e935db9594ba736",
+      "dewey_sha256": "4e8b3f908cd910b7ca1cd333a2c3a06c2e59f92253d804c1d815da310de64ee1"
+    },
+    "H036": {
+      "register": "HAEGIS",
+      "source_sha256": "269760ce519b04b342795d2559254c8cbc15f524a4320781bc79d1f6815381d3",
+      "mathematics_sha256": "0026b9c5db007964068fe022660ff26c6a1844e7998ddafc7e394fa684f208e5",
+      "dewey_sha256": "bd8ab2e41084e1b8825e2a00746e17019db15dd9c5c6cad1d6b9eaccd7470a17"
+    },
+    "H037": {
+      "register": "HAEGIS",
+      "source_sha256": "8ec8ea1647da3c4de7d14f13a14e018d3f59b1ff28d738af26cc482e160d0156",
+      "mathematics_sha256": "219dbb2afa23c901986e5f3e1ea3509881002e1dbadcef2f36ff9fc80c140b9c",
+      "dewey_sha256": "9feb687b39d64de5e92c64534969fb73f9e213fac9602e686a590a210632565c"
+    },
+    "H038": {
+      "register": "HAEGIS",
+      "source_sha256": "020f85cc3c20beda6ed8b2e22dae2c9e5704b651e7bb2c3eb639e3bfcf3eeeea",
+      "mathematics_sha256": "f13a996a14e1ea7e71192293549ee2689f0fc7fb28e6c7ad4b4fcf18a10a6102",
+      "dewey_sha256": "5a26913a416f564872b0c3954943d5b7157940ffcab3dddafd40ff131bd48bfe"
+    },
+    "H039": {
+      "register": "HAEGIS",
+      "source_sha256": "88072c5841752569839231df5ca0339bf2e568a216342cf3f2ea413fe1f86846",
+      "mathematics_sha256": "59bd3990c30c75f38f29c4083ea9f0ac43f9f915d8ccbbcc117348c8e7c2e65d",
+      "dewey_sha256": "e622a78a94e6c5a89261628c5aa955fc8ed2a34dfa647647818d9c796b1f83f7"
+    },
+    "H040": {
+      "register": "HAEGIS",
+      "source_sha256": "2dff693b5ed296804aecc3036a7cc02d267b01c17405947618eb9ffbfdd56f4a",
+      "mathematics_sha256": "53a3b1cc3d59e4128f63c5777ab989e55a06aaa31a8b3dc677dee7971a3aabc7",
+      "dewey_sha256": "2251cf253769c1e681aed38aaf27872759e4907bb5fa3dd86a46fffafc3666a2"
+    },
+    "H041": {
+      "register": "HAEGIS",
+      "source_sha256": "e640e80ca85bffb2d15deb01de2a7ea2e90e412f2aeacf1c5e394c0e7103be95",
+      "mathematics_sha256": "cee22988e9a42d652f532055059c1f714949ae2c26535771e1a0161dbc64c2ff",
+      "dewey_sha256": "65db04625e33412f29754765125365695aa75e91671063c258646a15c751738f"
+    },
+    "H042": {
+      "register": "HAEGIS",
+      "source_sha256": "ef298609215fdd0f79db0a59043e16e36557ebdeeff2c1a494980e048896f848",
+      "mathematics_sha256": "c1f8e57e3af1433f3832d8628db3c22b2b19b92a4ab02d14b6fe5a44504b9039",
+      "dewey_sha256": "eda0ba004c6bd8c7b5292c7e07b6738cc94e33d4a98d493e8167e02c112e183f"
+    },
+    "H043": {
+      "register": "HAEGIS",
+      "source_sha256": "831df927fb4b7fa79e7fb7680ff3890edc5ff36788f199d5371ebf6c336dd987",
+      "mathematics_sha256": "c6c04151f16a49e9025afe738396c0dd4163a865a03b0d478f4141031509a7d4",
+      "dewey_sha256": "9fbd3e628e38a8f827f274a7a2a0d96b8c89acb32d8c250d56bd61fe4eb43209"
+    },
+    "H044": {
+      "register": "HAEGIS",
+      "source_sha256": "eb0617430ee13bd2465f11ede3240f8aa9c315cbb58f6fba356d93528203549f",
+      "mathematics_sha256": "2eddc16e2c03f3fa121cc979886a00ba0ef02bae50dd3df78270a63d18f5511b",
+      "dewey_sha256": "6d6a650cbe5cfd7ff60a0382f8fc01a96fea944cb0bf8755ce3f5d3e37ce513c"
+    },
+    "H045": {
+      "register": "HAEGIS",
+      "source_sha256": "5821c526624782969087a7be93abb9952b4fa8d0503dd9da19040390980fb47e",
+      "mathematics_sha256": "60428ed77972751fc43adcdedf8acc62bcd1d2e115ae9ae716106e8c236557dd",
+      "dewey_sha256": "df6a2a00cdb40baf7984fb8069c4ae8c54d8126205093bf82202089e23a75463"
+    },
+    "H046": {
+      "register": "HAEGIS",
+      "source_sha256": "96967a9f07835a1b0f9b5ecd277966f1f2f66a95d92cbb8b65ef8b64db6b91ec",
+      "mathematics_sha256": "46b7f679ee093d992d7e147d1da36dcc274e5a9af3037bc1a00e74e715b2e80a",
+      "dewey_sha256": "28aecb3b21ae7b1e4cc8224f0994582d57883c72504b0c89993534ffb15c120c"
+    },
+    "H047": {
+      "register": "HAEGIS",
+      "source_sha256": "7969c0bf73c2ea2131e7964bd9f1df62922f6ea72fb688c0eccde47119729159",
+      "mathematics_sha256": "fc97df836cd7c20b63df126ff4ce57038e566295dea538083edc16344d0393e4",
+      "dewey_sha256": "a98c633c63355bc54ce8694292afec2e4500fc3874b41d71b1f27d68212d314c"
+    },
+    "H048": {
+      "register": "HAEGIS",
+      "source_sha256": "f89f0e9fa26681948c2c2832e82910f1c7389ff4b5812cf4098b6d537b29cf7a",
+      "mathematics_sha256": "c38adc24107f7ef0d1deb9e60540f8428d9655d06c3d67c10b9adec40c0d3c48",
+      "dewey_sha256": "cc590a4bef6141c57225461d88865b11360f31aa407734be4c66ab5945b92e9f"
+    },
+    "PRISM-01": {
+      "register": "PRISM",
+      "source_sha256": "3fe2b49362aac2724f6726b9bcddff260f7b879bcc99e07accdde8129a78227b",
+      "mathematics_sha256": "041860ed6c332853575d082303a81dfe0b49be8e3e52715830eac1a7f3c89f8e",
+      "dewey_sha256": "93e53cdd73032f9bfe9b71ac02c40f18f36c46619685969282950a3e31bc3afb"
+    },
+    "PRISM-02": {
+      "register": "PRISM",
+      "source_sha256": "c90a6fcee7a122e22b4e2046a3351f2deda312ac7cc33aafcc12b3b4d356c3eb",
+      "mathematics_sha256": "534bb8888d0a16c3b705576d4af8e4e3df8b7f190aea7cc93e11f9cea34458bf",
+      "dewey_sha256": "f09821eb3c8a3471a0b9056112fe9537fc6d49b472cfa334f1554433d04ceb26"
+    },
+    "PRISM-03": {
+      "register": "PRISM",
+      "source_sha256": "9e7a580c18d8f5f83c51a66161ec6b276fe655de62728505f1758d812fa229c1",
+      "mathematics_sha256": "c34a35068056150c34fb93d70c4ce93353611a6c6b2087f68801e223b64c780f",
+      "dewey_sha256": "765a88ae8354de37852e0daf11270065dbb368463f0ff95bb28d920fae2fc788"
+    },
+    "PRISM-04": {
+      "register": "PRISM",
+      "source_sha256": "247f8b959dc2c4ec1ea5826bf7425eda2830bc7abee8298359e33eaa1f066765",
+      "mathematics_sha256": "27bf69515e45ee5ead74e36121f54e778e9018be3ef0ef0dc3082053dfc436e6",
+      "dewey_sha256": "4b021e5ee0ff65c56896db2475c90168f32fdd3e5d8966dd173cb0dc2037bea5"
+    },
+    "PRISM-05": {
+      "register": "PRISM",
+      "source_sha256": "46ea395bceca6b446f46c2d5a8a8758a359b6817ea3dd8c73f2879dd3205ade4",
+      "mathematics_sha256": "761011f506dc8e41f6e3b0b77f10080d871c652db2cb182eca81269b4b5c86e7",
+      "dewey_sha256": "7ed2255332443f32e453feb398c84b7bbdf20fb6dbdd311ba34ab28dd23aa528"
+    },
+    "PRISM-06": {
+      "register": "PRISM",
+      "source_sha256": "80135833d0c61c1860c2bfaf94f8af199f3e0abf50e38c0f33dc2b6d7f48d38f",
+      "mathematics_sha256": "aea361dff538089325cf331bdf84c5b4f068e06366c6a1d39843b69e5ab7f778",
+      "dewey_sha256": "ca23fdec914659d09e9105b671f2e4be330ae41b8d8aaf7dc07e12ef1f8c82d2"
+    },
+    "PRISM-07": {
+      "register": "PRISM",
+      "source_sha256": "af3706ec1103b7d6edbbb32280ef59eb9c2acf6c91e9a23bb25a3b57a26e8cc1",
+      "mathematics_sha256": "eab3b5073096b84c4628aaf6ff8363c1ef8d3c475d1344f7286688a98c202d72",
+      "dewey_sha256": "5cf937476b6b606b074ac8540ae977dfd84e9578440802630988bdc68bc2a47c"
+    },
+    "PRISM-08": {
+      "register": "PRISM",
+      "source_sha256": "f6193d1ab7c5188a5d6a804be06704eec33ebc6a3ac1b1bdb94c9d6885e89fd1",
+      "mathematics_sha256": "b2a1496e75839ab298a3d61e0b5268b819168a4d4d9b736b92757001f8f75e32",
+      "dewey_sha256": "7e289d87ae2a69dfd65cbb6a4d9d8e10f23da97caec3d4f0b2b544770cdc4ccb"
+    },
+    "PRISM-09": {
+      "register": "PRISM",
+      "source_sha256": "95e09eb51d1717913b00a52278a82770453f98ad40b6be96f2c6f03d3f00717f",
+      "mathematics_sha256": "a8d625830db2e9464ad834f2c29df146db80fba54deda7ffebaec7e9d6a4720a",
+      "dewey_sha256": "324a35dad0261aee497cda5b9677e5e5b85293fdaac51429a7bf6f324144e590"
+    },
+    "PRISM-10": {
+      "register": "PRISM",
+      "source_sha256": "4f85ff8e9e64fc10a0d5f8a41f08f25e5ef84955d070ae09981ee22dab6b1b0b",
+      "mathematics_sha256": "a91098e44f33c7bb5d564d47461aef81befb2dd76ab816342124b53918a6f7e8",
+      "dewey_sha256": "269ba8b7bcd052d2abb3db51066b8eca4446509259a3cbca5a600466ac962a2b"
+    },
+    "PRISM-11": {
+      "register": "PRISM",
+      "source_sha256": "befb43229d15f039b640e33823eec7760266271801b831dac437ba436783f9ec",
+      "mathematics_sha256": "3e34dbe0f1f0fd35307dd9aa5736a4b9783d014dec902354da1c47106ca95ee7",
+      "dewey_sha256": "0c6b52671667f481bc487acb2656bc37b36fac74e43da604e5b4d8b19b0fa1ef"
+    },
+    "PRISM-12": {
+      "register": "PRISM",
+      "source_sha256": "19438d981bc99479cefc2fc7c8a4acf0658863fdab4e62a3d81fa53d47be5ca7",
+      "mathematics_sha256": "5984768e04b41459cba574a141dcb4f130cbb95289bbe4540c09d520fb4e6e21",
+      "dewey_sha256": "45a50965db777f699f1acea23ec998b957fad704d0e22dc18bee6df28e56484a"
+    },
+    "PRISM-13": {
+      "register": "PRISM",
+      "source_sha256": "8f98efc1f800fe606c0691a8921ef3684dc1753ef584bb014016d47bbac624ef",
+      "mathematics_sha256": "dc8a3bfc2deba8fa570291656671b45a6833ec9d19c4e037ebe99c0a5fefcca7",
+      "dewey_sha256": "f6096c77868f3d2dbc82508db22088245c0f471f3219280f9378133bb0d8cc7c"
+    },
+    "PRISM-14": {
+      "register": "PRISM",
+      "source_sha256": "4658a92895cb290ccbdebb1ae3f9668aea3cbe84264f919dcf850bf1b11483ff",
+      "mathematics_sha256": "896f63c15f209306d2ad1eaaee2f40dc9b6817e8f6ecf0be4972e6e70d639576",
+      "dewey_sha256": "556b12801e919aa63664066b3c0c9399daeea1e4dac0b8bba333003ee2ef08ef"
+    },
+    "PRISM-15": {
+      "register": "PRISM",
+      "source_sha256": "486614cc1bd9933fa8edbcfb898b4fe777fb4a2748b3d82b53faa26277b36857",
+      "mathematics_sha256": "b21e29422248ac2ea7c1e1248d153179ccc1838adf3cdd66dccbb9597a51020a",
+      "dewey_sha256": "8913105db2f5413ebd067967bf92e25b2b936f05e42c7e8c98619b6df798dff2"
+    },
+    "PRISM-16": {
+      "register": "PRISM",
+      "source_sha256": "6958c66921ac06122dff4f289bbcffd3749e6704b4bb4f4c504d5dbfeb7e7cb0",
+      "mathematics_sha256": "957f89c31a5cadfcdf709568e5f6ad119eaf969ae2c459afc2b87a4427a7416c",
+      "dewey_sha256": "02585ab48e05f18c932ae648a02b71938d022cb1bcce1c39a1c745527b65e1b6"
+    },
+    "PRISM-17": {
+      "register": "PRISM",
+      "source_sha256": "1a73860dab634044814bfddde801e2a9c89b8f4d5226a6ff9b28cc9faa2dbd88",
+      "mathematics_sha256": "9070cb19bf38efd0000f33cf70e4270d67b99e31d9e7f8daa344a32454d190d4",
+      "dewey_sha256": "7159ad843e5e4dbe3e3b0b028ca5193e38f6a7bd19975e2be5cb07c4531cfbdf"
+    },
+    "PRISM-18": {
+      "register": "PRISM",
+      "source_sha256": "c89834bcb5221a776e54bdd0a4af637b2bf4013e7ee0812ee59ddad7d4bcb0c7",
+      "mathematics_sha256": "e2bf1c04c2ec34b227962614afcf9677c95701e7418bb500a520a29634286cf0",
+      "dewey_sha256": "23ced6e41ad24373726dff0afdf599720a26694ef5d9a970082d644778b79b4c"
+    },
+    "PRISM-19": {
+      "register": "PRISM",
+      "source_sha256": "6610315205a37510156a0dd8b87ab970cdd27d22e65f82893d282785a46878ba",
+      "mathematics_sha256": "64f5323386bfc99ead9dbc8d39394c0aa6935c7e0e3bd070b8d352257e502314",
+      "dewey_sha256": "86b8cd780f4a736eeeda9e6f53675f8a6638357d9c908e7e8c9ea62316a8b22e"
+    },
+    "PRISM-20": {
+      "register": "PRISM",
+      "source_sha256": "4d402d586c132e1a9a282cdeaa419875c22716b87453988941a29044261f9b67",
+      "mathematics_sha256": "e0db3969c92c399ab6668693cf68c7aa042f974fc084ba80e5edbd51376e74ed",
+      "dewey_sha256": "60557def5b96df093aa1d010ef016c90b5d7675ba3773326ceb384470990a260"
+    },
+    "PRISM-21": {
+      "register": "PRISM",
+      "source_sha256": "f3a0873ad38ed67a688daa7ac00bf2680bfe332dcd91544862e398cccc6db9a8",
+      "mathematics_sha256": "ff62912cfe2d69d99038946b8048e7bd6702712a81e2c6d1869a78395bffe80f",
+      "dewey_sha256": "721ac71c7635b31b40ad3be9d708f17bbb7201ededa09b0bc427efeec3f3dde3"
+    },
+    "PRISM-22": {
+      "register": "PRISM",
+      "source_sha256": "6a9757b406260d0d020cffa6996e1efc5bbe9071e0bc20ad6c5bae62bbc38774",
+      "mathematics_sha256": "0fcdf45d387a4935259ec45e0fd1b96ee8dac21565372c99a99a79facbf3ffaf",
+      "dewey_sha256": "a55cdfe2cf036032e6aa6cd0c0fe96970c1555268c4824aacc4419f04da32892"
+    },
+    "PRISM-23": {
+      "register": "PRISM",
+      "source_sha256": "382dbf077e30599179e0ec3a714775c3b8544583c6d13f3d215afe14793154b6",
+      "mathematics_sha256": "3e9984f9da139aa13fb9adcf725b0e973cfcb477e3f61bb81d49166030ad2c19",
+      "dewey_sha256": "c866c3e64f47f1cc8ece197729a117fc23e18f54840a18dfbf0d5e138c0c2915"
+    },
+    "PRISM-24": {
+      "register": "PRISM",
+      "source_sha256": "3774d0ef905b1a1924219afaa1d6e2ea9cc8e650f5ecd68ebeee99c4c16c2ed3",
+      "mathematics_sha256": "b13090729eb60dd4d742eac4bc02e87a2cc6e18bbc76508eab9719fc88cfa075",
+      "dewey_sha256": "6ea7674b21e3696907e6fb1955d1e62e2d2c644d1c7794267cd59b4fe719279a"
+    },
+    "PRISM-25": {
+      "register": "PRISM",
+      "source_sha256": "27d3657611cfe57d41163ab1d66c5c760b999a1a72e6ba918317f0ee45240496",
+      "mathematics_sha256": "5bd191eda47a497fb0552cecf008951b8111e64fe2deb9a5bc8b1947574a163c",
+      "dewey_sha256": "ff18520828ffd918bf5180e6ef4652c6bf3c107e8bea02dc734864be4ba58f75"
+    },
+    "PRISM-26": {
+      "register": "PRISM",
+      "source_sha256": "cb7c86855011977eab1d5901adae74124e6aedc28180d036707e78580403e426",
+      "mathematics_sha256": "9fde5775c9c7e0d3a14229eab4afd308ef27e9e00439468c145469e1636028cf",
+      "dewey_sha256": "e30654cbf009b8ec78db47c6ed69549c13ec0ba17c474d477c998738251642ae"
+    },
+    "PRISM-27": {
+      "register": "PRISM",
+      "source_sha256": "590db0b5030d65b6baef61182868e8d6957b8887e1dd49cf028d75f03964efcd",
+      "mathematics_sha256": "76905b614e4142a78f9f26c9669ad749278c204f8d971099108147fa02cc480c",
+      "dewey_sha256": "b37b3607fb1c78cd4052c10000de07274c4ec0f82a4bb2ce767d285744748ac8"
+    },
+    "PRISM-28": {
+      "register": "PRISM",
+      "source_sha256": "ab7ad643e092b9166e0808c5a9570984bfb274af303c5f0b437814e0b40e7b98",
+      "mathematics_sha256": "ef159b2abca48915b9517266362c672234ba9e8ef8cd729542c2216047e0ecf1",
+      "dewey_sha256": "f752b4c68cf2fb242c895aa81cac4530d0e908b4f837c8fcdfd0863d8f947f1b"
+    },
+    "PRISM-29": {
+      "register": "PRISM",
+      "source_sha256": "7c60e05a26699ceef98d9fea72ab4fd9f0c26bf0dca8798b044541de996d5738",
+      "mathematics_sha256": "747316399f652094d17a8c493bd606ecfa580fa5845ade6e46e1006ea0021341",
+      "dewey_sha256": "1ef80bb09e4670a46e0cdf5c252ec61882600791a7dd6e66d580baf540557db9"
+    },
+    "PRISM-30": {
+      "register": "PRISM",
+      "source_sha256": "6ea94ee62d54cff7978d4ecae10429b268faf62df9a6fbed8820dc67f34af4b8",
+      "mathematics_sha256": "078102062220ce56e795e205757b570943154803bb91a51dded947e65cd780a5",
+      "dewey_sha256": "0a72be0d2327fa375824a95d7ce1bfac6b90979c8e9524912879f3466e1f56c5"
+    },
+    "PRISM-31": {
+      "register": "PRISM",
+      "source_sha256": "2ff4f191ade883ccdba8745ce0e57082da3efdada9ea2d0c46580a7501c07e2b",
+      "mathematics_sha256": "ac1128354842aa0b3cec23e8f6781d498f25c1dab4714a0c0048b343a575e9b2",
+      "dewey_sha256": "b38dd8ce16c4526a511219b4bf1843f940a077841f4d73f7ce02b1e44c3baa08"
+    },
+    "PRISM-32": {
+      "register": "PRISM",
+      "source_sha256": "491127e0f1e8f9a6c76926eecf1f345d2c3637cd8267580eab6688845527fe04",
+      "mathematics_sha256": "1e0e1c7531a59df2bd7d9ace7ef093a0df8314ab1d080a527b6e3078e80aa387",
+      "dewey_sha256": "4501c0d5ae3d68ceecee5fed01f2f9c7d6c40cef1500b8412f022eb9c05a31e9"
+    },
+    "PRISM-33": {
+      "register": "PRISM",
+      "source_sha256": "5994400293983249988057e4096c31248e9c8c0b28b53534010b939c77395b95",
+      "mathematics_sha256": "5eefabda4827828f83b6d80b295785ab4b3faecb0f12955b6a57836ac899694b",
+      "dewey_sha256": "c60b2a4702f9852eeeb2ef2bb12caa929dafe2251c1926536ab0b8c6f1ff194a"
+    },
+    "PRISM-34": {
+      "register": "PRISM",
+      "source_sha256": "c37d93c1e0ccbdfa897982b2bff6c3fe23c1c9ded0a047182b12d5cb8ab7c610",
+      "mathematics_sha256": "dc38a053407163fa1eb53b2745e38986858afd8bec53f94283110d55fdf3c8db",
+      "dewey_sha256": "85ad7f10d2814e1bfbb575e50b298d74c726e291f9261efba32d16e88efc4571"
+    },
+    "PRISM-35": {
+      "register": "PRISM",
+      "source_sha256": "36f8d7a7219105454c7a5356c84453cbcd6a6ce4aacb6a6045d1c7b5fa005115",
+      "mathematics_sha256": "5013ab2d25d9a33e2548a1712f141ad622697ef63437f5920e75ca067fb0f2f4",
+      "dewey_sha256": "be193187a45f7e4cbb154b2dda5bd138bfd3d5b1ba80110911dc8afd372c3d15"
+    },
+    "PRISM-36": {
+      "register": "PRISM",
+      "source_sha256": "91bafcecc8ec6ca6a2eaccdb0206dda5d285a744b352c09b01b722d2da71e6df",
+      "mathematics_sha256": "e313cfd60f31fea78539879c60ca1f19af7d279d556801a6a10a21e5b2fdd0fb",
+      "dewey_sha256": "565a966ad2477601efea602c6d750d6181fa2cd6425740a5f85080b2b937ea77"
+    },
+    "PRISM-37": {
+      "register": "PRISM",
+      "source_sha256": "210d4b1f8bc1d23662f8ffa7052e978db0881c903f097af91fd47327d10b85a9",
+      "mathematics_sha256": "35ecde54c43f2ef553c4ca7930a02f8b21b220f84a7a2becbde1b7f2b1984f9a",
+      "dewey_sha256": "f7a2dd13c153b8942de5859ffac604fa94c9982b41fa107b42bae25ef1c8e358"
+    },
+    "PRISM-38": {
+      "register": "PRISM",
+      "source_sha256": "ed6b714b948370830d2d3c112705d5ca45f645c0a8b8a88ef61667ba7d56d5c4",
+      "mathematics_sha256": "bb01f2c94ade8ba98568fa60f53adf8104e64015f792780fdf6d6a1ff83a5a14",
+      "dewey_sha256": "98b485cb0365076bd16d80cafb455474756a8dc55831d36915f065cffa69b7ad"
+    },
+    "PRISM-39": {
+      "register": "PRISM",
+      "source_sha256": "9f065759e09d601f95336a56dc6e3dd7f7125213d74dde677d5ead1055854a41",
+      "mathematics_sha256": "ec914a5aa82507124840fd5933e0695f5d8c3e22da22c20f3202ab2367f0ccee",
+      "dewey_sha256": "d4a26c8dafade3c0e67639b0193de6791878cf642d8e9f02df350d2aa6bd1de3"
+    },
+    "PRISM-40": {
+      "register": "PRISM",
+      "source_sha256": "585743700c95578abdd3de67ad469e61c637c9fa36f82896548ef30ca7c3665d",
+      "mathematics_sha256": "b6bfff5d88fe0a44afc9fc90592234da8a4e646eb8b913756ac2d77610fbec19",
+      "dewey_sha256": "4300c7854fd51316d415dd51028d3ddaa48a80124bbbf462ea9ae10ad007a179"
+    },
+    "PRISM-41": {
+      "register": "PRISM",
+      "source_sha256": "9d8a71e970757b10abaf199d4feeaf0fdc08e1bc7781efbfab62a49e22b1ce37",
+      "mathematics_sha256": "994e457c3e301ca1b0813423809cd6a93c3763585a16ccb90d9afd2604f37faf",
+      "dewey_sha256": "305ae7d0eb3fe99a7ae619557ca1ece888a50dc5d3c2aece36935b8716eb99d8"
+    },
+    "PRISM-42": {
+      "register": "PRISM",
+      "source_sha256": "a4565829a5ec44155d1df4c7e7f9cb25b101e1175a9f3567aec9bfb44cc0ced1",
+      "mathematics_sha256": "eaa256bd89b87e78b55a348567b77843f5d4bb8f9e3bd2d6fa597ea389b76d60",
+      "dewey_sha256": "23429c9b9a6838598fb79f3aea877af7c0442b44ac0fe8f75dff90a8b563c42c"
+    },
+    "PRISM-43": {
+      "register": "PRISM",
+      "source_sha256": "53351b181a4cda3c1d6b73b194c86f025d6a91d60487276cbc733843370a9268",
+      "mathematics_sha256": "c64cb90b86d2df0b7474e8cd4e66594e8fed41e6b9be7e1f032e734284c27dec",
+      "dewey_sha256": "f19deb0d9bc1682701567d6a2d62bf65c97a6b41369ff246176f71267ce2cfa4"
+    },
+    "PRISM-44": {
+      "register": "PRISM",
+      "source_sha256": "7c119a5a816c4b579778cc19d479ce9952dc000c522e8c8a87bb8252d66639b1",
+      "mathematics_sha256": "9a3cf63e66cfab587c37d6f22c94ece63ddb34c719c7e558cf42eba4524a350b",
+      "dewey_sha256": "9d62908d4b926363edf6417124f11d3802823cb0ea9ac2833abd8d29600cc90a"
+    },
+    "PRISM-45": {
+      "register": "PRISM",
+      "source_sha256": "5bcd9a5c53ca80fb5f826767bcced900a01db0bb3229400a370e92346024a416",
+      "mathematics_sha256": "d92a4a96553218b49d60760fc7267c2ba68aa338ec898b268e1ceb1b5e3b3f2b",
+      "dewey_sha256": "e23b7f16f46cac0c3750886d170a285b3f4f0db30e344dae13f6ed1dbf3607fc"
+    },
+    "PRISM-46": {
+      "register": "PRISM",
+      "source_sha256": "dcee151fd09f668075d967e15cdb415093e0ac8f9d55512cc443b222c016c07f",
+      "mathematics_sha256": "880bd533ee89bc6f67c3d3aea3df4bce8585152ce9e3b147ff9af67d72963c24",
+      "dewey_sha256": "e04ccca31dbe4149306368a48a285845e2b49ebf882caa8549504a2b5be3794a"
+    },
+    "PRISM-47": {
+      "register": "PRISM",
+      "source_sha256": "7b31c95ae1d03c3230ad0a9d457ecb02ab16759d08213fad0a907be8bd49a962",
+      "mathematics_sha256": "8b17b0a614bba0d81891796238c70f758e8ea2772e5d237aab4c08c16f434e6c",
+      "dewey_sha256": "5c06c13d1bacb9b442bf05159c96c1d10465da37de7f534f859c8be44980b10b"
+    },
+    "PRISM-48": {
+      "register": "PRISM",
+      "source_sha256": "056364be9e5273d94ca80dda503ea1dcdbe9d2393861a5aefa3ce4d0580238bb",
+      "mathematics_sha256": "ccc7c00515b8e76e186d7fc54f8a9437f509dbf393b0c09f34f8926bf61c1df7",
+      "dewey_sha256": "a429ef0ff717d33140df58317bbb8e7ff663b99b8823c87e278e34a03493db70"
+    },
+    "DEWEY-CODE-001": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "c44fd6361962bf64fdefec0b587f8ced8d50c48a10c5f3fa69570532aa19efe3",
+      "mathematics_sha256": "492b25635b1fa0584074ed6cfa4f8f428b77cb3a2b744eef5512386e77c0180b",
+      "dewey_sha256": "d497d77d5ea800b0d271f4d0ebf08cad7265e370963e6bc238641e5f31e30d18"
+    },
+    "SPECTEROS-GOV-001": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "89a2470ceb9aec2edf7cf8919cd95ac12ba6c7d88cb090ac68a898f639f58622",
+      "mathematics_sha256": "3b0a36498077892788e724db3cded8e960e88322bb394f962b7e15e9e13fd12e",
+      "dewey_sha256": "19a469334c3367548f19ace22127e4ca26b92dc5fafc3d6d86d2c725ea417c9b"
+    },
+    "SPECTEROS-LEDGER-002": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "89a2470ceb9aec2edf7cf8919cd95ac12ba6c7d88cb090ac68a898f639f58622",
+      "mathematics_sha256": "4a0c3319da2147d5487e5203332b9a4caba5505424c63d277d9876d4ebe77316",
+      "dewey_sha256": "69861098065bb30052c0c82a62d2d336c40481f95adbcd074134e40e89d24ee1"
+    },
+    "SPECTEROS-RUN-003": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "89a2470ceb9aec2edf7cf8919cd95ac12ba6c7d88cb090ac68a898f639f58622",
+      "mathematics_sha256": "06c99fe96e5425de9df2d1bd215da7de5710c137ceded620ab8e5614c5a3fb74",
+      "dewey_sha256": "cce893d9e3d8406a385a04e471a4bcac1759c5a2adfd876bc5959942f2696392"
+    },
+    "OBSIDIAN-PROPRIO-001": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "14d08d4fb8523a9ace4bd520c5d4c13cfd48828f966e6fcc6879e0ea3bc6d015",
+      "mathematics_sha256": "7a94271101205742c2fb2015818e30ecbd36bf694e49b4840945eceec7547042",
+      "dewey_sha256": "aa7fc3a64c97888e30ee2d0344ececfd3255264b2b1f589000d44f3cddbba9da"
+    },
+    "OBSIDIAN-ATP-002": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "14d08d4fb8523a9ace4bd520c5d4c13cfd48828f966e6fcc6879e0ea3bc6d015",
+      "mathematics_sha256": "d3ccfd8b8b8dec39b8cf2e3c59dbf5fc7b5a29908777c869ba3c633e4fc5fc95",
+      "dewey_sha256": "5622d7c525b61434c5e72932982f7346a8dadc5be0ad506bcf8188f93837a183"
+    },
+    "OBSIDIAN-CIRC-003": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "14d08d4fb8523a9ace4bd520c5d4c13cfd48828f966e6fcc6879e0ea3bc6d015",
+      "mathematics_sha256": "c20def761aa584f05ee7953171c88b27a045cca16020d1b1beea895e2a6b43a5",
+      "dewey_sha256": "ea8abfa58e72ac1f100999fa8c278c6d8ed9927fe6f15d815e32678d9d69906d"
+    },
+    "OBSIDIAN-REC-004": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "6d73d3882a93e40dc84f4eb99cbae01d51cedaa98d30ad8b57bf88e113310a28",
+      "mathematics_sha256": "3cdbea99769647da3a6f0c8ee0fbadfa8dd8d1908f422d0d1522b503d92b5c8c",
+      "dewey_sha256": "22b3e4af528364b04f2c26d2cca194853670a5ba80934f88be4938d8c885706e"
+    },
+    "HAEGIS-NUM-001": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "82cfb0488c554d5add17a2a06b327cea700091e2507f23739edb68fa64cd1c23",
+      "mathematics_sha256": "76f00dda6e7d46e696dd1d04abb4a239927cb81fc933ef4973eb2c94c7bd5ed8",
+      "dewey_sha256": "66d06b8dc59d543a1a87fdc28c602a583e4b478c7a440e004c6752329fef095f"
+    },
+    "TEMPLE-GATE-001": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "b099d304a3eba9b97354f5d5b5c24a281115e35808213e82577a9cfa1c52d75d",
+      "mathematics_sha256": "9f1227da39534f6c613b32ac54a89c3ff7cbc1bfd70f94a44a44b60b8a366365",
+      "dewey_sha256": "9e897d2cbbcdf827b3f0d5b9504128a73cac2694df5899789d6818ea272a8fc2"
+    },
+    "SPECTERFRAME-REPORT-001": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "25128a0bb5f30b88834e2f6ba94eb49378260ef493f0c7bc2fd9ed84791bf286",
+      "mathematics_sha256": "e0ec95a816db9d9f52ce3b1cea1f2ed8f8f1f83a8cf25ddd97b6a19a71e47442",
+      "dewey_sha256": "0c8e786beb56dadd255ca3de366a68d0b0c728cd2da08757c385db9781b6ae41"
+    },
+    "TOBEY-MIRROR-7_12": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "7615f69538c0547050401d7d597eeb39d5bb5340f6311dae069ed1b73fdfe678",
+      "mathematics_sha256": "cc6fdf8cd0afea547e2efb1e88fa65265db67cd71e11d998b8a3d48f3eb2e438",
+      "dewey_sha256": "1ebbdfec5fbadffa6c9065b4e84b321236e6faec9523150d61b9335222e62ea3"
+    },
+    "TOBEY-TEMPORAL-147": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "7615f69538c0547050401d7d597eeb39d5bb5340f6311dae069ed1b73fdfe678",
+      "mathematics_sha256": "7d8dab1616544d761b284fac4b868a1b60636ac74ba1e9e79994af112750f9ea",
+      "dewey_sha256": "454dcb27c2290361ddcf89ffa94fc8df275f7576118d5053de15c227039b8f3f"
+    },
+    "CPT-L01-FOUR-TRIANGLES": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "11313a84cf70113816ade906e02251de8ec590fba588d87308a479571e1ee633",
+      "mathematics_sha256": "fbabb9d7fef9f253c029ebded7952bef1115f07fe6426a054cf8aa739c74c890",
+      "dewey_sha256": "1f236ff60943c89a73a4d9897dabfee61f316b64ac1acf2275e78ccf619840f8"
+    },
+    "CPT-L04-TIME-PARTITIONS": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "7c1198a49912b13e42a8a396b47af25c6fc3c1fc5f180c143cc9f81ef82d4e3b",
+      "mathematics_sha256": "017dc76713dec762b2e0aba524b26c5e221d5f3b33f839881f42a956d496fc63",
+      "dewey_sha256": "13824c6cdea7f323d63059d14cfb2501d9c6d9b75538779d1bcc648e6a456947"
+    },
+    "CPT-L08-MEAN-DISTANCE-ODDS": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "dc58bebfd5f76f70e69290d2a70dcdfe1cabcd4b6078b21e1d52d72e084e87fe",
+      "mathematics_sha256": "57aeaca82c509f59096c31efece08fa4d9049859b2fa8b60f4b9c690e69015a5",
+      "dewey_sha256": "cecb3bb68922e8925187cf8c3c057b43786b433ccfd363c79feeacfb9a429adf"
+    },
+    "CPT-L09-SEVEN-ASPECT-ORBIT": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "fe50562f1a5ee5d665269a97b47fb73352d1420847f36b1239b76af3b876aa2f",
+      "mathematics_sha256": "4d0312cd99eea1b6dd19992ae317dede994913d9a6b67b7414fbb0caa5b070a7",
+      "dewey_sha256": "777360fc37400de372e7eb85c03881f915cf9f62effe9b436edb77be5f16d8b3"
+    },
+    "CPT-L09-HOUSE-ZODIAC-REVERSAL": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "6a18637fd7bb3574662c4e8bbdf8a501cbb2f059b8db1375cffa1589f9e1ad54",
+      "mathematics_sha256": "1994e263a4fb87ce21332dc7b84158bacc07505e93c3f2962f28390bb11a8349",
+      "dewey_sha256": "c6188cfb411e76211be74cee0c54cd56cfe3b3b0740f411b48e3d7568abf955f"
+    },
+    "CPT-L21-SECONDARY-ROTATION": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "a92418908284b52e8b8e038d290365981c67252aff9d3bd434e37e554245e76a",
+      "mathematics_sha256": "92efd4ac5d9c244e62613e846cc043e5c71fa59d744825ebb69daf56c4d3a3cc",
+      "dewey_sha256": "ca65146724f11031639630fde746d1b34dfc6205effcd22fe0aa06208697c33f"
+    },
+    "CPT-L21-SECONDARY-ASCENDENT": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "3055845c2a757c07f5835a8a26f417c2d4ec6cc5832ad27c26025dec4ee8c696",
+      "mathematics_sha256": "05dc6be3271dce64d42989f1863f234b48f596debacf7b05ce6f004af9cc8aac",
+      "dewey_sha256": "9e53d8c3c860cb6276a3d32407c008f58e83797d19a676f4bae2c43913af9831"
+    },
+    "OBSIDIAN-FIELD-144": {
+      "register": "RECOVERY_LEDGER",
+      "source_sha256": "f05c9e07c6834c776453112d9945bee815d3d9fb5ea1b5493a49468188883e3c",
+      "mathematics_sha256": "a39686069c614d39a71583247aafa994d85cc98f7569355e11a442a267cf441e",
+      "dewey_sha256": "1f6ebca4803cb47e7bd5c480a367805335d8cb090fc21faa5d85a868a3543eec"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "objective_id": "ATLAS-WORKBENCH-01",
+  "obligation": 1,
+  "archive_sha256": "6776cac8af92a2c5a08961661ca493a095738a369b8afe5b0f1d79f1ca94e8be",
+  "checks": [
+    {
+      "path": "01_CANONICAL/157_ALGORITHMS_LOCKED.jsonl",
+      "sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "unchanged": true
+    },
+    {
+      "path": "01_CANONICAL/CANONICAL_LOCK.json",
+      "sha256": "3fedd65ba308adb106898a635c09da74d0d45e05e817f5a7616c2e9c5973393c",
+      "unchanged": true
+    },
+    {
+      "path": "01_CANONICAL/THE_TOBEY_CODEX_v11_1_source.txt",
+      "sha256": "08551512d06251519f27f8d338828d0bccb4913804438dbcc30eb0f060801da6",
+      "unchanged": true
+    },
+    {
+      "path": "01_CANONICAL/Tobey_Complete_24_Lessons.txt",
+      "sha256": "eaac613205a82a02cda3b338413c6d3d47b8102226bde5129f16125202baf860",
+      "unchanged": true
+    },
+    {
+      "path": "01_CANONICAL/sacred_seal_index.json",
+      "sha256": "c6eee3eb02319810d29e8f588916c791c345048a936e36465cec3efd3e312906",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_01.jpg",
+      "sha256": "b2d64694f1c633e5c78e777b1debdbe3806d0339d3368e2189a002d55c411eea",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_02.jpg",
+      "sha256": "ec49eca310f4276e1a969423be15547f598235b4ae388482851b1c8acfa5b0d0",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_03.jpg",
+      "sha256": "2ed3dd9201c27d4247c9c88444a24ac33f27832a26d39f73d90e1495028ce4ee",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_04.jpg",
+      "sha256": "36121740af44d02df4b1c22090e2519de862409d855dbf06d32f46490ee93b7c",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_05.jpg",
+      "sha256": "45eb292233e3139383fe85a8158fd40a4418a70a55a3cddfb42b42b5793bcbc9",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_06.jpg",
+      "sha256": "2abca94b43cc938148e755ccae0045f5b5fed85f6b73195657a504d43e911e49",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_07.jpg",
+      "sha256": "89c89bf4aa4c7b20fed285c7ef946f6e21498fe354b2f85a99128073805806a2",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/plate_08.jpg",
+      "sha256": "b525369a44db4fe8fb85a23e1cb20cbd302dd138d89a3cb28576ba98bde58486",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_01.jpg",
+      "sha256": "c58a9ae3c70d19a707e17ed41cc080a4ab0a46053b5ed8ae1a74efde4000db05",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_02.jpg",
+      "sha256": "574da10e4d1bebd5a3afd45cfa342537004011a69048d20d1cdce1662cc6a39e",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_03.jpg",
+      "sha256": "8c0c5ce93e293e9d1735c159c2e0ae18c6394a33c9727925b03f0769b1d16069",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_04.jpg",
+      "sha256": "f0509a3ff946cdc99b1d5992797eb96ef206c0fd24a5c4113148c79c048fa059",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_05.jpg",
+      "sha256": "aeb2e65fe0e431f701e2f6d475721e82181d25771a008388b32a25799b5d2bd9",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_06.jpg",
+      "sha256": "baba589bf19adf4269390162171f4ff1e9cd44b8e3c9c7959f3d330ed8b2e80c",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_07.jpg",
+      "sha256": "181306103f72d8c9e9a63f6729adb9ac9a406517faaf3011f077c0100488a7d6",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_08.jpg",
+      "sha256": "765643482a502114c687ff75bfccf2dd85296e12ce24db896f4e4f5e4a62c4f9",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_09.jpg",
+      "sha256": "0d90a03b26d04d2abcaddf4a13b2b148e63fedaa104662e89e8109797d8a5296",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_10.jpg",
+      "sha256": "1d29dfb7e385daa7bab598bc144e261a810b4dd512d985bfea79c6f258b03e45",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_11.jpg",
+      "sha256": "ecc90ef205b8343ad3016ab3921c9fbc5e94f15457205ca874ba059cab442781",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_12.jpg",
+      "sha256": "3e249633d6f666d25f33db64c99cb053107a9df5740b721f88da7d3edd96c74d",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_13.jpg",
+      "sha256": "075c169a02a3ce347037b8175ddc8b6c6b521d4f3d9f5ee43ba509af23a226a8",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/assets/seal_14.jpg",
+      "sha256": "c125a631067b76e44f1068eda88cab995fef77840b9e130c0098bf4ebcbf24cb",
+      "unchanged": true
+    },
+    {
+      "path": "02_ATLAS/scenes.json",
+      "sha256": "3b9ca15aa0e78097cbadb66ff0bbc6e25081cc9c03aeff2ab53fa8f8d1dc7c56",
+      "unchanged": true
+    },
+    {
+      "path": "03_ENGINE/ring_84_finite_transitions.json",
+      "sha256": "0b49cc3c24ae87143edbc329bfc89dde98a53d14f47765d4e9b1dfd08e68294a",
+      "unchanged": true
+    },
+    {
+      "path": "04_TESTS/test_engine.py",
+      "sha256": "6022b5c6bdf3171819aff614f3d733713beddb2a4cff3fbd78189f5f61a0ad1d",
+      "unchanged": true
+    },
+    {
+      "path": "04_TESTS/verify_canonical.py",
+      "sha256": "f523cffba92e0488fd6a8a38f2e7f3542b2316a422ced5fdcd912ce7a58f919f",
+      "unchanged": true
+    },
+    {
+      "path": "06_CONTRACT/IMPLEMENTATION_CONTRACT.md",
+      "sha256": "fffee406b835ef71ee7d2f533ee299599093016fe39f6ee359b53263aed4ca16",
+      "unchanged": true
+    }
+  ]
+}
