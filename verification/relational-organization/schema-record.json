@@ -1,0 +1,42 @@
+{
+  "whole_instance_matches_signature": true,
+  "incompatible_declarations": [
+    {
+      "structural_incompatibility": "independent_position_identity",
+      "excluded": true,
+      "schema_messages": [
+        "False was expected"
+      ]
+    },
+    {
+      "structural_incompatibility": "privileged_origin",
+      "excluded": true,
+      "schema_messages": [
+        "False was expected"
+      ]
+    },
+    {
+      "structural_incompatibility": "missing_dialogical_articulation",
+      "excluded": true,
+      "schema_messages": [
+        "[{'medium': 'spatial', 'organization': 'same relational whole', 'causal_priority': False}, {'medium': 'type_theoretic', 'organization': 'same relational whole', 'causal_priority': False}] is too short",
+        "[{'medium': 'spatial', 'organization': 'same relational whole', 'causal_priority': False}, {'medium': 'type_theoretic', 'organization': 'same relational whole', 'causal_priority': False}] does not contain items matching the given schema"
+      ]
+    },
+    {
+      "structural_incompatibility": "causal_priority",
+      "excluded": true,
+      "schema_messages": [
+        "False was expected"
+      ]
+    },
+    {
+      "structural_incompatibility": "duplicate_medium",
+      "excluded": true,
+      "schema_messages": [
+        "Too many items match the given schema (expected at most 1)",
+        "[{'medium': 'spatial', 'organization': 'same relational whole', 'causal_priority': False}, {'medium': 'type_theoretic', 'organization': 'same relational whole', 'causal_priority': False}, {'medium': 'spatial', 'organization': 'same relational whole', 'causal_priority': False}] does not contain items matching the given schema"
+      ]
+    }
+  ]
+}

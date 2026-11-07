@@ -1,0 +1,23 @@
+{
+  "architectural_frame": "primary invariant relational whole",
+  "formal_declarations_added": 17,
+  "formal_declarations_total": 121,
+  "existing_theorem_ids_preserved": true,
+  "relations": [
+    "succession",
+    "opposition",
+    "reversal",
+    "return"
+  ],
+  "manifestations": [
+    "spatial",
+    "type_theoretic",
+    "dialogical",
+    "declarative_schema"
+  ],
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "canonical_register_and_lock_unchanged": true,
+  "earlier_account_preserved": "docs/relational/history/operational-witness-before-relational-spec.md",
+  "initial_failed_lean_attempt_preserved": true,
+  "all_final_commands_exit_zero": true
+}

@@ -156,3 +156,31 @@ two new browser tests and eight original browser tests are green. The 84
 valid UI cases and 84 broken endpoint counterparts are exercised in Chromium.
 Linked repository changes are documentation-only review branches; their
 existing runtime histories are preserved and no main branch is changed.
+
+## Relational organization increment
+
+The primary specification is INVARIANT.md: one invariant relational whole.
+STRUCTURE.md, Duodenary/Relational/, schemas/relational/ and docs/relational/
+articulate succession, opposition, reversal and return co-presently. The new
+structural account is self-contained and uses no external attribution.
+Earlier operational text and the earlier theorem inventory/log remain preserved
+in the corresponding history directories. Existing theorem IDs are unchanged.
+Seventeen new declarations bring the total to 121. The canonical register and
+lock remain unchanged. AGENTS.md records the current architectural instruction.
+
+The following commands are maintenance records, not the definition of the
+architecture. Full output, the initial failed Lean attempt and its corrected
+articulation are preserved in verification/relational-organization/.
+
+| Command | Exit |
+|---|---:|
+| `lake build` | 0 |
+| `lake env lean Duodenary/Relational/AxiomScope.lean` | 0 |
+| `python3 04_TESTS/verify_canonical.py` | 0 |
+| `python3 scripts/validate.py` | 0 |
+| `python3 scripts/finite_checks.py` | 0 |
+| `python3 scripts/roadmap.py --check` | 0 |
+| `python3 scripts/audit_lean.py` | 0 |
+| `python3 scripts/audit_lean.py --check` | 0 |
+| `python3 /tmp/relational-ui-regression/04_TESTS/test_browser.py` | 0 |
+| `python3 /tmp/relational-ui-regression/04_TESTS/test_invariant_browser.py` | 0 |

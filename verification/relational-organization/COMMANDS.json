@@ -1,0 +1,96 @@
+[
+  {
+    "argv": [
+      "lake",
+      "build"
+    ],
+    "exit_code": 0,
+    "stdout": "lean.stdout",
+    "stderr": "lean.stderr"
+  },
+  {
+    "argv": [
+      "lake",
+      "env",
+      "lean",
+      "Duodenary/Relational/AxiomScope.lean"
+    ],
+    "exit_code": 0,
+    "stdout": "axiom-scope.stdout",
+    "stderr": "axiom-scope.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "04_TESTS/verify_canonical.py"
+    ],
+    "exit_code": 0,
+    "stdout": "canonical.stdout",
+    "stderr": "canonical.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/validate.py"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-validate.stdout",
+    "stderr": "atlas-validate.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/finite_checks.py"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-finite.stdout",
+    "stderr": "atlas-finite.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/roadmap.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-roadmap.stdout",
+    "stderr": "atlas-roadmap.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/audit_lean.py"
+    ],
+    "exit_code": 0,
+    "stdout": "theorem-inventory.stdout",
+    "stderr": "theorem-inventory.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/audit_lean.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "theorem-inventory-check.stdout",
+    "stderr": "theorem-inventory-check.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "/tmp/relational-ui-regression/04_TESTS/test_browser.py"
+    ],
+    "exit_code": 0,
+    "stdout": "browser.stdout",
+    "stderr": "browser.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "/tmp/relational-ui-regression/04_TESTS/test_invariant_browser.py"
+    ],
+    "exit_code": 0,
+    "stdout": "explorer.stdout",
+    "stderr": "explorer.stderr"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "records": 157,
+  "plates": 8,
+  "seals": 14,
+  "scenes": 25,
+  "finite_cases": 84,
+  "lexical_bb_rescored": false,
+  "source_modified": false,
+  "test": "byte_lock_and_atlas_coverage"
+}

@@ -1,107 +1,87 @@
-# The invariant: geometric identity through representation and execution
+# Invariant relational geometry
 
-**Across the supported representations, the same structured object retains its identity: its defining relationships and permitted operations remain consistent through translation and execution.**
+**The primary object is one relational whole. Its differentiation articulates positions whose identities consist entirely in their places within the complete arrangement.**
 
-This is the organizing purpose connecting the geometry, operation languages,
-codecs, runtime checks and admission controls. The public mathematical work
-supplies explicit proved instances; the following runnable example makes the
-correspondence visible without changing any of the 157 canonical definitions.
+The twelve-position organization is articulated as
 
-## What "same" means here
+\[
+W \cong \mathbb Z/12\mathbb Z
+\cong \mathbb Z/4\mathbb Z\times\mathbb Z/3\mathbb Z.
+\]
 
-An object is a station x in Z/12Z, with its declared rotation/opposition/reflective
-operations. Its representations are the integer 0..11, its zodiac glyph, and
-an exact rational angle x/12 turns (30*x degrees). For a lattice cell the object
-is the ordered pair (domain,modality); its encoding is 12*domain+modality.
-The glyph order and orientation are fixed explicitly. Angles are compared modulo
-one turn, never by approximate floating-point equality. The 144-address pair
-encoding is not an assertion that its operations form the cyclic ring Z/144Z.
+These coordinates name internal relationships. They do not give positions an
+identity independent of the whole. A reference and orientation belong to a
+particular articulation, not to a privileged constituent from which the whole
+is assembled.
 
-For a representation h, source operation f and declared target operation g:
+## Constitutive differentiation
 
-    h(f(x)) = g(h(x))
-    decode(h(x)) = x
+Four classes of three positions intersect three classes of four positions.
+Every crossing contains exactly one position, and every position belongs to
+exactly one crossing. This is differentiation within a complete field.
 
-These state operational correspondence and exact recovery. They do not assert
-that every allowed operation preserves every metric: a distance-preserving map
-and a general affine permutation have different obligations. Here state identity
-means exact recovery of the specified state and agreement of the specified operations.
-The worked subset preserves cyclic relationships under the relevant translations,
-opposition and reflection. Arbitrary claims about text meanings are not inferred.
+In a frame, x has determinations (x mod 4, x mod 3). Their unique conjunction is
+x = 9a + 4b mod 12. Neither determination identifies a position by itself.
+The cycle includes its relational organization; a bare count of four times
+three does not specify its orientation or opposition.
 
-## Inspect a full example
+## Internal relations
 
-Input: `☉♓ □ ☉♊` — start 11, advance three steps (90 degrees), finish 2.
+| Relation | Within the whole | Coordinate articulation |
+|---|---|---|
+| Succession S | Directed adjacency in one complete circuit | x ↦ x+1; (a,b) ↦ (a+1,b+1) |
+| Opposition A | Complementary half-circuit pairing | A=S⁶; x ↦ x+6; (a,b) ↦ (a+2,b) |
+| Reversal R_c | Exchange of orientation within the same arrangement | x ↦ c−x; R_c S R_c=S⁻¹ |
+| Return | Closure of the complete differentiation | S¹²=id; no shorter positive return |
 
-| Stage | Exact representation |
+Opposition is fixed-point-free and involutive: every position belongs to a
+pair, neither pole standing alone. Reversal is involutive and retains opposition:
+R_c²=id and R_c A=A R_c. The reference-centered reversal articulates the two
+determinations as (−a,−b).
+
+Powers describe incidence around a complete circuit. They are not elapsed time,
+commands to execute, or a causal sequence producing the whole.
+
+## Co-present manifestations
+
+A manifestation articulates the whole through the relationships intrinsic to
+its medium. There is no privileged first medium and no architectural requirement
+that one manifestation be produced from another.
+
+| Manifestation | Articulation of belonging |
 |---|---|
-| Canonical declaration | ALG-001: twelve positions, 30 degrees per step |
-| Mathematical state | 11 in Z/12Z |
-| Input glyph | Pisces: ♓ |
-| Input angle | 11/12 turn = 330 degrees |
-| Executed operation | (11+3) mod 12 = 2 |
-| Output glyph | Gemini: ♊ |
-| Output angle | (11/12+3/12) mod 1 = 1/6 turn = 60 degrees |
-| Recovered state | decode(♊) = 2 |
-| Broken counterpart | `☉♓ □ ☉♋` is rejected: it names state 3, not 2 |
+| Spatial | Interlacing, incidence, directed adjacency, antipodal pairing and closure |
+| Type-theoretic | Position types, constitutive differentiation, symmetry identities and coherence |
+| Dialogical | Mutually defining positions, opposed movements, reversal and return within one composition |
+| Schema | Explicit declaration of the whole, its differentiations and its simultaneous relations |
+| Module | A component's relational place, complementary roles and participation in the complete arrangement |
 
-The shift is applied both in the finite engine and independently through the
-glyph successor operation. All 84 expected aspect cases are compared with the
-pre-existing, hash-frozen fixture. Reversibility and operator preservation are
-separate checks. A deliberately permuted labeling x↦5x paired with unchanged
-one-step target rotation is bijective but fails correspondence; the verifier
-prints concrete counterexamples. A matching label count cannot pass that check.
+The formal manifestation does not constitute a tribunal outside the geometry.
+The schema is not a sequence of workflow states. A module's architectural role
+is not exhausted by a procedural account of what its implementation does.
+A dialogue's structural articulation is not a count of twelve section labels.
 
-## One command, complete finite tables
+**The invariant is the integrity of the complete organization through its distinct articulations.**
+Each manifestation retains the constitutive crossing, circuit, opposition,
+reversal and return. Their unity is structural, not a linear chain of causes
+or a succession of code-level translations.
 
-```sh
-python3 03_ENGINE/invariant.py
-```
+## Repository articulation
 
-Exit 0 means all enumerated checks ran without a mismatch; otherwise exit 1.
-The JSON output contains all 12 representation rows, all 48 generator rows,
-all 84 angular executions, all 144 address rows, the worked example, and six
-rejected controls. This is a reproducible finite check, not a new Lean theorem
-or an independent hidden-target evaluation. Existing Lean proofs remain linked below.
+- [Whole](Duodenary/Relational/Whole.lean): an abstract inhabited cyclic whole,
+  frames at every position, and unique fourfold–three-mode conjunctions.
+- [Relations](Duodenary/Relational/Relations.lean): succession, opposition,
+  reversal, closure and absence of premature return.
+- [Manifestations](Duodenary/Relational/Manifestations.lean): spatial,
+  type-theoretic and dialogical articulations of one relational signature.
+- [Structural schema](schemas/relational/whole.schema.json): the declarative
+  organization and co-present manifestation family.
+- [Structural instance](schemas/relational/whole.json): the organization stated
+  without a workflow, execution status or causal hierarchy.
+- [Component relationships](docs/relational/COMPONENT_RELATIONS.md): how the
+  repository's parts articulate the same whole.
+- [File organization](STRUCTURE.md): locations and structural roles.
 
-## Declaration → execution → evidence
-
-| Binding | Source | Executable | Evidence |
-|---|---|---|---|
-| Angular geometry | Locked ALG-001 | finite engine and typed Fulgurite subset | 84 fixture cases and glyph/angle commuting checks |
-| Opposite station | Locked ALG-013 | A(x)=x+6 mod12 | 12 station checks and 144 lattice checks |
-| Rotation/reflection | Explicit finite-engine T/I/rho definitions | Source and target operators evaluated separately | Full 48-row generator table |
-| Cartesian address | Defined pair (d,m) | address/inverse_address | All 144 round trips and coordinate-operation checks |
-| Admission witnesses | Typed adapter + frozen source/fixture hashes | invariant.admit | Genuine positive programs and six rejecting controls |
-
-Machine-readable bindings: [INVARIANT_BINDINGS.json](INVARIANT_BINDINGS.json).
-Computed receipts: [verification/invariant-legibility/](verification/invariant-legibility/).
-Interactive view: [02_ATLAS/index.html#invariant](02_ATLAS/index.html#invariant).
-
-## BB: expose the structural witnesses
-
-This new admission bridge computes syntax, source-lock, directed-operation,
-exact-angle, glyph-correspondence and recovery witnesses. Bad endpoints,
-keyword padding and label-only submissions are rejected. They are not assigned
-passing marks for language describing geometric quality.
-
-H/RR/GG/AA are the owner's structurally governed components. This increment
-exposes concrete checks that an admission implementation can consume; it neither
-rescales the permanent register nor invents historical component equations.
-It does not claim that every existing BB call site already consumes this bridge.
-See the machine binding's bb_admission section for that exact boundary.
-
-## Existing formal evidence and repository roles
-
-- [Independent structural ledger](https://github.com/johnstobey/Alien-math-decoded-2/blob/main/verification/STRUCTURAL_LEDGER.md): CRT, symmetries, affine permutations and recovery.
-- [Station codec](https://github.com/johnstobey/Alien-math-decoded-2/blob/main/verification/STATION_CODEC.md): full permutation meanings, translation and decoding.
-- [Canonical envelope](https://github.com/johnstobey/Alien-math-decoded-2/blob/main/verification/CANONICAL_ENVELOPE.md): state representation and naturality.
-- Atlas: theorem/evidence inventory plus this inspectable worked implementation.
-- Machine: source-bearing declarations and language/runtime compilation.
-- z12z-Memory-Module: ring runtime, storage and provenance mechanisms.
-- Recursiverse-Suite: state and geometry integration.
-- Omni-Lattice-Suite: declared integration location; its present minimal README is not execution evidence.
-
-The formal results and the new finite checks establish specified instances of
-the same organizing principle. Their explicit bindings make the invariant inspectable,
-reproducible and open to counterexample, rather than resting on a verbal assurance.
+Earlier operational witnesses remain preserved under
+[historical documentation](docs/relational/history/README.md). They are particular
+engineering artifacts, not the primary definition of this architecture.

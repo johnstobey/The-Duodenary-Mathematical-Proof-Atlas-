@@ -1,0 +1,57 @@
+{
+  "organization": "invariant relational geometry",
+  "whole": {
+    "position_count": 12,
+    "independent_position_identity": false,
+    "privileged_origin": false,
+    "fourfold_class_count": 4,
+    "three_mode_class_count": 3,
+    "intersection_cardinality": 1
+  },
+  "relations": {
+    "succession": {
+      "coordinate": "x ↦ x+1",
+      "differentiation": "(a,b) ↦ (a+1,b+1)"
+    },
+    "opposition": {
+      "coordinate": "x ↦ x+6",
+      "laws": [
+        "A=S^6",
+        "A^2=id",
+        "A(x)≠x"
+      ],
+      "differentiation": "(a,b) ↦ (a+2,b)"
+    },
+    "reversal": {
+      "coordinate": "R_c(x)=c−x",
+      "laws": [
+        "R_c^2=id",
+        "R_c S R_c=S^(-1)",
+        "R_c A=A R_c"
+      ]
+    },
+    "return": {
+      "laws": [
+        "S^12=id",
+        "S^k(x)≠x for 0<k<12"
+      ]
+    }
+  },
+  "manifestations": [
+    {
+      "medium": "spatial",
+      "organization": "same relational whole",
+      "causal_priority": false
+    },
+    {
+      "medium": "type_theoretic",
+      "organization": "same relational whole",
+      "causal_priority": false
+    },
+    {
+      "medium": "dialogical",
+      "organization": "same relational whole",
+      "causal_priority": false
+    }
+  ]
+}

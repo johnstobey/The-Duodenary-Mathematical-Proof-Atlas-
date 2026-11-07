@@ -7,3 +7,5 @@ import Duodenary.Imported.ProductKernel
 import Duodenary.Imported.MetricKernel
 import Duodenary.Bridges.Machine
 import Duodenary.Problems.QuotientObstruction
+
+import Duodenary.Relational.Manifestations

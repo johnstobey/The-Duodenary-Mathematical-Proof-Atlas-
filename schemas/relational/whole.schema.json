@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:duodenary:relational:whole",
+  "title": "Co-present articulation of an invariant relational whole",
+  "description": "A declarative structural signature. Array order is presentation order, not temporal or causal order.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "organization",
+    "whole",
+    "relations",
+    "manifestations"
+  ],
+  "properties": {
+    "organization": {
+      "const": "invariant relational geometry"
+    },
+    "whole": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position_count",
+        "independent_position_identity",
+        "privileged_origin",
+        "fourfold_class_count",
+        "three_mode_class_count",
+        "intersection_cardinality"
+      ],
+      "properties": {
+        "position_count": {
+          "const": 12
+        },
+        "independent_position_identity": {
+          "const": false
+        },
+        "privileged_origin": {
+          "const": false
+        },
+        "fourfold_class_count": {
+          "const": 4
+        },
+        "three_mode_class_count": {
+          "const": 3
+        },
+        "intersection_cardinality": {
+          "const": 1
+        }
+      }
+    },
+    "relations": {
+      "const": {
+        "succession": {
+          "coordinate": "x ↦ x+1",
+          "differentiation": "(a,b) ↦ (a+1,b+1)"
+        },
+        "opposition": {
+          "coordinate": "x ↦ x+6",
+          "laws": [
+            "A=S^6",
+            "A^2=id",
+            "A(x)≠x"
+          ],
+          "differentiation": "(a,b) ↦ (a+2,b)"
+        },
+        "reversal": {
+          "coordinate": "R_c(x)=c−x",
+          "laws": [
+            "R_c^2=id",
+            "R_c S R_c=S^(-1)",
+            "R_c A=A R_c"
+          ]
+        },
+        "return": {
+          "laws": [
+            "S^12=id",
+            "S^k(x)≠x for 0<k<12"
+          ]
+        }
+      }
+    },
+    "manifestations": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "medium",
+          "organization",
+          "causal_priority"
+        ],
+        "properties": {
+          "medium": {
+            "enum": [
+              "spatial",
+              "type_theoretic",
+              "dialogical"
+            ]
+          },
+          "organization": {
+            "const": "same relational whole"
+          },
+          "causal_priority": {
+            "const": false
+          }
+        }
+      },
+      "allOf": [
+        {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "medium": {
+                "const": "spatial"
+              }
+            },
+            "required": [
+              "medium"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "medium": {
+                "const": "type_theoretic"
+              }
+            },
+            "required": [
+              "medium"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "type": "object",
+            "properties": {
+              "medium": {
+                "const": "dialogical"
+              }
+            },
+            "required": [
+              "medium"
+            ]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        }
+      ]
+    }
+  }
+}

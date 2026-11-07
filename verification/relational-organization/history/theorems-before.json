@@ -1,0 +1,2797 @@
+[
+  {
+    "id": "DPA-THM-033",
+    "lean_name": "Duodenary.calendar_annihilator_classification",
+    "exact_statement": "theorem calendar_annihilator_classification : \u2200 y : C12,\n    (4 : C12) * y = 0 \u2194 y = 0 \u2228 y = 3 \u2228 y = 6 \u2228 y = 9",
+    "statement_sha256": "601daa7a53f9cfd259b22e3b32ae8a449a87c483cd9ac72ba9294e815b302edd",
+    "source": "Duodenary/Acausal/Calendar.lean",
+    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_annihilator_classification",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-034",
+    "lean_name": "Duodenary.calendar_image_annihilated",
+    "exact_statement": "theorem calendar_image_annihilated (f : ZMod 260 \u2192+ C12) (x : ZMod 260) :\n    (4 : C12) * f x = 0",
+    "statement_sha256": "0af62fd0d978b86884fb37dce4c3da9487413c7f3df4f602b78234231b488873",
+    "source": "Duodenary/Acausal/Calendar.lean",
+    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_image_annihilated",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-035",
+    "lean_name": "Duodenary.calendar_image_classification",
+    "exact_statement": "theorem calendar_image_classification (f : ZMod 260 \u2192+ C12) (x : ZMod 260) :\n    f x = 0 \u2228 f x = 3 \u2228 f x = 6 \u2228 f x = 9",
+    "statement_sha256": "3144c4efcda637f33c22c96b908f31dd4a13364bf0b43992c5d4af3399321d9b",
+    "source": "Duodenary/Acausal/Calendar.lean",
+    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_image_classification",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-036",
+    "lean_name": "Duodenary.calendar_image_card_bound",
+    "exact_statement": "theorem calendar_image_card_bound (f : ZMod 260 \u2192+ C12) :\n    (Finset.univ.image f).card \u2264 4",
+    "statement_sha256": "b74857d5db557bdd1f72aa29216b15f48cacf3625a929b921c360985ae5ce85d",
+    "source": "Duodenary/Acausal/Calendar.lean",
+    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_image_card_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-037",
+    "lean_name": "Duodenary.calendar_no_surjective_hom",
+    "exact_statement": "theorem calendar_no_surjective_hom (f : ZMod 260 \u2192+ C12) :\n    \u00ac Function.Surjective f",
+    "statement_sha256": "3ead0ea0e013b547800fac081ef94cc1403d6cba79fa241fdd0fcce9225a717d",
+    "source": "Duodenary/Acausal/Calendar.lean",
+    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_no_surjective_hom",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-093",
+    "lean_name": "Duodenary.machine_slope_agrees",
+    "exact_statement": "theorem machine_slope_agrees : \u2200 a : MachineAffine.Unit12,\n    unitSlope (machineUnitIndex a) = a.val",
+    "statement_sha256": "b88f895ce5b4eaf4f4c9afd7090432deb6dee9ade9751f4d322a645cab011263",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_slope_agrees",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-094",
+    "lean_name": "Duodenary.machine_action_agrees",
+    "exact_statement": "theorem machine_action_agrees (f : MachineAffine.Affine) (x : C12) :\n    affineApply (machineAffineBridge f) x = MachineAffine.apply f x",
+    "statement_sha256": "993510645c8856a822bfea023a2151b39321c32025c31ffe9885faeef7ee3a31",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_action_agrees",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-095",
+    "lean_name": "Duodenary.machine_bridge_injective",
+    "exact_statement": "theorem machine_bridge_injective : Function.Injective machineAffineBridge",
+    "statement_sha256": "870c21dbafc879edcb58dccf06528dd00aa56ed7d8ef9074b1d01bfa1a9ccc0d",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_bridge_injective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-096",
+    "lean_name": "Duodenary.machine_bridge_surjective",
+    "exact_statement": "theorem machine_bridge_surjective : Function.Surjective machineAffineBridge",
+    "statement_sha256": "26c4bf42beaaaa00c64d013fe803c1414138ce32e0734ac6b9d43309da36f943",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_bridge_surjective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-097",
+    "lean_name": "Duodenary.machine_composition_agrees",
+    "exact_statement": "theorem machine_composition_agrees (f g : MachineAffine.Affine) :\n    machineAffineBridge (MachineAffine.compose f g) =\n      affineCompose (machineAffineBridge f) (machineAffineBridge g)",
+    "statement_sha256": "e29181765eec49e43045f12ae1c6aeaf86ea8485f8d14d55d8999e83c2fb9670",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_composition_agrees",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-098",
+    "lean_name": "Duodenary.machine_distance_agrees",
+    "exact_statement": "theorem machine_distance_agrees : \u2200 x y : C12,\n    MachineProduct.circularDistance x y = cyclicDistance x y",
+    "statement_sha256": "a89cc1916b33dfd0777d525bf39c29b60fcd0ae7b4fda76b05092c6be3a96dbe",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_distance_agrees",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-099",
+    "lean_name": "Duodenary.affine_metric_classification",
+    "exact_statement": "theorem affine_metric_classification : \u2200 f : Affine,\n    (\u2200 x y : C12, cyclicDistance (affineApply f x) (affineApply f y) = cyclicDistance x y) \u2194\n      f.1 = 0 \u2228 f.1 = 3",
+    "statement_sha256": "8448b89a8550ae23ed2d82321f3f944cba153491dfdc4df41a8e036b2ee240da",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_metric_classification",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-100",
+    "lean_name": "Duodenary.metric_affine_cardinality",
+    "exact_statement": "theorem metric_affine_cardinality : Fintype.card MetricAffine = 24",
+    "statement_sha256": "d642167eecf30b7fb59977959057a11d75dad2dca2756e8373efd4e702e8db63",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.metric_affine_cardinality",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-101",
+    "lean_name": "Duodenary.affine_slope_five_not_isometry",
+    "exact_statement": "theorem affine_slope_five_not_isometry :\n    cyclicDistance (affineApply (1,0) 0) (affineApply (1,0) 1) \u2260 cyclicDistance 0 1",
+    "statement_sha256": "cae31582bec51e264666ae011d8ddb327665c26a6df3148ec40d9d736db1cb22",
+    "source": "Duodenary/Bridges/Machine.lean",
+    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_slope_five_not_isometry",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-001",
+    "lean_name": "Duodenary.rotate_zero",
+    "exact_statement": "theorem rotate_zero (x : C12) : rotate 0 x = x",
+    "statement_sha256": "f6ed7ac43ad1dd9787fba4c3d07f76b600e116b26c43a81286447693af9f6548",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.rotate_zero",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-002",
+    "lean_name": "Duodenary.rotate_comp",
+    "exact_statement": "theorem rotate_comp (a b x : C12) : rotate a (rotate b x) = rotate (a+b) x",
+    "statement_sha256": "fb7a6c5a557426ab312f4273d3560a5d1415fb5e47cff5e9ba65ccf5d3181f63",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.rotate_comp",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-003",
+    "lean_name": "Duodenary.difference_preserved",
+    "exact_statement": "theorem difference_preserved (a x y : C12) : rotate a x - rotate a y = x-y",
+    "statement_sha256": "c1f49ba8e38328e2af7e0154c7ce89b40cf03fee0fbd53e0b98fed0e04c77c50",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.difference_preserved",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-004",
+    "lean_name": "Duodenary.opposite_involution",
+    "exact_statement": "theorem opposite_involution (x : C12) : opposite (opposite x) = x",
+    "statement_sha256": "636ff329877d7c7bc074cdf2a1198893c202cf85c3e196c4ff2b67a9550a3760",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.opposite_involution",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-005",
+    "lean_name": "Duodenary.opposite_has_no_fixed_point",
+    "exact_statement": "theorem opposite_has_no_fixed_point (x : C12) : opposite x \u2260 x",
+    "statement_sha256": "bc1674c0d667f6336a02de2cba0bc57c18874280c44f2ef17cfcab04100bf500",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.opposite_has_no_fixed_point",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-006",
+    "lean_name": "Duodenary.reflection_involution",
+    "exact_statement": "theorem reflection_involution (a x : C12) : reflect a (reflect a x) = x",
+    "statement_sha256": "1719703168e3b9dff79bd39732d2c71d648aa1e74b89da299d5e985ebe7a10ca",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.reflection_involution",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-007",
+    "lean_name": "Duodenary.reflection_rotation",
+    "exact_statement": "theorem reflection_rotation (a b x : C12) :\n    reflect a (rotate b x) = rotate (-b) (reflect a x)",
+    "statement_sha256": "52389d640030a7268cfa67106f32fcb6c9b79845d75bb3265ce29a34a26ca121",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.reflection_rotation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-008",
+    "lean_name": "Duodenary.crt_left_inverse",
+    "exact_statement": "theorem crt_left_inverse : \u2200 x : C12, uncrt (crt x) = x",
+    "statement_sha256": "5f5ce7045f722c0790c65e4a86ce14458cb1545b7c610228b4fb6ff544c68e8e",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_left_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-009",
+    "lean_name": "Duodenary.crt_right_inverse",
+    "exact_statement": "theorem crt_right_inverse : \u2200 p : Fin 4 \u00d7 Fin 3, crt (uncrt p) = p",
+    "statement_sha256": "1578a022bb77725ded636a2cfa445199c6bec398eacf230e7fd691952eca8018",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_right_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-010",
+    "lean_name": "Duodenary.crt_preserves_addition",
+    "exact_statement": "theorem crt_preserves_addition : \u2200 x y : C12,\n    crt (x+y) = ((crt x).1 + (crt y).1, (crt x).2 + (crt y).2)",
+    "statement_sha256": "82ab443080c61df747436cbbc383cf9b83c13fd8cb067b3131fe8759cda74a2b",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_preserves_addition",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-011",
+    "lean_name": "Duodenary.crt_preserves_multiplication",
+    "exact_statement": "theorem crt_preserves_multiplication : \u2200 x y : C12,\n    crt (x*y) = ((crt x).1 * (crt y).1, (crt x).2 * (crt y).2)",
+    "statement_sha256": "2258cf2a4802f5735266337b1a3a301e051972a607592f033d0403bc67f39896",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_preserves_multiplication",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-012",
+    "lean_name": "Duodenary.distance_symmetric",
+    "exact_statement": "theorem distance_symmetric (x y : C12) : cyclicDistance x y = cyclicDistance y x",
+    "statement_sha256": "f8ec4643200562a8545cceae33e5e66819b4262b7bf6c6fd17b31675305d2894",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.distance_symmetric",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-013",
+    "lean_name": "Duodenary.distance_bound",
+    "exact_statement": "theorem distance_bound : \u2200 x y : C12, cyclicDistance x y \u2264 6",
+    "statement_sha256": "192dd52cef47498c050ffee6b9c066b6056b28965d128abeb8eb773d9e7a3797",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.distance_bound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-014",
+    "lean_name": "Duodenary.seven_distance_values",
+    "exact_statement": "theorem seven_distance_values :\n    \u2200 d : Fin 7, \u2203 x : C12, cyclicDistance x 0 = d.val",
+    "statement_sha256": "b3edc99093d93c21ea07a33f8a72f6a70b6f948817016befa33035df91f42b0b",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.seven_distance_values",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-015",
+    "lean_name": "Duodenary.slope_square",
+    "exact_statement": "theorem slope_square : \u2200 i : Fin 4, unitSlope i * unitSlope i = 1",
+    "statement_sha256": "f1a841f325cd1a61a323e1cc5816c204cafa0869ff2b13d35bc89cba13d0561f",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.slope_square",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-016",
+    "lean_name": "Duodenary.affine_inverse",
+    "exact_statement": "theorem affine_inverse (f : Affine) (x : C12) : inverseApply f (affineApply f x) = x",
+    "statement_sha256": "259ef30cff9399346837e96c7b28b9304a69ab9088394078d6c099e513ce2ff4",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_inverse",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-017",
+    "lean_name": "Duodenary.affine_reverse_inverse",
+    "exact_statement": "theorem affine_reverse_inverse (f : Affine) (x : C12) : affineApply f (inverseApply f x) = x",
+    "statement_sha256": "d6b3b4af5542146391fdc22ddcac3a6a8f2925dfcff2ff31f0232e12f9c0a40b",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_reverse_inverse",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-018",
+    "lean_name": "Duodenary.affine_faithful",
+    "exact_statement": "theorem affine_faithful : \u2200 f g : Affine,\n    affineApply f 0 = affineApply g 0 \u2192 affineApply f 1 = affineApply g 1 \u2192 f = g",
+    "statement_sha256": "f9403967f649d60c6b8ac42360352cb20bcb99cec26217ee47c5aeefa91aab62",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_faithful",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-019",
+    "lean_name": "Duodenary.affine_cardinality",
+    "exact_statement": "theorem affine_cardinality : Fintype.card Affine = 48",
+    "statement_sha256": "5e8de8213ccded96829ff945704f2073d7a16d2461a9205788aba625b2271752",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_cardinality",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-020",
+    "lean_name": "Duodenary.slope_product_correct",
+    "exact_statement": "theorem slope_product_correct : \u2200 i j : Fin 4,\n    unitSlope (slopeProduct i j) = unitSlope i * unitSlope j",
+    "statement_sha256": "4d96e9d8fc2a73f8fcef1b862363b204be2f79991ad0c348a4aedfa18d0d94f6",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.slope_product_correct",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-021",
+    "lean_name": "Duodenary.affine_composition",
+    "exact_statement": "theorem affine_composition (f g : Affine) (x : C12) :\n    affineApply (affineCompose f g) x = affineApply f (affineApply g x)",
+    "statement_sha256": "413fc8ab472724994629c7599eb02ada6a558a36baff889d6f05115e7f3ae953",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_composition",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-022",
+    "lean_name": "Duodenary.affine_associative",
+    "exact_statement": "theorem affine_associative (f g h : Affine) :\n    affineCompose (affineCompose f g) h = affineCompose f (affineCompose g h)",
+    "statement_sha256": "d3f1377c52979946c29f2dc16099b980bc0e215ae6950ff24fe9b832e00e0166",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_associative",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-023",
+    "lean_name": "Duodenary.affine_identity",
+    "exact_statement": "theorem affine_identity : \u2200 f : Affine,\n    affineCompose (0,0) f = f \u2227 affineCompose f (0,0) = f",
+    "statement_sha256": "b3001cd86ee802701141d7c5b99a6fea411f6a898e9ebe59698b67994efbb14e",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_identity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-024",
+    "lean_name": "Duodenary.affine_two_sided_inverse",
+    "exact_statement": "theorem affine_two_sided_inverse : \u2200 f : Affine,\n    affineCompose f (affineInverse f) = (0,0) \u2227\n    affineCompose (affineInverse f) f = (0,0)",
+    "statement_sha256": "c29e018e3e574b739cccac4ad4bf373704fda8225c19ee935f3e2ce0e557c867",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_two_sided_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-025",
+    "lean_name": "Duodenary.product144_left_inverse",
+    "exact_statement": "theorem product144_left_inverse : \u2200 x : Product144, decode144 (encode144 x) = x",
+    "statement_sha256": "07f2f2dea8d6e91b27f8f51bfbe0bdf6d27ebcf2737b7984b5e70e98a79fb61d",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product144_left_inverse",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-026",
+    "lean_name": "Duodenary.product144_right_inverse",
+    "exact_statement": "theorem product144_right_inverse : \u2200 x : Fin 144, encode144 (decode144 x) = x",
+    "statement_sha256": "03691153f723e084806dd37d4159bdb35754936c64791950e352bd84c63b2d15",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product144_right_inverse",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-027",
+    "lean_name": "Duodenary.product144_cardinality",
+    "exact_statement": "theorem product144_cardinality : Fintype.card Product144 = 144",
+    "statement_sha256": "2bfb2108cf876071a14f0fea161e14d73c4f73a3971b3d1f0c9f0a4e539b08f7",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product144_cardinality",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-028",
+    "lean_name": "Duodenary.product_exponent",
+    "exact_statement": "theorem product_exponent : \u2200 x : Product144, (12 : Nat) \u2022 x = 0",
+    "statement_sha256": "4eb3e5254136e4fa5598d1d973b5495d4d066b4e57ee12ee8c482d413bee2bbc",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product_exponent",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-029",
+    "lean_name": "Duodenary.cyclic144_not_exponent12",
+    "exact_statement": "theorem cyclic144_not_exponent12 : (12 : Nat) \u2022 (1 : ZMod 144) \u2260 0",
+    "statement_sha256": "bbdb1624868270b8340cc925e5dd8ab58b9e40d80883a24da8e7d374f4412d18",
+    "source": "Duodenary/Core/Cyclic.lean",
+    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.cyclic144_not_exponent12",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-038",
+    "lean_name": "Duodenary.MachineAffine.unit_involutive",
+    "exact_statement": "theorem unit_involutive : \u2200 a : Unit12, mul a.val a.val = 1",
+    "statement_sha256": "28da34c87c218abd9a21a58a136e194d79e0cd77dc9557d9c8515ec099838f42",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_involutive",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-039",
+    "lean_name": "Duodenary.MachineAffine.unit_prod_sound",
+    "exact_statement": "theorem unit_prod_sound : \u2200 a b : Unit12,\n    (a.prod b).val = mul a.val b.val",
+    "statement_sha256": "460b9fb90890019458efc86b12dc2bd7d5c961d337cb1c9c230bddc55f50b0bf",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_sound",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-040",
+    "lean_name": "Duodenary.MachineAffine.unit_prod_assoc",
+    "exact_statement": "theorem unit_prod_assoc : \u2200 a b c : Unit12,\n    (a.prod b).prod c = a.prod (b.prod c)",
+    "statement_sha256": "9889036568cede5915dd80e31436869b34b203340983d6b36c92133feb449b91",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_assoc",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-041",
+    "lean_name": "Duodenary.MachineAffine.unit_prod_left_one",
+    "exact_statement": "theorem unit_prod_left_one : \u2200 a : Unit12, Unit12.prod .u1 a = a",
+    "statement_sha256": "64aa65b29147ac95a134a58105d2962d48d21d718c1299ff95288f26b75380d4",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_left_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-042",
+    "lean_name": "Duodenary.MachineAffine.unit_prod_right_one",
+    "exact_statement": "theorem unit_prod_right_one : \u2200 a : Unit12, Unit12.prod a .u1 = a",
+    "statement_sha256": "d5e00ffd1b1b867f274a6dfa17d9d39353f05e1320e0f1d4a83f1b543b20c7c1",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_right_one",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-043",
+    "lean_name": "Duodenary.MachineAffine.unit_prod_self",
+    "exact_statement": "theorem unit_prod_self : \u2200 a : Unit12, Unit12.prod a a = .u1",
+    "statement_sha256": "2986fee92d3a92f4b85d36faf985a9c6482c001e97c0db226bf0697ae81efa76",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_self",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-044",
+    "lean_name": "Duodenary.MachineAffine.compose_apply",
+    "exact_statement": "theorem compose_apply (g f : Affine) (x : Z12) :\n    apply (compose g f) x = apply g (apply f x)",
+    "statement_sha256": "c02a70eea0a4f38c618bfbf9182da147be766924f33a6e1ab5792e01aeaf99b9",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_apply",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-045",
+    "lean_name": "Duodenary.MachineAffine.identity_apply",
+    "exact_statement": "theorem identity_apply : \u2200 x : Z12, apply identity x = x",
+    "statement_sha256": "f661452c316d6f8afed203e7781c4dbf769b1e197326f6b64479f8ab25792ed6",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.identity_apply",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-046",
+    "lean_name": "Duodenary.MachineAffine.inverse_left_action",
+    "exact_statement": "theorem inverse_left_action : \u2200 f : Affine, \u2200 x : Z12,\n    apply (inverse f) (apply f x) = x",
+    "statement_sha256": "e7e78e9164541899a7b983bcb5b9c8ba4ab8173a1a9fccbfd01b760e71b4b889",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_left_action",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-047",
+    "lean_name": "Duodenary.MachineAffine.inverse_right_action",
+    "exact_statement": "theorem inverse_right_action : \u2200 f : Affine, \u2200 x : Z12,\n    apply f (apply (inverse f) x) = x",
+    "statement_sha256": "9dfa47cb945b5b6a79c7023577471a216bc82440e8266c3ed9528f4726f5e5b4",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_right_action",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-048",
+    "lean_name": "Duodenary.MachineAffine.inverse_left",
+    "exact_statement": "theorem inverse_left (f : Affine) (x : Z12) :\n    apply (compose (inverse f) f) x = x",
+    "statement_sha256": "f5119e6489b86367f37e518be96bb6d08f859e8127bc813ae736fc01233cead5",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_left",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-049",
+    "lean_name": "Duodenary.MachineAffine.inverse_right",
+    "exact_statement": "theorem inverse_right (f : Affine) (x : Z12) :\n    apply (compose f (inverse f)) x = x",
+    "statement_sha256": "62d5cd7be3ff9ed2489f19a76effc941b7d96a06f2b1ffe1750e30c728304d60",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_right",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-050",
+    "lean_name": "Duodenary.MachineAffine.compose_left_identity",
+    "exact_statement": "theorem compose_left_identity : \u2200 f : Affine, compose identity f = f",
+    "statement_sha256": "4f635f817824380ed254e8d7a1c38e046a9c09f78a48a217d9c9ae9b86c6ae09",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_left_identity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-051",
+    "lean_name": "Duodenary.MachineAffine.compose_right_identity",
+    "exact_statement": "theorem compose_right_identity : \u2200 f : Affine, compose f identity = f",
+    "statement_sha256": "5665c818149c655358f43f1cf4337f27dd23d0637593c349540680052481c252",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_right_identity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-052",
+    "lean_name": "Duodenary.MachineAffine.compose_associative",
+    "exact_statement": "theorem compose_associative (h g f : Affine) :\n    compose (compose h g) f = compose h (compose g f)",
+    "statement_sha256": "0dfbd78296516ebe4467253f57bd351d405dc1df54f1501d41af0ac610bd89b9",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_associative",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-053",
+    "lean_name": "Duodenary.MachineAffine.allOffsets_length",
+    "exact_statement": "theorem allOffsets_length : allOffsets.length = 12",
+    "statement_sha256": "a5225349d9a06bfd3cc7ca7a656bb7ddedb65ed26551c8b78236530fe5c14514",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.allOffsets_length",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-054",
+    "lean_name": "Duodenary.MachineAffine.allAffine_length",
+    "exact_statement": "theorem allAffine_length : allAffine.length = 48",
+    "statement_sha256": "3e00d674ea0392fd90befb16d08e9c2d70e5ff03c4e9f9ce0044eb34148d877f",
+    "source": "Duodenary/Imported/AffineKernel.lean",
+    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.allAffine_length",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-055",
+    "lean_name": "Duodenary.MachineCore.add_comm",
+    "exact_statement": "theorem add_comm : \u2200 x y : Z12, add x y = add y x",
+    "statement_sha256": "00fd1a1d0df007167dccb64ccfe1836c790c5e47b34cd9b1ffa5ce386716c14a",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_comm",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-056",
+    "lean_name": "Duodenary.MachineCore.add_assoc",
+    "exact_statement": "theorem add_assoc : \u2200 x y z : Z12, add (add x y) z = add x (add y z)",
+    "statement_sha256": "7f9b5b960c9fb2c42366ea02a0d69fc9fdf65084dc58e9ca64178e71338c06db",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_assoc",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-057",
+    "lean_name": "Duodenary.MachineCore.add_zero",
+    "exact_statement": "theorem add_zero : \u2200 x : Z12, add x 0 = x",
+    "statement_sha256": "490401a19e464e76a4012069a5627653710ba015e41e744fa96486107d3a2764",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_zero",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-058",
+    "lean_name": "Duodenary.MachineCore.zero_add",
+    "exact_statement": "theorem zero_add : \u2200 x : Z12, add 0 x = x",
+    "statement_sha256": "c931aa1c93bf5fce4c60e8e68905df36908376279a725d392be87c286f2eb5c4",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.zero_add",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-059",
+    "lean_name": "Duodenary.MachineCore.add_neg",
+    "exact_statement": "theorem add_neg : \u2200 x : Z12, add x (neg x) = 0",
+    "statement_sha256": "701c4d57e4d04cb9bdb79b066ca9a5ac3b2a8e18614d94fc32e5ee5ff12b013c",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_neg",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-060",
+    "lean_name": "Duodenary.MachineCore.neg_add",
+    "exact_statement": "theorem neg_add : \u2200 x : Z12, add (neg x) x = 0",
+    "statement_sha256": "2aaa6510c495b919821733cb42f82b8d0f69a4331afa95939fa1ab066b9cc57b",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.neg_add",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-061",
+    "lean_name": "Duodenary.MachineCore.mul_comm",
+    "exact_statement": "theorem mul_comm : \u2200 x y : Z12, mul x y = mul y x",
+    "statement_sha256": "833e62ab977b19684d5cd16750ebb818153c0d319f0f1de83fd50a1f42d3b2b0",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_comm",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-062",
+    "lean_name": "Duodenary.MachineCore.mul_assoc",
+    "exact_statement": "theorem mul_assoc : \u2200 x y z : Z12, mul (mul x y) z = mul x (mul y z)",
+    "statement_sha256": "beb7a6888acd8dd986ad0ce070fc020d7ec92f8a42da24dc0a222b693de943c8",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_assoc",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-063",
+    "lean_name": "Duodenary.MachineCore.mul_one",
+    "exact_statement": "theorem mul_one : \u2200 x : Z12, mul x 1 = x",
+    "statement_sha256": "b77c0d09d99ae3c954b674449e227250705704d12543c31ea8db706f035876b8",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_one",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-064",
+    "lean_name": "Duodenary.MachineCore.one_mul",
+    "exact_statement": "theorem one_mul : \u2200 x : Z12, mul 1 x = x",
+    "statement_sha256": "079760fcd94ef5465502a5589709edeac21a02c378dc55d40eab972ee349b6fa",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.one_mul",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-065",
+    "lean_name": "Duodenary.MachineCore.mul_add",
+    "exact_statement": "theorem mul_add : \u2200 x y z : Z12,\n    mul x (add y z) = add (mul x y) (mul x z)",
+    "statement_sha256": "5f1054d5a65b12900317ec1016c7600f0ffdcf35b6d5d8e5435d5a9033d28f4a",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_add",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-066",
+    "lean_name": "Duodenary.MachineCore.add_mul",
+    "exact_statement": "theorem add_mul : \u2200 x y z : Z12,\n    mul (add x y) z = add (mul x z) (mul y z)",
+    "statement_sha256": "5b0a6c9a5bfa308a3098fde2ff3b430db5cc86e01050fb9206986a337e408e63",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_mul",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-067",
+    "lean_name": "Duodenary.MachineCore.scale_def",
+    "exact_statement": "theorem scale_def (n : Nat) (x : Z12) : scale n x = mul (n : Z12) x",
+    "statement_sha256": "9ceb85a13ad2d70d336f1355f8337158caceb96f46f68dba6cc974c7cd8e6b03",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_def",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-068",
+    "lean_name": "Duodenary.MachineCore.scale_one",
+    "exact_statement": "theorem scale_one : \u2200 x : Z12, scale 1 x = x",
+    "statement_sha256": "4de58cc85a548d9d688978141457de02f798d269ef37e978f47b0f293a3a537c",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_one",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-069",
+    "lean_name": "Duodenary.MachineCore.scale_zero",
+    "exact_statement": "theorem scale_zero : \u2200 x : Z12, scale 0 x = 0",
+    "statement_sha256": "b15bfb31bb61ab95e80b1303299f51307ff6957c6baeb8adb6584b46a300b436",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_zero",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-070",
+    "lean_name": "Duodenary.MachineCore.scale_add",
+    "exact_statement": "theorem scale_add : \u2200 m n : Fin 12, \u2200 x : Z12,\n    mul (add m n) x = add (mul m x) (mul n x)",
+    "statement_sha256": "3bfd8767547e1e6f4bed2319a25d888f0cc2c9fcd9d04a5eb63ff64ba13a4001",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_add",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-071",
+    "lean_name": "Duodenary.MachineCore.twelve_eq_zero",
+    "exact_statement": "theorem twelve_eq_zero : (12 : Z12) = 0",
+    "statement_sha256": "82f6339b5816f3d9c49b977427de6b373e7f11e2d099c769e2c78894e91e2398",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.twelve_eq_zero",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-072",
+    "lean_name": "Duodenary.MachineCore.twelvefold_periodicity",
+    "exact_statement": "theorem twelvefold_periodicity : \u2200 x : Z12, add x (12 : Z12) = x",
+    "statement_sha256": "b41d75dfc58c7af67aec68c25f4955175ad4b4de35aff28865e8da4c0e2d317a",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.twelvefold_periodicity",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-073",
+    "lean_name": "Duodenary.MachineCore.rotate_twelve",
+    "exact_statement": "theorem rotate_twelve : \u2200 x : Z12, rotate 12 x = x",
+    "statement_sha256": "4785066772ed5e115544341064206ae7e5b48fa9f153fc5871009732311293f4",
+    "source": "Duodenary/Imported/CyclicKernel.lean",
+    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.rotate_twelve",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-074",
+    "lean_name": "Duodenary.MachineMetric.circular_isometry",
+    "exact_statement": "theorem circular_isometry : \u2200 g : Isometry, \u2200 x y : Z12,\n    Duodenary.MachineProduct.circularDistance (act g x) (act g y) =\n      Duodenary.MachineProduct.circularDistance x y",
+    "statement_sha256": "052a68a63d5bd020a051392348ba6d9f36c6978fe01b241466dcf770df027aad",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.circular_isometry",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-075",
+    "lean_name": "Duodenary.MachineMetric.product_isometry",
+    "exact_statement": "theorem product_isometry (g : Isometry) (p q : Duodenary.MachineProduct.V) :\n    Duodenary.MachineProduct.productDistance (actV g p) (actV g q) =\n      Duodenary.MachineProduct.productDistance p q",
+    "statement_sha256": "47d91add283b366e84ea932179030a9977b5d25f1b586408c91d4ebeb56d3dcd",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.product_isometry",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-076",
+    "lean_name": "Duodenary.MachineMetric.unit_product_sound",
+    "exact_statement": "theorem unit_product_sound : \u2200 a b : IsoUnit,\n    toUnit (productUnit a b) = Duodenary.MachineAffine.Unit12.prod (toUnit a) (toUnit b)",
+    "statement_sha256": "14aafdaa6438c8f2b49b3687412dce94f58fe7f443f690edb1c8b426b1277790",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.unit_product_sound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-077",
+    "lean_name": "Duodenary.MachineMetric.compose_sound",
+    "exact_statement": "theorem compose_sound (g f : Isometry) :\n    toAffine (compose g f) =\n      Duodenary.MachineAffine.compose (toAffine g) (toAffine f)",
+    "statement_sha256": "12d81408a0cbaae8efc7cfcf3bc340d81ac38bc25c0048f96e982159d3e8900b",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.compose_sound",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-078",
+    "lean_name": "Duodenary.MachineMetric.inverse_sound",
+    "exact_statement": "theorem inverse_sound (g : Isometry) :\n    toAffine (inverse g) = Duodenary.MachineAffine.inverse (toAffine g)",
+    "statement_sha256": "e53fddcbc62fbd47efd7e659d7e39987b1fada70b3dc8c3efbeb55cca15575cb",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.inverse_sound",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-079",
+    "lean_name": "Duodenary.MachineMetric.inverse_left",
+    "exact_statement": "theorem inverse_left (g : Isometry) (x : Z12) :\n    Duodenary.MachineAffine.apply (toAffine (compose (inverse g) g)) x = x",
+    "statement_sha256": "b4246cb451a53063db83831a0bd1c58bd64283f7aed17218045b2bcbc50db1d2",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.inverse_left",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-080",
+    "lean_name": "Duodenary.MachineMetric.inverse_right",
+    "exact_statement": "theorem inverse_right (g : Isometry) (x : Z12) :\n    Duodenary.MachineAffine.apply (toAffine (compose g (inverse g))) x = x",
+    "statement_sha256": "9c724070f696462a2712e00bed4a96d82b748cac36e02f3ae457add833b192b6",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.inverse_right",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-081",
+    "lean_name": "Duodenary.MachineMetric.subgroup_cardinality",
+    "exact_statement": "theorem subgroup_cardinality : allIsometries.length = 24",
+    "statement_sha256": "c678dbc6e40feda6569ac7184239c99de3d2cc0879000d9c5a4fbbe1e20a2bd3",
+    "source": "Duodenary/Imported/MetricKernel.lean",
+    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.subgroup_cardinality",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-082",
+    "lean_name": "Duodenary.MachineProduct.opposite_involution",
+    "exact_statement": "theorem opposite_involution : \u2200 x : Z12,\n    opposite1 (opposite1 x) = x",
+    "statement_sha256": "458dc22eeb44ad0e01ce048de94d05cb7dbd0643f14b048e8cb37023ac093395",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.opposite_involution",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-083",
+    "lean_name": "Duodenary.MachineProduct.antipode_involution",
+    "exact_statement": "theorem antipode_involution (p : V) : antipode (antipode p) = p",
+    "statement_sha256": "32521cdbef83735528cfc1a915a251d584782d90ce38929e13a505dbc862d8a3",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.antipode_involution",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-084",
+    "lean_name": "Duodenary.MachineProduct.displacement_shift_invariant",
+    "exact_statement": "theorem displacement_shift_invariant : \u2200 s p q : Z12,\n    displacement (shift1 s p) (shift1 s q) = displacement p q",
+    "statement_sha256": "6ba088e7fad2525c06ff087a861b0d87e94949b47173ce223ac43d7064c1c1c3",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.displacement_shift_invariant",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-085",
+    "lean_name": "Duodenary.MachineProduct.shift_invariance",
+    "exact_statement": "theorem shift_invariance (s p q : V) :\n    delta (shift s p) (shift s q) = delta p q",
+    "statement_sha256": "358e94e41e85008ec38b9b4c985f0a12054a7145dadd401e40ad62ac921d865f",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.shift_invariance",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-086",
+    "lean_name": "Duodenary.MachineProduct.antipodal_distance_invariance",
+    "exact_statement": "theorem antipodal_distance_invariance (p q : V) :\n    delta (antipode p) (antipode q) = delta p q",
+    "statement_sha256": "441a6994402ed05c3a1bb422403407ab3660ae29ffa36d87fa17b8c42af14df6",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.antipodal_distance_invariance",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-087",
+    "lean_name": "Duodenary.MachineProduct.circularDistance_symm",
+    "exact_statement": "theorem circularDistance_symm : \u2200 x y : Z12,\n    circularDistance x y = circularDistance y x",
+    "statement_sha256": "3909e2af74e17dcb3235a570715f3d4cae3dc926cbe62f5db48a2a2c8eb3da3d",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.circularDistance_symm",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-088",
+    "lean_name": "Duodenary.MachineProduct.circularDistance_shift_invariant",
+    "exact_statement": "theorem circularDistance_shift_invariant : \u2200 s x y : Z12,\n    circularDistance (shift1 s x) (shift1 s y) = circularDistance x y",
+    "statement_sha256": "2e38ae13e9d2439693023a8d7ea8d7002921a1a4055fbdd48c121fa5b5138b6d",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.circularDistance_shift_invariant",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-089",
+    "lean_name": "Duodenary.MachineProduct.productDistance_shift_invariant",
+    "exact_statement": "theorem productDistance_shift_invariant (s p q : V) :\n    productDistance (shift s p) (shift s q) = productDistance p q",
+    "statement_sha256": "4a6e112f15bcf3e84d0b4c7c976f15d061f00861ab7f10e05c43d5e85ff7a52a",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.productDistance_shift_invariant",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-090",
+    "lean_name": "Duodenary.MachineProduct.productDistance_antipode_invariant",
+    "exact_statement": "theorem productDistance_antipode_invariant (p q : V) :\n    productDistance (antipode p) (antipode q) = productDistance p q",
+    "statement_sha256": "2d47f1ceb7ef69539f1cac782a444d26bb361ad2b890bd20c2fa23effa039792",
+    "source": "Duodenary/Imported/ProductKernel.lean",
+    "source_sha256": "9fd29ad7691e2ac8234b5e106df376f1b95f3a5c47f7ee6789f2e63bef911bab",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineProduct.productDistance_antipode_invariant",
+    "axioms": [
+      "propext"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-102",
+    "lean_name": "Duodenary.accelerated_collatz_quotient_counterexample",
+    "exact_statement": "theorem accelerated_collatz_quotient_counterexample :\n    (1 : Nat) % 12 = 13 % 12 \u2227\n      ((3*1+1)/2 : Nat) % 12 \u2260 ((3*13+1)/2 : Nat) % 12",
+    "statement_sha256": "374cbe7e5c0de186e7972237a661b30a7054092b1a671234176327e79c943834",
+    "source": "Duodenary/Problems/QuotientObstruction.lean",
+    "source_sha256": "9c51e5389d777a243e407e766e31cdc09711c3af2f7074db7da745388a39e572",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.accelerated_collatz_quotient_counterexample",
+    "axioms": [],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-103",
+    "lean_name": "Duodenary.affine_twelve_iterates",
+    "exact_statement": "theorem affine_twelve_iterates : \u2200 f : Affine, \u2200 x : C12,\n    affineIterate f 12 x = x",
+    "statement_sha256": "13dc5305ffaccacd2f1274716afcabbd98eba3dfb7d06b25564c3e64a9d576e2",
+    "source": "Duodenary/Problems/QuotientObstruction.lean",
+    "source_sha256": "9c51e5389d777a243e407e766e31cdc09711c3af2f7074db7da745388a39e572",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_twelve_iterates",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-104",
+    "lean_name": "Duodenary.affine_slope_five_has_four_cycle",
+    "exact_statement": "theorem affine_slope_five_has_four_cycle :\n    affineIterate (1,1) 4 0 = 0 \u2227 affineIterate (1,1) 2 0 \u2260 0",
+    "statement_sha256": "5362d15771e9dd02de9c0e3cdc3d3cabdc3ee6382cad5ecdbb03e02bc2b0c38f",
+    "source": "Duodenary/Problems/QuotientObstruction.lean",
+    "source_sha256": "9c51e5389d777a243e407e766e31cdc09711c3af2f7074db7da745388a39e572",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_slope_five_has_four_cycle",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-030",
+    "lean_name": "Duodenary.unit_fraction_multiple_three",
+    "exact_statement": "theorem unit_fraction_multiple_three (k : \u211a) (hk : 0 < k) :\n    4 / (3*k) = 1/k + 1/(4*k) + 1/(12*k)",
+    "statement_sha256": "563dbc4f4d1618266742e9b59e3bdacf201977d98c51f1c121b6deab23ff3b79",
+    "source": "Duodenary/Problems/UnitFractions.lean",
+    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.unit_fraction_multiple_three",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-031",
+    "lean_name": "Duodenary.positive_integer_denominators",
+    "exact_statement": "theorem positive_integer_denominators (k : Nat) (hk : 0 < k) :\n    0 < k \u2227 0 < 4*k \u2227 0 < 12*k",
+    "statement_sha256": "b048b41c100557cb5ceaf55f3ae0a1bda3a71e448473a364eededc13460acdb9",
+    "source": "Duodenary/Problems/UnitFractions.lean",
+    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.positive_integer_denominators",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-032",
+    "lean_name": "Duodenary.multiple_three_certificate",
+    "exact_statement": "theorem multiple_three_certificate (k : Nat) (hk : 0 < k) :\n    ThreeUnitFractions (3*k)",
+    "statement_sha256": "28b2695875751541b80c4ecc0edd29e10c4b892489c5a61295ccf83c02dd186e",
+    "source": "Duodenary/Problems/UnitFractions.lean",
+    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.multiple_three_certificate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-091",
+    "lean_name": "Duodenary.even_certificate",
+    "exact_statement": "theorem even_certificate (k : Nat) (hk : 0 < k) :\n    ThreeUnitFractions (2*k)",
+    "statement_sha256": "131e8dd26695a17318403e2076676ddbf4d59525dfc6b77d24b24f78350177dd",
+    "source": "Duodenary/Problems/UnitFractions.lean",
+    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.even_certificate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-092",
+    "lean_name": "Duodenary.two_mod_three_certificate",
+    "exact_statement": "theorem two_mod_three_certificate (k : Nat) :\n    ThreeUnitFractions (3*k+2)",
+    "statement_sha256": "54a7eee15bc18717325c488b0dce16abac82afe76e9cb288a36cdda9f550652b",
+    "source": "Duodenary/Problems/UnitFractions.lean",
+    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.two_mod_three_certificate",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-10-31T11:59:46.308755+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "4e2e706cf7acb3b968f4b4eddf0c8f2ad718b4a3c24ec8ee2c711507c42286a9",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  }
+]

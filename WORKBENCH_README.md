@@ -1,10 +1,11 @@
 # ATLAS-WORKBENCH-01
 
-**Organizing invariant: preservation of geometric identity across representations and execution.**
-Read [the exact invariant and worked example](INVARIANT.md), inspect
-[the binding table](INVARIANT_BINDINGS.json), or run `python3 03_ENGINE/invariant.py`.
-The example checks recoverability and operation correspondence across station,
-glyph, exact angle and lattice views, including deliberately broken controls.
+**Architecture: one invariant relational whole, articulated co-presently in geometry, types, schemas and components.**
+Positions have no independent identity apart from the complete duodenary arrangement.
+Read [the structural specification](INVARIANT.md), [file organization](STRUCTURE.md)
+and [internal component relations](docs/relational/COMPONENT_RELATIONS.md).
+Succession, opposition, reversal and return govern belonging within the whole;
+procedural descriptions do not define its architectural unity.
 
 Run `python3 03_ENGINE/serve_atlas.py` and open
 http://localhost:8765/02_ATLAS/index.html . The server binds loopback only.

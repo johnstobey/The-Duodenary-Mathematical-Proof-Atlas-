@@ -1,14 +1,15 @@
 # Duodenary Mathematical Proof Atlas
 
-**Organizing invariant: preservation of geometric identity across representations and execution.**
-Read [the exact invariant and worked example](INVARIANT.md), inspect
-[the binding table](INVARIANT_BINDINGS.json), or run `python3 03_ENGINE/invariant.py`.
-The example checks recoverability and operation correspondence across station,
-glyph, exact angle and lattice views, including deliberately broken controls.
+**Architecture: one invariant relational whole, articulated co-presently in geometry, types, schemas and components.**
+Positions have no independent identity apart from the complete duodenary arrangement.
+Read [the structural specification](INVARIANT.md), [file organization](STRUCTURE.md)
+and [internal component relations](docs/relational/COMPONENT_RELATIONS.md).
+Succession, opposition, reversal and return govern belonging within the whole;
+procedural descriptions do not define its architectural unity.
 
 A reproducible mathematical research foundation published under DPA-BUILD-04. The constitution is **proposed, not adopted**. The latest successful remote publication is recorded separately from local verification.
 
-The Lean library now has **104 checked theorem declarations**: 32 foundation declarations, 53 repaired/reused Machine declarations, and 19 further declarations. These are declaration counts, not novelty claims. It defines cyclic twelve-state operations, antipodal and reflection involutions, a 4×3 coordinate equivalence, seven undirected distances, the 48 affine permutations with composition and inverses, and a 144-state finite encoding. It distinguishes the product group from the cyclic group of order 144. Three infinite families give positive natural-number witnesses for the Erdős–Straus equation: positive multiples of three, positive even numbers, and numbers congruent to two modulo three. These do not solve the full conjecture. The calendar bridge excludes surjective additive maps from Z/260Z to Z/12Z, and explicit proofs reconcile the Machine affine action with the Atlas representation. Exact checked statements, source hashes and axioms appear in [the theorem registry](registry/theorems/theorems.json).
+The Lean library now has **121 checked theorem declarations**: the previous 104 declarations and 17 declarations articulating the relational whole. The previous 104 comprise 32 foundation declarations, 53 repaired/reused Machine declarations, and 19 further declarations. These are declaration counts, not novelty claims. It defines cyclic twelve-state operations, antipodal and reflection involutions, a 4×3 coordinate equivalence, seven undirected distances, the 48 affine permutations with composition and inverses, and a 144-state finite encoding. It distinguishes the product group from the cyclic group of order 144. Three infinite families give positive natural-number witnesses for the Erdős–Straus equation: positive multiples of three, positive even numbers, and numbers congruent to two modulo three. These do not solve the full conjecture. The calendar bridge excludes surjective additive maps from Z/260Z to Z/12Z, and explicit proofs reconcile the Machine affine action with the Atlas representation. Exact checked statements, source hashes and axioms appear in [the theorem registry](registry/theorems/theorems.json).
 
 The [current execution report](verification/BUILD04_REPORT.md) and preserved [BUILD-03 checkpoint](verification/EXECUTION_REPORT.md) records implemented work, passed checks and remaining obligations. [Source metadata](sources/metadata/) pins the supplied documents, ten privately preserved DPA-FRONTIER-01 files and external catalogues. [Frontier records](registry/problems/frontier.json) retain all 42 baseline entries and their original limitations. Keyword cross-links are not exact-statement deduplication or validation of claimed external proofs.
 
