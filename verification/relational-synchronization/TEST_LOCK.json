@@ -1,0 +1,34 @@
+[
+  {
+    "path": "04_TESTS/test_structural_synchronization.py",
+    "sha256": "53ce3f55906cdfeb69cdaf0e3eb45dfa6ee70c424ec17bcefebc59426fbe4255"
+  },
+  {
+    "path": "RelationalGate.lean",
+    "sha256": "90a406083b20e022ee9eeb90c828ad33d583ee08f497f855593260435ef651bb"
+  },
+  {
+    "path": "Duodenary/Relational/Closure.lean",
+    "sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f"
+  },
+  {
+    "path": "Duodenary/Relational/Registers.lean",
+    "sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55"
+  },
+  {
+    "path": "Duodenary/Relational/Admission.lean",
+    "sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709"
+  },
+  {
+    "path": "schemas/relational/register-manifestation.schema.json",
+    "sha256": "a4bca4ed647305447d78350c76b9f10ab6b3e52421aba1aef378a16fdddc6119"
+  },
+  {
+    "path": "verification/relational-synchronization/FROZEN_CASES.json",
+    "sha256": "67a501b78a4d780638430d5342a51b86c152b188da4698c63d977ce046e230f9"
+  },
+  {
+    "path": "verification/relational-synchronization/FROZEN_EXPECTATIONS.json",
+    "sha256": "70dfcf3c285b701520ad1362527105e6015bc17a09984aa6639ed5e1c8f0d33a"
+  }
+]

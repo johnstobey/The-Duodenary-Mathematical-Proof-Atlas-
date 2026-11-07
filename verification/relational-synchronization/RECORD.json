@@ -1,0 +1,41 @@
+{
+  "primary_structure": "closed constitutive fourfold\u2013three-mode whole",
+  "closure": [
+    "explicit R S R = S^-1",
+    "opposition conjugation",
+    "cyclic-distance and unique-crossing integrity",
+    "arbitrary finite composition closure"
+  ],
+  "registers": [
+    "Obsidian \u2243 Fulgurite",
+    "Fulgurite \u2243 canonical semantic JSON image",
+    "Obsidian \u2243 canonical semantic JSON image",
+    "cellwise 4\u00d73 matrix equivalences",
+    "coherence under every declared composite"
+  ],
+  "admission": [
+    "complete constitutive matrix",
+    "synchronized row declarations",
+    "exact relation adjacency",
+    "gate iff constitutive path",
+    "endpoint equals composite",
+    "strict textual JSON boundary"
+  ],
+  "new_formal_declarations": 33,
+  "total_formal_declarations": 154,
+  "finite_conformance": {
+    "finite_cases": 2906,
+    "admitted_cases": 2893,
+    "rejected_cases": 13,
+    "codec_states": 12,
+    "constitutive_matrix_cells": 12,
+    "strict_boundary_cases": 4,
+    "counterexamples": []
+  },
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "canonical_register_and_lock_unchanged": true,
+  "existing_theorem_ids_unchanged": true,
+  "frozen_expectations_and_sources_unchanged": true,
+  "native_gate_sha256": "54c58baa543c107ee678a583f11ffcf3a3f8ade27ea859f7bb242e96b13654de",
+  "all_final_exit_codes_zero": true
+}

@@ -1,0 +1,9 @@
+{
+  "finite_cases": 2906,
+  "admitted_cases": 2893,
+  "rejected_cases": 13,
+  "codec_states": 12,
+  "constitutive_matrix_cells": 12,
+  "strict_boundary_cases": 4,
+  "counterexamples": []
+}

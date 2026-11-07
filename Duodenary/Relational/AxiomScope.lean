@@ -1,4 +1,4 @@
-import Duodenary.Relational.Manifestations
+import Duodenary.Relational.Admission
 
 #print axioms Duodenary.Relational.frame_at_every_position
 #print axioms Duodenary.Relational.differentiation_is_constitutive
@@ -17,3 +17,37 @@ import Duodenary.Relational.Manifestations
 #print axioms Duodenary.Relational.reversal_rearticulates_both
 #print axioms Duodenary.Relational.whole_integrity
 #print axioms Duodenary.Relational.co_present_integrity
+
+#print axioms Duodenary.Relational.reversal_conjugation
+#print axioms Duodenary.Relational.opposition_conjugation
+#print axioms Duodenary.Relational.crossing_under_equivalence
+#print axioms Duodenary.Relational.succession_grid_integrity
+#print axioms Duodenary.Relational.opposition_grid_integrity
+#print axioms Duodenary.Relational.reversal_grid_integrity
+#print axioms Duodenary.Relational.identity_grid_integrity
+#print axioms Duodenary.Relational.composition_grid_integrity
+#print axioms Duodenary.Relational.arbitrary_composition_grid_integrity
+#print axioms Duodenary.Relational.return_is_identity
+#print axioms Duodenary.Relational.obsidian_round_trip
+#print axioms Duodenary.Relational.fulgurite_round_trip
+#print axioms Duodenary.Relational.synchronization_iff_isomorphism
+#print axioms Duodenary.Relational.json_row_round_trip
+#print axioms Duodenary.Relational.obsidian_json_round_trip
+#print axioms Duodenary.Relational.register_identity_reflected
+#print axioms Duodenary.Relational.json_image_injective
+#print axioms Duodenary.Relational.obsidian_json_isomorphism
+#print axioms Duodenary.Relational.json_obsidian_isomorphism
+#print axioms Duodenary.Relational.register_actions_coherent
+#print axioms Duodenary.Relational.synchronization_closed
+#print axioms Duodenary.Relational.every_relation_integrity
+#print axioms Duodenary.Relational.every_word_integrity
+#print axioms Duodenary.Relational.path_gate_exact
+#print axioms Duodenary.Relational.accepted_path_is_constitutive
+#print axioms Duodenary.Relational.canonical_matrix_admitted
+#print axioms Duodenary.Relational.constitutive_matrix_unique
+#print axioms Duodenary.Relational.every_word_synchronization
+#print axioms Duodenary.Relational.return_is_full_circuit
+#print axioms Duodenary.Relational.composite_append
+#print axioms Duodenary.Relational.word_cons
+#print axioms Duodenary.Relational.constitutive_path_endpoint
+#print axioms Duodenary.Relational.accepted_path_endpoint

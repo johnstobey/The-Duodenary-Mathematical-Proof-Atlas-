@@ -9,3 +9,5 @@ import Duodenary.Bridges.Machine
 import Duodenary.Problems.QuotientObstruction
 
 import Duodenary.Relational.Manifestations
+
+import Duodenary.Relational.Admission

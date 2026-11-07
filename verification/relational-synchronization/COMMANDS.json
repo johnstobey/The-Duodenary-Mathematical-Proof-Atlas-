@@ -1,0 +1,107 @@
+[
+  {
+    "argv": [
+      "lake",
+      "build"
+    ],
+    "exit_code": 0,
+    "stdout": "lean.stdout",
+    "stderr": "lean.stderr"
+  },
+  {
+    "argv": [
+      "lake",
+      "build",
+      "relationalGate"
+    ],
+    "exit_code": 0,
+    "stdout": "native-gate.stdout",
+    "stderr": "native-gate.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/audit_lean.py"
+    ],
+    "exit_code": 0,
+    "stdout": "theorem-inventory.stdout",
+    "stderr": "theorem-inventory.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/audit_lean.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "theorem-inventory-check.stdout",
+    "stderr": "theorem-inventory-check.stderr"
+  },
+  {
+    "argv": [
+      "lake",
+      "env",
+      "lean",
+      "Duodenary/Relational/AxiomScope.lean"
+    ],
+    "exit_code": 0,
+    "stdout": "axiom-scope.stdout",
+    "stderr": "axiom-scope.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "04_TESTS/test_structural_synchronization.py"
+    ],
+    "exit_code": 0,
+    "stdout": "conformance-final.stdout",
+    "stderr": "conformance-final.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/structural_gate.py",
+      "schemas/relational/synchronized-example.json"
+    ],
+    "exit_code": 0,
+    "stdout": "example.stdout",
+    "stderr": "example.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "04_TESTS/verify_canonical.py"
+    ],
+    "exit_code": 0,
+    "stdout": "canonical.stdout",
+    "stderr": "canonical.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/validate.py"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-validate.stdout",
+    "stderr": "atlas-validate.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/finite_checks.py"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-finite.stdout",
+    "stderr": "atlas-finite.stderr"
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/roadmap.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-roadmap.stdout",
+    "stderr": "atlas-roadmap.stderr"
+  }
+]

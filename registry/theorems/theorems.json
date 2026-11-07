@@ -14,7 +14,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -23,7 +23,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -41,7 +41,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -50,7 +50,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -69,7 +69,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -78,7 +78,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -97,7 +97,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -106,7 +106,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -125,7 +125,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -134,7 +134,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -153,7 +153,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -162,7 +162,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -180,7 +180,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -189,7 +189,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -208,7 +208,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -217,7 +217,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -236,7 +236,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -245,7 +245,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -264,7 +264,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -273,7 +273,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -292,7 +292,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -301,7 +301,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -320,7 +320,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -329,7 +329,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -348,7 +348,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -357,7 +357,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -375,7 +375,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -384,7 +384,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -402,7 +402,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -411,7 +411,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -429,7 +429,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -438,7 +438,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -456,7 +456,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -465,7 +465,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -483,7 +483,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -492,7 +492,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -510,7 +510,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -519,7 +519,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -537,7 +537,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -546,7 +546,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -564,7 +564,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -573,7 +573,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -592,7 +592,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -601,7 +601,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -620,7 +620,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -629,7 +629,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -648,7 +648,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -657,7 +657,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -676,7 +676,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -685,7 +685,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -703,7 +703,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -712,7 +712,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -731,7 +731,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -740,7 +740,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -759,7 +759,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -768,7 +768,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -786,7 +786,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -795,7 +795,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -813,7 +813,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -822,7 +822,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -840,7 +840,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -849,7 +849,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -868,7 +868,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -877,7 +877,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -896,7 +896,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -905,7 +905,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -923,7 +923,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -932,7 +932,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -950,7 +950,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -959,7 +959,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -978,7 +978,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -987,7 +987,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1006,7 +1006,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1015,7 +1015,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1034,7 +1034,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1043,7 +1043,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1062,7 +1062,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1071,7 +1071,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1089,7 +1089,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1098,7 +1098,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1117,7 +1117,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1126,7 +1126,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1145,7 +1145,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1154,7 +1154,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1172,7 +1172,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1181,7 +1181,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1198,7 +1198,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1207,7 +1207,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1224,7 +1224,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1233,7 +1233,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1252,7 +1252,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1261,7 +1261,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1280,7 +1280,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1289,7 +1289,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1308,7 +1308,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1317,7 +1317,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1336,7 +1336,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1345,7 +1345,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1362,7 +1362,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1371,7 +1371,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1388,7 +1388,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1397,7 +1397,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1416,7 +1416,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1425,7 +1425,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1444,7 +1444,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1453,7 +1453,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1472,7 +1472,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1481,7 +1481,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1500,7 +1500,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1509,7 +1509,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1528,7 +1528,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1537,7 +1537,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1556,7 +1556,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1565,7 +1565,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1584,7 +1584,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1593,7 +1593,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1610,7 +1610,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1619,7 +1619,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1636,7 +1636,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1645,7 +1645,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1660,7 +1660,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1669,7 +1669,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1684,7 +1684,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1693,7 +1693,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1710,7 +1710,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1719,7 +1719,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1736,7 +1736,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1745,7 +1745,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1762,7 +1762,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1771,7 +1771,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1788,7 +1788,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1797,7 +1797,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1812,7 +1812,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1821,7 +1821,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1836,7 +1836,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1845,7 +1845,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1862,7 +1862,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1871,7 +1871,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1888,7 +1888,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1897,7 +1897,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1912,7 +1912,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1921,7 +1921,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1936,7 +1936,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1945,7 +1945,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1962,7 +1962,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1971,7 +1971,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -1988,7 +1988,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -1997,7 +1997,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2014,7 +2014,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2023,7 +2023,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2038,7 +2038,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2047,7 +2047,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2064,7 +2064,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2073,7 +2073,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2090,7 +2090,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2099,7 +2099,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2116,7 +2116,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2125,7 +2125,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2144,7 +2144,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2153,7 +2153,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2172,7 +2172,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2181,7 +2181,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2200,7 +2200,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2209,7 +2209,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2228,7 +2228,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2237,7 +2237,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2254,7 +2254,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2263,7 +2263,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2282,7 +2282,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2291,7 +2291,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2310,7 +2310,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2319,7 +2319,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2336,7 +2336,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2345,7 +2345,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2362,7 +2362,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2371,7 +2371,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2388,7 +2388,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2397,7 +2397,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2412,7 +2412,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2421,7 +2421,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2436,7 +2436,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2445,7 +2445,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2462,7 +2462,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2471,7 +2471,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2488,7 +2488,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2497,7 +2497,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2512,7 +2512,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2521,7 +2521,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2536,7 +2536,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2545,7 +2545,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2562,7 +2562,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2571,7 +2571,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2586,7 +2586,7 @@
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2595,7 +2595,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2614,7 +2614,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2623,7 +2623,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2641,7 +2641,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2650,7 +2650,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2669,7 +2669,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2678,7 +2678,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2697,7 +2697,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2706,7 +2706,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2725,7 +2725,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2734,7 +2734,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2753,7 +2753,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2762,7 +2762,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2781,7 +2781,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2790,7 +2790,613 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-122",
+    "lean_name": "Duodenary.Relational.every_relation_integrity",
+    "exact_statement": "theorem every_relation_integrity (r : StructuralRelation) :\n    GridIntegrity constitutiveFrame (relationMeaning r)",
+    "statement_sha256": "86b01c966c254065b2ded392e0646d6c3f0305a56c7a3e070227ef11f84584e8",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.every_relation_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-123",
+    "lean_name": "Duodenary.Relational.every_word_integrity",
+    "exact_statement": "theorem every_word_integrity (rs : List StructuralRelation) :\n    GridIntegrity constitutiveFrame (wordMeaning rs)",
+    "statement_sha256": "6c55712dbc3dbc314550b21c4c0a1f0f6a102099348f6189b1815b1ab7cd4012",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.every_word_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-124",
+    "lean_name": "Duodenary.Relational.path_gate_exact",
+    "exact_statement": "theorem path_gate_exact (x : C12) (rs : List StructuralRelation) (ys : List C12) :\n    pathGate x rs ys = true \u2194 ConstitutivePath x rs ys",
+    "statement_sha256": "d60fd424a3ef6d90c2d22db960dbf78a5072b2b61689a33daa3b716824e301fa",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.path_gate_exact",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-125",
+    "lean_name": "Duodenary.Relational.accepted_path_is_constitutive",
+    "exact_statement": "theorem accepted_path_is_constitutive (x : C12) (rs : List StructuralRelation)\n    (ys : List C12) (h : pathGate x rs ys = true) : ConstitutivePath x rs ys",
+    "statement_sha256": "7d2c24f2e7b25627a7790418188aee618f3a28a8b8e9dd8948a8f382b0d020ca",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.accepted_path_is_constitutive",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-126",
+    "lean_name": "Duodenary.Relational.canonical_matrix_admitted",
+    "exact_statement": "theorem canonical_matrix_admitted : matrixFromJson matrixJson = .ok ()",
+    "statement_sha256": "cd392b31e5d363fe59e65f9b64b80096b9be09626e5ed462ad9751d871d57453",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.canonical_matrix_admitted",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-127",
+    "lean_name": "Duodenary.Relational.constitutive_matrix_unique",
+    "exact_statement": "theorem constitutive_matrix_unique (cells : Fin 4 \u2192 Fin 3 \u2192 Fulgurite)\n    (h : ConstitutiveMatrix cells) (a : Fin 4) (b : Fin 3) :\n    cells a b = registerEquiv \u27e8(a,b)\u27e9",
+    "statement_sha256": "c46fbd57e3d2a69220ed4df07183e40233c76ae96f69b55ee1e4a382c71b91ab",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.constitutive_matrix_unique",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-128",
+    "lean_name": "Duodenary.Relational.every_word_synchronization",
+    "exact_statement": "theorem every_word_synchronization (rs : List StructuralRelation) (o : Obsidian)\n    (f : Fulgurite) (h : synchronized o f) :\n    synchronized (obsidianAction (wordMeaning rs) o) (fulguriteAction (wordMeaning rs) f)",
+    "statement_sha256": "680b23d3efc20331353331f2a70121e8b7083a70afb65f95bbee942535343438",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.every_word_synchronization",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-129",
+    "lean_name": "Duodenary.Relational.return_is_full_circuit",
+    "exact_statement": "theorem return_is_full_circuit : relationMeaning .return = duodenaryWhole.succession ^ 12",
+    "statement_sha256": "a9fc27db137b451e816e6d2869f9557d52ee207e132b2699a442fd006a635466",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.return_is_full_circuit",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-130",
+    "lean_name": "Duodenary.Relational.composite_append",
+    "exact_statement": "theorem composite_append (es ds : List (Equiv.Perm duodenaryWhole.Position)) :\n    relationComposite (w",
+    "statement_sha256": "51c7c853556f9416d7792e25c27e9e635b02b48aa296c86957c5e0068853877d",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.composite_append",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-131",
+    "lean_name": "Duodenary.Relational.word_cons",
+    "exact_statement": "theorem word_cons (r : StructuralRelation) (rs : List StructuralRelation) :\n    wordMeaning (r::rs) = wordMeaning rs * relationMeaning r",
+    "statement_sha256": "8ba265dfb15fbdd270c301bc092e8e749b4985cb0948eeac905646e74a88dcb1",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.word_cons",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-132",
+    "lean_name": "Duodenary.Relational.constitutive_path_endpoint",
+    "exact_statement": "theorem constitutive_path_endpoint (x : C12) (rs : List StructuralRelation)\n    (ys : List C12) (h : ConstitutivePath x rs ys) :\n    finalPosition x ys = wordMeaning rs x",
+    "statement_sha256": "946608a41c5496c8e5486f0695d529039433f718f926c391e998c208e306963a",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.constitutive_path_endpoint",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-133",
+    "lean_name": "Duodenary.Relational.accepted_path_endpoint",
+    "exact_statement": "theorem accepted_path_endpoint (x : C12) (rs : List StructuralRelation)\n    (ys : List C12) (h : pathGate x rs ys = true) :\n    finalPosition x ys = wordMeaning rs x",
+    "statement_sha256": "975f687ffabf7d26c8f759a437baba9ee26003476f4ec1a93d5c7f26391a6dc8",
+    "source": "Duodenary/Relational/Admission.lean",
+    "source_sha256": "51a33b01a85e6e65398972a786603aa9cca274818774234ff1fa4ab5dbcda709",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.accepted_path_endpoint",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-134",
+    "lean_name": "Duodenary.Relational.reversal_conjugation",
+    "exact_statement": "theorem reversal_conjugation (f : Frame w) (c : C12) :\n    reversalPerm f c * w.succession * reversalPerm f c = w.succession\u207b\u00b9",
+    "statement_sha256": "70c1a18b3280dfb8e675b10e6fee52fa11204655c4e746192b6a84c05bbe0925",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.reversal_conjugation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-135",
+    "lean_name": "Duodenary.Relational.opposition_conjugation",
+    "exact_statement": "theorem opposition_conjugation (f : Frame w) :\n    opposition w * w.succession * opposition w = w.succession",
+    "statement_sha256": "aabecb21ec32c75382ca4bb81ee05b6a11020952eb78d8fc2b2f1a4cc302fa1e",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.opposition_conjugation",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-136",
+    "lean_name": "Duodenary.Relational.crossing_under_equivalence",
+    "exact_statement": "theorem crossing_under_equivalence (f : Frame w) (e : Equiv.Perm w.Position)\n    (a : Fin 4) (b : Fin 3) : \u2203! p, differentiation f (e p) = (a,b)",
+    "statement_sha256": "4796cc0859baa95f6e3f7ae5aba7f7cc124e7f02dc8b41d7feea55c67957527a",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.crossing_under_equivalence",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-137",
+    "lean_name": "Duodenary.Relational.succession_grid_integrity",
+    "exact_statement": "theorem succession_grid_integrity (f : Frame w) : GridIntegrity f w.succession",
+    "statement_sha256": "cf407a83d8a247a941b618498fa11ebedc979c3e4bc0c058a6e381da4d1059c9",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.succession_grid_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-138",
+    "lean_name": "Duodenary.Relational.opposition_grid_integrity",
+    "exact_statement": "theorem opposition_grid_integrity (f : Frame w) : GridIntegrity f (opposition w)",
+    "statement_sha256": "b2523e0fe029de16a24f5309be791fcb39ebf22d97614e14737946e7b6313f03",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.opposition_grid_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-139",
+    "lean_name": "Duodenary.Relational.reversal_grid_integrity",
+    "exact_statement": "theorem reversal_grid_integrity (f : Frame w) (c : C12) :\n    GridIntegrity f (reversalPerm f c)",
+    "statement_sha256": "85c52f42023ff541aeec01b98b57f81700e497d2d8ac952ff79dd8b1f911cd8f",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.reversal_grid_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-140",
+    "lean_name": "Duodenary.Relational.identity_grid_integrity",
+    "exact_statement": "theorem identity_grid_integrity (f : Frame w) : GridIntegrity f 1",
+    "statement_sha256": "a972c529ce2b64aa04bac66421818dbb02a513b5b2d9ed0c914973b22db54fba",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.identity_grid_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-141",
+    "lean_name": "Duodenary.Relational.composition_grid_integrity",
+    "exact_statement": "theorem composition_grid_integrity (f : Frame w) (e d : Equiv.Perm w.Position)\n    (he : GridIntegrity f e) (hd : GridIntegrity f d) : GridIntegrity f (e*d)",
+    "statement_sha256": "500b01819f445f79c0fb16ec67a37e91a565e120017814a9078c8ba102c6e6db",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.composition_grid_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-142",
+    "lean_name": "Duodenary.Relational.arbitrary_composition_grid_integrity",
+    "exact_statement": "theorem arbitrary_composition_grid_integrity (f : Frame w)\n    (es : List (Equiv.Perm w.Position))\n    (h : \u2200 e \u2208 es, GridIntegrity f e) : GridIntegrity f (relationComposite es)",
+    "statement_sha256": "4d340ef7dd29f0febc9cbd76714cf564d6e4762b67943a8500125186d7b8796a",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.arbitrary_composition_grid_integrity",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-143",
+    "lean_name": "Duodenary.Relational.return_is_identity",
+    "exact_statement": "theorem return_is_identity (f : Frame w) : w.succession ^ 12 = 1",
+    "statement_sha256": "ad5d39446592372ef356ffd52f042cccb22ca69d2ad1d29defec33e710a64974",
+    "source": "Duodenary/Relational/Closure.lean",
+    "source_sha256": "84c718e82ce95315a1e773de508e141b7bedffec4c72ffab5d134b739578695f",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.return_is_identity",
+    "axioms": [
+      "propext",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2809,7 +3415,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2818,7 +3424,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2837,7 +3443,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2846,7 +3452,315 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-144",
+    "lean_name": "Duodenary.Relational.obsidian_round_trip",
+    "exact_statement": "theorem obsidian_round_trip (o : Obsidian) : registerEquiv.symm (registerEquiv o) = o",
+    "statement_sha256": "4ae8d0d4ef8b086f07a9e9d45f807fa3d39316d8f744d6ebd9a7ced53e4ebcca",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.obsidian_round_trip",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-145",
+    "lean_name": "Duodenary.Relational.fulgurite_round_trip",
+    "exact_statement": "theorem fulgurite_round_trip (f : Fulgurite) : registerEquiv (registerEquiv.symm f) = f",
+    "statement_sha256": "6f89e0b1d69164245fcb3cd9a579e24943b0cf2d303bcaeb35f1a641cf2d9a94",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.fulgurite_round_trip",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-146",
+    "lean_name": "Duodenary.Relational.synchronization_iff_isomorphism",
+    "exact_statement": "theorem synchronization_iff_isomorphism (o : Obsidian) (f : Fulgurite) :\n    synchronized o f \u2194 registerEquiv o = f",
+    "statement_sha256": "e65f7b8204abf66f9fc104731410767c1ecdc454b8ee358b6a6fc4cde9cef142",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.synchronization_iff_isomorphism",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-147",
+    "lean_name": "Duodenary.Relational.json_row_round_trip",
+    "exact_statement": "theorem json_row_round_trip : \u2200 x : C12, rowFromJson (rowJson \u27e8x\u27e9) = .ok \u27e8x\u27e9",
+    "statement_sha256": "e8a0850184ca47e7b73b5bedd4f3ba7cfe4c2458ed3dfd75b65fd9adf746a5b4",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.json_row_round_trip",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-148",
+    "lean_name": "Duodenary.Relational.obsidian_json_round_trip",
+    "exact_statement": "theorem obsidian_json_round_trip (o : Obsidian) :\n    rowFromJson (rowJson (registerEquiv o)) = .ok (registerEquiv o)",
+    "statement_sha256": "9da0e6d1329301c95af4fcf8d16bfa30583f3f195fcccba01ed9e5575d52b560",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.obsidian_json_round_trip",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-149",
+    "lean_name": "Duodenary.Relational.register_identity_reflected",
+    "exact_statement": "theorem register_identity_reflected (a b : Obsidian) :\n    registerEquiv a = registerEquiv b \u2194 a = b",
+    "statement_sha256": "273aad33fd88e551c8aeeea213adba7fc5bdf6b55e050f9893109bf73858b38c",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.register_identity_reflected",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-150",
+    "lean_name": "Duodenary.Relational.json_image_injective",
+    "exact_statement": "theorem json_image_injective (a b : Fulgurite) (h : rowJson a = rowJson b) : a = b",
+    "statement_sha256": "b8a2bfc154cf348f90ac18b5adbd04c4acc746be616b2ab449acb2797df7eaa1",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.json_image_injective",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-151",
+    "lean_name": "Duodenary.Relational.obsidian_json_isomorphism",
+    "exact_statement": "theorem obsidian_json_isomorphism (o : Obsidian) :\n    obsidianJsonEquiv.symm (obsidianJsonEquiv o) = o",
+    "statement_sha256": "763a53a110b1a9d0c57f98ba93669eed1385f541bfcaf4e1130a72c8d968aedf",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.obsidian_json_isomorphism",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-152",
+    "lean_name": "Duodenary.Relational.json_obsidian_isomorphism",
+    "exact_statement": "theorem json_obsidian_isomorphism (j : JsonState) :\n    obsidianJsonEquiv (obsidianJsonEquiv.symm j) = j",
+    "statement_sha256": "137308065df6c740e3d2abab87772af1a8188f6de7d22fd92ffe6b0edfa0339f",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.json_obsidian_isomorphism",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-153",
+    "lean_name": "Duodenary.Relational.register_actions_coherent",
+    "exact_statement": "theorem register_actions_coherent (e : Equiv.Perm C12) (o : Obsidian) :\n    registerEquiv (obsidianAction e o) = fulguriteAction e (registerEquiv o)",
+    "statement_sha256": "497139e08450fc17ffac42a2a2a8021908dbc48c1576c1d6159bf3565506213a",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.register_actions_coherent",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
+    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "novelty_claim": false
+  },
+  {
+    "id": "DPA-THM-154",
+    "lean_name": "Duodenary.Relational.synchronization_closed",
+    "exact_statement": "theorem synchronization_closed (e : Equiv.Perm C12) (o : Obsidian) (f : Fulgurite)\n    (h : synchronized o f) : synchronized (obsidianAction e o) (fulguriteAction e f)",
+    "statement_sha256": "623b24579bd54180b2a1ca4899413d81c5a270a8e905f9247a12ebd8dbc1bf32",
+    "source": "Duodenary/Relational/Registers.lean",
+    "source_sha256": "72b9f6ff77b949d0d67015b4cc223f0715b1266bb84fce50b9182264c7bc7f55",
+    "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.Relational.synchronization_closed",
+    "axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "verification_status": "FORMALLY_PROVED",
+    "lean_toolchain": "leanprover/lean4:v4.14.0",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
+    "command": [
+      "lake",
+      "env",
+      "lean",
+      ".lake/AtlasAudit.lean"
+    ],
+    "returncode": 0,
+    "log": "verification/builds/atlas-axioms.log",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2864,7 +3778,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2873,7 +3787,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2891,7 +3805,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2900,7 +3814,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2918,7 +3832,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2927,7 +3841,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2945,7 +3859,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2954,7 +3868,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2972,7 +3886,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -2981,7 +3895,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -2999,7 +3913,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3008,7 +3922,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3026,7 +3940,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3035,7 +3949,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3053,7 +3967,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3062,7 +3976,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3080,7 +3994,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3089,7 +4003,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3108,7 +4022,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3117,7 +4031,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3136,7 +4050,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3145,7 +4059,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3164,7 +4078,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3173,7 +4087,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3191,7 +4105,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3200,7 +4114,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3219,7 +4133,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3228,7 +4142,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   },
@@ -3247,7 +4161,7 @@
     ],
     "verification_status": "FORMALLY_PROVED",
     "lean_toolchain": "leanprover/lean4:v4.14.0",
-    "compiled_on": "2026-11-07T01:33:45.846814+00:00",
+    "compiled_on": "2026-11-07T02:12:21.830913+00:00",
     "command": [
       "lake",
       "env",
@@ -3256,7 +4170,7 @@
     ],
     "returncode": 0,
     "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "b31de9b86c125cb6f343895ad12419d249c887344bc8104040b7d3dc40067044",
+    "log_sha256": "310369cbc853f3351565188ff34a784cb16638492f295280a83772c7682d3fe2",
     "axiom_audit_log": "verification/builds/atlas-axioms.log",
     "novelty_claim": false
   }

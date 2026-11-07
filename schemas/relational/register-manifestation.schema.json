@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:duodenary:relational:register-manifestation",
+  "title": "Synchronized Obsidian and Fulgurite articulation",
+  "description": "The matrix is a co-present 4×3 crossing. Each row triple is [Fulgurite station, Obsidian fourfold determination, Obsidian mode]. Relation words express compositional incidence, not a causal ontology.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "matrix",
+    "states",
+    "relations"
+  ],
+  "properties": {
+    "version": {
+      "const": "relational-register-v1"
+    },
+    "matrix": {
+      "type": "array",
+      "const": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            8,
+            0,
+            2
+          ]
+        ],
+        [
+          [
+            9,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            5,
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            6,
+            2,
+            0
+          ],
+          [
+            10,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ]
+        ],
+        [
+          [
+            3,
+            3,
+            0
+          ],
+          [
+            7,
+            3,
+            1
+          ],
+          [
+            11,
+            3,
+            2
+          ]
+        ]
+      ]
+    },
+    "states": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "integer"
+        },
+        "oneOf": [
+          {
+            "const": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "const": [
+              1,
+              1,
+              1
+            ]
+          },
+          {
+            "const": [
+              2,
+              2,
+              2
+            ]
+          },
+          {
+            "const": [
+              3,
+              3,
+              0
+            ]
+          },
+          {
+            "const": [
+              4,
+              0,
+              1
+            ]
+          },
+          {
+            "const": [
+              5,
+              1,
+              2
+            ]
+          },
+          {
+            "const": [
+              6,
+              2,
+              0
+            ]
+          },
+          {
+            "const": [
+              7,
+              3,
+              1
+            ]
+          },
+          {
+            "const": [
+              8,
+              0,
+              2
+            ]
+          },
+          {
+            "const": [
+              9,
+              1,
+              0
+            ]
+          },
+          {
+            "const": [
+              10,
+              2,
+              1
+            ]
+          },
+          {
+            "const": [
+              11,
+              3,
+              2
+            ]
+          }
+        ]
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "succession"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "opposition"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind"
+            ],
+            "properties": {
+              "kind": {
+                "const": "return"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kind",
+              "axis"
+            ],
+            "properties": {
+              "kind": {
+                "const": "reversal"
+              },
+              "axis": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 11
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

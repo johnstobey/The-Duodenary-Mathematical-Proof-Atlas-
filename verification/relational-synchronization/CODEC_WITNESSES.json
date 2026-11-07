@@ -1,0 +1,110 @@
+[
+  {
+    "station": 0,
+    "json_row": [
+      0,
+      0,
+      0
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 1,
+    "json_row": [
+      1,
+      1,
+      1
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 2,
+    "json_row": [
+      2,
+      2,
+      2
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 3,
+    "json_row": [
+      3,
+      3,
+      0
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 4,
+    "json_row": [
+      4,
+      0,
+      1
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 5,
+    "json_row": [
+      5,
+      1,
+      2
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 6,
+    "json_row": [
+      6,
+      2,
+      0
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 7,
+    "json_row": [
+      7,
+      3,
+      1
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 8,
+    "json_row": [
+      8,
+      0,
+      2
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 9,
+    "json_row": [
+      9,
+      1,
+      0
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 10,
+    "json_row": [
+      10,
+      2,
+      1
+    ],
+    "exit_code": 0
+  },
+  {
+    "station": 11,
+    "json_row": [
+      11,
+      3,
+      2
+    ],
+    "exit_code": 0
+  }
+]

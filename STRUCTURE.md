@@ -20,3 +20,13 @@ Lean imports and file references provide access to definitions; they do not
 establish temporal, causal or ontological precedence between manifestations.
 No new definition assigns a position an identity external to its whole.
 No new structural schema is a workflow or translation contract.
+
+## Structural closure, dual registers and admission
+
+- [Closure](Duodenary/Relational/Closure.lean): explicit conjugation and whole-grid integrity.
+- [Registers](Duodenary/Relational/Registers.lean): two-way register/JSON state equivalences.
+- [Admission](Duodenary/Relational/Admission.lean): constitutive paths and arbitrary compositional closure.
+- [Register articulation](docs/relational/DUAL_REGISTERS.md) and [admission relations](docs/relational/ADMISSION_RELATIONS.md).
+
+These are co-present articulations of the primary whole; their file or expression
+order does not establish a causal hierarchy between manifestations.

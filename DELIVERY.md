@@ -184,3 +184,36 @@ articulation are preserved in verification/relational-organization/.
 | `python3 scripts/audit_lean.py --check` | 0 |
 | `python3 /tmp/relational-ui-regression/04_TESTS/test_browser.py` | 0 |
 | `python3 /tmp/relational-ui-regression/04_TESTS/test_invariant_browser.py` | 0 |
+
+## Structural closure and dual-register synchronization increment
+
+Closure.lean articulates explicit permutation conjugation, opposition, grid
+integrity and arbitrary compositional closure. Registers.lean supplies true
+two-way equivalences of typed structural states and their canonical semantic
+JSON image, lifted cellwise to indexed 4×3 matrices. Admission.lean supplies
+constitutive matrix uniqueness, exact path admission and endpoint coherence.
+These are co-present expressions of the primary whole, not causal precedence
+between media. The JSON boundary is scripts/structural_gate.py; the native
+semantic core is built with lake build relationalGate.
+
+The increment adds 33 declarations, giving 154 in the audited library. Existing
+theorem IDs and the complete canonical algorithm register/lock are unchanged.
+All 2,906 frozen cases match their expectations; 13 invalid declarations reject.
+The 257-relation witness is supplemental to the arbitrary-length proof.
+No claim equates proof terms or arbitrary text bytes with twelve structural states.
+
+Exact final commands and exit codes (full output in verification/relational-synchronization):
+
+| Command | Exit |
+|---|---:|
+| `lake build` | 0 |
+| `lake build relationalGate` | 0 |
+| `python3 scripts/audit_lean.py` | 0 |
+| `python3 scripts/audit_lean.py --check` | 0 |
+| `lake env lean Duodenary/Relational/AxiomScope.lean` | 0 |
+| `python3 04_TESTS/test_structural_synchronization.py` | 0 |
+| `python3 scripts/structural_gate.py schemas/relational/synchronized-example.json` | 0 |
+| `python3 04_TESTS/verify_canonical.py` | 0 |
+| `python3 scripts/validate.py` | 0 |
+| `python3 scripts/finite_checks.py` | 0 |
+| `python3 scripts/roadmap.py --check` | 0 |
