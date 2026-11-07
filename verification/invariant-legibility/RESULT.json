@@ -1,0 +1,18 @@
+{
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "canonical_register_and_lock_unchanged": true,
+  "original_receipts_unchanged": true,
+  "frozen_test_inputs_unchanged": true,
+  "finite_checks": {
+    "state_round_trips": 12,
+    "generator_commutations": 48,
+    "angular_adapter_cases": 84,
+    "lattice_round_trips_and_oppositions": 144,
+    "negative_controls_rejected": 6
+  },
+  "new_unit_tests": 5,
+  "new_browser_tests": 2,
+  "original_browser_tests": 8,
+  "all_recorded_final_command_exit_codes_zero": true,
+  "scope": "Explicit finite representations and admission witnesses; no canonical score changes or hidden-target acceptance claim"
+}

@@ -121,3 +121,38 @@ publication evidence only; the same branch-only push command publishes it.
 `verification/atlas-workbench-01-delivery/source-whitespace.stdout`.
 Protected source bytes were preserved rather than normalized. This formatting
 observation does not change the canonical hash or the green execution gates.
+
+## Invariant legibility increment — current execution evidence
+
+The front-door README, INVARIANT.md, explicit bindings, complete finite tables and
+interactive inspector now expose preservation of defined geometric identity.
+No canonical source/lock bytes or historical receipts changed. The original
+DELIVERY_MANIFEST.json remains historical; this increment has its own manifest
+under verification/invariant-legibility/. No tests were changed after execution.
+
+The earlier pending Lean retry finished successfully (exit 0); its full logs and
+exit code are now preserved alongside the failed attempt. The current rerun
+also exited 0. The implementation adds a computed structural admission bridge,
+not new BB component equations or altered locked scores.
+
+Exact final verification commands and exit codes:
+
+| Command | Exit |
+|---|---:|
+| `python3 04_TESTS/verify_canonical.py` | 0 |
+| `python3 04_TESTS/test_engine.py` | 0 |
+| `python3 04_TESTS/test_adapter.py` | 0 |
+| `python3 03_ENGINE/invariant.py` | 0 |
+| `python3 04_TESTS/test_invariant.py` | 0 |
+| `python3 scripts/validate.py` | 0 |
+| `python3 scripts/finite_checks.py` | 0 |
+| `python3 scripts/roadmap.py --check` | 0 |
+| `lake build` | 0 |
+| `python3 04_TESTS/test_invariant_browser.py` | 0 |
+| `python3 /tmp/invariant-original-browser-regression/04_TESTS/test_browser.py` | 0 |
+
+Full stdout/stderr: verification/invariant-legibility/. Five unit tests,
+two new browser tests and eight original browser tests are green. The 84
+valid UI cases and 84 broken endpoint counterparts are exercised in Chromium.
+Linked repository changes are documentation-only review branches; their
+existing runtime histories are preserved and no main branch is changed.

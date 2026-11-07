@@ -1,0 +1,21 @@
+test_144_cells_and_keyboard (__main__.AtlasBrowser.test_144_cells_and_keyboard) ... 127.0.0.1 - - [07/Nov/2026 01:04:12] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_84_angular_traces (__main__.AtlasBrowser.test_84_angular_traces) ... 127.0.0.1 - - [07/Nov/2026 01:04:15] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_animated_scroll_reversal (__main__.AtlasBrowser.test_animated_scroll_reversal) ... 127.0.0.1 - - [07/Nov/2026 01:04:16] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_every_scene_reversible (__main__.AtlasBrowser.test_every_scene_reversible) ... 127.0.0.1 - - [07/Nov/2026 01:04:17] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_mobile_accessible_reduced_motion (__main__.AtlasBrowser.test_mobile_accessible_reduced_motion) ... 127.0.0.1 - - [07/Nov/2026 01:04:21] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_navigation_and_assets (__main__.AtlasBrowser.test_navigation_and_assets) ... 127.0.0.1 - - [07/Nov/2026 01:04:22] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_operators_undo_redo (__main__.AtlasBrowser.test_operators_undo_redo) ... 127.0.0.1 - - [07/Nov/2026 01:04:23] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_registry_sources_copy (__main__.AtlasBrowser.test_registry_sources_copy) ... 127.0.0.1 - - [07/Nov/2026 01:04:24] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 22.431s
+
+OK

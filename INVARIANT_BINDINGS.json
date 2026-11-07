@@ -1,0 +1,50 @@
+{
+  "invariant": "preservation of defined geometric identity across supported representations and execution",
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "frozen_inputs": [
+    {
+      "path": "01_CANONICAL/157_ALGORITHMS_LOCKED.jsonl",
+      "sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc"
+    },
+    {
+      "path": "01_CANONICAL/CANONICAL_LOCK.json",
+      "sha256": "3fedd65ba308adb106898a635c09da74d0d45e05e817f5a7616c2e9c5973393c"
+    },
+    {
+      "path": "03_ENGINE/ring_84_finite_transitions.json",
+      "sha256": "0b49cc3c24ae87143edbc329bfc89dde98a53d14f47765d4e9b1dfd08e68294a"
+    }
+  ],
+  "bindings": [
+    {
+      "canonical_id": "ALG-001",
+      "source": "12 positions; 30 degrees per step",
+      "execution": "03_ENGINE/adapters/fulgurite.py",
+      "witness": "84 source-fixture angular cases; exact glyph/angle correspondence"
+    },
+    {
+      "canonical_id": "ALG-013",
+      "source": "Sign_x + 180 degrees",
+      "execution": "03_ENGINE/finite_engine.py:apply(A)",
+      "witness": "12 antipodal glyph cases; 144 product-address instances"
+    }
+  ],
+  "additional_engine_operators": [
+    "T",
+    "I",
+    "rho"
+  ],
+  "additional_operator_scope": "Explicit finite-engine definitions; no invented canonical IDs",
+  "bb_admission": {
+    "implemented": "Computed structural admission bridge in 03_ENGINE/invariant.py:admit",
+    "witnesses": [
+      "strict syntax",
+      "canonical source hash",
+      "directed endpoint",
+      "exact angle",
+      "glyph correspondence",
+      "recoverability"
+    ],
+    "H_RR_GG_AA_policy": "Do not modify locked scores or invent per-component equations. This bridge supplies structural witnesses for admission; per-component scoring integration is separate from this executable demonstration."
+  }
+}

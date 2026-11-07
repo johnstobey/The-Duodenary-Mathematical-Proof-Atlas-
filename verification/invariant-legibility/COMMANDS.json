@@ -1,0 +1,113 @@
+[
+  {
+    "name": "canonical",
+    "argv": [
+      "python3",
+      "04_TESTS/verify_canonical.py"
+    ],
+    "exit_code": 0,
+    "stdout": "canonical.stdout",
+    "stderr": "canonical.stderr"
+  },
+  {
+    "name": "engine",
+    "argv": [
+      "python3",
+      "04_TESTS/test_engine.py"
+    ],
+    "exit_code": 0,
+    "stdout": "engine.stdout",
+    "stderr": "engine.stderr"
+  },
+  {
+    "name": "adapter",
+    "argv": [
+      "python3",
+      "04_TESTS/test_adapter.py"
+    ],
+    "exit_code": 0,
+    "stdout": "adapter.stdout",
+    "stderr": "adapter.stderr"
+  },
+  {
+    "name": "finite-witnesses",
+    "argv": [
+      "python3",
+      "03_ENGINE/invariant.py"
+    ],
+    "exit_code": 0,
+    "stdout": "finite-witnesses.stdout",
+    "stderr": "finite-witnesses.stderr"
+  },
+  {
+    "name": "unit",
+    "argv": [
+      "python3",
+      "04_TESTS/test_invariant.py"
+    ],
+    "exit_code": 0,
+    "stdout": "unit.stdout",
+    "stderr": "unit.stderr"
+  },
+  {
+    "name": "atlas-validate",
+    "argv": [
+      "python3",
+      "scripts/validate.py"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-validate.stdout",
+    "stderr": "atlas-validate.stderr"
+  },
+  {
+    "name": "atlas-finite",
+    "argv": [
+      "python3",
+      "scripts/finite_checks.py"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-finite.stdout",
+    "stderr": "atlas-finite.stderr"
+  },
+  {
+    "name": "atlas-roadmap",
+    "argv": [
+      "python3",
+      "scripts/roadmap.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-roadmap.stdout",
+    "stderr": "atlas-roadmap.stderr"
+  },
+  {
+    "name": "atlas-lean",
+    "argv": [
+      "lake",
+      "build"
+    ],
+    "exit_code": 0,
+    "stdout": "atlas-lean.stdout",
+    "stderr": "atlas-lean.stderr"
+  },
+  {
+    "name": "browser",
+    "argv": [
+      "python3",
+      "04_TESTS/test_invariant_browser.py"
+    ],
+    "exit_code": 0,
+    "stdout": "browser.stdout",
+    "stderr": "browser.stderr"
+  },
+  {
+    "name": "original-browser",
+    "argv": [
+      "python3",
+      "/tmp/invariant-original-browser-regression/04_TESTS/test_browser.py"
+    ],
+    "exit_code": 0,
+    "stdout": "original-browser.stdout",
+    "stderr": "original-browser.stderr"
+  }
+]

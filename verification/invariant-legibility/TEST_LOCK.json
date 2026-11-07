@@ -1,0 +1,18 @@
+[
+  {
+    "path": "03_ENGINE/invariant.py",
+    "sha256": "a52276bb69b84d827670896966e103033097cc4a5445954d34af8bed49ae6812"
+  },
+  {
+    "path": "04_TESTS/test_invariant.py",
+    "sha256": "ce37cb22b94c5d1dc376aa5d022e9d3eba1175dbaa6bdd88b154a239645924ac"
+  },
+  {
+    "path": "04_TESTS/test_invariant_browser.py",
+    "sha256": "14444053bcfee597f51deca5e6f78afaa2fbc52ed7ec694af35618b288d24eee"
+  },
+  {
+    "path": "INVARIANT_BINDINGS.json",
+    "sha256": "75ab9f646b093ef99d5f52d46e63a4804cd4ea2776318d638c7ff6ee6682f4c6"
+  }
+]

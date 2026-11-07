@@ -1,0 +1,10 @@
+test_frozen_fixture_tamper_rejected (__main__.InvariantTests.test_frozen_fixture_tamper_rejected) ... ok
+test_full_domain_and_all_tables (__main__.InvariantTests.test_full_domain_and_all_tables) ... ok
+test_nonstation_angle_and_bad_glyph_rejected (__main__.InvariantTests.test_nonstation_angle_and_bad_glyph_rejected) ... ok
+test_structural_admission_rejects_wrong_endpoint (__main__.InvariantTests.test_structural_admission_rejects_wrong_endpoint) ... ok
+test_worked_wraparound_and_recovery (__main__.InvariantTests.test_worked_wraparound_and_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.035s
+
+OK

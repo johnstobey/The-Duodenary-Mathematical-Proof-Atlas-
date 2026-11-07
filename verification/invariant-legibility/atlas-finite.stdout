@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "case_counts": {
+    "antipode": 12,
+    "crt_pairs": 12,
+    "distance_translation_cases": 1728,
+    "affine_composition_cases": 27648,
+    "product144_encoding": 144,
+    "negative_controls": 5,
+    "unit_fraction_samples": 100
+  },
+  "source_arithmetic": {
+    "forward_angle_degrees": "297/4",
+    "claimed_forward_angle_degrees": "93.25",
+    "probability_product_exact": "213751653/125000000000000000000000000000000",
+    "probability_product_scientific": 1.710013224e-24,
+    "reported_product": "1.72e-24",
+    "probability_model_verified": false
+  },
+  "pyramid": {
+    "unique_edges": 8,
+    "triangular_face_edge_incidences": 12,
+    "binary_bits_for_12_states": 4,
+    "slope_pi_approx_degrees": 51.853974012777456,
+    "slope_phi_approx_degrees": 51.827292372987756,
+    "44_percent_reproduced": false
+  },
+  "aztec": {
+    "calendar_round_days": 18980,
+    "cultural_primary_mapping_verified": false
+  }
+}

@@ -1,0 +1,9 @@
+test_all_84_mappings_and_broken_counterparts (__main__.InvariantBrowser.test_all_84_mappings_and_broken_counterparts) ... 127.0.0.1 - - [07/Nov/2026 01:04:05] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+test_visible_identity_controls_and_mobile (__main__.InvariantBrowser.test_visible_identity_controls_and_mobile) ... 127.0.0.1 - - [07/Nov/2026 01:04:14] "GET /02_ATLAS/index.html HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 10.098s
+
+OK

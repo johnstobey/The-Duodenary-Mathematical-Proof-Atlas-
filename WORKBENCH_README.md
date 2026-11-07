@@ -1,5 +1,11 @@
 # ATLAS-WORKBENCH-01
 
+**Organizing invariant: preservation of geometric identity across representations and execution.**
+Read [the exact invariant and worked example](INVARIANT.md), inspect
+[the binding table](INVARIANT_BINDINGS.json), or run `python3 03_ENGINE/invariant.py`.
+The example checks recoverability and operation correspondence across station,
+glyph, exact angle and lattice views, including deliberately broken controls.
+
 Run `python3 03_ENGINE/serve_atlas.py` and open
 http://localhost:8765/02_ATLAS/index.html . The server binds loopback only.
 The workbench is self-contained and needs no Internet assets or JavaScript libraries.

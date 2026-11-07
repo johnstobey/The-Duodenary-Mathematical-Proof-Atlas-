@@ -1,0 +1,18 @@
+info: mathlib: cloning https://github.com/leanprover-community/mathlib4.git
+info: mathlib: checking out revision '4bbdccd9c5f862bf90ff12f0a9e2c8be032b9a84'
+info: plausible: cloning https://github.com/leanprover-community/plausible
+info: plausible: checking out revision '42dc02bdbc5d0c2f395718462a76c3d87318f7fa'
+info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision 'd7caecce0d0f003fd5e9cce9a61f1dd6ba83142b'
+info: importGraph: cloning https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision '519e509a28864af5bed98033dd33b95cf08e9aa7'
+info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision '68280daef58803f68368eb2e53046dabcd270c9d'
+info: aesop: cloning https://github.com/leanprover-community/aesop
+info: aesop: checking out revision '5a0ec8588855265ade536f35bcdcf0fb24fd6030'
+info: Qq: cloning https://github.com/leanprover-community/quote4
+info: Qq: checking out revision '303b23fbcea94ac4f96e590c1cad6618fd4f5f41'
+info: batteries: cloning https://github.com/leanprover-community/batteries
+info: batteries: checking out revision '8d6c853f11a5172efa0e96b9f2be1a83d861cdd9'
+info: Cli: cloning https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision '726b3c9ad13acca724d4651f14afc4804a7b0e4d'

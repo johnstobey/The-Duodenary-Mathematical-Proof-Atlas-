@@ -1,0 +1,3422 @@
+{
+  "scope": "Explicit finite station/glyph/angle/address correspondence, not hidden-target transfer or historical-language interpretation",
+  "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+  "states": [
+    {
+      "state": 0,
+      "glyph": "♈",
+      "degrees": 0,
+      "turn": "0",
+      "recovered_state": 0
+    },
+    {
+      "state": 1,
+      "glyph": "♉",
+      "degrees": 30,
+      "turn": "1/12",
+      "recovered_state": 1
+    },
+    {
+      "state": 2,
+      "glyph": "♊",
+      "degrees": 60,
+      "turn": "1/6",
+      "recovered_state": 2
+    },
+    {
+      "state": 3,
+      "glyph": "♋",
+      "degrees": 90,
+      "turn": "1/4",
+      "recovered_state": 3
+    },
+    {
+      "state": 4,
+      "glyph": "♌",
+      "degrees": 120,
+      "turn": "1/3",
+      "recovered_state": 4
+    },
+    {
+      "state": 5,
+      "glyph": "♍",
+      "degrees": 150,
+      "turn": "5/12",
+      "recovered_state": 5
+    },
+    {
+      "state": 6,
+      "glyph": "♎",
+      "degrees": 180,
+      "turn": "1/2",
+      "recovered_state": 6
+    },
+    {
+      "state": 7,
+      "glyph": "♏",
+      "degrees": 210,
+      "turn": "7/12",
+      "recovered_state": 7
+    },
+    {
+      "state": 8,
+      "glyph": "♐",
+      "degrees": 240,
+      "turn": "2/3",
+      "recovered_state": 8
+    },
+    {
+      "state": 9,
+      "glyph": "♑",
+      "degrees": 270,
+      "turn": "3/4",
+      "recovered_state": 9
+    },
+    {
+      "state": 10,
+      "glyph": "♒",
+      "degrees": 300,
+      "turn": "5/6",
+      "recovered_state": 10
+    },
+    {
+      "state": 11,
+      "glyph": "♓",
+      "degrees": 330,
+      "turn": "11/12",
+      "recovered_state": 11
+    }
+  ],
+  "generator_table": [
+    {
+      "source": 0,
+      "operator": "T",
+      "source_result": 1,
+      "h_of_f": "♉",
+      "g_of_h": "♉",
+      "preserved": true
+    },
+    {
+      "source": 0,
+      "operator": "A",
+      "source_result": 6,
+      "h_of_f": "♎",
+      "g_of_h": "♎",
+      "preserved": true
+    },
+    {
+      "source": 0,
+      "operator": "I",
+      "source_result": 0,
+      "h_of_f": "♈",
+      "g_of_h": "♈",
+      "preserved": true
+    },
+    {
+      "source": 0,
+      "operator": "rho",
+      "source_result": 11,
+      "h_of_f": "♓",
+      "g_of_h": "♓",
+      "preserved": true
+    },
+    {
+      "source": 1,
+      "operator": "T",
+      "source_result": 2,
+      "h_of_f": "♊",
+      "g_of_h": "♊",
+      "preserved": true
+    },
+    {
+      "source": 1,
+      "operator": "A",
+      "source_result": 7,
+      "h_of_f": "♏",
+      "g_of_h": "♏",
+      "preserved": true
+    },
+    {
+      "source": 1,
+      "operator": "I",
+      "source_result": 11,
+      "h_of_f": "♓",
+      "g_of_h": "♓",
+      "preserved": true
+    },
+    {
+      "source": 1,
+      "operator": "rho",
+      "source_result": 10,
+      "h_of_f": "♒",
+      "g_of_h": "♒",
+      "preserved": true
+    },
+    {
+      "source": 2,
+      "operator": "T",
+      "source_result": 3,
+      "h_of_f": "♋",
+      "g_of_h": "♋",
+      "preserved": true
+    },
+    {
+      "source": 2,
+      "operator": "A",
+      "source_result": 8,
+      "h_of_f": "♐",
+      "g_of_h": "♐",
+      "preserved": true
+    },
+    {
+      "source": 2,
+      "operator": "I",
+      "source_result": 10,
+      "h_of_f": "♒",
+      "g_of_h": "♒",
+      "preserved": true
+    },
+    {
+      "source": 2,
+      "operator": "rho",
+      "source_result": 9,
+      "h_of_f": "♑",
+      "g_of_h": "♑",
+      "preserved": true
+    },
+    {
+      "source": 3,
+      "operator": "T",
+      "source_result": 4,
+      "h_of_f": "♌",
+      "g_of_h": "♌",
+      "preserved": true
+    },
+    {
+      "source": 3,
+      "operator": "A",
+      "source_result": 9,
+      "h_of_f": "♑",
+      "g_of_h": "♑",
+      "preserved": true
+    },
+    {
+      "source": 3,
+      "operator": "I",
+      "source_result": 9,
+      "h_of_f": "♑",
+      "g_of_h": "♑",
+      "preserved": true
+    },
+    {
+      "source": 3,
+      "operator": "rho",
+      "source_result": 8,
+      "h_of_f": "♐",
+      "g_of_h": "♐",
+      "preserved": true
+    },
+    {
+      "source": 4,
+      "operator": "T",
+      "source_result": 5,
+      "h_of_f": "♍",
+      "g_of_h": "♍",
+      "preserved": true
+    },
+    {
+      "source": 4,
+      "operator": "A",
+      "source_result": 10,
+      "h_of_f": "♒",
+      "g_of_h": "♒",
+      "preserved": true
+    },
+    {
+      "source": 4,
+      "operator": "I",
+      "source_result": 8,
+      "h_of_f": "♐",
+      "g_of_h": "♐",
+      "preserved": true
+    },
+    {
+      "source": 4,
+      "operator": "rho",
+      "source_result": 7,
+      "h_of_f": "♏",
+      "g_of_h": "♏",
+      "preserved": true
+    },
+    {
+      "source": 5,
+      "operator": "T",
+      "source_result": 6,
+      "h_of_f": "♎",
+      "g_of_h": "♎",
+      "preserved": true
+    },
+    {
+      "source": 5,
+      "operator": "A",
+      "source_result": 11,
+      "h_of_f": "♓",
+      "g_of_h": "♓",
+      "preserved": true
+    },
+    {
+      "source": 5,
+      "operator": "I",
+      "source_result": 7,
+      "h_of_f": "♏",
+      "g_of_h": "♏",
+      "preserved": true
+    },
+    {
+      "source": 5,
+      "operator": "rho",
+      "source_result": 6,
+      "h_of_f": "♎",
+      "g_of_h": "♎",
+      "preserved": true
+    },
+    {
+      "source": 6,
+      "operator": "T",
+      "source_result": 7,
+      "h_of_f": "♏",
+      "g_of_h": "♏",
+      "preserved": true
+    },
+    {
+      "source": 6,
+      "operator": "A",
+      "source_result": 0,
+      "h_of_f": "♈",
+      "g_of_h": "♈",
+      "preserved": true
+    },
+    {
+      "source": 6,
+      "operator": "I",
+      "source_result": 6,
+      "h_of_f": "♎",
+      "g_of_h": "♎",
+      "preserved": true
+    },
+    {
+      "source": 6,
+      "operator": "rho",
+      "source_result": 5,
+      "h_of_f": "♍",
+      "g_of_h": "♍",
+      "preserved": true
+    },
+    {
+      "source": 7,
+      "operator": "T",
+      "source_result": 8,
+      "h_of_f": "♐",
+      "g_of_h": "♐",
+      "preserved": true
+    },
+    {
+      "source": 7,
+      "operator": "A",
+      "source_result": 1,
+      "h_of_f": "♉",
+      "g_of_h": "♉",
+      "preserved": true
+    },
+    {
+      "source": 7,
+      "operator": "I",
+      "source_result": 5,
+      "h_of_f": "♍",
+      "g_of_h": "♍",
+      "preserved": true
+    },
+    {
+      "source": 7,
+      "operator": "rho",
+      "source_result": 4,
+      "h_of_f": "♌",
+      "g_of_h": "♌",
+      "preserved": true
+    },
+    {
+      "source": 8,
+      "operator": "T",
+      "source_result": 9,
+      "h_of_f": "♑",
+      "g_of_h": "♑",
+      "preserved": true
+    },
+    {
+      "source": 8,
+      "operator": "A",
+      "source_result": 2,
+      "h_of_f": "♊",
+      "g_of_h": "♊",
+      "preserved": true
+    },
+    {
+      "source": 8,
+      "operator": "I",
+      "source_result": 4,
+      "h_of_f": "♌",
+      "g_of_h": "♌",
+      "preserved": true
+    },
+    {
+      "source": 8,
+      "operator": "rho",
+      "source_result": 3,
+      "h_of_f": "♋",
+      "g_of_h": "♋",
+      "preserved": true
+    },
+    {
+      "source": 9,
+      "operator": "T",
+      "source_result": 10,
+      "h_of_f": "♒",
+      "g_of_h": "♒",
+      "preserved": true
+    },
+    {
+      "source": 9,
+      "operator": "A",
+      "source_result": 3,
+      "h_of_f": "♋",
+      "g_of_h": "♋",
+      "preserved": true
+    },
+    {
+      "source": 9,
+      "operator": "I",
+      "source_result": 3,
+      "h_of_f": "♋",
+      "g_of_h": "♋",
+      "preserved": true
+    },
+    {
+      "source": 9,
+      "operator": "rho",
+      "source_result": 2,
+      "h_of_f": "♊",
+      "g_of_h": "♊",
+      "preserved": true
+    },
+    {
+      "source": 10,
+      "operator": "T",
+      "source_result": 11,
+      "h_of_f": "♓",
+      "g_of_h": "♓",
+      "preserved": true
+    },
+    {
+      "source": 10,
+      "operator": "A",
+      "source_result": 4,
+      "h_of_f": "♌",
+      "g_of_h": "♌",
+      "preserved": true
+    },
+    {
+      "source": 10,
+      "operator": "I",
+      "source_result": 2,
+      "h_of_f": "♊",
+      "g_of_h": "♊",
+      "preserved": true
+    },
+    {
+      "source": 10,
+      "operator": "rho",
+      "source_result": 1,
+      "h_of_f": "♉",
+      "g_of_h": "♉",
+      "preserved": true
+    },
+    {
+      "source": 11,
+      "operator": "T",
+      "source_result": 0,
+      "h_of_f": "♈",
+      "g_of_h": "♈",
+      "preserved": true
+    },
+    {
+      "source": 11,
+      "operator": "A",
+      "source_result": 5,
+      "h_of_f": "♍",
+      "g_of_h": "♍",
+      "preserved": true
+    },
+    {
+      "source": 11,
+      "operator": "I",
+      "source_result": 1,
+      "h_of_f": "♉",
+      "g_of_h": "♉",
+      "preserved": true
+    },
+    {
+      "source": 11,
+      "operator": "rho",
+      "source_result": 0,
+      "h_of_f": "♈",
+      "g_of_h": "♈",
+      "preserved": true
+    }
+  ],
+  "angular_traces": [
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 1,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 2,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 3,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 4,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 5,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 0,
+      "after": 6,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 1,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 2,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 3,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 4,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 5,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 6,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 1,
+      "after": 7,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 2,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 3,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 4,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 5,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 6,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 7,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 2,
+      "after": 8,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 3,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 4,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 5,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 6,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 7,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 8,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 3,
+      "after": 9,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 4,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 5,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 6,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 7,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 8,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 9,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 4,
+      "after": 10,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 5,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 6,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 7,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 8,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 9,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 10,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 5,
+      "after": 11,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 6,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 7,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 8,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 9,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 10,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 11,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 6,
+      "after": 0,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 7,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 8,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 9,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 10,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 11,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 0,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 7,
+      "after": 1,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 8,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 9,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 10,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 11,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 0,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 1,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 8,
+      "after": 2,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 9,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 10,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 11,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 0,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 1,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 2,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 9,
+      "after": 3,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 10,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 11,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 0,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 1,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 2,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 3,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 10,
+      "after": 4,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 11,
+      "delta": 0,
+      "angle_degrees": 0,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 0,
+      "delta": 1,
+      "angle_degrees": 30,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 1,
+      "delta": 2,
+      "angle_degrees": 60,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 2,
+      "delta": 3,
+      "angle_degrees": 90,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 3,
+      "delta": 4,
+      "angle_degrees": 120,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 4,
+      "delta": 5,
+      "angle_degrees": 150,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    },
+    {
+      "admitted": true,
+      "canonical_id": "ALG-001",
+      "before": 11,
+      "after": 5,
+      "delta": 6,
+      "angle_degrees": 180,
+      "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+      "witnesses": {
+        "strict_glyph_syntax": true,
+        "source_lock": true,
+        "directed_operation": true,
+        "exact_angular_identity": true,
+        "glyph_identity": true,
+        "recoverable_state": true
+      }
+    }
+  ],
+  "lattice_table": [
+    {
+      "domain": 0,
+      "modality": 0,
+      "address": 0,
+      "recovered": {
+        "domain": 0,
+        "modality": 0
+      },
+      "opposition_address": 6
+    },
+    {
+      "domain": 0,
+      "modality": 1,
+      "address": 1,
+      "recovered": {
+        "domain": 0,
+        "modality": 1
+      },
+      "opposition_address": 7
+    },
+    {
+      "domain": 0,
+      "modality": 2,
+      "address": 2,
+      "recovered": {
+        "domain": 0,
+        "modality": 2
+      },
+      "opposition_address": 8
+    },
+    {
+      "domain": 0,
+      "modality": 3,
+      "address": 3,
+      "recovered": {
+        "domain": 0,
+        "modality": 3
+      },
+      "opposition_address": 9
+    },
+    {
+      "domain": 0,
+      "modality": 4,
+      "address": 4,
+      "recovered": {
+        "domain": 0,
+        "modality": 4
+      },
+      "opposition_address": 10
+    },
+    {
+      "domain": 0,
+      "modality": 5,
+      "address": 5,
+      "recovered": {
+        "domain": 0,
+        "modality": 5
+      },
+      "opposition_address": 11
+    },
+    {
+      "domain": 0,
+      "modality": 6,
+      "address": 6,
+      "recovered": {
+        "domain": 0,
+        "modality": 6
+      },
+      "opposition_address": 0
+    },
+    {
+      "domain": 0,
+      "modality": 7,
+      "address": 7,
+      "recovered": {
+        "domain": 0,
+        "modality": 7
+      },
+      "opposition_address": 1
+    },
+    {
+      "domain": 0,
+      "modality": 8,
+      "address": 8,
+      "recovered": {
+        "domain": 0,
+        "modality": 8
+      },
+      "opposition_address": 2
+    },
+    {
+      "domain": 0,
+      "modality": 9,
+      "address": 9,
+      "recovered": {
+        "domain": 0,
+        "modality": 9
+      },
+      "opposition_address": 3
+    },
+    {
+      "domain": 0,
+      "modality": 10,
+      "address": 10,
+      "recovered": {
+        "domain": 0,
+        "modality": 10
+      },
+      "opposition_address": 4
+    },
+    {
+      "domain": 0,
+      "modality": 11,
+      "address": 11,
+      "recovered": {
+        "domain": 0,
+        "modality": 11
+      },
+      "opposition_address": 5
+    },
+    {
+      "domain": 1,
+      "modality": 0,
+      "address": 12,
+      "recovered": {
+        "domain": 1,
+        "modality": 0
+      },
+      "opposition_address": 18
+    },
+    {
+      "domain": 1,
+      "modality": 1,
+      "address": 13,
+      "recovered": {
+        "domain": 1,
+        "modality": 1
+      },
+      "opposition_address": 19
+    },
+    {
+      "domain": 1,
+      "modality": 2,
+      "address": 14,
+      "recovered": {
+        "domain": 1,
+        "modality": 2
+      },
+      "opposition_address": 20
+    },
+    {
+      "domain": 1,
+      "modality": 3,
+      "address": 15,
+      "recovered": {
+        "domain": 1,
+        "modality": 3
+      },
+      "opposition_address": 21
+    },
+    {
+      "domain": 1,
+      "modality": 4,
+      "address": 16,
+      "recovered": {
+        "domain": 1,
+        "modality": 4
+      },
+      "opposition_address": 22
+    },
+    {
+      "domain": 1,
+      "modality": 5,
+      "address": 17,
+      "recovered": {
+        "domain": 1,
+        "modality": 5
+      },
+      "opposition_address": 23
+    },
+    {
+      "domain": 1,
+      "modality": 6,
+      "address": 18,
+      "recovered": {
+        "domain": 1,
+        "modality": 6
+      },
+      "opposition_address": 12
+    },
+    {
+      "domain": 1,
+      "modality": 7,
+      "address": 19,
+      "recovered": {
+        "domain": 1,
+        "modality": 7
+      },
+      "opposition_address": 13
+    },
+    {
+      "domain": 1,
+      "modality": 8,
+      "address": 20,
+      "recovered": {
+        "domain": 1,
+        "modality": 8
+      },
+      "opposition_address": 14
+    },
+    {
+      "domain": 1,
+      "modality": 9,
+      "address": 21,
+      "recovered": {
+        "domain": 1,
+        "modality": 9
+      },
+      "opposition_address": 15
+    },
+    {
+      "domain": 1,
+      "modality": 10,
+      "address": 22,
+      "recovered": {
+        "domain": 1,
+        "modality": 10
+      },
+      "opposition_address": 16
+    },
+    {
+      "domain": 1,
+      "modality": 11,
+      "address": 23,
+      "recovered": {
+        "domain": 1,
+        "modality": 11
+      },
+      "opposition_address": 17
+    },
+    {
+      "domain": 2,
+      "modality": 0,
+      "address": 24,
+      "recovered": {
+        "domain": 2,
+        "modality": 0
+      },
+      "opposition_address": 30
+    },
+    {
+      "domain": 2,
+      "modality": 1,
+      "address": 25,
+      "recovered": {
+        "domain": 2,
+        "modality": 1
+      },
+      "opposition_address": 31
+    },
+    {
+      "domain": 2,
+      "modality": 2,
+      "address": 26,
+      "recovered": {
+        "domain": 2,
+        "modality": 2
+      },
+      "opposition_address": 32
+    },
+    {
+      "domain": 2,
+      "modality": 3,
+      "address": 27,
+      "recovered": {
+        "domain": 2,
+        "modality": 3
+      },
+      "opposition_address": 33
+    },
+    {
+      "domain": 2,
+      "modality": 4,
+      "address": 28,
+      "recovered": {
+        "domain": 2,
+        "modality": 4
+      },
+      "opposition_address": 34
+    },
+    {
+      "domain": 2,
+      "modality": 5,
+      "address": 29,
+      "recovered": {
+        "domain": 2,
+        "modality": 5
+      },
+      "opposition_address": 35
+    },
+    {
+      "domain": 2,
+      "modality": 6,
+      "address": 30,
+      "recovered": {
+        "domain": 2,
+        "modality": 6
+      },
+      "opposition_address": 24
+    },
+    {
+      "domain": 2,
+      "modality": 7,
+      "address": 31,
+      "recovered": {
+        "domain": 2,
+        "modality": 7
+      },
+      "opposition_address": 25
+    },
+    {
+      "domain": 2,
+      "modality": 8,
+      "address": 32,
+      "recovered": {
+        "domain": 2,
+        "modality": 8
+      },
+      "opposition_address": 26
+    },
+    {
+      "domain": 2,
+      "modality": 9,
+      "address": 33,
+      "recovered": {
+        "domain": 2,
+        "modality": 9
+      },
+      "opposition_address": 27
+    },
+    {
+      "domain": 2,
+      "modality": 10,
+      "address": 34,
+      "recovered": {
+        "domain": 2,
+        "modality": 10
+      },
+      "opposition_address": 28
+    },
+    {
+      "domain": 2,
+      "modality": 11,
+      "address": 35,
+      "recovered": {
+        "domain": 2,
+        "modality": 11
+      },
+      "opposition_address": 29
+    },
+    {
+      "domain": 3,
+      "modality": 0,
+      "address": 36,
+      "recovered": {
+        "domain": 3,
+        "modality": 0
+      },
+      "opposition_address": 42
+    },
+    {
+      "domain": 3,
+      "modality": 1,
+      "address": 37,
+      "recovered": {
+        "domain": 3,
+        "modality": 1
+      },
+      "opposition_address": 43
+    },
+    {
+      "domain": 3,
+      "modality": 2,
+      "address": 38,
+      "recovered": {
+        "domain": 3,
+        "modality": 2
+      },
+      "opposition_address": 44
+    },
+    {
+      "domain": 3,
+      "modality": 3,
+      "address": 39,
+      "recovered": {
+        "domain": 3,
+        "modality": 3
+      },
+      "opposition_address": 45
+    },
+    {
+      "domain": 3,
+      "modality": 4,
+      "address": 40,
+      "recovered": {
+        "domain": 3,
+        "modality": 4
+      },
+      "opposition_address": 46
+    },
+    {
+      "domain": 3,
+      "modality": 5,
+      "address": 41,
+      "recovered": {
+        "domain": 3,
+        "modality": 5
+      },
+      "opposition_address": 47
+    },
+    {
+      "domain": 3,
+      "modality": 6,
+      "address": 42,
+      "recovered": {
+        "domain": 3,
+        "modality": 6
+      },
+      "opposition_address": 36
+    },
+    {
+      "domain": 3,
+      "modality": 7,
+      "address": 43,
+      "recovered": {
+        "domain": 3,
+        "modality": 7
+      },
+      "opposition_address": 37
+    },
+    {
+      "domain": 3,
+      "modality": 8,
+      "address": 44,
+      "recovered": {
+        "domain": 3,
+        "modality": 8
+      },
+      "opposition_address": 38
+    },
+    {
+      "domain": 3,
+      "modality": 9,
+      "address": 45,
+      "recovered": {
+        "domain": 3,
+        "modality": 9
+      },
+      "opposition_address": 39
+    },
+    {
+      "domain": 3,
+      "modality": 10,
+      "address": 46,
+      "recovered": {
+        "domain": 3,
+        "modality": 10
+      },
+      "opposition_address": 40
+    },
+    {
+      "domain": 3,
+      "modality": 11,
+      "address": 47,
+      "recovered": {
+        "domain": 3,
+        "modality": 11
+      },
+      "opposition_address": 41
+    },
+    {
+      "domain": 4,
+      "modality": 0,
+      "address": 48,
+      "recovered": {
+        "domain": 4,
+        "modality": 0
+      },
+      "opposition_address": 54
+    },
+    {
+      "domain": 4,
+      "modality": 1,
+      "address": 49,
+      "recovered": {
+        "domain": 4,
+        "modality": 1
+      },
+      "opposition_address": 55
+    },
+    {
+      "domain": 4,
+      "modality": 2,
+      "address": 50,
+      "recovered": {
+        "domain": 4,
+        "modality": 2
+      },
+      "opposition_address": 56
+    },
+    {
+      "domain": 4,
+      "modality": 3,
+      "address": 51,
+      "recovered": {
+        "domain": 4,
+        "modality": 3
+      },
+      "opposition_address": 57
+    },
+    {
+      "domain": 4,
+      "modality": 4,
+      "address": 52,
+      "recovered": {
+        "domain": 4,
+        "modality": 4
+      },
+      "opposition_address": 58
+    },
+    {
+      "domain": 4,
+      "modality": 5,
+      "address": 53,
+      "recovered": {
+        "domain": 4,
+        "modality": 5
+      },
+      "opposition_address": 59
+    },
+    {
+      "domain": 4,
+      "modality": 6,
+      "address": 54,
+      "recovered": {
+        "domain": 4,
+        "modality": 6
+      },
+      "opposition_address": 48
+    },
+    {
+      "domain": 4,
+      "modality": 7,
+      "address": 55,
+      "recovered": {
+        "domain": 4,
+        "modality": 7
+      },
+      "opposition_address": 49
+    },
+    {
+      "domain": 4,
+      "modality": 8,
+      "address": 56,
+      "recovered": {
+        "domain": 4,
+        "modality": 8
+      },
+      "opposition_address": 50
+    },
+    {
+      "domain": 4,
+      "modality": 9,
+      "address": 57,
+      "recovered": {
+        "domain": 4,
+        "modality": 9
+      },
+      "opposition_address": 51
+    },
+    {
+      "domain": 4,
+      "modality": 10,
+      "address": 58,
+      "recovered": {
+        "domain": 4,
+        "modality": 10
+      },
+      "opposition_address": 52
+    },
+    {
+      "domain": 4,
+      "modality": 11,
+      "address": 59,
+      "recovered": {
+        "domain": 4,
+        "modality": 11
+      },
+      "opposition_address": 53
+    },
+    {
+      "domain": 5,
+      "modality": 0,
+      "address": 60,
+      "recovered": {
+        "domain": 5,
+        "modality": 0
+      },
+      "opposition_address": 66
+    },
+    {
+      "domain": 5,
+      "modality": 1,
+      "address": 61,
+      "recovered": {
+        "domain": 5,
+        "modality": 1
+      },
+      "opposition_address": 67
+    },
+    {
+      "domain": 5,
+      "modality": 2,
+      "address": 62,
+      "recovered": {
+        "domain": 5,
+        "modality": 2
+      },
+      "opposition_address": 68
+    },
+    {
+      "domain": 5,
+      "modality": 3,
+      "address": 63,
+      "recovered": {
+        "domain": 5,
+        "modality": 3
+      },
+      "opposition_address": 69
+    },
+    {
+      "domain": 5,
+      "modality": 4,
+      "address": 64,
+      "recovered": {
+        "domain": 5,
+        "modality": 4
+      },
+      "opposition_address": 70
+    },
+    {
+      "domain": 5,
+      "modality": 5,
+      "address": 65,
+      "recovered": {
+        "domain": 5,
+        "modality": 5
+      },
+      "opposition_address": 71
+    },
+    {
+      "domain": 5,
+      "modality": 6,
+      "address": 66,
+      "recovered": {
+        "domain": 5,
+        "modality": 6
+      },
+      "opposition_address": 60
+    },
+    {
+      "domain": 5,
+      "modality": 7,
+      "address": 67,
+      "recovered": {
+        "domain": 5,
+        "modality": 7
+      },
+      "opposition_address": 61
+    },
+    {
+      "domain": 5,
+      "modality": 8,
+      "address": 68,
+      "recovered": {
+        "domain": 5,
+        "modality": 8
+      },
+      "opposition_address": 62
+    },
+    {
+      "domain": 5,
+      "modality": 9,
+      "address": 69,
+      "recovered": {
+        "domain": 5,
+        "modality": 9
+      },
+      "opposition_address": 63
+    },
+    {
+      "domain": 5,
+      "modality": 10,
+      "address": 70,
+      "recovered": {
+        "domain": 5,
+        "modality": 10
+      },
+      "opposition_address": 64
+    },
+    {
+      "domain": 5,
+      "modality": 11,
+      "address": 71,
+      "recovered": {
+        "domain": 5,
+        "modality": 11
+      },
+      "opposition_address": 65
+    },
+    {
+      "domain": 6,
+      "modality": 0,
+      "address": 72,
+      "recovered": {
+        "domain": 6,
+        "modality": 0
+      },
+      "opposition_address": 78
+    },
+    {
+      "domain": 6,
+      "modality": 1,
+      "address": 73,
+      "recovered": {
+        "domain": 6,
+        "modality": 1
+      },
+      "opposition_address": 79
+    },
+    {
+      "domain": 6,
+      "modality": 2,
+      "address": 74,
+      "recovered": {
+        "domain": 6,
+        "modality": 2
+      },
+      "opposition_address": 80
+    },
+    {
+      "domain": 6,
+      "modality": 3,
+      "address": 75,
+      "recovered": {
+        "domain": 6,
+        "modality": 3
+      },
+      "opposition_address": 81
+    },
+    {
+      "domain": 6,
+      "modality": 4,
+      "address": 76,
+      "recovered": {
+        "domain": 6,
+        "modality": 4
+      },
+      "opposition_address": 82
+    },
+    {
+      "domain": 6,
+      "modality": 5,
+      "address": 77,
+      "recovered": {
+        "domain": 6,
+        "modality": 5
+      },
+      "opposition_address": 83
+    },
+    {
+      "domain": 6,
+      "modality": 6,
+      "address": 78,
+      "recovered": {
+        "domain": 6,
+        "modality": 6
+      },
+      "opposition_address": 72
+    },
+    {
+      "domain": 6,
+      "modality": 7,
+      "address": 79,
+      "recovered": {
+        "domain": 6,
+        "modality": 7
+      },
+      "opposition_address": 73
+    },
+    {
+      "domain": 6,
+      "modality": 8,
+      "address": 80,
+      "recovered": {
+        "domain": 6,
+        "modality": 8
+      },
+      "opposition_address": 74
+    },
+    {
+      "domain": 6,
+      "modality": 9,
+      "address": 81,
+      "recovered": {
+        "domain": 6,
+        "modality": 9
+      },
+      "opposition_address": 75
+    },
+    {
+      "domain": 6,
+      "modality": 10,
+      "address": 82,
+      "recovered": {
+        "domain": 6,
+        "modality": 10
+      },
+      "opposition_address": 76
+    },
+    {
+      "domain": 6,
+      "modality": 11,
+      "address": 83,
+      "recovered": {
+        "domain": 6,
+        "modality": 11
+      },
+      "opposition_address": 77
+    },
+    {
+      "domain": 7,
+      "modality": 0,
+      "address": 84,
+      "recovered": {
+        "domain": 7,
+        "modality": 0
+      },
+      "opposition_address": 90
+    },
+    {
+      "domain": 7,
+      "modality": 1,
+      "address": 85,
+      "recovered": {
+        "domain": 7,
+        "modality": 1
+      },
+      "opposition_address": 91
+    },
+    {
+      "domain": 7,
+      "modality": 2,
+      "address": 86,
+      "recovered": {
+        "domain": 7,
+        "modality": 2
+      },
+      "opposition_address": 92
+    },
+    {
+      "domain": 7,
+      "modality": 3,
+      "address": 87,
+      "recovered": {
+        "domain": 7,
+        "modality": 3
+      },
+      "opposition_address": 93
+    },
+    {
+      "domain": 7,
+      "modality": 4,
+      "address": 88,
+      "recovered": {
+        "domain": 7,
+        "modality": 4
+      },
+      "opposition_address": 94
+    },
+    {
+      "domain": 7,
+      "modality": 5,
+      "address": 89,
+      "recovered": {
+        "domain": 7,
+        "modality": 5
+      },
+      "opposition_address": 95
+    },
+    {
+      "domain": 7,
+      "modality": 6,
+      "address": 90,
+      "recovered": {
+        "domain": 7,
+        "modality": 6
+      },
+      "opposition_address": 84
+    },
+    {
+      "domain": 7,
+      "modality": 7,
+      "address": 91,
+      "recovered": {
+        "domain": 7,
+        "modality": 7
+      },
+      "opposition_address": 85
+    },
+    {
+      "domain": 7,
+      "modality": 8,
+      "address": 92,
+      "recovered": {
+        "domain": 7,
+        "modality": 8
+      },
+      "opposition_address": 86
+    },
+    {
+      "domain": 7,
+      "modality": 9,
+      "address": 93,
+      "recovered": {
+        "domain": 7,
+        "modality": 9
+      },
+      "opposition_address": 87
+    },
+    {
+      "domain": 7,
+      "modality": 10,
+      "address": 94,
+      "recovered": {
+        "domain": 7,
+        "modality": 10
+      },
+      "opposition_address": 88
+    },
+    {
+      "domain": 7,
+      "modality": 11,
+      "address": 95,
+      "recovered": {
+        "domain": 7,
+        "modality": 11
+      },
+      "opposition_address": 89
+    },
+    {
+      "domain": 8,
+      "modality": 0,
+      "address": 96,
+      "recovered": {
+        "domain": 8,
+        "modality": 0
+      },
+      "opposition_address": 102
+    },
+    {
+      "domain": 8,
+      "modality": 1,
+      "address": 97,
+      "recovered": {
+        "domain": 8,
+        "modality": 1
+      },
+      "opposition_address": 103
+    },
+    {
+      "domain": 8,
+      "modality": 2,
+      "address": 98,
+      "recovered": {
+        "domain": 8,
+        "modality": 2
+      },
+      "opposition_address": 104
+    },
+    {
+      "domain": 8,
+      "modality": 3,
+      "address": 99,
+      "recovered": {
+        "domain": 8,
+        "modality": 3
+      },
+      "opposition_address": 105
+    },
+    {
+      "domain": 8,
+      "modality": 4,
+      "address": 100,
+      "recovered": {
+        "domain": 8,
+        "modality": 4
+      },
+      "opposition_address": 106
+    },
+    {
+      "domain": 8,
+      "modality": 5,
+      "address": 101,
+      "recovered": {
+        "domain": 8,
+        "modality": 5
+      },
+      "opposition_address": 107
+    },
+    {
+      "domain": 8,
+      "modality": 6,
+      "address": 102,
+      "recovered": {
+        "domain": 8,
+        "modality": 6
+      },
+      "opposition_address": 96
+    },
+    {
+      "domain": 8,
+      "modality": 7,
+      "address": 103,
+      "recovered": {
+        "domain": 8,
+        "modality": 7
+      },
+      "opposition_address": 97
+    },
+    {
+      "domain": 8,
+      "modality": 8,
+      "address": 104,
+      "recovered": {
+        "domain": 8,
+        "modality": 8
+      },
+      "opposition_address": 98
+    },
+    {
+      "domain": 8,
+      "modality": 9,
+      "address": 105,
+      "recovered": {
+        "domain": 8,
+        "modality": 9
+      },
+      "opposition_address": 99
+    },
+    {
+      "domain": 8,
+      "modality": 10,
+      "address": 106,
+      "recovered": {
+        "domain": 8,
+        "modality": 10
+      },
+      "opposition_address": 100
+    },
+    {
+      "domain": 8,
+      "modality": 11,
+      "address": 107,
+      "recovered": {
+        "domain": 8,
+        "modality": 11
+      },
+      "opposition_address": 101
+    },
+    {
+      "domain": 9,
+      "modality": 0,
+      "address": 108,
+      "recovered": {
+        "domain": 9,
+        "modality": 0
+      },
+      "opposition_address": 114
+    },
+    {
+      "domain": 9,
+      "modality": 1,
+      "address": 109,
+      "recovered": {
+        "domain": 9,
+        "modality": 1
+      },
+      "opposition_address": 115
+    },
+    {
+      "domain": 9,
+      "modality": 2,
+      "address": 110,
+      "recovered": {
+        "domain": 9,
+        "modality": 2
+      },
+      "opposition_address": 116
+    },
+    {
+      "domain": 9,
+      "modality": 3,
+      "address": 111,
+      "recovered": {
+        "domain": 9,
+        "modality": 3
+      },
+      "opposition_address": 117
+    },
+    {
+      "domain": 9,
+      "modality": 4,
+      "address": 112,
+      "recovered": {
+        "domain": 9,
+        "modality": 4
+      },
+      "opposition_address": 118
+    },
+    {
+      "domain": 9,
+      "modality": 5,
+      "address": 113,
+      "recovered": {
+        "domain": 9,
+        "modality": 5
+      },
+      "opposition_address": 119
+    },
+    {
+      "domain": 9,
+      "modality": 6,
+      "address": 114,
+      "recovered": {
+        "domain": 9,
+        "modality": 6
+      },
+      "opposition_address": 108
+    },
+    {
+      "domain": 9,
+      "modality": 7,
+      "address": 115,
+      "recovered": {
+        "domain": 9,
+        "modality": 7
+      },
+      "opposition_address": 109
+    },
+    {
+      "domain": 9,
+      "modality": 8,
+      "address": 116,
+      "recovered": {
+        "domain": 9,
+        "modality": 8
+      },
+      "opposition_address": 110
+    },
+    {
+      "domain": 9,
+      "modality": 9,
+      "address": 117,
+      "recovered": {
+        "domain": 9,
+        "modality": 9
+      },
+      "opposition_address": 111
+    },
+    {
+      "domain": 9,
+      "modality": 10,
+      "address": 118,
+      "recovered": {
+        "domain": 9,
+        "modality": 10
+      },
+      "opposition_address": 112
+    },
+    {
+      "domain": 9,
+      "modality": 11,
+      "address": 119,
+      "recovered": {
+        "domain": 9,
+        "modality": 11
+      },
+      "opposition_address": 113
+    },
+    {
+      "domain": 10,
+      "modality": 0,
+      "address": 120,
+      "recovered": {
+        "domain": 10,
+        "modality": 0
+      },
+      "opposition_address": 126
+    },
+    {
+      "domain": 10,
+      "modality": 1,
+      "address": 121,
+      "recovered": {
+        "domain": 10,
+        "modality": 1
+      },
+      "opposition_address": 127
+    },
+    {
+      "domain": 10,
+      "modality": 2,
+      "address": 122,
+      "recovered": {
+        "domain": 10,
+        "modality": 2
+      },
+      "opposition_address": 128
+    },
+    {
+      "domain": 10,
+      "modality": 3,
+      "address": 123,
+      "recovered": {
+        "domain": 10,
+        "modality": 3
+      },
+      "opposition_address": 129
+    },
+    {
+      "domain": 10,
+      "modality": 4,
+      "address": 124,
+      "recovered": {
+        "domain": 10,
+        "modality": 4
+      },
+      "opposition_address": 130
+    },
+    {
+      "domain": 10,
+      "modality": 5,
+      "address": 125,
+      "recovered": {
+        "domain": 10,
+        "modality": 5
+      },
+      "opposition_address": 131
+    },
+    {
+      "domain": 10,
+      "modality": 6,
+      "address": 126,
+      "recovered": {
+        "domain": 10,
+        "modality": 6
+      },
+      "opposition_address": 120
+    },
+    {
+      "domain": 10,
+      "modality": 7,
+      "address": 127,
+      "recovered": {
+        "domain": 10,
+        "modality": 7
+      },
+      "opposition_address": 121
+    },
+    {
+      "domain": 10,
+      "modality": 8,
+      "address": 128,
+      "recovered": {
+        "domain": 10,
+        "modality": 8
+      },
+      "opposition_address": 122
+    },
+    {
+      "domain": 10,
+      "modality": 9,
+      "address": 129,
+      "recovered": {
+        "domain": 10,
+        "modality": 9
+      },
+      "opposition_address": 123
+    },
+    {
+      "domain": 10,
+      "modality": 10,
+      "address": 130,
+      "recovered": {
+        "domain": 10,
+        "modality": 10
+      },
+      "opposition_address": 124
+    },
+    {
+      "domain": 10,
+      "modality": 11,
+      "address": 131,
+      "recovered": {
+        "domain": 10,
+        "modality": 11
+      },
+      "opposition_address": 125
+    },
+    {
+      "domain": 11,
+      "modality": 0,
+      "address": 132,
+      "recovered": {
+        "domain": 11,
+        "modality": 0
+      },
+      "opposition_address": 138
+    },
+    {
+      "domain": 11,
+      "modality": 1,
+      "address": 133,
+      "recovered": {
+        "domain": 11,
+        "modality": 1
+      },
+      "opposition_address": 139
+    },
+    {
+      "domain": 11,
+      "modality": 2,
+      "address": 134,
+      "recovered": {
+        "domain": 11,
+        "modality": 2
+      },
+      "opposition_address": 140
+    },
+    {
+      "domain": 11,
+      "modality": 3,
+      "address": 135,
+      "recovered": {
+        "domain": 11,
+        "modality": 3
+      },
+      "opposition_address": 141
+    },
+    {
+      "domain": 11,
+      "modality": 4,
+      "address": 136,
+      "recovered": {
+        "domain": 11,
+        "modality": 4
+      },
+      "opposition_address": 142
+    },
+    {
+      "domain": 11,
+      "modality": 5,
+      "address": 137,
+      "recovered": {
+        "domain": 11,
+        "modality": 5
+      },
+      "opposition_address": 143
+    },
+    {
+      "domain": 11,
+      "modality": 6,
+      "address": 138,
+      "recovered": {
+        "domain": 11,
+        "modality": 6
+      },
+      "opposition_address": 132
+    },
+    {
+      "domain": 11,
+      "modality": 7,
+      "address": 139,
+      "recovered": {
+        "domain": 11,
+        "modality": 7
+      },
+      "opposition_address": 133
+    },
+    {
+      "domain": 11,
+      "modality": 8,
+      "address": 140,
+      "recovered": {
+        "domain": 11,
+        "modality": 8
+      },
+      "opposition_address": 134
+    },
+    {
+      "domain": 11,
+      "modality": 9,
+      "address": 141,
+      "recovered": {
+        "domain": 11,
+        "modality": 9
+      },
+      "opposition_address": 135
+    },
+    {
+      "domain": 11,
+      "modality": 10,
+      "address": 142,
+      "recovered": {
+        "domain": 11,
+        "modality": 10
+      },
+      "opposition_address": 136
+    },
+    {
+      "domain": 11,
+      "modality": 11,
+      "address": 143,
+      "recovered": {
+        "domain": 11,
+        "modality": 11
+      },
+      "opposition_address": 137
+    }
+  ],
+  "negative_controls": [
+    {
+      "control": "inconsistent_endpoint",
+      "rejected": true,
+      "reason": "right operand violates directed ring transition"
+    },
+    {
+      "control": "label_only",
+      "rejected": true,
+      "reason": "expected Sun sign aspect Sun sign; unsupported syntax rejected"
+    },
+    {
+      "control": "keyword_padding",
+      "rejected": true,
+      "reason": "expected Sun sign aspect Sun sign; unsupported syntax rejected"
+    },
+    {
+      "control": "unsupported_planet",
+      "rejected": true,
+      "reason": "expected Sun sign aspect Sun sign; unsupported syntax rejected"
+    },
+    {
+      "control": "trailing_payload",
+      "rejected": true,
+      "reason": "expected Sun sign aspect Sun sign; unsupported syntax rejected"
+    },
+    {
+      "control": "bijective_labels_wrong_operation",
+      "rejected": true,
+      "counterexample_states": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "example": {
+        "x": 0,
+        "h_of_T": "♍",
+        "T_of_h": "♉"
+      }
+    }
+  ],
+  "worked_example": {
+    "admitted": true,
+    "canonical_id": "ALG-001",
+    "before": 11,
+    "after": 2,
+    "delta": 3,
+    "angle_degrees": 90,
+    "canonical_sha256": "f4615587891cf5ca5823a8b64e18a4f268c36de280e7bfd0055b30a7a92e32bc",
+    "witnesses": {
+      "strict_glyph_syntax": true,
+      "source_lock": true,
+      "directed_operation": true,
+      "exact_angular_identity": true,
+      "glyph_identity": true,
+      "recoverable_state": true
+    }
+  },
+  "checks": {
+    "state_round_trips": 12,
+    "generator_commutations": 48,
+    "angular_adapter_cases": 84,
+    "lattice_round_trips_and_oppositions": 144,
+    "negative_controls_rejected": 6
+  }
+}
