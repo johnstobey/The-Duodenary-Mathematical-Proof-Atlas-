@@ -40,13 +40,12 @@ private def vectors : List Json := [
 
 -- The vector schema is the external contract; no theorem or executable PASS is
 -- asserted by merely printing its examples. Consumers must build this module.
-def main : IO Unit := do
-  let args ← IO.getArgs
-  if args.size != 1 then
+def main (args : List String) : IO Unit := do
+  if args.length != 1 then
     throw <| IO.userError "usage: lake exe emit-vectors <output-json-path>"
   let doc := obj [
     ("schema", toJson ("CoordinateEnvelopeVectors-1" : String)),
     ("notes", toJson ("cell_1728 is sector-major packed, not digest-derived" : String)),
     ("vectors", Json.arr vectors.toArray)
   ]
-  IO.FS.writeFile args[0]! (doc.compress ++ "\n")
+  IO.FS.writeFile args.head! (doc.compress ++ "\n")
