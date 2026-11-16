@@ -28,7 +28,11 @@ theorem reverse_sector_roundtrip : ∀ k : Fin 12,
 theorem fine_roundtrip : ∀ q : Fin 144,
     cancerFineToAries (ariesFineToCancer q.val) = q.val := by decide
 theorem cell_roundtrip : ∀ c : Fin 1728,
-    ariesCellToCancer (cancerCellToAries c.val) = c.val := by decide
+    ariesCellToCancer (cancerCellToAries c.val) = c.val := by
+  intro c
+  unfold ariesCellToCancer cancerCellToAries ariesToCancer cancerToAries
+  have h : c.val < 1728 := c.isLt
+  omega
 
 end CoordinateFrames
 end Duodenary
