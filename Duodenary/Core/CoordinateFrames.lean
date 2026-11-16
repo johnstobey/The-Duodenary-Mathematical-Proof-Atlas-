@@ -2,8 +2,7 @@ import Duodenary.Core.Cyclic
 
 /-! Typed finite coordinate-frame operations. Absolute Aries=0; relative Cancer=0.
     These functions are not a substitute for provenance-bearing source witnesses. -/
-namespace Duodenary
-namespace CoordinateFrames
+namespace Duodenary.CoordinateFrames
 
 def ariesToCancer (k : Nat) : Nat := (k + 9) % 12
 def cancerToAries (k : Nat) : Nat := (k + 3) % 12
@@ -34,5 +33,4 @@ theorem cell_roundtrip : ∀ c : Fin 1728,
   have h : c.val < 1728 := c.isLt
   omega
 
-end CoordinateFrames
-end Duodenary
+end Duodenary.CoordinateFrames

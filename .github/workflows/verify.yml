@@ -23,6 +23,21 @@ jobs:
           test: false
           lint: false
           use-mathlib-cache: true
+      - name: Validate exact Lean-emitted V01-V10 contract
+        run: |
+          lake exe emit-vectors /tmp/riv-vectors.json
+          cmp /tmp/riv-vectors.json contracts/coordinate_vectors.json
+          python -m json.tool /tmp/riv-vectors.json > /dev/null
+      - name: Bootstrap auditable theorem registry candidate
+        run: |
+          python scripts/audit_lean.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for record in json.loads(Path('registry/theorems/theorems.json').read_text()):
+              if record['lean_name'].startswith('Duodenary.CoordinateFrames.'):
+                  print('RIV_REGISTRY_ENTRY=' + json.dumps(record, separators=(',',':')))
+          PY
       - name: Verify source integrity and the saved research queue
         run: |
           python scripts/source_integrity.py
