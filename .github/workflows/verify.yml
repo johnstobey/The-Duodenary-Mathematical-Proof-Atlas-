@@ -28,6 +28,20 @@ jobs:
           lake exe emit-vectors /tmp/riv-vectors.json
           cmp /tmp/riv-vectors.json contracts/coordinate_vectors.json
           python -m json.tool /tmp/riv-vectors.json > /dev/null
+      - name: Capture exact Lean axiom output for committed proof receipt
+        run: |
+          python scripts/audit_lean.py --check
+          python - <<'PY'
+          import hashlib, json, re
+          from pathlib import Path
+          log = Path('.lake/AtlasAuditRun.log').read_text()
+          matches = re.findall(r"'Duodenary\\.CoordinateFrames\\.[^']+' (?:does not depend on any axioms|depends on axioms: \\[[^\\]]*\\])", log)
+          lines = sorted(set(matches))
+          assert len(lines) == 4, (len(lines), lines)
+          proof_log = '\\n'.join(lines) + '\\n'
+          print('RIV_PROOF_LOG_JSON=' + json.dumps(proof_log))
+          print('RIV_PROOF_LOG_SHA256=' + hashlib.sha256(proof_log.encode()).hexdigest())
+          PY
       - name: Verify source integrity and the saved research queue
         run: |
           python scripts/source_integrity.py
