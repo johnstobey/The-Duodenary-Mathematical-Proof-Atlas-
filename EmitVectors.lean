@@ -11,7 +11,7 @@ private def vector (id : String) (input : Json) (target : String)
   obj <| [("id", toJson id), ("input", input), ("target_anchor", toJson target)] ++
     (match subsign with
       | none => []
-      | some n => [("subsign", toJson true), ("_subsign_expected", toJson n)]) ++
+      | some _ => [("subsign", toJson true)]) ++
     (match expectation with
       | some expected => [("expected", expected)]
       | none => [("error", toJson ("invalid" : String))])
@@ -31,7 +31,7 @@ private def vectors : List Json := [
   vector "V08-provenance-preserving-pair" (envelope "aries_zero" "paired_kj" (obj [("k", toJson (3 : Nat)), ("j", toJson (0 : Nat))])) "cancer_zero"
     (some <| obj [("anchor", toJson ("cancer_zero" : String)), ("frame_type", toJson ("paired_kj" : String)),
       ("value", obj [("k", toJson (ariesToCancer 3)), ("j", toJson (0 : Nat))]),
-      ("subsign", toJson (subsignCancerOfAries 3 0))]),
+      ("subsign", toJson (subsignCancerOfAries 3 0))]) (some 1),
   vector "V09-fine-coordinate" (envelope "aries_zero" "fine_144" (toJson (37 : Nat))) "cancer_zero"
     (some <| envelope "cancer_zero" "fine_144" (toJson (ariesFineToCancer 37))),
   vector "V10-cell-coordinate" (envelope "cancer_zero" "cell_1728" (toJson (0 : Nat))) "aries_zero"
@@ -48,4 +48,10 @@ def main (args : List String) : IO Unit := do
     ("notes", toJson ("cell_1728 is sector-major packed, not digest-derived" : String)),
     ("vectors", Json.arr vectors.toArray)
   ]
-  IO.FS.writeFile args.head! (doc.compress ++ "\n")
+  let template ← IO.FS.readFile "contracts/coordinate_vectors.json"
+  let parsed ← match Json.parse template with
+    | .ok expected => pure expected
+    | .error msg => throw <| IO.userError s!"Pinned JSON fixture is invalid: {msg}"
+  if doc != parsed then
+    throw <| IO.userError "Lean-derived vectors differ from pinned V01-V10 JSON contract"
+  IO.FS.writeFile args.head! template
