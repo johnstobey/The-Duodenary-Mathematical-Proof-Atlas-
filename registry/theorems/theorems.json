@@ -2813,9 +2813,9 @@
       ".lake/AtlasAudit.lean"
     ],
     "returncode": 0,
-    "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "186f1a7f9841a1bcd77c22abb76f739785bb11f55304a73836a4889685daa23d",
-    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "log": "verification/builds/riv-coordinate-axioms.log",
+    "log_sha256": "5ee74947da86e191f2d7aa9e7c0ef9f223e1971782bc6ee41044ba78976bee4a",
+    "axiom_audit_log": "verification/builds/riv-coordinate-axioms.log",
     "novelty_claim": false
   },
   {
@@ -2837,9 +2837,9 @@
       ".lake/AtlasAudit.lean"
     ],
     "returncode": 0,
-    "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "186f1a7f9841a1bcd77c22abb76f739785bb11f55304a73836a4889685daa23d",
-    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "log": "verification/builds/riv-coordinate-axioms.log",
+    "log_sha256": "5ee74947da86e191f2d7aa9e7c0ef9f223e1971782bc6ee41044ba78976bee4a",
+    "axiom_audit_log": "verification/builds/riv-coordinate-axioms.log",
     "novelty_claim": false
   },
   {
@@ -2861,9 +2861,9 @@
       ".lake/AtlasAudit.lean"
     ],
     "returncode": 0,
-    "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "186f1a7f9841a1bcd77c22abb76f739785bb11f55304a73836a4889685daa23d",
-    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "log": "verification/builds/riv-coordinate-axioms.log",
+    "log_sha256": "5ee74947da86e191f2d7aa9e7c0ef9f223e1971782bc6ee41044ba78976bee4a",
+    "axiom_audit_log": "verification/builds/riv-coordinate-axioms.log",
     "novelty_claim": false
   },
   {
@@ -2888,9 +2888,9 @@
       ".lake/AtlasAudit.lean"
     ],
     "returncode": 0,
-    "log": "verification/builds/atlas-axioms.log",
-    "log_sha256": "186f1a7f9841a1bcd77c22abb76f739785bb11f55304a73836a4889685daa23d",
-    "axiom_audit_log": "verification/builds/atlas-axioms.log",
+    "log": "verification/builds/riv-coordinate-axioms.log",
+    "log_sha256": "5ee74947da86e191f2d7aa9e7c0ef9f223e1971782bc6ee41044ba78976bee4a",
+    "axiom_audit_log": "verification/builds/riv-coordinate-axioms.log",
     "novelty_claim": false
   }
 ]

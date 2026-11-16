@@ -1,0 +1,4 @@
+'Duodenary.CoordinateFrames.cell_roundtrip' depends on axioms: [propext, Quot.sound]
+'Duodenary.CoordinateFrames.fine_roundtrip' does not depend on any axioms
+'Duodenary.CoordinateFrames.reverse_sector_roundtrip' does not depend on any axioms
+'Duodenary.CoordinateFrames.sector_roundtrip' does not depend on any axioms
