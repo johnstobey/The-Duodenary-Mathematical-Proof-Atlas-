@@ -35,10 +35,10 @@ jobs:
           import hashlib, json, re
           from pathlib import Path
           log = Path('.lake/AtlasAuditRun.log').read_text()
-          matches = re.findall(r"'Duodenary\\.CoordinateFrames\\.[^']+' (?:does not depend on any axioms|depends on axioms: \\[[^\\]]*\\])", log)
+          matches = re.findall(r"'Duodenary\.CoordinateFrames\.[^']+' (?:does not depend on any axioms|depends on axioms: \[[^\]]*\])", log)
           lines = sorted(set(matches))
           assert len(lines) == 4, (len(lines), lines)
-          proof_log = '\\n'.join(lines) + '\\n'
+          proof_log = '\n'.join(lines) + '\n'
           print('RIV_PROOF_LOG_JSON=' + json.dumps(proof_log))
           print('RIV_PROOF_LOG_SHA256=' + hashlib.sha256(proof_log.encode()).hexdigest())
           PY
