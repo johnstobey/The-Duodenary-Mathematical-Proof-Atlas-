@@ -1,0 +1,142 @@
+{
+  "schema": "CoordinateEnvelopeVectors-1",
+  "notes": "cell_1728 is sector-major packed, not digest-derived",
+  "vectors": [
+    {
+      "id": "V01-bool-true",
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "unreduced_int",
+        "value": true
+      },
+      "target_anchor": "cancer_zero",
+      "error": "invalid"
+    },
+    {
+      "id": "V02-bool-false",
+      "input": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": false
+      },
+      "target_anchor": "aries_zero",
+      "error": "invalid"
+    },
+    {
+      "id": "V03-negative-one",
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "unreduced_int",
+        "value": -1
+      },
+      "target_anchor": "aries_zero",
+      "expected": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 11
+      }
+    },
+    {
+      "id": "V04-negative-thirteen",
+      "input": {
+        "anchor": "cancer_zero",
+        "frame_type": "unreduced_int",
+        "value": -13
+      },
+      "target_anchor": "cancer_zero",
+      "expected": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 11
+      }
+    },
+    {
+      "id": "V05-aries-origin",
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 0
+      },
+      "target_anchor": "cancer_zero",
+      "expected": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 9
+      }
+    },
+    {
+      "id": "V06-cancer-origin",
+      "input": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 0
+      },
+      "target_anchor": "aries_zero",
+      "expected": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 3
+      }
+    },
+    {
+      "id": "V07-canonical-overflow",
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 12
+      },
+      "target_anchor": "cancer_zero",
+      "error": "invalid"
+    },
+    {
+      "id": "V08-provenance-preserving-pair",
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "paired_kj",
+        "value": {
+          "k": 3,
+          "j": 0
+        }
+      },
+      "target_anchor": "cancer_zero",
+      "subsign": true,
+      "expected": {
+        "anchor": "cancer_zero",
+        "frame_type": "paired_kj",
+        "value": {
+          "k": 0,
+          "j": 0
+        },
+        "subsign": 1
+      }
+    },
+    {
+      "id": "V09-fine-coordinate",
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 37
+      },
+      "target_anchor": "cancer_zero",
+      "expected": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 1
+      }
+    },
+    {
+      "id": "V10-cell-coordinate",
+      "input": {
+        "anchor": "cancer_zero",
+        "frame_type": "cell_1728",
+        "value": 0
+      },
+      "target_anchor": "aries_zero",
+      "expected": {
+        "anchor": "aries_zero",
+        "frame_type": "cell_1728",
+        "value": 432
+      }
+    }
+  ]
+}

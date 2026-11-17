@@ -1,6 +1,6 @@
 name = "duodenary_proof_atlas"
 version = "0.1.0"
-defaultTargets = ["Duodenary"]
+defaultTargets = ["Duodenary", "emit-vectors"]
 
 [[require]]
 name = "mathlib"
@@ -9,3 +9,7 @@ rev = "4bbdccd9c5f862bf90ff12f0a9e2c8be032b9a84"
 
 [[lean_lib]]
 name = "Duodenary"
+
+[[lean_exe]]
+name = "emit-vectors"
+root = "EmitVectors"

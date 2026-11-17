@@ -23,6 +23,11 @@ jobs:
           test: false
           lint: false
           use-mathlib-cache: true
+      - name: Validate exact Lean-emitted V01-V10 contract
+        run: |
+          lake exe emit-vectors /tmp/riv-vectors.json
+          cmp /tmp/riv-vectors.json contracts/coordinate_vectors.json
+          python -m json.tool /tmp/riv-vectors.json > /dev/null
       - name: Verify source integrity and the saved research queue
         run: |
           python scripts/source_integrity.py

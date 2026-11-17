@@ -1,4 +1,5 @@
 import Duodenary.Core.Cyclic
+import Duodenary.Core.CoordinateFrames
 import Duodenary.Acausal.Calendar
 import Duodenary.Problems.UnitFractions
 import Duodenary.Imported.CyclicKernel
