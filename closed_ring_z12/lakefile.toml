@@ -1,0 +1,9 @@
+name = "closed_ring_z12"
+version = "0.1.0"
+defaultTargets = ["ClosedRingZ12", "RecordIntegrityGate"]
+
+[[lean_lib]]
+name = "ClosedRingZ12"
+
+[[lean_lib]]
+name = "RecordIntegrityGate"

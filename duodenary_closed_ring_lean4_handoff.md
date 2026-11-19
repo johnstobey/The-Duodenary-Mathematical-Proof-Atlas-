@@ -6,6 +6,8 @@
 1. **The Duodenary Closed Ring (`ZMod 12` / $\mathbb{Z}/10_{12}\mathbb{Z}$):** Chinese Remainder Theorem ring isomorphism ($\mathbb{Z}/12\mathbb{Z} \cong \mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/3\mathbb{Z}$), fixed-point-free antipodal involution ($J(x) = x + 6$), discrete cyclic geodesic metric axioms, 144-pair ($100_{12}$) metric partition, and unit-group automorphisms ($(\mathbb{Z}/12\mathbb{Z})^\times \cong V_4$).
 2. **Common-Law Record-Integrity State Machine:** Type-level enforcement of two-gate entry rules, distinguishing *ultra vires* insertions (void *ab initio*, non-waivable, subject to expungement) from validly entered premises (unrebutted baseline subject to procedural waiver on untimely merits challenges).
 
+> **Build note (current):** the package at `closed_ring_z12/` is core Lean only (no Mathlib). Build with `cd closed_ring_z12 && lake build && lake env lean Verify.lean`. The `lake new` / Mathlib steps below are superseded.
+
 ### Execution Steps for Coding Agent
 1. **Initialize Project (if needed):**
    ```bash
@@ -32,87 +34,71 @@
 * **Discrete Geodesic Metric & Partition:** $d(x,y) = \min((x-y) \bmod 10_{12},\ (y-x) \bmod 10_{12}) \in \{0,1,2,3,4,5,6\}$.
   * $N_0 = 10_{12}$, $N_1 = N_2 = N_3 = N_4 = N_5 = 20_{12}$, $N_6 = 10_{12}$.
   * $\sum_{d=0}^{6} N_d = |R \times R| = 100_{12}$ ($144_{10}$).
-* **Unit-Group Automorphisms (Klein Four-Group $V_4$):** $(\mathbb{Z}/10_{12}\mathbb{Z})^\times = \{1, 5, 7, \varepsilon\}$, where $u^2 \equiv 1 \pmod{10_{12}}$ for every unit $u$, preserving both ring operations and geodesic distances ($d(u x, u y) = d(x, y)$).
+* **Unit-Group Automorphisms ($(\mathbb{Z}/12\mathbb{Z})^\times \cong V_4$, units $\{1,5,7,11\}$):** every unit is self-inverse ($u^2 \equiv 1$), commutes with $J$ ($u\,J(x) = J(u\,x)$), and preserves $\sum_{d=0}^{6} N_d = 144$, $N_6 = 12$, and $N_1 + N_5 = 48$. Distances are split by the exact coprime criterion:
+  * **Coprime distances, $\gcd(d,12)=1$ ($d \in \{1,5\}$):** generate the full 12-cycle. Under $u \in \{5,7\}$ they swap by $d \mapsto 6-d$ (so $1 \leftrightarrow 5$). Under $u \in \{1,11\}$ they are fixed.
+  * **Non-coprime distances, $\gcd(d,12)>1$ ($d \in \{0,2,3,4,6\}$):** correspond to proper cyclic subgroups/sub-lattices. They are strictly invariant under all four units.
+  * **Strict isometries ($u \in \{1,11\}$):** $d(ux,uy)=d(x,y)$ for all $d$.
+  * **Duality automorphisms ($u \in \{5,7\}$):** $d(ux,uy)=6-d(x,y)$ when $d(x,y)\in\{1,5\}$, and $d(ux,uy)=d(x,y)$ otherwise.
+
+  **Correction:** the earlier claim that every unit preserves $d$ was false ($u=5$, $x=1$, $y=0$: $d(5,0)=5 \neq 1=d(1,0)$). It is replaced by the statements above, which are verified in §3.
+
+  | Property | $u=1$ | $u=11$ | $u=5$ | $u=7$ |
+  |---|---|---|---|---|
+  | Self-inverse ($u^2\equiv1$) | Yes | Yes | Yes | Yes |
+  | Commutes with $J$ | Yes | Yes | Yes | Yes |
+  | $d\in\{0,2,3,4,6\}$ preserved | Yes | Yes | Yes | Yes |
+  | $d=1$, $d=5$ | fixed | fixed | swapped | swapped |
+  | Strict isometry (all $d$) | Yes | Yes | No | No |
+  | $N_1+N_5=48$, $\sum N_d=144$ | Yes | Yes | Yes | Yes |
 
 ---
 
-## 3. Lean 4 Module 1: `ClosedRingZ12.lean`
+## 3. Lean 4 Module 1: `ClosedRingZ12.lean` (core Lean, no Mathlib)
+
+Verified: builds with exit 0; `#print axioms` shows no axioms for `unit_isometry`, `unit_duality`, `closed_ring_invariant`.
 
 ```lean
-import Mathlib.Data.ZMod.Basic
-import Mathlib.Data.Finset.Card
-import Mathlib.Algebra.Ring.Prod
-
+/-! Z/12Z closed-ring module, core Lean only (no Mathlib).
+    Z/12Z is represented by Nat residues; every operation reduces mod 12.
+    Quantifiers are bounded (`∀ x < 12`) so `decide` applies. -/
 namespace ClosedRingZ12
 
-abbrev R := ZMod 12
+def add (x y : Nat) : Nat := (x + y) % 12
+def mul (x y : Nat) : Nat := (x * y) % 12
+def sub (x y : Nat) : Nat := (x + (12 - y % 12)) % 12
 
--- ============================================================================
--- 1. Chinese Remainder Isomorphism (Bijection & Ring Homomorphism)
--- ============================================================================
+-- Section 1: CRT, Z/12Z -> Z/4Z x Z/3Z
+def phi (x : Nat) : Nat × Nat := (x % 4, x % 3)
+def phiInv (p : Nat × Nat) : Nat := (9 * p.1 + 4 * p.2) % 12
 
-def phi (x : R) : ZMod 4 × ZMod 3 :=
-  (x.cast, x.cast)
-
-def phiInv (p : ZMod 4 × ZMod 3) : R :=
-  9 * p.1.cast + 4 * p.2.cast
-
-theorem phi_left_inv (x : R) : phiInv (phi x) = x := by
+theorem phi_left_inv : ∀ x < 12, phiInv (phi x) = x := by decide
+theorem phi_right_inv : ∀ a < 4, ∀ b < 3, phi (phiInv (a, b)) = (a, b) := by decide
+theorem phi_add : ∀ x < 12, ∀ y < 12,
+    phi (add x y) = (((phi x).1 + (phi y).1) % 4, ((phi x).2 + (phi y).2) % 3) := by
   decide
-
-theorem phi_right_inv (p : ZMod 4 × ZMod 3) : phi (phiInv p) = p := by
+theorem phi_mul : ∀ x < 12, ∀ y < 12,
+    phi (mul x y) = (((phi x).1 * (phi y).1) % 4, ((phi x).2 * (phi y).2) % 3) := by
   decide
+theorem phi_one : phi 1 = (1, 1) := by decide
 
-theorem phi_add (x y : R) : phi (x + y) = phi x + phi y := by
-  decide
+-- Section 2: fixed-point-free antipodal involution
+def J (x : Nat) : Nat := (x + 6) % 12
 
-theorem phi_mul (x y : R) : phi (x * y) = phi x * phi y := by
-  decide
+theorem J_involution : ∀ x < 12, J (J x) = x := by decide
+theorem J_no_fixed_points : ∀ x < 12, J x ≠ x := by decide
 
-theorem phi_one : phi 1 = 1 := by
-  decide
+-- Section 3: geodesic metric and 144-pair partition
+def dist (x y : Nat) : Nat := min (sub x y) (sub y x)
 
-def ringEquivCRT : R ≃+* ZMod 4 × ZMod 3 where
-  toFun := phi
-  invFun := phiInv
-  left_inv := phi_left_inv
-  right_inv := phi_right_inv
-  map_mul' := phi_mul
-  map_add' := phi_add
+theorem dist_eq_zero_iff : ∀ x < 12, ∀ y < 12, (dist x y = 0 ↔ x = y) := by decide
+theorem dist_symm : ∀ x < 12, ∀ y < 12, dist x y = dist y x := by decide
+theorem dist_triangle : ∀ x < 12, ∀ y < 12, ∀ z < 12,
+    dist x z ≤ dist x y + dist y z := by decide
+theorem dist_J_isometry : ∀ x < 12, ∀ y < 12, dist (J x) (J y) = dist x y := by decide
 
--- ============================================================================
--- 2. Fixed-Point-Free Antipodal Involution
--- ============================================================================
-
-def J (x : R) : R := x + 6
-
-theorem J_involution (x : R) : J (J x) = x := by
-  decide
-
-theorem J_no_fixed_points (x : R) : J x ≠ x := by
-  decide
-
--- ============================================================================
--- 3. Discrete Geodesic Metric & 144-Pair (100₁₂) Partition
--- ============================================================================
-
-def dist (x y : R) : ℕ :=
-  min (x - y).val (y - x).val
-
-theorem dist_eq_zero_iff (x y : R) : dist x y = 0 ↔ x = y := by
-  decide
-
-theorem dist_symm (x y : R) : dist x y = dist y x := by
-  decide
-
-theorem dist_triangle (x y z : R) : dist x z ≤ dist x y + dist y z := by
-  decide
-
-theorem dist_J_isometry (x y : R) : dist (J x) (J y) = dist x y := by
-  decide
-
-def N (d : ℕ) : ℕ :=
-  ((Finset.univ : Finset (R × R)).filter (fun p => dist p.1 p.2 = d)).card
+def N (d : Nat) : Nat :=
+  ((List.range 12).map (fun x => ((List.range 12).filter (fun y => dist x y == d)).length)).foldl
+    (· + ·) 0
 
 theorem N_values :
     N 0 = 12 ∧ N 1 = 24 ∧ N 2 = 24 ∧ N 3 = 24 ∧
@@ -120,44 +106,37 @@ theorem N_values :
   decide
 
 theorem metric_partition_sum :
-    (Finset.range 7).sum N = 144 := by
+    ((List.range 7).map N).foldl (· + ·) 0 = 144 := by
   decide
 
--- ============================================================================
--- 4. Unit-Group Automorphisms (Klein Four-Group V₄ Symmetry)
--- ============================================================================
+-- Section 4: unit group
+def isUnit (u : Nat) : Bool := u == 1 || u == 5 || u == 7 || u == 11
 
-def isUnitZ12 (u : R) : Bool :=
-  u = 1 || u = 5 || u = 7 || u = 11
+theorem unit_self_inverse : ∀ u < 12, isUnit u = true → mul u u = 1 := by decide
 
-theorem unit_self_inverse (u : R) (hu : isUnitZ12 u = true) : u * u = 1 := by
-  revert u hu
-  decide
+theorem unit_commutes_with_J : ∀ u < 12, ∀ x < 12,
+    isUnit u = true → mul u (J x) = J (mul u x) := by decide
 
-theorem unit_preserves_dist (u x y : R) (hu : isUnitZ12 u = true) :
-    dist (u * x) (u * y) = dist x y := by
-  revert u x y hu
-  decide
-
-theorem unit_commutes_with_J (u x : R) (hu : isUnitZ12 u = true) :
-    u * J x = J (u * x) := by
-  revert u x hu
-  decide
-
--- ============================================================================
--- 5. Master Invariant Theorem
--- ============================================================================
-
+-- Section 5: master invariant
 theorem closed_ring_invariant :
-    (∀ x : R, phiInv (phi x) = x) ∧
-    (∀ p : ZMod 4 × ZMod 3, phi (phiInv p) = p) ∧
-    (∀ x : R, J (J x) = x) ∧
-    (∀ x y : R, dist x y = 0 ↔ x = y) ∧
-    (∀ x y : R, dist x y = dist y x) ∧
-    (∀ x y z : R, dist x z ≤ dist x y + dist y z) ∧
-    ((Finset.range 7).sum N = 144) :=
+    (∀ x < 12, phiInv (phi x) = x) ∧
+    (∀ a < 4, ∀ b < 3, phi (phiInv (a, b)) = (a, b)) ∧
+    (∀ x < 12, J (J x) = x) ∧
+    (∀ x < 12, ∀ y < 12, (dist x y = 0 ↔ x = y)) ∧
+    (∀ x < 12, ∀ y < 12, dist x y = dist y x) ∧
+    (∀ x < 12, ∀ y < 12, ∀ z < 12, dist x z ≤ dist x y + dist y z) ∧
+    ((List.range 7).map N).foldl (· + ·) 0 = 144 :=
   ⟨phi_left_inv, phi_right_inv, J_involution,
    dist_eq_zero_iff, dist_symm, dist_triangle, metric_partition_sum⟩
+
+-- Corrected unit action (replaces the false isometry claim for all units).
+-- u in {1,11}: strict isometry. u in {5,7}: fixes distances 0,2,3,4,6 and swaps 1 <-> 5.
+theorem unit_isometry : ∀ u < 12, isUnit u = true → (u = 1 ∨ u = 11) →
+    ∀ x < 12, ∀ y < 12, dist (mul u x) (mul u y) = dist x y := by decide
+theorem unit_duality : ∀ u < 12, isUnit u = true → (u = 5 ∨ u = 7) →
+    ∀ x < 12, ∀ y < 12,
+      dist (mul u x) (mul u y) =
+        (if dist x y = 1 ∨ dist x y = 5 then 6 - dist x y else dist x y) := by decide
 
 end ClosedRingZ12
 ```
@@ -251,7 +230,9 @@ import ClosedRingZ12
 import RecordIntegrityGate
 
 #print axioms ClosedRingZ12.closed_ring_invariant
-#print axioms ClosedRingZ12.unit_preserves_dist
+#print axioms ClosedRingZ12.unit_isometry
+#print axioms ClosedRingZ12.unit_duality
+#print axioms ClosedRingZ12.unit_commutes_with_J
 #print axioms RecordIntegrityGate.ultra_vires_never_estopped
 #print axioms RecordIntegrityGate.unrebutted_not_estopped
 
