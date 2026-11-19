@@ -21,6 +21,24 @@ theorem phi_mul : ∀ x < 12, ∀ y < 12,
   decide
 theorem phi_one : phi 1 = (1, 1) := by decide
 
+-- Core-only bundle of the CRT isomorphism (replaces Mathlib's ringEquivCRT).
+-- It is an isomorphism of the additive/multiplicative structure on residues,
+-- stated as bounded propositions, not a Mathlib RingEquiv.
+structure CRTIso where
+  toFun : Nat → Nat × Nat
+  invFun : Nat × Nat → Nat
+  left_inv : ∀ x < 12, invFun (toFun x) = x
+  right_inv : ∀ a < 4, ∀ b < 3, toFun (invFun (a, b)) = (a, b)
+  map_add : ∀ x < 12, ∀ y < 12,
+    toFun (add x y) = (((toFun x).1 + (toFun y).1) % 4, ((toFun x).2 + (toFun y).2) % 3)
+  map_mul : ∀ x < 12, ∀ y < 12,
+    toFun (mul x y) = (((toFun x).1 * (toFun y).1) % 4, ((toFun x).2 * (toFun y).2) % 3)
+  map_one : toFun 1 = (1, 1)
+
+def crtIso : CRTIso :=
+  { toFun := phi, invFun := phiInv, left_inv := phi_left_inv,
+    right_inv := phi_right_inv, map_add := phi_add, map_mul := phi_mul, map_one := phi_one }
+
 -- Section 2: fixed-point-free antipodal involution
 def J (x : Nat) : Nat := (x + 6) % 12
 
