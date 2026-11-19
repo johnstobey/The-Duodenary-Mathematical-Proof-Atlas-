@@ -8,4 +8,4 @@ import RecordIntegrityGate
 #print axioms RecordIntegrityGate.ultra_vires_never_estopped
 #print axioms RecordIntegrityGate.unrebutted_not_estopped
 
-#eval IO.println "ALL DUODENARY RING & RECORD-INTEGRITY INVARIANTS VERIFIED."
+#eval IO.println "CORE-ONLY (NO MATHLIB) SUBSET VERIFIED. Ring-equivalence ringEquivCRT NOT included; see handoff section 3 scope note."
