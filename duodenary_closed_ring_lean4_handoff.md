@@ -57,6 +57,16 @@
 
 Verified: builds with exit 0; `#print axioms` shows no axioms for `unit_isometry`, `unit_duality`, `closed_ring_invariant`.
 
+### Scope note (what is and is not verified)
+
+The verified module `closed_ring_z12/ClosedRingZ12.lean` is **core Lean only (no Mathlib)**. Relative to the original §3 specification:
+
+- **Included:** the CRT isomorphism as a core-only bundle `CRTIso` / `crtIso`. It carries the inverse maps and the additive and multiplicative compatibility as bounded propositions over `Nat`.
+- **Not included:** the `ZMod 12` type and its ring structure (residues are `Nat` values reduced mod 12). Mathlib's `RingEquiv` (`ringEquivCRT`) is not used, so the isomorphism is not a Mathlib ring equivalence.
+- **Not included:** Finset-based counting. `N d` is computed with `List` operations.
+
+Verification covers the bounded-arithmetic statements and `crtIso` listed in `Verify.lean`.
+
 ```lean
 /-! Z/12Z closed-ring module, core Lean only (no Mathlib).
     Z/12Z is represented by Nat residues; every operation reduces mod 12.
