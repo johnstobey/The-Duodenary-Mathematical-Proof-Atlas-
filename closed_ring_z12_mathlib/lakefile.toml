@@ -1,0 +1,16 @@
+name = "closed_ring_z12_mathlib"
+version = "0.1.0"
+defaultTargets = ["CRTMathlib"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "4bbdccd9c5f862bf90ff12f0a9e2c8be032b9a84"
+
+# Path dependency: the core-only bounded-Nat implementation. Bridged, not replaced.
+[[require]]
+name = "closed_ring_z12"
+path = "../closed_ring_z12"
+
+[[lean_lib]]
+name = "CRTMathlib"
