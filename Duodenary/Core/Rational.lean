@@ -31,8 +31,12 @@ private theorem natDivPos {a b : Nat} (hba : b ∣ a) (ha : 0 < a) : 0 < a / b :
   · subst hb0
     simp at hk
     omega
-  · rw [← hk]
-    exact Nat.mul_div_cancel_left k hbp
+  · rw [hk, Nat.mul_div_cancel_left k hbp]
+    rcases Nat.eq_zero_or_pos k with hk0 | hkp
+    · subst hk0
+      simp at hk
+      omega
+    · exact hkp
 
 /-- Euclid's lemma (native): a common divisor coprime to `a` divides `b`. -/
 theorem natEuclid {a b c : Nat} (hab : c ∣ a * b) (hcop : a.gcd c = 1) : c ∣ b := by
@@ -112,16 +116,18 @@ theorem Q.eq_of_cross_eq (a b : Q) (h : a.num * ↑b.den = b.num * ↑a.den) : a
       refine ⟨a.num, ?_⟩
       simp [h, Int.mul_comm]
     have hnat : b.den ∣ b.num.natAbs * a.den := by
-      rw [← Int.natAbs_mul, ← Int.natAbs_ofNat b.den]
-      exact Int.natAbs_dvd_natAbs.mp hint
+      have h := Int.ofNat_dvd_left.mp hint
+      rw [Int.natAbs_mul, Int.natAbs_ofNat] at h
+      exact h
     exact natEuclid hnat b.reduced
   have hdm' : a.den ∣ b.den := by
     have hint : (↑a.den : Int) ∣ a.num * ↑b.den := by
       refine ⟨b.num, ?_⟩
       simp [← h, Int.mul_comm]
     have hnat : a.den ∣ a.num.natAbs * b.den := by
-      rw [← Int.natAbs_mul, ← Int.natAbs_ofNat a.den]
-      exact Int.natAbs_dvd_natAbs.mp hint
+      have h := Int.ofNat_dvd_left.mp hint
+      rw [Int.natAbs_mul, Int.natAbs_ofNat] at h
+      exact h
     exact natEuclid hnat a.reduced
   have hden : a.den = b.den := Nat.dvd_antisymm hdm' hdm
   have hnum : a.num = b.num := by
@@ -129,19 +135,20 @@ theorem Q.eq_of_cross_eq (a b : Q) (h : a.num * ↑b.den = b.num * ↑a.den) : a
     rcases Int.lt_trichotomy a.num b.num with hc | hc | hc
     · exact absurd h (by
         have hlt : a.num * ↑a.den < b.num * ↑a.den :=
-          Int.mul_lt_mul_of_pos_right hc (by omega)
+          Int.mul_lt_mul_of_pos_right hc (Int.ofNat_pos.mpr a.den_pos)
         omega)
     · exact hc
     · exact absurd h (by
         have hlt : b.num * ↑a.den < a.num * ↑a.den :=
-          Int.mul_lt_mul_of_pos_right hc (by omega)
+          Int.mul_lt_mul_of_pos_right hc (Int.ofNat_pos.mpr a.den_pos)
         omega)
   exact Q.eq_of_num_eq_of_den_eq hnum hden
 
 /-! ## Arithmetic operations -/
 
 instance : Zero Q := ⟨Q.mkRat 0 1 (by omega)⟩
-instance : One Q := ⟨Q.mkRat 1 1 (by omega)⟩
+instance : OfNat Q 0 := ⟨Q.mkRat 0 1 (by omega)⟩
+instance : OfNat Q 1 := ⟨Q.mkRat 1 1 (by omega)⟩
 instance : Neg Q := ⟨fun a => Q.mkRat (-a.num) a.den a.den_pos⟩
 instance : Add Q := ⟨fun a b =>
   Q.mkRat (a.num * ↑b.den + b.num * ↑a.den) (a.den * b.den)
@@ -151,28 +158,29 @@ instance : Mul Q := ⟨fun a b =>
   Q.mkRat (a.num * b.num) (a.den * b.den) (Nat.mul_pos a.den_pos b.den_pos)⟩
 
 @[simp] theorem Q.zero_num : (0 : Q).num = 0 := by
-  rw [show (0 : Q) = Q.mkRat 0 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right,
-    Int.tdiv_one]
+  rw [show (0 : Q) = Q.mkRat 0 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right]
+  exact Int.tdiv_one 0
 
 @[simp] theorem Q.zero_den : (0 : Q).den = 1 := by
   rw [show (0 : Q) = Q.mkRat 0 1 (by omega) from rfl, Q.den_mkRat, Nat.gcd_one_right,
     Nat.div_one]
 
 @[simp] theorem Q.one_num : (1 : Q).num = 1 := by
-  rw [show (1 : Q) = Q.mkRat 1 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right,
-    Int.tdiv_one]
+  rw [show (1 : Q) = Q.mkRat 1 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right]
+  exact Int.tdiv_one 1
 
 @[simp] theorem Q.one_den : (1 : Q).den = 1 := by
   rw [show (1 : Q) = Q.mkRat 1 1 (by omega) from rfl, Q.den_mkRat, Nat.gcd_one_right,
     Nat.div_one]
 
-@[simp] theorem Q.num_neg (a : Q) : (-a).num = -a.num := rfl
-@[simp] theorem Q.den_neg (a : Q) : (-a).den = a.den := rfl
-@[simp] theorem Q.num_add (a b : Q) :
-    (a + b).num = a.num * ↑b.den + b.num * ↑a.den := rfl
-@[simp] theorem Q.den_add (a b : Q) : (a + b).den = a.den * b.den := rfl
-@[simp] theorem Q.num_mul (a b : Q) : (a * b).num = a.num * b.num := rfl
-@[simp] theorem Q.den_mul (a b : Q) : (a * b).den = a.den * b.den := rfl
+@[simp] theorem Q.num_neg (a : Q) : (-a).num = -a.num := by
+  have h : (-a) = Q.mkRat (-a.num) a.den a.den_pos := rfl
+  rw [h, Q.num_mkRat, Int.natAbs_neg, a.reduced]
+  exact Int.tdiv_one (-a.num)
+
+@[simp] theorem Q.den_neg (a : Q) : (-a).den = a.den := by
+  have h : (-a) = Q.mkRat (-a.num) a.den a.den_pos := rfl
+  rw [h, Q.den_mkRat, Int.natAbs_neg, a.reduced, Nat.div_one]
 
 /-! ## Casts from Nat and Int -/
 
@@ -186,16 +194,16 @@ instance : NatCast Q := ⟨ofNat⟩
 instance : IntCast Q := ⟨ofInt⟩
 
 @[simp] theorem Q.natCast_num (n : Nat) : (n : Q).num = n := by
-  rw [show (n : Q) = Q.mkRat n 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right,
-    Int.tdiv_one]
+  rw [show (n : Q) = Q.mkRat n 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right]
+  exact Int.tdiv_one n
 
 @[simp] theorem Q.natCast_den (n : Nat) : (n : Q).den = 1 := by
   rw [show (n : Q) = Q.mkRat n 1 (by omega) from rfl, Q.den_mkRat, Nat.gcd_one_right,
     Nat.div_one]
 
 @[simp] theorem Q.intCast_num (i : Int) : (i : Q).num = i := by
-  rw [show (i : Q) = Q.mkRat i 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right,
-    Int.tdiv_one]
+  rw [show (i : Q) = Q.mkRat i 1 (by omega) from rfl, Q.num_mkRat, Nat.gcd_one_right]
+  exact Int.tdiv_one i
 
 @[simp] theorem Q.intCast_den (i : Int) : (i : Q).den = 1 := by
   rw [show (i : Q) = Q.mkRat i 1 (by omega) from rfl, Q.den_mkRat, Nat.gcd_one_right,
@@ -205,7 +213,7 @@ theorem Q.natCast_inj {m n : Nat} : (m : Q) = n ↔ m = n := by
   constructor
   · intro h
     have h2 := congrArg Q.num h
-    rwa [natCast_num, natCast_num] at h2
+    rwa [natCast_num, natCast_num, Int.ofNat_inj] at h2
   · intro h
     subst h
     rfl
@@ -243,30 +251,22 @@ theorem Q.lt_def (a b : Q) : a < b ↔ a.num * ↑b.den < b.num * ↑a.den := If
 
 @[simp] theorem Q.le_refl (a : Q) : a ≤ a := Int.le_refl _
 
+/-- Rearrangement simp set for cross-product associativity/commutativity. -/
+private theorem Q.mulCommAux (a b : Int) : a * b = b * a := Int.mul_comm a b
+
 theorem Q.le_trans {a b c : Q} (h1 : a ≤ b) (h2 : b ≤ c) : a ≤ c := by
+  rw [le_def] at h1 h2 ⊢
   have e1 : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den :=
-    Int.mul_le_mul_of_nonneg_right h1 (by omega)
+    Int.mul_le_mul_of_nonneg_right h1 (Int.ofNat_nonneg _)
   have e2 : b.num * ↑c.den * ↑a.den ≤ c.num * ↑b.den * ↑a.den :=
-    Int.mul_le_mul_of_nonneg_right h2 (by omega)
-  have key : a.num * ↑c.den * (↑b.den * ↑a.den) ≤ c.num * ↑a.den * (↑b.den * ↑a.den) := by
-    calc a.num * ↑c.den * (↑b.den * ↑a.den)
-        = a.num * ↑b.den * ↑c.den := by
-          simp [Int.mul_comm, Int.mul_assoc]
-      _ ≤ b.num * ↑a.den * ↑c.den := e1
-      _ = b.num * ↑c.den * ↑a.den := by
-          simp [Int.mul_comm, Int.mul_assoc]
-      _ ≤ c.num * ↑b.den * ↑a.den := e2
-      _ = c.num * ↑a.den * (↑b.den * ↑a.den) := by
-          simp [Int.mul_comm, Int.mul_assoc]
-  have hpos : (0 : Int) < ↑b.den * ↑a.den :=
-    Int.mul_pos (by omega) (by omega)
-  rcases Int.lt_trichotomy a.num c.num with hc | hc | hc
-  · exact Int.le_of_lt (Int.mul_lt_mul_of_pos_right hc hpos)
-  · exact hc
-  · exact absurd key (by
-      have hlt : c.num * ↑a.den * (↑b.den * ↑a.den) < a.num * ↑c.den * (↑b.den * ↑a.den) :=
-        Int.mul_lt_mul_of_pos_right (by omega) hpos
-      omega)
+    Int.mul_le_mul_of_nonneg_right h2 (Int.ofNat_nonneg _)
+  have br : b.num * ↑a.den * ↑c.den = b.num * ↑c.den * ↑a.den := by
+    rw [Int.mul_assoc, Int.mul_comm (↑a.den) (↑c.den), ← Int.mul_assoc]
+  rw [br] at e1
+  have chain : a.num * ↑b.den * ↑c.den ≤ c.num * ↑b.den * ↑a.den :=
+    Int.le_trans e1 e2
+  refine Int.le_of_mul_le_mul_right ?_ (Int.ofNat_pos.mpr b.den_pos)
+  simpa [Int.mul_comm, Int.mul_assoc, Int.mul_left_comm] using chain
 
 theorem Q.le_antisym {a b : Q} (h1 : a ≤ b) (h2 : b ≤ a) : a = b :=
   Q.eq_of_cross_eq a b (Int.le_antisymm h1 h2)
@@ -280,133 +280,154 @@ theorem Q.lt_irrefl (a : Q) : ¬ a < a := Int.lt_irrefl _
 theorem Q.lt_iff_le_not_le {a b : Q} : a < b ↔ a ≤ b ∧ ¬ b ≤ a := Int.lt_iff_le_not_le
 
 theorem Q.lt_trans {a b c : Q} (h1 : a < b) (h2 : b < c) : a < c := by
+  rw [lt_def] at h1 h2 ⊢
   have e1 : a.num * ↑b.den * ↑c.den < b.num * ↑a.den * ↑c.den :=
-    Int.mul_lt_mul_of_pos_right h1 (by omega)
+    Int.mul_lt_mul_of_pos_right h1 (Int.ofNat_pos.mpr c.den_pos)
   have e2 : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den :=
-    Int.mul_lt_mul_of_pos_right h2 (by omega)
-  have key : a.num * ↑c.den * (↑b.den * ↑a.den) < c.num * ↑a.den * (↑b.den * ↑a.den) := by
-    calc a.num * ↑c.den * (↑b.den * ↑a.den)
-        = a.num * ↑b.den * ↑c.den := by
-          simp [Int.mul_comm, Int.mul_assoc]
-      _ < b.num * ↑a.den * ↑c.den := e1
-      _ = b.num * ↑c.den * ↑a.den := by
-          simp [Int.mul_comm, Int.mul_assoc]
-      _ < c.num * ↑b.den * ↑a.den := e2
-      _ = c.num * ↑a.den * (↑b.den * ↑a.den) := by
-          simp [Int.mul_comm, Int.mul_assoc]
-  have hpos : (0 : Int) < ↑b.den * ↑a.den :=
-    Int.mul_pos (by omega) (by omega)
-  rcases Int.lt_trichotomy a.num c.num with hc | hc | hc
-  · exact hc
-  · exact absurd key (by
-      have heq : c.num * ↑a.den * (↑b.den * ↑a.den) = a.num * ↑c.den * (↑b.den * ↑a.den) := by
-        rw [hc]
-      omega)
-  · exact absurd key (by
-      have hlt : c.num * ↑a.den * (↑b.den * ↑a.den) < a.num * ↑c.den * (↑b.den * ↑a.den) :=
-        Int.mul_lt_mul_of_pos_right hc hpos
-      omega)
+    Int.mul_lt_mul_of_pos_right h2 (Int.ofNat_pos.mpr a.den_pos)
+  have br : b.num * ↑a.den * ↑c.den = b.num * ↑c.den * ↑a.den := by
+    rw [Int.mul_assoc, Int.mul_comm (↑a.den) (↑c.den), ← Int.mul_assoc]
+  rw [br] at e1
+  have chain : a.num * ↑b.den * ↑c.den < c.num * ↑b.den * ↑a.den :=
+    Int.lt_trans e1 e2
+  refine Int.lt_of_mul_lt_mul_right ?_ (Int.ofNat_nonneg b.den)
+  simpa [Int.mul_comm, Int.mul_assoc, Int.mul_left_comm] using chain
 
 theorem Q.lt_of_le_of_lt {a b c : Q} (h1 : a ≤ b) (h2 : b < c) : a < c := by
-  have hle : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den :=
-    Int.mul_le_mul_of_nonneg_right h1 (by omega)
-  have hlt : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den :=
-    Int.mul_lt_mul_of_pos_right h2 (by omega)
-  have key : a.num * ↑c.den * (↑b.den * ↑a.den) < c.num * ↑a.den * (↑b.den * ↑a.den) := by
-    calc a.num * ↑c.den * (↑b.den * ↑a.den)
-        = a.num * ↑b.den * ↑c.den := by
-          simp [Int.mul_comm, Int.mul_assoc]
-      _ ≤ b.num * ↑a.den * ↑c.den := hle
-      _ = b.num * ↑c.den * ↑a.den := by
-          simp [Int.mul_comm, Int.mul_assoc]
-      _ < c.num * ↑b.den * ↑a.den := hlt
-      _ = c.num * ↑a.den * (↑b.den * ↑a.den) := by
-          simp [Int.mul_comm, Int.mul_assoc]
-  have hpos : (0 : Int) < ↑b.den * ↑a.den :=
-    Int.mul_pos (by omega) (by omega)
-  rcases Int.lt_trichotomy a.num c.num with hc | hc | hc
-  · exact hc
-  · exact absurd key (by
-      have heq : c.num * ↑a.den * (↑b.den * ↑a.den) = a.num * ↑c.den * (↑b.den * ↑a.den) := by
-        rw [hc]
-      omega)
-  · exact absurd key (by
-      have hlt : c.num * ↑a.den * (↑b.den * ↑a.den) < a.num * ↑c.den * (↑b.den * ↑a.den) :=
-        Int.mul_lt_mul_of_pos_right hc hpos
-      omega)
+  rw [le_def] at h1
+  rw [lt_def] at h2 ⊢
+  have e1 : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den :=
+    Int.mul_le_mul_of_nonneg_right h1 (Int.ofNat_nonneg _)
+  have e2 : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den :=
+    Int.mul_lt_mul_of_pos_right h2 (Int.ofNat_pos.mpr a.den_pos)
+  have br : b.num * ↑a.den * ↑c.den = b.num * ↑c.den * ↑a.den := by
+    rw [Int.mul_assoc, Int.mul_comm (↑a.den) (↑c.den), ← Int.mul_assoc]
+  rw [br] at e1
+  have chain : a.num * ↑b.den * ↑c.den < c.num * ↑b.den * ↑a.den :=
+    Int.lt_of_le_of_lt e1 e2
+  refine Int.lt_of_mul_lt_mul_right ?_ (Int.ofNat_nonneg b.den)
+  simpa [Int.mul_comm, Int.mul_assoc, Int.mul_left_comm] using chain
 
-theorem Q.lt_of_lt_of_le {a b c : Q} (h1 : a < b) (h2 : b ≤ c) : a < c :=
-  Q.lt_trans h1 (Q.le_of_lt h2)
+theorem Q.lt_of_lt_of_le {a b c : Q} (h1 : a < b) (h2 : b ≤ c) : a < c := by
+  rw [lt_def] at h1
+  rw [le_def] at h2
+  rw [lt_def]
+  have e1 : a.num * ↑b.den * ↑c.den < b.num * ↑a.den * ↑c.den :=
+    Int.mul_lt_mul_of_pos_right h1 (Int.ofNat_pos.mpr c.den_pos)
+  have e2 : b.num * ↑c.den * ↑a.den ≤ c.num * ↑b.den * ↑a.den :=
+    Int.mul_le_mul_of_nonneg_right h2 (Int.ofNat_nonneg _)
+  have br : b.num * ↑a.den * ↑c.den = b.num * ↑c.den * ↑a.den := by
+    rw [Int.mul_assoc, Int.mul_comm (↑a.den) (↑c.den), ← Int.mul_assoc]
+  rw [br] at e1
+  have chain : a.num * ↑b.den * ↑c.den < c.num * ↑b.den * ↑a.den :=
+    Int.lt_of_lt_of_le e1 e2
+  refine Int.lt_of_mul_lt_mul_right ?_ (Int.ofNat_nonneg b.den)
+  simpa [Int.mul_comm, Int.mul_assoc, Int.mul_left_comm] using chain
 
 /-! ## Positivity lemmas -/
+
+/-- The numerator of `Q.mkRat` is positive when the input numerator is. -/
+private theorem Q.mkRat_num_pos {n : Int} {d : Nat} (hn : 0 < n) (hden : 0 < d) :
+    0 < (Q.mkRat n d hden).num := by
+  rw [Q.num_mkRat]
+  have hg : (0 : Int) < ↑(n.natAbs.gcd d) :=
+    Int.ofNat_pos.mpr (Nat.gcd_pos_of_pos_right _ hden)
+  have hdvd : ↑(n.natAbs.gcd d) ∣ n :=
+    Int.natAbs_dvd_natAbs.mp (by rw [Int.natAbs_ofNat]; exact Nat.gcd_dvd_left _ _)
+  have hq : n.tdiv ↑(n.natAbs.gcd d) * ↑(n.natAbs.gcd d) = n :=
+    Int.tdiv_mul_cancel hdvd
+  rcases Int.lt_trichotomy (n.tdiv ↑(n.natAbs.gcd d)) 0 with hc | hc | hc
+  · exfalso
+    have hlt := Int.mul_lt_mul_of_pos_right hc hg
+    rw [Int.zero_mul, hq] at hlt
+    omega
+  · exfalso
+    rw [hc, Int.zero_mul] at hq
+    omega
+  · exact hc
+
+/-- The numerator of `Q.mkRat` is nonnegative when the input numerator is. -/
+private theorem Q.mkRat_num_nonneg {n : Int} {d : Nat} (hn : 0 ≤ n) (hden : 0 < d) :
+    0 ≤ (Q.mkRat n d hden).num := by
+  rw [Q.num_mkRat]
+  exact Int.tdiv_nonneg hn (Int.ofNat_nonneg _)
 
 /-- Positivity of a rational is positivity of its numerator. -/
 @[simp] theorem Q.pos_iff (a : Q) : 0 < a ↔ 0 < a.num := by
   constructor
   · intro h
-    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.mul_one] at h
+    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one] at h
     exact h
   · intro h
-    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.mul_one]
+    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
     exact h
 
 /-- Nonnegativity of a rational is nonnegativity of its numerator. -/
 @[simp] theorem Q.nonneg_iff (a : Q) : 0 ≤ a ↔ 0 ≤ a.num := by
   constructor
   · intro h
-    rw [le_def, zero_num, zero_den, Int.zero_mul, Int.mul_one] at h
+    rw [le_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one] at h
     exact h
   · intro h
-    rw [le_def, zero_num, zero_den, Int.zero_mul, Int.mul_one]
+    rw [le_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
     exact h
 
 /-- A rational is negative exactly when its numerator is. -/
 @[simp] theorem Q.neg_iff (a : Q) : a < 0 ↔ a.num < 0 := by
   constructor
   · intro h
-    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.mul_one] at h
+    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one] at h
     exact h
   · intro h
-    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.mul_one]
+    rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
     exact h
 
 /-- Positivity of the cast of a natural number. -/
 theorem Q.natCast_pos (n : Nat) : 0 < (n : Q) ↔ 0 < n := by
-  rw [lt_def, natCast_num, natCast_den, zero_num, zero_den, Int.zero_mul, Int.mul_one]
+  rw [lt_def, natCast_num, natCast_den, zero_num, zero_den, Int.zero_mul, Int.ofNat_one,
+    Int.mul_one]
   exact Int.ofNat_lt
 
 /-- The cast of a natural number is nonnegative. -/
 theorem Q.natCast_nonneg (n : Nat) : 0 ≤ (n : Q) := by
-  rw [le_def, natCast_num, natCast_den, zero_num, zero_den, Int.zero_mul, Int.mul_one]
-  exact Int.ofNat_le.mpr (Nat.zero_le n)
+  rw [le_def, natCast_num, natCast_den, zero_num, zero_den, Int.zero_mul, Int.ofNat_one,
+    Int.mul_one]
+  exact Int.ofNat_nonneg n
 
 /-- Positivity of the cast of an integer. -/
 theorem Q.intCast_pos (i : Int) : 0 < (i : Q) ↔ 0 < i := by
-  rw [lt_def, intCast_num, intCast_den, zero_num, zero_den, Int.zero_mul, Int.mul_one]
+  rw [lt_def, intCast_num, intCast_den, zero_num, zero_den, Int.zero_mul, Int.ofNat_one,
+    Int.mul_one]
 
 theorem Q.mul_pos {a b : Q} (ha : 0 < a) (hb : 0 < b) : 0 < a * b := by
-  rw [pos_iff, num_mul]
-  exact Int.mul_pos (Q.pos_iff.mp ha) (Q.pos_iff.mp hb)
+  have key : (0 : Int) < a.num * b.num :=
+    Int.mul_pos ((Q.pos_iff _).mp ha) ((Q.pos_iff _).mp hb)
+  rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
+  exact Q.mkRat_num_pos key (Nat.mul_pos a.den_pos b.den_pos)
 
 theorem Q.mul_nonneg {a b : Q} (ha : 0 ≤ a) (hb : 0 ≤ b) : 0 ≤ a * b := by
-  rw [nonneg_iff, num_mul]
-  exact Int.mul_nonneg (Q.nonneg_iff.mp ha) (Q.nonneg_iff.mp hb)
+  have key : (0 : Int) ≤ a.num * b.num :=
+    Int.mul_nonneg ((Q.nonneg_iff _).mp ha) ((Q.nonneg_iff _).mp hb)
+  rw [le_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
+  exact Q.mkRat_num_nonneg key (Nat.mul_pos a.den_pos b.den_pos)
 
 theorem Q.add_pos {a b : Q} (ha : 0 < a) (hb : 0 < b) : 0 < a + b := by
-  rw [pos_iff, num_add]
-  have h1 : 0 < a.num * ↑b.den :=
-    Int.mul_pos (Q.pos_iff.mp ha) (by omega : (0 : Int) < ↑b.den)
-  have h2 : 0 < b.num * ↑a.den :=
-    Int.mul_pos (Q.pos_iff.mp hb) (by omega : (0 : Int) < ↑a.den)
-  omega
+  have e1 : (0 : Int) < a.num * ↑b.den :=
+    Int.mul_pos ((Q.pos_iff _).mp ha) (Int.ofNat_pos.mpr b.den_pos)
+  have e2 : (0 : Int) < b.num * ↑a.den :=
+    Int.mul_pos ((Q.pos_iff _).mp hb) (Int.ofNat_pos.mpr a.den_pos)
+  have key : (0 : Int) < a.num * ↑b.den + b.num * ↑a.den := by omega
+  rw [lt_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
+  exact Q.mkRat_num_pos key (Nat.mul_pos a.den_pos b.den_pos)
 
 theorem Q.add_nonneg {a b : Q} (ha : 0 ≤ a) (hb : 0 ≤ b) : 0 ≤ a + b := by
-  rw [nonneg_iff, num_add]
-  have h1 : 0 ≤ a.num * ↑b.den :=
-    Int.mul_nonneg (Q.nonneg_iff.mp ha) (by omega : (0 : Int) ≤ ↑b.den)
-  have h2 : 0 ≤ b.num * ↑a.den :=
-    Int.mul_nonneg (Q.nonneg_iff.mp hb) (by omega : (0 : Int) ≤ ↑a.den)
-  omega
+  have e1 : (0 : Int) ≤ a.num * ↑b.den :=
+    Int.mul_nonneg ((Q.nonneg_iff _).mp ha) (Int.ofNat_nonneg _)
+  have e2 : (0 : Int) ≤ b.num * ↑a.den :=
+    Int.mul_nonneg ((Q.nonneg_iff _).mp hb) (Int.ofNat_nonneg _)
+  have key : (0 : Int) ≤ a.num * ↑b.den + b.num * ↑a.den := by omega
+  rw [le_def, zero_num, zero_den, Int.zero_mul, Int.ofNat_one, Int.mul_one]
+  exact Q.mkRat_num_nonneg key (Nat.mul_pos a.den_pos b.den_pos)
 
 theorem Q.neg_pos {a : Q} (h : a < 0) : 0 < -a := by
   rw [pos_iff, num_neg]

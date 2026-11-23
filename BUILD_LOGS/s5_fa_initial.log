@@ -1,0 +1,182 @@
+✖ [2/2] Building Duodenary.Core.FiniteAlgebra
+trace: .> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH= /Users/johntobey/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././Duodenary/Core/FiniteAlgebra.lean -R ./././. -o ././.lake/build/lib/Duodenary/Core/FiniteAlgebra.olean -i ././.lake/build/lib/Duodenary/Core/FiniteAlgebra.ilean -c ././.lake/build/ir/Duodenary/Core/FiniteAlgebra.c --json
+error: ././././Duodenary/Core/FiniteAlgebra.lean:29:5: function expected at
+  Nat.mod_mul_mod
+term has type
+  ?m.543 % ?m.545 * ?m.544 % ?m.545 = ?m.543 * ?m.544 % ?m.545
+error: ././././Duodenary/Core/FiniteAlgebra.lean:31:45: function expected at
+  Nat.mod_mul_mod
+term has type
+  ?m.740 % ?m.742 * ?m.741 % ?m.742 = ?m.740 * ?m.741 % ?m.742
+error: ././././Duodenary/Core/FiniteAlgebra.lean:32:55: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  x % n % n * (y % n)
+x y n : Nat
+h1 : x % n * y % n = x % n % n * (y % n)
+h2 : x % n % n = x % n
+h3 : x * y % n = x % n * (y % n)
+⊢ x % n * (y % n) = x % n * y % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:52:2: no goals to be solved
+error: ././././Duodenary/Core/FiniteAlgebra.lean:54:63: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:56:34: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:57:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ↑0
+case h
+n : Nat
+x : Fin n
+⊢ 0 * ↑x % n = ↑sorry
+error: ././././Duodenary/Core/FiniteAlgebra.lean:92:59: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:94:40: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:95:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ↑0
+case h
+n : Nat
+a : Fin n
+⊢ ((n - ↑a) % n + ↑a) % n = ↑sorry
+error: ././././Duodenary/Core/FiniteAlgebra.lean:101:42: failed to synthesize
+  OfNat (Fin n) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:103:9: failed to synthesize
+  OfNat (Fin n) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:104:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ↑1
+case h
+n : Nat
+a : Fin n
+⊢ ↑sorry * ↑a % n = ↑a
+error: ././././Duodenary/Core/FiniteAlgebra.lean:114:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?x * ?y % ?n % ?n
+case h
+n : Nat
+a b c : Fin n
+⊢ ↑a * ↑b % n * ↑c % n = ↑a * (↑b * ↑c % n) % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:119:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?x * ?y % ?n % ?n
+case h
+n : Nat
+a b c : Fin n
+⊢ (↑a + ↑b) % n * ↑c % n = (↑a * ↑c % n + ↑b * ↑c % n) % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:123:2: type mismatch
+  this
+has type
+  ↑c * (↑a + ↑b) % n % n = (↑c * ↑a % n + ↑c * ↑b % n) % n : Prop
+but is expected to have type
+  ↑(c * (a + b)) = ↑(c * a + c * b) : Prop
+error: ././././Duodenary/Core/FiniteAlgebra.lean:124:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?k * (?s % ?n) % ?n
+case h
+n : Nat
+a b c : Fin n
+⊢ ↑c * (↑a + ↑b) % n % n = (↑c * ↑a % n + ↑c * ↑b % n) % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:129:57: invalid binder annotation, type is not a class instance
+  ?m.6782
+use the command `set_option checkBinderAnnotations false` to disable the check
+error: ././././Duodenary/Core/FiniteAlgebra.lean:147:32: function expected at
+  CRingLaws
+term has type
+  ?m.6814
+error: ././././Duodenary/Core/FiniteAlgebra.lean:152:27: function expected at
+  CRingLaws
+term has type
+  ?m.6885
+error: ././././Duodenary/Core/FiniteAlgebra.lean:155:28: function expected at
+  CRingLaws
+term has type
+  ?m.6908
+error: ././././Duodenary/Core/FiniteAlgebra.lean:166:66: failed to synthesize
+  OfNat (Fin m) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin m
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:166:69: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:167:37: failed to synthesize
+  OfNat (Fin m) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin m
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:167:40: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:176:15: invalid alternative name 'intro', expected 'mk'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:184:20: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?m * ?n % ?n
+case h
+x : Fin 12
+⊢ 12 * ↑x % 12 = 0
+error: ././././Duodenary/Core/FiniteAlgebra.lean:203:28: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  f 0
+case zero
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hf0 : f 0 = (0, 0)
+x : Fin 144
+⊢ f 0 = Psmul 0 (f x)
+error: ././././Duodenary/Core/FiniteAlgebra.lean:218:36: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?x + 0
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hinj : ∀ (x y : Fin 144), f x = f y → x = y
+⊢ f 0 = f 0
+error: ././././Duodenary/Core/FiniteAlgebra.lean:219:24: unknown identifier 'Pneg'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:219:48: unknown identifier 'Pneg_add_self'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:220:37: unknown identifier 'Pneg'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:221:8: unknown identifier 'Padd_assoc'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:221:8: tactic 'rewrite' failed, equality or iff proof expected
+  ?m.9148
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hinj : ∀ (x y : Fin 144), f x = f y → x = y
+h1 : f 0 = Padd (f 0) (f 0)
+h2 : Padd (f 0) sorry = (0, 0)
+⊢ Padd (Padd (f 0) (f 0)) sorry = Padd (f 0) (0, 0)
+error: ././././Duodenary/Core/FiniteAlgebra.lean:223:16: unknown identifier 'Padd_assoc'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:223:14: tactic 'rewrite' failed, equality or iff proof expected
+  ?m.9203
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hinj : ∀ (x y : Fin 144), f x = f y → x = y
+h1 : f 0 = Padd (f 0) (f 0)
+h2 : Padd (f 0) sorry = (0, 0)
+h4 : Padd (Padd (f 0) (f 0)) sorry = Padd (f 0) (0, 0)
+⊢ Padd (f 0) sorry = Padd (f 0) (Padd (f 0) sorry)
+error: ././././Duodenary/Core/FiniteAlgebra.lean:225:15: unknown identifier 'Padd_zero'
+error: Lean exited with code 1
+Some required builds logged failures:
+- Duodenary.Core.FiniteAlgebra
+error: build failed

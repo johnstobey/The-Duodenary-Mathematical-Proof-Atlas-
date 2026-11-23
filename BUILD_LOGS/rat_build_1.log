@@ -1,0 +1,108 @@
+✖ [2/2] Building Duodenary.Core.Rational
+trace: .> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH= /Users/johntobey/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././Duodenary/Core/Rational.lean -R ./././. -o ././.lake/build/lib/Duodenary/Core/Rational.olean -i ././.lake/build/lib/Duodenary/Core/Rational.ilean -c ././.lake/build/ir/Duodenary/Core/Rational.c --json
+error: ././././Duodenary/Core/Rational.lean:35:4: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d ≥ 1
+  c ≥ 1
+where
+ c := ↑b * ↑k
+ d := ↑b
+error: ././././Duodenary/Core/Rational.lean:115:39: application type mismatch
+  Int.ofNat_dvd_right.mp hint
+argument
+  hint
+has type
+  ↑b.den ∣ b.num * ↑a.den : Prop
+but is expected to have type
+  ↑b.den ∣ ↑?m.3570 : Prop
+error: ././././Duodenary/Core/Rational.lean:124:39: application type mismatch
+  Int.ofNat_dvd_right.mp hint
+argument
+  hint
+has type
+  ↑a.den ∣ a.num * ↑b.den : Prop
+but is expected to have type
+  ↑a.den ∣ ↑?m.3921 : Prop
+error: ././././Duodenary/Core/Rational.lean:212:4: tactic 'assumption' failed
+case mp
+m n : Nat
+h : ↑m = ↑n
+h2 : ↑m = ↑n
+⊢ m = n
+error: ././././Duodenary/Core/Rational.lean:308:16: application type mismatch
+  lt_trans h1 (le_of_lt ?m.12299)
+argument
+  le_of_lt ?m.12299
+has type
+  ?m.11215 ≤ ?m.11216 : Prop
+but is expected to have type
+  b < c : Prop
+error: ././././Duodenary/Core/Rational.lean:317:70: application type mismatch
+  Int.natAbs_pos.mpr hn
+argument
+  hn
+has type
+  0 < n : Prop
+but is expected to have type
+  ?m.17175 ≠ 0 : Prop
+error: ././././Duodenary/Core/Rational.lean:319:4: type mismatch
+  Int.ofNat_dvd.mpr (Nat.gcd_dvd_left n.natAbs d)
+has type
+  ↑(n.natAbs.gcd d) ∣ ↑n.natAbs : Prop
+but is expected to have type
+  ↑(n.natAbs.gcd d) ∣ n : Prop
+error: ././././Duodenary/Core/Rational.lean:386:2: type mismatch
+  Duodenary.Q.mkRat_num_pos (Int.mul_pos ((pos_iff a).mp ha) ((pos_iff b).mp hb)) (Nat.mul_pos a.den_pos b.den_pos)
+has type
+  (0 : Int) < (mkRat (a.num * b.num) (a.den * b.den) ⋯).num : Prop
+but is expected to have type
+  (0 : Q) < a * b : Prop
+error: ././././Duodenary/Core/Rational.lean:390:2: type mismatch
+  Duodenary.Q.mkRat_num_nonneg (Int.mul_nonneg ((nonneg_iff a).mp ha) ((nonneg_iff b).mp hb))
+    (Nat.mul_pos a.den_pos b.den_pos)
+has type
+  (0 : Int) ≤ (mkRat (a.num * b.num) (a.den * b.den) ⋯).num : Prop
+but is expected to have type
+  (0 : Q) ≤ a * b : Prop
+error: ././././Duodenary/Core/Rational.lean:394:2: type mismatch
+  Duodenary.Q.mkRat_num_pos ?m.22244 (Nat.mul_pos a.den_pos b.den_pos)
+has type
+  (0 : Int) < (mkRat ?m.22242 (a.den * b.den) ⋯).num : Prop
+but is expected to have type
+  (0 : Q) < a + b : Prop
+error: ././././Duodenary/Core/Rational.lean:400:6: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  g ≤ 0
+  f ≥ 1
+  e ≥ 1
+  d ≥ 1
+  c ≥ 1
+where
+ c := ↑b.den
+ d := ↑a.den
+ e := a.num * ↑b.den
+ f := b.num * ↑a.den
+ g := ?m.22242
+error: ././././Duodenary/Core/Rational.lean:404:2: type mismatch
+  Duodenary.Q.mkRat_num_nonneg ?m.24264 (Nat.mul_pos a.den_pos b.den_pos)
+has type
+  (0 : Int) ≤ (mkRat ?m.24262 (a.den * b.den) ⋯).num : Prop
+but is expected to have type
+  (0 : Q) ≤ a + b : Prop
+error: ././././Duodenary/Core/Rational.lean:410:6: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  g ≤ -1
+  f ≥ 0
+  e ≥ 0
+  d ≥ 0
+  c ≥ 0
+where
+ c := ↑b.den
+ d := ↑a.den
+ e := a.num * ↑b.den
+ f := b.num * ↑a.den
+ g := ?m.24262
+error: Lean exited with code 1
+Some required builds logged failures:
+- Duodenary.Core.Rational
+error: build failed

@@ -1,0 +1,672 @@
+✖ [2/3] Building Duodenary.Core.FiniteAlgebra
+trace: .> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH= /Users/johntobey/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././Duodenary/Core/FiniteAlgebra.lean -R ./././. -o ././.lake/build/lib/Duodenary/Core/FiniteAlgebra.olean -i ././.lake/build/lib/Duodenary/Core/FiniteAlgebra.ilean -c ././.lake/build/ir/Duodenary/Core/FiniteAlgebra.c --json
+error: ././././Duodenary/Core/FiniteAlgebra.lean:29:5: function expected at
+  Nat.mod_mul_mod
+term has type
+  ?m.543 % ?m.545 * ?m.544 % ?m.545 = ?m.543 * ?m.544 % ?m.545
+error: ././././Duodenary/Core/FiniteAlgebra.lean:31:45: function expected at
+  Nat.mod_mul_mod
+term has type
+  ?m.740 % ?m.742 * ?m.741 % ?m.742 = ?m.740 * ?m.741 % ?m.742
+error: ././././Duodenary/Core/FiniteAlgebra.lean:32:55: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  x % n % n * (y % n)
+x y n : Nat
+h1 : x % n * y % n = x % n % n * (y % n)
+h2 : x % n % n = x % n
+h3 : x * y % n = x % n * (y % n)
+⊢ x % n * (y % n) = x % n * y % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:52:2: no goals to be solved
+error: ././././Duodenary/Core/FiniteAlgebra.lean:54:63: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:56:34: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:57:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ↑0
+case h
+n : Nat
+x : Fin n
+⊢ 0 * ↑x % n = ↑sorry
+error: ././././Duodenary/Core/FiniteAlgebra.lean:92:59: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:94:40: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:95:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ↑0
+case h
+n : Nat
+a : Fin n
+⊢ ((n - ↑a) % n + ↑a) % n = ↑sorry
+error: ././././Duodenary/Core/FiniteAlgebra.lean:101:42: failed to synthesize
+  OfNat (Fin n) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:103:9: failed to synthesize
+  OfNat (Fin n) 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:104:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ↑1
+case h
+n : Nat
+a : Fin n
+⊢ ↑sorry * ↑a % n = ↑a
+error: ././././Duodenary/Core/FiniteAlgebra.lean:114:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?x * ?y % ?n % ?n
+case h
+n : Nat
+a b c : Fin n
+⊢ ↑a * ↑b % n * ↑c % n = ↑a * (↑b * ↑c % n) % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:119:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?x * ?y % ?n % ?n
+case h
+n : Nat
+a b c : Fin n
+⊢ (↑a + ↑b) % n * ↑c % n = (↑a * ↑c % n + ↑b * ↑c % n) % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:123:2: type mismatch
+  this
+has type
+  ↑c * (↑a + ↑b) % n % n = (↑c * ↑a % n + ↑c * ↑b % n) % n : Prop
+but is expected to have type
+  ↑(c * (a + b)) = ↑(c * a + c * b) : Prop
+error: ././././Duodenary/Core/FiniteAlgebra.lean:124:6: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?k * (?s % ?n) % ?n
+case h
+n : Nat
+a b c : Fin n
+⊢ ↑c * (↑a + ↑b) % n % n = (↑c * ↑a % n + ↑c * ↑b % n) % n
+error: ././././Duodenary/Core/FiniteAlgebra.lean:129:57: invalid binder annotation, type is not a class instance
+  ?m.6782
+use the command `set_option checkBinderAnnotations false` to disable the check
+error: ././././Duodenary/Core/FiniteAlgebra.lean:147:32: function expected at
+  CRingLaws
+term has type
+  ?m.6814
+error: ././././Duodenary/Core/FiniteAlgebra.lean:152:27: function expected at
+  CRingLaws
+term has type
+  ?m.6885
+error: ././././Duodenary/Core/FiniteAlgebra.lean:155:28: function expected at
+  CRingLaws
+term has type
+  ?m.6908
+error: ././././Duodenary/Core/FiniteAlgebra.lean:166:66: failed to synthesize
+  OfNat (Fin m) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin m
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:166:69: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:167:37: failed to synthesize
+  OfNat (Fin m) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin m
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:167:40: failed to synthesize
+  OfNat (Fin n) 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Fin n
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/FiniteAlgebra.lean:176:15: invalid alternative name 'intro', expected 'mk'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:184:20: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?m * ?n % ?n
+case h
+x : Fin 12
+⊢ 12 * ↑x % 12 = 0
+error: ././././Duodenary/Core/FiniteAlgebra.lean:203:28: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  f 0
+case zero
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hf0 : f 0 = (0, 0)
+x : Fin 144
+⊢ f 0 = Psmul 0 (f x)
+error: ././././Duodenary/Core/FiniteAlgebra.lean:218:36: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?x + 0
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hinj : ∀ (x y : Fin 144), f x = f y → x = y
+⊢ f 0 = f 0
+error: ././././Duodenary/Core/FiniteAlgebra.lean:219:24: unknown identifier 'Pneg'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:219:48: unknown identifier 'Pneg_add_self'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:220:37: unknown identifier 'Pneg'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:221:8: unknown identifier 'Padd_assoc'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:221:8: tactic 'rewrite' failed, equality or iff proof expected
+  ?m.9148
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hinj : ∀ (x y : Fin 144), f x = f y → x = y
+h1 : f 0 = Padd (f 0) (f 0)
+h2 : Padd (f 0) sorry = (0, 0)
+⊢ Padd (Padd (f 0) (f 0)) sorry = Padd (f 0) (0, 0)
+error: ././././Duodenary/Core/FiniteAlgebra.lean:223:16: unknown identifier 'Padd_assoc'
+error: ././././Duodenary/Core/FiniteAlgebra.lean:223:14: tactic 'rewrite' failed, equality or iff proof expected
+  ?m.9203
+f : Fin 144 → Fin 12 × Fin 12
+hadd : ∀ (x y : Fin 144), f (x + y) = Padd (f x) (f y)
+hinj : ∀ (x y : Fin 144), f x = f y → x = y
+h1 : f 0 = Padd (f 0) (f 0)
+h2 : Padd (f 0) sorry = (0, 0)
+h4 : Padd (Padd (f 0) (f 0)) sorry = Padd (f 0) (0, 0)
+⊢ Padd (f 0) sorry = Padd (f 0) (Padd (f 0) sorry)
+error: ././././Duodenary/Core/FiniteAlgebra.lean:225:15: unknown identifier 'Padd_zero'
+error: Lean exited with code 1
+✖ [3/3] Building Duodenary.Core.Rational
+trace: .> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/build/lib DYLD_LIBRARY_PATH= /Users/johntobey/.elan/toolchains/leanprover--lean4---v4.14.0/bin/lean ././././Duodenary/Core/Rational.lean -R ./././. -o ././.lake/build/lib/Duodenary/Core/Rational.olean -i ././.lake/build/lib/Duodenary/Core/Rational.ilean -c ././.lake/build/ir/Duodenary/Core/Rational.c --json
+error: ././././Duodenary/Core/Rational.lean:31:20: application type mismatch
+  Nat.dvd_trans (Nat.gcd_dvd_right c b)
+argument
+  Nat.gcd_dvd_right c b
+has type
+  c.gcd b ∣ b : Prop
+but is expected to have type
+  (c.gcd b).gcd a ∣ c.gcd b : Prop
+error: ././././Duodenary/Core/Rational.lean:38:27: type mismatch
+  Nat.gcd_dvd_left c b
+has type
+  c.gcd b ∣ c : Prop
+but is expected to have type
+  c ∣ c.gcd b : Prop
+error: ././././Duodenary/Core/Rational.lean:55:13: type mismatch
+  Nat.mul_dvd_mul_left ?m.1147 (Nat.gcd_dvd_left ?m.1195 ?m.1196)
+has type
+  ?m.1147 * ?m.1195.gcd ?m.1196 ∣ ?m.1147 * ?m.1195 : Prop
+but is expected to have type
+  (a.gcd b * (a / a.gcd b)).gcd b *
+      (a.gcd b * (a / a.gcd b) / (a.gcd b * (a / a.gcd b)).gcd b).gcd (b / (a.gcd b * (a / a.gcd b)).gcd b) ∣
+    a.gcd b * (a / a.gcd b) : Prop
+error: ././././Duodenary/Core/Rational.lean:57:13: type mismatch
+  Nat.mul_dvd_mul_left ?m.1353 (Nat.gcd_dvd_right ?m.1381 ?m.1382)
+has type
+  ?m.1353 * ?m.1381.gcd ?m.1382 ∣ ?m.1353 * ?m.1382 : Prop
+but is expected to have type
+  a.gcd (a.gcd b * (b / a.gcd b)) *
+      (a / a.gcd (a.gcd b * (b / a.gcd b))).gcd (a.gcd b * (b / a.gcd b) / a.gcd (a.gcd b * (b / a.gcd b))) ∣
+    a.gcd b * (b / a.gcd b) : Prop
+error: ././././Duodenary/Core/Rational.lean:59:76: application type mismatch
+  Nat.pos_of_dvd_of_pos hgdg
+argument
+  hgdg
+has type
+  a.gcd b * (a / a.gcd b).gcd (b / a.gcd b) ∣ a.gcd b : Prop
+but is expected to have type
+  (a / a.gcd b).gcd (b / a.gcd b) ∣ a.gcd b : Prop
+error: ././././Duodenary/Core/Rational.lean:83:13: unknown constant 'Nat.div_pos'
+error: ././././Duodenary/Core/Rational.lean:86:9: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  (?a.tdiv ?b).natAbs
+num : Int
+den : Nat
+hden : 0 < den
+h : (num.natAbs / num.natAbs.gcd den).gcd (den / num.natAbs.gcd den) = 1
+⊢ (num.tdiv ↑(num.natAbs.gcd den)).natAbs.gcd (den / num.natAbs.gcd den) = 1
+error: ././././Duodenary/Core/Rational.lean:109:10: tactic 'rewrite' failed, pattern is a metavariable
+  ?n
+from equation
+  ?n = (↑?n).natAbs
+a b : Q
+h : a.num * ↑b.den = b.num * ↑a.den
+hint : ↑b.den ∣ b.num * ↑a.den
+⊢ b.den ∣ b.num.natAbs * a.den
+error: ././././Duodenary/Core/Rational.lean:117:10: tactic 'rewrite' failed, pattern is a metavariable
+  ?n
+from equation
+  ?n = (↑?n).natAbs
+a b : Q
+h : a.num * ↑b.den = b.num * ↑a.den
+hdm : b.den ∣ a.den
+hint : ↑a.den ∣ a.num * ↑b.den
+⊢ a.den ∣ a.num.natAbs * b.den
+error: ././././Duodenary/Core/Rational.lean:120:48: application type mismatch
+  Nat.dvd_antisymm hdm
+argument
+  hdm
+has type
+  b.den ∣ a.den : Prop
+but is expected to have type
+  a.den ∣ b.den : Prop
+error: ././././Duodenary/Core/Rational.lean:125:85: application type mismatch
+  Int.mul_lt_mul_of_pos_right hc a.den_pos
+argument
+  a.den_pos
+has type
+  (0 : Nat) < a.den : Prop
+but is expected to have type
+  (0 : Int) < ↑a.den : Prop
+error: ././././Duodenary/Core/Rational.lean:129:85: application type mismatch
+  Int.mul_lt_mul_of_pos_right hc a.den_pos
+argument
+  a.den_pos
+has type
+  (0 : Nat) < a.den : Prop
+but is expected to have type
+  (0 : Int) < ↑a.den : Prop
+error: ././././Duodenary/Core/Rational.lean:136:11: function expected at
+  One
+term has type
+  ?m.4372
+error: ././././Duodenary/Core/Rational.lean:146:67: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  Nat.gcd 0 ?y
+⊢ Int.tdiv 0 ↑((Int.natAbs 0).gcd 1) = 0
+error: ././././Duodenary/Core/Rational.lean:150:67: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  Nat.gcd 0 ?y
+⊢ 1 / (Int.natAbs 0).gcd 1 = 1
+error: ././././Duodenary/Core/Rational.lean:153:29: failed to synthesize
+  OfNat Q 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Q
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/Rational.lean:154:12: failed to synthesize
+  OfNat Q 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Q
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/Rational.lean:155:2: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≤ 0
+where
+ a := Int.tdiv 1 ↑1
+error: ././././Duodenary/Core/Rational.lean:157:29: failed to synthesize
+  OfNat Q 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Q
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/Rational.lean:158:12: failed to synthesize
+  OfNat Q 1
+numerals are polymorphic in Lean, but the numeral `1` cannot be used in a context where the expected type is
+  Q
+due to the absence of the instance above
+Additional diagnostic information may be available using the `set_option diagnostics true` command.
+error: ././././Duodenary/Core/Rational.lean:159:2: no goals to be solved
+error: ././././Duodenary/Core/Rational.lean:161:57: type mismatch
+  rfl
+has type
+  (-a).num = (-a).num : Prop
+but is expected to have type
+  (-a).num = -a.num : Prop
+error: ././././Duodenary/Core/Rational.lean:162:56: type mismatch
+  rfl
+has type
+  (-a).den = (-a).den : Prop
+but is expected to have type
+  (-a).den = a.den : Prop
+error: ././././Duodenary/Core/Rational.lean:164:53: type mismatch
+  rfl
+has type
+  (a + b).num = (a + b).num : Prop
+but is expected to have type
+  (a + b).num = a.num * ↑b.den + b.num * ↑a.den : Prop
+error: ././././Duodenary/Core/Rational.lean:165:69: type mismatch
+  rfl
+has type
+  (a + b).den = (a + b).den : Prop
+but is expected to have type
+  (a + b).den = a.den * b.den : Prop
+error: ././././Duodenary/Core/Rational.lean:166:69: type mismatch
+  rfl
+has type
+  (a * b).num = (a * b).num : Prop
+but is expected to have type
+  (a * b).num = a.num * b.num : Prop
+error: ././././Duodenary/Core/Rational.lean:167:69: type mismatch
+  rfl
+has type
+  (a * b).den = (a * b).den : Prop
+but is expected to have type
+  (a * b).den = a.den * b.den : Prop
+error: ././././Duodenary/Core/Rational.lean:182:2: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a ≥ 0
+  a - b ≥ 1
+where
+ a := ↑n
+ b := (↑n).tdiv ↑1
+error: ././././Duodenary/Core/Rational.lean:186:2: no goals to be solved
+error: ././././Duodenary/Core/Rational.lean:190:2: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  a - b ≥ 1
+where
+ a := i
+ b := i.tdiv ↑1
+error: ././././Duodenary/Core/Rational.lean:194:2: no goals to be solved
+error: ././././Duodenary/Core/Rational.lean:200:4: tactic 'assumption' failed
+case mp
+m n : Nat
+h : ↑m = ↑n
+h2 : ↑m = ↑n
+⊢ m = n
+error: ././././Duodenary/Core/Rational.lean:245:37: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b ≤ c
+e1 : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den ≤ c.num * ↑b.den * ↑a.den
+⊢ ↑a.den * (↑b.den * (a.num * ↑c.den)) = a.num * (↑b.den * ↑c.den)
+error: ././././Duodenary/Core/Rational.lean:248:37: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b ≤ c
+e1 : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den ≤ c.num * ↑b.den * ↑a.den
+⊢ b.num * (↑a.den * ↑c.den) = ↑a.den * (b.num * ↑c.den)
+error: ././././Duodenary/Core/Rational.lean:251:48: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b ≤ c
+e1 : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den ≤ c.num * ↑b.den * ↑a.den
+⊢ ↑a.den * (c.num * ↑b.den) = c.num * (↑a.den * (↑a.den * ↑b.den))
+error: ././././Duodenary/Core/Rational.lean:254:20: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  h - i ≥ 0
+  f - g ≥ 0
+  d - e ≥ 0
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:254:31: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  h - i ≥ 0
+  f - g ≥ 0
+  d - e ≥ 0
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:256:23: application type mismatch
+  Int.le_of_lt (Int.mul_lt_mul_of_pos_right hc hpos)
+argument
+  Int.mul_lt_mul_of_pos_right hc hpos
+has type
+  a.num * (↑b.den * ↑a.den) < c.num * (↑b.den * ↑a.den) : Prop
+but is expected to have type
+  a.num * ↑c.den < c.num * ↑a.den : Prop
+error: ././././Duodenary/Core/Rational.lean:257:4: type mismatch
+  hc
+has type
+  a.num = c.num : Prop
+but is expected to have type
+  a ≤ c : Prop
+error: ././././Duodenary/Core/Rational.lean:260:40: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  m - n ≥ 0
+  k - l ≥ 1
+  j ≥ 1
+  h - i ≥ 0
+  f - g ≥ 0
+  d - e ≥ 0
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+ j := ↑b.den * ↑a.den
+ k := a.num
+ l := c.num
+ m := c.num * ↑a.den
+ n := a.num * ↑c.den
+error: ././././Duodenary/Core/Rational.lean:276:39: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+error: ././././Duodenary/Core/Rational.lean:278:39: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d - e ≥ 1
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+error: ././././Duodenary/Core/Rational.lean:281:37: unsolved goals
+a b c : Q
+h1 : a < b
+h2 : b < c
+e1 : a.num * ↑b.den * ↑c.den < b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+⊢ ↑a.den * (↑b.den * (a.num * ↑c.den)) = a.num * (↑b.den * ↑c.den)
+error: ././././Duodenary/Core/Rational.lean:284:37: unsolved goals
+a b c : Q
+h1 : a < b
+h2 : b < c
+e1 : a.num * ↑b.den * ↑c.den < b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+⊢ b.num * (↑a.den * ↑c.den) = ↑a.den * (b.num * ↑c.den)
+error: ././././Duodenary/Core/Rational.lean:287:48: unsolved goals
+a b c : Q
+h1 : a < b
+h2 : b < c
+e1 : a.num * ↑b.den * ↑c.den < b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+⊢ ↑a.den * (c.num * ↑b.den) = c.num * (↑a.den * (↑a.den * ↑b.den))
+error: ././././Duodenary/Core/Rational.lean:290:20: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  h - i ≥ 1
+  f - g ≥ 1
+  d - e ≥ 1
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:290:31: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  h - i ≥ 1
+  f - g ≥ 1
+  d - e ≥ 1
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:292:4: type mismatch
+  hc
+has type
+  a.num < c.num : Prop
+but is expected to have type
+  a < c : Prop
+error: ././././Duodenary/Core/Rational.lean:294:92: unsolved goals
+a b c : Q
+h1 : a < b
+h2 : b < c
+e1 : a.num * ↑b.den * ↑c.den < b.num * ↑a.den * ↑c.den
+e2 : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+key : a.num * ↑c.den * (↑b.den * ↑a.den) < c.num * ↑a.den * (↑b.den * ↑a.den)
+hpos : 0 < ↑b.den * ↑a.den
+hc : a.num = c.num
+⊢ c.num * ↑a.den * (↑b.den * ↑a.den) = c.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:299:36: application type mismatch
+  Int.mul_lt_mul_of_pos_right hc
+argument
+  hc
+has type
+  c.num < a.num : Prop
+but is expected to have type
+  c.num * ↑a.den < a.num * ↑c.den : Prop
+error: ././././Duodenary/Core/Rational.lean:306:39: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  d - e ≥ 0
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+error: ././././Duodenary/Core/Rational.lean:309:37: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b < c
+hle : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+hlt : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+⊢ ↑a.den * (↑b.den * (a.num * ↑c.den)) = a.num * (↑b.den * ↑c.den)
+error: ././././Duodenary/Core/Rational.lean:312:37: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b < c
+hle : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+hlt : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+⊢ b.num * (↑a.den * ↑c.den) = ↑a.den * (b.num * ↑c.den)
+error: ././././Duodenary/Core/Rational.lean:315:48: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b < c
+hle : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+hlt : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+⊢ ↑a.den * (c.num * ↑b.den) = c.num * (↑a.den * (↑a.den * ↑b.den))
+error: ././././Duodenary/Core/Rational.lean:318:20: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  h - i ≥ 1
+  f - g ≥ 1
+  d - e ≥ 0
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:318:31: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  h - i ≥ 1
+  f - g ≥ 1
+  d - e ≥ 0
+where
+ d := b.num * ↑a.den * ↑c.den
+ e := a.num * ↑b.den * ↑c.den
+ f := c.num * ↑b.den * ↑a.den
+ g := b.num * ↑c.den * ↑a.den
+ h := c.num * ↑a.den * (↑b.den * ↑a.den)
+ i := a.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:320:4: type mismatch
+  hc
+has type
+  a.num < c.num : Prop
+but is expected to have type
+  a < c : Prop
+error: ././././Duodenary/Core/Rational.lean:322:92: unsolved goals
+a b c : Q
+h1 : a ≤ b
+h2 : b < c
+hle : a.num * ↑b.den * ↑c.den ≤ b.num * ↑a.den * ↑c.den
+hlt : b.num * ↑c.den * ↑a.den < c.num * ↑b.den * ↑a.den
+key : a.num * ↑c.den * (↑b.den * ↑a.den) < c.num * ↑a.den * (↑b.den * ↑a.den)
+hpos : 0 < ↑b.den * ↑a.den
+hc : a.num = c.num
+⊢ c.num * ↑a.den * (↑b.den * ↑a.den) = c.num * ↑c.den * (↑b.den * ↑a.den)
+error: ././././Duodenary/Core/Rational.lean:327:36: application type mismatch
+  Int.mul_lt_mul_of_pos_right hc
+argument
+  hc
+has type
+  c.num < a.num : Prop
+but is expected to have type
+  c.num * ↑a.den < a.num * ↑c.den : Prop
+error: ././././Duodenary/Core/Rational.lean:331:16: application type mismatch
+  lt_trans h1 (le_of_lt ?m.23109)
+argument
+  le_of_lt ?m.23109
+has type
+  ?m.22025 ≤ ?m.22026 : Prop
+but is expected to have type
+  b < c : Prop
+error: ././././Duodenary/Core/Rational.lean:339:50: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+case mp
+a : Q
+h : 0 < a.num * ↑1
+⊢ 0 < a.num
+error: ././././Duodenary/Core/Rational.lean:342:50: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+case mpr
+a : Q
+h : 0 < a.num
+⊢ 0 < a.num * ↑1
+error: ././././Duodenary/Core/Rational.lean:349:50: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+case mp
+a : Q
+h : 0 ≤ a.num * ↑1
+⊢ 0 ≤ a.num
+error: ././././Duodenary/Core/Rational.lean:352:50: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+case mpr
+a : Q
+h : 0 ≤ a.num
+⊢ 0 ≤ a.num * ↑1
+error: ././././Duodenary/Core/Rational.lean:359:50: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+case mp
+a : Q
+h : a.num * ↑1 < 0
+⊢ a.num < 0
+error: ././././Duodenary/Core/Rational.lean:362:50: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+case mpr
+a : Q
+h : a.num < 0
+⊢ a.num * ↑1 < 0
+error: ././././Duodenary/Core/Rational.lean:367:74: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+n : Nat
+⊢ 0 < ↑n * ↑1 ↔ 0 < n
+error: ././././Duodenary/Core/Rational.lean:372:74: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+n : Nat
+⊢ 0 ≤ ↑n * ↑1
+error: ././././Duodenary/Core/Rational.lean:377:74: tactic 'rewrite' failed, did not find instance of the pattern in the target expression
+  ?a * 1
+i : Int
+⊢ 0 < i * ↑1 ↔ 0 < i
+error: ././././Duodenary/Core/Rational.lean:381:21: unknown constant 'Duodenary.Q.pos_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:381:39: unknown constant 'Duodenary.Q.pos_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:385:24: unknown constant 'Duodenary.Q.nonneg_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:385:45: unknown constant 'Duodenary.Q.nonneg_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:390:17: unknown constant 'Duodenary.Q.pos_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:390:38: omega could not prove the goal:
+No usable constraints found. You may need to unfold definitions so `omega` can see linear arithmetic facts about `Nat` and `Int`, which may also involve multiplication, division, and modular remainder by constants.
+error: ././././Duodenary/Core/Rational.lean:392:17: unknown constant 'Duodenary.Q.pos_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:392:38: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  c ≥ 1
+where
+ c := a.num * ↑b.den
+error: ././././Duodenary/Core/Rational.lean:398:20: unknown constant 'Duodenary.Q.nonneg_iff.mp'
+error: ././././Duodenary/Core/Rational.lean:400:20: unknown constant 'Duodenary.Q.nonneg_iff.mp'
+error: Lean exited with code 1
+Some required builds logged failures:
+- Duodenary.Core.FiniteAlgebra
+- Duodenary.Core.Rational
+error: build failed
