@@ -1,8 +1,10 @@
-import Mathlib.Tactic.DeriveFintype
 import Duodenary.Imported.AffineKernel
 import Duodenary.Imported.ProductKernel
 /-! The 24 affine maps with multiplier 1 or 11 preserve cyclic distance.
-    This is a subgroup of the full 48-element affine group. -/
+    This is a subgroup of the full 48-element affine group.
+
+Axiomatic purification: Fintype instances are hand-written explicit
+enumerations; all decides resolve constructively (no Classical.choice). -/
 namespace Duodenary.MachineMetric
 set_option maxRecDepth 100000
 set_option maxHeartbeats 2000000
@@ -10,7 +12,12 @@ open Duodenary.MachineCore
 
 inductive IsoUnit where
   | plus | minus
-  deriving DecidableEq, Repr, Fintype
+  deriving DecidableEq, Repr
+
+/-- Explicit enumeration of the two isometric multipliers. -/
+instance instFinEnumIsoUnit : FinEnum IsoUnit :=
+  ⟨[IsoUnit.plus, IsoUnit.minus],
+   by intro x; cases x <;> simp⟩
 
 def toUnit : IsoUnit → Duodenary.MachineAffine.Unit12
   | .plus => .u1
@@ -19,7 +26,23 @@ def toUnit : IsoUnit → Duodenary.MachineAffine.Unit12
 structure Isometry where
   a : IsoUnit
   b : Z12
-  deriving DecidableEq, Repr, Fintype
+  deriving DecidableEq, Repr
+
+/-- Explicit enumeration of the 24 isometries (2 multipliers x 12 offsets). -/
+def allOffsets : List Z12 := (List.range 12).map (fun (n : Nat) => ⟨n % 12, by omega⟩)
+theorem mem_allOffsets (b : Z12) : b ∈ allOffsets :=
+  List.mem_map.2 ⟨b.val, List.mem_range.mpr b.isLt, castNat_val_lt b⟩
+
+def allIsometries : List Isometry :=
+  [IsoUnit.plus, IsoUnit.minus].flatMap (fun a => allOffsets.map (fun b => ⟨a, b⟩))
+
+instance instFinEnumIsometry : FinEnum Isometry :=
+  ⟨allIsometries, by
+    intro g
+    cases g with
+    | mk a b =>
+      refine List.mem_flatMap.2 ⟨a, ?_, List.mem_map.2 ⟨b, mem_allOffsets b, rfl⟩⟩
+      cases a <;> simp [allIsometries]⟩
 
 def toAffine (g : Isometry) : Duodenary.MachineAffine.Affine :=
   ⟨toUnit g.a, g.b⟩
@@ -88,11 +111,6 @@ theorem inverse_right (g : Isometry) (x : Z12) :
     Duodenary.MachineAffine.apply (toAffine (compose g (inverse g))) x = x := by
   rw [compose_sound, inverse_sound]
   exact Duodenary.MachineAffine.inverse_right (toAffine g) x
-
-def allOffsets : List Z12 := (List.range 12).map (fun (n : Nat) => (n : Z12))
-def allIsometries : List Isometry :=
-  ([IsoUnit.plus, IsoUnit.minus] : List IsoUnit).flatMap
-    (fun a => allOffsets.map (fun b => ⟨a, b⟩))
 
 theorem subgroup_cardinality : allIsometries.length = 24 := by decide
 

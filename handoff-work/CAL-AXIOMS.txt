@@ -1,0 +1,5 @@
+'Duodenary.calendar_annihilator_classification' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_image_annihilated' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_image_classification' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_no_surjective_hom' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_image_card_bound' depends on axioms: [propext, Quot.sound]

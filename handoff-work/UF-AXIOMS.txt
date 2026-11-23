@@ -1,0 +1,17 @@
+TASK-UF-NAT axiom gate — 2026-11-09 19:07 -06
+File: Duodenary/Problems/UnitFractions.lean (Mathlib-free, imports only Duodenary.Core.Cyclic)
+Build: lake build Duodenary.Problems.UnitFractions — exit 0
+Method: lake env lean /tmp/UF_AXIOM_CHECK.lean (temp file outside project tree)
+
+'Duodenary.unit_fraction_multiple_three' depends on axioms: [propext, Quot.sound]
+'Duodenary.positive_integer_denominators' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.ThreeUnitFractions' does not depend on any axioms
+'Duodenary.multiple_three_certificate' depends on axioms: [propext, Quot.sound]
+'Duodenary.even_certificate' depends on axioms: [propext, Quot.sound]
+'Duodenary.two_mod_three_certificate' depends on axioms: [propext, Quot.sound]
+
+Gate verdict: PASS
+- No sorryAx in any dependency chain (sorry-free).
+- Only Lean's three built-in foundational axioms; no new axioms introduced.
+- Classical.choice arises solely from omega's classical decidability instances (standard).
+- No Mathlib imports; no ring/field_simp/linarith/norm_num; omega + core Nat lemmas only.

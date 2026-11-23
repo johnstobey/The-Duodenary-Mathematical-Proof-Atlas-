@@ -1,6 +1,9 @@
-import Mathlib.Tactic.DeriveFintype
 import Duodenary.Imported.CyclicKernel
-/-! The 48 affine permutations x ↦ a*x+b over Z/12Z. -/
+/-! The 48 affine permutations x ↦ a*x+b over Z/12Z.
+
+Axiomatic purification: Fintype instances are hand-written explicit
+enumerations (Mathlib's deriving Fintype routes through Classical.choice).
+All decides resolve constructively; verified by #print axioms. -/
 namespace Duodenary.MachineAffine
 set_option maxRecDepth 100000
 set_option maxHeartbeats 2000000
@@ -8,7 +11,12 @@ open Duodenary.MachineCore
 
 inductive Unit12 where
   | u1 | u5 | u7 | u11
-  deriving DecidableEq, Repr, Fintype
+  deriving DecidableEq, Repr
+
+/-- Explicit enumeration of the four permitted multipliers. -/
+instance instFinEnumUnit12 : FinEnum Unit12 :=
+  ⟨[Unit12.u1, Unit12.u5, Unit12.u7, Unit12.u11],
+   by intro x; cases x <;> simp⟩
 
 def Unit12.val : Unit12 → Z12
   | .u1 => 1
@@ -50,7 +58,25 @@ theorem unit_prod_self : ∀ a : Unit12, Unit12.prod a a = .u1 := by decide
 structure Affine where
   a : Unit12
   b : Z12
-  deriving DecidableEq, Repr, Fintype
+  deriving DecidableEq, Repr
+
+/-- Explicit enumeration of the 48 affine maps (4 multipliers x 12 offsets). -/
+def allUnits : List Unit12 := [.u1, .u5, .u7, .u11]
+def allOffsets : List Z12 := (List.range 12).map (fun (n : Nat) => ⟨n % 12, by omega⟩)
+theorem mem_allOffsets (b : Z12) : b ∈ allOffsets :=
+  List.mem_map.2 ⟨b.val, List.mem_range.mpr b.isLt, castNat_val_lt b⟩
+
+def allAffine : List Affine :=
+  allUnits.flatMap (fun a => allOffsets.map (fun b => ⟨a, b⟩))
+
+instance instFinEnumAffine : FinEnum Affine :=
+  ⟨allAffine, by
+    intro f
+    cases f with
+    | mk a b =>
+      refine List.mem_flatMap.2 ⟨a, ?_, ?_⟩
+      · cases a <;> simp [allUnits]
+      · exact List.mem_map.2 ⟨b, mem_allOffsets b, rfl⟩⟩
 
 def apply (f : Affine) (x : Z12) : Z12 :=
   add (mul f.a.val x) f.b
@@ -107,12 +133,6 @@ theorem compose_associative (h g f : Affine) :
         · exact unit_prod_assoc ha ga fa
         · rw [unit_prod_sound, Duodenary.MachineCore.mul_add]
           rw [Duodenary.MachineCore.mul_assoc, Duodenary.MachineCore.add_assoc]
-
--- An explicit exhaustive 48-element enumeration.
-def allUnits : List Unit12 := [.u1, .u5, .u7, .u11]
-def allOffsets : List Z12 := (List.range 12).map (fun (n : Nat) => (n : Z12))
-def allAffine : List Affine :=
-  allUnits.flatMap (fun a => allOffsets.map (fun b => ⟨a, b⟩))
 
 theorem allOffsets_length : allOffsets.length = 12 := by decide
 theorem allAffine_length : allAffine.length = 48 := by decide

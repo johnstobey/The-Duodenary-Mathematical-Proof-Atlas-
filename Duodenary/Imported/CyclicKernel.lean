@@ -1,15 +1,24 @@
-import Mathlib.Data.Fin.Basic
+import Duodenary.Core.Cyclic
 
 /-! A twelve-element ring, using only Lean's bundled finite naturals. -/
 namespace Duodenary.MachineCore
 
 abbrev Z12 := Fin 12
 
+/-- Core-only cast Nat → Z12 (replaces Mathlib's NatCast). -/
+def castNat (n : Nat) : Z12 := ⟨n % 12, by omega⟩
+
+theorem castNat_eq (n : Nat) (h : n < 12) : castNat n = ⟨n, h⟩ :=
+  Fin.ext (Nat.mod_eq_of_lt h)
+
+theorem castNat_val_lt (x : Z12) : castNat x.val = x :=
+  Fin.ext (Nat.mod_eq_of_lt x.isLt)
+
 -- Fin's arithmetic instances reduce modulo the bound.
 def add (x y : Z12) : Z12 := x + y
 def mul (x y : Z12) : Z12 := x * y
 def neg (x : Z12) : Z12 := -x
-def scale (n : Nat) (x : Z12) : Z12 := (n : Z12) * x
+def scale (n : Nat) (x : Z12) : Z12 := castNat n * x
 
 theorem add_comm : ∀ x y : Z12, add x y = add y x := by decide
 theorem add_assoc : ∀ x y z : Z12, add (add x y) z = add x (add y z) := by decide
@@ -27,7 +36,7 @@ theorem mul_add : ∀ x y z : Z12,
 theorem add_mul : ∀ x y z : Z12,
     mul (add x y) z = add (mul x z) (mul y z) := by decide
 
-theorem scale_def (n : Nat) (x : Z12) : scale n x = mul (n : Z12) x := rfl
+theorem scale_def (n : Nat) (x : Z12) : scale n x = mul (castNat n) x := rfl
 theorem scale_one : ∀ x : Z12, scale 1 x = x := by decide
 theorem scale_zero : ∀ x : Z12, scale 0 x = 0 := by decide
 theorem scale_add : ∀ m n : Fin 12, ∀ x : Z12,
@@ -38,7 +47,7 @@ theorem twelve_eq_zero : (12 : Z12) = 0 := by decide
 theorem twelvefold_periodicity : ∀ x : Z12, add x (12 : Z12) = x := by decide
 
 -- The stronger statement: twelve successive unit rotations are identity.
-def rotate (n : Nat) (x : Z12) : Z12 := add x (n : Z12)
+def rotate (n : Nat) (x : Z12) : Z12 := add x (castNat n)
 theorem rotate_twelve : ∀ x : Z12, rotate 12 x = x := by decide
 
 end Duodenary.MachineCore

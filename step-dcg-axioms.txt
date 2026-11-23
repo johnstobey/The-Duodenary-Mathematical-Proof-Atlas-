@@ -1,0 +1,184 @@
+'Duodenary.C12' does not depend on any axioms
+/tmp/atlas_audit2.lean:2:28: error: unexpected identifier; expected command
+'Duodenary.rotate' does not depend on any axioms
+'Duodenary.opposite' depends on axioms: [propext]
+'Duodenary.reflect' does not depend on any axioms
+'Duodenary.rotate_zero' depends on axioms: [propext]
+'Duodenary.rotate_comp' does not depend on any axioms
+'Duodenary.difference_preserved' does not depend on any axioms
+'Duodenary.opposite_involution' depends on axioms: [propext]
+'Duodenary.opposite_has_no_fixed_point' depends on axioms: [propext]
+'Duodenary.reflection_involution' does not depend on any axioms
+'Duodenary.reflection_rotation' does not depend on any axioms
+'Duodenary.crt' depends on axioms: [propext, Quot.sound]
+/tmp/atlas_audit2.lean:13:28: error: unexpected identifier; expected command
+'Duodenary.uncrt' depends on axioms: [propext]
+'Duodenary.crt_left_inverse' depends on axioms: [propext, Quot.sound]
+'Duodenary.crt_right_inverse' depends on axioms: [propext, Quot.sound]
+'Duodenary.crt_preserves_addition' depends on axioms: [propext, Quot.sound]
+'Duodenary.crt_preserves_multiplication' depends on axioms: [propext, Quot.sound]
+'Duodenary.crtEquiv' depends on axioms: [propext, Quot.sound]
+'Duodenary.cyclicDistance' does not depend on any axioms
+'Duodenary.distance_symmetric' depends on axioms: [propext]
+'Duodenary.distance_bound' does not depend on any axioms
+'Duodenary.seven_distance_values' depends on axioms: [propext, Quot.sound]
+'Duodenary.unitSlope' depends on axioms: [propext]
+'Duodenary.Affine' does not depend on any axioms
+/tmp/atlas_audit2.lean:25:31: error: unexpected identifier; expected command
+'Duodenary.affineApply' depends on axioms: [propext]
+'Duodenary.slope_square' depends on axioms: [propext]
+'Duodenary.inverseApply' depends on axioms: [propext]
+'Duodenary.affine_inverse' depends on axioms: [propext]
+'Duodenary.affine_reverse_inverse' depends on axioms: [propext]
+'Duodenary.affine_faithful' depends on axioms: [propext]
+'Duodenary.affine_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.slopeProduct' depends on axioms: [propext]
+'Duodenary.slope_product_correct' depends on axioms: [propext]
+'Duodenary.affineCompose' depends on axioms: [propext]
+'Duodenary.affine_composition' depends on axioms: [propext]
+'Duodenary.affine_associative' depends on axioms: [propext]
+'Duodenary.affine_identity' depends on axioms: [propext]
+'Duodenary.affineInverse' depends on axioms: [propext]
+'Duodenary.affine_two_sided_inverse' depends on axioms: [propext]
+'Duodenary.Product144' does not depend on any axioms
+/tmp/atlas_audit2.lean:41:35: error: unexpected identifier; expected command
+'Duodenary.encode144' depends on axioms: [propext, Quot.sound]
+'Duodenary.decode144' depends on axioms: [propext]
+'Duodenary.product144_left_inverse' depends on axioms: [propext, Quot.sound]
+'Duodenary.product144_right_inverse' depends on axioms: [propext, Quot.sound]
+'Duodenary.product144_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.product_exponent' depends on axioms: [propext, Quot.sound]
+'Duodenary.cyclic144_not_exponent12' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_image_annihilated' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_image_classification' depends on axioms: [propext, Quot.sound]
+'Duodenary.calendar_image_card_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.calendar_no_surjective_hom' depends on axioms: [propext, Quot.sound]
+'Duodenary.multiple_three_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.two_mod_three_certificate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.affine_slope_five_has_four_cycle' depends on axioms: [propext]
+'Duodenary.MachineCore.Z12' does not depend on any axioms
+/tmp/atlas_audit2.lean:56:40: error: unexpected identifier; expected command
+'Duodenary.MachineCore.add' does not depend on any axioms
+/tmp/atlas_audit2.lean:57:40: error: unexpected identifier; expected command
+'Duodenary.MachineCore.mul' does not depend on any axioms
+/tmp/atlas_audit2.lean:58:40: error: unexpected identifier; expected command
+'Duodenary.MachineCore.neg' does not depend on any axioms
+/tmp/atlas_audit2.lean:59:40: error: unexpected identifier; expected command
+'Duodenary.MachineCore.scale' depends on axioms: [propext]
+'Duodenary.MachineCore.add_comm' does not depend on any axioms
+/tmp/atlas_audit2.lean:61:45: error: unexpected identifier; expected command
+'Duodenary.MachineCore.add_assoc' does not depend on any axioms
+/tmp/atlas_audit2.lean:62:46: error: unexpected identifier; expected command
+'Duodenary.MachineCore.add_zero' depends on axioms: [propext]
+'Duodenary.MachineCore.zero_add' depends on axioms: [propext]
+'Duodenary.MachineCore.add_neg' depends on axioms: [propext]
+'Duodenary.MachineCore.neg_add' depends on axioms: [propext]
+'Duodenary.MachineCore.mul_comm' does not depend on any axioms
+/tmp/atlas_audit2.lean:67:45: error: unexpected identifier; expected command
+'Duodenary.MachineCore.mul_assoc' does not depend on any axioms
+/tmp/atlas_audit2.lean:68:46: error: unexpected identifier; expected command
+'Duodenary.MachineCore.mul_one' depends on axioms: [propext]
+'Duodenary.MachineCore.one_mul' depends on axioms: [propext]
+'Duodenary.MachineCore.mul_add' does not depend on any axioms
+/tmp/atlas_audit2.lean:71:44: error: unexpected identifier; expected command
+'Duodenary.MachineCore.add_mul' does not depend on any axioms
+/tmp/atlas_audit2.lean:72:44: error: unexpected identifier; expected command
+'Duodenary.MachineCore.scale_def' depends on axioms: [propext]
+'Duodenary.MachineCore.scale_one' depends on axioms: [propext]
+'Duodenary.MachineCore.scale_zero' depends on axioms: [propext]
+'Duodenary.MachineCore.scale_add' does not depend on any axioms
+/tmp/atlas_audit2.lean:76:46: error: unexpected identifier; expected command
+'Duodenary.MachineCore.twelve_eq_zero' depends on axioms: [propext]
+'Duodenary.MachineCore.twelvefold_periodicity' depends on axioms: [propext]
+'Duodenary.MachineCore.rotate' depends on axioms: [propext]
+'Duodenary.MachineCore.rotate_twelve' depends on axioms: [propext]
+'Duodenary.MachineAffine.Unit12.val' depends on axioms: [propext]
+'Duodenary.MachineAffine.unit_involutive' depends on axioms: [propext]
+'Duodenary.MachineAffine.Unit12.prod' does not depend on any axioms
+/tmp/atlas_audit2.lean:83:50: error: unexpected identifier; expected command
+'Duodenary.MachineAffine.unit_prod_sound' depends on axioms: [propext]
+'Duodenary.MachineAffine.unit_prod_assoc' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.unit_prod_left_one' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.unit_prod_right_one' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.unit_prod_self' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.apply' depends on axioms: [propext]
+'Duodenary.MachineAffine.compose' depends on axioms: [propext]
+'Duodenary.MachineAffine.compose_apply' depends on axioms: [propext]
+'Duodenary.MachineAffine.inverse' depends on axioms: [propext]
+'Duodenary.MachineAffine.identity' depends on axioms: [propext]
+'Duodenary.MachineAffine.identity_apply' depends on axioms: [propext]
+'Duodenary.MachineAffine.inverse_left_action' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.inverse_right_action' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.inverse_left' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.inverse_right' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.compose_left_identity' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.compose_right_identity' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.compose_associative' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineAffine.allUnits' does not depend on any axioms
+/tmp/atlas_audit2.lean:102:47: error: unexpected identifier; expected command
+'Duodenary.MachineAffine.allOffsets' depends on axioms: [propext]
+'Duodenary.MachineAffine.allAffine' depends on axioms: [propext]
+'Duodenary.MachineAffine.allOffsets_length' depends on axioms: [propext]
+'Duodenary.MachineAffine.allAffine_length' depends on axioms: [propext]
+'Duodenary.MachineProduct.V' does not depend on any axioms
+/tmp/atlas_audit2.lean:107:41: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.displacement' does not depend on any axioms
+/tmp/atlas_audit2.lean:108:52: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.shift1' does not depend on any axioms
+/tmp/atlas_audit2.lean:109:46: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.shift' does not depend on any axioms
+/tmp/atlas_audit2.lean:110:45: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.delta' does not depend on any axioms
+/tmp/atlas_audit2.lean:111:45: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.opposite1' depends on axioms: [propext]
+'Duodenary.MachineProduct.antipode' depends on axioms: [propext]
+'Duodenary.MachineProduct.opposite_involution' depends on axioms: [propext]
+'Duodenary.MachineProduct.antipode_involution' depends on axioms: [propext]
+'Duodenary.MachineProduct.displacement_shift_invariant' does not depend on any axioms
+/tmp/atlas_audit2.lean:116:68: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.shift_invariance' does not depend on any axioms
+/tmp/atlas_audit2.lean:117:56: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.antipodal_distance_invariance' depends on axioms: [propext]
+'Duodenary.MachineProduct.circularDistance' does not depend on any axioms
+/tmp/atlas_audit2.lean:119:56: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.circularDistance_symm' depends on axioms: [propext]
+'Duodenary.MachineProduct.circularDistance_shift_invariant' does not depend on any axioms
+/tmp/atlas_audit2.lean:121:72: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.productDistance' does not depend on any axioms
+/tmp/atlas_audit2.lean:122:55: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.productDistance_shift_invariant' does not depend on any axioms
+/tmp/atlas_audit2.lean:123:71: error: unexpected identifier; expected command
+'Duodenary.MachineProduct.productDistance_antipode_invariant' depends on axioms: [propext]
+'Duodenary.MachineMetric.toUnit' does not depend on any axioms
+/tmp/atlas_audit2.lean:125:45: error: unexpected identifier; expected command
+'Duodenary.MachineMetric.toAffine' does not depend on any axioms
+/tmp/atlas_audit2.lean:126:47: error: unexpected identifier; expected command
+'Duodenary.MachineMetric.act' depends on axioms: [propext]
+'Duodenary.MachineMetric.circular_isometry' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineMetric.actV' depends on axioms: [propext]
+'Duodenary.MachineMetric.product_isometry' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineMetric.productUnit' does not depend on any axioms
+/tmp/atlas_audit2.lean:131:50: error: unexpected identifier; expected command
+'Duodenary.MachineMetric.unit_product_sound' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineMetric.compose' depends on axioms: [propext]
+'Duodenary.MachineMetric.compose_sound' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineMetric.identity' depends on axioms: [propext]
+'Duodenary.MachineMetric.inverse' depends on axioms: [propext]
+'Duodenary.MachineMetric.inverse_sound' depends on axioms: [propext]
+'Duodenary.MachineMetric.inverse_left' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineMetric.inverse_right' depends on axioms: [propext, Quot.sound]
+'Duodenary.MachineMetric.allOffsets' depends on axioms: [propext]
+'Duodenary.MachineMetric.allIsometries' depends on axioms: [propext]
+'Duodenary.MachineMetric.subgroup_cardinality' depends on axioms: [propext]
+'Duodenary.machineUnitIndex' depends on axioms: [propext]
+'Duodenary.machineAffineBridge' depends on axioms: [propext]
+'Duodenary.machine_slope_agrees' depends on axioms: [propext]
+'Duodenary.machine_action_agrees' depends on axioms: [propext]
+'Duodenary.machine_bridge_injective' depends on axioms: [propext, Quot.sound]
+'Duodenary.machine_bridge_surjective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.machine_composition_agrees' depends on axioms: [propext]
+'Duodenary.machine_distance_agrees' does not depend on any axioms
+'Duodenary.affine_metric_classification' depends on axioms: [propext]
+'Duodenary.MetricAffine' depends on axioms: [propext]
+'Duodenary.metric_affine_cardinality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Duodenary.affine_slope_five_not_isometry' depends on axioms: [propext]
