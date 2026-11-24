@@ -104,9 +104,16 @@ bijective/partial distinction:
 | `c12_units_card` | `Fintype.card C12ˣ = 4` | inherited, transported |
 | `zmod12_unit_iff_coprime` | `IsUnit u ↔ Nat.Coprime u 12` for `u < 12` | inherited characterization |
 | `crtFactorModel` | `(ZMod 4 × ZMod 3) ≃+* ZMod 12` | inherited (`RingEquiv.symm`) |
+| `zmod12_card` / `c12_card` | `Fintype.card = 12` on both carriers | inherited |
+| `cyclic_transitive` | rotation action transitive: `∀ x y < 12, ∃ k < 12, add x k = y` | derived (`decide`) |
+| `dist_lt_seven` / `dist_attains_all` | `dist` image is exactly `{0,…,6}` — seven distances | derived (`decide`) |
+| `antipodalPairs_*` | explicit 6-pair certificate, complete + `J`-involutive | derived (`decide`/`rfl`) |
+| `origin_map` | `0 ↦ 0`, `1 ↦ 1` under `Nat.cast` | derived |
+| `unit_slopes_closed` | `{1,5,7,11}` closed under `· mod 12` — admissible transformations compose | derived (`decide`) |
 
-Axiom gate: `lake env lean VerifyTransport.lean` — 13 `#print axioms`
-reports, zero `sorryAx`; axioms ⊆ `[propext, Classical.choice, Quot.sound]`.
+Axiom gate: `lake env lean VerifyTransport.lean` — 23 `#print axioms`
+reports, zero `sorryAx`; four are axiom-free (pure kernel computation);
+axioms ⊆ `[propext, Classical.choice, Quot.sound]`.
 
 ## Versioned test vectors
 
