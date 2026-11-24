@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "filename": "image(20261123-144941).png",
+    "sha256": "f7d698393301dc4cb92648113f586aee5e2b182ed9d6f7e653fa2e2feec475e6",
+    "binary_available": false,
+    "source_record": "../SOURCE_CORPUS_MANIFEST.csv"
+  },
+  "coordinates": {
+    "system": "normalized_cartesian",
+    "origin": "center",
+    "positive_y": "down",
+    "zero_angle": "top",
+    "rotation": "clockwise",
+    "radius": 1
+  },
+  "nodes": [
+    {
+      "id": "p0",
+      "k": 0,
+      "theta_deg": 0,
+      "x": 0,
+      "y": -1,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p1",
+      "k": 1,
+      "theta_deg": 30,
+      "x": 0.5,
+      "y": -0.866025403784,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p2",
+      "k": 2,
+      "theta_deg": 60,
+      "x": 0.866025403784,
+      "y": -0.5,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p3",
+      "k": 3,
+      "theta_deg": 90,
+      "x": 1,
+      "y": 0,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p4",
+      "k": 4,
+      "theta_deg": 120,
+      "x": 0.866025403784,
+      "y": 0.5,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p5",
+      "k": 5,
+      "theta_deg": 150,
+      "x": 0.5,
+      "y": 0.866025403784,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p6",
+      "k": 6,
+      "theta_deg": 180,
+      "x": 0,
+      "y": 1,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p7",
+      "k": 7,
+      "theta_deg": 210,
+      "x": -0.5,
+      "y": 0.866025403784,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p8",
+      "k": 8,
+      "theta_deg": 240,
+      "x": -0.866025403784,
+      "y": 0.5,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p9",
+      "k": 9,
+      "theta_deg": 270,
+      "x": -1,
+      "y": 0,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p10",
+      "k": 10,
+      "theta_deg": 300,
+      "x": -0.866025403784,
+      "y": -0.5,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    },
+    {
+      "id": "p11",
+      "k": 11,
+      "theta_deg": 330,
+      "x": -0.5,
+      "y": -0.866025403784,
+      "layer": "indexed_nodes",
+      "evidence": "mathematical_derivation"
+    }
+  ],
+  "relations": [
+    {
+      "id": "a0",
+      "from": "p0",
+      "to": "p6",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a1",
+      "from": "p1",
+      "to": "p7",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a2",
+      "from": "p2",
+      "to": "p8",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a3",
+      "from": "p3",
+      "to": "p9",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a4",
+      "from": "p4",
+      "to": "p10",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a5",
+      "from": "p5",
+      "to": "p11",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a6",
+      "from": "p6",
+      "to": "p0",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a7",
+      "from": "p7",
+      "to": "p1",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a8",
+      "from": "p8",
+      "to": "p2",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a9",
+      "from": "p9",
+      "to": "p3",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a10",
+      "from": "p10",
+      "to": "p4",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    },
+    {
+      "id": "a11",
+      "from": "p11",
+      "to": "p5",
+      "type": "antipodal",
+      "directed": true,
+      "layer": "antipodal_relations",
+      "evidence": "source_documented"
+    }
+  ],
+  "strokes": [],
+  "crossings": {
+    "status": "not_annotated",
+    "candidates": []
+  }
+}
