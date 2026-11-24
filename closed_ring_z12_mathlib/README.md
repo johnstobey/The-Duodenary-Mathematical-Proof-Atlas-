@@ -56,12 +56,38 @@ so the inverse theorems use a uniqueness argument: the `(9u+4v)` formula value i
 shown to be *the* preimage of `(u, v)` under the decided forward map, and
 injectivity of the equivalence identifies it with `crt12.symm`.
 
+## CP-01: `C12` ↔ `ZMod 12` bridge (`C12ZModBridge.lean`)
+
+The Duodenary core carrier `C12 := Fin 12` (`Duodenary/Core/Cyclic.lean`,
+mathlib-free, underlying all 108 core theorems) is now connected to the
+canonical Mathlib CRT by a path dependency on `duodenary_proof_atlas` (`..`).
+
+| Declaration | Statement (shape) |
+|---|---|
+| `c12EquivZMod` | `C12 ≃ ZMod 12` (computable carrier equivalence, `decide`-proved) |
+| `c12CommRing` | `CommRing C12` — instance transported from `CommRing (ZMod 12)` across `ZMod 12 = Fin 12 = C12`; no new operations |
+| `c12ToZModRingHom` | `C12 →+* ZMod 12` (`decide`-checked add/mul/zero/one) |
+| `c12RingEquivZMod` | `C12 ≃+* ZMod 12` (noncomputable; `RingEquiv.ofBijective`) |
+| `c12CrtEquiv` | `C12 ≃+* ZMod 4 × ZMod 3` — composed with `crt12` |
+| `c12CrtEquiv_apply` | pointwise `c12CrtEquiv x = crt12 (toZMod x)` (`rfl`) — the computable form for `decide` |
+| `crt_eq_zmod_crt` / `crt_eq_c12CrtEquiv` | core `Duodenary.crt` agrees with the canonical CRT image |
+| `uncrt_zmod` | core `uncrt` is the `ZMod`-level inverse: `(u mod 4, v mod 3) ↦ (9u+4v) mod 12` |
+| `opposite_transport` | antipode `x + 6` transports to `(a, b) ↦ (a + 2, b)` (same law as `bridge_J`) |
+| `unitSlope_isUnit` | the four affine slopes `{1,5,7,11}` are `IsUnit` in `ZMod 12` |
+
+Axiom gate: `lake env lean VerifyC12.lean` — 13 `#print axioms` reports,
+zero `sorryAx`; computable declarations depend only on
+`[propext, Quot.sound]`, bundled equivalences on Mathlib-standard
+`[propext, Classical.choice, Quot.sound]`. Nine compile-time test-vector
+rows included.
+
 ## Versioned test vectors
 
 `test_vectors/crt12_vectors_v1.csv` — 12 rows:
 `k, phi_fst_mod4, phi_snd_mod3, phiInv_9u_4v_mod12, J_k_plus6_mod12`.
 Self-checked: `phiInv ∘ phi = id`, `phi ∘ phiInv = id`, `J ∘ J = id`.
-Compile-time counterparts: the 24 `example` rows in `VerifyAxioms.lean`.
+Compile-time counterparts: the 24 `example` rows in `VerifyAxioms.lean`
+plus the 9 rows in `VerifyC12.lean`.
 
 ## Build and verification receipts (2026-11-23)
 
@@ -85,8 +111,20 @@ depend only on `[propext, Quot.sound]`. Zero `sorryAx`. Core bundle
 
 ```bash
 cd closed_ring_z12_mathlib
-lake update          # fetch Mathlib at pinned rev + path dep ../closed_ring_z12
+lake update          # fetch Mathlib at pinned rev + path deps
 lake exe cache get   # fetch precompiled Mathlib oleans
 lake build
-lake env lean VerifyAxioms.lean
+lake env lean VerifyAxioms.lean   # CP-00 gate: 14 axiom reports
+lake env lean VerifyC12.lean      # CP-01 gate: 13 axiom reports + 9 vectors
+```
+
+Note (macOS): `lake exe cache get` builds the `cache` helper locally; on
+hosts whose system linker emits `__DATA_CONST` without `SG_READ_ONLY`
+(observed with Apple clang 21 CLT on macOS 14), the helper fails under `dyld`
+before downloading anything. Workaround — run the same entrypoint through
+`lean --run`'s linker path, which produces a working binary:
+
+```bash
+printf 'import Cache.Main\n#eval main ["get"]\n' > /tmp/runcache.lean
+lake env lean /tmp/runcache.lean   # downloads + unpacks the oleans
 ```
