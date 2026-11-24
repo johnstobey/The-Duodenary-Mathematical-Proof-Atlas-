@@ -248,3 +248,23 @@ import RecordIntegrityGate
 
 #eval IO.println "ALL DUODENARY RING & RECORD-INTEGRITY INVARIANTS VERIFIED."
 ```
+
+---
+
+## Addendum (2026-11-24): `HarmonicBaseline` module
+
+`closed_ring_z12/HarmonicBaseline.lean` adds a core-only, `decide`-checked
+port of `tests/harmonic_execution_baseline/baseline.py` — the shared legacy
+harmonic ledger over Z/144Z (`pair_vector`, `scalar`, functional-graph cycle
+inventory) and antipodally closed masks over Z/12Z (`closed_masks`,
+`is_closed`).
+
+- 16 theorems, all `by decide`; 14 depend on no axioms at all, two depend
+  only on `propext` (`mask_pairs_closed`, `harmonic_baseline_invariant`).
+- `scalar_golden` / `pairVector_golden` pin the port to the Python fixture
+  value-for-value on all 144 seeds (kernel-checked, no `native_decide`).
+- Reproduces the ledger values: 6 fixed points, 23 canonical cycles,
+  72 scalar outputs, max entry 3, max repeat 6, 64 closed masks,
+  4096 closed mask pairs.
+
+Verify with `cd closed_ring_z12 && lake env lean VerifyHarmonic.lean`.
