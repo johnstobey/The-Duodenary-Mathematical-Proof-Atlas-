@@ -64,11 +64,29 @@ surface as **inherited** (Mathlib theorem applied, no new proof content),
 |---|---|---|
 | `johnstobey/Alien-math-decoded-2` | `closed_ring_z12_mathlib` via git `subDir` require, pinned `2d84d17` | PR johnstobey/Alien-math-decoded-2#7, merged upstream as `029b4fb` with `Lean proof build` green on main — `AtlasConsumption.lean`: 7 theorems applied directly from certified declarations (`station_unit_group_card`, `station_unit_iff_coprime`, `station_crt_decomp`, `atlas_c12_units`, `atlas_six_antipodal_pairs`, `atlas_seven_distances`, `atlas_slopes_closed`); build-printed axiom reports ⊆ `{propext, Classical.choice, Quot.sound}` |
 
+## CP-01 remainder — `PairSpace144.lean` (generators + 144-pair interface)
+
+| Declaration | Class | Basis |
+|---|---|---|
+| `t9`, `t4`, `sigma` | constructed | independent translations `k+9`, `k+4`, `k+1` on `ZMod 12` |
+| `t9_t4_eq_sigma`, `t9_t4_commute` | derived | `decide` over `ZMod 12` |
+| `sigma_iterate_full` | derived | `decide` — order-12 orbit |
+| `t9_coords`, `t4_coords` | derived | `map_add` through `crt12` + literal images `crt12 9 = (1,0)`, `crt12 4 = (0,1)` — structural, not enumerated |
+| `antipode_eq_t9_iterate` | derived | `decide` — `J = T₉²` |
+| `t4_orbit_size/partition`, `t9_orbit_size/partition`, `orbit_unique_intersection` | derived | `decide` — orbit structure + CRT cell property |
+| `crt_cell_unique` | derived | `crt12` equivalence (`apply_symm_apply`/`injective`) |
+| `encode144`, `decode144`, `pairEquiv` | constructed | serialization `index = 12a + b`, `Fin 144` bijection |
+| `decode144_encode144`, `encode144_decode144` | derived | `decide` over the 144-cell product |
+| `pair_card` | derived | `Fintype.card_prod` + `ZMod.card` |
+| `encode144_agrees_core` | derived | `decide` — agreement with `Duodenary.encode144` via `toZMod` |
+| `pair_units_card` | derived | `MulEquiv.prodUnits` + `zmod12_units_card` (inherited) |
+| `pair_product_not_zmod144` | derived | units-cardinality obstruction: `16 ≠ φ(144) = 48` |
+
 ## Axiom surface
 
 All gates report axioms ⊆ `{propext, Classical.choice, Quot.sound}`;
 zero `sorryAx` across `VerifyAxioms.lean` (14), `VerifyC12.lean` (13),
-`VerifyTransport.lean` (23), enforced in CI by `.github/workflows/verify.yml`.
+`VerifyTransport.lean` (23), `VerifyPairSpace.lean` (18), enforced in CI by `.github/workflows/verify.yml`.
 Four transport declarations (`dist_lt_seven`, `antipodalPairs_length`,
 `antipodalPairs_complete`, `antipodalPairs_J`) depend on **no axioms at
 all** — pure kernel computation.

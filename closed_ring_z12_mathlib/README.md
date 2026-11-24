@@ -115,6 +115,30 @@ Axiom gate: `lake env lean VerifyTransport.lean` — 23 `#print axioms`
 reports, zero `sorryAx`; four are axiom-free (pure kernel computation);
 axioms ⊆ `[propext, Classical.choice, Quot.sound]`.
 
+## CP-01 remainder: generators + the 144-pair interface (`PairSpace144.lean`)
+
+The 144 **ordered pairs** `ZMod 12 × ZMod 12` — explicitly *not* a
+`ZMod 144` ring (`pair_product_not_zmod144`: units `16 ≠ φ(144) = 48`).
+Interface contract: `../formalization/CP01_INTERFACE_CONTRACT.md`
+(schema `cp01-interface-v1`).
+
+| Declaration | Statement (shape) |
+|---|---|
+| `t9` / `t4` / `sigma` | `k ↦ k+9`, `k ↦ k+4`, `k ↦ k+1` — independent translations |
+| `t9_coords` / `t4_coords` | `(u,v) ↦ (u+1,v)` / `(u,v) ↦ (u,v+1)` under `crt12` |
+| `t9_t4_eq_sigma`, `t9_t4_commute` | `T₉∘T₄ = σ`, translations commute |
+| `antipode_eq_t9_iterate` | `J(k) = k+6 = T₉²(k)` |
+| `t4_orbit_partition` / `t9_orbit_partition` | 4 T₄-fibers of size 3; 3 T₉-fibers of size 4 |
+| `orbit_unique_intersection` / `crt_cell_unique` | every T₄×T₉ pair meets in exactly one residue — the 4×3 CRT cell |
+| `encode144` / `decode144` / `pairEquiv` | `index = 12a + b ∈ Fin 144`; bijection |
+| `pair_card` | `Fintype.card (ZMod 12 × ZMod 12) = 144` |
+| `encode144_agrees_core` | agrees with `Duodenary.encode144` via `toZMod` |
+| `pair_units_card` | `Fintype.card (ZMod 12 × ZMod 12)ˣ = 16` |
+
+Axiom gate: `lake env lean VerifyPairSpace.lean` — 18 `#print axioms`
+reports, zero `sorryAx`; axioms ⊆ `[propext, Classical.choice,
+Quot.sound]`; two are axiom-free.
+
 ## Versioned test vectors
 
 `test_vectors/crt12_vectors_v1.csv` — 12 rows:
@@ -122,6 +146,12 @@ axioms ⊆ `[propext, Classical.choice, Quot.sound]`.
 Self-checked: `phiInv ∘ phi = id`, `phi ∘ phiInv = id`, `J ∘ J = id`.
 Compile-time counterparts: the 24 `example` rows in `VerifyAxioms.lean`
 plus the 9 rows in `VerifyC12.lean`.
+
+`test_vectors/generators_v1.csv` — 12 rows: `k, t9_k, t4_k, sigma_k,
+crt_u_mod4, crt_v_mod3, t4_orbit_id, t9_orbit_id`.
+
+`test_vectors/pair144_vectors_v1.csv` — 144 rows: `index, a, b` with
+`index = 12a + b`, the full `encode144` serialization table.
 
 ## Build and verification receipts (2026-11-23)
 
@@ -151,6 +181,7 @@ lake build
 lake env lean VerifyAxioms.lean   # CP-00 gate: 14 axiom reports
 lake env lean VerifyC12.lean      # CP-01 gate: 13 axiom reports + 9 vectors
 lake env lean VerifyTransport.lean # CP-02 gate: 13 axiom reports
+lake env lean VerifyPairSpace.lean # CP-01 remainder: 18 axiom reports + vectors
 ```
 
 Note (macOS): `lake exe cache get` builds the `cache` helper locally; on
