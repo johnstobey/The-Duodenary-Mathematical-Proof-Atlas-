@@ -40,11 +40,11 @@ Geometric state `k ∈ ZMod 12`, at angle `theta=30°k`. Antipode `J(k)=k+6`. Ou
 - [Machine](https://github.com/johnstobey/Machine): Lean formalization, sentence decoding, and formal-verify CI; consumer adapter.
 - [Alien-math-decoded-2](https://github.com/johnstobey/Alien-math-decoded-2): IndependentDuodenary Lean packages and CI; consumer/counterexample tests.
 - [Alien-Math-Duodenary-Closure](https://github.com/johnstobey/Alien-Math-Duodenary-Closure): Z144 and closure bridge; consumer.
-- [z12z-Memory-Module](https://github.com/johnstobey/z12z-Memory-Module): Rust ledger and memory; serialized state consumer.
-- [tobey-resolution](https://github.com/johnstobey/tobey-resolution): existing `geometric/blueprint_deliverables` with QuTiP, Meep, two Lean files and manifest. A topological-transport theorem relies on an explicit physical axiom; separate this from derived mathematics and test numerically.
-- [lattice-images-](https://github.com/johnstobey/lattice-images-): original image source inventory and geometry-extraction feed.
+- [z12z-Memory-Module](https://github.com/johnstobey/z12z-Memory-Module): Rust ledger and memory; serialized state consumer. **Repo does not resolve on GitHub (verified 2026-11-24); content availability unverified.**
+- [tobey-resolution](https://github.com/johnstobey/tobey-resolution): existing `geometric/blueprint_deliverables` with QuTiP, Meep, two Lean files and manifest. A topological-transport theorem relies on an explicit physical axiom; separate this from derived mathematics and test numerically. **Repo does not resolve on GitHub (verified 2026-11-24); content mirrored byte-identical at `Ravenproofs:research/GEOMETRIC_INTELLIGENCE_INNOVATION/source_corpus/blueprint_deliverables/` (see `geometry/CP02_CROSS_REPO_MAPPING.md`); Machine PR #5 pending import.**
+- [lattice-images-](https://github.com/johnstobey/lattice-images-): original image source inventory and geometry-extraction feed. **Repo does not resolve on GitHub (verified 2026-11-24); content mirrored byte-identical at `Ravenproofs:research/GEOMETRIC_INTELLIGENCE_INNOVATION/source_corpus/lattice-images/` (34 JPEGs, `SOURCE_CORPUS_MANIFEST.csv` provenance).**
 - [oversight](https://github.com/johnstobey/oversight): provenance / independent review; not the math kernel source.
-- [Omni-Lattice-Suite](https://github.com/johnstobey/Omni-Lattice-Suite) and [Machine-Artifacts-](https://github.com/johnstobey/Machine-Artifacts-): minimal current trees; integrate only after interfaces are stable to avoid creating duplicate source-of-truth projects.
+- [Omni-Lattice-Suite](https://github.com/johnstobey/Omni-Lattice-Suite) and [Machine-Artifacts-](https://github.com/johnstobey/Machine-Artifacts-): minimal current trees; integrate only after interfaces are stable to avoid creating duplicate source-of-truth projects. **Neither repo resolves on GitHub (verified 2026-11-24).**
 
 ## Blueprint provenance and engineering differentiation
 
