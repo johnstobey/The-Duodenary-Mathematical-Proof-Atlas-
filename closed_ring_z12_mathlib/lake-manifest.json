@@ -3,6 +3,13 @@
  "packages":
  [{"type": "path",
    "scope": "",
+   "name": "duodenary_proof_atlas",
+   "manifestFile": "lake-manifest.json",
+   "inherited": false,
+   "dir": "./..",
+   "configFile": "lakefile.toml"},
+  {"type": "path",
+   "scope": "",
    "name": "closed_ring_z12",
    "manifestFile": "lake-manifest.json",
    "inherited": false,

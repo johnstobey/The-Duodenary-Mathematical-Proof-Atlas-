@@ -1,6 +1,6 @@
 name = "closed_ring_z12_mathlib"
 version = "0.1.0"
-defaultTargets = ["CRTMathlib"]
+defaultTargets = ["CRTMathlib", "C12ZModBridge"]
 
 [[require]]
 name = "mathlib"
@@ -12,5 +12,14 @@ rev = "4bbdccd9c5f862bf90ff12f0a9e2c8be032b9a84"
 name = "closed_ring_z12"
 path = "../closed_ring_z12"
 
+# Path dependency: the Duodenary core library (mathlib-free). Its `C12` carrier
+# (Fin 12 with core modular instances) is bridged to `ZMod 12` in C12ZModBridge.
+[[require]]
+name = "duodenary_proof_atlas"
+path = ".."
+
 [[lean_lib]]
 name = "CRTMathlib"
+
+[[lean_lib]]
+name = "C12ZModBridge"
