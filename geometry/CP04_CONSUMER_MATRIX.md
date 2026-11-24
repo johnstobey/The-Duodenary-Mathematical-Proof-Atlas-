@@ -12,7 +12,7 @@ Canonical interface: Atlas `closed_ring_z12_mathlib` (`ZMod 12 ≃+* ZMod 4 × Z
 | Recursiverse-Suite | `johnstobey/Recursiverse-Suite` | `recursiverse_engine.py` Z/12+Z/144, 64 closed masks, `coordinate_envelope.schema.json` | Chunk-4 audit: 144 fine-grid antipode cases, 4096 intersections pass | compatibility-tested; **adapter integration NOT DONE** |
 | Machine | `johnstobey/Machine` | `coords.rs` + `COORDINATE_SEMANTICS_SPEC.md` | audit: strict degree-longitude vs sector-index; legacy `floor(degree) mod 12` unit error documented | semantics certified; **frame conversion NOT DONE** |
 | z12z-Memory-Module | `johnstobey/z12z-Memory-Module` | `lattice.rs` antipodal +6/+72/+864 (ring/page/cell), `coordinate_envelope.rs` | audit: 12-sector/144-fine/1728-cell anchor round-trips pass | compatibility-tested; **provenance signatures NOT DONE** |
-| Alien-math-decoded-2 | `johnstobey/Alien-math-decoded-2` | IndependentDuodenary Lean packages (reuse map: consumer/counterexample) | not inspected this session | **UNVERIFIED** |
+| Alien-math-decoded-2 | `johnstobey/Alien-math-decoded-2` | `AtlasConsumption.lean` — imports `ZMod12Transport`/`C12ZModBridge`/`CRTMathlib`; `lakefile.lean` `require closed_ring_z12_mathlib from git` pinned `2d84d17`; Lean v4.14.0; exact/apply-only inheritance + `#print axioms` | direct clone inspection this session (repo active, pushed 2026-11-24) | **ADOPTED** — strongest form: git-pinned Lake dep, axiom-inheriting |
 | oversight | `johnstobey/oversight` | provenance/review only — explicitly not math kernel | reuse map | n/a |
 | Omni-Lattice-Suite, Machine-Artifacts- | — | — | repos do not resolve under available token | **DEFERRED** per critical-path doc (integrate after interfaces stable) |
 
@@ -28,7 +28,11 @@ Canonical interface: Atlas `closed_ring_z12_mathlib` (`ZMod 12 ≃+* ZMod 4 × Z
 - [ ] Python geometry reader → Recursiverse-Suite
 - [ ] frame-anchor conversion → Machine
 - [ ] provenance-preserving signature records → z12z-Memory-Module
-- [ ] native code execution + end-to-end adapter integration — audit: **not done**
+- [ ] native code execution + end-to-end adapter integration — audit: **not done** (Lean consumers tobey-decoder + Alien-math-decoded-2 now cover the formal path)
+
+## Verification log
+
+- 2026-11-24: Alien-math-decoded-2 upgraded UNVERIFIED→ADOPTED after direct clone; `AtlasConsumption.lean` + `lakefile.lean` git-pin inspected. `gh search code` returned empty (index lag) — direct clone is ground truth.
 
 ## Sources
 
