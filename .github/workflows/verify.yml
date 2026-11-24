@@ -10,8 +10,8 @@ jobs:
   atlas:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
       - name: Install hash-locked validator dependencies
@@ -45,7 +45,7 @@ jobs:
           ! grep -q sorryAx /tmp/verify-c12.log
           lake env lean VerifyTransport.lean | tee /tmp/verify-transport.log
           ! grep -q sorryAx /tmp/verify-transport.log
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: atlas-verification
