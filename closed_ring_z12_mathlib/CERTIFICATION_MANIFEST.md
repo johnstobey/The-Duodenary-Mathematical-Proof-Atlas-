@@ -58,6 +58,12 @@ surface as **inherited** (Mathlib theorem applied, no new proof content),
 - New proof obligations actually discharged: ~40 bounded `decide`/`omega`
   elements plus 3 `RingEquiv` assemblies. Everything else is citation.
 
+## Downstream consumers (Article VI / X: cross-repository propagation)
+
+| Consumer repo | Interface consumed | Evidence |
+|---|---|---|
+| `johnstobey/Alien-math-decoded-2` | `closed_ring_z12_mathlib` via git `subDir` require, pinned `2d84d17` | PR johnstobey/Alien-math-decoded-2#7 — `AtlasConsumption.lean`: 7 theorems applied directly from certified declarations (`station_unit_group_card`, `station_unit_iff_coprime`, `station_crt_decomp`, `atlas_c12_units`, `atlas_six_antipodal_pairs`, `atlas_seven_distances`, `atlas_slopes_closed`); build-printed axiom reports ⊆ `{propext, Classical.choice, Quot.sound}` |
+
 ## Axiom surface
 
 All gates report axioms ⊆ `{propext, Classical.choice, Quot.sound}`;
