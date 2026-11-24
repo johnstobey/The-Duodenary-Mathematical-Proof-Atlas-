@@ -52,16 +52,32 @@ canonical ring interface delivered by CP-01 (#6, merged via PRs #14/#18).
 - **Not claimed**: hardware physics, device operation, or semantic
   interpretation of the geometry — per issue scope.
 
-## Source-access blockers (recorded, not worked around)
+## Source corpus availability (corrected 2026-11-24)
 
-- `johnstobey/lattice-images-` and `johnstobey/tobey-resolution` do not
-  resolve via the available GitHub token (`Could not resolve to a
-  Repository`). The lattice-image corpus is nonetheless present locally
-  inside Ravenproofs at
-  `research/GEOMETRIC_INTELLIGENCE_INNOVATION/source_corpus/lattice-images/`
-  (42 files incl. raven.jpg, sakhmet/lattice variants) — usable as
-  provenance inventory, extraction ownership stays with the image
-  contracts.
+The remote repos `johnstobey/lattice-images-` and
+`johnstobey/tobey-resolution` do not resolve via the available GitHub
+token, **but their contents are already mirrored byte-identical inside
+Ravenproofs** — verified this session:
+
+- `Ravenproofs:research/GEOMETRIC_INTELLIGENCE_INNOVATION/SOURCE_CORPUS_MANIFEST.csv`
+  — 44 rows: 35 × `lattice-images-`, 8 × `tobey-resolution`,
+  1 conversation-upload; 42 rows `COPIED_IDENTICAL` with source git
+  SHAs and byte sizes.
+- `source_corpus/lattice-images/` — 34 JPEGs, ~15 MB, real binaries
+  (zero files < 2 KB): Gemini-generated plates plus named lattice
+  images (aries, taurus, amun, anubis, aquarius, capricorn, hathor,
+  horus, isis, leo, libra, mercury, raven, sakhmet, cygnus, …).
+- `source_corpus/blueprint_deliverables/` — the tobey-resolution
+  `geometric/blueprint_deliverables` payload: `qutip_lindblad_floquet.py`,
+  `meep_nonreciprocal_sparam.py`, `SurfaceCodeStabilizer.lean`,
+  `TopologicalInvariant.lean`, `substrate_v2_config.json`,
+  `manifest.tsv` (per-file sha256 + PDF-page provenance).
+
+Consequence: CP-02 source extraction is **not** blocked on repo access;
+the corpus is local to Ravenproofs with hash provenance. Extraction
+ownership of raven/vortex/seal imagery remains with RVC-IMG-20261115-011;
+lattice-image graph extraction is available scope for this issue.
+
 - `SACRED_SEALS_WITH_IMAGES.pdf` (11,052,626 bytes) is present in
   Ravenproofs root; page-level seal audit is RVC-IMG deliverable
   `SACRED_SEALS_PAGE_AUDIT.md` — not duplicated here.
