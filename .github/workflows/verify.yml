@@ -22,7 +22,6 @@ jobs:
           build: true
           test: false
           lint: false
-          use-mathlib-cache: true
       - name: Validate exact Lean-emitted V01-V10 contract
         run: |
           lake exe emit-vectors /tmp/riv-vectors.json
