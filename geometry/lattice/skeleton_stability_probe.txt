@@ -1,0 +1,25 @@
+image                                        q=0.03  q=0.05  q=0.08 
+Gemini_Generated_Image_8yx5ge8yx5ge8yx5.jpeg j 163/e844 j 678/e525 j1509/e629
+    q=0.03: skel=1962 endpoints=844 junctions=163 chain=774 iso=181
+    q=0.05: skel=2784 endpoints=525 junctions=678 chain=1470 iso=111
+    q=0.08: skel=4172 endpoints=629 junctions=1509 chain=1848 iso=186
+Gemini_Generated_Image_dq4kktdq4kktdq4k.jpeg j  26/e967 j 172/e1215 j2149/e1242
+    q=0.03: skel=2094 endpoints=967 junctions=26 chain=620 iso=481
+    q=0.05: skel=3191 endpoints=1215 junctions=172 chain=1537 iso=267
+    q=0.08: skel=6295 endpoints=1242 junctions=2149 chain=2642 iso=262
+Gemini_Generated_Image_u5o6wtu5o6wtu5o6.jpeg j  15/e1062 j  79/e1573 j 607/e1355
+    q=0.03: skel=2256 endpoints=1062 junctions=15 chain=401 iso=778
+    q=0.05: skel=3203 endpoints=1573 junctions=79 chain=955 iso=596
+    q=0.08: skel=4920 endpoints=1355 junctions=607 chain=2800 iso=158
+Lattice Aries.jpeg                           j   6/e1040 j  33/e1569 j 355/e2070
+    q=0.03: skel=2340 endpoints=1040 junctions=6 chain=344 iso=950
+    q=0.05: skel=3289 endpoints=1569 junctions=33 chain=773 iso=914
+    q=0.08: skel=4970 endpoints=2070 junctions=355 chain=2154 iso=391
+Lattice Taurus.jpeg                          j  21/e929 j 190/e1384 j1415/e681
+    q=0.03: skel=2020 endpoints=929 junctions=21 chain=440 iso=630
+    q=0.05: skel=3109 endpoints=1384 junctions=190 chain=1226 iso=309
+    q=0.08: skel=4802 endpoints=681 junctions=1415 chain=2604 iso=102
+Raven Design Lexicon Micro.jpeg              j  71/e779 j 102/e818 j 213/e1138
+    q=0.03: skel=2322 endpoints=779 junctions=71 chain=896 iso=576
+    q=0.05: skel=3566 endpoints=818 junctions=102 chain=2071 iso=575
+    q=0.08: skel=5919 endpoints=1138 junctions=213 chain=3925 iso=643
