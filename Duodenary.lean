@@ -7,4 +7,5 @@ import Duodenary.Imported.AffineKernel
 import Duodenary.Imported.ProductKernel
 import Duodenary.Imported.MetricKernel
 import Duodenary.Bridges.Machine
+import Duodenary.Bridges.MathlibCRT
 import Duodenary.Problems.QuotientObstruction
