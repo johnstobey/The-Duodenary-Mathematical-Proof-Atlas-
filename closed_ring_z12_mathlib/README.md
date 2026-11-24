@@ -81,6 +81,33 @@ zero `sorryAx`; computable declarations depend only on
 `[propext, Classical.choice, Quot.sound]`. Nine compile-time test-vector
 rows included.
 
+## CP-02: structural transport interface (`ZMod12Transport.lean`)
+
+Article IV of the certification contract: representations map onto the
+canonical `ZMod 12` structure; where the map preserves operations, certified
+properties transport. Two interface shapes, per the contract's
+bijective/partial distinction:
+
+| Shape | Representations |
+|---|---|
+| Bijective `≃+*` | `C12` (`c12RingEquivZMod`), `ZMod 4 × ZMod 3` (`crtFactorModel := crt12.symm`) |
+| Bounded presentation `ℕ → ZMod 12` | `ClosedRingZ12` core ops (`natResidue_*`) |
+
+| Declaration | Statement (shape) | Class |
+|---|---|---|
+| `natCast_mod12` | `((m % 12 : ℕ) : ZMod 12) = m` | inherited (`ZMod.natCast_mod`) |
+| `natResidue_add/mul/sub/J` | core `add/mul/sub/J` cast to `ZMod 12` = ring ops, **all inputs** | derived |
+| `natResidue_zero/one` | `0 ↦ 0`, `1 ↦ 1` | derived |
+| `natResidue_isUnit` | `isUnit u ↔ IsUnit (u : ZMod 12)` for `u < 12` | derived (`decide`) |
+| `natResidue_dist` | `dist` maps to `x − y` or `y − x` for `x, y < 12` | derived (`decide`) |
+| `zmod12_units_card` | `Fintype.card (ZMod 12)ˣ = 4` | **inherited** (`ZMod.card_units_eq_totient`) |
+| `c12_units_card` | `Fintype.card C12ˣ = 4` | inherited, transported |
+| `zmod12_unit_iff_coprime` | `IsUnit u ↔ Nat.Coprime u 12` for `u < 12` | inherited characterization |
+| `crtFactorModel` | `(ZMod 4 × ZMod 3) ≃+* ZMod 12` | inherited (`RingEquiv.symm`) |
+
+Axiom gate: `lake env lean VerifyTransport.lean` — 13 `#print axioms`
+reports, zero `sorryAx`; axioms ⊆ `[propext, Classical.choice, Quot.sound]`.
+
 ## Versioned test vectors
 
 `test_vectors/crt12_vectors_v1.csv` — 12 rows:
@@ -116,6 +143,7 @@ lake exe cache get   # fetch precompiled Mathlib oleans
 lake build
 lake env lean VerifyAxioms.lean   # CP-00 gate: 14 axiom reports
 lake env lean VerifyC12.lean      # CP-01 gate: 13 axiom reports + 9 vectors
+lake env lean VerifyTransport.lean # CP-02 gate: 13 axiom reports
 ```
 
 Note (macOS): `lake exe cache get` builds the `cache` helper locally; on
