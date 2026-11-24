@@ -7,3 +7,6 @@ name = "ClosedRingZ12"
 
 [[lean_lib]]
 name = "RecordIntegrityGate"
+
+[[lean_lib]]
+name = "HarmonicBaseline"
