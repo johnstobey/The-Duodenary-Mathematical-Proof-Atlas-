@@ -5,7 +5,7 @@
     "exact_statement": "theorem calendar_annihilator_classification : ∀ y : C12,\n    (4 : C12) * y = 0 ↔ y = 0 ∨ y = 3 ∨ y = 6 ∨ y = 9",
     "statement_sha256": "601daa7a53f9cfd259b22e3b32ae8a449a87c483cd9ac72ba9294e815b302edd",
     "source": "Duodenary/Acausal/Calendar.lean",
-    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "source_sha256": "d2361e1567a2aee01b2d363e7bff3ef0506c50b55d7f96810156ba47c52d260d",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_annihilator_classification",
     "axioms": [
       "propext",
@@ -33,7 +33,7 @@
     "exact_statement": "theorem calendar_image_annihilated (f : ZMod 260 →+ C12) (x : ZMod 260) :\n    (4 : C12) * f x = 0",
     "statement_sha256": "0af62fd0d978b86884fb37dce4c3da9487413c7f3df4f602b78234231b488873",
     "source": "Duodenary/Acausal/Calendar.lean",
-    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "source_sha256": "d2361e1567a2aee01b2d363e7bff3ef0506c50b55d7f96810156ba47c52d260d",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_image_annihilated",
     "axioms": [
       "propext",
@@ -60,7 +60,7 @@
     "exact_statement": "theorem calendar_image_classification (f : ZMod 260 →+ C12) (x : ZMod 260) :\n    f x = 0 ∨ f x = 3 ∨ f x = 6 ∨ f x = 9",
     "statement_sha256": "3144c4efcda637f33c22c96b908f31dd4a13364bf0b43992c5d4af3399321d9b",
     "source": "Duodenary/Acausal/Calendar.lean",
-    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "source_sha256": "d2361e1567a2aee01b2d363e7bff3ef0506c50b55d7f96810156ba47c52d260d",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_image_classification",
     "axioms": [
       "propext",
@@ -88,7 +88,7 @@
     "exact_statement": "theorem calendar_image_card_bound (f : ZMod 260 →+ C12) :\n    (Finset.univ.image f).card ≤ 4",
     "statement_sha256": "b74857d5db557bdd1f72aa29216b15f48cacf3625a929b921c360985ae5ce85d",
     "source": "Duodenary/Acausal/Calendar.lean",
-    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "source_sha256": "d2361e1567a2aee01b2d363e7bff3ef0506c50b55d7f96810156ba47c52d260d",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_image_card_bound",
     "axioms": [
       "propext",
@@ -116,7 +116,7 @@
     "exact_statement": "theorem calendar_no_surjective_hom (f : ZMod 260 →+ C12) :\n    ¬ Function.Surjective f",
     "statement_sha256": "3ead0ea0e013b547800fac081ef94cc1403d6cba79fa241fdd0fcce9225a717d",
     "source": "Duodenary/Acausal/Calendar.lean",
-    "source_sha256": "f61997a4432380ab89721238b2c98979a672386aeafa865605cd2dfe4ba96dad",
+    "source_sha256": "d2361e1567a2aee01b2d363e7bff3ef0506c50b55d7f96810156ba47c52d260d",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.calendar_no_surjective_hom",
     "axioms": [
       "propext",
@@ -144,7 +144,7 @@
     "exact_statement": "theorem machine_slope_agrees : ∀ a : MachineAffine.Unit12,\n    unitSlope (machineUnitIndex a) = a.val",
     "statement_sha256": "b88f895ce5b4eaf4f4c9afd7090432deb6dee9ade9751f4d322a645cab011263",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_slope_agrees",
     "axioms": [
       "propext",
@@ -172,7 +172,7 @@
     "exact_statement": "theorem machine_action_agrees (f : MachineAffine.Affine) (x : C12) :\n    affineApply (machineAffineBridge f) x = MachineAffine.apply f x",
     "statement_sha256": "993510645c8856a822bfea023a2151b39321c32025c31ffe9885faeef7ee3a31",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_action_agrees",
     "axioms": [
       "propext",
@@ -199,7 +199,7 @@
     "exact_statement": "theorem machine_bridge_injective : Function.Injective machineAffineBridge",
     "statement_sha256": "870c21dbafc879edcb58dccf06528dd00aa56ed7d8ef9074b1d01bfa1a9ccc0d",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_bridge_injective",
     "axioms": [
       "propext",
@@ -227,7 +227,7 @@
     "exact_statement": "theorem machine_bridge_surjective : Function.Surjective machineAffineBridge",
     "statement_sha256": "26c4bf42beaaaa00c64d013fe803c1414138ce32e0734ac6b9d43309da36f943",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_bridge_surjective",
     "axioms": [
       "propext",
@@ -255,7 +255,7 @@
     "exact_statement": "theorem machine_composition_agrees (f g : MachineAffine.Affine) :\n    machineAffineBridge (MachineAffine.compose f g) =\n      affineCompose (machineAffineBridge f) (machineAffineBridge g)",
     "statement_sha256": "e29181765eec49e43045f12ae1c6aeaf86ea8485f8d14d55d8999e83c2fb9670",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_composition_agrees",
     "axioms": [
       "propext",
@@ -283,7 +283,7 @@
     "exact_statement": "theorem machine_distance_agrees : ∀ x y : C12,\n    MachineProduct.circularDistance x y = cyclicDistance x y",
     "statement_sha256": "a89cc1916b33dfd0777d525bf39c29b60fcd0ae7b4fda76b05092c6be3a96dbe",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.machine_distance_agrees",
     "axioms": [
       "propext",
@@ -311,7 +311,7 @@
     "exact_statement": "theorem affine_metric_classification : ∀ f : Affine,\n    (∀ x y : C12, cyclicDistance (affineApply f x) (affineApply f y) = cyclicDistance x y) ↔\n      f.1 = 0 ∨ f.1 = 3",
     "statement_sha256": "8448b89a8550ae23ed2d82321f3f944cba153491dfdc4df41a8e036b2ee240da",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_metric_classification",
     "axioms": [
       "propext",
@@ -339,7 +339,7 @@
     "exact_statement": "theorem metric_affine_cardinality : Fintype.card MetricAffine = 24",
     "statement_sha256": "d642167eecf30b7fb59977959057a11d75dad2dca2756e8373efd4e702e8db63",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.metric_affine_cardinality",
     "axioms": [
       "propext",
@@ -367,7 +367,7 @@
     "exact_statement": "theorem affine_slope_five_not_isometry :\n    cyclicDistance (affineApply (1,0) 0) (affineApply (1,0) 1) ≠ cyclicDistance 0 1",
     "statement_sha256": "cae31582bec51e264666ae011d8ddb327665c26a6df3148ec40d9d736db1cb22",
     "source": "Duodenary/Bridges/Machine.lean",
-    "source_sha256": "014a10968b7182c9cc00b19b0418ca3cdcc87466ba9dd29fffbc3d002aec093e",
+    "source_sha256": "f0c826d22e4955898ec0e27adf001099565225c0175198b1e6b7c4063b8ade7f",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_slope_five_not_isometry",
     "axioms": [
       "propext",
@@ -394,7 +394,7 @@
     "exact_statement": "theorem rotate_zero (x : C12) : rotate 0 x = x",
     "statement_sha256": "f6ed7ac43ad1dd9787fba4c3d07f76b600e116b26c43a81286447693af9f6548",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.rotate_zero",
     "axioms": [
       "propext",
@@ -421,7 +421,7 @@
     "exact_statement": "theorem rotate_comp (a b x : C12) : rotate a (rotate b x) = rotate (a+b) x",
     "statement_sha256": "fb7a6c5a557426ab312f4273d3560a5d1415fb5e47cff5e9ba65ccf5d3181f63",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.rotate_comp",
     "axioms": [
       "propext",
@@ -448,7 +448,7 @@
     "exact_statement": "theorem difference_preserved (a x y : C12) : rotate a x - rotate a y = x-y",
     "statement_sha256": "c1f49ba8e38328e2af7e0154c7ce89b40cf03fee0fbd53e0b98fed0e04c77c50",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.difference_preserved",
     "axioms": [
       "propext",
@@ -475,7 +475,7 @@
     "exact_statement": "theorem opposite_involution (x : C12) : opposite (opposite x) = x",
     "statement_sha256": "636ff329877d7c7bc074cdf2a1198893c202cf85c3e196c4ff2b67a9550a3760",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.opposite_involution",
     "axioms": [
       "propext",
@@ -502,7 +502,7 @@
     "exact_statement": "theorem opposite_has_no_fixed_point (x : C12) : opposite x ≠ x",
     "statement_sha256": "bc1674c0d667f6336a02de2cba0bc57c18874280c44f2ef17cfcab04100bf500",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.opposite_has_no_fixed_point",
     "axioms": [
       "propext",
@@ -529,7 +529,7 @@
     "exact_statement": "theorem reflection_involution (a x : C12) : reflect a (reflect a x) = x",
     "statement_sha256": "1719703168e3b9dff79bd39732d2c71d648aa1e74b89da299d5e985ebe7a10ca",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.reflection_involution",
     "axioms": [
       "propext",
@@ -556,7 +556,7 @@
     "exact_statement": "theorem reflection_rotation (a b x : C12) :\n    reflect a (rotate b x) = rotate (-b) (reflect a x)",
     "statement_sha256": "52389d640030a7268cfa67106f32fcb6c9b79845d75bb3265ce29a34a26ca121",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.reflection_rotation",
     "axioms": [
       "propext",
@@ -583,7 +583,7 @@
     "exact_statement": "theorem crt_left_inverse : ∀ x : C12, uncrt (crt x) = x",
     "statement_sha256": "5f5ce7045f722c0790c65e4a86ce14458cb1545b7c610228b4fb6ff544c68e8e",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_left_inverse",
     "axioms": [
       "propext",
@@ -611,7 +611,7 @@
     "exact_statement": "theorem crt_right_inverse : ∀ p : Fin 4 × Fin 3, crt (uncrt p) = p",
     "statement_sha256": "1578a022bb77725ded636a2cfa445199c6bec398eacf230e7fd691952eca8018",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_right_inverse",
     "axioms": [
       "propext",
@@ -639,7 +639,7 @@
     "exact_statement": "theorem crt_preserves_addition : ∀ x y : C12,\n    crt (x+y) = ((crt x).1 + (crt y).1, (crt x).2 + (crt y).2)",
     "statement_sha256": "82ab443080c61df747436cbbc383cf9b83c13fd8cb067b3131fe8759cda74a2b",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_preserves_addition",
     "axioms": [
       "propext",
@@ -667,7 +667,7 @@
     "exact_statement": "theorem crt_preserves_multiplication : ∀ x y : C12,\n    crt (x*y) = ((crt x).1 * (crt y).1, (crt x).2 * (crt y).2)",
     "statement_sha256": "2258cf2a4802f5735266337b1a3a301e051972a607592f033d0403bc67f39896",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.crt_preserves_multiplication",
     "axioms": [
       "propext",
@@ -695,7 +695,7 @@
     "exact_statement": "theorem distance_symmetric (x y : C12) : cyclicDistance x y = cyclicDistance y x",
     "statement_sha256": "f8ec4643200562a8545cceae33e5e66819b4262b7bf6c6fd17b31675305d2894",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.distance_symmetric",
     "axioms": [
       "propext",
@@ -722,7 +722,7 @@
     "exact_statement": "theorem distance_bound : ∀ x y : C12, cyclicDistance x y ≤ 6",
     "statement_sha256": "192dd52cef47498c050ffee6b9c066b6056b28965d128abeb8eb773d9e7a3797",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.distance_bound",
     "axioms": [
       "propext",
@@ -750,7 +750,7 @@
     "exact_statement": "theorem seven_distance_values :\n    ∀ d : Fin 7, ∃ x : C12, cyclicDistance x 0 = d.val",
     "statement_sha256": "b3edc99093d93c21ea07a33f8a72f6a70b6f948817016befa33035df91f42b0b",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.seven_distance_values",
     "axioms": [
       "propext",
@@ -778,7 +778,7 @@
     "exact_statement": "theorem slope_square : ∀ i : Fin 4, unitSlope i * unitSlope i = 1",
     "statement_sha256": "f1a841f325cd1a61a323e1cc5816c204cafa0869ff2b13d35bc89cba13d0561f",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.slope_square",
     "axioms": [
       "propext",
@@ -805,7 +805,7 @@
     "exact_statement": "theorem affine_inverse (f : Affine) (x : C12) : inverseApply f (affineApply f x) = x",
     "statement_sha256": "259ef30cff9399346837e96c7b28b9304a69ab9088394078d6c099e513ce2ff4",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_inverse",
     "axioms": [
       "propext",
@@ -832,7 +832,7 @@
     "exact_statement": "theorem affine_reverse_inverse (f : Affine) (x : C12) : affineApply f (inverseApply f x) = x",
     "statement_sha256": "d6b3b4af5542146391fdc22ddcac3a6a8f2925dfcff2ff31f0232e12f9c0a40b",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_reverse_inverse",
     "axioms": [
       "propext",
@@ -859,7 +859,7 @@
     "exact_statement": "theorem affine_faithful : ∀ f g : Affine,\n    affineApply f 0 = affineApply g 0 → affineApply f 1 = affineApply g 1 → f = g",
     "statement_sha256": "f9403967f649d60c6b8ac42360352cb20bcb99cec26217ee47c5aeefa91aab62",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_faithful",
     "axioms": [
       "propext",
@@ -887,7 +887,7 @@
     "exact_statement": "theorem affine_cardinality : Fintype.card Affine = 48",
     "statement_sha256": "5e8de8213ccded96829ff945704f2073d7a16d2461a9205788aba625b2271752",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_cardinality",
     "axioms": [
       "propext",
@@ -915,7 +915,7 @@
     "exact_statement": "theorem slope_product_correct : ∀ i j : Fin 4,\n    unitSlope (slopeProduct i j) = unitSlope i * unitSlope j",
     "statement_sha256": "4d96e9d8fc2a73f8fcef1b862363b204be2f79991ad0c348a4aedfa18d0d94f6",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.slope_product_correct",
     "axioms": [
       "propext",
@@ -942,7 +942,7 @@
     "exact_statement": "theorem affine_composition (f g : Affine) (x : C12) :\n    affineApply (affineCompose f g) x = affineApply f (affineApply g x)",
     "statement_sha256": "413fc8ab472724994629c7599eb02ada6a558a36baff889d6f05115e7f3ae953",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_composition",
     "axioms": [
       "propext",
@@ -969,7 +969,7 @@
     "exact_statement": "theorem affine_associative (f g h : Affine) :\n    affineCompose (affineCompose f g) h = affineCompose f (affineCompose g h)",
     "statement_sha256": "d3f1377c52979946c29f2dc16099b980bc0e215ae6950ff24fe9b832e00e0166",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_associative",
     "axioms": [
       "propext",
@@ -997,7 +997,7 @@
     "exact_statement": "theorem affine_identity : ∀ f : Affine,\n    affineCompose (0,0) f = f ∧ affineCompose f (0,0) = f",
     "statement_sha256": "b3001cd86ee802701141d7c5b99a6fea411f6a898e9ebe59698b67994efbb14e",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_identity",
     "axioms": [
       "propext",
@@ -1025,7 +1025,7 @@
     "exact_statement": "theorem affine_two_sided_inverse : ∀ f : Affine,\n    affineCompose f (affineInverse f) = (0,0) ∧\n    affineCompose (affineInverse f) f = (0,0)",
     "statement_sha256": "c29e018e3e574b739cccac4ad4bf373704fda8225c19ee935f3e2ce0e557c867",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.affine_two_sided_inverse",
     "axioms": [
       "propext",
@@ -1053,7 +1053,7 @@
     "exact_statement": "theorem product144_left_inverse : ∀ x : Product144, decode144 (encode144 x) = x",
     "statement_sha256": "07f2f2dea8d6e91b27f8f51bfbe0bdf6d27ebcf2737b7984b5e70e98a79fb61d",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product144_left_inverse",
     "axioms": [
       "propext",
@@ -1081,7 +1081,7 @@
     "exact_statement": "theorem product144_right_inverse : ∀ x : Fin 144, encode144 (decode144 x) = x",
     "statement_sha256": "03691153f723e084806dd37d4159bdb35754936c64791950e352bd84c63b2d15",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product144_right_inverse",
     "axioms": [
       "propext",
@@ -1108,7 +1108,7 @@
     "exact_statement": "theorem product144_cardinality : Fintype.card Product144 = 144",
     "statement_sha256": "2bfb2108cf876071a14f0fea161e14d73c4f73a3971b3d1f0c9f0a4e539b08f7",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product144_cardinality",
     "axioms": [
       "propext",
@@ -1136,7 +1136,7 @@
     "exact_statement": "theorem product_exponent : ∀ x : Product144, (12 : Nat) • x = 0",
     "statement_sha256": "4eb3e5254136e4fa5598d1d973b5495d4d066b4e57ee12ee8c482d413bee2bbc",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.product_exponent",
     "axioms": [
       "propext",
@@ -1164,7 +1164,7 @@
     "exact_statement": "theorem cyclic144_not_exponent12 : (12 : Nat) • (1 : ZMod 144) ≠ 0",
     "statement_sha256": "bbdb1624868270b8340cc925e5dd8ab58b9e40d80883a24da8e7d374f4412d18",
     "source": "Duodenary/Core/Cyclic.lean",
-    "source_sha256": "3b921032faf2ff7bff8a7ab7beddf4999a37903488b09aa3c0cf22be901021e5",
+    "source_sha256": "1f7583a4ba60cee1aa25cdf015f2f5f76cc34a2d653f6f8c8a590da98863be44",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.cyclic144_not_exponent12",
     "axioms": [
       "propext",
@@ -1191,7 +1191,7 @@
     "exact_statement": "theorem unit_involutive : ∀ a : Unit12, mul a.val a.val = 1",
     "statement_sha256": "28da34c87c218abd9a21a58a136e194d79e0cd77dc9557d9c8515ec099838f42",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_involutive",
     "axioms": [
       "propext"
@@ -1217,7 +1217,7 @@
     "exact_statement": "theorem unit_prod_sound : ∀ a b : Unit12,\n    (a.prod b).val = mul a.val b.val",
     "statement_sha256": "460b9fb90890019458efc86b12dc2bd7d5c961d337cb1c9c230bddc55f50b0bf",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_sound",
     "axioms": [
       "propext"
@@ -1243,7 +1243,7 @@
     "exact_statement": "theorem unit_prod_assoc : ∀ a b c : Unit12,\n    (a.prod b).prod c = a.prod (b.prod c)",
     "statement_sha256": "9889036568cede5915dd80e31436869b34b203340983d6b36c92133feb449b91",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_assoc",
     "axioms": [
       "propext",
@@ -1271,7 +1271,7 @@
     "exact_statement": "theorem unit_prod_left_one : ∀ a : Unit12, Unit12.prod .u1 a = a",
     "statement_sha256": "64aa65b29147ac95a134a58105d2962d48d21d718c1299ff95288f26b75380d4",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_left_one",
     "axioms": [
       "propext",
@@ -1299,7 +1299,7 @@
     "exact_statement": "theorem unit_prod_right_one : ∀ a : Unit12, Unit12.prod a .u1 = a",
     "statement_sha256": "d5e00ffd1b1b867f274a6dfa17d9d39353f05e1320e0f1d4a83f1b543b20c7c1",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_right_one",
     "axioms": [
       "propext",
@@ -1327,7 +1327,7 @@
     "exact_statement": "theorem unit_prod_self : ∀ a : Unit12, Unit12.prod a a = .u1",
     "statement_sha256": "2986fee92d3a92f4b85d36faf985a9c6482c001e97c0db226bf0697ae81efa76",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.unit_prod_self",
     "axioms": [
       "propext",
@@ -1355,7 +1355,7 @@
     "exact_statement": "theorem compose_apply (g f : Affine) (x : Z12) :\n    apply (compose g f) x = apply g (apply f x)",
     "statement_sha256": "c02a70eea0a4f38c618bfbf9182da147be766924f33a6e1ab5792e01aeaf99b9",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_apply",
     "axioms": [
       "propext"
@@ -1381,7 +1381,7 @@
     "exact_statement": "theorem identity_apply : ∀ x : Z12, apply identity x = x",
     "statement_sha256": "f661452c316d6f8afed203e7781c4dbf769b1e197326f6b64479f8ab25792ed6",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.identity_apply",
     "axioms": [
       "propext"
@@ -1407,7 +1407,7 @@
     "exact_statement": "theorem inverse_left_action : ∀ f : Affine, ∀ x : Z12,\n    apply (inverse f) (apply f x) = x",
     "statement_sha256": "e7e78e9164541899a7b983bcb5b9c8ba4ab8173a1a9fccbfd01b760e71b4b889",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_left_action",
     "axioms": [
       "propext",
@@ -1435,7 +1435,7 @@
     "exact_statement": "theorem inverse_right_action : ∀ f : Affine, ∀ x : Z12,\n    apply f (apply (inverse f) x) = x",
     "statement_sha256": "9dfa47cb945b5b6a79c7023577471a216bc82440e8266c3ed9528f4726f5e5b4",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_right_action",
     "axioms": [
       "propext",
@@ -1463,7 +1463,7 @@
     "exact_statement": "theorem inverse_left (f : Affine) (x : Z12) :\n    apply (compose (inverse f) f) x = x",
     "statement_sha256": "f5119e6489b86367f37e518be96bb6d08f859e8127bc813ae736fc01233cead5",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_left",
     "axioms": [
       "propext",
@@ -1491,7 +1491,7 @@
     "exact_statement": "theorem inverse_right (f : Affine) (x : Z12) :\n    apply (compose f (inverse f)) x = x",
     "statement_sha256": "62d5cd7be3ff9ed2489f19a76effc941b7d96a06f2b1ffe1750e30c728304d60",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.inverse_right",
     "axioms": [
       "propext",
@@ -1519,7 +1519,7 @@
     "exact_statement": "theorem compose_left_identity : ∀ f : Affine, compose identity f = f",
     "statement_sha256": "4f635f817824380ed254e8d7a1c38e046a9c09f78a48a217d9c9ae9b86c6ae09",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_left_identity",
     "axioms": [
       "propext",
@@ -1547,7 +1547,7 @@
     "exact_statement": "theorem compose_right_identity : ∀ f : Affine, compose f identity = f",
     "statement_sha256": "5665c818149c655358f43f1cf4337f27dd23d0637593c349540680052481c252",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_right_identity",
     "axioms": [
       "propext",
@@ -1575,7 +1575,7 @@
     "exact_statement": "theorem compose_associative (h g f : Affine) :\n    compose (compose h g) f = compose h (compose g f)",
     "statement_sha256": "0dfbd78296516ebe4467253f57bd351d405dc1df54f1501d41af0ac610bd89b9",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.compose_associative",
     "axioms": [
       "propext",
@@ -1603,7 +1603,7 @@
     "exact_statement": "theorem allOffsets_length : allOffsets.length = 12",
     "statement_sha256": "a5225349d9a06bfd3cc7ca7a656bb7ddedb65ed26551c8b78236530fe5c14514",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.allOffsets_length",
     "axioms": [
       "propext"
@@ -1629,7 +1629,7 @@
     "exact_statement": "theorem allAffine_length : allAffine.length = 48",
     "statement_sha256": "3e00d674ea0392fd90befb16d08e9c2d70e5ff03c4e9f9ce0044eb34148d877f",
     "source": "Duodenary/Imported/AffineKernel.lean",
-    "source_sha256": "0ff5b3f05c2a5068f643044b3929eb4cb6e544b61858642cd8cc56301d5004b4",
+    "source_sha256": "2805ac0e4db119ebbf69a9af3428a17aadadb2bc752764596035cf6b62e5499b",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineAffine.allAffine_length",
     "axioms": [
       "propext"
@@ -1655,7 +1655,7 @@
     "exact_statement": "theorem add_comm : ∀ x y : Z12, add x y = add y x",
     "statement_sha256": "00fd1a1d0df007167dccb64ccfe1836c790c5e47b34cd9b1ffa5ce386716c14a",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_comm",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -1679,7 +1679,7 @@
     "exact_statement": "theorem add_assoc : ∀ x y z : Z12, add (add x y) z = add x (add y z)",
     "statement_sha256": "7f9b5b960c9fb2c42366ea02a0d69fc9fdf65084dc58e9ca64178e71338c06db",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_assoc",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -1703,7 +1703,7 @@
     "exact_statement": "theorem add_zero : ∀ x : Z12, add x 0 = x",
     "statement_sha256": "490401a19e464e76a4012069a5627653710ba015e41e744fa96486107d3a2764",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_zero",
     "axioms": [
       "propext"
@@ -1729,7 +1729,7 @@
     "exact_statement": "theorem zero_add : ∀ x : Z12, add 0 x = x",
     "statement_sha256": "c931aa1c93bf5fce4c60e8e68905df36908376279a725d392be87c286f2eb5c4",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.zero_add",
     "axioms": [
       "propext"
@@ -1755,7 +1755,7 @@
     "exact_statement": "theorem add_neg : ∀ x : Z12, add x (neg x) = 0",
     "statement_sha256": "701c4d57e4d04cb9bdb79b066ca9a5ac3b2a8e18614d94fc32e5ee5ff12b013c",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_neg",
     "axioms": [
       "propext"
@@ -1781,7 +1781,7 @@
     "exact_statement": "theorem neg_add : ∀ x : Z12, add (neg x) x = 0",
     "statement_sha256": "2aaa6510c495b919821733cb42f82b8d0f69a4331afa95939fa1ab066b9cc57b",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.neg_add",
     "axioms": [
       "propext"
@@ -1807,7 +1807,7 @@
     "exact_statement": "theorem mul_comm : ∀ x y : Z12, mul x y = mul y x",
     "statement_sha256": "833e62ab977b19684d5cd16750ebb818153c0d319f0f1de83fd50a1f42d3b2b0",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_comm",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -1831,7 +1831,7 @@
     "exact_statement": "theorem mul_assoc : ∀ x y z : Z12, mul (mul x y) z = mul x (mul y z)",
     "statement_sha256": "beb7a6888acd8dd986ad0ce070fc020d7ec92f8a42da24dc0a222b693de943c8",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_assoc",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -1855,7 +1855,7 @@
     "exact_statement": "theorem mul_one : ∀ x : Z12, mul x 1 = x",
     "statement_sha256": "b77c0d09d99ae3c954b674449e227250705704d12543c31ea8db706f035876b8",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_one",
     "axioms": [
       "propext"
@@ -1881,7 +1881,7 @@
     "exact_statement": "theorem one_mul : ∀ x : Z12, mul 1 x = x",
     "statement_sha256": "079760fcd94ef5465502a5589709edeac21a02c378dc55d40eab972ee349b6fa",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.one_mul",
     "axioms": [
       "propext"
@@ -1907,7 +1907,7 @@
     "exact_statement": "theorem mul_add : ∀ x y z : Z12,\n    mul x (add y z) = add (mul x y) (mul x z)",
     "statement_sha256": "5f1054d5a65b12900317ec1016c7600f0ffdcf35b6d5d8e5435d5a9033d28f4a",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.mul_add",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -1931,7 +1931,7 @@
     "exact_statement": "theorem add_mul : ∀ x y z : Z12,\n    mul (add x y) z = add (mul x z) (mul y z)",
     "statement_sha256": "5b0a6c9a5bfa308a3098fde2ff3b430db5cc86e01050fb9206986a337e408e63",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.add_mul",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -1955,7 +1955,7 @@
     "exact_statement": "theorem scale_def (n : Nat) (x : Z12) : scale n x = mul (n : Z12) x",
     "statement_sha256": "9ceb85a13ad2d70d336f1355f8337158caceb96f46f68dba6cc974c7cd8e6b03",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_def",
     "axioms": [
       "propext"
@@ -1981,7 +1981,7 @@
     "exact_statement": "theorem scale_one : ∀ x : Z12, scale 1 x = x",
     "statement_sha256": "4de58cc85a548d9d688978141457de02f798d269ef37e978f47b0f293a3a537c",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_one",
     "axioms": [
       "propext"
@@ -2007,7 +2007,7 @@
     "exact_statement": "theorem scale_zero : ∀ x : Z12, scale 0 x = 0",
     "statement_sha256": "b15bfb31bb61ab95e80b1303299f51307ff6957c6baeb8adb6584b46a300b436",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_zero",
     "axioms": [
       "propext"
@@ -2033,7 +2033,7 @@
     "exact_statement": "theorem scale_add : ∀ m n : Fin 12, ∀ x : Z12,\n    mul (add m n) x = add (mul m x) (mul n x)",
     "statement_sha256": "3bfd8767547e1e6f4bed2319a25d888f0cc2c9fcd9d04a5eb63ff64ba13a4001",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.scale_add",
     "axioms": [],
     "verification_status": "FORMALLY_PROVED",
@@ -2057,7 +2057,7 @@
     "exact_statement": "theorem twelve_eq_zero : (12 : Z12) = 0",
     "statement_sha256": "82f6339b5816f3d9c49b977427de6b373e7f11e2d099c769e2c78894e91e2398",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.twelve_eq_zero",
     "axioms": [
       "propext"
@@ -2083,7 +2083,7 @@
     "exact_statement": "theorem twelvefold_periodicity : ∀ x : Z12, add x (12 : Z12) = x",
     "statement_sha256": "b41d75dfc58c7af67aec68c25f4955175ad4b4de35aff28865e8da4c0e2d317a",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.twelvefold_periodicity",
     "axioms": [
       "propext"
@@ -2109,7 +2109,7 @@
     "exact_statement": "theorem rotate_twelve : ∀ x : Z12, rotate 12 x = x",
     "statement_sha256": "4785066772ed5e115544341064206ae7e5b48fa9f153fc5871009732311293f4",
     "source": "Duodenary/Imported/CyclicKernel.lean",
-    "source_sha256": "c557bb78fbdcb9821fd0b4f9fc8c0c4ca41ae189e7e1c1b7a91b96ff1119b2fb",
+    "source_sha256": "8fb15bd337f1754d8ad853a03ccb752afcbb8923fa50fb0f3ab82472157cea98",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineCore.rotate_twelve",
     "axioms": [
       "propext"
@@ -2135,7 +2135,7 @@
     "exact_statement": "theorem circular_isometry : ∀ g : Isometry, ∀ x y : Z12,\n    Duodenary.MachineProduct.circularDistance (act g x) (act g y) =\n      Duodenary.MachineProduct.circularDistance x y",
     "statement_sha256": "052a68a63d5bd020a051392348ba6d9f36c6978fe01b241466dcf770df027aad",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.circular_isometry",
     "axioms": [
       "propext",
@@ -2163,7 +2163,7 @@
     "exact_statement": "theorem product_isometry (g : Isometry) (p q : Duodenary.MachineProduct.V) :\n    Duodenary.MachineProduct.productDistance (actV g p) (actV g q) =\n      Duodenary.MachineProduct.productDistance p q",
     "statement_sha256": "47d91add283b366e84ea932179030a9977b5d25f1b586408c91d4ebeb56d3dcd",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.product_isometry",
     "axioms": [
       "propext",
@@ -2191,7 +2191,7 @@
     "exact_statement": "theorem unit_product_sound : ∀ a b : IsoUnit,\n    toUnit (productUnit a b) = Duodenary.MachineAffine.Unit12.prod (toUnit a) (toUnit b)",
     "statement_sha256": "14aafdaa6438c8f2b49b3687412dce94f58fe7f443f690edb1c8b426b1277790",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.unit_product_sound",
     "axioms": [
       "propext",
@@ -2219,7 +2219,7 @@
     "exact_statement": "theorem compose_sound (g f : Isometry) :\n    toAffine (compose g f) =\n      Duodenary.MachineAffine.compose (toAffine g) (toAffine f)",
     "statement_sha256": "12d81408a0cbaae8efc7cfcf3bc340d81ac38bc25c0048f96e982159d3e8900b",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.compose_sound",
     "axioms": [
       "propext",
@@ -2247,7 +2247,7 @@
     "exact_statement": "theorem inverse_sound (g : Isometry) :\n    toAffine (inverse g) = Duodenary.MachineAffine.inverse (toAffine g)",
     "statement_sha256": "e53fddcbc62fbd47efd7e659d7e39987b1fada70b3dc8c3efbeb55cca15575cb",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.inverse_sound",
     "axioms": [
       "propext"
@@ -2273,7 +2273,7 @@
     "exact_statement": "theorem inverse_left (g : Isometry) (x : Z12) :\n    Duodenary.MachineAffine.apply (toAffine (compose (inverse g) g)) x = x",
     "statement_sha256": "b4246cb451a53063db83831a0bd1c58bd64283f7aed17218045b2bcbc50db1d2",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.inverse_left",
     "axioms": [
       "propext",
@@ -2301,7 +2301,7 @@
     "exact_statement": "theorem inverse_right (g : Isometry) (x : Z12) :\n    Duodenary.MachineAffine.apply (toAffine (compose g (inverse g))) x = x",
     "statement_sha256": "9c724070f696462a2712e00bed4a96d82b748cac36e02f3ae457add833b192b6",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.inverse_right",
     "axioms": [
       "propext",
@@ -2329,7 +2329,7 @@
     "exact_statement": "theorem subgroup_cardinality : allIsometries.length = 24",
     "statement_sha256": "c678dbc6e40feda6569ac7184239c99de3d2cc0879000d9c5a4fbbe1e20a2bd3",
     "source": "Duodenary/Imported/MetricKernel.lean",
-    "source_sha256": "f153ccb563816c691e5d80df4d1186d63df2699f5cbcf8a95ad1c63ebeaf41f5",
+    "source_sha256": "edbadfc45f360d6265f916d96a1b82f1eab65ed2960d59325f0eeafc0bb94bfd",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.MachineMetric.subgroup_cardinality",
     "axioms": [
       "propext"
@@ -2660,7 +2660,7 @@
     "exact_statement": "theorem unit_fraction_multiple_three (k : ℚ) (hk : 0 < k) :\n    4 / (3*k) = 1/k + 1/(4*k) + 1/(12*k)",
     "statement_sha256": "563dbc4f4d1618266742e9b59e3bdacf201977d98c51f1c121b6deab23ff3b79",
     "source": "Duodenary/Problems/UnitFractions.lean",
-    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "source_sha256": "e4c3f34524da0832331edf5ab5691bc2b9131522549ad0173513710637846a42",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.unit_fraction_multiple_three",
     "axioms": [
       "propext",
@@ -2688,7 +2688,7 @@
     "exact_statement": "theorem positive_integer_denominators (k : Nat) (hk : 0 < k) :\n    0 < k ∧ 0 < 4*k ∧ 0 < 12*k",
     "statement_sha256": "b048b41c100557cb5ceaf55f3ae0a1bda3a71e448473a364eededc13460acdb9",
     "source": "Duodenary/Problems/UnitFractions.lean",
-    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "source_sha256": "e4c3f34524da0832331edf5ab5691bc2b9131522549ad0173513710637846a42",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.positive_integer_denominators",
     "axioms": [
       "propext",
@@ -2716,7 +2716,7 @@
     "exact_statement": "theorem multiple_three_certificate (k : Nat) (hk : 0 < k) :\n    ThreeUnitFractions (3*k)",
     "statement_sha256": "28b2695875751541b80c4ecc0edd29e10c4b892489c5a61295ccf83c02dd186e",
     "source": "Duodenary/Problems/UnitFractions.lean",
-    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "source_sha256": "e4c3f34524da0832331edf5ab5691bc2b9131522549ad0173513710637846a42",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.multiple_three_certificate",
     "axioms": [
       "propext",
@@ -2744,7 +2744,7 @@
     "exact_statement": "theorem even_certificate (k : Nat) (hk : 0 < k) :\n    ThreeUnitFractions (2*k)",
     "statement_sha256": "131e8dd26695a17318403e2076676ddbf4d59525dfc6b77d24b24f78350177dd",
     "source": "Duodenary/Problems/UnitFractions.lean",
-    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "source_sha256": "e4c3f34524da0832331edf5ab5691bc2b9131522549ad0173513710637846a42",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.even_certificate",
     "axioms": [
       "propext",
@@ -2772,7 +2772,7 @@
     "exact_statement": "theorem two_mod_three_certificate (k : Nat) :\n    ThreeUnitFractions (3*k+2)",
     "statement_sha256": "54a7eee15bc18717325c488b0dce16abac82afe76e9cb288a36cdda9f550652b",
     "source": "Duodenary/Problems/UnitFractions.lean",
-    "source_sha256": "a9ec2fc8d5d28044a8916e25db4d96a5d8fe8385761cf1a8ac17185a0786ec26",
+    "source_sha256": "e4c3f34524da0832331edf5ab5691bc2b9131522549ad0173513710637846a42",
     "dependencies": "Elaborated used-constant list in axiom_audit_log, keyed by DIRECT_DEPENDENCIES Duodenary.two_mod_three_certificate",
     "axioms": [
       "propext",
