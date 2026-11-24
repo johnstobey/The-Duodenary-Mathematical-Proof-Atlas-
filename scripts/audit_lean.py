@@ -14,7 +14,7 @@ def main():
         for m in re.finditer(r'^theorem\s+(\w+)(.*?)\s*:=',text,re.M|re.S):
             namespace=re.search(r'^namespace\s+(\S+)',text,re.M)[1]
             declarations.append((source,namespace+'.'+m[1],('theorem '+m[1]+m[2]).strip()))
-    commands=['import Duodenary','import Lean.Util.FoldConsts']
+    commands=['import Duodenary','import Lean.Util.FoldConsts','import Lean.Elab.Command']
     for _,name,_ in declarations:
         commands += [f'#check {name}',f'#print axioms {name}',f'run_cmd do\n  let env ← Lean.getEnv\n  let some ci := env.find? ``{name} | throwError "Missing theorem"\n  Lean.logInfo m!"DIRECT_DEPENDENCIES {name}: {{ci.getUsedConstantsAsSet.toList}}"']
     audit=ROOT/'.lake/AtlasAudit.lean';audit.write_text('\n'.join(commands)+'\n')
