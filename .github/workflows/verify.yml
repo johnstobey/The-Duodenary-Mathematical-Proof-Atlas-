@@ -33,6 +33,16 @@ jobs:
           python scripts/roadmap.py --check
       - name: Reproduce proof and evidence checks
         run: python scripts/reproduce.py --out .lake/ci-verification
+      - name: Build and verify Mathlib bridge package
+        working-directory: closed_ring_z12_mathlib
+        run: |
+          lake update
+          lake exe cache get
+          lake build
+          lake env lean VerifyAxioms.lean | tee /tmp/verify-axioms.log
+          ! grep -q sorryAx /tmp/verify-axioms.log
+          lake env lean VerifyC12.lean | tee /tmp/verify-c12.log
+          ! grep -q sorryAx /tmp/verify-c12.log
       - uses: actions/upload-artifact@v4
         if: always()
         with:
