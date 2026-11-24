@@ -41,6 +41,12 @@ surface as **inherited** (Mathlib theorem applied, no new proof content),
 | `c12_units_card` | inherited, transported | same, through defeq carrier |
 | `zmod12_unit_iff_coprime` | inherited characterization | `decide` (matches `ZMod.unitsEquivCoprime`) |
 | `crtFactorModel` | inherited | `RingEquiv.symm` of `crt12` |
+| `zmod12_card`, `c12_card` | inherited | `ZMod.card`, `Fintype.card_fin` |
+| `cyclic_transitive` | derived | `decide` (rotation action transitive on `Z/12Z`) |
+| `dist_lt_seven`, `dist_attains_all` | derived | `decide` — `dist` image is exactly `{0,…,6}`: **seven distances** |
+| `antipodalPairs_length/complete/J` | derived | `decide`/`rfl` — explicit 6-pair certificate: **six antipodal pairs** |
+| `origin_map` | derived | `natResidue_zero/one` |
+| `unit_slopes_closed` | derived | `decide` — `{1,5,7,11}` closed under `· mod 12`: admissible transformations compose |
 
 ## Workload accounting (Article X: inheritance vs construction)
 
@@ -49,11 +55,14 @@ surface as **inherited** (Mathlib theorem applied, no new proof content),
 - CRT decomposition: **one** application of `ZMod.chineseRemainder`.
 - `C12` ring structure: **zero** operation redefinitions — the instance is
   the `ZMod 12` instance transported across a definitional equality.
-- New proof obligations actually discharged: ~30 bounded `decide`/`omega`
+- New proof obligations actually discharged: ~40 bounded `decide`/`omega`
   elements plus 3 `RingEquiv` assemblies. Everything else is citation.
 
 ## Axiom surface
 
 All gates report axioms ⊆ `{propext, Classical.choice, Quot.sound}`;
 zero `sorryAx` across `VerifyAxioms.lean` (14), `VerifyC12.lean` (13),
-`VerifyTransport.lean` (13), enforced in CI by `.github/workflows/verify.yml`.
+`VerifyTransport.lean` (23), enforced in CI by `.github/workflows/verify.yml`.
+Four transport declarations (`dist_lt_seven`, `antipodalPairs_length`,
+`antipodalPairs_complete`, `antipodalPairs_J`) depend on **no axioms at
+all** — pure kernel computation.
