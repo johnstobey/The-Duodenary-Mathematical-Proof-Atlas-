@@ -1,6 +1,6 @@
 name = "closed_ring_z12_mathlib"
 version = "0.1.0"
-defaultTargets = ["CRTMathlib", "C12ZModBridge", "ZMod12Transport"]
+defaultTargets = ["CRTMathlib", "C12ZModBridge", "ZMod12Transport", "PairSpace144"]
 
 [[require]]
 name = "mathlib"
@@ -26,3 +26,6 @@ name = "C12ZModBridge"
 
 [[lean_lib]]
 name = "ZMod12Transport"
+
+[[lean_lib]]
+name = "PairSpace144"

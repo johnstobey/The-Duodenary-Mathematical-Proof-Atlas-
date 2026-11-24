@@ -50,6 +50,8 @@ jobs:
           ! grep -q sorryAx /tmp/verify-c12.log
           lake env lean VerifyTransport.lean | tee /tmp/verify-transport.log
           ! grep -q sorryAx /tmp/verify-transport.log
+          lake env lean VerifyPairSpace.lean | tee /tmp/verify-pairspace.log
+          ! grep -q sorryAx /tmp/verify-pairspace.log
       - uses: actions/upload-artifact@v7
         if: always()
         with:
