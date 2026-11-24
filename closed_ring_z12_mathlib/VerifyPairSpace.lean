@@ -56,4 +56,4 @@ example : decode144 ⟨143, by decide⟩ = ((11 : ZMod 12), (11 : ZMod 12)) := b
 
 end VectorsV1
 
-#eval IO.println "PAIR144 VERIFIED: generators, orbit/incidence structure, serialization, and the not-ZMod-144 distinction are kernel-checked with no sorryAx."
+#eval IO.println "PAIR144 VERIFIED: generators, orbit/incidence structure, serialization, and the not-ZMod-144 distinction are kernel-checked and axiom-clean."
