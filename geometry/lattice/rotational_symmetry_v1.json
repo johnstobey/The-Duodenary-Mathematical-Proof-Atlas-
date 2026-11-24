@@ -1,0 +1,788 @@
+{
+ "schema": "rotational-symmetry/v1",
+ "annulus": "45%-85% of q95 ink radius about image center",
+ "images": [
+  {
+   "file": "Gemini_Generated_Image_8yx5ge8yx5ge8yx5.jpeg",
+   "r95": 584.7,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.31676
+    },
+    {
+     "k": 2,
+     "power": 0.1169
+    },
+    {
+     "k": 5,
+     "power": 0.1131
+    },
+    {
+     "k": 8,
+     "power": 0.10856
+    }
+   ],
+   "contrast": 2.71
+  },
+  {
+   "file": "Gemini_Generated_Image_dq4kktdq4kktdq4k.jpeg",
+   "r95": 666.5,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.41974
+    },
+    {
+     "k": 2,
+     "power": 0.26725
+    },
+    {
+     "k": 3,
+     "power": 0.02852
+    },
+    {
+     "k": 5,
+     "power": 0.02524
+    }
+   ],
+   "contrast": 1.57
+  },
+  {
+   "file": "Gemini_Generated_Image_u5o6wtu5o6wtu5o6.jpeg",
+   "r95": 641.0,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.0719
+    },
+    {
+     "k": 3,
+     "power": 0.0554
+    },
+    {
+     "k": 4,
+     "power": 0.03788
+    },
+    {
+     "k": 1,
+     "power": 0.03763
+    }
+   ],
+   "contrast": 1.3
+  },
+  {
+   "file": "Lattice Aries.jpeg",
+   "r95": 460.7,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.03086
+    },
+    {
+     "k": 9,
+     "power": 0.0208
+    },
+    {
+     "k": 4,
+     "power": 0.01206
+    },
+    {
+     "k": 5,
+     "power": 0.00978
+    }
+   ],
+   "contrast": 1.48
+  },
+  {
+   "file": "Lattice Taurus.jpeg",
+   "r95": 504.9,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.44714
+    },
+    {
+     "k": 6,
+     "power": 0.05183
+    },
+    {
+     "k": 5,
+     "power": 0.0317
+    },
+    {
+     "k": 4,
+     "power": 0.01814
+    }
+   ],
+   "contrast": 8.63
+  },
+  {
+   "file": "Raven Design Lexicon Micro.jpeg",
+   "r95": 565.1,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.01664
+    },
+    {
+     "k": 14,
+     "power": 0.00456
+    },
+    {
+     "k": 4,
+     "power": 0.00414
+    },
+    {
+     "k": 13,
+     "power": 0.00387
+    }
+   ],
+   "contrast": 3.65
+  },
+  {
+   "file": "book of the dead lattice .jpeg",
+   "r95": 641.3,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.00445
+    },
+    {
+     "k": 6,
+     "power": 0.00211
+    },
+    {
+     "k": 36,
+     "power": 0.00125
+    },
+    {
+     "k": 14,
+     "power": 0.00121
+    }
+   ],
+   "contrast": 2.11
+  },
+  {
+   "file": "cygnus lattice .jpeg",
+   "r95": 686.0,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.60721
+    },
+    {
+     "k": 2,
+     "power": 0.21761
+    },
+    {
+     "k": 3,
+     "power": 0.07549
+    },
+    {
+     "k": 8,
+     "power": 0.0358
+    }
+   ],
+   "contrast": 2.79
+  },
+  {
+   "file": "lalttice libra.jpeg",
+   "r95": 674.3,
+   "top_orders": [
+    {
+     "k": 6,
+     "power": 0.08717
+    },
+    {
+     "k": 4,
+     "power": 0.03798
+    },
+    {
+     "k": 8,
+     "power": 0.03699
+    },
+    {
+     "k": 3,
+     "power": 0.02758
+    }
+   ],
+   "contrast": 2.3
+  },
+  {
+   "file": "lattice amun.jpeg",
+   "r95": 674.6,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.1427
+    },
+    {
+     "k": 2,
+     "power": 0.13614
+    },
+    {
+     "k": 6,
+     "power": 0.06691
+    },
+    {
+     "k": 1,
+     "power": 0.06422
+    }
+   ],
+   "contrast": 1.05
+  },
+  {
+   "file": "lattice anubis .jpeg",
+   "r95": 612.2,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.38645
+    },
+    {
+     "k": 5,
+     "power": 0.12432
+    },
+    {
+     "k": 3,
+     "power": 0.11578
+    },
+    {
+     "k": 7,
+     "power": 0.10872
+    }
+   ],
+   "contrast": 3.11
+  },
+  {
+   "file": "lattice aquarius.jpeg",
+   "r95": 682.2,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.47592
+    },
+    {
+     "k": 2,
+     "power": 0.41571
+    },
+    {
+     "k": 3,
+     "power": 0.14736
+    },
+    {
+     "k": 8,
+     "power": 0.0592
+    }
+   ],
+   "contrast": 1.14
+  },
+  {
+   "file": "lattice capricorn .jpeg",
+   "r95": 679.2,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.46781
+    },
+    {
+     "k": 2,
+     "power": 0.35671
+    },
+    {
+     "k": 3,
+     "power": 0.19089
+    },
+    {
+     "k": 8,
+     "power": 0.05675
+    }
+   ],
+   "contrast": 1.31
+  },
+  {
+   "file": "lattice hathor.jpeg",
+   "r95": 675.0,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.2146
+    },
+    {
+     "k": 1,
+     "power": 0.20842
+    },
+    {
+     "k": 8,
+     "power": 0.1557
+    },
+    {
+     "k": 5,
+     "power": 0.13214
+    }
+   ],
+   "contrast": 1.03
+  },
+  {
+   "file": "lattice horus .jpeg",
+   "r95": 490.9,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.18236
+    },
+    {
+     "k": 7,
+     "power": 0.07643
+    },
+    {
+     "k": 3,
+     "power": 0.06114
+    },
+    {
+     "k": 1,
+     "power": 0.0356
+    }
+   ],
+   "contrast": 2.39
+  },
+  {
+   "file": "lattice isis.jpeg",
+   "r95": 644.5,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.33976
+    },
+    {
+     "k": 1,
+     "power": 0.20518
+    },
+    {
+     "k": 8,
+     "power": 0.11283
+    },
+    {
+     "k": 6,
+     "power": 0.11133
+    }
+   ],
+   "contrast": 1.66
+  },
+  {
+   "file": "lattice leo.jpeg",
+   "r95": 396.4,
+   "top_orders": [
+    {
+     "k": 6,
+     "power": 0.00275
+    },
+    {
+     "k": 24,
+     "power": 0.00175
+    },
+    {
+     "k": 16,
+     "power": 0.00156
+    },
+    {
+     "k": 12,
+     "power": 0.00142
+    }
+   ],
+   "contrast": 1.57
+  },
+  {
+   "file": "lattice libra.jpeg",
+   "r95": 574.2,
+   "top_orders": [
+    {
+     "k": 6,
+     "power": 0.01994
+    },
+    {
+     "k": 2,
+     "power": 0.00911
+    },
+    {
+     "k": 1,
+     "power": 0.00286
+    },
+    {
+     "k": 3,
+     "power": 0.00275
+    }
+   ],
+   "contrast": 2.19
+  },
+  {
+   "file": "lattice ma at .jpeg",
+   "r95": 669.6,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.39784
+    },
+    {
+     "k": 2,
+     "power": 0.38434
+    },
+    {
+     "k": 5,
+     "power": 0.27667
+    },
+    {
+     "k": 8,
+     "power": 0.20235
+    }
+   ],
+   "contrast": 1.04
+  },
+  {
+   "file": "lattice mercury .jpeg",
+   "r95": 682.0,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.60241
+    },
+    {
+     "k": 2,
+     "power": 0.32329
+    },
+    {
+     "k": 3,
+     "power": 0.16007
+    },
+    {
+     "k": 4,
+     "power": 0.035
+    }
+   ],
+   "contrast": 1.86
+  },
+  {
+   "file": "lattice nut .jpeg",
+   "r95": 678.9,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.08483
+    },
+    {
+     "k": 3,
+     "power": 0.06557
+    },
+    {
+     "k": 7,
+     "power": 0.02211
+    },
+    {
+     "k": 1,
+     "power": 0.02165
+    }
+   ],
+   "contrast": 1.29
+  },
+  {
+   "file": "lattice orion .jpeg",
+   "r95": 676.8,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.28837
+    },
+    {
+     "k": 1,
+     "power": 0.26212
+    },
+    {
+     "k": 7,
+     "power": 0.07914
+    },
+    {
+     "k": 5,
+     "power": 0.05773
+    }
+   ],
+   "contrast": 1.1
+  },
+  {
+   "file": "lattice osiris.jpeg",
+   "r95": 644.7,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.36771
+    },
+    {
+     "k": 1,
+     "power": 0.20749
+    },
+    {
+     "k": 4,
+     "power": 0.04508
+    },
+    {
+     "k": 3,
+     "power": 0.03908
+    }
+   ],
+   "contrast": 1.77
+  },
+  {
+   "file": "lattice piscses.jpeg",
+   "r95": 682.2,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.548
+    },
+    {
+     "k": 2,
+     "power": 0.3442
+    },
+    {
+     "k": 3,
+     "power": 0.17098
+    },
+    {
+     "k": 9,
+     "power": 0.03354
+    }
+   ],
+   "contrast": 1.59
+  },
+  {
+   "file": "lattice sagitarius .jpeg",
+   "r95": 525.3,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.20309
+    },
+    {
+     "k": 4,
+     "power": 0.06065
+    },
+    {
+     "k": 3,
+     "power": 0.05011
+    },
+    {
+     "k": 6,
+     "power": 0.02557
+    }
+   ],
+   "contrast": 3.35
+  },
+  {
+   "file": "lattice scorpio.jpeg",
+   "r95": 456.8,
+   "top_orders": [
+    {
+     "k": 8,
+     "power": 0.10231
+    },
+    {
+     "k": 3,
+     "power": 0.0932
+    },
+    {
+     "k": 5,
+     "power": 0.08977
+    },
+    {
+     "k": 6,
+     "power": 0.02709
+    }
+   ],
+   "contrast": 1.1
+  },
+  {
+   "file": "lattice seth .jpeg",
+   "r95": 688.1,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.27929
+    },
+    {
+     "k": 3,
+     "power": 0.10625
+    },
+    {
+     "k": 2,
+     "power": 0.10527
+    },
+    {
+     "k": 6,
+     "power": 0.05203
+    }
+   ],
+   "contrast": 2.63
+  },
+  {
+   "file": "lattice sphinx.jpeg",
+   "r95": 557.3,
+   "top_orders": [
+    {
+     "k": 4,
+     "power": 0.12777
+    },
+    {
+     "k": 1,
+     "power": 0.11234
+    },
+    {
+     "k": 7,
+     "power": 0.02841
+    },
+    {
+     "k": 5,
+     "power": 0.02751
+    }
+   ],
+   "contrast": 1.14
+  },
+  {
+   "file": "lattice ursa major .jpeg",
+   "r95": 570.2,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.19394
+    },
+    {
+     "k": 1,
+     "power": 0.07672
+    },
+    {
+     "k": 3,
+     "power": 0.05834
+    },
+    {
+     "k": 4,
+     "power": 0.03867
+    }
+   ],
+   "contrast": 2.53
+  },
+  {
+   "file": "lattice virgo.jpeg",
+   "r95": 454.2,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.04326
+    },
+    {
+     "k": 1,
+     "power": 0.02248
+    },
+    {
+     "k": 7,
+     "power": 0.01404
+    },
+    {
+     "k": 3,
+     "power": 0.01369
+    }
+   ],
+   "contrast": 1.92
+  },
+  {
+   "file": "lattice. Cassiopeia.jpeg",
+   "r95": 681.7,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.40686
+    },
+    {
+     "k": 1,
+     "power": 0.10281
+    },
+    {
+     "k": 3,
+     "power": 0.07907
+    },
+    {
+     "k": 5,
+     "power": 0.03003
+    }
+   ],
+   "contrast": 3.96
+  },
+  {
+   "file": "quetzacoatl lattice.jpeg",
+   "r95": 458.7,
+   "top_orders": [
+    {
+     "k": 2,
+     "power": 0.2558
+    },
+    {
+     "k": 3,
+     "power": 0.03847
+    },
+    {
+     "k": 1,
+     "power": 0.038
+    },
+    {
+     "k": 7,
+     "power": 0.02763
+    }
+   ],
+   "contrast": 6.65
+  },
+  {
+   "file": "raven.jpg",
+   "r95": 512.7,
+   "top_orders": [
+    {
+     "k": 3,
+     "power": 0.17393
+    },
+    {
+     "k": 6,
+     "power": 0.03798
+    },
+    {
+     "k": 5,
+     "power": 0.03142
+    },
+    {
+     "k": 4,
+     "power": 0.01709
+    }
+   ],
+   "contrast": 4.58
+  },
+  {
+   "file": "sakhmet lattice.jpeg",
+   "r95": 684.9,
+   "top_orders": [
+    {
+     "k": 1,
+     "power": 0.31157
+    },
+    {
+     "k": 3,
+     "power": 0.10508
+    },
+    {
+     "k": 6,
+     "power": 0.09355
+    },
+    {
+     "k": 2,
+     "power": 0.05799
+    }
+   ],
+   "contrast": 2.97
+  }
+ ]
+}
