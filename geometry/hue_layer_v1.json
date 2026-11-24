@@ -1,0 +1,119 @@
+{
+ "schema": "hue-layer/v1",
+ "modulus": 12,
+ "position": {
+  "coordinate": "k in ZMod 12",
+  "angle_deg": "30k",
+  "frame": "top-origin, clockwise, y-down",
+  "successor": "k->k+1",
+  "antipode_J": "k->k+6"
+ },
+ "hue": {
+  "coordinate": "h in ZMod 12 (12-bin hue wheel)",
+  "antipode": "h->h+6 (6-step = complementary)",
+  "distance": "min(d,12-d) in 0..6"
+ },
+ "cases": {
+  "A_h_eq_k": {
+   "accessible_pairs": 12,
+   "structure": "diagonal"
+  },
+  "B_h_eq_k_plus_c": {
+   "accessible_pairs": 12,
+   "note": "any c in Z/12 \u2014 gauge offset"
+  },
+  "C_h_independent": {
+   "accessible_pairs": 144,
+   "structure": "Z/12 x Z/12 product",
+   "not": "Z/144 cyclic \u2014 exponent witness"
+  }
+ },
+ "new_information": "independent hue adds 132 states beyond the diagonal (144-12); whether hue IS independent is a modeling choice \u2014 no corpus evidence assigns it independently",
+ "checks": [
+  {
+   "id": "A1",
+   "check": "h=k gives exactly 12 accessible pairs (diagonal)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "B1",
+   "check": "h=k+c gauge: all 12 offsets give 12 pairs, none more",
+   "pass": true,
+   "detail": "distinct offset graphs=12"
+  },
+  {
+   "id": "B2",
+   "check": "offset graphs are pairwise disjoint cosets of diagonal",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "C1",
+   "check": "independent h gives all 144 pairs",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "C2",
+   "check": "product Z/12xZ/12 has exponent 12 (no element of order 144)",
+   "pass": true,
+   "detail": "max element order=12"
+  },
+  {
+   "id": "C3",
+   "check": "Z/144 has an element of order 144 \u2014 spaces non-isomorphic",
+   "pass": true,
+   "detail": "exponent(product)=12 < 144=|Z/144|"
+  },
+  {
+   "id": "C4",
+   "check": "projection pi(k,h)=k is surjective hom, kernel size 12",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O1",
+   "check": "position J: 6 unordered antipodal pairs, fixed-point-free",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O2",
+   "check": "hue antipode h->h+6: 6 complementary pairs, fixed-point-free",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O3",
+   "check": "combined (k+6,h+6) is involution on 144 pairs, no fixed points",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O4",
+   "check": "position successor orbit on product = 12-cycles per hue fiber",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O5",
+   "check": "hue cyclic distance symmetric, <=6, attains 0..6",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O6",
+   "check": "grayscale projection removes exactly the 12 hue fibers",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "id": "O7",
+   "check": "inversion (k,h)->(-k,-h) is involution on product",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "checks_passed": "14/14"
+}
