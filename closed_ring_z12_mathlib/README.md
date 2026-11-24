@@ -137,7 +137,8 @@ Interface contract: `../formalization/CP01_INTERFACE_CONTRACT.md`
 
 Axiom gate: `lake env lean VerifyPairSpace.lean` — 18 `#print axioms`
 reports, zero `sorryAx`; axioms ⊆ `[propext, Classical.choice,
-Quot.sound]`; two are axiom-free.
+Quot.sound]`; the serialization round-trips (`encode144_decode144`,
+`encode144_agrees_core`) need only `[propext, Quot.sound]`.
 
 ## Versioned test vectors
 
