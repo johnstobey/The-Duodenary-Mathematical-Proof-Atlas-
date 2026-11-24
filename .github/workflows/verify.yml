@@ -43,6 +43,8 @@ jobs:
           ! grep -q sorryAx /tmp/verify-axioms.log
           lake env lean VerifyC12.lean | tee /tmp/verify-c12.log
           ! grep -q sorryAx /tmp/verify-c12.log
+          lake env lean VerifyTransport.lean | tee /tmp/verify-transport.log
+          ! grep -q sorryAx /tmp/verify-transport.log
       - uses: actions/upload-artifact@v4
         if: always()
         with:
