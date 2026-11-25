@@ -100,3 +100,28 @@ Both `.lean` files **fail to parse as delivered**: a plain-text banner (filename
 2. Meep `gyrotropic=False` control — still unrun; `conda install -c conda-forge pymeep` not attempted (heavy MPI stack; candidate for mini build host per deployment policy).
 3. Benchmark redesign — now concrete: replace absolute thresholds with **contrast metrics** (χ_gauge − χ_control; isolation_gauge − isolation_control). BENCH-B should be deleted or replaced by a prediction the model actually makes (e.g., measured γ_eff vs. independent ring-down theory).
 4. Full-fidelity QuTiP completion — running; if it does not finish in reasonable wall-time, that itself is the finding (the design point is computationally impractical as specified).
+
+## Addendum 2026-11-25 (2) — dim-64 trio complete; dim-729 impractical
+
+The N=6, n_fock=2 (dim 64) reduced-fidelity trio finished (~35 min/mode, niced, `/tmp/qutip_dim64.log`):
+
+| mode | ⟨n⟩_ss | χ_ss | Q_eff | occ>1e-3 | Q>1e4 | \|χ\|>1e-6 |
+|---|---|---|---|---|---|---|
+| gauge (ΔJ=20MHz, φ-gradient) | 1.8126e-4 | **−4.7035e-6** | 1.0000e4 | FAIL | PASS* | PASS |
+| uniform (ΔJ=20MHz, φ=0) | 1.8897e-4 | +2.35e-18 | 1.0000e4 | FAIL | FAIL | FAIL |
+| static (ΔJ=0) | 1.8853e-4 | −4.03e-19 | 1.0000e4 | FAIL | FAIL | FAIL |
+
+\* The dim-64 gauge `Q>1e4` PASS is boundary float noise — `Q_eff` prints as exactly `1.0000e+04`; BENCH-B remains structurally unpassable (see D2 revision above). The meaningful contrast is χ: gauge ~5e-6 vs controls ~1e-19, a **~13-order-of-magnitude separation**.
+
+- **Mechanism contrast now confirmed at three fidelities** (dim 8, 16, 64): the Floquet phase gradient is the sole source of net circulation; uniform ΔJ modulation and the static lattice produce machine-zero χ everywhere. ⟨n⟩_ss stays drive-limited (~1.8–1.9e-4) with only a small gauge-vs-control offset at dim 64.
+- **dim-729 (original blueprint config) is computationally impractical**: >2.5 h wall / >128 CPU-min and counting on dell (pid still alive, `/tmp/qutip_full729.log`), versus the docstring's "30–90 seconds" — a >100× falsification, and the gap is still growing. This is the finding anticipated in remediation item 4: the specified design point does not complete on workstation hardware in any useful timeframe. The dim-729 run is left detached; if it completes, the number goes in the next addendum, but no result at this fidelity is needed for the triage verdict.
+- **Occupation benchmark never passes at dim ≥ 64** (⟨n⟩_ss ~ 2e-4 ≪ 1e-3 threshold) — BENCH-A's threshold was presumably tuned on the un-runnable dim-729 expectation; at every fidelity actually executed it FAILs.
+
+### CP-05 status after second addendum
+
+| Remediation item | State |
+|---|---|
+| QuTiP missing controls | DONE at dim 8/16/64 — contrast confirmed; dim-729 impractical (running, non-blocking) |
+| Meep `gyrotropic=False` control | NOT RUN — pymeep not installed; conda candidate for mini build host |
+| Benchmark redesign | SPECIFIED — contrast metrics (χ_gauge − χ_control); BENCH-B delete-or-replace; BENCH-A threshold needs retuning or deletion |
+| Lean deliverables | AUDITED — D6 recorded; not kernel evidence as delivered |
