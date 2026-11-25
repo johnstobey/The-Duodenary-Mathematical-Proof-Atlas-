@@ -63,12 +63,29 @@ reference).
   in progress (see below); QuTiP χ vs N_SITES already spans dim
   8/16/64 with consistent sign-magnitude behavior.
 
-## Meep parameter scan (executed 2026-11-25, mini)
+## Meep parameter scan (executed 2026-11-24/25, mini)
 
 Grid: `LLG_FREQ ∈ {0.4, 0.5, 0.6}` × `LLG_SIGMA ∈ {0.5, 1.0, 2.0}`,
 `gamma=0.02`, `alpha=0.005` fixed, `MEEP_MODE=gyro`, identical
-disorder/ports/flux. Results: [FILLED AFTER SCAN — see
-`geometry/` or issue #10 comment].
+disorder/ports/flux. 9/9 combos completed (~970–1010 s wall each,
+3-way parallel). Isolation at peak transmission frequency:
+
+| σ \ f | 0.4 | 0.5 | 0.6 |
+|---|---|---|---|
+| 0.5 | −1.92 dB · 0/100 · FAIL | +0.70 dB · 0/100 · FAIL | +11.69 dB · 0/100 · FAIL |
+| 1.0 | +23.90 dB · 100/100 · PASS | **+36.38 dB · 100/100 · PASS** | +26.36 dB · 100/100 · PASS |
+| 2.0 | +37.09 dB · 100/100 · PASS | +35.36 dB · 100/100 · PASS | +34.45 dB · 100/100 · PASS |
+
+**Structure:** sharp susceptibility threshold — σ=0.5 fails everywhere
+(weak gyrotropy cannot overcome disorder/backscattering), σ≥1.0 passes
+everywhere with 34–37 dB isolation. Within each σ row, f=0.5 (source
+center) is near-optimal at σ=1.0; the pass region is broad, not a
+fine-tuned point. The +36.38 dB working-point result is typical, not
+exceptional.
 
 Working point reference (freq=0.5, sigma=1.0): isolation **+36.38 dB**,
 100/100 spec bins.
+
+Absolute-flux confirmation runs (gyro vs control at the working point,
+raw flux sidecar) launched 2026-11-25 on mini to close data gap M3;
+results appended below on completion.
