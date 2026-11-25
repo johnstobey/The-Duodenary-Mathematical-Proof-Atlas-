@@ -5,7 +5,7 @@ Runs the real merged consumer pipeline and emits a shared fixture that
 three independent native implementations must agree on:
 
     geometry_ir_baseline.z12x
-      -> Recursiverse-Suite adapters/geometry_ir/z12x_reader.py
+      -> Recursiverse-Suite artifacts/geometry_ir/z12x_reader.py
          (read_geometry_ir + node_envelopes + antipode_envelopes)
       -> artifacts/coordinate_envelope.py::convert (aries_zero -> cancer_zero)
       -> cp04_e2e_fixture.json
@@ -34,8 +34,8 @@ from pathlib import Path
 
 ATLAS = Path(__file__).resolve().parents[1]
 REC = Path.home() / "workspace" / "Recursiverse-Suite"
-Z12X = REC / "adapters" / "geometry_ir" / "fixtures" / "geometry_ir_baseline.z12x"
-READER = REC / "adapters" / "geometry_ir" / "z12x_reader.py"
+Z12X = REC / "artifacts" / "geometry_ir" / "fixtures" / "geometry_ir_baseline.z12x"
+READER = REC / "artifacts" / "geometry_ir" / "z12x_reader.py"
 ENVELOPE_PY = REC / "artifacts" / "coordinate_envelope.py"
 OUT = ATLAS / "geometry" / "cp04_e2e_fixture.json"
 
@@ -98,7 +98,7 @@ def build_fixture():
         "schema": FIXTURE_SCHEMA,
         "generated_by": "geometry/cp04_e2e_fixture.py",
         "sources": {
-            "z12x_path": "Recursiverse-Suite/adapters/geometry_ir/fixtures/geometry_ir_baseline.z12x",
+            "z12x_path": "Recursiverse-Suite/artifacts/geometry_ir/fixtures/geometry_ir_baseline.z12x",
             "z12x_sha256": hashlib.sha256(z12x_bytes).hexdigest(),
             "schema_id": doc["schema"],
         },
