@@ -43,7 +43,7 @@ consistency check.
 |---|---|---|---|---|
 | M1 | isolation contrast | isolation_gyro − isolation_control at peak | +36.38 − (−0.02) = **+36.40 dB** | PASS — exceeds any reasonable margin |
 | M2 | backward suppression | S12_gyro − S12_control at peak | −36.38 − (+0.02) = **−36.40 dB** | PASS |
-| M3 | forward transmission preserved | S21_gyro ≈ S21_control (edge mode still transmits forward) | both +0.00 dB *normalized* — **absolute flux not recorded** | INCOMPLETE — requires unnormalized flux output |
+| M3 | forward transmission preserved | S21_gyro ≈ S21_control (edge mode still transmits forward) | gyro fwd=1.90e11 vs control fwd=1.25 (**11 orders apart — flux normalization is material-model-dependent, not comparable across runs**); within-run directionality confirmed: gyro fwd/bwd=+36.38 dB absolute, control −0.02 dB | **PARTIAL** — absolute cross-model comparison needs a common reference (vacuum/empty-cell flux); within-run absolute directionality verified |
 | M4 | spec-band coverage | fraction of band where M1+M2 hold simultaneously | 100/100 bins (gyro) vs 0/100 (control) | PASS |
 
 Replaces: `|S21|² > −3 dB` (tautological under own-peak
@@ -53,15 +53,16 @@ reference).
 
 ## Data gaps to close for full redesign execution
 
-- **Absolute flux values**: both Meep runs printed only normalized dB.
-  M3 needs raw forward flux per mode. Patch: dump `flux_fwd`/`flux_bwd`
-  arrays (or their max) to JSON in the harness.
+- **Absolute flux values**: resolved — raw flux sidecar dumped; finding
+  is that cross-model absolute flux is NOT comparable (material-dependent
+  normalization). M3 re-scoped to within-run absolute directionality
+  (verified) + future common-reference run.
 - **χ uncertainty**: QuTiP χ values are single deterministic runs;
   report solver tolerance or repeat-seed spread if stochastic elements
   are added.
-- **Parameter sensitivity**: Meep isolation vs LLG params — scan
-  in progress (see below); QuTiP χ vs N_SITES already spans dim
-  8/16/64 with consistent sign-magnitude behavior.
+- **Parameter sensitivity**: DONE — Meep 3×3 LLG scan below shows a
+  sharp σ threshold and broad pass region; QuTiP χ vs N_SITES spans
+  dim 8/16/64 with consistent sign-magnitude behavior.
 
 ## Meep parameter scan (executed 2026-11-24/25, mini)
 
@@ -87,5 +88,17 @@ Working point reference (freq=0.5, sigma=1.0): isolation **+36.38 dB**,
 100/100 spec bins.
 
 Absolute-flux confirmation runs (gyro vs control at the working point,
-raw flux sidecar) launched 2026-11-25 on mini to close data gap M3;
-results appended below on completion.
+raw flux sidecar via patched harness `/tmp/meep_scan_flux.py` on mini)
+completed 2026-11-25. Results:
+
+- Gyro reproduced +36.38 dB isolation, 100/100 bins, all PASS —
+  patch changed instrumentation only, not physics.
+- Within-run absolute directionality: gyro fwd/bwd flux ratio =
+  +36.38 dB; control = −0.02 dB (fwd/bwd = 1.004 — reciprocal as
+  required).
+- **Cross-model absolute flux is not comparable**: gyro peak forward
+  flux 1.90e11 vs control 1.25 — the dispersive gyrotropic material
+  model normalizes fields differently. M3 therefore stays PARTIAL:
+  a common reference (vacuum cell or empty-waveguide run) is required
+  before "forward transmission preserved" can be asserted in absolute
+  terms. This is a harness limitation, not a physics finding.
