@@ -2,7 +2,7 @@
   "schema": "CP04-E2E/1",
   "generated_by": "geometry/cp04_e2e_fixture.py",
   "sources": {
-    "z12x_path": "Recursiverse-Suite/adapters/geometry_ir/fixtures/geometry_ir_baseline.z12x",
+    "z12x_path": "Recursiverse-Suite/artifacts/geometry_ir/fixtures/geometry_ir_baseline.z12x",
     "z12x_sha256": "f3ef27c92bc53e22dbcd5917e5600cdce5e343d3874152e44e3d4de92eb8d0f2",
     "schema_id": "GI-DR-01/GeometryIR/v1"
   },

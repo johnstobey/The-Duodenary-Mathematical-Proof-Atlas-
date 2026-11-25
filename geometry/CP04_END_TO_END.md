@@ -13,12 +13,15 @@ implementations, all asserting against the same expected values.
 geometry_ir_baseline.z12x            (GI-DR-01/GeometryIR/v1, sha256 f3ef27c9…)
   │
   ├─ Recursiverse-Suite (Python, dell)
-  │    adapters/geometry_ir/z12x_reader.py
+  │    artifacts/geometry_ir/z12x_reader.py
   │      read_geometry_ir → node_envelopes (12× canonical_sector)
   │                     → antipode_envelopes (12× fine_144)
   │    artifacts/coordinate_envelope.py::convert  aries_zero → cancer_zero
   │
-  ├─→ geometry/cp04_e2e_fixture.json   (CP04-E2E/1, sha256 3b56e461…)
+  ├─→ geometry/cp04_e2e_fixture.json   (CP04-E2E/1, sha256 d86e9ec0…;
+  │     regenerated after Recursiverse promotion #54/#55 — cases
+  │     identical, only z12x_path metadata updated from adapters/ to
+  │     artifacts/geometry_ir/)
   │      24 cases + antipode pairs + node angles + source pins
   │
   ├─ Machine (Rust, mini)               tests/cp04_e2e.rs        — PR #8
