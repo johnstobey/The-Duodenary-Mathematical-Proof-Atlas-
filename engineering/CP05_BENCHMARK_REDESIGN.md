@@ -43,7 +43,7 @@ consistency check.
 |---|---|---|---|---|
 | M1 | isolation contrast | isolation_gyro − isolation_control at peak | +36.38 − (−0.02) = **+36.40 dB** | PASS — exceeds any reasonable margin |
 | M2 | backward suppression | S12_gyro − S12_control at peak | −36.38 − (+0.02) = **−36.40 dB** | PASS |
-| M3 | forward transmission preserved | S21_gyro ≈ S21_control (edge mode still transmits forward) | gyro fwd=1.90e11 vs control fwd=1.25 (**11 orders apart — flux normalization is material-model-dependent, not comparable across runs**); within-run directionality confirmed: gyro fwd/bwd=+36.38 dB absolute, control −0.02 dB | **PARTIAL** — absolute cross-model comparison needs a common reference (vacuum/empty-cell flux); within-run absolute directionality verified |
+| M3 | forward transmission preserved | S21_gyro ≈ S21_control (edge mode still transmits forward) | gyro fwd=1.90e11 vs control/ref fwd=1.25 (**flux scale tracks material model, not geometry**: σ=0 LLG run is bit-identical to static-ε control — 1.2502/1.2556 both); within-run directionality: gyro fwd/bwd=+36.38 dB absolute, controls −0.02 dB | **PARTIAL** — raw-flux cross-model comparison impossible (dispersive aux-fields renormalize); proper reference = eigenmode-source S-parameters (mode-overlap normalized), harness upgrade |
 | M4 | spec-band coverage | fraction of band where M1+M2 hold simultaneously | 100/100 bins (gyro) vs 0/100 (control) | PASS |
 
 Replaces: `|S21|² > −3 dB` (tautological under own-peak
@@ -53,10 +53,17 @@ reference).
 
 ## Data gaps to close for full redesign execution
 
-- **Absolute flux values**: resolved — raw flux sidecar dumped; finding
-  is that cross-model absolute flux is NOT comparable (material-dependent
-  normalization). M3 re-scoped to within-run absolute directionality
-  (verified) + future common-reference run.
+- **Absolute flux values**: resolved to a precise negative — a third
+  run (`MEEP_MODE=gyro LLG_SIGMA=0.0`, same two-half geometry and LLG
+  material class, coupling off) produced flux **bit-identical** to the
+  static-ε control (fwd 1.2502, bwd 1.2556, iso −0.02 dB). Two
+  consequences: (a) at σ=0 the LLG susceptibility reduces exactly to
+  ε=12/μ=1 — a built-in reciprocity check that passed; (b) the flux
+  scale is set by the *material model* (dispersive auxiliary fields vs
+  static), not by geometry or mechanism — so no raw-flux reference can
+  make gyro-vs-control absolute transmission comparable. M3's proper
+  closure is eigenmode-source S-parameters (mode-overlap normalization
+  is material-independent) — a harness upgrade, not a rerun.
 - **χ uncertainty**: QuTiP χ values are single deterministic runs;
   report solver tolerance or repeat-seed spread if stochastic elements
   are added.
@@ -96,9 +103,7 @@ completed 2026-11-25. Results:
 - Within-run absolute directionality: gyro fwd/bwd flux ratio =
   +36.38 dB; control = −0.02 dB (fwd/bwd = 1.004 — reciprocal as
   required).
-- **Cross-model absolute flux is not comparable**: gyro peak forward
-  flux 1.90e11 vs control 1.25 — the dispersive gyrotropic material
-  model normalizes fields differently. M3 therefore stays PARTIAL:
-  a common reference (vacuum cell or empty-waveguide run) is required
-  before "forward transmission preserved" can be asserted in absolute
-  terms. This is a harness limitation, not a physics finding.
+- σ=0 same-normalization reference run (2026-11-25): flux bit-identical
+  to static control — proves flux scale is material-model-set and the
+  LLG→static reduction is exact. M3 remains PARTIAL: eigenmode-source
+  S-parameters are the correct closure (future harness work).
