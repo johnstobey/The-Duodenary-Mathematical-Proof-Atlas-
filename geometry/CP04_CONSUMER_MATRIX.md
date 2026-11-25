@@ -11,7 +11,7 @@ Canonical interface: Atlas `closed_ring_z12_mathlib` (`ZMod 12 ≃+* ZMod 4 × Z
 | tobey-three-language | `jjcav84/tobey-three-language` | GeometryIR `z12x` interchange (Lisp+Prolog consumers); Rust `geometry.rs` Z/12 aspects + 144 slots + antipodal TSV | CRIA-02: A1 consumer registration DONE — PRs #3 (Lisp consumer+fixture), #4 (Prolog `read_geometry_ir/1`) | **ADOPTED** at interchange level; native execution unverified |
 | Recursiverse-Suite | `johnstobey/Recursiverse-Suite` | `recursiverse_engine.py` Z/12+Z/144, 64 closed masks, `coordinate_envelope.schema.json` | Chunk-4 audit: 144 fine-grid antipode cases, 4096 intersections pass | compatibility-tested; **adapter integration NOT DONE** |
 | Machine | `johnstobey/Machine` | `coords.rs` + `COORDINATE_SEMANTICS_SPEC.md` | audit: strict degree-longitude vs sector-index; legacy `floor(degree) mod 12` unit error documented | semantics certified; **frame conversion NOT DONE** |
-| z12z-Memory-Module | `johnstobey/z12z-Memory-Module` | `lattice.rs` antipodal +6/+72/+864 (ring/page/cell), `coordinate_envelope.rs` | audit: 12-sector/144-fine/1728-cell anchor round-trips pass | compatibility-tested; **provenance signatures NOT DONE** |
+| z12z-Memory-Module | `johnstobey/z12z-Memory-Module` | `lattice.rs` antipodal +6/+72/+864 (ring/page/cell), `coordinate_envelope.rs`, `provenance.rs` (new) | audit: 12-sector/144-fine/1728-cell anchor round-trips pass; PR adds `ProvenanceRecord` (schema Z12MEM-PROVENANCE/1, typed `SignedCoordinate`, two-layer verify) | compatibility-tested; **provenance signatures PR OPEN** — z12z-Memory-Module#9 |
 | Alien-math-decoded-2 | `johnstobey/Alien-math-decoded-2` | `AtlasConsumption.lean` — imports `ZMod12Transport`/`C12ZModBridge`/`CRTMathlib`; `lakefile.lean` `require closed_ring_z12_mathlib from git` pinned `2d84d17`; Lean v4.14.0; exact/apply-only inheritance + `#print axioms` | direct clone inspection this session (repo active, pushed 2026-11-24) | **ADOPTED** — strongest form: git-pinned Lake dep, axiom-inheriting |
 | oversight | `johnstobey/oversight` | provenance/review only — explicitly not math kernel | reuse map | n/a |
 | Omni-Lattice-Suite, Machine-Artifacts- | — | — | repos do not resolve under available token | **DEFERRED** per critical-path doc (integrate after interfaces stable) |
@@ -27,11 +27,12 @@ Canonical interface: Atlas `closed_ring_z12_mathlib` (`ZMod 12 ≃+* ZMod 4 × Z
 - [x] typed interchange → three-language compiler — **done via z12x (A1)**
 - [~] Python geometry reader → Recursiverse-Suite — **PR OPEN**: Recursiverse-Suite#53 (`adapters/geometry_ir/z12x_reader.py`, 24/24 GIR vectors via convert, governance-clean); awaits owner merge
 - [~] frame-anchor conversion → Machine — **PR OPEN**: Machine#7 (`driver/src/geomframe.rs`, GeoAnchor +9/+3 source-defined shifts, explicit Orientation non-claim, 8/8 unit + 40/40 suite green on mini); awaits owner merge
-- [ ] provenance-preserving signature records → z12z-Memory-Module
+- [~] provenance-preserving signature records → z12z-Memory-Module — **PR OPEN**: z12z-Memory-Module#9 (`src/provenance.rs`, `ProvenanceRecord` binds typed coordinate to source artifact w/ sha256 digests, deterministic signing, tamper-evident; fmt/clippy/133 tests green on mini); awaits owner merge
 - [ ] native code execution + end-to-end adapter integration — audit: **not done** (Lean consumers tobey-decoder + Alien-math-decoded-2 now cover the formal path)
 
 ## Verification log
 
+- 2026-11-25: z12z-Memory-Module cloned; `src/provenance.rs` added — `ProvenanceRecord` w/ `SignedCoordinate::{Envelope,LatticeAddress}`, `sign()` (deterministic, no clock), `verify_self`/`verify_source`, serde round-trip + tamper tests. Verified on mini (dell cargo disabled): fmt clean, clippy -D warnings clean, `cargo test --all` 133/133. PR #9 open, CI green.
 - 2026-11-25: Machine cloned; `geomframe.rs` built per Chunk-4 boundary (explicit anchor + orientation, no assumed correspondence); cargo test on mini (dell builds disabled) 40/40 green. Machine PR #7 open.
 - 2026-11-25: Recursiverse-Suite cloned; `adapters/geometry_ir/` reader built + self-checked (z12x parse → validate → emit → convert → 24/24 GIR vectors); adversarial rejection 7/7; GOV-005 required `adapters/` placement (artifacts//tests/ immutable). PR #53 open, CI green.
 - 2026-11-24: Alien-math-decoded-2 upgraded UNVERIFIED→ADOPTED after direct clone; `AtlasConsumption.lean` + `lakefile.lean` git-pin inspected. `gh search code` returned empty (index lag) — direct clone is ground truth.
