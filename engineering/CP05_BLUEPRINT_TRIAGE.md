@@ -122,6 +122,100 @@ The N=6, n_fock=2 (dim 64) reduced-fidelity trio finished (~35 min/mode, niced, 
 | Remediation item | State |
 |---|---|
 | QuTiP missing controls | DONE at dim 8/16/64 — contrast confirmed; dim-729 impractical (running, non-blocking) |
-| Meep `gyrotropic=False` control | NOT RUN — pymeep not installed; conda candidate for mini build host |
+| Meep `gyrotropic=False` control | DONE — see third addendum: delivered script cannot initialize (D7); control executed; corrected LLG model executed |
 | Benchmark redesign | SPECIFIED — contrast metrics (χ_gauge − χ_control); BENCH-B delete-or-replace; BENCH-A threshold needs retuning or deletion |
 | Lean deliverables | AUDITED — D6 recorded; not kernel evidence as delivered |
+
+## Addendum 2026-11-25 (3) — Meep executed on mini; new defect D7; first real baseline contrast
+
+Environment: `pymeep 1.36.0` via `uv` venv on mini (`~/builds/meep-venv`; PyPI wheel, no conda needed). Dell untouched per build-host policy. All runs niced + detached, logs `/tmp/meep_*.log` on mini. Script provenance: `/tmp/meep_delivered.py` is a byte-identical copy of the corpus file (sha256 `9b68ec13…` both sides); `/tmp/meep_control.py` = 2-line patch (sha `4d117d5a…`); `/tmp/meep_gyro_fixed.py` = material-spec patch (sha `62e2434a…`). Corpus file untouched.
+
+### D7 — the delivered script cannot initialize (new critical defect)
+
+`meep_nonreciprocal_sparam.py` specifies the gyrotropic medium as
+`mp.Medium(mu_offdiag=Vector3(1j*alpha, 0, 0))` — a purely imaginary
+off-diagonal permeability. Meep's material model accepts only
+**real-symmetric** ε/μ tensors for non-dispersive media;
+`material_data.cpp::check_offdiag_im_zero_or_abort()` aborts structure
+init with `Found non-zero imaginary part of epsilon or mu offdiag`.
+Observed: the delivered script dies on the **first** (forward) run at
+`t=0` — zero physics output, on meep 1.36.0. The imaginary-offdiag
+restriction is in Meep's material core, not version-specific drift —
+the gyrotropic μ-tensor model is **inexpressible** in Meep's
+non-dispersive API. The script's own comment ("Meep assumes Hermitian
+structure, so the transposed off-diagonal is automatically −iα")
+describes an API contract that does not exist.
+
+### Control executed — uniform medium baseline
+
+One-line mechanical patch (`gyrotropic=True`→`False` at the
+`build_geometry` call; the parameter already existed but was dead code
+— D1 confirmed in source). Uniform `eps_bg=12` medium + identical
+disorder, both ports, ~66 s for both runs:
+
+| quantity | control (uniform) |
+|---|---|
+| \|S21\|² at peak f*=0.3503 | +0.00 dB (normalized — tautological) |
+| \|S12\|² at peak | **+0.02 dB** — reciprocal, as physics requires |
+| isolation at peak | **−0.02 dB** |
+| frequencies meeting both specs | **0 / 100** |
+
+The reciprocal baseline gives ~0 dB non-reciprocity — the reference a
+gyrotropic claim must beat.
+
+### Corrected model executed — first real baseline contrast
+
+Replaced only the material spec (documented modeling decisions, not
+blueprint-derived): `GyrotropicSaturatedSusceptibility` — Meep's
+experimental Landau-Lifshitz-Gilbert ferrite model — in
+`H_susceptibilities`, bias = ±z per half-space (matching the
+script's ±magnetization intent). Disclosed parameters: `sigma=1.0`,
+`frequency=0.5` (Larmor, above the 0.35 band), `gamma=0.02`,
+`alpha=0.005`. Everything else byte-identical: geometry, disorder
+seed, ports, flux, benchmarks. ~500 s for both runs:
+
+| quantity | corrected gyrotropic | control |
+|---|---|---|
+| \|S21\|² at peak f*=0.3250 | +0.00 dB | +0.00 dB |
+| \|S12\|² at peak | **−36.38 dB** | +0.02 dB |
+| isolation at peak | **+36.38 dB** | **−0.02 dB** |
+| frequencies meeting both specs | **100 / 100** | 0 / 100 |
+| benchmarks | ALL PASS | 2/3 FAIL (expected) |
+
+**Contrast: +36.4 dB isolation vs −0.02 dB control** — the first
+baseline-controlled evidence that a gyrotropic-interface FDTD model
+produces the claimed non-reciprocal transmission. The mechanism
+(gyrotropic half-spaces → suppressed backward channel) reproduces
+under a physically valid material spec.
+
+### Honest limits on this result
+
+- **Corrected model ≠ delivered spec.** The blueprint's
+  instantaneous-μ gyrotropic tensor is inexpressible in Meep; the LLG
+  susceptibility is dispersive and its parameters (sigma, Larmor
+  frequency, damping) were chosen by the executor, not derived from
+  the blueprint. This validates the *mechanism class*, not the
+  blueprint's specific design point.
+- **Single parameter point.** No sensitivity scan; isolation could
+  vary with `frequency`/`sigma`/`gamma`.
+- **"Topological" still unverified.** The sim shows non-reciprocal
+  edge transmission; no bulk-boundary invariant was computed — same
+  evidentiary status as before, now with a working baseline.
+- **BENCH-A-style tautology persists** in \|S21\| (normalized to own
+  peak → 0 dB by construction); \|S12\| and isolation are the real
+  measurements.
+- Meep's gyrotropic susceptibility is flagged experimental upstream.
+
+### CP-05 status after third addendum
+
+| Item | State |
+|---|---|
+| QuTiP controls | DONE at dim 8/16/64 — contrast confirmed |
+| Meep control | DONE — control executed (−0.02 dB); delivered spec broken (D7); corrected model executed (+36.38 dB) |
+| Benchmark redesign | SPECIFIED — contrast metrics now have worked examples on both solvers |
+| Lean deliverables | AUDITED — D6 recorded |
+
+Both physics legs now have executed baseline contrasts. Remaining
+#10 work: benchmark-metric redesign into the triage doc's corrected
+form, optional parameter-sensitivity scan for the Meep model, and the
+dim-729 QuTiP run (still detached, non-blocking).
