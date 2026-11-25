@@ -25,13 +25,14 @@ Canonical interface: Atlas `closed_ring_z12_mathlib` (`ZMod 12 ≃+* ZMod 4 × Z
 ## Gap list (audit integration hypothesis — still open)
 
 - [x] typed interchange → three-language compiler — **done via z12x (A1)**
-- [ ] Python geometry reader → Recursiverse-Suite
+- [~] Python geometry reader → Recursiverse-Suite — **PR OPEN**: Recursiverse-Suite#53 (`adapters/geometry_ir/z12x_reader.py`, 24/24 GIR vectors via convert, governance-clean); awaits owner merge
 - [ ] frame-anchor conversion → Machine
 - [ ] provenance-preserving signature records → z12z-Memory-Module
 - [ ] native code execution + end-to-end adapter integration — audit: **not done** (Lean consumers tobey-decoder + Alien-math-decoded-2 now cover the formal path)
 
 ## Verification log
 
+- 2026-11-25: Recursiverse-Suite cloned; `adapters/geometry_ir/` reader built + self-checked (z12x parse → validate → emit → convert → 24/24 GIR vectors); adversarial rejection 7/7; GOV-005 required `adapters/` placement (artifacts//tests/ immutable). PR #53 open, CI green.
 - 2026-11-24: Alien-math-decoded-2 upgraded UNVERIFIED→ADOPTED after direct clone; `AtlasConsumption.lean` + `lakefile.lean` git-pin inspected. `gh search code` returned empty (index lag) — direct clone is ground truth.
 
 ## Sources
