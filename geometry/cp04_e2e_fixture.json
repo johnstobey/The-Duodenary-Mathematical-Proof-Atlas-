@@ -1,0 +1,531 @@
+{
+  "schema": "CP04-E2E/1",
+  "generated_by": "geometry/cp04_e2e_fixture.py",
+  "sources": {
+    "z12x_path": "Recursiverse-Suite/adapters/geometry_ir/fixtures/geometry_ir_baseline.z12x",
+    "z12x_sha256": "f3ef27c92bc53e22dbcd5917e5600cdce5e343d3874152e44e3d4de92eb8d0f2",
+    "schema_id": "GI-DR-01/GeometryIR/v1"
+  },
+  "node_angle_degrees_clockwise_from_top": {
+    "k0": 0,
+    "k1": 30,
+    "k2": 60,
+    "k3": 90,
+    "k4": 120,
+    "k5": 150,
+    "k6": 180,
+    "k7": 210,
+    "k8": 240,
+    "k9": 270,
+    "k10": 300,
+    "k11": 330
+  },
+  "antipodes": [
+    {
+      "source": 0,
+      "target": 6
+    },
+    {
+      "source": 1,
+      "target": 7
+    },
+    {
+      "source": 2,
+      "target": 8
+    },
+    {
+      "source": 3,
+      "target": 9
+    },
+    {
+      "source": 4,
+      "target": 10
+    },
+    {
+      "source": 5,
+      "target": 11
+    },
+    {
+      "source": 6,
+      "target": 0
+    },
+    {
+      "source": 7,
+      "target": 1
+    },
+    {
+      "source": 8,
+      "target": 2
+    },
+    {
+      "source": 9,
+      "target": 3
+    },
+    {
+      "source": 10,
+      "target": 4
+    },
+    {
+      "source": 11,
+      "target": 5
+    }
+  ],
+  "cases": [
+    {
+      "id": "GIR-K00-node-sector",
+      "kind": "canonical_sector",
+      "node": "k0",
+      "image_sector": 0,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 0
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 9
+      },
+      "expected_cancer_sector": 9,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K01-node-sector",
+      "kind": "canonical_sector",
+      "node": "k1",
+      "image_sector": 1,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 1
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 10
+      },
+      "expected_cancer_sector": 10,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K02-node-sector",
+      "kind": "canonical_sector",
+      "node": "k2",
+      "image_sector": 2,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 2
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 11
+      },
+      "expected_cancer_sector": 11,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K03-node-sector",
+      "kind": "canonical_sector",
+      "node": "k3",
+      "image_sector": 3,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 3
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 0
+      },
+      "expected_cancer_sector": 0,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K04-node-sector",
+      "kind": "canonical_sector",
+      "node": "k4",
+      "image_sector": 4,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 4
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 1
+      },
+      "expected_cancer_sector": 1,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K05-node-sector",
+      "kind": "canonical_sector",
+      "node": "k5",
+      "image_sector": 5,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 5
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 2
+      },
+      "expected_cancer_sector": 2,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K06-node-sector",
+      "kind": "canonical_sector",
+      "node": "k6",
+      "image_sector": 6,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 6
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 3
+      },
+      "expected_cancer_sector": 3,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K07-node-sector",
+      "kind": "canonical_sector",
+      "node": "k7",
+      "image_sector": 7,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 7
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 4
+      },
+      "expected_cancer_sector": 4,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K08-node-sector",
+      "kind": "canonical_sector",
+      "node": "k8",
+      "image_sector": 8,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 8
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 5
+      },
+      "expected_cancer_sector": 5,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K09-node-sector",
+      "kind": "canonical_sector",
+      "node": "k9",
+      "image_sector": 9,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 9
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 6
+      },
+      "expected_cancer_sector": 6,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K10-node-sector",
+      "kind": "canonical_sector",
+      "node": "k10",
+      "image_sector": 10,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 10
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 7
+      },
+      "expected_cancer_sector": 7,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-K11-node-sector",
+      "kind": "canonical_sector",
+      "node": "k11",
+      "image_sector": 11,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "canonical_sector",
+        "value": 11
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "canonical_sector",
+        "value": 8
+      },
+      "expected_cancer_sector": 8,
+      "expected_cancer_fine": null
+    },
+    {
+      "id": "GIR-J00-antipode-target",
+      "kind": "fine_144",
+      "relation": "J0",
+      "source_node": "k0",
+      "target_node": "k6",
+      "image_sector": 6,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 72
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 36
+      },
+      "expected_cancer_sector": 3,
+      "expected_cancer_fine": 36
+    },
+    {
+      "id": "GIR-J01-antipode-target",
+      "kind": "fine_144",
+      "relation": "J1",
+      "source_node": "k1",
+      "target_node": "k7",
+      "image_sector": 7,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 84
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 48
+      },
+      "expected_cancer_sector": 4,
+      "expected_cancer_fine": 48
+    },
+    {
+      "id": "GIR-J02-antipode-target",
+      "kind": "fine_144",
+      "relation": "J2",
+      "source_node": "k2",
+      "target_node": "k8",
+      "image_sector": 8,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 96
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 60
+      },
+      "expected_cancer_sector": 5,
+      "expected_cancer_fine": 60
+    },
+    {
+      "id": "GIR-J03-antipode-target",
+      "kind": "fine_144",
+      "relation": "J3",
+      "source_node": "k3",
+      "target_node": "k9",
+      "image_sector": 9,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 108
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 72
+      },
+      "expected_cancer_sector": 6,
+      "expected_cancer_fine": 72
+    },
+    {
+      "id": "GIR-J04-antipode-target",
+      "kind": "fine_144",
+      "relation": "J4",
+      "source_node": "k4",
+      "target_node": "k10",
+      "image_sector": 10,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 120
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 84
+      },
+      "expected_cancer_sector": 7,
+      "expected_cancer_fine": 84
+    },
+    {
+      "id": "GIR-J05-antipode-target",
+      "kind": "fine_144",
+      "relation": "J5",
+      "source_node": "k5",
+      "target_node": "k11",
+      "image_sector": 11,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 132
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 96
+      },
+      "expected_cancer_sector": 8,
+      "expected_cancer_fine": 96
+    },
+    {
+      "id": "GIR-J06-antipode-target",
+      "kind": "fine_144",
+      "relation": "J6",
+      "source_node": "k6",
+      "target_node": "k0",
+      "image_sector": 0,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 0
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 108
+      },
+      "expected_cancer_sector": 9,
+      "expected_cancer_fine": 108
+    },
+    {
+      "id": "GIR-J07-antipode-target",
+      "kind": "fine_144",
+      "relation": "J7",
+      "source_node": "k7",
+      "target_node": "k1",
+      "image_sector": 1,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 12
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 120
+      },
+      "expected_cancer_sector": 10,
+      "expected_cancer_fine": 120
+    },
+    {
+      "id": "GIR-J08-antipode-target",
+      "kind": "fine_144",
+      "relation": "J8",
+      "source_node": "k8",
+      "target_node": "k2",
+      "image_sector": 2,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 24
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 132
+      },
+      "expected_cancer_sector": 11,
+      "expected_cancer_fine": 132
+    },
+    {
+      "id": "GIR-J09-antipode-target",
+      "kind": "fine_144",
+      "relation": "J9",
+      "source_node": "k9",
+      "target_node": "k3",
+      "image_sector": 3,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 36
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 0
+      },
+      "expected_cancer_sector": 0,
+      "expected_cancer_fine": 0
+    },
+    {
+      "id": "GIR-J10-antipode-target",
+      "kind": "fine_144",
+      "relation": "J10",
+      "source_node": "k10",
+      "target_node": "k4",
+      "image_sector": 4,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 48
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 12
+      },
+      "expected_cancer_sector": 1,
+      "expected_cancer_fine": 12
+    },
+    {
+      "id": "GIR-J11-antipode-target",
+      "kind": "fine_144",
+      "relation": "J11",
+      "source_node": "k11",
+      "target_node": "k5",
+      "image_sector": 5,
+      "input": {
+        "anchor": "aries_zero",
+        "frame_type": "fine_144",
+        "value": 60
+      },
+      "expected_cancer": {
+        "anchor": "cancer_zero",
+        "frame_type": "fine_144",
+        "value": 24
+      },
+      "expected_cancer_sector": 2,
+      "expected_cancer_fine": 24
+    }
+  ]
+}
