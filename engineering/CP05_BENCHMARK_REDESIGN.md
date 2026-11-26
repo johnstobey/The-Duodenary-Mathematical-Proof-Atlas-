@@ -43,7 +43,7 @@ consistency check.
 |---|---|---|---|---|
 | M1 | isolation contrast | isolation_gyro − isolation_control at peak | +36.38 − (−0.02) = **+36.40 dB** | PASS — exceeds any reasonable margin |
 | M2 | backward suppression | S12_gyro − S12_control at peak | −36.38 − (+0.02) = **−36.40 dB** | PASS |
-| M3 | forward transmission preserved | S21_gyro ≈ S21_control (edge mode still transmits forward) | gyro fwd=1.90e11 vs control/ref fwd=1.25 (**flux scale tracks material model, not geometry**: σ=0 LLG run is bit-identical to static-ε control — 1.2502/1.2556 both); within-run directionality: gyro fwd/bwd=+36.38 dB absolute, controls −0.02 dB | **PARTIAL** — raw-flux cross-model comparison impossible (dispersive aux-fields renormalize); proper reference = eigenmode-source S-parameters (mode-overlap normalized), harness upgrade |
+| M3 | forward transmission preserved | S21_gyro ≈ S21_control (edge mode still transmits forward) | **directional fraction** (material-self-normalized): gyro **99.98%** / clean-gyro 99.42% / controls 49.89% of escaping flux exits forward; disorder *increases* isolation +22.3→+36.4 dB and forward flux 5× (3.7e10→1.9e11); eigenmode S-params attempted — **meep MPB silently ignores H_susceptibilities** (uniform vgrp=1/√12 all bands = plain-ε12 modes) and non-dispersive gyrotropic μ is forbidden (real-symmetric off-diag constraint) → absolute insertion-loss NOT certifiable in this toolchain | **BOUNDED-PASS** — forward transmission real, dominant, disorder-robust; absolute S21-vs-incident requires a solver with genuine gyrotropic eigenmode support (COMSOL/HFSS/MPB-native Polder) |
 | M4 | spec-band coverage | fraction of band where M1+M2 hold simultaneously | 100/100 bins (gyro) vs 0/100 (control) | PASS |
 
 Replaces: `|S21|² > −3 dB` (tautological under own-peak
@@ -53,17 +53,12 @@ reference).
 
 ## Data gaps to close for full redesign execution
 
-- **Absolute flux values**: resolved to a precise negative — a third
-  run (`MEEP_MODE=gyro LLG_SIGMA=0.0`, same two-half geometry and LLG
-  material class, coupling off) produced flux **bit-identical** to the
-  static-ε control (fwd 1.2502, bwd 1.2556, iso −0.02 dB). Two
-  consequences: (a) at σ=0 the LLG susceptibility reduces exactly to
-  ε=12/μ=1 — a built-in reciprocity check that passed; (b) the flux
-  scale is set by the *material model* (dispersive auxiliary fields vs
-  static), not by geometry or mechanism — so no raw-flux reference can
-  make gyro-vs-control absolute transmission comparable. M3's proper
-  closure is eigenmode-source S-parameters (mode-overlap normalization
-  is material-independent) — a harness upgrade, not a rerun.
+- **Absolute flux values**: resolved — cross-model raw flux is not
+  comparable (material-model-set scale, proven by the bit-identical
+  σ=0 run). M3 re-scoped to material-self-normalized directional
+  fraction (99.98% gyro vs 49.89% control) + clean-vs-disordered
+  contrast; eigenmode S-params proven unavailable for this material
+  class (see attempt log below).
 - **χ uncertainty**: QuTiP χ values are single deterministic runs;
   report solver tolerance or repeat-seed spread if stochastic elements
   are added.
@@ -105,5 +100,28 @@ completed 2026-11-25. Results:
   required).
 - σ=0 same-normalization reference run (2026-11-25): flux bit-identical
   to static control — proves flux scale is material-model-set and the
-  LLG→static reduction is exact. M3 remains PARTIAL: eigenmode-source
-  S-parameters are the correct closure (future harness work).
+  LLG→static reduction is exact.
+- **Eigenmode S-parameter attempt (2026-11-25) — definitive negative:**
+  two variants executed on mini. (a) `EigenModeSource` band-1 launch:
+  gyro S21 ≈ −105 dB all bands — launched mode does not transmit.
+  (b) point-source + `add_mode_monitor` decomposition, bands 1–10,
+  both directions, gyro+control: gyro coefficients show symmetric
+  ± amplitudes and **uniform vgrp = 1/√12 ≈ 0.2887 across every
+  band/frequency** — the signature of MPB solving plain-ε12 modes,
+  i.e. it **silently ignores `H_susceptibilities`** (a time-domain
+  auxiliary-field model with no frequency-domain tensor equivalent
+  supplied to the eigenmode solver). Control decomposition is sane
+  (reciprocal medium, correct modes) which confirms the diagnosis.
+  The alternative non-dispersive gyrotropic-μ formulation is forbidden
+  by meep's real-symmetric off-diagonal constraint — the original
+  blueprint defect D7 in another guise. **Absolute insertion-loss
+  (S21 vs incident mode power) is not certifiable with meep 1.36 for
+  this material class**; closure requires a solver with genuine
+  gyrotropic eigenmode support.
+- **Clean-device contrast run (2026-11-25, `MEEP_MODE=clean` =
+  gyrotropic geometry, disorder off):** isolation +22.32 dB,
+  100/100 bins, fwd_frac 99.42% — vs disordered +36.38 dB / 99.98%.
+  Disorder *improves* forward transmission ~5× in absolute flux and
+  ~14 dB in isolation: consistent with chiral-mode protection, and
+  direct evidence that forward transmission is preserved rather than
+  merely surviving.
