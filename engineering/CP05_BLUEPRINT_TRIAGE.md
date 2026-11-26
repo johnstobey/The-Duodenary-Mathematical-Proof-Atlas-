@@ -219,3 +219,28 @@ Both physics legs now have executed baseline contrasts. Remaining
 #10 work: benchmark-metric redesign into the triage doc's corrected
 form, optional parameter-sensitivity scan for the Meep model, and the
 dim-729 QuTiP run (still detached, non-blocking).
+
+## Addendum 2026-11-26 (4) — dim-729 terminated; CP-05 evidence complete
+
+The original dim-729 QuTiP run (blueprint config N=6, n_fock=3) was
+**killed after ~27 h wall / ~24 h CPU** on dell without producing
+output (script emits only at completion; `/tmp/qutip_full729.log`
+held only the startup banner). Final accounting of the performance
+claim: docstring "typically completes in 30–90 seconds" vs observed
+**>27 h without completion** — a >1000× falsification, and it is now
+a termination record, not an open wait. No result at this fidelity is
+required for any triage verdict; the mechanism contrast is established
+at dim 8/16/64 and the design point's impracticality IS the finding.
+
+### CP-05 final status
+
+| Item | State |
+|---|---|
+| QuTiP controls | DONE at dim 8/16/64 — ~13-order χ contrast; dim-729 impractical (terminated) |
+| Meep control | DONE — control −0.02 dB; delivered spec broken (D7); corrected LLG model +36.38 dB; 9-combo σ×f scan (σ threshold, broad pass region); σ=0/clean reference runs; eigenmode S-params proven unavailable (MPB ignores H_susceptibilities) |
+| Benchmark redesign | SPECIFIED + EXECUTED — `engineering/CP05_BENCHMARK_REDESIGN.md`: contrast metrics, M3 bounded-pass on directional-fraction + disorder-robustness evidence |
+| Lean deliverables | AUDITED — D6 recorded |
+
+Every executable item in the CP-05 scope has been run or proven
+un-runnable with the reason documented. #10 is deliverable-complete
+pending owner acceptance.
