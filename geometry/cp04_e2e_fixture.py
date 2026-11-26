@@ -37,6 +37,7 @@ REC = Path.home() / "workspace" / "Recursiverse-Suite"
 Z12X = REC / "artifacts" / "geometry_ir" / "fixtures" / "geometry_ir_baseline.z12x"
 READER = REC / "artifacts" / "geometry_ir" / "z12x_reader.py"
 ENVELOPE_PY = REC / "artifacts" / "coordinate_envelope.py"
+HUE_JSON = ATLAS / "geometry" / "hue_layer_v1.json"
 OUT = ATLAS / "geometry" / "cp04_e2e_fixture.json"
 
 FIXTURE_SCHEMA = "CP04-E2E/1"
@@ -94,6 +95,8 @@ def build_fixture():
         for s in range(12)
     ]
 
+    hue = build_hue_section(envelope_mod)
+
     return {
         "schema": FIXTURE_SCHEMA,
         "generated_by": "geometry/cp04_e2e_fixture.py",
@@ -101,10 +104,77 @@ def build_fixture():
             "z12x_path": "Recursiverse-Suite/artifacts/geometry_ir/fixtures/geometry_ir_baseline.z12x",
             "z12x_sha256": hashlib.sha256(z12x_bytes).hexdigest(),
             "schema_id": doc["schema"],
+            "hue_spec": "geometry/hue_layer_v1.json",
+            "hue_spec_sha256": hashlib.sha256(HUE_JSON.read_bytes()).hexdigest(),
         },
         "node_angle_degrees_clockwise_from_top": {f"k{k}": k * 30 for k in range(12)},
         "antipodes": antipodes,
         "cases": cases,
+        "hue": hue,
+    }
+
+
+def hue_envelope(k, h, anchor="aries_zero"):
+    return {"anchor": anchor, "frame_type": "hue_pair",
+            "value": {"k": k, "h": h}}
+
+
+def build_hue_section(envelope_mod):
+    """CP-03 hue layer propagated through the CP-04 interchange.
+
+    ``hue_pair`` frame: ``k`` is the position sector and anchor-converts
+    exactly like ``canonical_sector``; ``h`` is the independent hue
+    coordinate in Z/12 and is anchor-invariant (the anchors are ecliptic
+    position frames; hue has no position anchor). The pair space is the
+    product Z/12 x Z/12 — explicitly NOT Z/144 (exponent witness in
+    hue_layer_v1.json).
+
+    ``conversion_cases``: all 144 pairs, expected values produced by the
+    real ``coordinate_envelope.convert`` (requires the ``hue_pair``
+    frame — added in Recursiverse-Suite).
+    ``relation_cases``: the hue-layer operators as pure Z/12xZ/12
+    algebra, frame-agnostic (anchor shift commutes with every op).
+    """
+    conversion_cases = []
+    for k in range(12):
+        for h in range(12):
+            env = hue_envelope(k, h)
+            expected = envelope_mod.convert(env, "cancer_zero")
+            conversion_cases.append({
+                "id": f"HUE-K{k:02d}-H{h:02d}",
+                "k": k, "h": h,
+                "input": env,
+                "expected_cancer": expected,
+            })
+
+    ops = {
+        "position_antipode": lambda k, h: ((k + 6) % 12, h),
+        "hue_antipode": lambda k, h: (k, (h + 6) % 12),
+        "combined_antipode": lambda k, h: ((k + 6) % 12, (h + 6) % 12),
+        "position_successor": lambda k, h: ((k + 1) % 12, h),
+        "hue_successor": lambda k, h: (k, (h + 1) % 12),
+        "inversion": lambda k, h: ((-k) % 12, (-h) % 12),
+        "grayscale_projection": lambda k, h: (k, None),
+    }
+    relation_cases = []
+    for op, fn in ops.items():
+        for k in range(12):
+            for h in range(12):
+                tk, th = fn(k, h)
+                relation_cases.append({
+                    "id": f"HUE-{op.upper()}-K{k:02d}-H{h:02d}",
+                    "op": op, "k": k, "h": h,
+                    "target_k": tk, "target_h": th,
+                })
+
+    return {
+        "spec": "hue-layer/v1",
+        "semantics": ("hue_pair envelope {anchor, frame_type, value:{k,h}}; "
+                      "k anchor-converts per canonical_sector rules, "
+                      "h is anchor-invariant; pair space is Z/12 x Z/12 "
+                      "product, not Z/144"),
+        "conversion_cases": conversion_cases,
+        "relation_cases": relation_cases,
     }
 
 

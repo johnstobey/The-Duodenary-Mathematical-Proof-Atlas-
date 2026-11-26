@@ -18,11 +18,11 @@ geometry_ir_baseline.z12x            (GI-DR-01/GeometryIR/v1, sha256 f3ef27c9…
   │                     → antipode_envelopes (12× fine_144)
   │    artifacts/coordinate_envelope.py::convert  aries_zero → cancer_zero
   │
-  ├─→ geometry/cp04_e2e_fixture.json   (CP04-E2E/1, sha256 d86e9ec0…;
+  ├─→ geometry/cp04_e2e_fixture.json   (CP04-E2E/1, sha256 f4e2668d… (hue-extended);
   │     regenerated after Recursiverse promotion #54/#55 — cases
   │     identical, only z12x_path metadata updated from adapters/ to
   │     artifacts/geometry_ir/)
-  │      24 cases + antipode pairs + node angles + source pins
+  │      24 z12x cases + hue section (144 conversions + 1008 relations) + antipode pairs + node angles + source pins
   │
   ├─ Machine (Rust, mini)               tests/cp04_e2e.rs        — PR #8
   │    geomframe: image sector/angle → machine Sector/Longitude
@@ -38,7 +38,7 @@ geometry_ir_baseline.z12x            (GI-DR-01/GeometryIR/v1, sha256 f3ef27c9…
 
 | Stage | Where | Result |
 |---|---|---|
-| Fixture generation (reader + convert) | dell, `python3 geometry/cp04_e2e_fixture.py` | 24 cases emitted; `--check` mode detects drift |
+| Fixture generation (reader + convert) | dell, `python3 geometry/cp04_e2e_fixture.py` | 24 z12x cases + 144 hue conversions + 1008 hue relations emitted; `--check` mode detects drift |
 | Recursiverse reader self-check | dell | 24/24 GIR vectors via convert (pre-existing, re-verified by generator) |
 | Machine geomframe e2e | mini `cargo test --test cp04_e2e` | **5/5 pass**; full driver suite 45 green |
 | z12z envelope + provenance e2e | mini `cargo test --all` | **136/136 pass** (3 new); fmt + clippy -D warnings clean |
@@ -71,6 +71,6 @@ either spelling; grep-verified before the change.
 
 - `geometry/cp04_e2e_fixture.py` — generator; `--check` verifies the
   committed fixture hasn't drifted
-- `geometry/cp04_e2e_fixture.json` — the shared fixture (24 cases)
+- `geometry/cp04_e2e_fixture.json` — the shared fixture (24 z12x cases + hue section: 144 `hue_pair` conversions, 1008 relation cases)
 - Consumer copies: `Machine:tobey-recursive-integration/driver/tests/fixtures/`,
   `z12z-Memory-Module:tests/fixtures/` (+ vendored `geometry_ir_baseline.z12x`)
