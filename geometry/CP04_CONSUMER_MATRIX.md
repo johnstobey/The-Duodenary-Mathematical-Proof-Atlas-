@@ -47,3 +47,5 @@ Canonical interface: Atlas `closed_ring_z12_mathlib` (`ZMod 12 ≃+* ZMod 4 × Z
 - `Ravenproofs` git: PR #60 (`940f88a`), CRIA-02 commits `0a45e10`, `ef85cd9`, `5d3106d`, `21d7f0a`
 - `roadmap/CRITICAL_PATH_2026-11-22.md` reuse map
 - Repo accessibility verified this session via `gh repo view` (7/9 resolve)
+
+- 2026-11-26: CP-03 hue layer propagated through the interchange — fixture gains `hue` section (144 conversions + 1008 relations, sha `f4e2668d…`). Consumer PRs: Recursiverse-Suite#57 (hue_pair frame, GOV-005 amendment flagged), Machine#10, z12z-Memory-Module#12.
