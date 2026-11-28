@@ -36,6 +36,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/check_issue_deps.py
+      - name: Recompute CP-05 contrast metrics from committed evidence
+        run: python engineering/cp05_contrasts.py
       - name: Reproduce proof and evidence checks
         run: python scripts/reproduce.py --out .lake/ci-verification
       - name: Build and verify Mathlib bridge package
