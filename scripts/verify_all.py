@@ -136,18 +136,92 @@ def run_gate(g, outdir, ctx):
             "log_sha256": hashlib.sha256(log.read_bytes()).hexdigest()}
 
 
+def _have(cmd):
+    import shutil
+    return shutil.which(cmd) is not None
+
+
+def _gh_login():
+    r = subprocess.run(["gh", "api", "user", "--jq", ".login"],
+                       capture_output=True, text=True)
+    return r.stdout.strip() if r.returncode == 0 else None
+
+
+def preflight(gates):
+    """Report which gates this environment can run, without running them."""
+    probes = {
+        "python3": _have("python3"),
+        "lake": _have("lake"),
+        "gh": _have("gh"),
+        "git-repo": (ROOT / ".git").exists(),
+        "jsonschema": True,
+        "recursiverse": (Path.home() / "workspace" /
+                         "Recursiverse-Suite").is_dir(),
+        "gh-login": _gh_login(),
+    }
+    try:
+        import jsonschema  # noqa: F401
+    except ImportError:
+        probes["jsonschema"] = False
+
+    needs = {
+        "reproduce": ["lake", "jsonschema"],
+        "emit-vectors": ["lake"],
+        "source-integrity": ["python3"],
+        "issue-deps": ["gh", "gh-login"],
+        "cp05-contrasts": ["python3"],
+        "hue-layer": ["python3"],
+        "geometry-ir": ["python3"],
+        "cp04-fixture": ["python3", "recursiverse"],
+        "queue-drift": ["gh", "gh-login"],
+        "cross-repo-receipts": ["gh", "gh-login"],
+        "tree-clean": ["git-repo"],
+        "mathlib-bridge": ["lake"],
+    }
+    rows = []
+    for g in gates:
+        missing = [n for n in needs.get(g.name, [])
+                   if probes.get(n) in (False, None)]
+        if g.precondition is not None and not g.precondition():
+            missing.append("precondition")
+        state = "READY" if not missing else "UNAVAILABLE"
+        detail = ("missing: " + ",".join(missing)) if missing else "ok"
+        if g.name == "mathlib-bridge":
+            detail += " (also needs network for mathlib cache)"
+        rows.append((g.name, "ADV" if g.advisory else "REQ", state, detail))
+
+    print(f"{'gate':22} {'kind':4} {'state':12} detail")
+    for name, kind, state, detail in rows:
+        print(f"{name:22} {kind:4} {state:12} {detail}")
+    blocked = [n for n, k, s, _ in rows if s == "UNAVAILABLE" and k == "REQ"]
+    print(f"\nprobes: lake={'ok' if probes['lake'] else 'MISSING'} "
+          f"gh={'ok' if probes['gh'] else 'MISSING'} "
+          f"gh-login={probes['gh-login'] or 'none'} "
+          f"recursiverse={'ok' if probes['recursiverse'] else 'absent'} "
+          f"jsonschema={'ok' if probes['jsonschema'] else 'MISSING'}")
+    if blocked:
+        print(f"required gates unavailable here: {', '.join(blocked)}",
+              file=sys.stderr)
+        return 1
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--with-mathlib", action="store_true",
                     help="include heavy mathlib-bridge package checks")
     ap.add_argument("--with-receipts", action="store_true",
-                    help="(advisory receipts already run by default)")
+                    help="include cross-repo consumer receipts (advisory)")
     ap.add_argument("--only", help="run a single gate by name")
     ap.add_argument("--list", action="store_true")
+    ap.add_argument("--preflight", action="store_true",
+                    help="report which gates this environment can run")
     ap.add_argument("--out", type=Path, default=ROOT / ".lake/verify-all")
     args = ap.parse_args()
 
     gates = build_gates(args.with_mathlib, args.with_receipts)
+    if args.preflight:
+        return preflight(gates)
     if args.list:
         for g in gates:
             print(f"{'REQ' if g.required else 'ADV'} {g.name}")
