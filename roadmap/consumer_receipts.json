@@ -1,0 +1,21 @@
+{
+  "schema": "CONSUMER-RECEIPTS/1",
+  "note": "Consumer-side deliverables claimed by Atlas issues. cross_repo_status.py verifies each live via gh: PR receipts check state==MERGED; commit receipts check the SHA exists. Drift (reopened/unmerged PR, missing SHA) is reported, not hidden.",
+  "receipts": [
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "tobey-relational-decoder", "repo": "johnstobey/Ravenproofs", "ref": "PR#60", "expect": "MERGED", "note": "DCC-01 consumer 2: AtlasConsumption.lean path dep"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "tobey-three-language", "repo": "jjcav84/tobey-three-language", "ref": "PR#3", "expect": "MERGED", "note": "CRIA-02 A1: Lisp consumer + fixture"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "tobey-three-language", "repo": "jjcav84/tobey-three-language", "ref": "PR#4", "expect": "MERGED", "note": "CRIA-02 A1: Prolog read_geometry_ir/1"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Alien-math-decoded-2", "repo": "johnstobey/The-Duodenary-Mathematical-Proof-Atlas-", "ref": "commit:2d84d17", "expect": "PRESENT", "note": "lakefile in Alien-math-decoded-2 pins closed_ring_z12_mathlib from THIS repo @2d84d17 (CP-02 certify)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Recursiverse-Suite", "repo": "johnstobey/Recursiverse-Suite", "ref": "PR#53", "expect": "MERGED", "note": "z12x reader -> coordinate envelopes (5bc93a2)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Recursiverse-Suite", "repo": "johnstobey/Recursiverse-Suite", "ref": "PR#54", "expect": "MERGED", "note": "Amendment A1 geometry_ir carve-out"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Recursiverse-Suite", "repo": "johnstobey/Recursiverse-Suite", "ref": "PR#55", "expect": "MERGED", "note": "reader promoted to canonical artifacts/"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Recursiverse-Suite", "repo": "johnstobey/Recursiverse-Suite", "ref": "PR#57", "expect": "MERGED", "note": "hue_pair additive contract extension (b960ccc)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Machine", "repo": "johnstobey/Machine", "ref": "PR#7", "expect": "MERGED", "note": "geomframe GeoAnchor conversion (3984633)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Machine", "repo": "johnstobey/Machine", "ref": "PR#8", "expect": "MERGED", "note": "e2e fixture through geomframe (63e71eb8)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "Machine", "repo": "johnstobey/Machine", "ref": "PR#10", "expect": "MERGED", "note": "hue_pair consumer (9d39154c)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "z12z-Memory-Module", "repo": "johnstobey/z12z-Memory-Module", "ref": "PR#9", "expect": "MERGED", "note": "ProvenanceRecord (54faecf)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "z12z-Memory-Module", "repo": "johnstobey/z12z-Memory-Module", "ref": "PR#10", "expect": "MERGED", "note": "e2e + frame-name serde fix (133e707)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "z12z-Memory-Module", "repo": "johnstobey/z12z-Memory-Module", "ref": "PR#12", "expect": "MERGED", "note": "hue_pair frame + e2e (b0f126e)"},
+    {"atlas_issue": 9, "cp": "CP-04", "consumer": "z12z-Memory-Module", "repo": "johnstobey/z12z-Memory-Module", "ref": "PR#13", "expect": "MERGED", "note": "hue provenance bound to hue spec (39f8191)"}
+  ]
+}
