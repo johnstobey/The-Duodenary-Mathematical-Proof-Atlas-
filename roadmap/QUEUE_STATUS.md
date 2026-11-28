@@ -1,6 +1,6 @@
 # Atlas queue status — generated snapshot
 
-Generated: 2026-11-28 03:41 UTC by `scripts/queue_status.py` — do not edit by hand;
+Generated: 2026-11-28 03:50 UTC by `scripts/queue_status.py` — do not edit by hand;
 regenerate with `python3 scripts/queue_status.py --write`.
 States follow the CP-06 protocol (OPEN→CLAIMED→IN PROGRESS→VERIFY→ACCEPTED);
 dependency edges parsed by `scripts/check_issue_deps.py` (same rules as CI).
