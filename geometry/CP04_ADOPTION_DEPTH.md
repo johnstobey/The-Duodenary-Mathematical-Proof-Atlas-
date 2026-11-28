@@ -3,7 +3,9 @@
 Date: 2026-11-27 · Agent: jjcav84/Devin · Method: call-site trace (grep,
 non-test paths) across all three consumers at current mains.
 
-## Verdict: INTERCHANGE-PROVEN, PRODUCTION-UNUSED
+## Verdict: INTERCHANGE-PROVEN — now WIRED in all three consumers
+
+*(Original audit verdict below; superseded 2026-11-28 — see Update.)*
 
 The z12x/hue_pair interchange is **conformance-complete but not wired
 into any production path**. Every consumer can parse and convert the
@@ -13,8 +15,8 @@ calls the interchange code.
 | Consumer | Interchange code | Non-test callers | Verdict |
 |---|---|---|---|
 | Machine (`9d39154c` → wired) | `driver/src/geomframe.rs` + `coordhouse.rs` | **`coord-house` CLI subcommand — production path** (PR #11) | **WIRED** |
-| z12z (`39f8191`) | `src/coordinate_envelope.rs`, `src/provenance.rs` | **only** `tests/cp04_e2e.rs`; `main.rs` uses unrelated `fuse::provenance` | TEST-ONLY (dead code in binary) |
-| Recursiverse (`b960ccc`) | `artifacts/geometry_ir/{z12x_reader,hue_pair}.py` | **zero imports** outside tests; `coordinate_envelope.convert` itself has no production callers | UNUSED |
+| z12z (`39f8191` → wired) | `src/provenance.rs` + CLI | **`prov-sign`/`prov-verify` — production path** (PR #14) | **WIRED** |
+| Recursiverse (`b960ccc` → wired) | `artifacts/geometry_ir/envelope_emit.py` | **CLI emitter — production path** (PR #58) | **WIRED** |
 
 Evidence: `grep -rn` for `geomframe|hue_pair|GeoAnchor` (Machine, excl.
 tests) → no hits outside `geomframe.rs` internals; `ProvenanceRecord|
@@ -73,3 +75,22 @@ type), prove the receipt, then replicate the pattern to z12z and
 Recursiverse. This converts "three languages can parse it" into "the
 system uses it" — and generates the evidence that would justify the
 dispatch amendment.
+
+## Update 2026-11-28 — all three consumers wired
+
+The audit's recommended sequence executed end-to-end:
+
+- **Machine** (PR #11): `coord-house` — envelope JSON → geomframe →
+  houses.rs sign_house + Equal House chart_house, coord-house/1
+  receipt with input_sha256.
+- **z12z** (PR #14): `prov-sign`/`prov-verify` — strict
+  CoordinateEnvelope serde → Z12MEM-PROVENANCE/1 record;
+  two-layer verify, exit 0/1/2.
+- **Recursiverse** (PR #58): `envelope_emit.py` — z12x doc →
+  geometry-ir-envelopes/1 artifact (24 envelopes + cancer_zero
+  transports + source sha256); GOV-005-safe additive files only.
+
+Each was verified on its native build path (mini for Rust, uv/pytest
+for Python) and exercised against real CP04-E2E fixture envelopes.
+"Production-unused" is now historical: the interchange is load-bearing
+in all three consumers.
