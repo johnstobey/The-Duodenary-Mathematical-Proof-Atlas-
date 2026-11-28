@@ -1,0 +1,274 @@
+[
+ {
+  "file": "Gemini_Generated_Image_8yx5ge8yx5ge8yx5.jpeg",
+  "sector": 2,
+  "kind": "zodiac",
+  "hue_deg": 63.16,
+  "R": 0.913,
+  "h12": 2
+ },
+ {
+  "file": "Gemini_Generated_Image_dq4kktdq4kktdq4k.jpeg",
+  "sector": 2,
+  "kind": "zodiac",
+  "hue_deg": 68.66,
+  "R": 0.938,
+  "h12": 2
+ },
+ {
+  "file": "Gemini_Generated_Image_u5o6wtu5o6wtu5o6.jpeg",
+  "sector": 2,
+  "kind": "zodiac",
+  "hue_deg": 67.52,
+  "R": 0.929,
+  "h12": 2
+ },
+ {
+  "file": "Lattice Aries.jpeg",
+  "sector": 0,
+  "kind": "zodiac",
+  "hue_deg": 59.69,
+  "R": 0.941,
+  "h12": 2
+ },
+ {
+  "file": "Lattice Taurus.jpeg",
+  "sector": 1,
+  "kind": "zodiac",
+  "hue_deg": 61.83,
+  "R": 0.924,
+  "h12": 2
+ },
+ {
+  "file": "Raven Design Lexicon Micro.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 63.75,
+  "R": 0.989,
+  "h12": 2
+ },
+ {
+  "file": "book of the dead lattice .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 49.14,
+  "R": 0.968,
+  "h12": 2
+ },
+ {
+  "file": "cygnus lattice .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 70.37,
+  "R": 0.903,
+  "h12": 2
+ },
+ {
+  "file": "lalttice libra.jpeg",
+  "sector": 6,
+  "kind": "zodiac",
+  "hue_deg": 70.24,
+  "R": 0.9,
+  "h12": 2
+ },
+ {
+  "file": "lattice amun.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 60.53,
+  "R": 0.919,
+  "h12": 2
+ },
+ {
+  "file": "lattice anubis .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 66.3,
+  "R": 0.921,
+  "h12": 2
+ },
+ {
+  "file": "lattice aquarius.jpeg",
+  "sector": 10,
+  "kind": "zodiac",
+  "hue_deg": 71.38,
+  "R": 0.861,
+  "h12": 2
+ },
+ {
+  "file": "lattice capricorn .jpeg",
+  "sector": 9,
+  "kind": "zodiac",
+  "hue_deg": 69.01,
+  "R": 0.871,
+  "h12": 2
+ },
+ {
+  "file": "lattice hathor.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 62.63,
+  "R": 0.903,
+  "h12": 2
+ },
+ {
+  "file": "lattice horus .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 62.8,
+  "R": 0.951,
+  "h12": 2
+ },
+ {
+  "file": "lattice isis.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 69.21,
+  "R": 0.924,
+  "h12": 2
+ },
+ {
+  "file": "lattice leo.jpeg",
+  "sector": 4,
+  "kind": "zodiac",
+  "hue_deg": 56.89,
+  "R": 0.942,
+  "h12": 2
+ },
+ {
+  "file": "lattice libra.jpeg",
+  "sector": 6,
+  "kind": "zodiac",
+  "hue_deg": 62.48,
+  "R": 0.895,
+  "h12": 2
+ },
+ {
+  "file": "lattice ma at .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 44.2,
+  "R": 0.979,
+  "h12": 1
+ },
+ {
+  "file": "lattice mercury .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 53.48,
+  "R": 0.921,
+  "h12": 2
+ },
+ {
+  "file": "lattice nut .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 40.99,
+  "R": 0.978,
+  "h12": 1
+ },
+ {
+  "file": "lattice orion .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 67.46,
+  "R": 0.917,
+  "h12": 2
+ },
+ {
+  "file": "lattice osiris.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 72.28,
+  "R": 0.918,
+  "h12": 2
+ },
+ {
+  "file": "lattice piscses.jpeg",
+  "sector": 11,
+  "kind": "zodiac",
+  "hue_deg": 67.96,
+  "R": 0.87,
+  "h12": 2
+ },
+ {
+  "file": "lattice sagitarius .jpeg",
+  "sector": 8,
+  "kind": "zodiac",
+  "hue_deg": 70.04,
+  "R": 0.908,
+  "h12": 2
+ },
+ {
+  "file": "lattice scorpio.jpeg",
+  "sector": 7,
+  "kind": "zodiac",
+  "hue_deg": 69.62,
+  "R": 0.926,
+  "h12": 2
+ },
+ {
+  "file": "lattice seth .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 34.88,
+  "R": 0.963,
+  "h12": 1
+ },
+ {
+  "file": "lattice sphinx.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 59.36,
+  "R": 0.932,
+  "h12": 2
+ },
+ {
+  "file": "lattice ursa major .jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 68.02,
+  "R": 0.928,
+  "h12": 2
+ },
+ {
+  "file": "lattice virgo.jpeg",
+  "sector": 5,
+  "kind": "zodiac",
+  "hue_deg": 54.32,
+  "R": 0.937,
+  "h12": 2
+ },
+ {
+  "file": "lattice. Cassiopeia.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 64.21,
+  "R": 0.919,
+  "h12": 2
+ },
+ {
+  "file": "quetzacoatl lattice.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 60.98,
+  "R": 0.934,
+  "h12": 2
+ },
+ {
+  "file": "raven.jpg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 57.23,
+  "R": 0.993,
+  "h12": 2
+ },
+ {
+  "file": "sakhmet lattice.jpeg",
+  "sector": null,
+  "kind": "other",
+  "hue_deg": 37.64,
+  "R": 0.981,
+  "h12": 1
+ }
+]
