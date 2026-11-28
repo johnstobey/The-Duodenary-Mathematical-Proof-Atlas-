@@ -1,0 +1,583 @@
+{
+  "images": [
+    {
+      "file": "Gemini_Generated_Image_8yx5ge8yx5ge8yx5.jpeg",
+      "sector": 2,
+      "centroid_deg": 276.58,
+      "centroid_R": 0.395,
+      "grad_deg": 270.4,
+      "grad_R": 0.01,
+      "sym_n": 12,
+      "sym_score": 0.31586059393886884,
+      "sym_scores": {
+        "2": 0.1538,
+        "3": 0.2622,
+        "4": 0.1879,
+        "6": 0.2075,
+        "12": 0.3159
+      }
+    },
+    {
+      "file": "Gemini_Generated_Image_dq4kktdq4kktdq4k.jpeg",
+      "sector": 2,
+      "centroid_deg": 283.66,
+      "centroid_R": 0.145,
+      "grad_deg": 106.47,
+      "grad_R": 0.001,
+      "sym_n": 12,
+      "sym_score": 0.22015514995209157,
+      "sym_scores": {
+        "2": 0.174,
+        "3": 0.1926,
+        "4": 0.1672,
+        "6": 0.2143,
+        "12": 0.2202
+      }
+    },
+    {
+      "file": "Gemini_Generated_Image_u5o6wtu5o6wtu5o6.jpeg",
+      "sector": 2,
+      "centroid_deg": 227.47,
+      "centroid_R": 0.119,
+      "grad_deg": 165.9,
+      "grad_R": 0.004,
+      "sym_n": 3,
+      "sym_score": 0.1628880924507289,
+      "sym_scores": {
+        "2": 0.1131,
+        "3": 0.1629,
+        "4": 0.0839,
+        "6": 0.0968,
+        "12": 0.1303
+      }
+    },
+    {
+      "file": "Lattice Aries.jpeg",
+      "sector": 0,
+      "centroid_deg": 269.53,
+      "centroid_R": 0.193,
+      "grad_deg": 268.79,
+      "grad_R": 0.009,
+      "sym_n": 3,
+      "sym_score": 0.2449482043549538,
+      "sym_scores": {
+        "2": 0.1392,
+        "3": 0.2449,
+        "4": 0.1503,
+        "6": 0.1801,
+        "12": 0.2053
+      }
+    },
+    {
+      "file": "Lattice Taurus.jpeg",
+      "sector": 1,
+      "centroid_deg": 92.06,
+      "centroid_R": 0.056,
+      "grad_deg": 268.34,
+      "grad_R": 0.005,
+      "sym_n": 3,
+      "sym_score": 0.42580771830686,
+      "sym_scores": {
+        "2": 0.1769,
+        "3": 0.4258,
+        "4": 0.257,
+        "6": 0.2248,
+        "12": 0.2776
+      }
+    },
+    {
+      "file": "Raven Design Lexicon Micro.jpeg",
+      "sector": null,
+      "centroid_deg": 261.31,
+      "centroid_R": 0.1,
+      "grad_deg": 266.21,
+      "grad_R": 0.003,
+      "sym_n": 12,
+      "sym_score": 0.05657819135337662,
+      "sym_scores": {
+        "2": 0.0127,
+        "3": 0.0074,
+        "4": -0.0338,
+        "6": 0.0336,
+        "12": 0.0566
+      }
+    },
+    {
+      "file": "book of the dead lattice .jpeg",
+      "sector": null,
+      "centroid_deg": 96.81,
+      "centroid_R": 0.011,
+      "grad_deg": 124.38,
+      "grad_R": 0.002,
+      "sym_n": 4,
+      "sym_score": 0.0933513922185788,
+      "sym_scores": {
+        "2": 0.0853,
+        "3": 0.0131,
+        "4": 0.0934,
+        "6": 0.0007,
+        "12": 0.0088
+      }
+    },
+    {
+      "file": "cygnus lattice .jpeg",
+      "sector": null,
+      "centroid_deg": 339.3,
+      "centroid_R": 0.288,
+      "grad_deg": 335.92,
+      "grad_R": 0.007,
+      "sym_n": 4,
+      "sym_score": 0.18203231947107162,
+      "sym_scores": {
+        "2": 0.1068,
+        "3": 0.1117,
+        "4": 0.182,
+        "6": 0.1763,
+        "12": 0.1337
+      }
+    },
+    {
+      "file": "lalttice libra.jpeg",
+      "sector": 6,
+      "centroid_deg": 89.59,
+      "centroid_R": 0.146,
+      "grad_deg": 93.07,
+      "grad_R": 0.001,
+      "sym_n": 6,
+      "sym_score": 0.19659587629094746,
+      "sym_scores": {
+        "2": 0.1954,
+        "3": 0.102,
+        "4": 0.0359,
+        "6": 0.1966,
+        "12": 0.0164
+      }
+    },
+    {
+      "file": "lattice amun.jpeg",
+      "sector": null,
+      "centroid_deg": 275.92,
+      "centroid_R": 0.398,
+      "grad_deg": 269.31,
+      "grad_R": 0.011,
+      "sym_n": 12,
+      "sym_score": 0.32157373398426825,
+      "sym_scores": {
+        "2": 0.1628,
+        "3": 0.2564,
+        "4": 0.1866,
+        "6": 0.2243,
+        "12": 0.3216
+      }
+    },
+    {
+      "file": "lattice anubis .jpeg",
+      "sector": null,
+      "centroid_deg": 239.92,
+      "centroid_R": 0.309,
+      "grad_deg": 151.21,
+      "grad_R": 0.005,
+      "sym_n": 12,
+      "sym_score": 0.350092928195832,
+      "sym_scores": {
+        "2": 0.3045,
+        "3": 0.1059,
+        "4": 0.0222,
+        "6": 0.1706,
+        "12": 0.3501
+      }
+    },
+    {
+      "file": "lattice aquarius.jpeg",
+      "sector": 10,
+      "centroid_deg": 193.2,
+      "centroid_R": 0.09,
+      "grad_deg": 86.39,
+      "grad_R": 0.003,
+      "sym_n": 12,
+      "sym_score": 0.3080221052613406,
+      "sym_scores": {
+        "2": 0.2606,
+        "3": 0.2153,
+        "4": 0.2128,
+        "6": 0.2675,
+        "12": 0.308
+      }
+    },
+    {
+      "file": "lattice capricorn .jpeg",
+      "sector": 9,
+      "centroid_deg": 16.14,
+      "centroid_R": 0.149,
+      "grad_deg": 93.92,
+      "grad_R": 0.001,
+      "sym_n": 12,
+      "sym_score": 0.28298388932261787,
+      "sym_scores": {
+        "2": 0.2314,
+        "3": 0.1768,
+        "4": 0.1386,
+        "6": 0.2137,
+        "12": 0.283
+      }
+    },
+    {
+      "file": "lattice hathor.jpeg",
+      "sector": null,
+      "centroid_deg": 272.0,
+      "centroid_R": 0.452,
+      "grad_deg": 268.31,
+      "grad_R": 0.009,
+      "sym_n": 12,
+      "sym_score": 0.2956770809487538,
+      "sym_scores": {
+        "2": 0.2037,
+        "3": 0.2206,
+        "4": 0.1681,
+        "6": 0.2386,
+        "12": 0.2957
+      }
+    },
+    {
+      "file": "lattice horus .jpeg",
+      "sector": null,
+      "centroid_deg": 229.02,
+      "centroid_R": 0.203,
+      "grad_deg": 107.77,
+      "grad_R": 0.01,
+      "sym_n": 12,
+      "sym_score": 0.27478599621800975,
+      "sym_scores": {
+        "2": 0.1919,
+        "3": 0.2036,
+        "4": 0.1199,
+        "6": 0.2036,
+        "12": 0.2748
+      }
+    },
+    {
+      "file": "lattice isis.jpeg",
+      "sector": null,
+      "centroid_deg": 234.51,
+      "centroid_R": 0.422,
+      "grad_deg": 160.84,
+      "grad_R": 0.006,
+      "sym_n": 2,
+      "sym_score": 0.3188966282613793,
+      "sym_scores": {
+        "2": 0.3189,
+        "3": 0.0806,
+        "4": -0.0144,
+        "6": 0.1409,
+        "12": 0.271
+      }
+    },
+    {
+      "file": "lattice leo.jpeg",
+      "sector": 4,
+      "centroid_deg": 269.94,
+      "centroid_R": 0.106,
+      "grad_deg": 267.9,
+      "grad_R": 0.005,
+      "sym_n": 12,
+      "sym_score": 0.32018080101020496,
+      "sym_scores": {
+        "2": 0.2557,
+        "3": 0.2608,
+        "4": 0.2259,
+        "6": 0.301,
+        "12": 0.3202
+      }
+    },
+    {
+      "file": "lattice libra.jpeg",
+      "sector": 6,
+      "centroid_deg": 280.82,
+      "centroid_R": 0.037,
+      "grad_deg": 89.55,
+      "grad_R": 0.0,
+      "sym_n": 2,
+      "sym_score": 0.24134803490600867,
+      "sym_scores": {
+        "2": 0.2413,
+        "3": 0.1565,
+        "4": 0.088,
+        "6": 0.1301,
+        "12": 0.1219
+      }
+    },
+    {
+      "file": "lattice ma at .jpeg",
+      "sector": null,
+      "centroid_deg": 234.82,
+      "centroid_R": 0.384,
+      "grad_deg": 226.94,
+      "grad_R": 0.011,
+      "sym_n": 2,
+      "sym_score": 0.362583575471142,
+      "sym_scores": {
+        "2": 0.3626,
+        "3": 0.1792,
+        "4": 0.0795,
+        "6": 0.1687,
+        "12": 0.319
+      }
+    },
+    {
+      "file": "lattice mercury .jpeg",
+      "sector": null,
+      "centroid_deg": 223.15,
+      "centroid_R": 0.504,
+      "grad_deg": 101.49,
+      "grad_R": 0.001,
+      "sym_n": 12,
+      "sym_score": 0.7062445344654122,
+      "sym_scores": {
+        "2": 0.1727,
+        "3": 0.3272,
+        "4": 0.429,
+        "6": 0.5741,
+        "12": 0.7062
+      }
+    },
+    {
+      "file": "lattice nut .jpeg",
+      "sector": null,
+      "centroid_deg": 254.51,
+      "centroid_R": 0.521,
+      "grad_deg": 57.1,
+      "grad_R": 0.015,
+      "sym_n": 12,
+      "sym_score": 0.4464246776648786,
+      "sym_scores": {
+        "2": 0.0484,
+        "3": 0.1096,
+        "4": 0.1364,
+        "6": 0.2817,
+        "12": 0.4464
+      }
+    },
+    {
+      "file": "lattice orion .jpeg",
+      "sector": null,
+      "centroid_deg": 311.09,
+      "centroid_R": 0.289,
+      "grad_deg": 56.59,
+      "grad_R": 0.007,
+      "sym_n": 6,
+      "sym_score": 0.13283470864870833,
+      "sym_scores": {
+        "2": 0.0262,
+        "3": 0.0669,
+        "4": 0.0429,
+        "6": 0.1328,
+        "12": 0.121
+      }
+    },
+    {
+      "file": "lattice osiris.jpeg",
+      "sector": null,
+      "centroid_deg": 254.57,
+      "centroid_R": 0.404,
+      "grad_deg": 233.49,
+      "grad_R": 0.005,
+      "sym_n": 2,
+      "sym_score": 0.2968770926180904,
+      "sym_scores": {
+        "2": 0.2969,
+        "3": 0.0666,
+        "4": 0.0176,
+        "6": 0.0799,
+        "12": 0.2751
+      }
+    },
+    {
+      "file": "lattice piscses.jpeg",
+      "sector": 11,
+      "centroid_deg": 186.75,
+      "centroid_R": 0.077,
+      "grad_deg": 85.65,
+      "grad_R": 0.002,
+      "sym_n": 2,
+      "sym_score": 0.41416576526578397,
+      "sym_scores": {
+        "2": 0.4142,
+        "3": 0.262,
+        "4": 0.206,
+        "6": 0.2741,
+        "12": 0.3224
+      }
+    },
+    {
+      "file": "lattice sagitarius .jpeg",
+      "sector": 8,
+      "centroid_deg": 12.96,
+      "centroid_R": 0.055,
+      "grad_deg": 308.35,
+      "grad_R": 0.008,
+      "sym_n": 12,
+      "sym_score": 0.17231112464483606,
+      "sym_scores": {
+        "2": 0.1514,
+        "3": 0.1437,
+        "4": 0.067,
+        "6": 0.0694,
+        "12": 0.1723
+      }
+    },
+    {
+      "file": "lattice scorpio.jpeg",
+      "sector": 7,
+      "centroid_deg": 315.62,
+      "centroid_R": 0.085,
+      "grad_deg": 25.48,
+      "grad_R": 0.01,
+      "sym_n": 3,
+      "sym_score": 0.267475366294017,
+      "sym_scores": {
+        "2": 0.2159,
+        "3": 0.2675,
+        "4": 0.2398,
+        "6": 0.2518,
+        "12": 0.1975
+      }
+    },
+    {
+      "file": "lattice seth .jpeg",
+      "sector": null,
+      "centroid_deg": 280.75,
+      "centroid_R": 0.279,
+      "grad_deg": 279.45,
+      "grad_R": 0.009,
+      "sym_n": 3,
+      "sym_score": 0.41553984472261296,
+      "sym_scores": {
+        "2": 0.1729,
+        "3": 0.4155,
+        "4": 0.1418,
+        "6": 0.2386,
+        "12": 0.1812
+      }
+    },
+    {
+      "file": "lattice sphinx.jpeg",
+      "sector": null,
+      "centroid_deg": 135.07,
+      "centroid_R": 0.086,
+      "grad_deg": 140.17,
+      "grad_R": 0.008,
+      "sym_n": 2,
+      "sym_score": 0.2863622944163608,
+      "sym_scores": {
+        "2": 0.2864,
+        "3": 0.2492,
+        "4": 0.2597,
+        "6": 0.2345,
+        "12": 0.2623
+      }
+    },
+    {
+      "file": "lattice ursa major .jpeg",
+      "sector": null,
+      "centroid_deg": 241.79,
+      "centroid_R": 0.188,
+      "grad_deg": 162.0,
+      "grad_R": 0.004,
+      "sym_n": 12,
+      "sym_score": 0.14984374294462535,
+      "sym_scores": {
+        "2": 0.1394,
+        "3": 0.1396,
+        "4": 0.0693,
+        "6": 0.1037,
+        "12": 0.1498
+      }
+    },
+    {
+      "file": "lattice virgo.jpeg",
+      "sector": 5,
+      "centroid_deg": 49.37,
+      "centroid_R": 0.163,
+      "grad_deg": 89.92,
+      "grad_R": 0.008,
+      "sym_n": 12,
+      "sym_score": 0.3275606225245491,
+      "sym_scores": {
+        "2": 0.2014,
+        "3": 0.2526,
+        "4": 0.1727,
+        "6": 0.2655,
+        "12": 0.3276
+      }
+    },
+    {
+      "file": "lattice. Cassiopeia.jpeg",
+      "sector": null,
+      "centroid_deg": 329.56,
+      "centroid_R": 0.042,
+      "grad_deg": 90.92,
+      "grad_R": 0.005,
+      "sym_n": 12,
+      "sym_score": 0.2390561364552685,
+      "sym_scores": {
+        "2": 0.131,
+        "3": 0.1574,
+        "4": 0.1378,
+        "6": 0.175,
+        "12": 0.2391
+      }
+    },
+    {
+      "file": "quetzacoatl lattice.jpeg",
+      "sector": null,
+      "centroid_deg": 185.75,
+      "centroid_R": 0.12,
+      "grad_deg": 110.86,
+      "grad_R": 0.012,
+      "sym_n": 2,
+      "sym_score": 0.3375386728901442,
+      "sym_scores": {
+        "2": 0.3375,
+        "3": 0.0888,
+        "4": -0.0242,
+        "6": 0.0867,
+        "12": 0.3032
+      }
+    },
+    {
+      "file": "raven.jpg",
+      "sector": null,
+      "centroid_deg": 300.34,
+      "centroid_R": 0.014,
+      "grad_deg": 270.73,
+      "grad_R": 0.006,
+      "sym_n": 3,
+      "sym_score": 0.3585102294570743,
+      "sym_scores": {
+        "2": 0.1392,
+        "3": 0.3585,
+        "4": 0.2338,
+        "6": 0.119,
+        "12": 0.1811
+      }
+    },
+    {
+      "file": "sakhmet lattice.jpeg",
+      "sector": null,
+      "centroid_deg": 278.19,
+      "centroid_R": 0.305,
+      "grad_deg": 269.61,
+      "grad_R": 0.015,
+      "sym_n": 3,
+      "sym_score": 0.430107783431111,
+      "sym_scores": {
+        "2": 0.1944,
+        "3": 0.4301,
+        "4": 0.1239,
+        "6": 0.2445,
+        "12": 0.1642
+      }
+    }
+  ],
+  "n_zodiac": 14
+}
