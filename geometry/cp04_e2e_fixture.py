@@ -37,6 +37,7 @@ REC = Path.home() / "workspace" / "Recursiverse-Suite"
 Z12X = REC / "artifacts" / "geometry_ir" / "fixtures" / "geometry_ir_baseline.z12x"
 READER = REC / "artifacts" / "geometry_ir" / "z12x_reader.py"
 ENVELOPE_PY = REC / "artifacts" / "coordinate_envelope.py"
+HUE_PAIR_PY = REC / "artifacts" / "geometry_ir" / "hue_pair.py"
 HUE_JSON = ATLAS / "geometry" / "hue_layer_v1.json"
 OUT = ATLAS / "geometry" / "cp04_e2e_fixture.json"
 
@@ -95,7 +96,7 @@ def build_fixture():
         for s in range(12)
     ]
 
-    hue = build_hue_section(envelope_mod)
+    hue = build_hue_section()
 
     return {
         "schema": FIXTURE_SCHEMA,
@@ -119,7 +120,7 @@ def hue_envelope(k, h, anchor="aries_zero"):
             "value": {"k": k, "h": h}}
 
 
-def build_hue_section(envelope_mod):
+def build_hue_section():
     """CP-03 hue layer propagated through the CP-04 interchange.
 
     ``hue_pair`` frame: ``k`` is the position sector and anchor-converts
@@ -130,16 +131,18 @@ def build_hue_section(envelope_mod):
     hue_layer_v1.json).
 
     ``conversion_cases``: all 144 pairs, expected values produced by the
-    real ``coordinate_envelope.convert`` (requires the ``hue_pair``
-    frame — added in Recursiverse-Suite).
+    canonical ``artifacts/geometry_ir/hue_pair.convert_hue_pair``
+    (hue_pair lives in the additive geometry_ir module; the frozen
+    ``coordinate_envelope.convert`` dispatcher does not route it).
     ``relation_cases``: the hue-layer operators as pure Z/12xZ/12
     algebra, frame-agnostic (anchor shift commutes with every op).
     """
+    hue_mod = _load("hue_pair", HUE_PAIR_PY)
     conversion_cases = []
     for k in range(12):
         for h in range(12):
             env = hue_envelope(k, h)
-            expected = envelope_mod.convert(env, "cancer_zero")
+            expected = hue_mod.convert_hue_pair(env, "cancer_zero")
             conversion_cases.append({
                 "id": f"HUE-K{k:02d}-H{h:02d}",
                 "k": k, "h": h,
