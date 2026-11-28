@@ -1,0 +1,203 @@
+{
+  "schema": "CP05-RESULTS/1",
+  "generated": "2026-11-27",
+  "note": "Evidence snapshot for engineering/cp05_contrasts.py. QuTiP numbers are as reported in engineering/CP05_BLUEPRINT_TRIAGE.md addenda (logs on dell:/tmp, dim-729 terminated ~27h). Meep numbers extracted from run logs on mini:/tmp/meep_scan/ and /tmp/meep_control.log; raw flux arrays committed alongside this file.",
+  "provenance": {
+    "meep_scan_logs": "mini:/tmp/meep_scan/s{sigma}_f{freq}.log",
+    "meep_control_log": "mini:/tmp/meep_control.log",
+    "meep_flux_files": "engineering/cp05/flux_*.json (committed raw monitor arrays)",
+    "qutip_dim64_log": "dell:/tmp/qutip_dim64.log sha256:956dc037b84a14d97ed27e30486e76a2072d5dad29795bcda327f923e7404332",
+    "qutip_dim8_dim16": "engineering/CP05_BLUEPRINT_TRIAGE.md addendum tables"
+  },
+  "qutip": {
+    "metric": "chi_ss = steady-state net circulation (chirality)",
+    "fidelities": {
+      "dim8_N3_nf2": {
+        "gauge": {
+          "n_ss": 0.000128,
+          "chi_ss": -9.56e-06,
+          "Q_eff": 10000.0
+        },
+        "uniform": {
+          "n_ss": 0.000134,
+          "chi_ss": 4.1e-19,
+          "Q_eff": 10000.0
+        },
+        "static": {
+          "n_ss": 0.000134,
+          "chi_ss": -5.7e-19,
+          "Q_eff": 10000.0
+        }
+      },
+      "dim16_N4_nf2": {
+        "gauge": {
+          "n_ss": 0.5274,
+          "chi_ss": 0.00128,
+          "Q_eff": 10000.0
+        },
+        "uniform": {
+          "n_ss": 0.5276,
+          "chi_ss": 3.4e-17,
+          "Q_eff": 10000.0
+        },
+        "static": {
+          "n_ss": 0.5276,
+          "chi_ss": -2.1e-16,
+          "Q_eff": 10000.0
+        }
+      },
+      "dim64_N6_nf2": {
+        "gauge": {
+          "n_ss": 0.00018126,
+          "chi_ss": -4.7035e-06,
+          "Q_eff": 10000.0
+        },
+        "uniform": {
+          "n_ss": 0.00018897,
+          "chi_ss": 2.3531e-18,
+          "Q_eff": 10000.0
+        },
+        "static": {
+          "n_ss": 0.00018853,
+          "chi_ss": -4.0298e-19,
+          "Q_eff": 10000.0
+        }
+      }
+    }
+  },
+  "meep": {
+    "scan": [
+      {
+        "sigma": 0.5,
+        "freq": 0.4,
+        "isolation_db": -1.92,
+        "bins_pass": 0,
+        "bins_total": 100,
+        "log_sha256": "86c945747b583a42d440348e37fb6546492f9194861e88df5ae16d6427703ad4"
+      },
+      {
+        "sigma": 0.5,
+        "freq": 0.5,
+        "isolation_db": 0.7,
+        "bins_pass": 0,
+        "bins_total": 100,
+        "log_sha256": "1c8575ebbbf80f266789ebec12597e42673a2d6168217e8d9497673eb5aa84f7"
+      },
+      {
+        "sigma": 0.5,
+        "freq": 0.6,
+        "isolation_db": 11.69,
+        "bins_pass": 0,
+        "bins_total": 100,
+        "log_sha256": "2239e0d275c6fe75407449e37eded8e034cbd42d81b65d9fdd827911ebc88e02"
+      },
+      {
+        "sigma": 1.0,
+        "freq": 0.4,
+        "isolation_db": 23.9,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log_sha256": "7fc66bc383a39644b15286655b22bac4f9812e78057fd5008f091bb788dac26b"
+      },
+      {
+        "sigma": 1.0,
+        "freq": 0.5,
+        "isolation_db": 36.38,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log_sha256": "42f469fd0916ee04cac89c8773f0a0b6cb07b90b9af3c65b72866a9ee7349ed1",
+        "s21_db": 0.0,
+        "s12_db": -36.38
+      },
+      {
+        "sigma": 1.0,
+        "freq": 0.6,
+        "isolation_db": 26.36,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log_sha256": "17d81111bd5442dc4609b2f12cddf9bfb70dd07a158f1fee931cb1da472cbb31"
+      },
+      {
+        "sigma": 2.0,
+        "freq": 0.4,
+        "isolation_db": 37.09,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log_sha256": "6d837b7f8daaa139c762c37ec66d647bfd3041a9e497717105364686cd0e99b2"
+      },
+      {
+        "sigma": 2.0,
+        "freq": 0.5,
+        "isolation_db": 35.36,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log_sha256": "b8fafc2d112bc90d4fe100055763f8a3d3d6643a39b4e5c5ee336b7bb3017f8c"
+      },
+      {
+        "sigma": 2.0,
+        "freq": 0.6,
+        "isolation_db": 34.45,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log_sha256": "8e71d4f5469e9e1c5ae26d2a2435fd051e16a8cd4dd9892dc13f301882c4b070"
+      }
+    ],
+    "reference_runs": {
+      "control_uniform": {
+        "isolation_db": -0.02,
+        "bins_pass": 0,
+        "bins_total": 100,
+        "log": "mini:/tmp/meep_control.log",
+        "s21_db": 0.0,
+        "s12_db": 0.02
+      },
+      "clean_device_gyro": {
+        "isolation_db": 22.32,
+        "bins_pass": 100,
+        "bins_total": 100,
+        "log": "mini:/tmp/meep_scan/flux_clean_wp.log",
+        "s21_db": 0.0,
+        "s12_db": -22.32
+      },
+      "sigma0_gyro_geometry": {
+        "isolation_db": -0.02,
+        "bins_pass": 0,
+        "bins_total": 100,
+        "log": "mini:/tmp/meep_scan/flux_ref_sigma0.log",
+        "s21_db": 0.0,
+        "s12_db": 0.02
+      }
+    },
+    "flux_files": {
+      "gyro_wp": {
+        "file": "flux_gyro_wp.json",
+        "sha256": "1a67b652a9fb76fd860d898b3dd81ac319e7a1036b0e7cc56b4ed129f41446a8",
+        "mode": "gyro",
+        "sigma": "1.0",
+        "freq": "0.5"
+      },
+      "control_wp": {
+        "file": "flux_control_wp.json",
+        "sha256": "651d2088f9d1b4473f0845e40274e2b2aa895fbabe0385627c27239b2ebffdd6",
+        "mode": "control",
+        "sigma": "1.0",
+        "freq": "0.5"
+      },
+      "clean_wp": {
+        "file": "flux_clean_wp.json",
+        "sha256": "a5c3cd7fe5db7ed593d29bfd52b7c97ec6bd2c081add435bc948b20017134a36",
+        "mode": "clean",
+        "sigma": "1.0",
+        "freq": "0.5"
+      },
+      "sigma0_ref": {
+        "file": "flux_ref_sigma0.json",
+        "sha256": "91f3cbb19059e1e50cc0e67c1b6c9867b2912f88fef63fd36f40bcaa751656bf",
+        "mode": "gyro",
+        "sigma": "0.0",
+        "freq": "0.5"
+      }
+    },
+    "m3_eigenmode": "attempted twice on mini \u2014 meep MPB silently ignores H_susceptibilities (uniform vgrp=1/sqrt(12) across all bands/freqs = plain-eps12 modes); non-dispersive gyrotropic mu forbidden by real-symmetric off-diag constraint. Absolute S21 NOT certifiable in meep 1.36; verdict BOUNDED-PASS. Evidence: mini:/tmp/meep_scan/sparam2_*.json"
+  }
+}

@@ -54,8 +54,9 @@ reference).
 ## Data gaps to close for full redesign execution
 
 - **Absolute flux values**: resolved — cross-model raw flux is not
-  comparable (material-model-set scale, proven by the bit-identical
-  σ=0 run). M3 re-scoped to material-self-normalized directional
+  comparable (material-model-set scale, proven by the σ=0 reference
+  run agreeing with the static-ε control to ~1e-6 relative). M3
+  re-scoped to material-self-normalized directional
   fraction (99.98% gyro vs 49.89% control) + clean-vs-disordered
   contrast; eigenmode S-params proven unavailable for this material
   class (see attempt log below).
@@ -98,9 +99,12 @@ completed 2026-11-25. Results:
 - Within-run absolute directionality: gyro fwd/bwd flux ratio =
   +36.38 dB; control = −0.02 dB (fwd/bwd = 1.004 — reciprocal as
   required).
-- σ=0 same-normalization reference run (2026-11-25): flux bit-identical
-  to static control — proves flux scale is material-model-set and the
-  LLG→static reduction is exact.
+- σ=0 same-normalization reference run (2026-11-25): flux agrees with
+  the static-ε control to ~1e-6 max relative (peak fwd/bwd
+  1.2502/1.2556 identical to 4 decimals — *not* bit-identical;
+  corrected 2026-11-27 by `cp05_contrasts.py` recomputation) — proves
+  flux scale is material-model-set and the LLG→static reduction is
+  numerically exact to ppm.
 - **Eigenmode S-parameter attempt (2026-11-25) — definitive negative:**
   two variants executed on mini. (a) `EigenModeSource` band-1 launch:
   gyro S21 ≈ −105 dB all bands — launched mode does not transmit.
