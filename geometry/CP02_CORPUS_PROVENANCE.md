@@ -36,6 +36,7 @@ entire locally available image corpus**, and no additional local source
 exists that could change the result. The only remaining evidence
 channels are:
 
+- **Source text** (added 2026-11-28): probed and falsified — `geometry/CP03_SOURCE_TEXT_PROBE.md` found zero hue vocabulary in the course text, lessons, and decoded artifacts.
 - **External**: the original recognition material (the "alien math"
   source — per CONSTITUTION Article 7 still an evidence-search
   obligation, e.g. the reported YouTube clip whose date/provenance is
