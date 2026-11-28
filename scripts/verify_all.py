@@ -78,6 +78,19 @@ def _tree_clean(outdir, ctx):
                                    "new modifications: " + ",".join(new))
 
 
+def _mini_reachable():
+    r = subprocess.run(
+        ["ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=3",
+         "mini", "true"],
+        capture_output=True)
+    return r.returncode == 0
+
+
+def _interchange_e2e_precondition():
+    return ((Path.home() / "workspace" / "Recursiverse-Suite").is_dir()
+            and _mini_reachable())
+
+
 def build_gates(with_mathlib=False, with_receipts=False):
     gates = [
         Gate("reproduce", [PY, "scripts/reproduce.py",
@@ -91,6 +104,10 @@ def build_gates(with_mathlib=False, with_receipts=False):
         Gate("cp04-fixture", [PY, "geometry/cp04_e2e_fixture.py", "--check"],
              precondition=lambda: (Path.home() / "workspace" /
                                    "Recursiverse-Suite").is_dir()),
+        Gate("interchange-e2e",
+             [PY, "scripts/interchange_e2e.py", "--check",
+              "engineering/interchange_e2e_results.json"],
+             advisory=True, precondition=_interchange_e2e_precondition),
         Gate("queue-drift", None, special=_queue_drift, advisory=True),
         Gate("tree-clean", None, special=_tree_clean),
     ]
@@ -173,6 +190,7 @@ def preflight(gates):
         "hue-layer": ["python3"],
         "geometry-ir": ["python3"],
         "cp04-fixture": ["python3", "recursiverse"],
+        "interchange-e2e": ["python3", "recursiverse"],
         "queue-drift": ["gh", "gh-login"],
         "cross-repo-receipts": ["gh", "gh-login"],
         "tree-clean": ["git-repo"],
