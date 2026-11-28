@@ -26,7 +26,7 @@ Case C's 144 is the **product**, not Z/144: executable exponent witness — ever
 
 ## Genuinely new distinguishable information
 
-Independent hue adds **132 states beyond the diagonal** (144−12). Whether hue *is* independent is a modeling choice — **no corpus evidence assigns hue independently**; cases A/B are the only ones supported by `h=f(k)` evidence. The schema records this explicitly rather than asserting C.
+Independent hue adds **132 states beyond the diagonal** (144−12). Whether hue *is* independent is a modeling choice — **no corpus evidence assigns hue independently**; cases A/B are the only ones supported by `h=f(k)` evidence. The schema records this explicitly rather than asserting C. **Update 2026-11-27:** an executed corpus probe (`geometry/CP03_HUE_CORPUS_PROBE.md`) found the lattice-image corpus hue-monochromatic (all dominant hues 35–72°, h≈1–2) with no sector→hue correlation (permutation p=0.069) — the caveat is now an executed negative, not just an absence of evidence.
 
 ## Reproduce
 
