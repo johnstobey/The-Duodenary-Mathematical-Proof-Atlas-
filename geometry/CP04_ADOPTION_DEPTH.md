@@ -12,7 +12,7 @@ calls the interchange code.
 
 | Consumer | Interchange code | Non-test callers | Verdict |
 |---|---|---|---|
-| Machine (`9d39154c`) | `driver/src/geomframe.rs` — `pub mod` in lib.rs | **only** `driver/tests/cp04_e2e.rs` | TEST-ONLY |
+| Machine (`9d39154c` → wired) | `driver/src/geomframe.rs` + `coordhouse.rs` | **`coord-house` CLI subcommand — production path** (PR #11) | **WIRED** |
 | z12z (`39f8191`) | `src/coordinate_envelope.rs`, `src/provenance.rs` | **only** `tests/cp04_e2e.rs`; `main.rs` uses unrelated `fuse::provenance` | TEST-ONLY (dead code in binary) |
 | Recursiverse (`b960ccc`) | `artifacts/geometry_ir/{z12x_reader,hue_pair}.py` | **zero imports** outside tests; `coordinate_envelope.convert` itself has no production callers | UNUSED |
 
@@ -40,6 +40,17 @@ all .py) → only the defining modules and `tests/geometry_ir/`.
 | Machine | `houses.rs`/`subsign.rs`/`temporal.rs` compute in `coords::Sector` space (sign↔house affine map, house cusps) | `geomframe::image_sector_to_machine` / `hue_pair_to_machine` feed image/z12x-derived sectors into the same `Sector` type the production modules already consume |
 | z12z | `ledger.rs` `LedgerEvent`/`make_event`/`append` — hash-chained memory events | `ProvenanceRecord::sign` attaches source-bytes binding to coordinate-bearing ledger events; complements (not replaces) `fuse::provenance` receipts |
 | Recursiverse | `artifacts/` pipeline + `artifacts/geometry_ir/` canonical modules | an artifact-build step invoking `z12x_reader.read_geometry_ir` → `coordinate_envelope.convert`/`hue_pair.convert_hue_pair` for envelope-bearing artifacts |
+
+## Update 2026-11-27 — Machine wired (PR #11)
+
+`coord-house <envelope.json> [--rising N]` is the first non-test consumer:
+envelope JSON → geomframe → `Sector` → `houses.rs` sign_house +
+Equal House chart_house, emitting a `coord-house/1` receipt with
+`input_sha256`. Supports the fixture-validated frame set
+(canonical_sector, fine_144, hue_pair); all else rejected by name.
+Verified on mini: full suite green incl. 6 new coordhouse tests +
+CLI smoke on real fixture envelopes. z12z and Recursiverse remain
+test-only — the pattern to replicate.
 
 ## What "real adoption" would require
 
